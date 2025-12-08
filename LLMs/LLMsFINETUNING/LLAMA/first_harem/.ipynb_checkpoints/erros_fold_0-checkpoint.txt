@@ -1,0 +1,120 @@
+Texto 0:
+  Verdadeiras: ['COISA', 'TEMPO', 'VALOR']
+  Preditas: ['LOCAL', 'PESSOA', 'TEMPO', 'VALOR']
+  Diferenças: ['COISA', 'LOCAL', 'PESSOA']
+
+Texto 1:
+  Verdadeiras: ['COISA', 'OUTRO', 'TEMPO', 'VALOR']
+  Preditas: ['PESSOA', 'TEMPO']
+  Diferenças: ['COISA', 'OUTRO', 'PESSOA', 'VALOR']
+
+Texto 2:
+  Verdadeiras: ['COISA', 'OUTRO', 'TEMPO', 'VALOR']
+  Preditas: ['OUTRO', 'PESSOA', 'TEMPO', 'VALOR']
+  Diferenças: ['COISA', 'PESSOA']
+
+Texto 3:
+  Verdadeiras: ['COISA', 'LOCAL', 'OUTRO', 'TEMPO', 'VALOR']
+  Preditas: ['PESSOA', 'TEMPO', 'VALOR']
+  Diferenças: ['COISA', 'LOCAL', 'OUTRO', 'PESSOA']
+
+Texto 4:
+  Verdadeiras: ['ACONTECIMENTO', 'COISA', 'LOCAL', 'ORGANIZACAO', 'TEMPO', 'VALOR']
+  Preditas: []
+  Diferenças: ['ACONTECIMENTO', 'COISA', 'LOCAL', 'ORGANIZACAO', 'TEMPO', 'VALOR']
+
+Texto 6:
+  Verdadeiras: ['LOCAL', 'ORGANIZACAO', 'TEMPO', 'VALOR']
+  Preditas: ['LOCAL', 'ORGANIZACAO', 'OUTRO', 'TEMPO', 'VALOR']
+  Diferenças: ['OUTRO']
+
+Texto 7:
+  Verdadeiras: ['COISA', 'LOCAL', 'ORGANIZACAO', 'VALOR']
+  Preditas: []
+  Diferenças: ['COISA', 'LOCAL', 'ORGANIZACAO', 'VALOR']
+
+Texto 8:
+  Verdadeiras: ['COISA', 'LOCAL', 'VALOR']
+  Preditas: ['LOCAL', 'VALOR']
+  Diferenças: ['COISA']
+
+Texto 9:
+  Verdadeiras: ['ACONTECIMENTO', 'LOCAL', 'PESSOA', 'TEMPO']
+  Preditas: ['ACONTECIMENTO', 'COISA', 'LOCAL', 'PESSOA', 'TEMPO']
+  Diferenças: ['COISA']
+
+Texto 10:
+  Verdadeiras: ['LOCAL', 'ORGANIZACAO', 'PESSOA', 'TEMPO', 'VALOR']
+  Preditas: []
+  Diferenças: ['LOCAL', 'ORGANIZACAO', 'PESSOA', 'TEMPO', 'VALOR']
+
+Texto 11:
+  Verdadeiras: ['LOCAL']
+  Preditas: ['LOCAL', 'PESSOA']
+  Diferenças: ['PESSOA']
+
+Texto 12:
+  Verdadeiras: ['LOCAL']
+  Preditas: []
+  Diferenças: ['LOCAL']
+
+Texto 18:
+  Verdadeiras: ['PESSOA']
+  Preditas: ['PESSOA', 'VALOR']
+  Diferenças: ['VALOR']
+
+Texto 23:
+  Verdadeiras: ['LOCAL', 'ORGANIZACAO']
+  Preditas: ['LOCAL', 'ORGANIZACAO', 'PESSOA']
+  Diferenças: ['PESSOA']
+
+Texto 24:
+  Verdadeiras: ['LOCAL', 'VALOR']
+  Preditas: ['VALOR']
+  Diferenças: ['LOCAL']
+
+Texto 27:
+  Verdadeiras: ['LOCAL', 'OBRA', 'VALOR']
+  Preditas: ['LOCAL', 'ORGANIZACAO', 'VALOR']
+  Diferenças: ['OBRA', 'ORGANIZACAO']
+
+Texto 31:
+  Verdadeiras: ['ORGANIZACAO', 'PESSOA']
+  Preditas: ['LOCAL', 'PESSOA']
+  Diferenças: ['LOCAL', 'ORGANIZACAO']
+
+Texto 32:
+  Verdadeiras: ['OBRA']
+  Preditas: ['COISA']
+  Diferenças: ['COISA', 'OBRA']
+
+Texto 37:
+  Verdadeiras: ['LOCAL', 'ORGANIZACAO', 'PESSOA', 'TEMPO']
+  Preditas: []
+  Diferenças: ['LOCAL', 'ORGANIZACAO', 'PESSOA', 'TEMPO']
+
+Texto 38:
+  Verdadeiras: ['LOCAL', 'ORGANIZACAO', 'PESSOA', 'VALOR']
+  Preditas: ['LOCAL', 'ORGANIZACAO', 'VALOR']
+  Diferenças: ['PESSOA']
+
+Texto 39:
+  Verdadeiras: ['ORGANIZACAO', 'PESSOA']
+  Preditas: ['ORGANIZACAO']
+  Diferenças: ['PESSOA']
+
+Texto 45:
+  Verdadeiras: ['LOCAL', 'OBRA', 'ORGANIZACAO', 'PESSOA', 'VALOR']
+  Preditas: ['LOCAL', 'ORGANIZACAO', 'VALOR']
+  Diferenças: ['OBRA', 'PESSOA']
+
+Texto 50:
+  Verdadeiras: ['LOCAL', 'OBRA', 'ORGANIZACAO', 'PESSOA', 'VALOR']
+  Preditas: []
+  Diferenças: ['LOCAL', 'OBRA', 'ORGANIZACAO', 'PESSOA', 'VALOR']
+
+Texto 52:
+  Verdadeiras: ['LOCAL', 'ORGANIZACAO']
+  Preditas: ['LOCAL', 'ORGANIZACAO', 'VALOR']
+  Diferenças: ['VALOR']
+

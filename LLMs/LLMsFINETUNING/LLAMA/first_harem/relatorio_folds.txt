@@ -1,0 +1,160 @@
+
+====== FOLD 0 ======
+- LOCAL: Precision=0.935, Recall=0.784, F1=0.853
+- ORGANIZACAO: Precision=0.962, Recall=0.806, F1=0.877
+- PESSOA: Precision=0.778, Recall=0.778, F1=0.778
+- TEMPO: Precision=1.000, Recall=0.812, F1=0.897
+- ABSTRACAO: Precision=0.000, Recall=0.000, F1=0.000
+- ACONTECIMENTO: Precision=1.000, Recall=0.500, F1=0.667
+- COISA: Precision=0.333, Recall=0.125, F1=0.182
+- OBRA: Precision=1.000, Recall=0.429, F1=0.600
+- OUTRO: Precision=0.500, Recall=0.333, F1=0.400
+- VALOR: Precision=0.900, Recall=0.783, F1=0.837
+
+Macro Avg: Precision=0.741, Recall=0.535, F1=0.609
+Micro Avg: Precision=0.889, Recall=0.727, F1=0.800
+==================================================
+
+====== FOLD 1 ======
+- LOCAL: Precision=0.977, Recall=0.875, F1=0.923
+- ORGANIZACAO: Precision=0.792, Recall=0.704, F1=0.745
+- PESSOA: Precision=0.941, Recall=0.865, F1=0.901
+- TEMPO: Precision=0.938, Recall=0.652, F1=0.769
+- ABSTRACAO: Precision=0.000, Recall=0.000, F1=0.000
+- ACONTECIMENTO: Precision=0.833, Recall=0.556, F1=0.667
+- COISA: Precision=0.400, Recall=0.667, F1=0.500
+- OBRA: Precision=0.667, Recall=0.400, F1=0.500
+- OUTRO: Precision=0.000, Recall=0.000, F1=0.000
+- VALOR: Precision=0.875, Recall=0.609, F1=0.718
+
+Macro Avg: Precision=0.642, Recall=0.533, F1=0.572
+Micro Avg: Precision=0.881, Recall=0.735, F1=0.801
+==================================================
+
+====== FOLD 2 ======
+- LOCAL: Precision=0.950, Recall=0.655, F1=0.776
+- ORGANIZACAO: Precision=1.000, Recall=0.613, F1=0.760
+- PESSOA: Precision=1.000, Recall=0.667, F1=0.800
+- TEMPO: Precision=1.000, Recall=0.455, F1=0.625
+- ABSTRACAO: Precision=0.000, Recall=0.000, F1=0.000
+- ACONTECIMENTO: Precision=1.000, Recall=0.286, F1=0.444
+- COISA: Precision=0.500, Recall=0.250, F1=0.333
+- OBRA: Precision=0.333, Recall=0.111, F1=0.167
+- OUTRO: Precision=0.000, Recall=0.000, F1=0.000
+- VALOR: Precision=1.000, Recall=0.524, F1=0.688
+
+Macro Avg: Precision=0.678, Recall=0.356, F1=0.459
+Micro Avg: Precision=0.940, Recall=0.534, F1=0.681
+==================================================
+
+====== FOLD 3 ======
+- LOCAL: Precision=1.000, Recall=0.733, F1=0.846
+- ORGANIZACAO: Precision=0.923, Recall=0.600, F1=0.727
+- PESSOA: Precision=0.500, Recall=0.375, F1=0.429
+- TEMPO: Precision=1.000, Recall=0.500, F1=0.667
+- ABSTRACAO: Precision=0.000, Recall=0.000, F1=0.000
+- ACONTECIMENTO: Precision=1.000, Recall=0.167, F1=0.286
+- COISA: Precision=0.333, Recall=0.500, F1=0.400
+- OBRA: Precision=0.250, Recall=0.500, F1=0.333
+- OUTRO: Precision=0.000, Recall=0.000, F1=0.000
+- VALOR: Precision=0.923, Recall=0.632, F1=0.750
+
+Macro Avg: Precision=0.593, Recall=0.401, F1=0.444
+Micro Avg: Precision=0.845, Recall=0.571, F1=0.682
+==================================================
+
+====== FOLD 4 ======
+- LOCAL: Precision=1.000, Recall=0.667, F1=0.800
+- ORGANIZACAO: Precision=0.778, Recall=0.483, F1=0.596
+- PESSOA: Precision=1.000, Recall=0.615, F1=0.762
+- TEMPO: Precision=1.000, Recall=0.583, F1=0.737
+- ABSTRACAO: Precision=0.000, Recall=0.000, F1=0.000
+- ACONTECIMENTO: Precision=1.000, Recall=0.250, F1=0.400
+- COISA: Precision=1.000, Recall=0.600, F1=0.750
+- OBRA: Precision=1.000, Recall=0.455, F1=0.625
+- OUTRO: Precision=0.000, Recall=0.000, F1=0.000
+- VALOR: Precision=0.857, Recall=0.300, F1=0.444
+
+Macro Avg: Precision=0.763, Recall=0.395, F1=0.511
+Micro Avg: Precision=0.932, Recall=0.516, F1=0.664
+==================================================
+
+====== FOLD 5 ======
+- LOCAL: Precision=0.867, Recall=0.703, F1=0.776
+- ORGANIZACAO: Precision=0.812, Recall=0.520, F1=0.634
+- PESSOA: Precision=0.875, Recall=0.609, F1=0.718
+- TEMPO: Precision=1.000, Recall=0.586, F1=0.739
+- ABSTRACAO: Precision=0.000, Recall=0.000, F1=0.000
+- ACONTECIMENTO: Precision=0.000, Recall=0.000, F1=0.000
+- COISA: Precision=0.400, Recall=0.500, F1=0.444
+- OBRA: Precision=0.000, Recall=0.000, F1=0.000
+- OUTRO: Precision=0.000, Recall=0.000, F1=0.000
+- VALOR: Precision=0.900, Recall=0.818, F1=0.857
+
+Macro Avg: Precision=0.485, Recall=0.374, F1=0.417
+Micro Avg: Precision=0.841, Recall=0.596, F1=0.698
+==================================================
+
+====== FOLD 6 ======
+- LOCAL: Precision=1.000, Recall=0.613, F1=0.760
+- ORGANIZACAO: Precision=0.842, Recall=0.593, F1=0.696
+- PESSOA: Precision=0.867, Recall=0.591, F1=0.703
+- TEMPO: Precision=1.000, Recall=0.632, F1=0.774
+- ABSTRACAO: Precision=0.000, Recall=0.000, F1=0.000
+- ACONTECIMENTO: Precision=1.000, Recall=0.250, F1=0.400
+- COISA: Precision=0.750, Recall=0.500, F1=0.600
+- OBRA: Precision=1.000, Recall=0.636, F1=0.778
+- OUTRO: Precision=0.000, Recall=0.000, F1=0.000
+- VALOR: Precision=0.917, Recall=0.524, F1=0.667
+
+Macro Avg: Precision=0.738, Recall=0.434, F1=0.538
+Micro Avg: Precision=0.911, Recall=0.569, F1=0.701
+==================================================
+
+====== FOLD 7 ======
+- LOCAL: Precision=1.000, Recall=0.613, F1=0.760
+- ORGANIZACAO: Precision=0.857, Recall=0.545, F1=0.667
+- PESSOA: Precision=0.938, Recall=0.682, F1=0.789
+- TEMPO: Precision=1.000, Recall=0.556, F1=0.714
+- ABSTRACAO: Precision=0.000, Recall=0.000, F1=0.000
+- ACONTECIMENTO: Precision=1.000, Recall=0.333, F1=0.500
+- COISA: Precision=0.667, Recall=1.000, F1=0.800
+- OBRA: Precision=0.600, Recall=0.429, F1=0.500
+- OUTRO: Precision=0.000, Recall=0.000, F1=0.000
+- VALOR: Precision=0.833, Recall=0.625, F1=0.714
+
+Macro Avg: Precision=0.689, Recall=0.478, F1=0.544
+Micro Avg: Precision=0.893, Recall=0.586, F1=0.708
+==================================================
+
+====== FOLD 8 ======
+- LOCAL: Precision=0.881, Recall=0.822, F1=0.851
+- ORGANIZACAO: Precision=0.914, Recall=0.842, F1=0.877
+- PESSOA: Precision=0.935, Recall=0.811, F1=0.869
+- TEMPO: Precision=0.909, Recall=0.714, F1=0.800
+- ABSTRACAO: Precision=0.000, Recall=0.000, F1=0.000
+- ACONTECIMENTO: Precision=0.750, Recall=0.500, F1=0.600
+- COISA: Precision=0.833, Recall=0.625, F1=0.714
+- OBRA: Precision=0.700, Recall=0.583, F1=0.636
+- OUTRO: Precision=0.000, Recall=0.000, F1=0.000
+- VALOR: Precision=0.917, Recall=0.579, F1=0.710
+
+Macro Avg: Precision=0.684, Recall=0.548, F1=0.606
+Micro Avg: Precision=0.876, Recall=0.747, F1=0.807
+==================================================
+
+====== FOLD 9 ======
+- LOCAL: Precision=1.000, Recall=0.677, F1=0.808
+- ORGANIZACAO: Precision=0.750, Recall=0.556, F1=0.638
+- PESSOA: Precision=1.000, Recall=0.756, F1=0.861
+- TEMPO: Precision=0.917, Recall=0.524, F1=0.667
+- ABSTRACAO: Precision=0.000, Recall=0.000, F1=0.000
+- ACONTECIMENTO: Precision=0.800, Recall=0.667, F1=0.727
+- COISA: Precision=0.333, Recall=0.250, F1=0.286
+- OBRA: Precision=0.667, Recall=0.500, F1=0.571
+- OUTRO: Precision=1.000, Recall=0.333, F1=0.500
+- VALOR: Precision=0.769, Recall=0.476, F1=0.588
+
+Macro Avg: Precision=0.724, Recall=0.474, F1=0.565
+Micro Avg: Precision=0.870, Recall=0.602, F1=0.712
+==================================================

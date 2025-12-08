@@ -1,0 +1,120 @@
+
+====== FOLD 0 ======
+- LOCAL: Precision=0.819, Recall=0.850, F1=0.834
+- ORGANIZACAO: Precision=0.927, Recall=0.823, F1=0.872
+- PESSOA: Precision=1.000, Recall=0.857, F1=0.923
+- TEMPO: Precision=0.988, Recall=0.851, F1=0.914
+- JURISPRUDENCIA: Precision=0.979, Recall=0.913, F1=0.945
+- LEGISLACAO: Precision=0.974, Recall=0.940, F1=0.957
+
+Macro Avg: Precision=0.948, Recall=0.872, F1=0.907
+Micro Avg: Precision=0.950, Recall=0.876, F1=0.912
+==================================================
+
+====== FOLD 1 ======
+- LOCAL: Precision=0.939, Recall=0.969, F1=0.954
+- ORGANIZACAO: Precision=0.952, Recall=0.937, F1=0.944
+- PESSOA: Precision=1.000, Recall=0.866, F1=0.928
+- TEMPO: Precision=1.000, Recall=0.925, F1=0.961
+- JURISPRUDENCIA: Precision=1.000, Recall=0.918, F1=0.957
+- LEGISLACAO: Precision=0.982, Recall=0.982, F1=0.982
+
+Macro Avg: Precision=0.979, Recall=0.933, F1=0.954
+Micro Avg: Precision=0.979, Recall=0.939, F1=0.959
+==================================================
+
+====== FOLD 2 ======
+- LOCAL: Precision=0.882, Recall=0.857, F1=0.870
+- ORGANIZACAO: Precision=0.971, Recall=0.912, F1=0.941
+- PESSOA: Precision=0.991, Recall=0.946, F1=0.968
+- TEMPO: Precision=0.991, Recall=0.943, F1=0.966
+- JURISPRUDENCIA: Precision=0.984, Recall=0.920, F1=0.951
+- LEGISLACAO: Precision=0.995, Recall=0.989, F1=0.992
+
+Macro Avg: Precision=0.969, Recall=0.928, F1=0.948
+Micro Avg: Precision=0.981, Recall=0.939, F1=0.960
+==================================================
+
+====== FOLD 3 ======
+- LOCAL: Precision=0.704, Recall=0.909, F1=0.794
+- ORGANIZACAO: Precision=0.937, Recall=0.894, F1=0.915
+- PESSOA: Precision=0.993, Recall=0.844, F1=0.913
+- TEMPO: Precision=0.968, Recall=0.893, F1=0.929
+- JURISPRUDENCIA: Precision=0.991, Recall=0.829, F1=0.903
+- LEGISLACAO: Precision=0.875, Recall=0.936, F1=0.904
+
+Macro Avg: Precision=0.911, Recall=0.884, F1=0.893
+Micro Avg: Precision=0.924, Recall=0.884, F1=0.904
+==================================================
+
+====== FOLD 4 ======
+- LOCAL: Precision=0.857, Recall=0.828, F1=0.842
+- ORGANIZACAO: Precision=0.979, Recall=0.934, F1=0.956
+- PESSOA: Precision=0.993, Recall=0.941, F1=0.966
+- TEMPO: Precision=1.000, Recall=0.944, F1=0.971
+- JURISPRUDENCIA: Precision=0.972, Recall=0.972, F1=0.972
+- LEGISLACAO: Precision=0.988, Recall=0.960, F1=0.974
+
+Macro Avg: Precision=0.965, Recall=0.930, F1=0.947
+Micro Avg: Precision=0.982, Recall=0.944, F1=0.962
+==================================================
+
+====== FOLD 5 ======
+- LOCAL: Precision=0.938, Recall=0.789, F1=0.857
+- ORGANIZACAO: Precision=0.927, Recall=0.881, F1=0.903
+- PESSOA: Precision=0.990, Recall=0.888, F1=0.936
+- TEMPO: Precision=0.981, Recall=0.927, F1=0.953
+- JURISPRUDENCIA: Precision=0.963, Recall=0.867, F1=0.912
+- LEGISLACAO: Precision=0.994, Recall=0.977, F1=0.986
+
+Macro Avg: Precision=0.965, Recall=0.888, F1=0.925
+Micro Avg: Precision=0.969, Recall=0.909, F1=0.938
+==================================================
+
+====== FOLD 6 ======
+- LOCAL: Precision=0.923, Recall=0.750, F1=0.828
+- ORGANIZACAO: Precision=0.914, Recall=0.862, F1=0.887
+- PESSOA: Precision=0.987, Recall=0.893, F1=0.938
+- TEMPO: Precision=0.984, Recall=0.870, F1=0.924
+- JURISPRUDENCIA: Precision=1.000, Recall=0.865, F1=0.928
+- LEGISLACAO: Precision=0.995, Recall=0.906, F1=0.948
+
+Macro Avg: Precision=0.967, Recall=0.858, F1=0.909
+Micro Avg: Precision=0.969, Recall=0.873, F1=0.919
+==================================================
+
+====== FOLD 7 ======
+- LOCAL: Precision=0.829, Recall=0.763, F1=0.795
+- ORGANIZACAO: Precision=0.956, Recall=0.903, F1=0.929
+- PESSOA: Precision=0.991, Recall=0.948, F1=0.969
+- TEMPO: Precision=0.961, Recall=0.943, F1=0.952
+- JURISPRUDENCIA: Precision=0.946, Recall=0.898, F1=0.921
+- LEGISLACAO: Precision=0.953, Recall=0.932, F1=0.943
+
+Macro Avg: Precision=0.939, Recall=0.898, F1=0.918
+Micro Avg: Precision=0.954, Recall=0.916, F1=0.935
+==================================================
+
+====== FOLD 8 ======
+- LOCAL: Precision=0.852, Recall=0.852, F1=0.852
+- ORGANIZACAO: Precision=0.981, Recall=0.914, F1=0.946
+- PESSOA: Precision=0.991, Recall=0.950, F1=0.970
+- TEMPO: Precision=1.000, Recall=0.928, F1=0.963
+- JURISPRUDENCIA: Precision=0.991, Recall=0.894, F1=0.940
+- LEGISLACAO: Precision=0.991, Recall=0.942, F1=0.966
+
+Macro Avg: Precision=0.968, Recall=0.913, F1=0.940
+Micro Avg: Precision=0.985, Recall=0.923, F1=0.953
+==================================================
+
+====== FOLD 9 ======
+- LOCAL: Precision=1.000, Recall=0.909, F1=0.952
+- ORGANIZACAO: Precision=0.922, Recall=0.934, F1=0.928
+- PESSOA: Precision=1.000, Recall=0.953, F1=0.976
+- TEMPO: Precision=1.000, Recall=0.953, F1=0.976
+- JURISPRUDENCIA: Precision=0.971, Recall=0.938, F1=0.954
+- LEGISLACAO: Precision=0.974, Recall=0.959, F1=0.967
+
+Macro Avg: Precision=0.978, Recall=0.941, F1=0.959
+Micro Avg: Precision=0.971, Recall=0.945, F1=0.958
+==================================================

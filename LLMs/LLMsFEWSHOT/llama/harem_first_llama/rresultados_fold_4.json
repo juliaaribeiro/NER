@@ -1,0 +1,53 @@
+{
+  "fold": 4,
+  "report": {
+    "LOCAL": {
+      "precision": 1.0,
+      "recall": 0.030303030303030304,
+      "f1-score": 0.058823529411764705,
+      "support": 33.0
+    },
+    "ORGANIZACAO": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 29.0
+    },
+    "PESSOA": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 26.0
+    },
+    "TEMPO": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 24.0
+    },
+    "micro avg": {
+      "precision": 1.0,
+      "recall": 0.008928571428571428,
+      "f1-score": 0.017699115044247787,
+      "support": 112.0
+    },
+    "macro avg": {
+      "precision": 0.25,
+      "recall": 0.007575757575757576,
+      "f1-score": 0.014705882352941176,
+      "support": 112.0
+    },
+    "weighted avg": {
+      "precision": 0.29464285714285715,
+      "recall": 0.008928571428571428,
+      "f1-score": 0.017331932773109245,
+      "support": 112.0
+    },
+    "samples avg": {
+      "precision": 0.02127659574468085,
+      "recall": 0.02127659574468085,
+      "f1-score": 0.02127659574468085,
+      "support": 112.0
+    }
+  }
+}

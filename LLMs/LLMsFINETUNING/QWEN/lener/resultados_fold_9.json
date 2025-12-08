@@ -1,0 +1,62 @@
+{
+  "LOCAL": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 44.0
+  },
+  "ORGANIZACAO": {
+    "precision": 0.9221311475409836,
+    "recall": 0.9336099585062241,
+    "f1-score": 0.9278350515463918,
+    "support": 241.0
+  },
+  "PESSOA": {
+    "precision": 1.0,
+    "recall": 0.9533678756476683,
+    "f1-score": 0.9761273209549072,
+    "support": 193.0
+  },
+  "TEMPO": {
+    "precision": 1.0,
+    "recall": 0.9526315789473684,
+    "f1-score": 0.9757412398921833,
+    "support": 190.0
+  },
+  "JURISPRUDENCIA": {
+    "precision": 0.9712230215827338,
+    "recall": 0.9375,
+    "f1-score": 0.9540636042402827,
+    "support": 144.0
+  },
+  "LEGISLACAO": {
+    "precision": 0.9742268041237113,
+    "recall": 0.9593908629441624,
+    "f1-score": 0.9667519181585678,
+    "support": 197.0
+  },
+  "micro avg": {
+    "precision": 0.9714867617107943,
+    "recall": 0.9454905847373637,
+    "f1-score": 0.958312405826218,
+    "support": 1009.0
+  },
+  "macro avg": {
+    "precision": 0.9779301622079047,
+    "recall": 0.9409318641893886,
+    "f1-score": 0.9588166811955473,
+    "support": 1009.0
+  },
+  "weighted avg": {
+    "precision": 0.9722620436845013,
+    "recall": 0.9454905847373637,
+    "f1-score": 0.9585051583142643,
+    "support": 1009.0
+  },
+  "samples avg": {
+    "precision": 0.9601685698749319,
+    "recall": 0.9630233822729743,
+    "f1-score": 0.9577798492969781,
+    "support": 1009.0
+  }
+}

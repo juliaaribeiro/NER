@@ -1,0 +1,220 @@
+
+====== FOLD 0 ======
+- DATA: Precision=0.957, Recall=0.978, F1=0.968
+- EVENTO: Precision=1.000, Recall=0.143, F1=0.250
+- FUNDapelido: Precision=0.786, Recall=0.917, F1=0.846
+- FUNDlei: Precision=0.957, Recall=0.978, F1=0.967
+- FUNDprojetodelei: Precision=0.000, Recall=0.000, F1=0.000
+- LOCALconcreto: Precision=0.886, Recall=0.861, F1=0.873
+- LOCALvirtual: Precision=0.000, Recall=0.000, F1=0.000
+- ORGgovernamental: Precision=0.923, Recall=0.818, F1=0.867
+- ORGnaogovernamental: Precision=0.400, Recall=1.000, F1=0.571
+- ORGpartido: Precision=1.000, Recall=1.000, F1=1.000
+- PESSOAcargo: Precision=0.905, Recall=0.950, F1=0.927
+- PESSOAgrupocargo: Precision=0.889, Recall=0.727, F1=0.800
+- PESSOAindividual: Precision=1.000, Recall=1.000, F1=1.000
+- PRODUTOoutros: Precision=0.600, Recall=0.750, F1=0.667
+- PRODUTOprograma: Precision=1.000, Recall=1.000, F1=1.000
+- PRODUTOsistema: Precision=1.000, Recall=1.000, F1=1.000
+
+Macro Avg: Precision=0.769, Recall=0.758, F1=0.734
+Micro Avg: Precision=0.894, Recall=0.888, F1=0.891
+==================================================
+
+====== FOLD 1 ======
+- DATA: Precision=0.962, Recall=0.962, F1=0.962
+- EVENTO: Precision=1.000, Recall=0.750, F1=0.857
+- FUNDapelido: Precision=1.000, Recall=1.000, F1=1.000
+- FUNDlei: Precision=0.938, Recall=0.918, F1=0.928
+- FUNDprojetodelei: Precision=0.000, Recall=0.000, F1=0.000
+- LOCALconcreto: Precision=0.930, Recall=0.976, F1=0.952
+- LOCALvirtual: Precision=0.500, Recall=0.500, F1=0.500
+- ORGgovernamental: Precision=0.903, Recall=0.875, F1=0.889
+- ORGnaogovernamental: Precision=1.000, Recall=1.000, F1=1.000
+- ORGpartido: Precision=1.000, Recall=0.800, F1=0.889
+- PESSOAcargo: Precision=0.958, Recall=0.958, F1=0.958
+- PESSOAgrupocargo: Precision=0.818, Recall=0.818, F1=0.818
+- PESSOAindividual: Precision=1.000, Recall=0.974, F1=0.987
+- PRODUTOoutros: Precision=0.684, Recall=0.929, F1=0.788
+- PRODUTOprograma: Precision=1.000, Recall=0.750, F1=0.857
+- PRODUTOsistema: Precision=1.000, Recall=1.000, F1=1.000
+
+Macro Avg: Precision=0.856, Recall=0.826, F1=0.837
+Micro Avg: Precision=0.934, Recall=0.925, F1=0.930
+==================================================
+
+====== FOLD 2 ======
+- DATA: Precision=0.962, Recall=0.980, F1=0.971
+- EVENTO: Precision=0.000, Recall=0.000, F1=0.000
+- FUNDapelido: Precision=0.900, Recall=0.818, F1=0.857
+- FUNDlei: Precision=0.850, Recall=0.944, F1=0.895
+- FUNDprojetodelei: Precision=1.000, Recall=1.000, F1=1.000
+- LOCALconcreto: Precision=0.857, Recall=0.889, F1=0.873
+- LOCALvirtual: Precision=1.000, Recall=0.500, F1=0.667
+- ORGgovernamental: Precision=0.900, Recall=0.857, F1=0.878
+- ORGnaogovernamental: Precision=0.667, Recall=1.000, F1=0.800
+- ORGpartido: Precision=0.000, Recall=0.000, F1=0.000
+- PESSOAcargo: Precision=0.923, Recall=0.923, F1=0.923
+- PESSOAgrupocargo: Precision=0.667, Recall=0.667, F1=0.667
+- PESSOAindividual: Precision=0.977, Recall=0.977, F1=0.977
+- PRODUTOoutros: Precision=0.897, Recall=0.897, F1=0.897
+- PRODUTOprograma: Precision=0.000, Recall=0.000, F1=0.000
+- PRODUTOsistema: Precision=1.000, Recall=0.333, F1=0.500
+
+Macro Avg: Precision=0.725, Recall=0.674, F1=0.681
+Micro Avg: Precision=0.895, Recall=0.883, F1=0.889
+==================================================
+
+====== FOLD 3 ======
+- DATA: Precision=0.953, Recall=1.000, F1=0.976
+- EVENTO: Precision=1.000, Recall=0.500, F1=0.667
+- FUNDapelido: Precision=1.000, Recall=0.875, F1=0.933
+- FUNDlei: Precision=0.977, Recall=0.977, F1=0.977
+- FUNDprojetodelei: Precision=0.500, Recall=1.000, F1=0.667
+- LOCALconcreto: Precision=0.944, Recall=0.944, F1=0.944
+- LOCALvirtual: Precision=0.500, Recall=0.667, F1=0.571
+- ORGgovernamental: Precision=0.895, Recall=0.895, F1=0.895
+- ORGnaogovernamental: Precision=0.909, Recall=0.769, F1=0.833
+- ORGpartido: Precision=1.000, Recall=1.000, F1=1.000
+- PESSOAcargo: Precision=0.750, Recall=1.000, F1=0.857
+- PESSOAgrupocargo: Precision=0.909, Recall=1.000, F1=0.952
+- PESSOAindividual: Precision=1.000, Recall=1.000, F1=1.000
+- PRODUTOoutros: Precision=0.562, Recall=0.474, F1=0.514
+- PRODUTOprograma: Precision=0.667, Recall=1.000, F1=0.800
+- PRODUTOsistema: Precision=0.000, Recall=0.000, F1=0.000
+
+Macro Avg: Precision=0.785, Recall=0.819, F1=0.787
+Micro Avg: Precision=0.897, Recall=0.908, F1=0.902
+==================================================
+
+====== FOLD 4 ======
+- DATA: Precision=0.940, Recall=0.959, F1=0.949
+- EVENTO: Precision=0.000, Recall=0.000, F1=0.000
+- FUNDapelido: Precision=0.818, Recall=1.000, F1=0.900
+- FUNDlei: Precision=0.935, Recall=0.977, F1=0.956
+- FUNDprojetodelei: Precision=0.500, Recall=1.000, F1=0.667
+- LOCALconcreto: Precision=0.870, Recall=0.909, F1=0.889
+- LOCALvirtual: Precision=1.000, Recall=0.857, F1=0.923
+- ORGgovernamental: Precision=0.870, Recall=0.930, F1=0.899
+- ORGnaogovernamental: Precision=0.889, Recall=0.800, F1=0.842
+- ORGpartido: Precision=0.600, Recall=1.000, F1=0.750
+- PESSOAcargo: Precision=0.955, Recall=1.000, F1=0.977
+- PESSOAgrupocargo: Precision=0.826, Recall=0.864, F1=0.844
+- PESSOAindividual: Precision=0.972, Recall=1.000, F1=0.986
+- PRODUTOoutros: Precision=0.958, Recall=0.742, F1=0.836
+- PRODUTOprograma: Precision=1.000, Recall=1.000, F1=1.000
+- PRODUTOsistema: Precision=1.000, Recall=1.000, F1=1.000
+
+Macro Avg: Precision=0.821, Recall=0.877, F1=0.839
+Micro Avg: Precision=0.902, Recall=0.923, F1=0.912
+==================================================
+
+====== FOLD 5 ======
+- DATA: Precision=0.968, Recall=1.000, F1=0.984
+- EVENTO: Precision=0.000, Recall=0.000, F1=0.000
+- FUNDapelido: Precision=0.958, Recall=0.885, F1=0.920
+- FUNDlei: Precision=0.902, Recall=0.979, F1=0.939
+- FUNDprojetodelei: Precision=0.000, Recall=0.000, F1=0.000
+- LOCALconcreto: Precision=0.731, Recall=0.905, F1=0.809
+- LOCALvirtual: Precision=1.000, Recall=0.750, F1=0.857
+- ORGgovernamental: Precision=0.841, Recall=0.881, F1=0.860
+- ORGnaogovernamental: Precision=0.750, Recall=0.353, F1=0.480
+- ORGpartido: Precision=0.750, Recall=1.000, F1=0.857
+- PESSOAcargo: Precision=0.933, Recall=0.966, F1=0.949
+- PESSOAgrupocargo: Precision=0.571, Recall=0.571, F1=0.571
+- PESSOAindividual: Precision=1.000, Recall=1.000, F1=1.000
+- PRODUTOoutros: Precision=0.767, Recall=0.852, F1=0.807
+- PRODUTOprograma: Precision=0.000, Recall=0.000, F1=0.000
+- PRODUTOsistema: Precision=1.000, Recall=0.500, F1=0.667
+
+Macro Avg: Precision=0.698, Recall=0.665, F1=0.669
+Micro Avg: Precision=0.889, Recall=0.883, F1=0.886
+==================================================
+
+====== FOLD 6 ======
+- DATA: Precision=0.951, Recall=0.879, F1=0.913
+- EVENTO: Precision=0.000, Recall=0.000, F1=0.000
+- FUNDapelido: Precision=0.950, Recall=1.000, F1=0.974
+- FUNDlei: Precision=1.000, Recall=0.948, F1=0.973
+- FUNDprojetodelei: Precision=0.500, Recall=1.000, F1=0.667
+- LOCALconcreto: Precision=0.838, Recall=0.838, F1=0.838
+- LOCALvirtual: Precision=0.000, Recall=0.000, F1=0.000
+- ORGgovernamental: Precision=0.878, Recall=0.837, F1=0.857
+- ORGnaogovernamental: Precision=0.500, Recall=0.571, F1=0.533
+- ORGpartido: Precision=1.000, Recall=1.000, F1=1.000
+- PESSOAcargo: Precision=1.000, Recall=0.750, F1=0.857
+- PESSOAgrupocargo: Precision=0.667, Recall=0.615, F1=0.640
+- PESSOAindividual: Precision=0.947, Recall=0.973, F1=0.960
+- PRODUTOoutros: Precision=0.474, Recall=0.600, F1=0.529
+- PRODUTOprograma: Precision=0.857, Recall=0.857, F1=0.857
+- PRODUTOsistema: Precision=0.000, Recall=0.000, F1=0.000
+
+Macro Avg: Precision=0.660, Recall=0.679, F1=0.662
+Micro Avg: Precision=0.885, Recall=0.838, F1=0.861
+==================================================
+
+====== FOLD 7 ======
+- DATA: Precision=0.953, Recall=1.000, F1=0.976
+- EVENTO: Precision=0.000, Recall=0.000, F1=0.000
+- FUNDapelido: Precision=1.000, Recall=0.929, F1=0.963
+- FUNDlei: Precision=1.000, Recall=1.000, F1=1.000
+- FUNDprojetodelei: Precision=1.000, Recall=0.500, F1=0.667
+- LOCALconcreto: Precision=0.842, Recall=0.889, F1=0.865
+- LOCALvirtual: Precision=0.167, Recall=1.000, F1=0.286
+- ORGgovernamental: Precision=0.929, Recall=0.867, F1=0.897
+- ORGnaogovernamental: Precision=0.571, Recall=0.800, F1=0.667
+- ORGpartido: Precision=0.500, Recall=1.000, F1=0.667
+- PESSOAcargo: Precision=0.963, Recall=0.897, F1=0.929
+- PESSOAgrupocargo: Precision=0.889, Recall=0.800, F1=0.842
+- PESSOAindividual: Precision=1.000, Recall=0.974, F1=0.987
+- PRODUTOoutros: Precision=0.464, Recall=0.520, F1=0.491
+- PRODUTOprograma: Precision=1.000, Recall=0.750, F1=0.857
+- PRODUTOsistema: Precision=0.000, Recall=0.000, F1=0.000
+
+Macro Avg: Precision=0.705, Recall=0.745, F1=0.693
+Micro Avg: Precision=0.867, Recall=0.886, F1=0.877
+==================================================
+
+====== FOLD 8 ======
+- DATA: Precision=0.955, Recall=0.985, F1=0.970
+- EVENTO: Precision=0.667, Recall=1.000, F1=0.800
+- FUNDapelido: Precision=0.750, Recall=0.938, F1=0.833
+- FUNDlei: Precision=0.979, Recall=0.979, F1=0.979
+- FUNDprojetodelei: Precision=1.000, Recall=1.000, F1=1.000
+- LOCALconcreto: Precision=0.941, Recall=0.914, F1=0.928
+- LOCALvirtual: Precision=0.667, Recall=0.667, F1=0.667
+- ORGgovernamental: Precision=0.719, Recall=0.958, F1=0.821
+- ORGnaogovernamental: Precision=1.000, Recall=0.692, F1=0.818
+- ORGpartido: Precision=0.750, Recall=1.000, F1=0.857
+- PESSOAcargo: Precision=0.938, Recall=0.909, F1=0.923
+- PESSOAgrupocargo: Precision=0.700, Recall=0.875, F1=0.778
+- PESSOAindividual: Precision=0.947, Recall=1.000, F1=0.973
+- PRODUTOoutros: Precision=0.808, Recall=0.750, F1=0.778
+- PRODUTOprograma: Precision=0.333, Recall=0.333, F1=0.333
+- PRODUTOsistema: Precision=1.000, Recall=1.000, F1=1.000
+
+Macro Avg: Precision=0.822, Recall=0.875, F1=0.841
+Micro Avg: Precision=0.886, Recall=0.919, F1=0.902
+==================================================
+
+====== FOLD 9 ======
+- DATA: Precision=1.000, Recall=0.959, F1=0.979
+- EVENTO: Precision=0.000, Recall=0.000, F1=0.000
+- FUNDapelido: Precision=0.857, Recall=0.857, F1=0.857
+- FUNDlei: Precision=0.959, Recall=0.959, F1=0.959
+- FUNDprojetodelei: Precision=1.000, Recall=1.000, F1=1.000
+- LOCALconcreto: Precision=1.000, Recall=1.000, F1=1.000
+- LOCALvirtual: Precision=0.714, Recall=0.833, F1=0.769
+- ORGgovernamental: Precision=0.778, Recall=0.933, F1=0.848
+- ORGnaogovernamental: Precision=0.750, Recall=0.600, F1=0.667
+- ORGpartido: Precision=1.000, Recall=1.000, F1=1.000
+- PESSOAcargo: Precision=0.970, Recall=0.889, F1=0.928
+- PESSOAgrupocargo: Precision=0.824, Recall=0.609, F1=0.700
+- PESSOAindividual: Precision=0.950, Recall=1.000, F1=0.974
+- PRODUTOoutros: Precision=0.455, Recall=0.455, F1=0.455
+- PRODUTOprograma: Precision=0.800, Recall=0.400, F1=0.533
+- PRODUTOsistema: Precision=0.000, Recall=0.000, F1=0.000
+
+Macro Avg: Precision=0.754, Recall=0.718, F1=0.729
+Micro Avg: Precision=0.895, Recall=0.865, F1=0.880
+==================================================

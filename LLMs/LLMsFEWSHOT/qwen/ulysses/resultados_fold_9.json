@@ -1,0 +1,125 @@
+{
+  "fold": 9,
+  "report": {
+    "DATA": {
+      "precision": 1.0,
+      "recall": 0.30612244897959184,
+      "f1-score": 0.46875,
+      "support": 49.0
+    },
+    "EVENTO": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "FUNDapelido": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 14.0
+    },
+    "FUNDlei": {
+      "precision": 0.5,
+      "recall": 0.02040816326530612,
+      "f1-score": 0.0392156862745098,
+      "support": 49.0
+    },
+    "FUNDprojetodelei": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "LOCALconcreto": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.3333333333333333,
+      "support": 15.0
+    },
+    "LOCALvirtual": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "ORGgovernamental": {
+      "precision": 0.8571428571428571,
+      "recall": 0.2,
+      "f1-score": 0.32432432432432434,
+      "support": 30.0
+    },
+    "ORGnaogovernamental": {
+      "precision": 0.6666666666666666,
+      "recall": 0.2,
+      "f1-score": 0.3076923076923077,
+      "support": 10.0
+    },
+    "ORGpartido": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "PESSOAcargo": {
+      "precision": 1.0,
+      "recall": 0.1388888888888889,
+      "f1-score": 0.24390243902439024,
+      "support": 36.0
+    },
+    "PESSOAgrupocargo": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 23.0
+    },
+    "PESSOAindividual": {
+      "precision": 0.8888888888888888,
+      "recall": 0.21052631578947367,
+      "f1-score": 0.3404255319148936,
+      "support": 38.0
+    },
+    "PRODUTOoutros": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 11.0
+    },
+    "PRODUTOprograma": {
+      "precision": 0.03571428571428571,
+      "recall": 0.2,
+      "f1-score": 0.06060606060606061,
+      "support": 10.0
+    },
+    "PRODUTOsistema": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "micro avg": {
+      "precision": 0.25862068965517243,
+      "recall": 0.15151515151515152,
+      "f1-score": 0.1910828025477707,
+      "support": 297.0
+    },
+    "macro avg": {
+      "precision": 0.3926091269841269,
+      "recall": 0.12141328022437045,
+      "f1-score": 0.16364060519811371,
+      "support": 297.0
+    },
+    "weighted avg": {
+      "precision": 0.6195820640265085,
+      "recall": 0.15151515151515152,
+      "f1-score": 0.22397202039666128,
+      "support": 297.0
+    },
+    "samples avg": {
+      "precision": 0.027983539094650203,
+      "recall": 0.032285821174710065,
+      "f1-score": 0.028843995510662176,
+      "support": 297.0
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "LOCAL": {
+    "precision": 0.9090909090909091,
+    "recall": 0.6779661016949152,
+    "f1-score": 0.7766990291262136,
+    "support": 59.0
+  },
+  "ORGANIZACAO": {
+    "precision": 0.7222222222222222,
+    "recall": 0.6341463414634146,
+    "f1-score": 0.6753246753246753,
+    "support": 41.0
+  },
+  "PESSOA": {
+    "precision": 0.9896907216494846,
+    "recall": 0.8495575221238938,
+    "f1-score": 0.9142857142857143,
+    "support": 113.0
+  },
+  "TEMPO": {
+    "precision": 0.9444444444444444,
+    "recall": 0.75,
+    "f1-score": 0.8360655737704918,
+    "support": 68.0
+  },
+  "ABSTRACAO": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "ACONTECIMENTO": {
+    "precision": 0.8518518518518519,
+    "recall": 0.9583333333333334,
+    "f1-score": 0.9019607843137255,
+    "support": 24.0
+  },
+  "COISA": {
+    "precision": 0.7857142857142857,
+    "recall": 0.5238095238095238,
+    "f1-score": 0.6285714285714286,
+    "support": 21.0
+  },
+  "OBRA": {
+    "precision": 0.7714285714285715,
+    "recall": 0.75,
+    "f1-score": 0.7605633802816901,
+    "support": 36.0
+  },
+  "OUTRO": {
+    "precision": 0.3333333333333333,
+    "recall": 0.4,
+    "f1-score": 0.36363636363636365,
+    "support": 5.0
+  },
+  "VALOR": {
+    "precision": 0.8,
+    "recall": 0.7619047619047619,
+    "f1-score": 0.7804878048780488,
+    "support": 21.0
+  },
+  "micro avg": {
+    "precision": 0.8768768768768769,
+    "recall": 0.7525773195876289,
+    "f1-score": 0.8099861303744799,
+    "support": 388.0
+  },
+  "macro avg": {
+    "precision": 0.7107776339735101,
+    "recall": 0.6305717584329844,
+    "f1-score": 0.6637594754188351,
+    "support": 388.0
+  },
+  "weighted avg": {
+    "precision": 0.8826991963882175,
+    "recall": 0.7525773195876289,
+    "f1-score": 0.8095774880714653,
+    "support": 388.0
+  },
+  "samples avg": {
+    "precision": 0.8177197802197802,
+    "recall": 0.8262820512820511,
+    "f1-score": 0.8122631997631997,
+    "support": 388.0
+  }
+}

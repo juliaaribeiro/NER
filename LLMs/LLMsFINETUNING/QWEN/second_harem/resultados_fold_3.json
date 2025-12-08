@@ -1,0 +1,86 @@
+{
+  "LOCAL": {
+    "precision": 0.918918918918919,
+    "recall": 0.8607594936708861,
+    "f1-score": 0.8888888888888888,
+    "support": 79.0
+  },
+  "ORGANIZACAO": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8235294117647058,
+    "f1-score": 0.8549618320610687,
+    "support": 68.0
+  },
+  "PESSOA": {
+    "precision": 0.9714285714285714,
+    "recall": 0.9272727272727272,
+    "f1-score": 0.9488372093023256,
+    "support": 110.0
+  },
+  "TEMPO": {
+    "precision": 0.9156626506024096,
+    "recall": 0.9156626506024096,
+    "f1-score": 0.9156626506024096,
+    "support": 83.0
+  },
+  "ABSTRACAO": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "ACONTECIMENTO": {
+    "precision": 0.8846153846153846,
+    "recall": 0.8846153846153846,
+    "f1-score": 0.8846153846153846,
+    "support": 26.0
+  },
+  "COISA": {
+    "precision": 0.7692307692307693,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7407407407407407,
+    "support": 28.0
+  },
+  "OBRA": {
+    "precision": 0.7419354838709677,
+    "recall": 0.7666666666666667,
+    "f1-score": 0.7540983606557377,
+    "support": 30.0
+  },
+  "OUTRO": {
+    "precision": 0.5555555555555556,
+    "recall": 0.625,
+    "f1-score": 0.5882352941176471,
+    "support": 8.0
+  },
+  "VALOR": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.8888888888888888,
+    "support": 15.0
+  },
+  "micro avg": {
+    "precision": 0.8974358974358975,
+    "recall": 0.8612975391498882,
+    "f1-score": 0.8789954337899544,
+    "support": 447.0
+  },
+  "macro avg": {
+    "precision": 0.7646236223111466,
+    "recall": 0.7317792048878494,
+    "f1-score": 0.7464929249873091,
+    "support": 447.0
+  },
+  "weighted avg": {
+    "precision": 0.8996356876850491,
+    "recall": 0.8612975391498882,
+    "f1-score": 0.8794958100051857,
+    "support": 447.0
+  },
+  "samples avg": {
+    "precision": 0.8792189679218968,
+    "recall": 0.895118549511855,
+    "f1-score": 0.8808690612037893,
+    "support": 447.0
+  }
+}

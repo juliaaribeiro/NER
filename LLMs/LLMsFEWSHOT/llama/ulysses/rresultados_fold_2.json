@@ -1,0 +1,125 @@
+{
+  "fold": 2,
+  "report": {
+    "DATA": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1-score": 0.1111111111111111,
+      "support": 51.0
+    },
+    "EVENTO": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "FUNDapelido": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 11.0
+    },
+    "FUNDlei": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 36.0
+    },
+    "FUNDprojetodelei": {
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1-score": 0.3333333333333333,
+      "support": 2.0
+    },
+    "LOCALconcreto": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 27.0
+    },
+    "LOCALvirtual": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "ORGgovernamental": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 42.0
+    },
+    "ORGnaogovernamental": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "ORGpartido": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "PESSOAcargo": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 26.0
+    },
+    "PESSOAgrupocargo": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 9.0
+    },
+    "PESSOAindividual": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 43.0
+    },
+    "PRODUTOoutros": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 29.0
+    },
+    "PRODUTOprograma": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "PRODUTOsistema": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "micro avg": {
+      "precision": 0.36363636363636365,
+      "recall": 0.013422818791946308,
+      "f1-score": 0.025889967637540454,
+      "support": 298.0
+    },
+    "macro avg": {
+      "precision": 0.078125,
+      "recall": 0.034926470588235295,
+      "f1-score": 0.027777777777777776,
+      "support": 298.0
+    },
+    "weighted avg": {
+      "precision": 0.17281879194630873,
+      "recall": 0.013422818791946308,
+      "f1-score": 0.021252796420581654,
+      "support": 298.0
+    },
+    "samples avg": {
+      "precision": 0.004615384615384616,
+      "recall": 0.010256410256410255,
+      "f1-score": 0.0058461538461538455,
+      "support": 298.0
+    }
+  }
+}

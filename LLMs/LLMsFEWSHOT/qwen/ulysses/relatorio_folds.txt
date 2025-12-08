@@ -1,0 +1,230 @@
+
+====== FOLD 0 ======
+Relatório por label:
+- DATA: precision=1.000, recall=0.196, f1-score=0.327
+- EVENTO: precision=1.000, recall=0.143, f1-score=0.250
+- FUNDapelido: precision=0.800, recall=0.333, f1-score=0.471
+- FUNDlei: precision=0.333, recall=0.022, f1-score=0.042
+- FUNDprojetodelei: precision=0.000, recall=0.000, f1-score=0.000
+- LOCALconcreto: precision=0.462, recall=0.167, f1-score=0.245
+- LOCALvirtual: precision=0.000, recall=0.000, f1-score=0.000
+- ORGgovernamental: precision=0.500, recall=0.068, f1-score=0.120
+- ORGnaogovernamental: precision=1.000, recall=0.500, f1-score=0.667
+- ORGpartido: precision=1.000, recall=0.143, f1-score=0.250
+- PESSOAcargo: precision=1.000, recall=0.350, f1-score=0.519
+- PESSOAgrupocargo: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAindividual: precision=1.000, recall=0.324, f1-score=0.490
+- PRODUTOoutros: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOprograma: precision=0.667, recall=0.500, f1-score=0.571
+- PRODUTOsistema: precision=1.000, recall=1.000, f1-score=1.000
+
+Macro Avg: precision=0.610, recall=0.234, f1-score=0.309
+Micro Avg: precision=0.686, recall=0.163, f1-score=0.264
+==================================================
+
+====== FOLD 1 ======
+Relatório por label:
+- DATA: precision=0.917, recall=0.208, f1-score=0.338
+- EVENTO: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDapelido: precision=0.008, recall=0.059, f1-score=0.014
+- FUNDlei: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDprojetodelei: precision=0.000, recall=0.000, f1-score=0.000
+- LOCALconcreto: precision=0.611, recall=0.268, f1-score=0.373
+- LOCALvirtual: precision=0.000, recall=0.000, f1-score=0.000
+- ORGgovernamental: precision=1.000, recall=0.094, f1-score=0.171
+- ORGnaogovernamental: precision=1.000, recall=0.091, f1-score=0.167
+- ORGpartido: precision=1.000, recall=0.200, f1-score=0.333
+- PESSOAcargo: precision=1.000, recall=0.208, f1-score=0.345
+- PESSOAgrupocargo: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAindividual: precision=1.000, recall=0.184, f1-score=0.311
+- PRODUTOoutros: precision=1.000, recall=0.071, f1-score=0.133
+- PRODUTOprograma: precision=0.029, recall=0.333, f1-score=0.054
+- PRODUTOsistema: precision=1.000, recall=0.333, f1-score=0.500
+
+Macro Avg: precision=0.535, recall=0.128, f1-score=0.171
+Micro Avg: precision=0.146, recall=0.146, f1-score=0.146
+==================================================
+
+====== FOLD 2 ======
+Relatório por label:
+- DATA: precision=0.750, recall=0.176, f1-score=0.286
+- EVENTO: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDapelido: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDlei: precision=0.750, recall=0.083, f1-score=0.150
+- FUNDprojetodelei: precision=0.000, recall=0.000, f1-score=0.000
+- LOCALconcreto: precision=0.600, recall=0.222, f1-score=0.324
+- LOCALvirtual: precision=0.000, recall=0.000, f1-score=0.000
+- ORGgovernamental: precision=0.714, recall=0.119, f1-score=0.204
+- ORGnaogovernamental: precision=0.500, recall=0.167, f1-score=0.250
+- ORGpartido: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAcargo: precision=1.000, recall=0.192, f1-score=0.323
+- PESSOAgrupocargo: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAindividual: precision=1.000, recall=0.279, f1-score=0.436
+- PRODUTOoutros: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOprograma: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOsistema: precision=0.500, recall=0.333, f1-score=0.400
+
+Macro Avg: precision=0.363, recall=0.098, f1-score=0.148
+Micro Avg: precision=0.560, recall=0.141, f1-score=0.225
+==================================================
+
+====== FOLD 3 ======
+Relatório por label:
+- DATA: precision=0.667, recall=0.195, f1-score=0.302
+- EVENTO: precision=1.000, recall=0.500, f1-score=0.667
+- FUNDapelido: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDlei: precision=0.750, recall=0.068, f1-score=0.125
+- FUNDprojetodelei: precision=0.000, recall=0.000, f1-score=0.000
+- LOCALconcreto: precision=0.167, recall=0.056, f1-score=0.083
+- LOCALvirtual: precision=0.000, recall=0.000, f1-score=0.000
+- ORGgovernamental: precision=0.833, recall=0.132, f1-score=0.227
+- ORGnaogovernamental: precision=0.000, recall=0.000, f1-score=0.000
+- ORGpartido: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAcargo: precision=1.000, recall=0.133, f1-score=0.235
+- PESSOAgrupocargo: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAindividual: precision=1.000, recall=0.077, f1-score=0.143
+- PRODUTOoutros: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOprograma: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOsistema: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.339, recall=0.073, f1-score=0.111
+Micro Avg: precision=0.106, recall=0.088, f1-score=0.096
+==================================================
+
+====== FOLD 4 ======
+Relatório por label:
+- DATA: precision=0.800, recall=0.163, f1-score=0.271
+- EVENTO: precision=1.000, recall=0.500, f1-score=0.667
+- FUNDapelido: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDlei: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDprojetodelei: precision=0.000, recall=0.000, f1-score=0.000
+- LOCALconcreto: precision=0.444, recall=0.182, f1-score=0.258
+- LOCALvirtual: precision=0.000, recall=0.000, f1-score=0.000
+- ORGgovernamental: precision=0.429, recall=0.070, f1-score=0.120
+- ORGnaogovernamental: precision=1.000, recall=0.200, f1-score=0.333
+- ORGpartido: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAcargo: precision=1.000, recall=0.048, f1-score=0.091
+- PESSOAgrupocargo: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAindividual: precision=1.000, recall=0.086, f1-score=0.158
+- PRODUTOoutros: precision=1.000, recall=0.032, f1-score=0.062
+- PRODUTOprograma: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOsistema: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.417, recall=0.080, f1-score=0.123
+Micro Avg: precision=0.295, recall=0.074, f1-score=0.119
+==================================================
+
+====== FOLD 5 ======
+Relatório por label:
+- DATA: precision=1.000, recall=0.246, f1-score=0.395
+- EVENTO: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDapelido: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDlei: precision=1.000, recall=0.021, f1-score=0.042
+- FUNDprojetodelei: precision=0.000, recall=0.000, f1-score=0.000
+- LOCALconcreto: precision=0.182, recall=0.095, f1-score=0.125
+- LOCALvirtual: precision=0.000, recall=0.000, f1-score=0.000
+- ORGgovernamental: precision=1.000, recall=0.214, f1-score=0.353
+- ORGnaogovernamental: precision=0.500, recall=0.059, f1-score=0.105
+- ORGpartido: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAcargo: precision=1.000, recall=0.207, f1-score=0.343
+- PESSOAgrupocargo: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAindividual: precision=1.000, recall=0.244, f1-score=0.392
+- PRODUTOoutros: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOprograma: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOsistema: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.355, recall=0.068, f1-score=0.110
+Micro Avg: precision=0.603, recall=0.132, f1-score=0.216
+==================================================
+
+====== FOLD 6 ======
+Relatório por label:
+- DATA: precision=0.889, recall=0.242, f1-score=0.381
+- EVENTO: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDapelido: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDlei: precision=1.000, recall=0.034, f1-score=0.067
+- FUNDprojetodelei: precision=0.000, recall=0.000, f1-score=0.000
+- LOCALconcreto: precision=0.562, recall=0.243, f1-score=0.340
+- LOCALvirtual: precision=0.000, recall=0.000, f1-score=0.000
+- ORGgovernamental: precision=0.800, recall=0.093, f1-score=0.167
+- ORGnaogovernamental: precision=1.000, recall=0.143, f1-score=0.250
+- ORGpartido: precision=1.000, recall=0.667, f1-score=0.800
+- PESSOAcargo: precision=1.000, recall=0.208, f1-score=0.345
+- PESSOAgrupocargo: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAindividual: precision=0.875, recall=0.189, f1-score=0.311
+- PRODUTOoutros: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOprograma: precision=0.018, recall=0.143, f1-score=0.031
+- PRODUTOsistema: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.446, recall=0.123, f1-score=0.168
+Micro Avg: precision=0.275, recall=0.139, f1-score=0.184
+==================================================
+
+====== FOLD 7 ======
+Relatório por label:
+- DATA: precision=0.909, recall=0.244, f1-score=0.385
+- EVENTO: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDapelido: precision=0.020, recall=0.071, f1-score=0.031
+- FUNDlei: precision=0.333, recall=0.029, f1-score=0.054
+- FUNDprojetodelei: precision=0.000, recall=0.000, f1-score=0.000
+- LOCALconcreto: precision=0.583, recall=0.194, f1-score=0.292
+- LOCALvirtual: precision=0.000, recall=0.000, f1-score=0.000
+- ORGgovernamental: precision=0.833, recall=0.167, f1-score=0.278
+- ORGnaogovernamental: precision=1.000, recall=0.400, f1-score=0.571
+- ORGpartido: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAcargo: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAgrupocargo: precision=1.000, recall=0.100, f1-score=0.182
+- PESSOAindividual: precision=1.000, recall=0.103, f1-score=0.186
+- PRODUTOoutros: precision=0.333, recall=0.040, f1-score=0.071
+- PRODUTOprograma: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOsistema: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.376, recall=0.084, f1-score=0.128
+Micro Avg: precision=0.215, recall=0.117, f1-score=0.152
+==================================================
+
+====== FOLD 8 ======
+Relatório por label:
+- DATA: precision=0.933, recall=0.215, f1-score=0.350
+- EVENTO: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDapelido: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDlei: precision=0.667, recall=0.042, f1-score=0.078
+- FUNDprojetodelei: precision=0.000, recall=0.000, f1-score=0.000
+- LOCALconcreto: precision=0.357, recall=0.143, f1-score=0.204
+- LOCALvirtual: precision=0.000, recall=0.000, f1-score=0.000
+- ORGgovernamental: precision=0.667, recall=0.083, f1-score=0.148
+- ORGnaogovernamental: precision=0.750, recall=0.231, f1-score=0.353
+- ORGpartido: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAcargo: precision=1.000, recall=0.121, f1-score=0.216
+- PESSOAgrupocargo: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAindividual: precision=1.000, recall=0.194, f1-score=0.326
+- PRODUTOoutros: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOprograma: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOsistema: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.336, recall=0.064, f1-score=0.105
+Micro Avg: precision=0.132, recall=0.115, f1-score=0.123
+==================================================
+
+====== FOLD 9 ======
+Relatório por label:
+- DATA: precision=1.000, recall=0.306, f1-score=0.469
+- EVENTO: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDapelido: precision=0.000, recall=0.000, f1-score=0.000
+- FUNDlei: precision=0.500, recall=0.020, f1-score=0.039
+- FUNDprojetodelei: precision=0.000, recall=0.000, f1-score=0.000
+- LOCALconcreto: precision=0.333, recall=0.333, f1-score=0.333
+- LOCALvirtual: precision=0.000, recall=0.000, f1-score=0.000
+- ORGgovernamental: precision=0.857, recall=0.200, f1-score=0.324
+- ORGnaogovernamental: precision=0.667, recall=0.200, f1-score=0.308
+- ORGpartido: precision=1.000, recall=0.333, f1-score=0.500
+- PESSOAcargo: precision=1.000, recall=0.139, f1-score=0.244
+- PESSOAgrupocargo: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOAindividual: precision=0.889, recall=0.211, f1-score=0.340
+- PRODUTOoutros: precision=0.000, recall=0.000, f1-score=0.000
+- PRODUTOprograma: precision=0.036, recall=0.200, f1-score=0.061
+- PRODUTOsistema: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.393, recall=0.121, f1-score=0.164
+Micro Avg: precision=0.259, recall=0.152, f1-score=0.191
+==================================================

@@ -1,0 +1,86 @@
+{
+  "LOCAL": {
+    "precision": 0.847457627118644,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8771929824561403,
+    "support": 55.0
+  },
+  "ORGANIZACAO": {
+    "precision": 0.9428571428571428,
+    "recall": 0.8048780487804879,
+    "f1-score": 0.868421052631579,
+    "support": 41.0
+  },
+  "PESSOA": {
+    "precision": 0.9761904761904762,
+    "recall": 0.9010989010989011,
+    "f1-score": 0.9371428571428572,
+    "support": 91.0
+  },
+  "TEMPO": {
+    "precision": 0.8955223880597015,
+    "recall": 0.8450704225352113,
+    "f1-score": 0.8695652173913043,
+    "support": 71.0
+  },
+  "ABSTRACAO": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "ACONTECIMENTO": {
+    "precision": 0.75,
+    "recall": 0.72,
+    "f1-score": 0.7346938775510204,
+    "support": 25.0
+  },
+  "COISA": {
+    "precision": 0.7894736842105263,
+    "recall": 0.625,
+    "f1-score": 0.6976744186046512,
+    "support": 24.0
+  },
+  "OBRA": {
+    "precision": 0.9090909090909091,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7692307692307693,
+    "support": 30.0
+  },
+  "OUTRO": {
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4444444444444444,
+    "support": 6.0
+  },
+  "VALOR": {
+    "precision": 0.8095238095238095,
+    "recall": 0.8095238095238095,
+    "f1-score": 0.8095238095238095,
+    "support": 21.0
+  },
+  "micro avg": {
+    "precision": 0.8892215568862275,
+    "recall": 0.8159340659340659,
+    "f1-score": 0.8510028653295129,
+    "support": 364.0
+  },
+  "macro avg": {
+    "precision": 0.7586782703717876,
+    "recall": 0.6614662091029319,
+    "f1-score": 0.7007889428976576,
+    "support": 364.0
+  },
+  "weighted avg": {
+    "precision": 0.8891561289231327,
+    "recall": 0.8159340659340659,
+    "f1-score": 0.8481459625182471,
+    "support": 364.0
+  },
+  "samples avg": {
+    "precision": 0.8686031746031747,
+    "recall": 0.842111111111111,
+    "f1-score": 0.8436507196507196,
+    "support": 364.0
+  }
+}

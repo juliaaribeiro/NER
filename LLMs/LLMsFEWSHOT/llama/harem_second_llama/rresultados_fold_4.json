@@ -1,0 +1,89 @@
+{
+  "fold": 4,
+  "report": {
+    "LOCAL": {
+      "precision": 1.0,
+      "recall": 0.04081632653061224,
+      "f1-score": 0.0784313725490196,
+      "support": 49.0
+    },
+    "ORGANIZACAO": {
+      "precision": 0.5217391304347826,
+      "recall": 0.5581395348837209,
+      "f1-score": 0.5393258426966292,
+      "support": 86.0
+    },
+    "PESSOA": {
+      "precision": 1.0,
+      "recall": 0.030303030303030304,
+      "f1-score": 0.058823529411764705,
+      "support": 66.0
+    },
+    "TEMPO": {
+      "precision": 0.40217391304347827,
+      "recall": 0.6379310344827587,
+      "f1-score": 0.49333333333333335,
+      "support": 58.0
+    },
+    "ABSTRACAO": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "ACONTECIMENTO": {
+      "precision": 1.0,
+      "recall": 0.045454545454545456,
+      "f1-score": 0.08695652173913043,
+      "support": 22.0
+    },
+    "COISA": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 16.0
+    },
+    "OBRA": {
+      "precision": 1.0,
+      "recall": 0.047619047619047616,
+      "f1-score": 0.09090909090909091,
+      "support": 21.0
+    },
+    "OUTRO": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 8.0
+    },
+    "VALOR": {
+      "precision": 1.0,
+      "recall": 0.03571428571428571,
+      "f1-score": 0.06896551724137931,
+      "support": 28.0
+    },
+    "micro avg": {
+      "precision": 0.4742268041237113,
+      "recall": 0.2598870056497175,
+      "f1-score": 0.3357664233576642,
+      "support": 354.0
+    },
+    "macro avg": {
+      "precision": 0.592391304347826,
+      "recall": 0.1395977804988001,
+      "f1-score": 0.14167452078803472,
+      "support": 354.0
+    },
+    "weighted avg": {
+      "precision": 0.7180668140506019,
+      "recall": 0.2598870056497175,
+      "f1-score": 0.2499265956820121,
+      "support": 354.0
+    },
+    "samples avg": {
+      "precision": 0.24344569288389512,
+      "recall": 0.21490101658640984,
+      "f1-score": 0.2128232566434814,
+      "support": 354.0
+    }
+  }
+}

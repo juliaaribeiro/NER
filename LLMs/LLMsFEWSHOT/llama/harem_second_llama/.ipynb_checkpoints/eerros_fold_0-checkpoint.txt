@@ -1,0 +1,5197 @@
+Erros do Fold 0
+
+Texto:
+Como se chama o vocalista do grupo U2 ?
+Entidades verdadeiras:
+[
+  {
+    "text": "U2",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Com que idade morreu Elvis Presley ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Elvis Presley",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Onde está a Estátua da Liberdade ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Estátua da Liberdade",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em que cidade italiana fica o Coliseu ? Em que cidade fica a Praça Navona ? Onde é que foi construída em Itália a Villa Medici ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Coliseu",
+    "label": "OBRA"
+  },
+  {
+    "text": "Praça Navona",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Villa Medici",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Que companhia britânica foi absorvida pela BMW em 1994 ? Quantos milhões de libras pagou a BMW pela Rover ? Em que país foi construída a primeira fábrica da BMW no estrangeiro?
+Entidades verdadeiras:
+[
+  {
+    "text": "BMW",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO"
+  },
+  {
+    "text": "BMW",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rover",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "BMW",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem foi eleito como primeiro presidente negro da África do Sul ?
+Entidades verdadeiras:
+[
+  {
+    "text": "África do Sul",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Como se chamava o vocalista dos Nirvana ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Nirvana",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Que presidente dos Estados Unidos | presidente dos Estados Unidos é que Francisco Durán tentou matar?
+Entidades verdadeiras:
+[
+  {
+    "text": "presidente dos Estados Unidos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Francisco Durán",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Que filho de um ex-presidente dos EUA | ex-presidente dos EUA foi eleito governador do Texas | governador do Texas em 1994 ?
+Entidades verdadeiras:
+[
+  {
+    "text": "ex-presidente dos EUA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "governador do Texas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Texas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Para quantos Óscares foi nomeado " A Lista de Schindler "?
+Entidades verdadeiras:
+[
+  {
+    "text": "Óscares",
+    "label": "OUTRO"
+  },
+  {
+    "text": "A Lista de Schindler",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem recebeu o Óscar de Melhor Actor por « Forrest Gump »?
+Entidades verdadeiras:
+[
+  {
+    "text": "Óscar de Melhor Actor",
+    "label": "OUTRO"
+  },
+  {
+    "text": "Forrest Gump",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quantos pisos tem o Empire State Building ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Empire State Building",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Como se chama o patrão da Microsoft | patrão da Microsoft ?
+Entidades verdadeiras:
+[
+  {
+    "text": "patrão da Microsoft",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Microsoft",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em que ano foi assassinado John F. Kennedy ?
+Entidades verdadeiras:
+[
+  {
+    "text": "John F. Kennedy",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Com que actriz era casado Arthur Miller ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Arthur Miller",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Que político era chanceler da Alemanha | chanceler da Alemanha antes de Helmut Kohl ?
+Entidades verdadeiras:
+[
+  {
+    "text": "chanceler da Alemanha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Helmut Kohl",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Em que ano caiu o Muro de Berlim | Muro de Berlim ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Muro de Berlim",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Muro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Berlim",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Qual a altura do Evereste ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Evereste",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Em que cidade francesa fica o Moulin Rouge ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Moulin Rouge",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que nasceu Franz Kafka ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Franz Kafka",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que foi construída a Esfinge ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Esfinge",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem escreveu o romance não-publicado " Cruz sem Amor "?
+Entidades verdadeiras:
+[
+  {
+    "text": "Cruz sem Amor",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em que cidade bávara fica a sede da Adidas AG ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Adidas AG",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem é o desenhador de Astérix e Obélix ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Astérix e Obélix",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem é Albert Einstein ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Albert Einstein",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem é o Godfather of Soul ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Godfather of Soul",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem é o marido da rainha Isabel II ?
+Entidades verdadeiras:
+[
+  {
+    "text": "rainha Isabel II",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem é o chefe de estado da Austrália ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Austrália",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Qual o verdadeiro nome de Romy Schneider ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Romy Schneider",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que nasceu Aldous Huxley ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Aldous Huxley",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Como se chama o pai de Steffi Graf ? Contra quem é que ela não jogou nas meias-finais de Roland Garros em 1994 ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Steffi Graf",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Roland Garros",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que Goethe fundou a Sociedade das Sextas ? Em que ano assistiu ele à coroação do Imperador José II ? Em que ano nasceu ele? Em que cidade é que ele morreu?
+Entidades verdadeiras:
+[
+  {
+    "text": "Goethe",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sociedade das Sextas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Imperador José II",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando foi criado o Prémio Schiller ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Prémio Schiller",
+    "label": "OUTRO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Que filme ganhou o Óscar em 1992 na categoria de Melhor Filme ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Óscar",
+    "label": "OUTRO"
+  },
+  {
+    "text": "em 1992",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Melhor Filme",
+    "label": "OUTRO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem foi o realizador de « E tudo o vento levou »? Em que ano recebeu ele o Óscar por « E tudo o vento levou »? Como se chamava a autora de " E tudo o vento levou "?
+Entidades verdadeiras:
+[
+  {
+    "text": "E tudo o vento levou",
+    "label": "OBRA"
+  },
+  {
+    "text": "Óscar",
+    "label": "OUTRO"
+  },
+  {
+    "text": "E tudo o vento levou",
+    "label": "OBRA"
+  },
+  {
+    "text": "E tudo o vento levou",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+De que grupo era vocalista Freddy Mercury ? Em que ano morreu ele?
+Entidades verdadeiras:
+[
+  {
+    "text": "Freddy Mercury",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem foi o inventor da Coca Cola ? Quando foi criada a Coca Cola ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Coca Cola",
+    "label": "COISA"
+  },
+  {
+    "text": "Coca Cola",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Quem abriu o Baile da Opera de Viena | Baile da Opera de Viena ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Baile da Opera de Viena",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Baile",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Opera de Viena",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quantos estados membros tinha a UE em 1994 ? Em que cidade teve lugar a cimeira da UE que começou a 26 de Junho de 1995 ? Quantos estados membros tinha a UE em 1995 ? Que estados europeus aderiram à UE em 1995 ?
+Entidades verdadeiras:
+[
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO"
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "a 26 de Junho de 1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "UE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Rudy Giuliani era o presidente da câmara de que cidade americana?
+Entidades verdadeiras:
+[
+  {
+    "text": "Rudy Giuliani",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que terá lugar a estreia de « O Fantasma da Ópera » de Andrew Lloyd Webber em Basileia ? Que musical dele foi interpretado pelo coro ecuménico juvenil de Friedrichsdorf de 1994 ? Quanto dinheiro pagou ele por uma pintura de Picasso num leilão? Que musical de Andrew Llyod Webber foi interpretado em Essen em 1996 ?
+Entidades verdadeiras:
+[
+  {
+    "text": "O Fantasma da Ópera",
+    "label": "OBRA"
+  },
+  {
+    "text": "Andrew Lloyd Webber",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Basileia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Friedrichsdorf",
+    "label": "LOCAL"
+  },
+  {
+    "text": "de 1994",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Picasso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Andrew Llyod Webber",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Essen",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1996",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em que ano nasceu Christian von Holst em Gdansk ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Christian von Holst",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Gdansk",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Quem é Werner Herzog ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Werner Herzog",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Em que cidade fica o Passeio da Fama ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Passeio da Fama",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em quantos países foram transmitidas as Olimpíadas de Albertville | Olimpíadas de Albertville ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Olimpíadas de Albertville",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Olimpíadas",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Albertville",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Qual era a alcunha de Al Capone ? Quem era ele? Quando é que ele foi alvejado? Que idade tinha ele quando levou a sua família para Chicago ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Al Capone",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Desde quando é que a Suíça é membro da UNESCO ? Quem era a presidente do comité suíço da UNESCO em 1995 ? Quantos estados-membros tinha a organização em 1995 ? O prémio UNESCO da Paz é de quantos dólares?
+Entidades verdadeiras:
+[
+  {
+    "text": "Suíça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "UNESCO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "UNESCO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "UNESCO",
+    "label": "OUTRO"
+  },
+  {
+    "text": "Paz",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem era o presidente do júri do 47º Festival Cinematográfico de Cannes | 47º Festival Cinematográfico de Cannes ? Que filme recebeu a Palma de Ouro no 47º Festival de Cannes | 47º Festival de Cannes ? Quantos filmes competiam pela Palma de Ouro do 47º Festival de Cannes | 47º Festival de Cannes ? Quem recebeu o prémio de melhor actriz no 47º Festival de Cannes | 47º Festival de Cannes ?
+Entidades verdadeiras:
+[
+  {
+    "text": "47º Festival Cinematográfico de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "47º Festival Cinematográfico",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Palma de Ouro",
+    "label": "OUTRO"
+  },
+  {
+    "text": "47º Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "47º Festival",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Palma de Ouro",
+    "label": "OUTRO"
+  },
+  {
+    "text": "47º Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "47º Festival",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL"
+  },
+  {
+    "text": "47º Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "47º Festival",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quantos golos é que o Pelé marcou na sua carreira?
+Entidades verdadeiras:
+[
+  {
+    "text": "Pelé",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em que três categorias é que Whitney Houston ganhou o prémio Single por " I will always love you "?
+Entidades verdadeiras:
+[
+  {
+    "text": "Whitney Houston",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Single",
+    "label": "OUTRO"
+  },
+  {
+    "text": "I will always love you",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Que autor foi o primeiro árabe galardoado com o Nobel da Literatura ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Nobel da Literatura",
+    "label": "OUTRO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O que são os " Estudos sobre a Histeria "?
+Entidades verdadeiras:
+[
+  {
+    "text": "Estudos sobre a Histeria",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+De que cidade é Friedensreich Hundertwasser ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Friedensreich Hundertwasser",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que acabou a Guerra do Vietname ? Quantos soldados é que os EUA tinham estacionados no Vietname durante a Guerra nos anos 60 ? Quantas pessoas morreram na Guerra do Vietname ? Quem era presidente dos EUA | presidente dos EUA quando a guerra chegou ao fim?
+Entidades verdadeiras:
+[
+  {
+    "text": "Guerra do Vietname",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "EUA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Vietname",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Guerra",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "nos anos 60",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Guerra do Vietname",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "presidente dos EUA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O que é Madame Tussaud?
+Entidades verdadeiras:
+[]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Quanto dinheiro ganhou « Parque Jurássico » de Steven Spielberg ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Parque Jurássico",
+    "label": "OBRA"
+  },
+  {
+    "text": "Steven Spielberg",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem escreveu " Mein Kampf "?
+Entidades verdadeiras:
+[
+  {
+    "text": "Mein Kampf",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Quem é Helmut Newton ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Helmut Newton",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que os japoneses atacaram Pearl Harbor ? Quantos americanos morreram no ataque a Pearl Harbor a 7 de dezembro de 1941 ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Pearl Harbor",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pearl Harbor",
+    "label": "LOCAL"
+  },
+  {
+    "text": "a 7 de dezembro de 1941",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Que grupo ganhou o Festival da Eurovisão em Brighton em 1974 ? Quando é que teve lugar o primeiro Festival da Eurovisão ? Onde é que teve lugar o primeiro Festival da Eurovisão ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Festival da Eurovisão",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Brighton",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1974",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Festival da Eurovisão",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Festival da Eurovisão",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Qual o significado da sigla UNICEF ? Quando é que foi criada a UNICEF ? Onde é que é a sede da UNICEF ?
+Entidades verdadeiras:
+[
+  {
+    "text": "UNICEF",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "UNICEF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "UNICEF",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+De que banda rock é vocalista Anthony Kiedis ? O que é Stadium Arcadium ? Diga três albuns da banda.
+Entidades verdadeiras:
+[
+  {
+    "text": "Anthony Kiedis",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Stadium Arcadium",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que teve lugar a primeira Love Parade ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Love Parade",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que Audrey Hepburn e Mel Ferrer se casaram? Onde é que mora hoje o filho de Audrey Hepburn ? De que organização é que ela foi nomeada embaixadora extraordinária?
+Entidades verdadeiras:
+[
+  {
+    "text": "Audrey Hepburn",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mel Ferrer",
+    "label": "PESSOA"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Audrey Hepburn",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem é que falou em Setembro de 1939 no 17º Congresso Internacional do PEN-clube sobre o problema da liberdade?
+Entidades verdadeiras:
+[
+  {
+    "text": "em Setembro de 1939",
+    "label": "TEMPO"
+  },
+  {
+    "text": "17º Congresso Internacional do PEN-clube",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Diga três filmes de Martin Scorsese . Em que universidade é que ele estudou Cinematografia em 1960 ? Para quantos Óscares é que ele já foi nomeado? Quem é o autor da obra « A Última Tentação de Cristo »?
+Entidades verdadeiras:
+[
+  {
+    "text": "Martin Scorsese",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cinematografia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "em 1960",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Óscares",
+    "label": "OUTRO"
+  },
+  {
+    "text": "A Última Tentação de Cristo",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que foi fundada a Universidade de Santiago de Compostela | Universidade de Santiago de Compostela ? De que região espanhola é que Santiago é capital? Que organização nomeou Santiago de Compsotela Património Mundial em 1995 ? O que é a « Rota da Prata »?
+Entidades verdadeiras:
+[
+  {
+    "text": "Universidade de Santiago de Compostela",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Santiago de Compostela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Santiago",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Santiago de Compsotela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Património Mundial",
+    "label": "OUTRO"
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Rota da Prata",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Onde fica Hiroxima ? Diga os oito bairros de Hiroxima . Qual a área total de Hiroxima ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Hiroxima",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hiroxima",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hiroxima",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O que é a CeBIT ? Quantos exibidores tinha a CeBIT em 2005 ?
+Entidades verdadeiras:
+[
+  {
+    "text": "CeBIT",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "CeBIT",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 2005",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem realizou o filme « Morte em Veneza »?
+Entidades verdadeiras:
+[
+  {
+    "text": "Morte em Veneza",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Onde é que tem lugar a Semana Verde ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Semana Verde",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Quem era Herbert Erhardt ? Quando foi construído o estádio do Malmö ? Onde é que teve lugar o Campeonato do Mundo de Futebol de 1970 | Campeonato do Mundo de Futebol de 1970 ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Herbert Erhardt",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Malmö",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Campeonato do Mundo de Futebol de 1970",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Campeonato do Mundo de Futebol",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "de 1970",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que teve lugar a primeira Oktoberfest ? Quantas pessoas morreram no atentado na Oktoberfest ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Oktoberfest",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Oktoberfest",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem é Henning Mankell ? Como se chama o inspector da polícia no seu livro « Assassino sem rosto »?
+Entidades verdadeiras:
+[
+  {
+    "text": "Henning Mankell",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Assassino sem rosto",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Diga duas afiliadas da Volvo . Quando foi criada a Volvo Car Corporation ? Quem foram os fundadores da Volvo ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Volvo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Volvo Car Corporation",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Volvo",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Qual é a área do Pentâgono ? Quantos lados têm o Pentâgono ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Pentâgono",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pentâgono",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Que significa a sigla RAF ? Quem era Rolf Heissler ? Diga três membros da RAF .
+Entidades verdadeiras:
+[
+  {
+    "text": "RAF",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Rolf Heissler",
+    "label": "PESSOA"
+  },
+  {
+    "text": "RAF",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Onde fica a Galeria dos Ofícios ? O que é a Galeria dos Ofícios ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Galeria dos Ofícios",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Galeria dos Ofícios",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Qual é a altura do Monte Branco ? Quando é que o Monte Branco foi escalado pela primeira vez? De que consiste o Monte Branco ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Monte Branco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Monte Branco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Monte Branco",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Monte Branco",
+    "label": "COISA"
+  },
+  {
+    "text": "altura",
+    "label": "ABSTRACAO"
+  },
+  {
+    "text": "primeira vez",
+    "label": "ABSTRACAO"
+  },
+  {
+    "text": "Monte Branco",
+    "label": "COISA"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Qual o comprimento da alameda principal do Prater ? O que e o " Wurstelprater "? Onde fica o Calafati ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Prater",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Wurstelprater",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Calafati",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quando foi publicada a API Web do Google
+Entidades verdadeiras:
+[
+  {
+    "text": "API Web",
+    "label": "OBRA"
+  },
+  {
+    "text": "Google",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Qual é o objectivo do Protocolo de Quioto ? Diga três estados signatários do Protocolo . Quantos estados aderiram ao Protocolo de Quioto ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Protocolo de Quioto",
+    "label": "OBRA"
+  },
+  {
+    "text": "Protocolo",
+    "label": "OBRA"
+  },
+  {
+    "text": "Protocolo de Quioto",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem é o líder da organização Pro Familia ? Quantos membros têm a organização?
+Entidades verdadeiras:
+[
+  {
+    "text": "Pro Familia",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Qual é o pico mais alto de África ? Quando é que foi criado o Parque Nacional do Kilimanjaro ? De que material é feito o Kilimanjaro ?
+Entidades verdadeiras:
+[
+  {
+    "text": "África",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Parque Nacional do Kilimanjaro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Kilimanjaro",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A que partido pertence Angela Merkel ? Como se chama o irmão dela? Quem disse "Die multikulturelle Gegelllschaft ist gescheitert" ? .
+Entidades verdadeiras:
+[
+  {
+    "text": "Angela Merkel",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quanto custou a construção da Torre Eiffel ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Torre Eiffel",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem é Samuel Hahnemann ? Em homeopatia, como se que chama o processo de diluição?
+Entidades verdadeiras:
+[
+  {
+    "text": "Samuel Hahnemann",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Em quantos livros está dividido « O Senhor dos Anéis »?
+Entidades verdadeiras:
+[
+  {
+    "text": "O Senhor dos Anéis",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Onde fica o Alhambra ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Alhambra",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Onde fica a sede da Warner Bros. ? Com que companhia se fundiu a Warner Bros. em 2000 ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Warner Bros.",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Warner Bros.",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 2000",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Que profissão praticou Gerhard Schröder e 1978 a 1990 ? Em que encontro ele foi representado por Chirac ? Como se chama a quarta mulher dele?
+Entidades verdadeiras:
+[
+  {
+    "text": "Gerhard Schröder",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1978 a 1990",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Chirac",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Qual a profundidade do Grand Canyon ? Como se chamam as três cataratas do Canyon ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Grand Canyon",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Canyon",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Que marca fez Benetton famoso?
+Entidades verdadeiras:
+[
+  {
+    "text": "Benetton",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Onde fica o Carlton Center ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlton Center",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Quando foi fundada a SEAT ? A que companhia alemã pertence hoje a SEAT ?
+Entidades verdadeiras:
+[
+  {
+    "text": "SEAT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "SEAT",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Em que concerto participaram os Coldplay a 2 de Julho de 2005 ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Coldplay",
+    "label": "PESSOA"
+  },
+  {
+    "text": "a 2 de Julho de 2005",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Que idade tinha Cate Blanchett quando lhe morreu o pai? Qual foi o primeiro filme dela?
+Entidades verdadeiras:
+[
+  {
+    "text": "Cate Blanchett",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+De que país é Peter Jackson ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Peter Jackson",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O que é o Santo Ofício ? Até quando existiu a Inquisição em França ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Santo Ofício",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Inquisição",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Como se chamava a mãe de Nero ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Nero",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Isabel Allende é parente de que antigo presidente do Chile | presidente do Chile ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Isabel Allende",
+    "label": "PESSOA"
+  },
+  {
+    "text": "presidente do Chile",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Chile",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Onde ficam as universidades de Yale e Harvard ? Qual é o maior estado da Nova Inglaterra ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Yale",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Harvard",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Nova Inglaterra",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Porque é que foi construída a Coluna da Vitória em Berlim ? Como se chama a escultura de bronze que existe na Coluna da Vitória ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Coluna da Vitória",
+    "label": "OBRA"
+  },
+  {
+    "text": "Berlim",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Coluna da Vitória",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Quando é que morreu Alfred Hitchcock ? Para onde é que ele emigrou em 1939 ? Como é que se chamava o seu primeiro filme americano?
+Entidades verdadeiras:
+[
+  {
+    "text": "Alfred Hitchcock",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1939",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quem organiza o Carnaval do Rio | Carnaval do Rio ? Qual é o comprimento da arena do Sambódromo ?
+Entidades verdadeiras:
+[
+  {
+    "text": "Carnaval do Rio",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Carnaval",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sambódromo",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Este espaço se destina a divulgar os principais Programas , Projetos e Ações desenvolvidos pela Coordenação-Geral de Educação Ambiental que tem como eixos centrais: Fortalecimento da Política Nacional de Educação Ambiental - Lei 9795/99 ; Formação Continuada na Educação Básica ; Fomento a projetos de Educação Ambiental | Fomento a projetos de Educação Ambiental ; Educação Ambiental no Ensino Superior .Estas ações, em sua maior parte, estão em consonância com as ações procedidas no âmbito da Diretoria de Educação Ambiental - DEA , do Ministério do Meio Ambiente ; guardadas suas competências e atribuições específicas.
+Entidades verdadeiras:
+[
+  {
+    "text": "Programas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Projetos",
+    "label": "OBRA"
+  },
+  {
+    "text": "Ações",
+    "label": "OBRA"
+  },
+  {
+    "text": "Coordenação-Geral de Educação Ambiental",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Fortalecimento da Política Nacional de Educação Ambiental",
+    "label": "OBRA"
+  },
+  {
+    "text": "Lei 9795/99",
+    "label": "OBRA"
+  },
+  {
+    "text": "Formação Continuada na Educação Básica",
+    "label": "OBRA"
+  },
+  {
+    "text": "Fomento a projetos de Educação Ambiental",
+    "label": "OBRA"
+  },
+  {
+    "text": "Educação Ambiental no Ensino Superior",
+    "label": "OBRA"
+  },
+  {
+    "text": "Diretoria de Educação Ambiental",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "DEA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério do Meio Ambiente",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Enraizamento da Educação Ambiental no Brasil
+Entidades verdadeiras:
+[
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Ações do Órgão Gestor desenvolvidas junto às Unidades da Federação | Unidades da Federação , a fim de articular e fortalecer entidades, instituições e colegiados que trabalham com Educação Ambiental , incentivando a organicidade entre as ações, projetos e programas.
+Entidades verdadeiras:
+[
+  {
+    "text": "Órgão Gestor",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Unidades da Federação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Unidades",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Federação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Contribuir para a ampliação do debate a respeito da Educação Ambiental ( EA ) em instituições de educação superior ( IES ) brasileiras, com vistas à reflexão sobre políticas públicas educacionais que considerem a dimensão ambiental na formação dos profissionais de nível superior das diferentes áreas do conhecimento. Ver síntese da pesquisa.
+Entidades verdadeiras:
+[
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "EA",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "IES",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quais são os caminhos utilizados pelas escolas em Educação Ambiental ? Para responder a essa pergunta, uma parceria entre a Secretaria de Educação Continuada, Alfabetização e Diversidade - SECAD/MEC , o INEP e a Associação Nacional de Pesquisa em Educação - ANPED possibilitou a elaboração de uma pesquisa para aprofundar os dados obtidos no Censo Escolar ( 2001-2004 ) e conhecer melhor como estas alternativas são processadas e significadas nos diferentes contextos escolares, possibilitando uma compreensão qualitativa dos caminhos de inserção da Educação Ambiental no ensino fundamental.
+Entidades verdadeiras:
+[
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Secretaria de Educação Continuada, Alfabetização e Diversidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SECAD/MEC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "INEP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação Nacional de Pesquisa em Educação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ANPED",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Censo Escolar",
+    "label": "OBRA"
+  },
+  {
+    "text": "2001-2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Educação de Chico Mendes
+Entidades verdadeiras:
+[
+  {
+    "text": "Educação de Chico Mendes",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O Programa Educação de Chico Mendes surgiu para dar continuidade à construção permanente da educação ambiental e à promoção de um círculo virtuoso na busca do conhecimento, pesquisa e geração de saber e ações transformadoras a partir das escolas e das comunidades locais. [...]
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa Educação de Chico Mendes",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+- Formação continuada de professores em Educação Ambiental
+Entidades verdadeiras:
+[
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+A Resolução nº 13 do FNDE dá continuidade do Programa Vamos Cuidar do Brasil com as Escolas , estabelecendo normas para o apoio financeiro a projetos de formação de professores em Educação Ambiental . Tais projetos de formação envolverão professores do segundo ciclo do ensino fundamental ( 5a a 8a séries), de escolas públicas que participaram do processo da II Conferência Nacional Infanto-Juvenil pelo Meio Ambiente ; e à elaboração, aquisição, reimpressão ou reprodução do material didático empregado na formação. O objetivo desta ação, é estimular, em professores, alunos e gestores de educação, a leitura crítica da realidade a partir da diversidade e do meio ambiente e a participação no processo de construção de conhecimentos, pesquisa e intervenção cidadã com base em valores voltados à sustentabilidade da vida em suas múltiplas dimensões. Os projetos de formação devem aprimorar a qualidade da abordagem da educação ambiental que, segundo Censo do INEP | Censo do INEP | Censo do INEP , encontra presente em 94,5% d
+Entidades verdadeiras:
+[
+  {
+    "text": "Resolução nº 13",
+    "label": "OBRA"
+  },
+  {
+    "text": "FNDE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Programa Vamos Cuidar do Brasil com as Escolas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "II Conferência Nacional Infanto-Juvenil pelo Meio Ambiente",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "INEP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Censo do INEP",
+    "label": "OBRA"
+  },
+  {
+    "text": "Censo",
+    "label": "OBRA"
+  },
+  {
+    "text": "INEP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "94,5%",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+as escolas do ensino fundamental do Brasil .
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Portfolio do Órgão Gestor da Política Nacional de Educação Ambiental
+Entidades verdadeiras:
+[
+  {
+    "text": "Órgão Gestor da Política Nacional de Educação Ambiental",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Reúne um resumo de todos os programas, projetos e ações do Órgão Gestor da Política Nacional de Educação Ambiental .
+Entidades verdadeiras:
+[
+  {
+    "text": "Órgão Gestor da Política Nacional de Educação Ambiental",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Programa Juventude e Meio Ambiente
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa Juventude e Meio Ambiente",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Este Programa se propõe a incentivar e a aprofundar o debate socioambiental com foco em políticas públicas, deflagrando um processo de formação de jovens e de fortalecimento dos Coletivos Jovens de Meio Ambiente existentes em todo o país. A proposta dos Coletivos Jovens vem sendo construída e implementada desde 2003 , a partir da realização da I Conferência Nacional Infanto-Juvenil pelo Meio Ambiente . (*acesse a proposta de identidade visual dos Coletivos Jovens para compreender melhor esses grupos*)
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Coletivos Jovens de Meio Ambiente",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Coletivos Jovens",
+    "label": "PESSOA"
+  },
+  {
+    "text": "desde 2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "I Conferência Nacional Infanto-Juvenil pelo Meio Ambiente",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Coletivos Jovens",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O Manual Orientador para Coletivos Jovens de Meio Ambiente é uma das publicações do Programa , e tem como objetivo contribuir para o fortalecimento dos Coletivos Jovens ( CJs ) já existentes e estimular a formação de novos Coletivos Jovens em municípios.A principal linha de ação do Programa é a formação de jovens na área socioambiental, em cinco temas principais: Educação Ambiental ; Fortalecimento Organizacional ; Educomunicação ; Empreendedorismo ; e Participação Política . Trata-se de um processo de formação presencial e a distância, e que envolverá jovens de todos os estados brasileiros.
+Entidades verdadeiras:
+[
+  {
+    "text": "Manual Orientador para Coletivos Jovens de Meio Ambiente",
+    "label": "OBRA"
+  },
+  {
+    "text": "Programa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Coletivos Jovens",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CJs",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Coletivos Jovens",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Programa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Fortalecimento Organizacional",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Educomunicação",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Empreendedorismo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Participação Política",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Orientações Curriculares
+Entidades verdadeiras:
+[]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Ensino Médio
+Entidades verdadeiras:
+[
+  {
+    "text": "Ensino Médio",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+A Secretaria de Educação Continuada, Alfabetização e Diversidade ( SECAD ) foi convidada pelo departamento de Ensino Médio da Secretaria de Educação Básica ( SEB ) a participar do processo de reelaboração dos Parâmetros Curriculares Nacionais do Ensino Médio , no intuito de produzir textos que contemplassem a perspectiva da diversidade.Nesse sentido, a SECAD fez uma oficina com a participação de suas coordenações-gerais onde foi trabalhada a questão da diversidade no currículo como forma de orientar as atividades pedagógicas, ou seja, definir qual a concepção de currículo e diversidade que se quer trabalhar, quais os objetivos e qual a melhor maneira de inserir as diferentes temáticas nas áreas e disciplinas do ensino médio. Cada coordenação produziu um texto procurando articular as várias temáticas, que resultará num Caderno de Diversidade para acompanhar os Parâmetros Curriculares Nacionais do Ensino Médio .
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Educação Continuada, Alfabetização e Diversidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SECAD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ensino Médio",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Secretaria de Educação Básica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SEB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Parâmetros Curriculares Nacionais do Ensino Médio",
+    "label": "OBRA"
+  },
+  {
+    "text": "SECAD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Caderno de Diversidade",
+    "label": "OBRA"
+  },
+  {
+    "text": "Parâmetros Curriculares Nacionais do Ensino Médio",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Com-vida MEC
+Entidades verdadeiras:
+[
+  {
+    "text": "Com-vida MEC",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Programa Institucional de Gestão Ambiental do MEC | Programa Institucional de Gestão Ambiental do MEC que visa a melhor gestão dos recursos naturais e a diminuição dos impactos ambientais gerados pelas suas atividades.
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa Institucional de Gestão Ambiental do MEC",
+    "label": "OBRA"
+  },
+  {
+    "text": "Programa Institucional de Gestão Ambiental",
+    "label": "OBRA"
+  },
+  {
+    "text": "MEC",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Bibliografia de Censurados
+Entidades verdadeiras:
+[
+  {
+    "text": "Censurados",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Os Censurados nasceram em Lisboa " no ano de 1988 , pelo antigo vocalista da banda Ku de Judas , João Ribas , juntando-se-lhe Orlando Cohen , o ex-membro dos Peste & Sida , Samuel Palitos e ainda Fred Valsassina .
+Entidades verdadeiras:
+[
+  {
+    "text": "Censurados",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "no ano de 1988",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Ku de Judas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "João Ribas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Orlando Cohen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Peste & Sida",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Samuel Palitos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fred Valsassina",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Os Censurados começaram por tocar ao vivo. Muito. As letras, em português, eram simples e directas, refrões fortes que traduziam o sentimento da juventude da era Cavaquista . O primeiro registo em vinil, na compilação " Feedback " incluiu os temas " Senhores Politicos ", Não Vales Nada " e " Está a andar de Mota " (um instrumental). " Tu ò Bófia ", " Não Vales Nada ", " Angústia ", " Senhores Politicos " eram temas fortíssimos que foram passando de cassete em cassete e eram entoados em coro nos concertos muito antes do lançamento do álbum " Censurados " 1990 . Este disco é um album histórico que foi aclamado pela mais importante fanzine dedicada ao Punk e Hardore "na altura, a Maximum Rockn'Roll ( EUA ) apesar das letras em português, o que mostra a qualidade das composições e sobretudo das prestações dos músicos.
+Entidades verdadeiras:
+[
+  {
+    "text": "Censurados",
+    "label": "PESSOA"
+  },
+  {
+    "text": "da era Cavaquista",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Feedback",
+    "label": "OBRA"
+  },
+  {
+    "text": "Senhores Politicos",
+    "label": "OBRA"
+  },
+  {
+    "text": "Não Vales Nada",
+    "label": "OBRA"
+  },
+  {
+    "text": "Está a andar de Mota",
+    "label": "OBRA"
+  },
+  {
+    "text": "Tu ò Bófia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Não Vales Nada",
+    "label": "OBRA"
+  },
+  {
+    "text": "Angústia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Senhores Politicos",
+    "label": "OBRA"
+  },
+  {
+    "text": "Censurados",
+    "label": "OBRA"
+  },
+  {
+    "text": "1990",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Punk",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Hardore",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Maximum Rockn'Roll",
+    "label": "COISA"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em 1991 editam o 2º | 2º album " Confusão " e passam os anos seguintes na estrada. Em 1993 sai o " Sopa " com o single de mesmo nome e uma participação de Jorge Palma na música " Estou agarrado a ti ". O ano de 1994 é o ano da despedida, mas antes participam no tributo a Zeca Afonso , " Filhos da Madrugada " com a reedição do tema " O que faz falta ".
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1991",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Confusão",
+    "label": "OBRA"
+  },
+  {
+    "text": "os anos seguintes",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Em 1993",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Sopa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Jorge Palma",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estou agarrado a ti",
+    "label": "OBRA"
+  },
+  {
+    "text": "O ano de 1994",
+    "label": "TEMPO"
+  },
+  {
+    "text": "o ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "antes",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Zeca Afonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Filhos da Madrugada",
+    "label": "OBRA"
+  },
+  {
+    "text": "O que faz falta",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em 1998 a editora " El Tatu " de Tim reedita os albuns " Censurados " e " Sopa ".
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1998",
+    "label": "TEMPO"
+  },
+  {
+    "text": "El Tatu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tim",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Censurados",
+    "label": "OBRA"
+  },
+  {
+    "text": "Sopa",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em 1999 os Censurados reaparecem, para rejubilo dos fãns, participando no tributo de Xutos & Pontapés , " XX Anos XX Bandas ". Participaram na tourné de promoção desse disco com os Xutos , mas ao contrário do que se esperava os Censurados ficaram por aí, não voltando nunca mais.
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1999",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Censurados",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Xutos & Pontapés",
+    "label": "PESSOA"
+  },
+  {
+    "text": "XX Anos XX Bandas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Xutos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Censurados",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em 2006 é lançado a biografia da banda, " Censurados Até Morrer ", escrita por Augusto Figueira e Renato Conteiro .
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Censurados Até Morrer",
+    "label": "OBRA"
+  },
+  {
+    "text": "Augusto Figueira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Renato Conteiro",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Afonso de Albuquerque
+Entidades verdadeiras:
+[
+  {
+    "text": "Afonso de Albuquerque",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Foi educado na corte de D. Afonso V . Partiu na esquadra mandada em 1480 em socorro do rei D. Fernando de Nápoles | rei D. Fernando de Nápoles , «para reprimir o furor dos turcos». Esteve na expedição de 1489 para defender a fortaleza da Graciosa , situada da ilha que o rio Luco forma junto da cidade de Larache . Foi estribeiro-mor do rei D. João II , a quem em 1476 acompanhou nas guerras com Castela . Esteve assim nas praças-fortes de Arzila e Larache ( Marrocos ) em 1489 , e em 1490 faz parte da guarda de D. João II , tendo voltado novamente a Arzila em 1495 .
+Entidades verdadeiras:
+[
+  {
+    "text": "D. Afonso V",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1480",
+    "label": "TEMPO"
+  },
+  {
+    "text": "rei D. Fernando de Nápoles",
+    "label": "PESSOA"
+  },
+  {
+    "text": "rei D. Fernando",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Nápoles",
+    "label": "LOCAL"
+  },
+  {
+    "text": "de 1489",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Graciosa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Luco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Larache",
+    "label": "LOCAL"
+  },
+  {
+    "text": "rei D. João II",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1476",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Castela",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Arzila",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Larache",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marrocos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1489",
+    "label": "TEMPO"
+  },
+  {
+    "text": "em 1490",
+    "label": "TEMPO"
+  },
+  {
+    "text": "D. João II",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Arzila",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1495",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em 6 de abril de 1503 partiu para a Índia com o primo Francisco de Albuquerque , comandando cada qual três naus, tendo participado em várias batalhas, erguido a fortaleza em Cochim e estabelecido relações comerciais com Coulão .
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 6 de abril de 1503",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Francisco de Albuquerque",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cochim",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Coulão",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+De regresso ao reino de Portugal , «mais cheio de glórias que de despojos», foi bem acolhido por D. Manuel que em 1506 o tornou a enviar ao Oriente em companhia de Tristão da Cunha e nomeando-o governador da Índia | governador da Índia na sucessão do vice-Rei D. Francisco de Almeida . Neste posto, conquistou vários portos em Omã acabando por chegar à riquíssima cidade de Ormuz , que se tornou tributária de Portugal . Em 1510 toma Goa ao turco Hidalcão e em 1511 toma Malaca , abrindo aos portugueses o acesso às especiarias das Molucas e ao comércio com a China .
+Entidades verdadeiras:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D. Manuel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1506",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tristão da Cunha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "governador da Índia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "vice-Rei D. Francisco de Almeida",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Omã",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ormuz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Em 1510",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hidalcão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1511",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Malaca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Molucas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "China",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em Fevereiro de 1513 Albuquerque parte para o estreito de Bab-el-Mandebe , tentando tomar Áden sem êxito. Com a construção da fortaleza de Ormuz em 1515 concluiu o seu plano de domínio dos pontos estratégicos que permitiam o controlo marítimo e o monopólio comercial da Índia .
+Entidades verdadeiras:
+[
+  {
+    "text": "Em Fevereiro de 1513",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Albuquerque",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bab-el-Mandebe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Áden",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ormuz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1515",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Índia",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em 1514 na Índia dedicou-se à administração e diplomacia, a concluir a paz com Calecute , a receber embaixadas de reis indianos e a consolidar e embelezar Goa , onde, por meio do casamento de portugueses com mulheres indígenas procura criar uma raça luso-indiana. O seu prestígio chegara ao auge criando as bases do Império Português no Oriente | Império Português no Oriente .
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1514",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Calecute",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Goa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Império Português",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Império Português no Oriente",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Jaz em local desconhecido em Goa , na India ? Ora, quando morreu, conta Diogo Barbosa Machado na Bibliotheca Lusitana ( Tomo I , página 23) que «foi amortalhado com o manto da Ordem militar de Santiago , de que era comendador, sepultado na igreja de Nossa Senhora da Serra em Goa , que edificara em agradecimento do feliz sucesso da conquista de Malaca . Passados 51 anos | Passados 51 anos , foi trasladado, como dispusera seu testamento, ao convento de Nossa Senhora da Graça dos Religiosos Eremitas de Santo Agostinho | Nossa Senhora da Graça dos Religiosos Eremitas de Santo Agostinho da corte, para onde foi conduzido em 19 de maio de 1566 com pompa».
+Entidades verdadeiras:
+[
+  {
+    "text": "Goa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "India",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Diogo Barbosa Machado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bibliotheca Lusitana",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tomo I",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ordem militar de Santiago",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Nossa Senhora da Serra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Malaca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Passados 51 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "51 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Nossa Senhora da Graça dos Religiosos Eremitas de Santo Agostinho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Nossa Senhora da Graça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Religiosos Eremitas de Santo Agostinho",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "em 19 de maio de 1566",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Lápis-lazúli , conhecido também como lápis, é uma rocha metamórfica de cor azul utilizada como gema ou como rocha ornamental utilizada desde antes de 7000 a.C. em Mehrgarh na Índia , situado nos dias de hoje no Paquistão . A sua azul-escura e opaca, fez com que esta gema fosse altamente apreciada pelos faraós egípcios, como pode ser visto por seu uso proeminente em muitos dos tesouros recuperados dos túmulos faraônicos. É ainda extremamente popular hoje . Trata-se de uma rocha e não de um mineral porque é composto de vários minerais. A primeira parte do nome, lápis, em latim significa pedra. A segunda parte, lazúli, é a forma genitiva no latim, lazulum, que veio do árabe (al)- lazward, que veio do persa lazhward, que veio do sânscrito Raja Warta significando anel, vida do rei. Lazúli era originalmente um nome, mas logo veio a significar azul por causa de sua associação com a pedra. A palavra em inglês azure, do azul espanhol e português, e o azzurro italiano são cognatos.
+Entidades verdadeiras:
+[
+  {
+    "text": "desde antes de 7000 a.C.",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Mehrgarh",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "nos dias de hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Paquistão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Raja Warta",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+No antigo Egito o lápis-lazúli era a pedra favorita para amuletos e ornamentos; foi usado também pelos assírios e pelos babilônicos nos selos cilíndricos (locais onde se gravavam pinturas contando a historia do povo). As escavações egípcias que datam de 3000 a.C. continham milhares de artigos como jóia, muitos feitos de lápis. Os lápis pulverizados foram usados por senhoras egípcias como uma sombra cosmética para o olho.
+Entidades verdadeiras:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  },
+  {
+    "text": "de 3000 a.C.",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Como inscrito no capítulo 140 do Livro dos Mortos egípcio, o lápis lazúli, na forma de um olho ajustado no ouro, foi considerado um amuleto de grande poder. No último dia do mês , oferecia-se este olho simbólico, porque se acreditava que, nesse dia , um ser supremo colocou tal imagem em sua cabeça. Os antigos túmulos reais sumérios de Ur , situados perto do rio Eufrates no baixo Iraque , continham mais de 6000 estatuetas belamente executadas, de lápis-lazúli, de pássaros, cervos, e roedores bem como pratos, grânulos, e selos de cilindro. Estes artefatos vieram indubitavelmente do material minado em Badakhshan no norte do Afeganistão .
+Entidades verdadeiras:
+[
+  {
+    "text": "Livro dos Mortos",
+    "label": "OBRA"
+  },
+  {
+    "text": "No último dia do mês",
+    "label": "TEMPO"
+  },
+  {
+    "text": "nesse dia",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Ur",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Eufrates",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Iraque",
+    "label": "LOCAL"
+  },
+  {
+    "text": "mais de 6000",
+    "label": "VALOR"
+  },
+  {
+    "text": "Badakhshan",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Curiosidades
+Entidades verdadeiras:
+[]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+É a pedra oficial do anel de formatura dos psicologos, assim considerada a partir de 31 de março de 2006 , pela resolução Nº 002/2006, do Conselho Federal de Psicologia brasileiro.
+Entidades verdadeiras:
+[
+  {
+    "text": "a partir de 31 de março de 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Conselho Federal de Psicologia",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Tabaco: Associação lamenta exemplo de presidente da ASAE | presidente da ASAE
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "presidente da ASAE",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ASAE",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O presidente da Confederação Portuguesa para a Prevenção do Tabagismo | presidente da Confederação Portuguesa para a Prevenção do Tabagismo ( CPPT ) considerou hoje «um exemplo lamentável» o facto de o presidente da Confederação Portuguesa para a Prevenção do Tabagismo | presidente da Confederação Portuguesa para a Prevenção do Tabagismo ter sido fotografado a fumar num casino depois da entrada em vigor da lei do Tabaco .
+Entidades verdadeiras:
+[
+  {
+    "text": "presidente da Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CPPT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "presidente da Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tabaco",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+António Nunes , presidente da Autoridade de Segurança Alimentar e Económica | presidente da Autoridade de Segurança Alimentar e Económica ( ASAE ), uma das entidades que irá fiscalizar a aplicação da lei que proibe o fumo em espaços fechados de utilização pública, foi fotografado pelo Diário de Notícias ( DN ) a fumar uma cigarrilha no Casino do Estoril | Casino do Estoril às 02.30 da manhã do dia 01 de Janeiro .
+Entidades verdadeiras:
+[
+  {
+    "text": "António Nunes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "presidente da Autoridade de Segurança Alimentar e Económica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Autoridade de Segurança Alimentar e Económica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ASAE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Diário de Notícias",
+    "label": "PESSOA"
+  },
+  {
+    "text": "DN",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Casino do Estoril",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Casino",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estoril",
+    "label": "LOCAL"
+  },
+  {
+    "text": "às 02.30 da manhã",
+    "label": "TEMPO"
+  },
+  {
+    "text": "do dia 01 de Janeiro",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em explicações ao DN , António Nunes considerou que a nova lei «não proíbe expressamente o tabaco nos casinos e nas salas de jogos», justificando com a existência de um conflito de interesses com a lei do jogo, que contudo, não faz qualquer referência ao consumo de tabaco.
+Entidades verdadeiras:
+[
+  {
+    "text": "DN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Nunes",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+No entanto, um parecer da Direcção Geral de Saúde a que a Lusa teve acesso sexta-feira indica que os casinos e salas de jogo «sendo locais fechados não podem deixar de se incluir no âmbito da aplicação a lei», além de estarem abrangidos na lei por «serem locais de trabalho».
+Entidades verdadeiras:
+[
+  {
+    "text": "Direcção Geral de Saúde",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "sexta-feira",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+«Trata-se de uma daquelas situações inoportunas e um exemplo lamentável que nos mostra que estamos em face de uma dependência grave», disse à Lusa o presidente da Confederação Portuguesa para a Prevenção do Tabagismo | presidente da Confederação Portuguesa para a Prevenção do Tabagismo , Luís Rebelo .
+Entidades verdadeiras:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "presidente da Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Luís Rebelo",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Luís Rebelo desvalorizou contudo o impacto desta situação na aplicação da nova lei e atribuiu a atitude de António Nunes a «um automatismo» inconsciente.
+Entidades verdadeiras:
+[
+  {
+    "text": "Luís Rebelo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "António Nunes",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Sobre as dúvidas manifestadas pelo máximo responsável da ASAE relativamente ao âmbito de aplicação da nova lei, Luís Rebelo considerou que a legislação «é clara» quanto à proibição de fumar nos casinos e salas de jogos.
+Entidades verdadeiras:
+[
+  {
+    "text": "ASAE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Luís Rebelo",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Sobre os primeiros dias da vigência da proibição de fumar em espaços de uso colectivo fechados, Luís Rebelo considerou que a lei está a ter «uma óptima» aplicação com «a generalidade dos fumadores a compreender a proibição».
+Entidades verdadeiras:
+[
+  {
+    "text": "os primeiros dias",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Luís Rebelo",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+A lei do Tabaco , que proíbe o fumo nos serviços da administração pública, restaurantes, bares, discotecas ou centros comerciais, entrou em vigor às 00:00 do dia 01 de Janeiro .
+Entidades verdadeiras:
+[
+  {
+    "text": "Tabaco",
+    "label": "OBRA"
+  },
+  {
+    "text": "às 00:00",
+    "label": "TEMPO"
+  },
+  {
+    "text": "do dia 01 de Janeiro",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A Lusa tentou contactar o porta-voz da ASAE | porta-voz da ASAE para obter esclarecimentos adicionais mas tal foi impossível até ao momento .
+Entidades verdadeiras:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "porta-voz da ASAE",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ASAE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "até ao momento",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Cavaco começa ano com recados de maior exigência ao Governo
+Entidades verdadeiras:
+[
+  {
+    "text": "Cavaco",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O Presidente da República , Aníbal Cavaco Silva , vai deixar uma série de recados ao Governo nas palavras que vai dirigir ao país no primeiro dia do ano .
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidente da República",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Aníbal Cavaco Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "no primeiro dia do ano",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A notícia faz manchete na edição desta terça-feira do Jornal de Notícias , com o diário portuense a assegurar que Cavaco prepara, para a sua primeira comunicação em 2008 ao País , um discurso com menos optimismo do que o transmitido por Sócrates mensagem de Natal .
+Entidades verdadeiras:
+[
+  {
+    "text": "desta terça-feira",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Jornal de Notícias",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cavaco",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "País",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sócrates",
+    "label": "PESSOA"
+  },
+  {
+    "text": "de Natal",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Afirmando esperar um ano de 2008 mais exigente do que 2007 , o Presidente da República promete, ao longo do próximo ano , dar toda a atenção a temas sociais, sobretudo o desemprego, e andar pelo país a mostrar bons exemplos da criação de postos de trabalho.
+Entidades verdadeiras:
+[
+  {
+    "text": "um ano de 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Presidente da República",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ao longo do próximo ano",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Segundo o JN , Cavaco silva | Cavaco silva vai ainda aproveitar a ocasião para sublinhar a expectativa criada em relação aos resultados que pediu no ano passado ao Governo , para as áreas da economia, educação e justiça
+Entidades verdadeiras:
+[
+  {
+    "text": "JN",
+    "label": "OBRA"
+  },
+  {
+    "text": "Cavaco silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cavaco",
+    "label": "PESSOA"
+  },
+  {
+    "text": "no ano passado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Amazonas - Índios querem sobrenomes característicos da etnia
+Entidades verdadeiras:
+[
+  {
+    "text": "Amazonas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Índios",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+HOME PAGE RONDONIA AO VIVO , 24.12.2007
+Entidades verdadeiras:
+[
+  {
+    "text": "RONDONIA AO VIVO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "24.12.2007",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Índios do Amazonas reivindicam o direito de registrar os filhos de forma organizada, respeitosa e com os sobrenomes que caracterizam suas etnias. Os pontos foram apontados pelos indígenas na reunião de encerramento da primeira fase do Projeto Registro Civil dos Povos Indígenas do Amazonas | Projeto Registro Civil dos Povos Indígenas do Amazonas , que aconteceu na última semana em Manaus .
+Entidades verdadeiras:
+[
+  {
+    "text": "Índios",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Amazonas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Projeto Registro Civil dos Povos Indígenas do Amazonas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Povos Indígenas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Amazonas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "na última semana",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Manaus",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+De acordo com o projeto, iniciado em setembro de 2007 , 17 líderes indígenas estiveram em 44 comunidades no Alto Rio Negro , Alto e Médio Solimões , Vale do Javari , Purus , Juruá e Manaus para aplicar os questionários de avaliação sobre a atual situação dos registros civis da população e coletar dados para a elaboração de um relatório.
+Entidades verdadeiras:
+[
+  {
+    "text": "em setembro de 2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "17",
+    "label": "VALOR"
+  },
+  {
+    "text": "44",
+    "label": "VALOR"
+  },
+  {
+    "text": "Alto Rio Negro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alto e Médio Solimões",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Vale do Javari",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Purus",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Juruá",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Manaus",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O documento, será apresentado em março de 2008 e incluirá o resultado geral das avaliações e as sugestões dos povos indígenas. Ao todo, foram mais de 1,4 mil questionários aplicados em 325 comunidades, o equivalente a 43 etnias visitadas.
+Entidades verdadeiras:
+[
+  {
+    "text": "em março de 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "mais de 1,4 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "325",
+    "label": "VALOR"
+  },
+  {
+    "text": "43",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Fonte: Clipping da 6ªCCR do MPF | 6ªCCR do MPF .
+Entidades verdadeiras:
+[
+  {
+    "text": "6ªCCR do MPF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MPF",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Deck Cowboy (deckcowboy@riseup.net)
+Entidades verdadeiras:
+[
+  {
+    "text": "Deck Cowboy",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+NORDHOEK , África do Sul - Com o olhar fixo na tela de seu laptop, Louis Liebenberg compara dois mapas da mesma região. Enquanto um deles está densamente preenchido por pontos amarelos, o outro está bem mais vazio.
+Entidades verdadeiras:
+[
+  {
+    "text": "NORDHOEK",
+    "label": "LOCAL"
+  },
+  {
+    "text": "África do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Louis Liebenberg",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+As marcas indicam avistamentos de gorilas das planícies registradas por rastreadores tribais antes e depois de um surto do vírus ebola no santuário de Lossi , na República Federativa do Congo . Usando o CyberTracker , um software com o qual os ecologistas podem registrar suas observações em campo usando computadores portáteis conectados a aparelhos de posicionamento global ( GPS ), os rastreadores puderam reunir dados que comprovam a degradação da população local da espécie. Inicialmente céticos, os cientistas mais tarde confirmaram suas constatações de que o vírus estava matando os gorilas e outros animais, e publicaram um artigo numa edição recente da revista Science .
+Entidades verdadeiras:
+[
+  {
+    "text": "Lossi",
+    "label": "LOCAL"
+  },
+  {
+    "text": "República Federativa do Congo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "CyberTracker",
+    "label": "COISA"
+  },
+  {
+    "text": "GPS",
+    "label": "COISA"
+  },
+  {
+    "text": "mais tarde",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Science",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+"Este é um exemplo incrível de como a coleta regular de dados pode nos ajudar", disse Liebenberg . Para ele, fundador sul-africano da CyberTracker Conservation , as constatações não apenas ilustram a capacidade do dispositivo de melhorar o monitoramento e a interpretação de ecossistemas, mas também comprovam que rastreadores analfabetos podem recolher informações com tanta eficiência quanto cientistas com Ph.D.
+Entidades verdadeiras:
+[
+  {
+    "text": "Liebenberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CyberTracker Conservation",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O CyberTracker é apenas mais uma das modernas tecnologias atualmente à disposição dos ecologistas, que cada vez mais recorrem a ferramentas como análises de DNA e imagens de satélite para obter uma maior compreensão da natureza. Liebenberg teve a idéia de criar o sistema CyberTracker enquanto acompanhava caçadores bosquímanos no deserto do Kalahari .
+Entidades verdadeiras:
+[
+  {
+    "text": "CyberTracker",
+    "label": "COISA"
+  },
+  {
+    "text": "DNA",
+    "label": "COISA"
+  },
+  {
+    "text": "Liebenberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CyberTracker",
+    "label": "COISA"
+  },
+  {
+    "text": "Kalahari",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Fascinado desde pequeno pela arte tribal de seguir rastros, Liebenberg desenvolveu a teoria de que as atividades ancestrais de caça e coleta representam nada menos do que a própria origem da ciência. Rastrear um animal, argumenta o pesquisador, exige um processo de observação e confrontação de hipóteses muito semelhante ao método científico.
+Entidades verdadeiras:
+[
+  {
+    "text": "Liebenberg",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O que um dia foi necessário à sobrevivência, no entanto, é hoje uma prática em extinção. Atualmente, Liebenberg afirma conhecer apenas seis caçadores tribais que usam suas habilidades para subsistência. A maioria dos jovens das tribos da região hoje freqüentam a escola - ao contrário de seus pais e avós, que eram analfabetos - mas raramente chegam a aprender as técnicas e o conhecimento de mundo necessários para caçar como as gerações anteriores.
+Entidades verdadeiras:
+[
+  {
+    "text": "um dia",
+    "label": "TEMPO"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Liebenberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Se fosse possível encontrar um meio de colocar o conhecimento dos bosquímanos a serviço da preservação ambiental, tanto a natureza quanto as comunidades desse povo poderiam se beneficiar. Em 1996 , Liebenberg e o cientista da computação Lindsey Steventon lançaram o primeiro modelo do CyberTracker , com o objetivo de transformar o rastreamento tradicional numa profissão moderna. No mesmo ano , os rastreadores Karel Benadie e James Minye usaram o CyberTracker para estudar o rinoceronte negro, uma espécie ameaçada de extinção, no Parque Nacional de Karoo na África do Sul . Eles recolheram dados sobre os padrões de alimentação dos animais e sua vulnerabilidade à caça clandestina. Em 1999 , Liebenberg , Steventon e os dois rastreadores, que não possuem educação formal, publicaram um artigo na revista acadêmica Pachyderm . "Ao incluir os rastreadores em nossas atividades de monitoramento ambiental, estamos expandindo eficientemente a própria ciência", disse Liebenberg .
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1996",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Liebenberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lindsey Steventon",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CyberTracker",
+    "label": "COISA"
+  },
+  {
+    "text": "No mesmo ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Karel Benadie",
+    "label": "PESSOA"
+  },
+  {
+    "text": "James Minye",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CyberTracker",
+    "label": "COISA"
+  },
+  {
+    "text": "Parque Nacional de Karoo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "África do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Em 1999",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Liebenberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Steventon",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pachyderm",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Liebenberg",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Mas não são apenas os rastreadores tribais que usam o CyberTracker . Estudantes e observadores de aves também aproveitam as vantagens do sistema. Ele já foi usado até por equipes de cientistas em expedições no Ártico , no monitoramento de lobos no estado norte-americano de Idaho , da poluição dos rios na Tanzânia e do raríssimo rinoceronte de Sumatra , em Bornéu . O software pode ser personalizado, e é oferecido gratuitamente na Web . Cerca de 400 projetos em 30 países estão usando o sistema, afirma Liebenberg .
+Entidades verdadeiras:
+[
+  {
+    "text": "CyberTracker",
+    "label": "COISA"
+  },
+  {
+    "text": "Ártico",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Idaho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tanzânia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sumatra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bornéu",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Web",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cerca de 400",
+    "label": "VALOR"
+  },
+  {
+    "text": "30",
+    "label": "VALOR"
+  },
+  {
+    "text": "Liebenberg",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O software consiste em uma série de camadas contendo menus baseados em figuras nos quais os pesquisadores registram suas observações. Eles selecionam ícones para representar as plantas e animais que observam, e para descrever seu comportamento e suas características. O GPS registra o local e a hora de cada observação. Rastreadores experientes normalmente podem identificar um único indivíduo de determinada espécie, ou pelo menos saber seu sexo, idade e estado de saúde, apenas observando suas pegadas.
+Entidades verdadeiras:
+[
+  {
+    "text": "GPS",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Com cada rastreador registrando até 300 observações por dia , o dispositivo permite a coleta de quantidades imensas de informação, que pode ser analisada em mapas e bancos de dados quase imediatamente. "É aí que novos padrões vêm à tona: correlações entre espécies diferentes, características da paisagem e outros fatores que não poderiam ser descobertos de outra maneira", afirma Jason Knight , instrutor da Wilderness Awareness School em Duvall , Washington .
+Entidades verdadeiras:
+[
+  {
+    "text": "até 300",
+    "label": "VALOR"
+  },
+  {
+    "text": "por dia",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Jason Knight",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Wilderness Awareness School",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Duvall",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Washington",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+No entanto, Christina Eisenberg , uma bióloga que estuda os lobos e trabalha para o Serviço Americano de Vida Selvagem e Aquática conta que parou de usar o sistema porque ele travava inesperadamente. "Perdi os dados de um dia inteiro de trabalho, depois de me embrenhar milhas e milhas sobre terreno acidentado mato adentro", lembra. "Não foi nada agradável".
+Entidades verdadeiras:
+[
+  {
+    "text": "Christina Eisenberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Serviço Americano de Vida Selvagem e Aquática",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "de um dia inteiro",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Vários projetos usando o CyberTracker em áreas de preservação da África do Sul também estão interrompidos, em parte devido ao preconceito contra rastreadores analfabetos e a falta de entusiasmo por parte dos administradores, diz Liebenberg . Mesmo assim, ele pretende desenvolver o CyberTracker , transformando-o num sistema para monitorar mudanças ambientais e compartilhar informações pelo mundo todo. "No momento, faltam cientistas para reunir informação em campo", disse. "Se pudermos contar com a ajuda das pessoas que vivem nesses lugares, poderemos, teoricamente, monitorar todo o ecossistema global.
+Entidades verdadeiras:
+[
+  {
+    "text": "CyberTracker",
+    "label": "COISA"
+  },
+  {
+    "text": "África do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Liebenberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CyberTracker",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Fonte: Centro de Mídia Independente (www.midiaindependente.org).
+Entidades verdadeiras:
+[
+  {
+    "text": "Centro de Mídia Independente",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Link : Cybertracker (www.cybertracker.co.za).
+Entidades verdadeiras:
+[
+  {
+    "text": "Cybertracker",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Distribuição de jornais gratuitos quase duplicou este ano
+Entidades verdadeiras:
+[
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O número de jornais gratuitos nacionais distribuídos nos nove primeiros meses deste ano quase duplicou em relação ao mesmo período de 2006 , ultrapassando os 600 mil exemplares, de acordo com dados hoje divulgados pela APCT .
+Entidades verdadeiras:
+[
+  {
+    "text": "nos nove primeiros meses deste ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "ao mesmo período de 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "600 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "APCT",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A subida deveu-se sobretudo ao lançamento de dois novos títulos - o Global Notícias e o Meia-Hora que, em conjunto, representam mais de 235 mil exemplares - mas também a um crescimento das tiragens dos principais jornais gratuitos que já existiam.
+Entidades verdadeiras:
+[
+  {
+    "text": "Global Notícias",
+    "label": "COISA"
+  },
+  {
+    "text": "Meia-Hora",
+    "label": "COISA"
+  },
+  {
+    "text": "mais de 235 mil",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Entre os mais antigos, o maior crescimento foi registado pelo Metro que passou a distribuir mais 22.600 exemplares do que fazia no ano passado , atingindo este ano os 180 mil .
+Entidades verdadeiras:
+[
+  {
+    "text": "Metro",
+    "label": "COISA"
+  },
+  {
+    "text": "mais 22.600",
+    "label": "VALOR"
+  },
+  {
+    "text": "no ano passado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "180 mil",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Com este aumento, o Metro passou a ser o maior jornal gratuito, à frente do Destak que registou, este ano , uma circulação de 173 mil exemplares (melhorando 5,3 por cento ).
+Entidades verdadeiras:
+[
+  {
+    "text": "Metro",
+    "label": "COISA"
+  },
+  {
+    "text": "Destak",
+    "label": "COISA"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "173 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "5,3 por cento",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A maior subida em termos relativos foi, no entanto, protagonizada pelo económico gratuito Oje que aumentou a sua circulação em quase 56 por cento , passando para os 22 mil exemplares.
+Entidades verdadeiras:
+[
+  {
+    "text": "Oje",
+    "label": "COISA"
+  },
+  {
+    "text": "quase 56 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "22 mil",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Refira-se que os dados hoje divulgados pela APCT não contabilizam ainda o jornal lançado pelo Público e A Bola , o Sexta-feira .
+Entidades verdadeiras:
+[
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "APCT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Público",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "A Bola",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sexta-feira",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Fim de ano com uísque barato no Rio
+Entidades verdadeiras:
+[
+  {
+    "text": "Fim de ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Caro leitor:
+Entidades verdadeiras:
+[]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Por favor, não entenda, por uísque barato, uísque vagabundo. É uísque bom, sem batismo, só que de preço baixo mesmo. Venho notando isso nos últimos meses . Deve ser por conta da queda do dólar: os donos de bares, finalmente, estão entendendo que uísque escocês não tem, necessariamente, que sair caro no balcão.
+Entidades verdadeiras:
+[
+  {
+    "text": "nos últimos meses",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Aquele "ouro" líquido, que o balconista costumava servir a conta-gotas e com um chorinho miserável e sem vela, está deixando de existir. Com a garrafa de um bom scotch sendo vendida a menos de R$ 60 em qualquer supermercado, já é possível encontrar, com facilidade, bares e botequins que assumiram o serviço regado do puro scotch.
+Entidades verdadeiras:
+[
+  {
+    "text": "menos de R$ 60",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O Belmonte da Rua do Lavradio , por exemplo, é um desses. Por R$ 8,50 , toma-se uma dose boca larga de Johnny Walker Red Label . E a régua é só de vinte doses, contra as absurdas 24 doses de alguns bares por aí. Nada mal, não?
+Entidades verdadeiras:
+[
+  {
+    "text": "Belmonte",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rua do Lavradio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "R$ 8,50",
+    "label": "VALOR"
+  },
+  {
+    "text": "Johnny Walker Red Label",
+    "label": "COISA"
+  },
+  {
+    "text": "24",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Para você, leitor que não toma uísque, ter uma idéia do que isso significa, basta dizer que a menos de 150 metros dali, no Carlitos da Rua Mem de Sá , uma dose do mesmo Red Label , servido em dedal de moça, custa R$ 12,50 . Uma diferença exorbitante de preço e quantidade.
+Entidades verdadeiras:
+[
+  {
+    "text": "menos de 150 metros",
+    "label": "VALOR"
+  },
+  {
+    "text": "Carlitos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rua Mem de Sá",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Red Label",
+    "label": "COISA"
+  },
+  {
+    "text": "R$ 12,50",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+E por que isso?, você há de perguntar. Puro preconceito, amigo. Os donos do Carlitos ainda acham que uísque é coisa de rico, coitados. Mas, para nossa sorte, essa ignorância aos poucos vai sendo riscada do mapa. Até quando o dólar deixar, claro...
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlitos",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Outros exemplos de bom uísque barato e regado na cidade do Rio :
+Entidades verdadeiras:
+[
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+- Aboim , na Rua Souza Lima , em Copacabana : o Pé-Sujo mais especializado em uísque da cidade serve mais de dez marcas diferentes de scotch. As mais baratas ( White Horse e Grants 8 anos ) saem a R$ 7,00 , sempre na tala larga.
+Entidades verdadeiras:
+[
+  {
+    "text": "Aboim",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rua Souza Lima",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Copacabana",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pé-Sujo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "White Horse",
+    "label": "COISA"
+  },
+  {
+    "text": "Grants 8 anos",
+    "label": "COISA"
+  },
+  {
+    "text": "R$ 7,00",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+- Azeitona & Cia , na Rua Dias Ferreira , no Leblon : O melhor custo-benefício do scotch na Zona Sul do Rio | Zona Sul do Rio . Uma dose caprichadíssima de Red Label no copo longo sai por meros R$ 7 . E ainda vem com a boa conversa do Azeitona , o dono.
+Entidades verdadeiras:
+[
+  {
+    "text": "Azeitona & Cia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rua Dias Ferreira",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Leblon",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Zona Sul do Rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Zona Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Red Label",
+    "label": "COISA"
+  },
+  {
+    "text": "R$ 7",
+    "label": "VALOR"
+  },
+  {
+    "text": "Azeitona",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+- Bar do Adão da Rua Dona Mariana , em Botafogo : Não é muito boteco, mas ali o Ballantines 12 anos sai por R$ 9 a dose. Espetáculo que melhora ainda mais às terças-feiras , quando a casa especializada em pastel serve tudo dobrado. E o mesmo uísque sai, então, pela bagatela de R$ 4,50 .
+Entidades verdadeiras:
+[
+  {
+    "text": "Bar do Adão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rua Dona Mariana",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Botafogo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ballantines 12 anos",
+    "label": "COISA"
+  },
+  {
+    "text": "R$ 9",
+    "label": "VALOR"
+  },
+  {
+    "text": "às terças-feiras",
+    "label": "TEMPO"
+  },
+  {
+    "text": "R$ 4,50",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+- Bar Barata Ribeiro , na esquina das Ruas Barata Ribeiro e Barão de Ipanema , em Copacabana : Botequinho escondido no meio do caos copacabanense, mas que tem um coração de ouro e uma blea prateleira de uísques.
+Entidades verdadeiras:
+[
+  {
+    "text": "Bar Barata Ribeiro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ruas Barata Ribeiro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Barão de Ipanema",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Copacabana",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+- Bar Vieira Souto , na Praça da Cruz Vermelha , Centro da cidade: Um restaurante popular dos bons, que serve um filé com fritas espetacular e uísque de excelente procedência a R$ 8 , no capricho.
+Entidades verdadeiras:
+[
+  {
+    "text": "Bar Vieira Souto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Praça da Cruz Vermelha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Centro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "R$ 8",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+- BotecoTaco , no Humaitá : As madrugadas varam e o uísque não pára de sair no templo carioca dos notívagos. Doses cavalares de uísque oito anos, a menos de R$ 10 .
+Entidades verdadeiras:
+[
+  {
+    "text": "BotecoTaco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Humaitá",
+    "label": "LOCAL"
+  },
+  {
+    "text": "As madrugadas",
+    "label": "TEMPO"
+  },
+  {
+    "text": "menos de R$ 10",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------

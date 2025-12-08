@@ -1,0 +1,240 @@
+
+====== FOLD 0 ======
+Relatório por label:
+- NOME_BEBIDA: precision=0.636, recall=0.074, f1-score=0.133
+- GRADUACAO_ALCOOLICA: precision=0.031, recall=0.009, f1-score=0.014
+- EQUIPAMENTO_DESTILACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO_ARMAZENAMENTO: precision=0.212, recall=0.065, f1-score=0.099
+- RECIPIENTE_ARMAZENAMENTO: precision=0.121, recall=0.044, f1-score=0.065
+- TIPO_MADEIRA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_COR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_AROMA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_SABOR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- PRECO: precision=0.000, recall=0.000, f1-score=0.000
+- VOLUME: precision=0.000, recall=0.000, f1-score=0.000
+- CLASSIFICACAO_BEBIDA: precision=1.000, recall=0.016, f1-score=0.031
+
+Macro Avg: precision=0.118, recall=0.012, f1-score=0.020
+Micro Avg: precision=0.263, recall=0.019, f1-score=0.035
+==================================================
+
+====== FOLD 1 ======
+Relatório por label:
+- NOME_BEBIDA: precision=0.475, recall=0.063, f1-score=0.112
+- GRADUACAO_ALCOOLICA: precision=0.190, recall=0.038, f1-score=0.064
+- EQUIPAMENTO_DESTILACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO_ARMAZENAMENTO: precision=0.048, recall=0.010, f1-score=0.017
+- RECIPIENTE_ARMAZENAMENTO: precision=0.048, recall=0.011, f1-score=0.018
+- TIPO_MADEIRA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_COR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_AROMA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_SABOR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- PRECO: precision=0.000, recall=0.000, f1-score=0.000
+- VOLUME: precision=0.474, recall=0.035, f1-score=0.065
+- CLASSIFICACAO_BEBIDA: precision=0.412, recall=0.064, f1-score=0.110
+
+Macro Avg: precision=0.097, recall=0.013, f1-score=0.023
+Micro Avg: precision=0.295, recall=0.021, f1-score=0.039
+==================================================
+
+====== FOLD 2 ======
+Relatório por label:
+- NOME_BEBIDA: precision=0.442, recall=0.082, f1-score=0.138
+- GRADUACAO_ALCOOLICA: precision=0.000, recall=0.000, f1-score=0.000
+- EQUIPAMENTO_DESTILACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO_ARMAZENAMENTO: precision=0.074, recall=0.021, f1-score=0.032
+- RECIPIENTE_ARMAZENAMENTO: precision=0.074, recall=0.023, f1-score=0.035
+- TIPO_MADEIRA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_COR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_AROMA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_SABOR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- PRECO: precision=0.000, recall=0.000, f1-score=0.000
+- VOLUME: precision=0.520, recall=0.052, f1-score=0.095
+- CLASSIFICACAO_BEBIDA: precision=0.520, recall=0.110, f1-score=0.182
+
+Macro Avg: precision=0.096, recall=0.017, f1-score=0.028
+Micro Avg: precision=0.290, recall=0.028, f1-score=0.051
+==================================================
+
+====== FOLD 3 ======
+Relatório por label:
+- NOME_BEBIDA: precision=0.415, recall=0.058, f1-score=0.101
+- GRADUACAO_ALCOOLICA: precision=0.148, recall=0.040, f1-score=0.063
+- EQUIPAMENTO_DESTILACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO_ARMAZENAMENTO: precision=0.037, recall=0.009, f1-score=0.015
+- RECIPIENTE_ARMAZENAMENTO: precision=0.037, recall=0.015, f1-score=0.021
+- TIPO_MADEIRA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_COR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_AROMA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_SABOR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- PRECO: precision=0.000, recall=0.000, f1-score=0.000
+- VOLUME: precision=0.429, recall=0.024, f1-score=0.046
+- CLASSIFICACAO_BEBIDA: precision=0.500, recall=0.057, f1-score=0.103
+
+Macro Avg: precision=0.092, recall=0.012, f1-score=0.021
+Micro Avg: precision=0.236, recall=0.019, f1-score=0.035
+==================================================
+
+====== FOLD 4 ======
+Relatório por label:
+- NOME_BEBIDA: precision=0.538, recall=0.095, f1-score=0.161
+- GRADUACAO_ALCOOLICA: precision=0.160, recall=0.032, f1-score=0.053
+- EQUIPAMENTO_DESTILACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO_ARMAZENAMENTO: precision=0.120, recall=0.027, f1-score=0.044
+- RECIPIENTE_ARMAZENAMENTO: precision=0.040, recall=0.011, f1-score=0.018
+- TIPO_MADEIRA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_COR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_AROMA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_SABOR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- PRECO: precision=0.000, recall=0.000, f1-score=0.000
+- VOLUME: precision=0.556, recall=0.060, f1-score=0.108
+- CLASSIFICACAO_BEBIDA: precision=0.593, recall=0.130, f1-score=0.213
+
+Macro Avg: precision=0.118, recall=0.021, f1-score=0.035
+Micro Avg: precision=0.370, recall=0.034, f1-score=0.062
+==================================================
+
+====== FOLD 5 ======
+Relatório por label:
+- NOME_BEBIDA: precision=0.522, recall=0.077, f1-score=0.134
+- GRADUACAO_ALCOOLICA: precision=0.182, recall=0.037, f1-score=0.062
+- EQUIPAMENTO_DESTILACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO_ARMAZENAMENTO: precision=0.182, recall=0.033, f1-score=0.056
+- RECIPIENTE_ARMAZENAMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- TIPO_MADEIRA: precision=1.000, recall=0.005, f1-score=0.010
+- CARACTERISTICA_SENSORIAL_COR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_AROMA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_SABOR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- PRECO: precision=0.000, recall=0.000, f1-score=0.000
+- VOLUME: precision=0.375, recall=0.036, f1-score=0.066
+- CLASSIFICACAO_BEBIDA: precision=0.542, recall=0.114, f1-score=0.188
+
+Macro Avg: precision=0.165, recall=0.018, f1-score=0.030
+Micro Avg: precision=0.340, recall=0.027, f1-score=0.051
+==================================================
+
+====== FOLD 6 ======
+Relatório por label:
+- NOME_BEBIDA: precision=0.436, recall=0.057, f1-score=0.101
+- GRADUACAO_ALCOOLICA: precision=0.125, recall=0.025, f1-score=0.041
+- EQUIPAMENTO_DESTILACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO_ARMAZENAMENTO: precision=0.125, recall=0.029, f1-score=0.047
+- RECIPIENTE_ARMAZENAMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- TIPO_MADEIRA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_COR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_AROMA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_SABOR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- PRECO: precision=0.000, recall=0.000, f1-score=0.000
+- VOLUME: precision=0.533, recall=0.032, f1-score=0.060
+- CLASSIFICACAO_BEBIDA: precision=0.467, recall=0.059, f1-score=0.104
+
+Macro Avg: precision=0.099, recall=0.012, f1-score=0.021
+Micro Avg: precision=0.270, recall=0.019, f1-score=0.036
+==================================================
+
+====== FOLD 7 ======
+Relatório por label:
+- NOME_BEBIDA: precision=0.510, recall=0.089, f1-score=0.152
+- GRADUACAO_ALCOOLICA: precision=0.296, recall=0.066, f1-score=0.108
+- EQUIPAMENTO_DESTILACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO_ARMAZENAMENTO: precision=0.148, recall=0.032, f1-score=0.052
+- RECIPIENTE_ARMAZENAMENTO: precision=0.037, recall=0.011, f1-score=0.016
+- TIPO_MADEIRA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_COR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_AROMA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_SABOR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- PRECO: precision=0.000, recall=0.000, f1-score=0.000
+- VOLUME: precision=0.583, recall=0.054, f1-score=0.099
+- CLASSIFICACAO_BEBIDA: precision=0.696, recall=0.128, f1-score=0.216
+
+Macro Avg: precision=0.134, recall=0.022, f1-score=0.038
+Micro Avg: precision=0.385, recall=0.036, f1-score=0.066
+==================================================
+
+====== FOLD 8 ======
+Relatório por label:
+- NOME_BEBIDA: precision=0.377, recall=0.071, f1-score=0.119
+- GRADUACAO_ALCOOLICA: precision=0.091, recall=0.017, f1-score=0.028
+- EQUIPAMENTO_DESTILACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO_ARMAZENAMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- RECIPIENTE_ARMAZENAMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- TIPO_MADEIRA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_COR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_AROMA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_SABOR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- PRECO: precision=0.000, recall=0.000, f1-score=0.000
+- VOLUME: precision=0.419, recall=0.052, f1-score=0.092
+- CLASSIFICACAO_BEBIDA: precision=0.500, recall=0.101, f1-score=0.168
+
+Macro Avg: precision=0.082, recall=0.014, f1-score=0.024
+Micro Avg: precision=0.278, recall=0.025, f1-score=0.046
+==================================================
+
+====== FOLD 9 ======
+Relatório por label:
+- NOME_BEBIDA: precision=0.400, recall=0.057, f1-score=0.100
+- GRADUACAO_ALCOOLICA: precision=0.095, recall=0.017, f1-score=0.029
+- EQUIPAMENTO_DESTILACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO_ARMAZENAMENTO: precision=0.048, recall=0.009, f1-score=0.015
+- RECIPIENTE_ARMAZENAMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- TIPO_MADEIRA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_COR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_AROMA: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_SABOR: precision=0.000, recall=0.000, f1-score=0.000
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- NOME_ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- PRECO: precision=0.000, recall=0.000, f1-score=0.000
+- VOLUME: precision=0.333, recall=0.032, f1-score=0.059
+- CLASSIFICACAO_BEBIDA: precision=0.417, recall=0.082, f1-score=0.137
+
+Macro Avg: precision=0.076, recall=0.012, f1-score=0.020
+Micro Avg: precision=0.250, recall=0.019, f1-score=0.035
+==================================================

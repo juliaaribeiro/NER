@@ -1,0 +1,4187 @@
+Erros do Fold 1
+
+Texto:
+Os preços de diversos bens e serviços vão aumentar, no próximo ano , acima da inflação de 2,1% prevista pelo Governo para 2008 , com destaque para o pão, com os industriais do sector a estimarem uma evolução de dois dígitos.
+Entidades verdadeiras:
+[
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2,1%",
+    "label": "VALOR"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "para 2008",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A electricidade vai aumentar, de acordo com a proposta da Entidade Reguladora dos Serviços Energéticos ( ERSE ), aprovada pelo Conselho Tarifário , 2,9% , em média, em Portugal Continental , 2,6% nos Açores e 4,9% na Madeira .
+Entidades verdadeiras:
+[
+  {
+    "text": "Entidade Reguladora dos Serviços Energéticos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ERSE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho Tarifário",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2,9%",
+    "label": "VALOR"
+  },
+  {
+    "text": "Portugal Continental",
+    "label": "LOCAL"
+  },
+  {
+    "text": "2,6%",
+    "label": "VALOR"
+  },
+  {
+    "text": "Açores",
+    "label": "LOCAL"
+  },
+  {
+    "text": "4,9%",
+    "label": "VALOR"
+  },
+  {
+    "text": "Madeira",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A maioria dos consumidores domésticos podem assim esperar uma subida da factura mensal de 1,08 euros no próximo ano , mas os clientes industriais sofrerão um aumento médio de 3,0% , com maior peso para os de muita alta tensão ( MAT ) e alta tensão ( AT ) que terão uma subida de 3,9% .
+Entidades verdadeiras:
+[
+  {
+    "text": "1,08 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "3,0%",
+    "label": "VALOR"
+  },
+  {
+    "text": "MAT",
+    "label": "OUTRO"
+  },
+  {
+    "text": "AT",
+    "label": "OUTRO"
+  },
+  {
+    "text": "3,9%",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "1,08 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Os clientes de média tensão ( MT ) terão um aumento de 2,7% , enquanto os de baixa tensão especial ( BTE ), normalmente pequenas empresas, terão um aumento de 2,5% .
+Entidades verdadeiras:
+[
+  {
+    "text": "MT",
+    "label": "OUTRO"
+  },
+  {
+    "text": "2,7%",
+    "label": "VALOR"
+  },
+  {
+    "text": "BTE",
+    "label": "OUTRO"
+  },
+  {
+    "text": "2,5%",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Um dos casos em que a subida dos preços mais ultrapassa o valor da inflação prevista pelo Governo é o do pão, que deverá aumentar 10 a 15% em Janeiro ou Fevereiro , segundo contas feitas pela direcção da Associação dos Industriais de Panificação, Pastelaria e Similares do Norte | Associação dos Industriais de Panificação, Pastelaria e Similares do Norte ( AIPAN ).
+Entidades verdadeiras:
+[
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "10 a 15%",
+    "label": "VALOR"
+  },
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Fevereiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Associação dos Industriais de Panificação, Pastelaria e Similares do Norte",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação dos Industriais de Panificação, Pastelaria e Similares",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Norte",
+    "label": "LOCAL"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em declarações à agência Lusa , António Fontes , da AIPAN , disse que o preço do pão terá de aumentar para fazer face à subida de 92% registada ao longo de 2007 no preço da matéria-prima de base (farinha).
+Entidades verdadeiras:
+[
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "92%",
+    "label": "VALOR"
+  },
+  {
+    "text": "ao longo de 2007",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Desde o último aumento do preço do pão, em Janeiro de 2004 , o preço da farinha mais do que duplicou, o das leveduras subiu 40% , o da energia 25% , o do gás 32% , o do gasóleo 70% e os custos com pessoal 14% , explicou.
+Entidades verdadeiras:
+[
+  {
+    "text": "em Janeiro de 2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "40%",
+    "label": "VALOR"
+  },
+  {
+    "text": "25%",
+    "label": "VALOR"
+  },
+  {
+    "text": "32%",
+    "label": "VALOR"
+  },
+  {
+    "text": "70%",
+    "label": "VALOR"
+  },
+  {
+    "text": "14%",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A Associação Nacional dos Industriais de Arroz ( ANIA ) explicou que um conjunto de factores a nível do mercado internacional - aumento do preço das matérias-primas com parte da produção a ser desviada para o fabrico de biocombustíveis - provocou em Portugal um acréscimo do valor por tonelada de 200 a 230 euros em 2006 para 280 a 290 euros este ano .
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação Nacional dos Industriais de Arroz",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ANIA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "200 a 230 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "em 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "280 a 290 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Nos transportes públicos, a subida é, em média, de 3,9% , e nas portagens das auto-estradas será de 2,6% , também, em média, seguindo o estipulado na lei, que obriga as concessionárias a apresentar " até 15 de Novembro as propostas de aumentos de portagens, tendo como por base a última inflação homóloga conhecida.
+Entidades verdadeiras:
+[
+  {
+    "text": "3,9%",
+    "label": "VALOR"
+  },
+  {
+    "text": "2,6%",
+    "label": "VALOR"
+  },
+  {
+    "text": "até 15 de Novembro",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "3,9%",
+    "label": "VALOR"
+  },
+  {
+    "text": "2,6%",
+    "label": "VALOR"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Nem todas as portagens sofrerão alterações, uma vez que os contratos de concessão determinam que os aumentos sejam arredondados em múltiplos de 5 cêntimos .
+Entidades verdadeiras:
+[
+  {
+    "text": "5 cêntimos",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O tabaco também vai pesar mais na carteira: o Governo decidiu em 2005 que o Imposto sobre o Tabaco teria um aumento médio anual de 15% até 2009 e, a partir de Janeiro de 2008 , um maço das marcas mais comercializadas poderá mesmo aumentar, em média, 30 cêntimos .
+Entidades verdadeiras:
+[
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 2005",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Imposto sobre o Tabaco",
+    "label": "OUTRO"
+  },
+  {
+    "text": "15%",
+    "label": "VALOR"
+  },
+  {
+    "text": "até 2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "a partir de Janeiro de 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "30 cêntimos",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Sem contas fechadas, os CTT adiantam que «os preços dos serviços de correios não vão aumentar já em Janeiro » e, na água, o Instituto Regulador das Águas e Resíduos ( IRAR ) diz que o procedimento para 2008 está actualmente em curso, prevendo-se a sua conclusão em Janeiro .
+Entidades verdadeiras:
+[
+  {
+    "text": "CTT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Instituto Regulador das Águas e Resíduos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IRAR",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "para 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quanto às empresas concessionárias dos sistemas municipais, as tarifas são definidas no momento do estabelecimento da concessão e actualizadas de acordo com as regras constantes do respectivo contrato com aprovação pelo município.
+Entidades verdadeiras:
+[
+  {
+    "text": "no momento",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Mas nem tudo são más notícias, tendo em conta que o Salário Mínimo Nacional vai aumentar, a partir do dia 1 de Janeiro , 5,7% , para 426 euros .
+Entidades verdadeiras:
+[
+  {
+    "text": "Salário Mínimo Nacional",
+    "label": "OUTRO"
+  },
+  {
+    "text": "a partir do dia 1 de Janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "5,7%",
+    "label": "VALOR"
+  },
+  {
+    "text": "426 euros",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Salário Mínimo Nacional",
+    "label": "ABSTRACAO"
+  },
+  {
+    "text": "1 de Janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "5,7%",
+    "label": "VALOR"
+  },
+  {
+    "text": "426 euros",
+    "label": "VALOR"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+O valor fixado insere-se no acordo tripartido assinado no ano passado e que prevê uma evolução significativa do salário mínimo, de modo a atingir os 450 euros em 2009 e os 500 euros em 2011 .
+Entidades verdadeiras:
+[
+  {
+    "text": "no ano passado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "450 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "em 2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "500 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "em 2011",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O " Indexante de Apoios Sociais ( IAS ), o referencial de actualização e cálculo das prestações sociais, deverá situar-se nos 407,4 euros , o que traduz um crescimento de 2,4% , a partir de Janeiro do próximo ano , segundo as contas feitas pela agência Lusa .
+Entidades verdadeiras:
+[
+  {
+    "text": "Indexante de Apoios Sociais",
+    "label": "OUTRO"
+  },
+  {
+    "text": "IAS",
+    "label": "OUTRO"
+  },
+  {
+    "text": "407,4 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "2,4%",
+    "label": "VALOR"
+  },
+  {
+    "text": "a partir de Janeiro do próximo ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em relação à actualização das pensões atribuídas pelo sistema de Segurança Social , as pensões de valor igual ou inferior a 1,5 IAS ( 611,10 euros ) são actualizadas em 2,7% , as pensões entre 1,5 IAS e 6 IAS tem uma actualização de 2,17% e as pensões de valor superior a 6 IAS tem um aumento de 1,88% .
+Entidades verdadeiras:
+[
+  {
+    "text": "Segurança Social",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1,5 IAS",
+    "label": "VALOR"
+  },
+  {
+    "text": "611,10 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "2,7%",
+    "label": "VALOR"
+  },
+  {
+    "text": "entre 1,5 IAS e 6 IAS",
+    "label": "VALOR"
+  },
+  {
+    "text": "2,17%",
+    "label": "VALOR"
+  },
+  {
+    "text": "6 IAS",
+    "label": "VALOR"
+  },
+  {
+    "text": "1,88%",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Estes valores foram calculados com base na lei 53-B/2006, de 29 de Dezembro , que cria o indexante dos apoios sociais e novas regras de actualização das pensões e outras prestações sociais do sistema de Segurança Social .
+Entidades verdadeiras:
+[
+  {
+    "text": "de 29 de Dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Segurança Social",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Direitos Fundamentais
+Entidades verdadeiras:
+[]
+Entidades previstas:
+[
+  {
+    "text": "Direitos Fundamentais",
+    "label": "ABSTRACAO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Pöttering , Sócrates e Barroso assinam Carta dos Direitos Fundamentais da UE | Carta dos Direitos Fundamentais da UE
+Entidades verdadeiras:
+[
+  {
+    "text": "Pöttering",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sócrates",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Barroso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais da UE",
+    "label": "OBRA"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA"
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Os Presidentes do Parlamento Europeu , do Conselho e da Comissão | Presidentes do Parlamento Europeu , do Conselho e da Comissão assinaram, a 12 de Dezembro de 2007 , em Estrasburgo , a Carta dos Direitos Fundamentais da União Europeia | Carta dos Direitos Fundamentais da União Europeia , um dia antes da assinatura do Tratado de Lisboa , na capital portuguesa. Os três salientaram o "dia histórico" para os cidadãos europeus e também o "desafio quotidiano" e o "compromisso das instituições europeias" de respeitar e promover os direitos e valores fundamentais.
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidentes do Parlamento Europeu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "do Conselho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "da Comissão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidentes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "a 12 de Dezembro de 2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estrasburgo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais da União Europeia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA"
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "um dia antes",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Tratado de Lisboa",
+    "label": "OBRA"
+  },
+  {
+    "text": "o \"dia histórico\"",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+"Trata-se de um dia feliz para as cidadãs e os cidadãos da União Europeia ", em que se festejam "os nossos valores comuns", afirmou o Presidente do Parlamento Europeu | Presidente do Parlamento Europeu , Hans-Gert PÖTTERING , no discurso que antecedeu a assinatura da Carta dos Direitos Fundamentais da União Europeia | Carta dos Direitos Fundamentais da União Europeia .
+Entidades verdadeiras:
+[
+  {
+    "text": "de um dia",
+    "label": "TEMPO"
+  },
+  {
+    "text": "União Europeia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Presidente do Parlamento Europeu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Hans-Gert PÖTTERING",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais da União Europeia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA"
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Relembrando o "caminho significativo" que foi necessário percorrer até chegar a este momento , afirmou que "os ensinamentos da história da Europa foram tomados em consideração", num documento que garante "valores como a liberdade e a segurança".
+Entidades verdadeiras:
+[
+  {
+    "text": "a este momento",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+"Com a proclamação da Carta , temos a obrigação e a oportunidade de dar aos quase 500 milhões de cidadãos a ideia de uma Europa unida. Somos essencialmente uma comunidade de valores -- são estes valores comuns que constituem o fundamento da União Europeia ", declarou.
+Entidades verdadeiras:
+[
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "quase 500 milhões",
+    "label": "VALOR"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "União Europeia",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Hans-Gert PÖTTERING destacou ainda a importância, para o PE , de ver reconhecido o valor juridicamente vinculativo da Carta , um passo "essencial no quadro de reforma dos Tratados e essencial para a identidade europeia".
+Entidades verdadeiras:
+[
+  {
+    "text": "Hans-Gert PÖTTERING",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "Tratados",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+"Sem estes valores, a União Europeia não teria futuro". Dentro e fora da Europa , "temos o dever de sempre defender a dignidade e os direitos humanos", concluiu.
+Entidades verdadeiras:
+[
+  {
+    "text": "União Europeia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Também o Presidente em exercício do Conselho da UE | Conselho da UE José SÓCRATES , destacou o dia de hoje como "uma data fundamental na história da integração europeia".
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conselho da UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José SÓCRATES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "o dia de hoje",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+" A partir de hoje , e talvez para incómodo de alguns, os direitos fundamentais passam formalmente, e de forma irreversível, a fazer parte do património comum da UE . Um património ético, de cidadania e do melhor que há na civilização europeia!", afirmou o Primeiro-Ministro português.
+Entidades verdadeiras:
+[
+  {
+    "text": "A partir de hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Primeiro-Ministro",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Manifestando-se "muito honrado como europeu e como português" por participar na cerimónia de proclamação da Carta dos Direitos Fundamentais da UE | Carta dos Direitos Fundamentais da UE -- que definiu como "a mais importante de toda a carreira política" -- SÓCRATES salientou ainda o compromisso assumido pelas três instituições -- PE , Conselho e Comissão -- de que "os valores fundamentais serão respeitados e aplicados".
+Entidades verdadeiras:
+[
+  {
+    "text": "Carta dos Direitos Fundamentais da UE",
+    "label": "OBRA"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA"
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A Carta "representa um compromisso das instituições da União de a respeitarem e aplicarem quotidianamente . Só assim seremos dignos herdeiros do que há de melhor na nossa identidade colectiva e tradição comum de uma Europa que honra os direitos e as garantias dos cidadãos".
+Entidades verdadeiras:
+[
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "quotidianamente",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Para SÓCRATES , esta Carta "vai para além" dos cidadãos da UE , representando "um esteio fundamental da convicção de um mundo melhor e de que os direitos são universalmente respeitados".
+Entidades verdadeiras:
+[
+  {
+    "text": "SÓCRATES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "UE",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Expressando ainda a "honra" por Portugal ficar associado a "uma importante etapa da cidadania europeia" -- foi durante a Presidência em 2000 que se iniciou a Convenção que deu origem à Carta e é durante a actual Presidência que a Carta é proclamada -- SÓCRATES alertou, no entanto, para o facto de a tarefa ainda não estar acabada.
+Entidades verdadeiras:
+[
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Presidência",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "em 2000",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Convenção",
+    "label": "OBRA"
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "Presidência",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+"O combate pelos direitos fundamentais é uma tarefa quotidiana, uma tarefa sem fim, dos Estados , das sociedades civis, das empresas, dos sindicatos, dos cidadãos. A sua defesa é o reconhecimento de um valor essencial à identidade europeia, faz parte do nosso código genético, e esta é a Europa a que eu quero pertencer", concluiu.
+Entidades verdadeiras:
+[
+  {
+    "text": "Estados",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Também o Presidente da Comissão Europeia | Presidente da Comissão Europeia , José Manuel Durão BARROSO , declarou que, com a Carta dos Direitos Fundamentais , a Europa está "mais equipada para levar a cabo o seu combate pela liberdade, democracia e paz".
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidente da Comissão Europeia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José Manuel Durão BARROSO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+"A Carta encorajará a UE numa verdadeira cultura dos direitos fundamentais. Comprometemo-nos, sobretudo, a respeitar os nossos próprios direitos. Pode parecer fácil de assumir, mas é, na verdade, um verdadeiro desafio quotidiano", salientou BARROSO .
+Entidades verdadeiras:
+[
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "BARROSO",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+"Trata-se de um êxito extraordinário de que a UE se deve sentir orgulhosa. É particularmente importante que aconteça numa Europa alargada que esteve dividia por regimes ditatoriais. Se conjugarmos esforços para estimular esta cultura de direitos humanos, daremos um contributo essencial para uma Europa de valores", concluiu.
+Entidades verdadeiras:
+[
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Depois de a Carta ser assinada pelos Presidentes das três instituições, ouviu-se o hino europeu no hemiciclo de Estrasburgo .
+Entidades verdadeiras:
+[
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "Presidentes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estrasburgo",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A cerimónia de proclamação foi interrompida em diversas ocasiões por uma minoria de deputados que protestaram nas últimas bancadas do hemiciclo, exigindo a realização de um referendo ao Tratado de Lisboa . Os protestos foram calados pelos aplausos da maioria dos eurodeputados e pelo próprio Presidente do Conselho | Presidente do Conselho , no início do seu discurso: "Por mais que muitos gritem tentando impedir os outros de falar, esta é uma data fundamental da história europeia", afirmou José SÓCRATES .
+Entidades verdadeiras:
+[
+  {
+    "text": "Tratado de Lisboa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Presidente do Conselho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José SÓCRATES",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O líder do PPE/DE | líder do PPE/DE , Joseph DAUL , criticou os protestos, afirmando que o PE é "um hemiciclo onde reina a democracia" não sendo, por isso, "digno actuar desta maneira".
+Entidades verdadeiras:
+[
+  {
+    "text": "líder do PPE/DE",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PPE/DE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Joseph DAUL",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PE",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+No mesmo registo, Martin SCHULZ ( PSE , DE ), líder do PSE | líder do PSE , recordou que, na República de Weimar , se queria acabar com os inimigos em forma de coro e quem dirigia esse coro era Hitler ".
+Entidades verdadeiras:
+[
+  {
+    "text": "Martin SCHULZ",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PSE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "DE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "líder do PSE",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PSE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "República de Weimar",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Hitler",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Do grupo ALDE , Graham WATSON lançou uma petição para que a Presidência do PE | Presidência do PE use os poderes que lhe confere o regimento "para mandar embora um deputado que se comporte de maneira indigna": "Uma atitude como esta não se pode tolerar e traz-nos o pior de um estádio de futebol", afirmou.
+Entidades verdadeiras:
+[
+  {
+    "text": "ALDE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Graham WATSON",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidência do PE",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidência",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PE",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Francis WURTZ , da CEUE/EVN , condenou "de maneira absoluta as declarações antieuropeias e indignas" que se ouviram no hemiciclo: "O meu grupo está a favor de um referendo, mas opõe-se a acções como esta", afirmou.
+Entidades verdadeiras:
+[
+  {
+    "text": "Francis WURTZ",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CEUE/EVN",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Também o co-presidente dos Verdes/ALE | co-presidente dos Verdes/ALE , Daniel COHN-BENDIT , se mostrou "consternado" com o ocorrido, mas pediu que não se dramatize a situação: "Há 50 loucos mas há 700 sãos"; "não peçamos a expulsão destes loucos porque um Parlamento | Parlamento livre é aquele que aguenta os loucos que lhe são desagradáveis".
+Entidades verdadeiras:
+[
+  {
+    "text": "co-presidente dos Verdes/ALE",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Verdes/ALE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Daniel COHN-BENDIT",
+    "label": "PESSOA"
+  },
+  {
+    "text": "50",
+    "label": "VALOR"
+  },
+  {
+    "text": "700",
+    "label": "VALOR"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Da mesma forma, para Brian CROWLEY , da UEN , o ocorrido "superou o permissível".
+Entidades verdadeiras:
+[
+  {
+    "text": "Brian CROWLEY",
+    "label": "PESSOA"
+  },
+  {
+    "text": "UEN",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Do grupo IND/DEM , Jens-Peter BONDE assinalou que, pessoalmente, não participou nos protestos mas que vestiu a camisola com a referência à realização de um referendo, que faz parte da vida democrática.
+Entidades verdadeiras:
+[
+  {
+    "text": "IND/DEM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Jens-Peter BONDE",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Discurso de José Sócrates na cerimónia de Proclamação da Carta dos Direitos Fundamentais
+Entidades verdadeiras:
+[
+  {
+    "text": "José Sócrates",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Proclamação da Carta dos Direitos Fundamentais",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Fonte: Press Release ( 28/10/2003 )
+Entidades verdadeiras:
+[
+  {
+    "text": "Press Release",
+    "label": "LOCAL"
+  },
+  {
+    "text": "28/10/2003",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A Expotec 2003 , Feira de Ciências e Cultura da Escola Fortec | Feira de Ciências e Cultura da Escola Fortec , reuniu mais de 2000 pessoas na unidade 4, em São Vicente - Feira de Ciências e Cultura da Escola Fortec.
+Entidades verdadeiras:
+[
+  {
+    "text": "Expotec 2003",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Feira de Ciências e Cultura da Escola Fortec",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Feira de Ciências e Cultura",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Escola Fortec",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "mais de 2000",
+    "label": "VALOR"
+  },
+  {
+    "text": "São Vicente",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Um dos destaques do evento foi a apresentação do resultado do trabalho desenvolvido em sala de aula pela oficina Noções básicas de Histórias em Quadrinhos , da Associação dos Artistas - Música e Arte .
+Entidades verdadeiras:
+[
+  {
+    "text": "Noções básicas de Histórias em Quadrinhos",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Associação dos Artistas - Música e Arte",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O evento contou com o lançamento do Zine Expotec 2003 - Meio Ambiente , ilustrações e mascotes criados pelos alunos. Além da exposição, cada aluno criou sua mascote que virou camiseta.
+Entidades verdadeiras:
+[
+  {
+    "text": "Zine Expotec 2003 - Meio Ambiente",
+    "label": "OBRA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Links Relacionados: HQ Nacional
+Entidades verdadeiras:
+[
+  {
+    "text": "HQ Nacional",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Lançamento do mangá Fruits Basket no Anima Weekend ( 07/04/05 )
+Entidades verdadeiras:
+[
+  {
+    "text": "Fruits Basket",
+    "label": "OBRA"
+  },
+  {
+    "text": "Anima Weekend",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "07/04/05",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Turma da Mônica será estrela de campanha internacional de vacinação ( 30/03/05 )
+Entidades verdadeiras:
+[
+  {
+    "text": "Turma da Mônica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "30/03/05",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+HQs de Velta disponíveis em CD-Rom ( 22/03/05 )
+Entidades verdadeiras:
+[
+  {
+    "text": "HQs",
+    "label": "COISA"
+  },
+  {
+    "text": "Velta",
+    "label": "PESSOA"
+  },
+  {
+    "text": "22/03/05",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Folclore brasileiro em estilo mangá ( 03/03/05 )
+Entidades verdadeiras:
+[
+  {
+    "text": "03/03/05",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+THANKSGIVING COM MINE DE RIEN
+Entidades verdadeiras:
+[
+  {
+    "text": "THANKSGIVING",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "THANKSGIVING",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Mine de Rien",
+    "label": "LOCAL"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Na noite de Acção de Graças | Na noite de Acção de Graças apresento-vos um blogue escrito dos EUA , da cidade onde eu várias vezes passei este feriado. Evidentemente, é mais um blogue de um LEFT ista (embora neste caso não vá insistir muito no aspecto LEFT porque o rapaz nem é muito disso...). O autor, para além de um velho amigo - conheço-o desde caloiro -, é uma pessoa interessantíssima, e tem com certeza uma perspectiva muito sua a acrescentar ao assunto para mim fascinante das relações entre a Europa e a América , o Velho e o Novo Continente . Antes de eu ir para os EUA falava-me entusiasmadíssimo do american way of life e de como era boa a comida nas universidades americanas - a escolha de pizzas! os hot-dogs! os hamburgers! - sem se aperceber de como me estava a deixar horrorizado. Depois da LEFT o Pedro veio para Paris fazer Teoria de Cordas . Na Cité Universitaire arranjou maneira de não ficar muito tempo na Residência André de Gouveia , indo antes para uma casa que era a cara dele - a Deutsche de la Meurthe , a mais antiga, a mais clássica, aquela onde Simone de Beauvoir ia visitar o estudante Jean-Paul Sartre . Quando eu cheguei, deu-me a conhecer a área de Montparnasse e do Port Royal . Nessa altura era um parisiense com uma costela americana, português q.b. e vagamente judeu. Agora é um americano parisiense, um verdadeiro mangeur de fromage. Pôs a Europa e a Teoria das Cordas de parte e foi para a melhor cidade da América do Norte mostrar que um físico matemático é pau para toda a obra - nem que seja para mostrar que a Biologia Celular é só "quebra de simetria" e que não há nada como o outono na Nova Inglaterra .
+Entidades verdadeiras:
+[
+  {
+    "text": "Na noite de Acção de Graças",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Acção de Graças",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "várias vezes",
+    "label": "TEMPO"
+  },
+  {
+    "text": "LEFT",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "América",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Velho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Novo Continente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "LEFT",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Pedro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Teoria de Cordas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Cité Universitaire",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "muito tempo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Residência André de Gouveia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Deutsche de la Meurthe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Simone de Beauvoir",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jean-Paul Sartre",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Montparnasse",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Port Royal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Nessa altura",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Europa",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Teoria das Cordas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "América do Norte",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Biologia Celular",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "o outono",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Nova Inglaterra",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Que rica prenda de Thanksgiving | de Thanksgiving . Bem vindo, Pedro .
+Entidades verdadeiras:
+[
+  {
+    "text": "de Thanksgiving",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Thanksgiving",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Pedro",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A 24 de Novembro de 1960 , no restaurante Le Vrai Gascon (n.º 82 da rue du Bac , Paris ), em torno dessas figuras majestáticas que eram Raymond Queneau e François Le Lionnais , nasceu uma das mais heterodoxas correntes literárias do século XX . Desafio intelectual e brincadeira de literatos apaixonados pela sua língua, explosiva mistura de cérebros moldados pelas leis da gramática e mentes científicas habituadas a todo o tipo de operações lógicas, o OuLiPo ( Ouvroir de Littérature Potentiel ) veio libertar a literatura da forma mais radical: acorrentando-a. Isto é, inventando um sem número de constrangimentos que estimulam a imaginação e a perícia verbal de quem escreve.
+Entidades verdadeiras:
+[
+  {
+    "text": "A 24 de Novembro de 1960",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Le Vrai Gascon",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bac",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Raymond Queneau",
+    "label": "PESSOA"
+  },
+  {
+    "text": "François Le Lionnais",
+    "label": "PESSOA"
+  },
+  {
+    "text": "do século XX",
+    "label": "TEMPO"
+  },
+  {
+    "text": "OuLiPo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Ouvroir de Littérature Potentiel",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Na definição sucinta de Queneau , um autor oulipiano é um «rato que constrói o labirinto do qual se propõe sair». Um labirinto de palavras, claro; um labirinto textual. E se grande parte da produção destes autores auto-espartilhados não sobrevive fora do contexto em que surgiu, enquanto mecanismo lúdico ou exercício de estilo, o certo é que os processos do OuLiPo estão inscritos na estrutura de algumas obras-primas de autores como Italo Calvino ( Se Numa Noite de Inverno um Viajante ) ou Georges Perec ( A Vida Modo de Usar ; La Disparition ; etc). Quanto mais não fosse por isso, já valeria a pena celebrar os 45 anos | os 45 anos de um movimento que continua activo e em expansão (investigar aqui).
+Entidades verdadeiras:
+[
+  {
+    "text": "Queneau",
+    "label": "PESSOA"
+  },
+  {
+    "text": "OuLiPo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Italo Calvino",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Se Numa Noite de Inverno um Viajante",
+    "label": "OBRA"
+  },
+  {
+    "text": "Georges Perec",
+    "label": "PESSOA"
+  },
+  {
+    "text": "A Vida Modo de Usar",
+    "label": "OBRA"
+  },
+  {
+    "text": "La Disparition",
+    "label": "OBRA"
+  },
+  {
+    "text": "os 45 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "45 anos",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Terramoto de 1755
+Entidades verdadeiras:
+[
+  {
+    "text": "Terramoto de 1755",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O Terramoto
+Entidades verdadeiras:
+[
+  {
+    "text": "Terramoto",
+    "label": "ACONTECIMENTO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O sismo fez-se sentir na manhã de 1 de Novembro de 1755 , dia que coincide com o feriado do Dia de Todos-os-Santos | do Dia de Todos-os-Santos . O epicentro não é conhecido com exactidão, havendo diversos sismólogos que propõem locais distanciados de centenas de quilómetros. No entanto, todos convergem para um epicentro no mar, entre 150 a 500 quilómetros a sudoeste de Lisboa . Devido a um forte sismo, ocorrido em 1969 no Banco de Gorringe , este local tem sido apontado como tendo forte probabilidade de aí se ter situado o epicentro em 1755 .
+Entidades verdadeiras:
+[
+  {
+    "text": "na manhã de 1 de Novembro de 1755",
+    "label": "TEMPO"
+  },
+  {
+    "text": "dia",
+    "label": "TEMPO"
+  },
+  {
+    "text": "do Dia de Todos-os-Santos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dia de Todos-os-Santos",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "entre 150 a 500 quilómetros",
+    "label": "VALOR"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1969",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Banco de Gorringe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1755",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Relatos da época afirmam que os abalos foram sentidos, consoante o local, durante entre 6 minutos a 2 horas e meia | durante entre 6 minutos a 2 horas e meia , causando fissuras enormes de que ainda hoje há vestígios em Lisboa . Com os vários desmoronamentos os sobreviventes procuraram refúgio na zona portuária e assistiram ao recuo das águas, revelando o fundo do mar cheio de destroços de navios e cargas perdidas. Poucas dezenas de minutos depois , um tsunami, que actualmente se supõe ter atingido 20 metros de altura, fez submergir o porto e o centro da cidade. Nas áreas que não foram afectadas pelo tsunami, o fogo logo se alastrou, e os incêndios duraram pelo menos cinco dias. Todos tinham fugido e não havia quem o apagasse.
+Entidades verdadeiras:
+[
+  {
+    "text": "durante entre 6 minutos a 2 horas e meia",
+    "label": "TEMPO"
+  },
+  {
+    "text": "entre 6 minutos a 2 horas e meia",
+    "label": "VALOR"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Poucas dezenas de minutos depois",
+    "label": "TEMPO"
+  },
+  {
+    "text": "20 metros",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Lisboa não foi a única cidade portuguesa afectada pela catástrofe. Todo o sul de Portugal , nomeadamente o Algarve , foi atingido e a destruição foi generalizada. As ondas de choque do sismo foram sentidas por toda a Europa e norte da África . Os maremotos originados pela movimentação tectónica varreram desde do norte de África até ao norte da Europa , nomeadamente até à Finlândia e através do Atlântico , afectando locais tão longínquos como Martinica e Barbados .
+Entidades verdadeiras:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Algarve",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "África",
+    "label": "LOCAL"
+  },
+  {
+    "text": "África",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Finlândia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Atlântico",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Martinica",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Barbados",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+De uma população de 275 mil habitantes em Lisboa , crê-se que 90 mil morreram[2]. Outros 10 mil foram vitimados em Marrocos . Cerca de 85% das construções de Lisboa foram destruídas, incluindo palácios famosos e bibliotecas, conventos e igrejas, hospitais e todas as estruturas. Várias construções que sofreram poucos danos pelo terramoto foram destruídas pelo fogo que se seguiu ao abalo sísmico.
+Entidades verdadeiras:
+[
+  {
+    "text": "275 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "90 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "10 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "Marrocos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cerca de 85%",
+    "label": "VALOR"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A recém construída Casa da Ópera , aberta apenas seis meses antes , foi totalmente consumida pelo fogo. O Palácio Real , que se situava na margem do Tejo , onde hoje existe o Terreiro do Paço , foi destruído pelos abalos sísmicos e pelo tsunami. Dentro, a biblioteca de 70 mil volumes e centenas de obras de arte, incluindo pinturas de Ticiano , Rubens , e Correggio , foram perdidas. O precioso Arquivo Real com documentos relativos à exploração oceânica e outros documentos antigos também foram perdidos. O terramoto destruiu ainda as maiores igrejas de Lisboa , especialmente a Catedral de Santa Maria , e as Basílicas de São Paulo , Santa Catarina , São Vicente de Fora , e a da Misericórdia . As ruínas do Convento do Carmo ainda hoje podem ser visitadas no centro da cidade. O túmulo de Nuno Álvares Pereira , nesse convento, perdeu-se também. O Hospital Real de Todos os Santos foi consumido pelos fogos e centenas de pacientes morreram queimados. Registos históricos das viagens de Vasco da Gama e Cristóvão Colombo foram perdidos, e incontáveis construções foram arrasadas (incluindo muitos exemplares da arquitectura do período Manuelino em Portugal ).
+Entidades verdadeiras:
+[
+  {
+    "text": "Casa da Ópera",
+    "label": "OBRA"
+  },
+  {
+    "text": "seis meses antes",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Palácio Real",
+    "label": "OBRA"
+  },
+  {
+    "text": "Tejo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Terreiro do Paço",
+    "label": "LOCAL"
+  },
+  {
+    "text": "70 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "Ticiano",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rubens",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Correggio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Arquivo Real",
+    "label": "OBRA"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Catedral de Santa Maria",
+    "label": "OBRA"
+  },
+  {
+    "text": "Basílicas de São Paulo",
+    "label": "OBRA"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "OBRA"
+  },
+  {
+    "text": "São Vicente de Fora",
+    "label": "OBRA"
+  },
+  {
+    "text": "Misericórdia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Convento do Carmo",
+    "label": "OBRA"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Nuno Álvares Pereira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Hospital Real de Todos os Santos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Vasco da Gama",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cristóvão Colombo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "do período Manuelino",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O PRESIDENTE Sarkozy abriu a Conferência de Dadores realizada em Paris com uma frase grandiloquente sobre a necessidade urgente de criar um Estado palestiniano no fim de 2008 . O Presidente ou é mentiroso ou finge-se ignorante, ou as duas coisas. Depois do falhanço esperado da cimeira de Annapolis , um modo de Condoleezza Rice salvar a face e de a Administração | Administração americana e a Europa continuarem a fingir que estão interessadas em resolver o conflito israelo-palestiniano e de lavarem as mãos de tudo o resto, Sarkozy não pode ignorar que o momento para pronunciamentos débeis é o menos adequado. Tony Blair , depois de ter minado todo o processo de paz do Médio Oriente ao ordenar a invasão do Iraque de braço dado com Bush , continua a emitir piedades deste género, e diz que está na altura de resolver o problema e que ele pode ser resolvido. Blair não sabe o que diz.
+Entidades verdadeiras:
+[
+  {
+    "text": "PRESIDENTE Sarkozy",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conferência de Dadores",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "no fim de 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Annapolis",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Condoleezza Rice",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Administração",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sarkozy",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tony Blair",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Iraque",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bush",
+    "label": "PESSOA"
+  },
+  {
+    "text": "na altura",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Blair",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A verdade é que não pode ser resolvido, já não pode, e não pode justamente nesta fase, quando os palestinianos têm não um mas dois governos e dois territórios, um ocupado pelos israelitas, a Cisjordânia , outro abandonado pelos israelitas e bombardeado pelos israelitas, Gaza . Anos e anos de destruição compulsiva de interlocutores, alguns moderados, e de opressão, fizeram do povo palestiniano uma nação de pedintes. Gaza subvive das esmolas iranianas, sauditas e dos Emiratos , e a Cisjordânia subvive de doações da Europa , da América , de Estados árabes e das Nações Unidas . Nenhuma nação palestiniana pode aspirar a ser um Estado palestiniano , e um país viável, sem unidade do território e do povo, e sem soberania sobre esse povo e esse território. No terreno, temos a pior situação de sempre. O Hamas a mandar em Gaza , e a OLP a fingir que manda na Cisjordânia . Sarkozy , e Blair , e os europeus, sendo a Europa o maior dador de dinheiro para os palestinianos e já vamos ver porquê, não podem desconhecer que nem Mahmoud Abbas é um chefe com apoio popular na Cisjordânia nem a OLP , dominada pela Fatah , tem apoio popular em Gaza . Se realizassem eleições na Cisjordânia , Abbas e um grupo de agentes corruptos disfarçados de "moderados" não as ganhariam, e não as ganhariam nas cidades onde o Hamas ganhou. Abbas pode fingir mandar em Ramallah e na clientela privilegiada de uma organização que não soube constituir-se como fonte legítima do poder palestiniano, não pode fingir que é considerado em Jenin e Hebron , em Nablus e Tulkarem , em Jericó e Jerusalém Oriental . Abbas , arrastando-se aos pés dos chefes europeus a mendigar uns milhares de milhões de dólares enquanto insulta o Hamas e aceita que os palestinianos de Gaza sejam colectivamente punidos pelo embargo israelita e pela recusa americana e europeia de incluir o Hamas no processo de paz é visto como uma marioneta do Ocidente e um traidor.
+Entidades verdadeiras:
+[
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Anos e anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Gaza",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Emiratos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "América",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estados árabes",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Nações Unidas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gaza",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "OLP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sarkozy",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Blair",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mahmoud Abbas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "OLP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Fatah",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Abbas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Abbas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ramallah",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Jenin",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hebron",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Nablus",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tulkarem",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Jericó",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Jerusalém Oriental",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Abbas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ocidente",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Os israelitas sabem isto melhor do que ninguém porque são os que melhor conhecem a quimera do road map. Israel , sabendo que não pode devolver a Cisjordânia , desmantelar os colonatos, prescindir da Ocupação sem comprometer a sua segurança, dividir Jerusalém ou ceder a pretensões sobre o regresso de milhões de refugiados (que nunca poderão regressar), está interessado em manter as ficções americanas e europeias e administrar a Ocupação e a relação de forças, como a sua supremacia militar assegura. O Hamas está interessado, simetricamente, em administrar a resistência. Israel só seria obrigado a ceder se os Estados Unidos deixassem de apoiar e de vender milhares de milhões de dólares de armas aos israelitas, e Israel sabe que isso nunca acontecerá, por razões da política interna americana e da força do lobby judeu. Nenhum candidato democrata, nem mesmo o utópico Obama , ousariam modificar este estado de coisas.
+Entidades verdadeiras:
+[
+  {
+    "text": "Israel",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ocupação",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Jerusalém",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ocupação",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Israel",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Israel",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Obama",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A posição da Europa , dando milhares de milhões que a dispensem de contribuir para uma resolução política, é a mais contraproducente. A Europa prefere pagar para não ser incomodada, e prefere transformar, como transformou, os palestinianos numa nação de pedintes. A velha e cínica Europa , origem de todo este problema, a assassina Europa como lhe chama o escritor israelita Amos Oz , sabe que não pode contrariar os Estados Unidos e não quer contrariar os israelitas por má consciência. Sabe também que os palestinianos são um povo espoliado, banido, revoltado e oprimido, e que parte da responsabilidade histórica dessa opressão lhe pertence. Como contribui para o problema sem contribuir para a solução, a Europa adoptou um discurso de duplicidades e subentendidos, de fraquezas e recuos, de que o senhor Javier Solanas é o exemplo acabado. A rematar o discurso, a Europa passa cheques. Os palestinianos habituaram-se a explorar esta fraqueza a seu favor e transformaram a sua reivindicação numa vitimização que lhes dá direito, de tanto em tanto tempo , a uma compensação monetária. Muitos milhões acabam, como no tempo de Arafat , em contas secretas e nos bolsos de uma oligarquia. Tanto dinheiro não chega para comprar os palestinianos que não estão à venda. Os palestinianos vêem o Muro entrar-lhes pelas vidas dentro, vêem a sua destituição transformada em humilhação, e votam Hamas ou Jihad Islâmica . Em Gaza , as crianças querem ser mártires. E sem Gaza , não haverá Palestina .
+Entidades verdadeiras:
+[
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Amos Oz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "senhor Javier Solanas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "de tanto em tanto tempo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "no tempo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Arafat",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Muro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Jihad Islâmica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Palestina",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Camacho ganhou sempre a Jesualdo mas não ao FC Porto
+Entidades verdadeiras:
+[
+  {
+    "text": "Camacho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jesualdo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Se as estatísticas quiserem dizer alguma coisa, Camacho pode encarar o clássico de sábado com optimismo. O espanhol soma por vitórias os 3 jogos frente a Jesualdo Ferreira , técnico ao qual sucedeu no comando do Benfica , em 2002/2003 .
+Entidades verdadeiras:
+[
+  {
+    "text": "Camacho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "de sábado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "3",
+    "label": "VALOR"
+  },
+  {
+    "text": "Jesualdo Ferreira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 2002/2003",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+No entanto, há outra leitura que tem de ser feita: o espanhol jamais venceu o FC Porto para o campeonato.
+Entidades verdadeiras:
+[
+  {
+    "text": "FC Porto",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "espanhol",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "campeonato",
+    "label": "ACONTECIMENTO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Em três "duelos", face a Jesualdo , então ao comando do Sp.Braga , Camacho venceu por duas vezes como visitante ( 3-1 em 2002/2003 e 3-0 em 2003/2004 ) e uma como anfitrião ( 2-0 em 2003/2004 ).
+Entidades verdadeiras:
+[
+  {
+    "text": "Jesualdo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sp.Braga",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Camacho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "por duas vezes",
+    "label": "TEMPO"
+  },
+  {
+    "text": "3-1",
+    "label": "VALOR"
+  },
+  {
+    "text": "em 2002/2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "em 2003/2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2-0",
+    "label": "VALOR"
+  },
+  {
+    "text": "em 2003/2004",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O espanhol está 100 por cento vitorioso face a Jesualdo , mas nunca enceu o FC Porto para o campeonato, tendo como melhor registo o empate na Luz , em 2003/2004 ( 1-1 ).
+Entidades verdadeiras:
+[
+  {
+    "text": "Jesualdo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Luz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 2003/2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1-1",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Na mesma temporada, Camacho perdeu no FC Porto por 2-0 e, na anterior, já tinha perdido em casa por 1-0 .
+Entidades verdadeiras:
+[
+  {
+    "text": "Camacho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "2-0",
+    "label": "VALOR"
+  },
+  {
+    "text": "1-0",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A 16 de Maio de 2004 , na final da Taça de Portugal | Taça de Portugal , o FC Porto adiantou-se, por Derlei , mas o grego Fyssas empatou e, no prolongamento, Simão derrotou o "onze" de José Mourinho , que, 10 dias depois | 10 dias depois, viria a vencer a Liga dos Campeões ( 3-0 ao AS Mónaco ).
+Entidades verdadeiras:
+[
+  {
+    "text": "A 16 de Maio de 2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Taça de Portugal",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Taça",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Derlei",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fyssas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Simão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José Mourinho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "10 dias depois",
+    "label": "TEMPO"
+  },
+  {
+    "text": "10 dias",
+    "label": "VALOR"
+  },
+  {
+    "text": "Liga dos Campeões",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "3-0",
+    "label": "VALOR"
+  },
+  {
+    "text": "AS Mónaco",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Por seu lado, Jesualdo Ferreira tem um balanço negativo nos confrontos com o Benfica , com quatro vitórias, três empates e cinco derrotas ( 13-19 em golos), mas nunca perdeu ao comando do FC Porto : "a época passada, venceu no Dragão ( 3-2 ) e empatou na Luz ( 1-1 ).
+Entidades verdadeiras:
+[
+  {
+    "text": "Jesualdo Ferreira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "13-19",
+    "label": "VALOR"
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dragão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "3-2",
+    "label": "VALOR"
+  },
+  {
+    "text": "Luz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1-1",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Finalmente, um sentimento profundo de autonomia estava a crescer e foi consumado na revolta de 1640 , na qual um grupo de conspiradores da nobreza aclamou o duque de Bragança como Rei de Portugal | Rei de Portugal , com o título de D. João IV ( 1640-1656 ), dando início à quarta Dinastia -- Dinastia de Bragança .
+Entidades verdadeiras:
+[
+  {
+    "text": "de 1640",
+    "label": "TEMPO"
+  },
+  {
+    "text": "duque de Bragança",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rei de Portugal",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rei",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D. João IV",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1640-1656",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dinastia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dinastia de Bragança",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+O esforço nacional foi mantido durante vinte e oito anos , com o qual foi possível suster as sucessivas tentativas de invasão dos exércitos de Filipe III e vencê-los nas mais importantes batalhas, assinando o tratado de paz definitivo em 1668 . Esses anos foram bem sucedidos devido à conjugação de diversas vertentes como a coincidência das revoltas na Catalunha , os esforços diplomáticos da Inglaterra , França , Holanda e Roma , a reorganização do exército português, a reconstrução de fortalezas e a consolidação política e administrativa.
+Entidades verdadeiras:
+[
+  {
+    "text": "durante vinte e oito anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Filipe III",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1668",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Esses anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Catalunha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Inglaterra",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "França",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Holanda",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Roma",
+    "label": "ORGANIZACAO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Paralelamente, as tropas portuguesas conseguiram expulsar os holandeses do Brasil , como também de Angola e de São Tomé e Príncipe ( 1641-1654 ), restabelecendo o poder atlântico português. No entanto, as perdas no Oriente tornaram-se irreversíveis e Ceuta ficaria na posse dos Habsburgo . Devido a estarem indisponíveis as mercadorias indianas, Portugal passou a só obter lucro com a cana-de-açúcar do Brasil .
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Tomé e Príncipe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1641-1654",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ceuta",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Habsburgo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Tomé e Príncipe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1641-1654",
+    "label": "TEMPO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+História do RFID
+Entidades verdadeiras:
+[
+  {
+    "text": "RFID",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A tecnologia de RFID tem suas raízes nos sistemas de radares utilizados na Segunda Guerra Mundial . Os alemães, japoneses, americanos e ingleses utilizavam radares -- que foram descobertos em 1937 por Sir Robert Alexander Watson-Watt , um físico escocês -- para avisá-los com antecedência de aviões enquanto eles ainda estavam bem distantes. O problema era identificar dentre esses aviões qual era inimigo e qual era aliado. Os alemães então descobriram que se os seus pilotos girassem seus aviões quando estivessem retornando à base iriam modificar o sinal de rádio que seria refletido de volta ao radar. Esse método simples alertava os técnicos responsáveis pelo radar que se tratava de aviões alemães (esse foi, essencialmente, considerado o primeiro sistema passivo de RFID ).
+Entidades verdadeiras:
+[
+  {
+    "text": "RFID",
+    "label": "COISA"
+  },
+  {
+    "text": "Segunda Guerra Mundial",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "em 1937",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Sir Robert Alexander Watson-Watt",
+    "label": "PESSOA"
+  },
+  {
+    "text": "RFID",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Sob o comando de Watson-Watt , que liderou um projeto secreto, os ingleses desenvolveram o primeiro identificador activo de amigo ou inimigo ( IFF -- Identify Friend or Foe ) . Foi colocado um transmissor em cada avião britânico. Quando esses transmissores recebiam sinais das estações de radar no solo, começavam a transmitir um sinal de resposta, que identificava o aeroplano como Friendly (amigo). Os RFID funcionam no mesmo princípio básico. Um sinal é enviado a um transponder, o qual é ativado e reflete de volta o sinal (sistema passivo) ou transmite seu próprio sinal (sistemas ativos).
+Entidades verdadeiras:
+[
+  {
+    "text": "Watson-Watt",
+    "label": "PESSOA"
+  },
+  {
+    "text": "IFF",
+    "label": "COISA"
+  },
+  {
+    "text": "Identify Friend or Foe",
+    "label": "COISA"
+  },
+  {
+    "text": "Friendly",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "RFID",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Avanços na área de radares e de comunicação RF ( Radio Frequency ) continuaram através das décadas de 50 e 60 . Cientistas e acadêmicos dos Estados Unidos , Europa e Japão realizaram pesquisas e apresentaram estudos explicando como a energia RF poderia ser utilizada para identificar objetos remotamente...
+Entidades verdadeiras:
+[
+  {
+    "text": "RF",
+    "label": "COISA"
+  },
+  {
+    "text": "Radio Frequency",
+    "label": "COISA"
+  },
+  {
+    "text": "através das décadas de 50 e 60",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Japão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "RF",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Companhias começaram a comercializar sistemas antifurto que utilizavam ondas de rádio para determinar se um item havia sido roubado ou pago normalmente. Era o advento das tags (etiquetas) denominadas de "etiquetas de vigilância eletrônica" as quais ainda são utilizadas até hoje . Cada etiqueta utiliza um bit. Se a pessoa paga pela mercadoria, o bit é posto em off ou 0. E os sensores não dispararão o alarme. Caso o contrário, o bit continua em on ou 1, e caso a mercadoria saia através dos sensores, um alarme será disparado.
+Entidades verdadeiras:
+[
+  {
+    "text": "até hoje",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Pedro ou Pêro da Covilhã ( Covilhã ?, 1450? --- 1530? ) foi um diplomata e explorador português.
+Entidades verdadeiras:
+[
+  {
+    "text": "Pedro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Covilhã",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1450? --- 1530?",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Com cerca de 18 anos cativa um espanhol que visitava a Covilhã para comprar tecidos que o convida a servir o seu amo, D. Juan de Guzman , irmão do Duque de Medina-Sidónia , um dos mais conceituados fidalgos de Sevilha ; Pêro aceita a proposta e parte para Sevilha onde lhe é atribuído o papel de espadachim. Impressionado com a desenvoltura de Pêro de Covilhã , convida-o D. Juan de Gusman a participar nas embarcações do seu irmão, o Duque conhecido também como o Pirata Espanhol ; Pêro recusa a oferta e, em 1474 , acompanha D. Juan a Lisboa a uma entrevista com Afonso V de Portugal | Afonso V de Portugal .
+Entidades verdadeiras:
+[
+  {
+    "text": "cerca de 18 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Covilhã",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D. Juan de Guzman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Duque de Medina-Sidónia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sevilha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pêro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sevilha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pêro de Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Juan de Gusman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Duque",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pirata Espanhol",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Pêro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1474",
+    "label": "TEMPO"
+  },
+  {
+    "text": "D. Juan",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Afonso V de Portugal",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Afonso V",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+D. Afonso simpatiza com Pêro também pelo seu domínio de línguas, nomeadamente a língua árabe e D. Juan cede a el-Rei os serviços do português. É assim que Pêro da Covilhã , aos seus 24 anos , é admitido como moço de esporas de D. Afonso V . Passado pouco tempo , decide el-Rei elevá-lo a escudeiro, com direito a armas e cavalo.
+Entidades verdadeiras:
+[
+  {
+    "text": "D. Afonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pêro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Juan",
+    "label": "PESSOA"
+  },
+  {
+    "text": "el-Rei",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "24 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "D. Afonso V",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Passado pouco tempo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "el-Rei",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Em 1476 acompanha D. Afonso V na batalha de Toro , a tentativa fracassada de D. João de reclamar o trono de Castela , já que era cunhado de Henrique IV de Castela | Henrique IV de Castela . Mais tarde , em iria acompanhar D. Afonso na jornada a França para pedir auxílio ao rei Luís XI de França | rei Luís XI de França na luta pelo trono de Castela , que seria rejeitado. Entretanto, D. Afonso abdica do trono, para D. João II .
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1476",
+    "label": "TEMPO"
+  },
+  {
+    "text": "D. Afonso V",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Toro",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "D. João",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Castela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Henrique IV de Castela",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Henrique IV",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Castela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mais tarde",
+    "label": "TEMPO"
+  },
+  {
+    "text": "D. Afonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  },
+  {
+    "text": "rei Luís XI de França",
+    "label": "PESSOA"
+  },
+  {
+    "text": "rei Luís XI",
+    "label": "PESSOA"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Castela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D. Afonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. João II",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Após a execução do Duque de Bragança pelas próprias mãos do rei, Pêro da Covilhã foi designado para investigar quais os nobres que conspiravam contra D. João II , conseguindo identificar o D. Diogo , duque de Viseu e D. Garcia de Meneses , bispo de Évora | bispo de Évora .
+Entidades verdadeiras:
+[
+  {
+    "text": "Duque de Bragança",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. João II",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Diogo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "duque de Viseu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Garcia de Meneses",
+    "label": "PESSOA"
+  },
+  {
+    "text": "bispo de Évora",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Évora",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Na sequência do desejo de el-Rei continuar a obra iniciada pelo infante D. Henrique dos Descobrimentos , escolhe novamente Pêro da Covilhã para embaixador nos tratados de paz com os berberes do Magrebe (como o rei de Fez | rei de Fez e o de Tremecém ), que convinham ao reino para convergir os esforços na odisseia marítima.
+Entidades verdadeiras:
+[
+  {
+    "text": "el-Rei",
+    "label": "PESSOA"
+  },
+  {
+    "text": "infante D. Henrique",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Descobrimentos",
+    "label": "OBRA"
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Magrebe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "rei de Fez",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fez",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tremecém",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Pêro da Covilhã torna-se, entretanto, escudeiro da guarda real e casa com Catarina que em poucos meses engravida.
+Entidades verdadeiras:
+[
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Catarina",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em poucos meses",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Quadrinhos e pop art - É neste processo de renovação da sociedade norte-americana que a pop art ganha um impulso e, de certa forma, contribui para que os quadrinhos voltem de novo a ser tratados como coisa séria. Os artistas procuravam demolir a rigidez e a seriedade das artes plásticas através de ícones da sociedade ocidental. Garrafas de Coca Cola , latas de sopa, símbolos gráficos usados em estações de metrô eram usados em associações livres que permitiam o estabelecimento de relações simbólicas e afetivas com as obras em questão. Era uma arte que se valia da repetição de signos conhecidos no intuito de buscar uma identificação com o público a que ela se destinava. A idéia era eliminar as barreiras entre as culturas erudita e popular.
+Entidades verdadeiras:
+[
+  {
+    "text": "Coca Cola",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Sendo assim, é compreensível que os grandes nomes da pop art utilizassem também as histórias em quadrinhos como um elemento a mais dentro de seus trabalhos. Afinal, a linguagem das HQs , um balão de texto ligado a uma imagem, possibilita a compreensão imediata da mensagem. Além do que, graficamente, eles dispunham de inúmeras referências que serviriam de parâmetro para os pintores pop. Isso pode ser visto na obra de Roy Lichtenstein e seus painéis diretamente copiados de tiras de jornal e, em menor escala, no trabalho de Andy Warhol . Neste caso, mais em decorrência da forma como ele dispunha suas obras - utilizando a narrativa seqüencial em cores primárias nos célebres retratos de Marilyn Monroe , Mao Tsé Tung e James Dean - do que propriamente por se comportar como um quadrinhista tradicional.
+Entidades verdadeiras:
+[
+  {
+    "text": "HQs",
+    "label": "COISA"
+  },
+  {
+    "text": "Roy Lichtenstein",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Andy Warhol",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Marilyn Monroe",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mao Tsé Tung",
+    "label": "PESSOA"
+  },
+  {
+    "text": "James Dean",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Ao levar para as galerias a estética das HQs , a pop arte fez com que os quadrinhos ganhassem de volta o respeito que haviam perdido na década de 50 . Claro que isso não seria possível sem a renovação promovida pelos Comix . Com a pop art os quadrinhos passaram a ser aceitos por uma camada mais intelectualizada da sociedade. Jules Feiffer tem suas tiras publicadas nas páginas da elitista New Yorker . Na Europa , François Truffaut , Alain Resnais , Federico Fellini e Umberto Eco , teorizam sobre as HQs e declaram seu amor aos quadrinistas norte-americanos. Com a benção da pop art, finalmente as histórias em quadrinhos viraram coisa de gente grande.
+Entidades verdadeiras:
+[
+  {
+    "text": "HQs",
+    "label": "COISA"
+  },
+  {
+    "text": "na década de 50",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Comix",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Jules Feiffer",
+    "label": "PESSOA"
+  },
+  {
+    "text": "New Yorker",
+    "label": "COISA"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "François Truffaut",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alain Resnais",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Federico Fellini",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Umberto Eco",
+    "label": "PESSOA"
+  },
+  {
+    "text": "HQs",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A quebra de valores promovida pela pop art, pela contracultura, pelos comix e pela beat generation influenciou ainda o jornalismo e a literatura. Hunter S. Thompson e Tom Wolfe criam o "new journalism" e inventam uma nova forma de narrativa, misturando a notícia a impressões pessoais e estados alterados de consciência. Se, por um lado, Thompson experimentou todos os tipos de substâncias legais e ilegais para escrever Fear & Loathing in Las Vegas , um relato de suas maluquices na capital mundial do jogo, Wolfe desenvolveu uma linguagem acelerada e dinâmica parecida com as narrativas das HQs . Inclusive com a utilização de onomatopéias:
+Entidades verdadeiras:
+[
+  {
+    "text": "Hunter S. Thompson",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tom Wolfe",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Thompson",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fear & Loathing in Las Vegas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Wolfe",
+    "label": "PESSOA"
+  },
+  {
+    "text": "HQs",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+"mesmo que alguém quebrasse a corrente e em que todos fluíam e fosse bater de encontro ao asfalto da Grande Estrada a noventa quilômetros por hora - eles possuiam isso gravado na fita - e podiam tocar muitas vezes em retardos variáveis, skakkkkkkkkkkk-akkkkkkkk-akkkkk-akkkkkeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+Entidades verdadeiras:
+[
+  {
+    "text": "Grande Estrada",
+    "label": "LOCAL"
+  },
+  {
+    "text": "muitas vezes",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+VOCÊ É DEUS ...
+Entidades verdadeiras:
+[
+  {
+    "text": "DEUS",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Tom Wolfe - O Teste do Ácido do Refresco Elétrico
+Entidades verdadeiras:
+[
+  {
+    "text": "Tom Wolfe",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Essa foi a estética vigente dos primeiros textos da literatura underground norte-americana. Em livros como V , O Leilão do Lote 49 e Arco Íris da Gravidade , todos publicados no período que vai de 61 a 73 , o escritor Thomas Pynchon freqüentemente adota um modelo de narrativa semelhante ao das histórias em quadrinhos e nos diverte com aviões sendo abatidos por uma rajada de tortas de creme, sátiras ao quadrinho de herói (o personagem Homem Foguete é claramente inspirado no Capitão América ), monstros imensos que surgem do nada, ratos falantes, uma rolha assassina que persegue um casal em pleno ato sexual e personagens como nomes improváveis e absurdos ( Benny Profane , Oedipa e Mucho Maas , Pierce Inverarity , Fausto Magistral , Tyrone Slothrop , General Pudding , Pig Bodine ...). Quem também se utiliza do humor quase infantil das HQs é Kurt Vonnegut em seu manifesto anti-militarista Matadouro 5 e no experimental Timequake . Foi essa reciclagem da cultura de massa norte-americana e a sua junção com os valores emergentes da contracultura que permitiu o surgimento de uma narrativa genuinamente pós-moderna, um gênero que, além de bastante divertido, deixou fortes marcas na literatura norte-americana. Dos anos 60 até os dias de hoje .
+Entidades verdadeiras:
+[
+  {
+    "text": "V",
+    "label": "OBRA"
+  },
+  {
+    "text": "O Leilão do Lote 49",
+    "label": "OBRA"
+  },
+  {
+    "text": "Arco Íris da Gravidade",
+    "label": "OBRA"
+  },
+  {
+    "text": "no período",
+    "label": "TEMPO"
+  },
+  {
+    "text": "de 61 a 73",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Thomas Pynchon",
+    "label": "PESSOA"
+  },
+  {
+    "text": "freqüentemente",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Homem Foguete",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Capitão América",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benny Profane",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Oedipa",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Mucho Maas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Pierce Inverarity",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Fausto Magistral",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Tyrone Slothrop",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "General Pudding",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Pig Bodine",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "HQs",
+    "label": "COISA"
+  },
+  {
+    "text": "Kurt Vonnegut",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Matadouro 5",
+    "label": "OBRA"
+  },
+  {
+    "text": "Timequake",
+    "label": "OBRA"
+  },
+  {
+    "text": "Dos anos 60 até os dias de hoje",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Fonte: Kung Fu Lounge (http://kfl.blogspot.com/).
+Entidades verdadeiras:
+[
+  {
+    "text": "Kung Fu Lounge",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Doença de Chagas
+Entidades verdadeiras:
+[
+  {
+    "text": "Doença de Chagas",
+    "label": "ABSTRACCAO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Doença de Chagas",
+    "label": "COISA"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Histórico Carlos Chagas : A doença de Chagas ou tripanosomíase americana foi descoberta pelo médico sanitarista Carlos Justiniano Ribeiro das Chagas - Carlos Chagas - em 1909 . Este brasileiro descobriu a doença e descreveu praticamente todos os seus aspectos. Quando Carlos Chagas realizava uma campanha contra a malária que atingia operários na construção de um trecho da Estrada de Ferro Central do Brasil | Estrada de Ferro Central do Brasil , ao norte de Minas Gerais , ao fazer exames de uma menina doente, encontrou tripanosomos em seu sangue. Ao examinar posteriormente as fezes de insetos existentes na região e o sangue de animais mamíferos, constatou também a presença dos mesmos parasitas.
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Chagas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "doença de Chagas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Carlos Justiniano Ribeiro das Chagas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carlos Chagas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1909",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Carlos Chagas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estrada de Ferro Central do Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estrada de Ferro Central",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Desta forma, Carlos Chagas pode descrever o agente causador, o transmissor e o modo de transmissão da doença, como também comprovar a existência de vertebrados que são reservatórios silvestres e domésticos do parasita, esclarecendo assim os aspectos básicos da epidemiologia da doença.
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Chagas",
+    "label": "PESSOA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Definição da doença: A doença de Chagas é uma infecção transmissível causada por um parasita que circula no sangue e ataca o coração, bem como órgãos do aparelho digestivo (esôfago e intestino). Sua transmissão exige a participação de um vetor, o triatomíneo conhecido pelo nome de barbeiro, fincão, chupança entre outras dependendo da região. É uma doença do continente americano (sul dos Estados Unidos até a Argentina ).
+Entidades verdadeiras:
+[
+  {
+    "text": "doença de Chagas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Transmissores: São artrópodes da classe Insecta , ordem Hemiptera , família Reduviidae e subfamília Triatominae . Sugam sangue (hematofágos) em todas as fases de seu ciclo evolutivo. Vivem em média entre um a dois anos , com evolução de ovo, ninfa e adulto, com grande capacidade de reprodução e, dependendo da espécie, com intensa resistência ao jejum.
+Entidades verdadeiras:
+[
+  {
+    "text": "Insecta",
+    "label": "COISA"
+  },
+  {
+    "text": "Hemiptera",
+    "label": "COISA"
+  },
+  {
+    "text": "Reduviidae",
+    "label": "COISA"
+  },
+  {
+    "text": "Triatominae",
+    "label": "COISA"
+  },
+  {
+    "text": "entre um a dois anos",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Ecologia e distribuição.
+Entidades verdadeiras:
+[]
+Entidades previstas:
+[
+  {
+    "text": "Ecologia",
+    "label": "ABSTRACAO"
+  },
+  {
+    "text": "distribuição",
+    "label": "ABSTRACAO"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+Os triatomíneos têm ampla distribuição geográfica no Novo Mundo , desde os Estados Unidos até o sul do Chile e Argentina , existindo espécies que são tipicamente silvestres; e das 118 espécies conhecidas, 105 são do Novo Mundo . Todas as espécies são vetoras em potencial para o Trypanosoma cruzi , mas seis têm importância epidemiológica na América do Sul : Triatoma infestans , T. brasiliensis , T. dimidiata , T. sordida , P. megistus e Rhodnius prolixus . A espécie vetora mais importante, devido ao seu hábito quase que estritamente doméstico e também com a mais extensa área de distribuição, é o T. infestans , encontrado na Argentina , Bolívia , Brasil , Chile , Paraguai , Peru e Uruguai . Em algumas localidades do sul do Brasil ( Rio Grande do Sul ), sul do Peru , Bolívia e algumas localidades do noroeste da Argentina , T. infestans também tem hábito peridoméstico, ocupando galinheiros, currais etc. As colônias em ecótopos artificias têm tendência a se concentrarem nas partes mais altas da parede. Neste gênero, Triatoma , um exemplo típico é dado pelo T. arthurneivai que, habita fendas de pedras e está associado a lagartos e roedores. É encontrado no Brasil nos estados da Bahia , Minas Gerais e São Paulo . No estado de São Paulo , Rodrigues et al. ( 1992 ) encontraram adultos da referida espécie em ecótopos artificiais e com infecção natural pelo T. cruzi . Ainda no Brasil , no estado do Rio Grande do Sul , no Uruguai e no norte da Argentina encontra-se outra espécie T. rubrovaria , tipicamente silvestre que convive com roedores em ambientes pedregosos. Apresenta alto índice de infecção natural e invade os domicílios principalmente no verão . Na Argentina temos mais duas espécies deste grupo que são T. eratyrusiformis e T. patagonica : criam-se em lugares pedregosos e alimentam-se de pequenos roedores, mas atacam o homem e os animais domésticos à noite .
+Entidades verdadeiras:
+[
+  {
+    "text": "Novo Mundo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Chile",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "118",
+    "label": "VALOR"
+  },
+  {
+    "text": "105",
+    "label": "VALOR"
+  },
+  {
+    "text": "Novo Mundo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Trypanosoma cruzi",
+    "label": "COISA"
+  },
+  {
+    "text": "América do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Triatoma infestans",
+    "label": "COISA"
+  },
+  {
+    "text": "T. brasiliensis",
+    "label": "COISA"
+  },
+  {
+    "text": "T. dimidiata",
+    "label": "COISA"
+  },
+  {
+    "text": "T. sordida",
+    "label": "COISA"
+  },
+  {
+    "text": "P. megistus",
+    "label": "COISA"
+  },
+  {
+    "text": "Rhodnius prolixus",
+    "label": "COISA"
+  },
+  {
+    "text": "T. infestans",
+    "label": "COISA"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bolívia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Chile",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Paraguai",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Peru",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Uruguai",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Peru",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bolívia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "T. infestans",
+    "label": "COISA"
+  },
+  {
+    "text": "Triatoma",
+    "label": "COISA"
+  },
+  {
+    "text": "T. arthurneivai",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rodrigues et al.",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO"
+  },
+  {
+    "text": "T. cruzi",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Uruguai",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "T. rubrovaria",
+    "label": "COISA"
+  },
+  {
+    "text": "no verão",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "T. eratyrusiformis",
+    "label": "COISA"
+  },
+  {
+    "text": "T. patagonica",
+    "label": "COISA"
+  },
+  {
+    "text": "à noite",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[
+  {
+    "text": "Novo Mundo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Chile",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  }
+]
+--------------------------------------------------------------------------------
+Texto:
+T. brasiliensis com altas taxas de infecção pelo T. cruzi é o vetor mais importante no nordeste do Brasil , e pode ser encontrado com alguma freqüência em domicílios. Tem hábitos silvestres e peridomiciliares, onde está associado com abrigo de cabras, galinheiros e ecótopos rochosos; no peridomicílio e domicílio tem as aves como principal fonte alimentar, seguidas por humanos.
+Entidades verdadeiras:
+[
+  {
+    "text": "T. brasiliensis",
+    "label": "COISA"
+  },
+  {
+    "text": "T. cruzi",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+A segunda espécie vetora é P. megistus , sendo domiciliada em algumas regiões, peridomiciliar e silvestre em outras. Também tem vasta distribuição geográfica, distribui-se desde as Guianas até a Argentina . É a espécie responsável pelos focos mais intensos da endemia chagásica em Minas Gerais e Bahia ( Brasil ). Tem hábito silvestre no centro do Brasil e leste do Paraguai e está associado a Didelpbideos , motivo pelo qual os índices de infecção para T. cruzi são elevados. Invadem ocasionalmente domicílios e peridomicílios onde se colonizam com facilidade. P. geniculatus , espécie silvestre que também invade ocasionalmente ecótopos artificiais e tem ampla distribuição geográfica, esta associada a animais com hábitos terrestres (buracos), como é o caso dos tatus. Pode-se citar ainda o P. diasi com distribuição na Bolívia e Brasil nos estados de Goiás , Minas Gerais , São Paulo e Bahia , ocorrendo neste último estado na região da caatinga. P lutzi no nordeste brasileiro e P. tupynambai no Rio Grande do Sul e Uruguai são espécies que nos últimos anos têm sido encontradas com freqüência nas habitações humanas.
+Entidades verdadeiras:
+[
+  {
+    "text": "P. megistus",
+    "label": "COISA"
+  },
+  {
+    "text": "Guianas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Paraguai",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Didelpbideos",
+    "label": "COISA"
+  },
+  {
+    "text": "T. cruzi",
+    "label": "COISA"
+  },
+  {
+    "text": "ocasionalmente",
+    "label": "TEMPO"
+  },
+  {
+    "text": "P. geniculatus",
+    "label": "COISA"
+  },
+  {
+    "text": "ocasionalmente",
+    "label": "TEMPO"
+  },
+  {
+    "text": "P. diasi",
+    "label": "COISA"
+  },
+  {
+    "text": "Bolívia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Goiás",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "P lutzi",
+    "label": "COISA"
+  },
+  {
+    "text": "P. tupynambai",
+    "label": "COISA"
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Uruguai",
+    "label": "LOCAL"
+  },
+  {
+    "text": "nos últimos anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "com freqüência",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+T. sordida geralmente é encontrada em ecótopos silvestres e no peridomicílio, invade com freqüência o domicílio, mas é considerada espécie secundária. Tem distribuição no Brasil Central (cerrado), partes do Paraguai . noroeste da Argentina , Uruguai e Bolívia . Tem sido encontrada com baixa taxa de infecção natural, a qual está associada a roedores. T. dimidiata freqüenta o domicílio e é encontrada em diversas tocas silvestres, tais como rocas, grutas ocupadas por morcegos e ocos de arvores, sendo um importante vetor da América Central , México , Colômbia , Equador e norte do Peru .
+Entidades verdadeiras:
+[
+  {
+    "text": "T. sordida",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil Central",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Paraguai",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Uruguai",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bolívia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "T. dimidiata",
+    "label": "COISA"
+  },
+  {
+    "text": "América Central",
+    "label": "LOCAL"
+  },
+  {
+    "text": "México",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Colômbia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Equador",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Peru",
+    "label": "LOCAL"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+Outro gênero que pertence a este grupo, cujos adultos invadem ecótopos artificiais, são algumas espécies de Rhodnius , principalmente R. domesticus , que é encontrado na região litorânea do Brasil , R. pictipes nas regiões norte e centro-oeste do Brasil e o R. brethesi , com distribuição no norte do Brasil e Venezuela , tem hábitos silvestres e habita palmeiras de piaçaba ( Leopoldinia piassaba ), ataca o homem com avidez e, nos últimos anos , tem invadido com freqüência ecótopos artificiais.
+Entidades verdadeiras:
+[
+  {
+    "text": "Rhodnius",
+    "label": "COISA"
+  },
+  {
+    "text": "R. domesticus",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "R. pictipes",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "R. brethesi",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Venezuela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Leopoldinia piassaba",
+    "label": "COISA"
+  },
+  {
+    "text": "nos últimos anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "com freqüência",
+    "label": "TEMPO"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+R. prolixus é a espécie vetora mais importante da Colômbia e Venezuela , onde tem hábito doméstico, sendo responsável pela transmissão natural da Doença de Chagas . Também é importante em algumas partes da América Central , particularmente em El Salvador , Guatemala e Honduras . No ambiente domiciliar, R. prolixus alimenta-se principalmente de sangue humano e de aves, embora utilize também, como fonte alimentar, cães e gatos. No ambiente silvestre, faz uso de marsupiais e roedores como fonte de alimento. R. pallescens é importante vetora no Panamá , invade casas com freqüência formando colônias e é encontrada também no peridomicílio e em ambientes silvestres em palmeiras. As populações domésticas na área central do Panamá têm como fonte alimentar o homem ( 59% ), seguido por marsupiais e aves domésticas.
+Entidades verdadeiras:
+[
+  {
+    "text": "R. prolixus",
+    "label": "COISA"
+  },
+  {
+    "text": "Colômbia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Venezuela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Doença de Chagas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "América Central",
+    "label": "LOCAL"
+  },
+  {
+    "text": "El Salvador",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Guatemala",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Honduras",
+    "label": "LOCAL"
+  },
+  {
+    "text": "R. prolixus",
+    "label": "COISA"
+  },
+  {
+    "text": "R. pallescens",
+    "label": "COISA"
+  },
+  {
+    "text": "Panamá",
+    "label": "LOCAL"
+  },
+  {
+    "text": "com freqüência",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Panamá",
+    "label": "LOCAL"
+  },
+  {
+    "text": "59%",
+    "label": "VALOR"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------
+Texto:
+No Velho Mundo , são 13 as espécies descritas, necessitando de esclarecimentos epidemiológicos. Não se encontrou nenhuma infectada pelo T. cruzi . A espécie mais conhecida dentre estas é Triatoma rubrofasciata , que é cosmopolita e encontrada em regiões portuárias.
+Entidades verdadeiras:
+[
+  {
+    "text": "Velho Mundo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "13",
+    "label": "VALOR"
+  },
+  {
+    "text": "T. cruzi",
+    "label": "COISA"
+  },
+  {
+    "text": "Triatoma rubrofasciata",
+    "label": "COISA"
+  }
+]
+Entidades previstas:
+[]
+--------------------------------------------------------------------------------

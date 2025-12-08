@@ -1,0 +1,86 @@
+{
+  "LOCAL": {
+    "precision": 0.9305555555555556,
+    "recall": 0.8481012658227848,
+    "f1-score": 0.8874172185430463,
+    "support": 79.0
+  },
+  "ORGANIZACAO": {
+    "precision": 0.9047619047619048,
+    "recall": 0.8382352941176471,
+    "f1-score": 0.8702290076335878,
+    "support": 68.0
+  },
+  "PESSOA": {
+    "precision": 0.9619047619047619,
+    "recall": 0.9181818181818182,
+    "f1-score": 0.9395348837209302,
+    "support": 110.0
+  },
+  "TEMPO": {
+    "precision": 0.9736842105263158,
+    "recall": 0.891566265060241,
+    "f1-score": 0.9308176100628931,
+    "support": 83.0
+  },
+  "ABSTRACAO": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "ACONTECIMENTO": {
+    "precision": 0.8,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.8571428571428571,
+    "support": 26.0
+  },
+  "COISA": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.6896551724137931,
+    "support": 28.0
+  },
+  "OBRA": {
+    "precision": 0.8461538461538461,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.7857142857142857,
+    "support": 30.0
+  },
+  "OUTRO": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 8.0
+  },
+  "VALOR": {
+    "precision": 0.9090909090909091,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7692307692307693,
+    "support": 15.0
+  },
+  "micro avg": {
+    "precision": 0.9093078758949881,
+    "recall": 0.8523489932885906,
+    "f1-score": 0.8799076212471132,
+    "support": 447.0
+  },
+  "macro avg": {
+    "precision": 0.799281785465996,
+    "recall": 0.7283447280545128,
+    "f1-score": 0.7586884661605019,
+    "support": 447.0
+  },
+  "weighted avg": {
+    "precision": 0.9130887189788638,
+    "recall": 0.8523489932885906,
+    "f1-score": 0.8802043035991958,
+    "support": 447.0
+  },
+  "samples avg": {
+    "precision": 0.8983960948396095,
+    "recall": 0.8986750348675034,
+    "f1-score": 0.8918989657483382,
+    "support": 447.0
+  }
+}

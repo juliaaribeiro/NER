@@ -1,0 +1,86 @@
+{
+  "LOCAL": {
+    "precision": 0.875,
+    "recall": 0.4375,
+    "f1-score": 0.5833333333333334,
+    "support": 16.0
+  },
+  "ORGANIZACAO": {
+    "precision": 0.8,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.47058823529411764,
+    "support": 12.0
+  },
+  "PESSOA": {
+    "precision": 0.6,
+    "recall": 0.2727272727272727,
+    "f1-score": 0.375,
+    "support": 11.0
+  },
+  "TEMPO": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10.0
+  },
+  "ABSTRACAO": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "ACONTECIMENTO": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "COISA": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 3.0
+  },
+  "OBRA": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "OUTRO": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "VALOR": {
+    "precision": 1.0,
+    "recall": 0.4444444444444444,
+    "f1-score": 0.6153846153846154,
+    "support": 9.0
+  },
+  "micro avg": {
+    "precision": 0.7692307692307693,
+    "recall": 0.31746031746031744,
+    "f1-score": 0.449438202247191,
+    "support": 63.0
+  },
+  "macro avg": {
+    "precision": 0.39416666666666667,
+    "recall": 0.21546717171717172,
+    "f1-score": 0.27109728506787334,
+    "support": 63.0
+  },
+  "weighted avg": {
+    "precision": 0.653968253968254,
+    "recall": 0.31746031746031744,
+    "f1-score": 0.42291831262419494,
+    "support": 63.0
+  },
+  "samples avg": {
+    "precision": 0.3929824561403509,
+    "recall": 0.4192982456140351,
+    "f1-score": 0.391812865497076,
+    "support": 63.0
+  }
+}

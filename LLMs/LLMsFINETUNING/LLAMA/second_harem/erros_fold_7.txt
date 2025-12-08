@@ -1,0 +1,2737 @@
+--------------------------------------------------------------------------------
+Texto:
+Que inglês foi treinador do Porto ?
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOA",
+    "text": "Porto"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem foi o 13º rei de Portugal | rei de Portugal ?
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VALOR",
+    "text": "13º"
+  },
+  {
+    "label": "PESSOA",
+    "text": "rei de Portugal"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Portugal"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando caíu Granada ?
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGANIZACAO",
+    "text": "Granada"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é a Granja do Torto ?
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Granja do Torto"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que dia ocorreu a batalha de La Lys ?
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ACONTECIMENTO",
+    "text": "La Lys"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Qual era a divisa austríaca antes de 2002 ?
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "antes de 2002"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "TEMPO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é a constante de Néper | constante de Néper?
+
+Entidades verdadeiras:
+[
+  {
+    "label": "COISA",
+    "text": "constante de Néper"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OUTRO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O que são os números E ?
+
+Entidades verdadeiras:
+[
+  {
+    "label": "COISA",
+    "text": "E"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OUTRO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que período existiu a República de Veneza ?
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGANIZACAO",
+    "text": "República de Veneza"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem comandou os gregos em Salamina ?
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Salamina"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Mosteiro de Santa Cruz
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OBRA",
+    "text": "Mosteiro de Santa Cruz"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A Igreja de Santa Cruz de Coimbra | Igreja de Santa Cruz de Coimbra foi fundada em 1131 por D. Telo ( São Teotónio ) e 11 outros religiosos, que adotaram a regra dos Cónegos Regrantes de Santo Agostinho . A nova Igreja recebeu muitos privilégios papais e doações dos primeiros reis de Portugal | reis de Portugal , tornando-se a mais importante casa monástica do reino. Sua escola foi uma das melhores instituições de ensino do Portugal medieval , tendo uma grande biblioteca (agora na Biblioteca Pública Municipal do Porto | Biblioteca Pública Municipal do Porto ) e um activo scriptorium. Nos tempos de D. Afonso Henriques , primeiro monarca português, o scriptorium de Santa Cruz foi usado como máquina de consolidação do poder real. A importância da Igreja é evidenciada pelo fato de que D. Afonso Henriques e seu sucessor, D. Sancho I , foram sepultados lá.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCAL",
+    "text": "Igreja de Santa Cruz de Coimbra"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Igreja de Santa Cruz"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Coimbra"
+  },
+  {
+    "label": "TEMPO",
+    "text": "em 1131"
+  },
+  {
+    "label": "PESSOA",
+    "text": "D. Telo"
+  },
+  {
+    "label": "PESSOA",
+    "text": "São Teotónio"
+  },
+  {
+    "label": "VALOR",
+    "text": "11"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Igreja"
+  },
+  {
+    "label": "PESSOA",
+    "text": "reis de Portugal"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Portugal"
+  },
+  {
+    "label": "OUTRO",
+    "text": "Portugal"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Biblioteca Pública Municipal do Porto"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Biblioteca Pública Municipal"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Porto"
+  },
+  {
+    "label": "TEMPO",
+    "text": "Nos tempos"
+  },
+  {
+    "label": "PESSOA",
+    "text": "D. Afonso Henriques"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Santa Cruz"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Igreja"
+  },
+  {
+    "label": "PESSOA",
+    "text": "D. Afonso Henriques"
+  },
+  {
+    "label": "PESSOA",
+    "text": "D. Sancho I"
+  }
+]
+
+Entidades previstas:
+[]
+
+--------------------------------------------------------------------------------
+Texto:
+Na Idade Média , o mais famoso estudante da Igreja de Santa Cruz foi Fernando Martins de Bulhões , o futuro Santo António de Lisboa | Santo António de Lisboa (ou Santo António de Pádua | Santo António de Pádua ). Em 1220 , o religioso assiste à chegada à Igreja dos restos mortais de cinco frades franciscanos martirizados no Marrocos (os Mártires do Marrocos | Mártires do Marrocos ), e decide fazer-se missionário e partir de Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OUTRO",
+    "text": "Idade Média"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Igreja de Santa Cruz"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Fernando Martins de Bulhões"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Santo António de Lisboa"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Santo António"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Lisboa"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Santo António de Pádua"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Santo António"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Pádua"
+  },
+  {
+    "label": "TEMPO",
+    "text": "Em 1220"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Igreja"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Marrocos"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Mártires do Marrocos"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Mártires"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Marrocos"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Portugal"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OUTRO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Entre 1530 e 1577 funcionou uma imprensa no claustro. É possível que o poeta Luís de Camões tenha estudado em Santa Cruz , uma vez que um parente seu ( D. Bento de Camões ) era prior do mosteiro na época , e há evidências em sua poesia de uma estadia em Coimbra .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "Entre 1530 e 1577"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Luís de Camões"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Santa Cruz"
+  },
+  {
+    "label": "PESSOA",
+    "text": "D. Bento de Camões"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Coimbra"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Se duvidam, experimentem traçar uma linha de tempo e enxerguem (em preto & branco, é claro), lá longe, nos idos dos anos 50 , um grupo de negros marcando o tempo com o estalar dos dedos, criando vocais em contraponto, nas esquinas de conjuntos habitacionais infectos ou cantos de quadras de basqueteball suburbanas. Soul e Funk básicos (e ainda o velho Rock and Roll ), rolando já ali naquelas manifestações atávicas, quase ancestrais.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "nos idos dos anos 50"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "COISA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Firmem a vista e vejam o que se dança nestas esquinas. Andem para trás, um pouco mais, e vejam o som das plaquetas metálicas do sapateado ecoando no paralelepípedos das ruas. Isto mesmo! É aquele mesmo sapateado do Gregory Heynes , do Sammy Davis Junior , antes mal assimilado pelos Fred Astaires de ocasião, usufruidores dos lucros do mainstream, este ambiente insípido, onde tudo que uns criam os outros copiam.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOA",
+    "text": "Gregory Heynes"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Sammy Davis Junior"
+  },
+  {
+    "label": "TEMPO",
+    "text": "antes"
+  },
+  {
+    "label": "OUTRO",
+    "text": "Fred Astaires"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Saiam da Broadway , rápido, e vejam mais longe ainda o som vibrante do bate-enxadas e do baticum ritmado das botas dos trabalhadores das estradas de ferro que cruzaram os States de leste á oeste, unificando as distancias, antes , sofridamente, percorridas à cavalo ou pelas empoeiradas diligências que conhecemos nos filmes de Far West (e bota Far nisto). Escutem o que eles cantam.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCAL",
+    "text": "Broadway"
+  },
+  {
+    "label": "LOCAL",
+    "text": "States"
+  },
+  {
+    "label": "TEMPO",
+    "text": "antes"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "COISA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+As dúvidas levantadas prendem-se com factos investigados. Hugo Doménech , professor da Universidade Jaume de Castellón | professor da Universidade Jaume de Castellón e do jornalista Raul Riebenbaueur reuniram um especialista forense, um militar geodésico e um astrofísico e recolheram depoimentos locais. No filme prevalece a ideia de que o miliciano não foi morto às nove mas à uma da tarde , que há um relato local que diz Borrel ter sido morto atrás de uma árvore, que não existe na foto, e que o miliciano fotografado não é o que foi morto naquele dia .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOA",
+    "text": "Hugo Doménech"
+  },
+  {
+    "label": "PESSOA",
+    "text": "professor da Universidade Jaume de Castellón"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Universidade Jaume de Castellón"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Raul Riebenbaueur"
+  },
+  {
+    "label": "TEMPO",
+    "text": "às nove"
+  },
+  {
+    "label": "TEMPO",
+    "text": "à uma da tarde"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Borrel"
+  },
+  {
+    "label": "TEMPO",
+    "text": "naquele dia"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "TEMPO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O biógrafo de Capa , Richard Whelan - falecido há pouco - recusou depor para o documentário e Cornell Capa , o irmão de Robert , já de idade avançada, nada comenta, remetendo tudo para a sua filha, a fiel depositária do espólio de Robert Capa .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOA",
+    "text": "Capa"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Richard Whelan"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Cornell Capa"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Robert"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Robert Capa"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A fotografia foi publicada pela primeira vez, em 1936 , na revista VU - pioneira do fotojornalismo moderno e inspiradora de LIFE - e dois anos mais tarde (como andava devagar então a informação!) na LIFE .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "em 1936"
+  },
+  {
+    "label": "LOCAL",
+    "text": "VU"
+  },
+  {
+    "label": "COISA",
+    "text": "LIFE"
+  },
+  {
+    "label": "TEMPO",
+    "text": "dois anos mais tarde"
+  },
+  {
+    "label": "LOCAL",
+    "text": "LIFE"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Fotografou por dentro a Guerra Civil espanhola, sempre pelo lado republicano, estava no Dia D | no Dia D na Normandia e acabou por morrer ao pisar uma mina na Indochina a 25 de Maio de 1954 . Como curiosidade passou por Portugal e foi visto no Café Palladium dos Restauradores pelo jornalista de O Século , Francisco Mata , já falecido, e que o contou numa crónica do antigo Sete .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Guerra Civil"
+  },
+  {
+    "label": "TEMPO",
+    "text": "no Dia D"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Dia D"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Normandia"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Indochina"
+  },
+  {
+    "label": "TEMPO",
+    "text": "a 25 de Maio de 1954"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Portugal"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Café Palladium"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Restauradores"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "O Século"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Francisco Mata"
+  },
+  {
+    "label": "OBRA",
+    "text": "Sete"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Cavalo-marinho Boi PIntado , o dia de Reis | o dia de Reis e a Lei Rouanet , Recife , PE · 05/1
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Cavalo-marinho"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Boi PIntado"
+  },
+  {
+    "label": "TEMPO",
+    "text": "o dia de Reis"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Reis"
+  },
+  {
+    "label": "OBRA",
+    "text": "Lei Rouanet"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Recife"
+  },
+  {
+    "label": "LOCAL",
+    "text": "PE"
+  },
+  {
+    "label": "TEMPO",
+    "text": "05/1"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "TEMPO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Cavalo-marinho , uma tradição folclórica do ciclo de Natal | de Natal , é a versão pernambucana do Bumba-meu-Boi . Encontrado em toda parte do Brasil , o Bumba-meu-boi é uma dança dramática que tem como elemento principal a morte e ressurreição do boi mágico.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "de Natal"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Natal"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Brasil"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O enredo do Cavalo-marinho concentra-se em torno do Capitão , um proprietário rural que tinha deixado suas terras sob o controle de Mateus e Sebastião , dois vaqueiros. O Capitão deseja celebrar a volta dele às suas terras, mas, os vaqueiros não deixam. O Capitão manda um Soldado tirar a licença à força, e ele consegue, após muita confusão cômica e pancadas altas, mas, sem dor, das bexigas de boi que o Mateus e o Sebastião usam como armas e instrumentos musicais. Agora é a vez do Mestre Ambrósio , que imita todas as personagens do folguedo, que continua com uma longa seqüência de danças pelo Capitão e seus Galantes , uma guarda de honra. Entre elas, são danças em homenagem aos Reis Magos , que compartilha temas musicais com as devoções de Reis no Portugal , e uma para São Gonçalo de Amarante | São Gonçalo de Amarante .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOA",
+    "text": "Capitão"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Mateus"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Sebastião"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Capitão"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Capitão"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Soldado"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Mateus"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Sebastião"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Mestre Ambrósio"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Capitão"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Galantes"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Reis Magos"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Reis"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Portugal"
+  },
+  {
+    "label": "PESSOA",
+    "text": "São Gonçalo de Amarante"
+  },
+  {
+    "label": "PESSOA",
+    "text": "São Gonçalo"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Amarante"
+  }
+]
+
+Entidades previstas:
+[]
+
+--------------------------------------------------------------------------------
+Texto:
+Entram, em seguida, dezenas de personagens, cada uma das quais faz parte do mundo do engenho-de-açúcar. Entre elas, há personagens realísticas, como o Valentão , o Cangaceiro e o Vaqueiro - que fala na poesia do Sertão , e imaginárias- como o Caboclo de Urubá | Caboclo de Urubá . A apresentação termina com a entrada, dança, morte e ressurreição do Boi . O acompanhamento musical fica por conta do banco, um grupo de músicos que tocam Rabeca | Rabeca , Pandeiro | Pandeiro , Bage | Bage ( Reco-reco | Reco-reco ) e Mineiro | Mineiro ( Ganzá | Ganzá ). Os Percussionistas e, às vezes , o Rabequeiro também cantam. Entre seqüências, se ouve toadas do vasto repertório, versos improvisados e música instrumental para dança.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOA",
+    "text": "Valentão"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Cangaceiro"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Vaqueiro"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Sertão"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Caboclo de Urubá"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Caboclo"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Urubá"
+  },
+  {
+    "label": "COISA",
+    "text": "Boi"
+  },
+  {
+    "label": "COISA",
+    "text": "Rabeca"
+  },
+  {
+    "label": "COISA",
+    "text": "Pandeiro"
+  },
+  {
+    "label": "COISA",
+    "text": "Bage"
+  },
+  {
+    "label": "COISA",
+    "text": "Reco-reco"
+  },
+  {
+    "label": "COISA",
+    "text": "Mineiro"
+  },
+  {
+    "label": "COISA",
+    "text": "Ganzá"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Percussionistas"
+  },
+  {
+    "label": "TEMPO",
+    "text": "às vezes"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Rabequeiro"
+  }
+]
+
+Entidades previstas:
+[]
+
+--------------------------------------------------------------------------------
+Texto:
+Durante os anos 90 , o interesse no Cavalo-marinho por parte do público da região metropolitana do Recife tem crescido muito, como parte de um ressurgimento de interesse na cultura popular em geral. Jovens visitam o interior para assistir a apresentações e para entrar no Mergulhão - a dança de abertura do Cavalo-marinho , e existem diversos projetos de pesquisa e documentação" .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "Durante os anos 90"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Recife"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Mergulhão"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Cavalo-marinho"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "COISA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Texto: John Murphy , Ph.D., Etnomusicólogo e professor de música na Western Illinois University ( até 2001 ) e a University of North Texas ( à partir de Agosto de 2001 ).
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOA",
+    "text": "John Murphy"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Western Illinois University"
+  },
+  {
+    "label": "TEMPO",
+    "text": "até 2001"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "University of North Texas"
+  },
+  {
+    "label": "TEMPO",
+    "text": "à partir de Agosto de 2001"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "OUTRO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "TEMPO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A final demorou 2.26 horas e o líder mundial fez 11 ases contra apenas 5 do sérvio. Ao helvético apenas lhe falta o título no Open de França | Open de França , em Roland Garros .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "2.26 horas"
+  },
+  {
+    "label": "VALOR",
+    "text": "11"
+  },
+  {
+    "label": "VALOR",
+    "text": "5"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Open de França"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Open"
+  },
+  {
+    "label": "LOCAL",
+    "text": "França"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Roland Garros"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "VALOR"
+  },
+  {
+    "label": "VALOR"
+  },
+  {
+    "label": "VALOR"
+  },
+  {
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A sua familia era rica e influenciou-o a ingressar no curso de Direito na Universidade de Coimbra | Universidade de Coimbra . Depressa desistiu do curso e mudou-se para o curso de Arquitectura na Academia de Belas Artes de Lisboa | Academia de Belas Artes de Lisboa em 1905 . O curso nao satisfaz o seu genio criativo, por isso parte para Paris em 1906 instalando-se em Montparnasse com a intençao de continuar a estudar. As suas primeiras experiências artisticas conhecidas foram desenhos e caricaturas, depois dedicou-se à pintura. Poder-se-á dizer que foi um pintor impressionista, expressionista, cubista, futurista mas sempre recusou qualquer rotulo. Apesar das multiplas influencias procurava a originalidade e a criatividade na sua obra. Em 1908 instala-se no número catorze da Cité de Falguière . Frequentou ateliers preparatórios para Academia de Beaux-Arts e a Academia Viti do pintor catalão Anglada Camarasa mas, apesar disso, nao chega a ser admitido. Em 1910 esteve alguns meses em Bruxelas e em 1911 expôs trabalhos no Salon des Indépendants , em Paris , aproximando-se progressivamente das vanguardas e de artistas como Amedeo Modigliani , Constantin Brancusi , Alexander Archipenko , Juan Gris e Robert Delaunay . Em 1912 publicou um álbum com vinte desenhos e, em seguida, copiou o conto de Gustave Flaubert , " La Légende de Saint Julien l'Hospitalier ", trabalhos ignorados pelos apreciadores de arte.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGANIZACAO",
+    "text": "Universidade de Coimbra"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Universidade"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Coimbra"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Academia de Belas Artes de Lisboa"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Academia de Belas Artes"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Lisboa"
+  },
+  {
+    "label": "TEMPO",
+    "text": "em 1905"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Paris"
+  },
+  {
+    "label": "TEMPO",
+    "text": "em 1906"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Montparnasse"
+  },
+  {
+    "label": "TEMPO",
+    "text": "depois"
+  },
+  {
+    "label": "TEMPO",
+    "text": "Em 1908"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Cité de Falguière"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Academia de Beaux-Arts"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Academia Viti"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Anglada Camarasa"
+  },
+  {
+    "label": "TEMPO",
+    "text": "Em 1910"
+  },
+  {
+    "label": "TEMPO",
+    "text": "alguns meses"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Bruxelas"
+  },
+  {
+    "label": "TEMPO",
+    "text": "em 1911"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Salon des Indépendants"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Paris"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Amedeo Modigliani"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Constantin Brancusi"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Alexander Archipenko"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Juan Gris"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Robert Delaunay"
+  },
+  {
+    "label": "TEMPO",
+    "text": "Em 1912"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Gustave Flaubert"
+  },
+  {
+    "label": "OBRA",
+    "text": "La Légende de Saint Julien l'Hospitalier"
+  }
+]
+
+Entidades previstas:
+[]
+
+--------------------------------------------------------------------------------
+Texto:
+Depois de participar em 1913 numa exposição com oito trabalhos nos Estados Unidos da América , no Armory Show , voltou a Portugal , onde teve a ousadia de realizar duas exposições, respectivamente em Porto e em Lisboa . Nesse ano participou ainda no Herbstsalon da Galeria Der Sturm , em Berlim . Em 1914 encontrou-se em Barcelona com Antoni Gaudí , e parte para Madrid onde é surpreendido pelo início da I Guerra Mundial . Regressou então a Portugal , onde iniciou meteórica carreira na experimentação de novas formas de expressão, tendo pintado com grande constância ao ponto de, em 1916 , expor no Porto 114 obras com o título " Abstraccionismo ", que serão também expostas em Lisboa , num e noutro caso com novidade e algum escândalo.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "em 1913"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Estados Unidos da América"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Armory Show"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Portugal"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Porto"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Lisboa"
+  },
+  {
+    "label": "TEMPO",
+    "text": "Nesse ano"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Herbstsalon"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Galeria Der Sturm"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Berlim"
+  },
+  {
+    "label": "TEMPO",
+    "text": "Em 1914"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Barcelona"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Antoni Gaudí"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Madrid"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "I Guerra Mundial"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Portugal"
+  },
+  {
+    "label": "TEMPO",
+    "text": "em 1916"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Porto"
+  },
+  {
+    "label": "VALOR",
+    "text": "114"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Lisboa"
+  }
+]
+
+Entidades previstas:
+[]
+
+--------------------------------------------------------------------------------
+Texto:
+O acordo político quanto à revisão foi obtido durante a Presidência Alemã , tendo cabido a Portugal concluir o processo de revisão. Com a adopção da revisão do Mecanismo no Conselho de Justiça e Assuntos Internos de 8 de Novembro , este processo ficou concluído, passando a União a ficar dotado de um Mecanismo mais expedito para resposta a emergências graves. As principais novidades do Mecanismo são a clarificação de competências entre a Comissão e a Presidência no quadro de intervenções em países terceiros, a existência de competências comunitárias ao nível do transporte e a criação, numa base voluntária, de módulos de protecção civil.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Presidência Alemã"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Portugal"
+  },
+  {
+    "label": "OBRA",
+    "text": "Mecanismo"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Conselho de Justiça e Assuntos Internos"
+  },
+  {
+    "label": "TEMPO",
+    "text": "de 8 de Novembro"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "União"
+  },
+  {
+    "label": "OBRA",
+    "text": "Mecanismo"
+  },
+  {
+    "label": "OBRA",
+    "text": "Mecanismo"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Comissão"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Presidência"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "COISA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+2. Sistemas de Alerta Precoce
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OBRA",
+    "text": "Sistemas de Alerta Precoce"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OUTRO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A necessidade de melhorar os actuais ou de estabelecer novos Sistemas de Alerta Precoce na União Europeia foi reconhecida pelo Conselho em diversas ocasiões . Em particular, o Conselho adoptou, em 2005 , o Programa de Acção para Tsunamis e afirmou que «A Comissão é convidada a fazer propostas [envolvendo] a criação de um sistema de detecção e alerta precoce (...) para o Mediterrâneo e o Atlântico ». Mais recentemente, o Instrumento Financeiro para a Protecção Civil definiu que a criação de um sistema de detecção e alerta precoce é elegível para assistência financeira através de acções como estudos, avaliações e estabelecimento de interligações.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OBRA",
+    "text": "Sistemas de Alerta Precoce"
+  },
+  {
+    "label": "LOCAL",
+    "text": "União Europeia"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Conselho"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Conselho"
+  },
+  {
+    "label": "TEMPO",
+    "text": "em 2005"
+  },
+  {
+    "label": "OBRA",
+    "text": "Programa de Acção para Tsunamis"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Comissão"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Mediterrâneo"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Atlântico"
+  },
+  {
+    "label": "OBRA",
+    "text": "Instrumento Financeiro para a Protecção Civil"
+  }
+]
+
+Entidades previstas:
+[]
+
+--------------------------------------------------------------------------------
+Texto:
+Para contribuir para este debate, a ANPC realizou, de 15 a 18 de Julho , em Albufeira , um seminário sobre Sistemas de Alerta Precoce , o qual reuniu cerca de 120 especialistas da maior parte dos Estados-Membros e no qual se procurou:
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGANIZACAO",
+    "text": "ANPC"
+  },
+  {
+    "label": "TEMPO",
+    "text": "de 15 a 18 de Julho"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Albufeira"
+  },
+  {
+    "label": "VALOR",
+    "text": "cerca de 120"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Estados-Membros"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "OBRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+- identificar lacunas existentes no espaço da União Europeia (ex: sistema de alerta precoce para tsunamis) e delinear as bases para um Plano de Acção destinado a suprir as lacunas identificadas;
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCAL",
+    "text": "União Europeia"
+  },
+  {
+    "label": "OBRA",
+    "text": "Plano de Acção"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Com base nas conclusões do seminário e nos resultados dos trabalhos desenvolvidos pela Comissão , ao nível de grupo de peritos, foi possível obter acordo sobre dois documentos de Conclusões do Conselho | Conclusões do Conselho adoptados no Conselho JAI de 5/6 de Dezembro . Um desses documentos ( Conclusões do Conselho sobre o desenvolvimento e estabelecimento de sistemas de alerta precoce na UE ) segue uma abordagem global multi-riscos, enquanto o outro ( Conclusões do Conselho sobre o desenvolvimento de um sistema de alerta precoce para tsunamis no Atlântico Nordeste e no Mediterrâneo ) direcciona as atenções para o risco de tsunamis. Ambos os documentos contêm diversas propostas de actuação futura por parte da Comissão e dos Estados-Membros .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGANIZACAO",
+    "text": "Comissão"
+  },
+  {
+    "label": "OBRA",
+    "text": "Conclusões do Conselho"
+  },
+  {
+    "label": "OBRA",
+    "text": "Conclusões"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Conselho"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Conselho JAI"
+  },
+  {
+    "label": "TEMPO",
+    "text": "de 5/6 de Dezembro"
+  },
+  {
+    "label": "OBRA",
+    "text": "Conclusões do Conselho sobre o desenvolvimento e estabelecimento de sistemas de alerta precoce na UE"
+  },
+  {
+    "label": "OBRA",
+    "text": "Conclusões do Conselho sobre o desenvolvimento de um sistema de alerta precoce para tsunamis no Atlântico Nordeste e no Mediterrâneo"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Comissão"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Estados-Membros"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+3. Cooperação com Países do Mediterrâneo Sul | Países do Mediterrâneo Sul
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGANIZACAO",
+    "text": "Países do Mediterrâneo Sul"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Países"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Mediterrâneo Sul"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Por outro lado, é também importante sublinhar o facto de que o Mecanismo Comunitário de Protecção Civil já interveio por diversas vezes nesta região (ex: sismos da Argélia e de Marrocos ) e diversos Estados-Membros mantêm acordos bilaterais de cooperação com os Países do Mediterrâneo Sul | Países do Mediterrâneo Sul , que conduziram a missões de assistência mútua durante emergências passadas.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OBRA",
+    "text": "Mecanismo Comunitário de Protecção Civil"
+  },
+  {
+    "label": "TEMPO",
+    "text": "por diversas vezes"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Argélia"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Marrocos"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Estados-Membros"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Países do Mediterrâneo Sul"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Países"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Mediterrâneo Sul"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+De forma a permitir uma mais abrangente troca de pontos de vista neste campo, realizou-se no dia 24 de Outubro , no Porto , uma reunião informal entre os Directores-Gerais de Protecção Civil dos Países do Mediterrâneo | Directores-Gerais de Protecção Civil dos Países do Mediterrâneo | Directores-Gerais de Protecção Civil dos Países do Mediterrâneo e os Directores-Gerais de Protecção Civil da União Europeia | Directores-Gerais de Protecção Civil da União Europeia . Essa reunião permitiu concluir da existência de abertura para um trabalho comum futuro, o qual, numa primeira fase, deverá estar integrado do Programa para a Prevenção e Redução de Desastres do Projecto Euromed e, numa segunda fase, deverá visar a inclusão de países do Mediterrâneo no Mecanismo Comunitário de Protecção Civil .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "no dia 24 de Outubro"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Porto"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Directores-Gerais de Protecção Civil dos Países do Mediterrâneo"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Directores-Gerais de Protecção Civil"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Países do Mediterrâneo"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Directores-Gerais de Protecção Civil"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Países"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Mediterrâneo"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Directores-Gerais de Protecção Civil da União Europeia"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Directores-Gerais de Protecção Civil"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "União Europeia"
+  },
+  {
+    "label": "OBRA",
+    "text": "Programa para a Prevenção e Redução de Desastres"
+  },
+  {
+    "label": "OBRA",
+    "text": "Projecto Euromed"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Mediterrâneo"
+  },
+  {
+    "label": "OBRA",
+    "text": "Mecanismo Comunitário de Protecção Civil"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "OBRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Conscientes de que tal regra contradiria o princípio básico de actuação da protecção civil (resposta rápida e imediata após uma emergência), os Estados-Membros e a Comissão Europeia desenvolveram diversas diligências procurando obter uma clarificação/revisão de tais Directrizes junto da UN/OCHA . Em particular, foi obtido acordo no Grupo de Trabalho PROCIV quanto a uma abordagem global dos Estados-Membros sobre esta matéria.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGANIZACAO",
+    "text": "Estados-Membros"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Comissão Europeia"
+  },
+  {
+    "label": "OBRA",
+    "text": "Directrizes"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "UN/OCHA"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Grupo de Trabalho PROCIV"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Estados-Membros"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Na sequência dos trabalhos desenvolvidos pela Presidência Alemã neste âmbito, foi dada continuidade à negociação da proposta de Directiva , tendo-se analisado o parecer do Parlamento Europeu e discutido as reservas introduzidas pelas diversas delegações. O balanço final é positivo, uma vez que se conseguiu eliminar a maior parte das reservas existentes. Embora exista consenso em relação a cerca de 70% da proposta de Directiva , subsistem reservas de fundo de diversos Estados-Membros que se relacionam, por exemplo, com a natureza legal do instrumento a adoptar, a inclusão do sector do «nuclear» no âmbito da Directiva , a definição de Infra-estrutura Crítica Europeia e a obrigatoriedade de estabelecimento de Planos de Segurança e Oficiais de Ligação .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGANIZACAO",
+    "text": "Presidência Alemã"
+  },
+  {
+    "label": "OBRA",
+    "text": "Directiva"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Parlamento Europeu"
+  },
+  {
+    "label": "VALOR",
+    "text": "cerca de 70%"
+  },
+  {
+    "label": "OBRA",
+    "text": "Directiva"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Estados-Membros"
+  },
+  {
+    "label": "OBRA",
+    "text": "Directiva"
+  },
+  {
+    "label": "OBRA",
+    "text": "Planos de Segurança"
+  },
+  {
+    "label": "OBRA",
+    "text": "Oficiais de Ligação"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "VALOR"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "PESSOA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Neste contexto foi obtido acordo sobre um Relatório de Progresso adoptado no Conselho JAI de 5/6 Dezembro .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OBRA",
+    "text": "Relatório de Progresso"
+  },
+  {
+    "label": "ACONTECIMENTO",
+    "text": "Conselho JAI"
+  },
+  {
+    "label": "TEMPO",
+    "text": "de 5/6 Dezembro"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "TEMPO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1581 , Filipe I de Portugal | Filipe I de Portugal , mandou transladar para o Mosteiro dos Jerónimos em Lisboa um corpo que alegava ser o do rei desaparecido, na esperança de acabar com o sebastianismo, o que não resultou, nem se pôde comprovar ser o corpo realmente o de Sebastião I . O Túmulo de Mármore que repousa sobre dois elefantes, pode ainda hoje ser observado em Lisboa . A dúvida que persiste há mais de 425 anos | há mais de 425 anos poderia provavelmente hoje ser resolvida com um simples teste de ADN ( DNA ).
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "Em 1581"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Filipe I de Portugal"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Filipe I"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Portugal"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Mosteiro dos Jerónimos"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Lisboa"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Sebastião I"
+  },
+  {
+    "label": "OBRA",
+    "text": "Túmulo de Mármore"
+  },
+  {
+    "label": "TEMPO",
+    "text": "hoje"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Lisboa"
+  },
+  {
+    "label": "TEMPO",
+    "text": "há mais de 425 anos"
+  },
+  {
+    "label": "VALOR",
+    "text": "425 anos"
+  },
+  {
+    "label": "TEMPO",
+    "text": "hoje"
+  },
+  {
+    "label": "COISA",
+    "text": "ADN"
+  },
+  {
+    "label": "COISA",
+    "text": "DNA"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "OUTRO"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "VALOR"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "COISA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Tornou-se então numa lenda do grande patriota português - o "rei dormente" (ou um Messias ) que iria regressar para ajudar Portugal nas suas horas mais sombrias, uma imagem semelhante à que o Rei Artur tem em Inglaterra ou Frederico Barbarossa na Alemanha .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOA",
+    "text": "Messias"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Portugal"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Rei Artur"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Inglaterra"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Frederico Barbarossa"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Alemanha"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Mesmo no século XIX , lavradores Sebastianistas no sertão brasileiro acreditavam que o rei iria regressar para ajuda-los na luta contra a República ateia Brasileira | República ateia Brasileira" (Ver Revolta dos Canudos ).
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "no século XIX"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Sebastianistas"
+  },
+  {
+    "label": "OBRA",
+    "text": "Revolta dos Canudos"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ACONTECIMENTO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Em conclusão, a Dinastia de Avis , popular entre o povo após ter guiado Portugal à sua época de ouro, acabou por submergir na busca de um sonho: a União Peninsular . As mesmas complicações causadas pela procriação consanguínea causou as mortes das crianças de D. João III e Catarina de Áustria | Catarina de Áustria e a loucura e desespero dos seus netos ( Sebastião e Carlos ), os últimos príncipes de Avis-Habsburgo | príncipes de Avis-Habsburgo .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOA",
+    "text": "Dinastia de Avis"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Portugal"
+  },
+  {
+    "label": "TEMPO",
+    "text": "à sua época"
+  },
+  {
+    "label": "OBRA",
+    "text": "União Peninsular"
+  },
+  {
+    "label": "PESSOA",
+    "text": "D. João III"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Catarina de Áustria"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Catarina"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Áustria"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Sebastião"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Carlos"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Avis-Habsburgo"
+  },
+  {
+    "label": "PESSOA",
+    "text": "príncipes de Avis-Habsburgo"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O filme « Call girl », de António-Pedro Vasconcelos , estreia hoje em quarenta salas de cinema, mostrando uma intriga policial que envolve uma mulher fatal e um autarca escrupuloso que se deixa corromper.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OBRA",
+    "text": "Call girl"
+  },
+  {
+    "label": "PESSOA",
+    "text": "António-Pedro Vasconcelos"
+  },
+  {
+    "label": "TEMPO",
+    "text": "hoje"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "VALOR"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+« Call girl » podia ser uma variação moderna de Anjo Azul , de Josef von Sternberg , disse o realizador à agência Lusa , acompanhando «o percurso da decadência, da perdição», do autarca alentejano até ao momento em que aceita dinheiro em troca de um favor.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OBRA",
+    "text": "Call girl"
+  },
+  {
+    "label": "OBRA",
+    "text": "Anjo Azul"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Josef von Sternberg"
+  },
+  {
+    "label": "PESSOA",
+    "text": "Lusa"
+  },
+  {
+    "label": "TEMPO",
+    "text": "até ao momento"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "PESSOA"
+  },
+  {
+    "label": "PESSOA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+«Neste caso a personagem é corrompida, no outro [ Anjo azul | Anjo azul ] perde toda a dignidade e reputação», compara António-Pedro Vasconcelos , até porque é um tema «recorrente na literatura e na ficção ocidental».
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OBRA",
+    "text": "Anjo azul"
+  },
+  {
+    "label": "PESSOA",
+    "text": "António-Pedro Vasconcelos"
+  }
+]
+
+Entidades previstas:
+[]
+
+--------------------------------------------------------------------------------
+Texto:
+« Call Girl » é uma co-produção luso-brasileira da MGN Filmes e da Lagoa Cultural , e conta ainda com a participação financeira dos institutos do cinema de Portugal e do Brasil e da estação de televisão TVI .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OBRA",
+    "text": "Call Girl"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "MGN Filmes"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Lagoa Cultural"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Portugal"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Brasil"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "TVI"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+6. Quanto às « Novas Oportunidades » foram no seu início um sucesso naquilo que era mais difícil: revalorizar o papel do ensino, da educação, da aprendizagem, do saber, em sectores da população que na sua vida tinham voltado as costas a esses valores, ou por necessidade, ou por facilidade. Porém o programa entra agora numa fase crucial: após os momentos de arranque incial, é suposto que se começe agora a aprender e a ser avaliado. Esta é a parte difícil, mas a que justifica o projecto. E aqui as intenções iniciais começam a esmorecer, os atrasos a somarem-se, a perplexidade dos formadores a aumentar e o anúncio regular pelo governo da outorga de mais uns milhares de diplomas faz suspeitar de facilitismo. Vamos ver.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "OBRA",
+    "text": "Novas Oportunidades"
+  },
+  {
+    "label": "TEMPO",
+    "text": "no seu início"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "OBRA"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+- Sistema de Navegação automóvel, pronto a usar , com indicações de mudança de direcção (turn-by-turn) de voz e visuais a 3 dimensões (True view 3d navigation exclusiva da Magellan ), e ecrã táctil com 32.000 côres.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "COISA",
+    "text": "Sistema de Navegação"
+  },
+  {
+    "label": "ORGANIZACAO",
+    "text": "Magellan"
+  },
+  {
+    "label": "VALOR",
+    "text": "32.000"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "VALOR"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Os fragmentos do satélite italiano Bepposax mergulharam na noite de ontem no oceano Pacífico , deixando aliviados os mais de 30 países _inclusive o Brasil _ que estavam sob risco de serem atingidos pelos destroços.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "COISA",
+    "text": "Bepposax"
+  },
+  {
+    "label": "TEMPO",
+    "text": "na noite de ontem"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Pacífico"
+  },
+  {
+    "label": "VALOR",
+    "text": "mais de 30"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Brasil"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "VALOR"
+  },
+  {
+    "label": "PESSOA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A missão científica da nave foi concluída em 30 de abril de 2002 . Depois disso, o satélite deixou de ter sua órbita corrigida. O atrito com as camadas mais altas da atmosfera gradativamente diminuiu a altitude, o que culminou com a reentrada, ontem . Como a volta à Terra não foi realizada de forma controlada (como aconteceu com as 135 toneladas da estação espacial Mir , em 2001 ), era impossível prever exatamente onde os destroços iriam cair.
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "em 30 de abril de 2002"
+  },
+  {
+    "label": "TEMPO",
+    "text": "ontem"
+  },
+  {
+    "label": "LOCAL",
+    "text": "Terra"
+  },
+  {
+    "label": "VALOR",
+    "text": "135 toneladas"
+  },
+  {
+    "label": "COISA",
+    "text": "Mir"
+  },
+  {
+    "label": "TEMPO",
+    "text": "em 2001"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "LOCAL"
+  },
+  {
+    "label": "COISA"
+  },
+  {
+    "label": "TEMPO"
+  }
+]
+

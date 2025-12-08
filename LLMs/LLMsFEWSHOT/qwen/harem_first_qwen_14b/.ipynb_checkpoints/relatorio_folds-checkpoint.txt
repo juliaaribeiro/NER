@@ -1,0 +1,170 @@
+
+====== FOLD 0 ======
+Relatório por label:
+- LOCAL: precision=1.000, recall=0.027, f1-score=0.053
+- ORGANIZACAO: precision=1.000, recall=0.032, f1-score=0.062
+- PESSOA: precision=1.000, recall=0.037, f1-score=0.071
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- ABSTRACAO: precision=0.000, recall=0.000, f1-score=0.000
+- ACONTECIMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- COISA: precision=0.000, recall=0.000, f1-score=0.000
+- OBRA: precision=0.000, recall=0.000, f1-score=0.000
+- OUTRO: precision=0.000, recall=0.000, f1-score=0.000
+- VALOR: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.300, recall=0.010, f1-score=0.019
+Micro Avg: precision=0.750, recall=0.019, f1-score=0.038
+==================================================
+
+====== FOLD 1 ======
+Relatório por label:
+- LOCAL: precision=1.000, recall=0.042, f1-score=0.080
+- ORGANIZACAO: precision=1.000, recall=0.037, f1-score=0.071
+- PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- ABSTRACAO: precision=0.000, recall=0.000, f1-score=0.000
+- ACONTECIMENTO: precision=1.000, recall=0.111, f1-score=0.200
+- COISA: precision=0.000, recall=0.000, f1-score=0.000
+- OBRA: precision=0.000, recall=0.000, f1-score=0.000
+- OUTRO: precision=0.000, recall=0.000, f1-score=0.000
+- VALOR: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.300, recall=0.019, f1-score=0.035
+Micro Avg: precision=1.000, recall=0.022, f1-score=0.043
+==================================================
+
+====== FOLD 2 ======
+Relatório por label:
+- LOCAL: precision=1.000, recall=0.069, f1-score=0.129
+- ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOA: precision=1.000, recall=0.083, f1-score=0.154
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- ABSTRACAO: precision=0.000, recall=0.000, f1-score=0.000
+- ACONTECIMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- COISA: precision=1.000, recall=0.250, f1-score=0.400
+- OBRA: precision=0.000, recall=0.000, f1-score=0.000
+- OUTRO: precision=0.000, recall=0.000, f1-score=0.000
+- VALOR: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.300, recall=0.040, f1-score=0.068
+Micro Avg: precision=0.714, recall=0.034, f1-score=0.065
+==================================================
+
+====== FOLD 3 ======
+Relatório por label:
+- LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- ABSTRACAO: precision=0.000, recall=0.000, f1-score=0.000
+- ACONTECIMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- COISA: precision=0.000, recall=0.000, f1-score=0.000
+- OBRA: precision=0.000, recall=0.000, f1-score=0.000
+- OUTRO: precision=0.000, recall=0.000, f1-score=0.000
+- VALOR: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.000, recall=0.000, f1-score=0.000
+Micro Avg: precision=0.000, recall=0.000, f1-score=0.000
+==================================================
+
+====== FOLD 4 ======
+Relatório por label:
+- LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- ABSTRACAO: precision=0.000, recall=0.000, f1-score=0.000
+- ACONTECIMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- COISA: precision=0.000, recall=0.000, f1-score=0.000
+- OBRA: precision=0.000, recall=0.000, f1-score=0.000
+- OUTRO: precision=0.000, recall=0.000, f1-score=0.000
+- VALOR: precision=1.000, recall=0.050, f1-score=0.095
+
+Macro Avg: precision=0.100, recall=0.005, f1-score=0.010
+Micro Avg: precision=0.500, recall=0.006, f1-score=0.012
+==================================================
+
+====== FOLD 5 ======
+Relatório por label:
+- LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- ORGANIZACAO: precision=1.000, recall=0.080, f1-score=0.148
+- PESSOA: precision=0.667, recall=0.087, f1-score=0.154
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- ABSTRACAO: precision=0.000, recall=0.000, f1-score=0.000
+- ACONTECIMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- COISA: precision=0.000, recall=0.000, f1-score=0.000
+- OBRA: precision=0.000, recall=0.000, f1-score=0.000
+- OUTRO: precision=0.000, recall=0.000, f1-score=0.000
+- VALOR: precision=1.000, recall=0.045, f1-score=0.087
+
+Macro Avg: precision=0.267, recall=0.021, f1-score=0.039
+Micro Avg: precision=0.556, recall=0.033, f1-score=0.062
+==================================================
+
+====== FOLD 6 ======
+Relatório por label:
+- LOCAL: precision=1.000, recall=0.065, f1-score=0.121
+- ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- ABSTRACAO: precision=0.000, recall=0.000, f1-score=0.000
+- ACONTECIMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- COISA: precision=0.000, recall=0.000, f1-score=0.000
+- OBRA: precision=0.000, recall=0.000, f1-score=0.000
+- OUTRO: precision=0.000, recall=0.000, f1-score=0.000
+- VALOR: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.100, recall=0.006, f1-score=0.012
+Micro Avg: precision=1.000, recall=0.014, f1-score=0.027
+==================================================
+
+====== FOLD 7 ======
+Relatório por label:
+- LOCAL: precision=1.000, recall=0.032, f1-score=0.062
+- ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOA: precision=0.000, recall=0.000, f1-score=0.000
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- ABSTRACAO: precision=0.000, recall=0.000, f1-score=0.000
+- ACONTECIMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- COISA: precision=0.000, recall=0.000, f1-score=0.000
+- OBRA: precision=0.000, recall=0.000, f1-score=0.000
+- OUTRO: precision=0.000, recall=0.000, f1-score=0.000
+- VALOR: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.100, recall=0.003, f1-score=0.006
+Micro Avg: precision=1.000, recall=0.008, f1-score=0.016
+==================================================
+
+====== FOLD 8 ======
+Relatório por label:
+- LOCAL: precision=0.000, recall=0.000, f1-score=0.000
+- ORGANIZACAO: precision=0.000, recall=0.000, f1-score=0.000
+- PESSOA: precision=1.000, recall=0.057, f1-score=0.107
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- ABSTRACAO: precision=0.000, recall=0.000, f1-score=0.000
+- ACONTECIMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- COISA: precision=0.000, recall=0.000, f1-score=0.000
+- OBRA: precision=0.000, recall=0.000, f1-score=0.000
+- OUTRO: precision=0.000, recall=0.000, f1-score=0.000
+- VALOR: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.100, recall=0.006, f1-score=0.011
+Micro Avg: precision=1.000, recall=0.015, f1-score=0.030
+==================================================
+
+====== FOLD 9 ======
+Relatório por label:
+- LOCAL: precision=0.750, recall=0.097, f1-score=0.171
+- ORGANIZACAO: precision=0.500, recall=0.037, f1-score=0.069
+- PESSOA: precision=0.750, recall=0.073, f1-score=0.133
+- TEMPO: precision=0.000, recall=0.000, f1-score=0.000
+- ABSTRACAO: precision=0.000, recall=0.000, f1-score=0.000
+- ACONTECIMENTO: precision=0.000, recall=0.000, f1-score=0.000
+- COISA: precision=0.000, recall=0.000, f1-score=0.000
+- OBRA: precision=0.000, recall=0.000, f1-score=0.000
+- OUTRO: precision=0.000, recall=0.000, f1-score=0.000
+- VALOR: precision=0.000, recall=0.000, f1-score=0.000
+
+Macro Avg: precision=0.200, recall=0.021, f1-score=0.037
+Micro Avg: precision=0.700, recall=0.042, f1-score=0.080
+==================================================
