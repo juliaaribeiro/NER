@@ -1,0 +1,3434 @@
+--------------------------------------------------------------------------------
+Texto:
+Lá , um certo dia no ano de 2015 , uma frondosa jaqueira secular tombou durante um temporal , foi quando nosso patriarca teve essa grande ideia .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "2015"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+De volta à fazenda Tupã eles foram enchidos de cachaça Princesa Isabel e o resultado foi essa surpreendente e singular bebida .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_LOCAL",
+    "text": "fazenda Tupã"
+  },
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Princesa Isabel"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O retrogosto é agradável e inusitado de uma madeira que poucos estão acostumados a utilizar .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "madeira"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Mais uma excelente cachaça da Princesa Isabel que todo apreciador deveria experimentar .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_ORGANIZACAO",
+    "text": "Princesa Isabel"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Orizona Gold Black 750ml
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Orizona Gold Black"
+  },
+  {
+    "label": "VOLUME",
+    "text": "750ml"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "VOLUME"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Orizona Gold Black é destilada em alambiques de cobre , descansada em dornas de inox e envelhecida em barris de carvalho por 6 anos !
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Orizona Gold Black"
+  },
+  {
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "text": "alambiques de cobre"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "dornas de inox"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "barris"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "carvalho"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "6 anos"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "EQUIPAMENTO_DESTILACAO"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Um destilado excepcional , de aroma suave e amadeirado , sabor marcante e aveludado com notas de baunilha . . .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "suave"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "amadeirado"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "marcante"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "text": "aveludado"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "notas de baunilha"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1997 nascia a Velho Ferreira , que reúne a experiência de décadas na arte de selecionar e oferecer a mais pura e autêntica cachaça mineira .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "1997"
+  },
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Velho Ferreira"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Luiz Carlos Moretti produtor da Cachaça Estância Moretti , Luiz herdou a paixão pela bebida da família Moretti , que veio da Itália e tinha a tradição de trabalhar com bebidas .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_PESSOA",
+    "text": "Luiz Carlos Moretti"
+  },
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Estância Moretti"
+  },
+  {
+    "label": "NOME_PESSOA",
+    "text": "Luiz"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Itália"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_PESSOA"
+  },
+  {
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "label": "NOME_PESSOA"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Prata : Descansanda por vários meses em tonéis de Jequitibá Rosa , ela mantém sua cor e sabor , acentuando ainda mais o seu aroma e maciez .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "vários meses"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "tonéis"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Jequitibá Rosa"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "text": "maciez"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A cachaça Companheira Envelhecida é produzida de forma artesanal no norte do Paraná , na cidade de Jandaia do Sul .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Companheira"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "norte do Paraná"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Jandaia do Sul"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Envelhecida em toneis de Carvalho o que lhe confere um paladar suave e extremamente agradavel .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "toneis"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Carvalho"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "suave"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Uma cachaça equilibrada onde o aroma e sabor do carvalho combinam com o da cana .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "carvalho"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "cana"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+RECIPIENTE DE ARMAZENAMENTO : Envelhecida em toneis de carvalho o que lhe confere um paladar suave e extremamente agradavel .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "toneis"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "carvalho"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "suave"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Salinas Garrafa Característica : Salinas é produzida na cidade de Salinas ( Capital Mundial da Cachaça ) na região do vale do Jequitinhonha .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Salinas"
+  },
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Salinas"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Salinas"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "vale do Jequitinhonha"
+  }
+]
+
+Entidades previstas:
+[]
+
+--------------------------------------------------------------------------------
+Texto:
+Salinas é considerada uma das melhores cachaças brasileiras e já ganhou muitas premiações . .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Salinas"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A caipirinha feita com a Prata fica irresistível !
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "Prata"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHACA : A Cachaçaria Moendão está vinculada à família Schmitt por gerações e é conhecida hoje em sua região pela qualidade em produzir cachaça artesanal .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Moendão"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A plantação , colheita e processamento é todo feito pela própria Cachaça Wruck .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_ORGANIZACAO",
+    "text": "Cachaça Wruck"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A arte de Produzir a PREMISSA associa tradição a técnica exclusivas de blendagem tonando - a uma cachaça de incomparável qualidade .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "PREMISSA"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Fabricada em Salinas Garrafa : Tradicional Conteudo : 600 ML Prazo de Validade Indeterminado
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_LOCAL",
+    "text": "Salinas"
+  },
+  {
+    "label": "VOLUME",
+    "text": "600 ML"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça com Caju e Hortelã Cajulã 670 ML
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Cajulã"
+  },
+  {
+    "label": "VOLUME",
+    "text": "670 ML"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "VOLUME"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça com Caju e Hortelã Cajulã 670 ML Bebida Mista com Fruta Origem : Senador José Bento / Minas Gerais Teor Alcoólico : 15 % Volume : 700 Ml Uma bebida extremamente refrescante , de um sabor ímpar , 100% artesanal , produzido com cachaça de alambique .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Cajulã"
+  },
+  {
+    "label": "VOLUME",
+    "text": "670 ML"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Senador José Bento"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Minas Gerais"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA",
+    "text": "15 %"
+  },
+  {
+    "label": "VOLUME",
+    "text": "700 Ml"
+  },
+  {
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "text": "alambique"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "EQUIPAMENTO_DESTILACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Ponto turístico da região , hoje a Rota 48 faz parte da “Rota Romântica” e é o principal acesso à Weber Haus .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_LOCAL",
+    "text": "Rota 48"
+  },
+  {
+    "label": "NOME_ORGANIZACAO",
+    "text": "Weber Haus"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cantil Cachaça Rapariga Revestido em Couro Ecológico 500 ML Cantil com Cachaça de Alambique revestido em Couro Ecológico 500 ML Produto 100% Artesanal Garrafa Pet , revestido em couro ecológico e com fita para pendurar , um trabalho conjunto entre artesãos , produtores de bebidas regionais e designers industriais .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Rapariga"
+  },
+  {
+    "label": "VOLUME",
+    "text": "500 ML"
+  },
+  {
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "text": "Alambique"
+  },
+  {
+    "label": "VOLUME",
+    "text": "500 ML"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "EQUIPAMENTO_DESTILACAO"
+  },
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "EQUIPAMENTO_DESTILACAO"
+  },
+  {
+    "label": "VOLUME"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Extra Premium Weber Haus 12 Anos Lote 48 750 ml A Cachaça Weber Haus Extra Premium 12 anos – Lote 48 – 750 ml é uma cachaça envelhecida 6 anos em barris de carvalho francês e 6 anos em bálsamo .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "Extra Premium"
+  },
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Weber Haus"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "12 Anos"
+  },
+  {
+    "label": "VOLUME",
+    "text": "750 ml"
+  },
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Weber Haus"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "Extra Premium"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "12 anos"
+  },
+  {
+    "label": "VOLUME",
+    "text": "750 ml"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "6 anos"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "barris"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "carvalho francês"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "6 anos"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "bálsamo"
+  }
+]
+
+Entidades previstas:
+[]
+
+--------------------------------------------------------------------------------
+Texto:
+Apenas 2 mil garrafas feitas artesanalmente a partir do sopro do vidro em fornalhas , numeradas e lacradas à mão , nasce o inédito rótulo Weber Haus Lote 48 12 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Weber Haus"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "12 anos"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Cachaça Premium Amburana São Luiz , envelhecida por 18 meses em barris de Amburana , uma cachaça suave e macia , com aroma levemente adocicado , frutado e com toques de especiarias .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "Premium"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Amburana"
+  },
+  {
+    "label": "NOME_BEBIDA",
+    "text": "São Luiz"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "18 meses"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "barris"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Amburana"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "text": "macia"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "levemente adocicado"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "frutado"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "toques de especiarias"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Sua acidez equilibrada a faz muito especial tanto para ser apreciada em coquetéis , caipirinhas , como para ser degustada em shots Origem : Nova Friburgo / MG Madeira : Jequitibá Teor Alcoólico : 40% Volume : 750 ml Cachaça Bi destilada em pequenos lotes nos alambiques de cobre da Fazenda Soledade .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "acidez equilibrada"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Nova Friburgo"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "MG"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Jequitibá"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA",
+    "text": "40%"
+  },
+  {
+    "label": "VOLUME",
+    "text": "750 ml"
+  },
+  {
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "text": "alambiques de cobre"
+  },
+  {
+    "label": "NOME_ORGANIZACAO",
+    "text": "Fazenda Soledade"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA"
+  },
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Artesanal produzida em alambiques de cobre com canas selecionadas a dedo , canas de primeira e segunda colheita , agregando aromas e sabores incomparáveis assim como maciez devida sua baixa acidez . . .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "text": "alambiques de cobre"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "text": "maciez"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "baixa acidez"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "EQUIPAMENTO_DESTILACAO"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Cachaça descansada em inox por 6 meses e 3 meses de Jequitibá branco , cachaça em sua forma tradicional , aromas e sabores frutados e Herbais podendo se sentir o dulçor da cana , cachaça leve e aveludada
+
+Entidades verdadeiras:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "inox"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "6 meses"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "3 meses"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Jequitibá branco"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "frutados"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "Herbais"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "dulçor da cana"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "text": "aveludada"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Armazenada em tonéis de Castanha do Pará .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "tonéis"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Castanha do Pará"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Envelhecida 10 anos em barris de madeira de Castanha - do - Pará , a cachaça apresenta uma cor âmbar suave que condiz com seu sabor e aroma igualmente encorpados e que deixam uma sensação de maciez em toda a boca .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "barris"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Castanha - do - Pará"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "text": "âmbar suave"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "text": "maciez"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Cambraia Carvalho & Amburana , combina o sabor especial da cachaça envelhecida em carvalho com cachaça envelhecida em amburana , madeira brasileira que intensifica os aromas característicos da cachaça , originando um destilado com uma coloração agradável , maciez e corpo e ainda destacando em seu aroma notas aromáticas frutadas , notas de baunilha e toque de especiarias .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Cambraia"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Carvalho"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Amburana"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "carvalho"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "amburana"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "text": "maciez"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "text": "corpo"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "frutadas"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "notas de baunilha"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "toque de especiarias"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+HISTÓRIA DO ALAMBIQUE : A Cachaça Reserva do Gerente é produzida no Recanto da Sereia , em Guarapari , no Espírito Santo .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Reserva do Gerente"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Recanto da Sereia"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Guarapari"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Espírito Santo"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Além disso , causa uma sensação aveludada e levemente picante na boca .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "text": "aveludada"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "levemente picante"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+HISTÓRIA DO ALAMBIQUE : A Weber Haus é administrada por Evandro Weber , descendente de alemães de Ivoti , encosta da Serra Gaúcha , interior do Rio Grande do Sul .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Weber Haus"
+  },
+  {
+    "label": "NOME_PESSOA",
+    "text": "Evandro Weber"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Ivoti"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Serra Gaúcha"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "interior do Rio Grande do Sul"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "label": "NOME_PESSOA"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+2012 - Medalha de Ouro no Ranking VIP da Cachaça Amarelinha da Revista VIP
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "2012"
+  },
+  {
+    "label": "NOME_ORGANIZACAO",
+    "text": "Revista VIP"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+2011 - 1ª Colocada no Ranking da Folha de São Paulo
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "2011"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "São Paulo"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+2009 - Ranking da Revista Maxim
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "2009"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Cabaré Prata Dom Tápparo 700ml
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Cabaré"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "Prata"
+  },
+  {
+    "label": "NOME_ORGANIZACAO",
+    "text": "Dom Tápparo"
+  },
+  {
+    "label": "VOLUME",
+    "text": "700ml"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "NOME_PESSOA"
+  },
+  {
+    "label": "VOLUME"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Marc 40 é um blend de barris ex - Tennessee Whiskey com barris de Carvalho Americano de primeiro uso , produzida com maestria e com os mais rigorosos padrões de qualidade , prezando pela excelência e complexidade sensorial .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Marc 40"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "blend"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "barris"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "barris"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Carvalho Americano"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Madeira : Carvalho ex - Tennessee Whiskey e Carvalho Americano ( primeiro uso )
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Carvalho ex - Tennessee Whiskey"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Carvalho Americano"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Envelhecimento : 1 ano e meio em barris deex - Tennessee Whiskey e 1 ano em Carvalho Americano
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "1 ano e meio"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "barris deex"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "1 ano"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Carvalho Americano"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : O envelhecimento em barris de Carvalho Americano de primeiro uso ocorre pelo menos por 1 ano e todo conteúdo do barril , após filtrado e graduado com água desmineralizada ( 40% de volume alcoólico ) , é engarrafado sem adição de qualquer outro componente .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "barris"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Carvalho Americano"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "1 ano"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "barril"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA",
+    "text": "40%"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Sabores acentuados de madeira , toffe e especiarias , é excelente para releituras de coquetéis com base de Rum Whisky ou Bourbon .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "madeira"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "toffe"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "especiarias"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : A Santa Rosa Essence é fina e elegante .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Santa Rosa Essence"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : A Cachaça Guaraciaba Extra Premium é produzido em Guaraciaba em Minas Gerais , ela é envelhecida em Carvalho por 3 anos envasada em uma Garrafa especial quadrada de 750ml com graduação alcoólica de 42% .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Guaraciaba"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "Extra Premium"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Guaraciaba"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Minas Gerais"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Carvalho"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "3 anos"
+  },
+  {
+    "label": "VOLUME",
+    "text": "750ml"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA",
+    "text": "42%"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+( Boca ) Álcool em bom equilíbrio com as essências da madeira carvalho e demais componentes .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "Álcool"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "essências da madeira carvalho"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+INFORMAÇÕES DO PRODUTO : Bebida alccoólica mista , composta por cachaça , mel e limão , a Caipi Caldas é produzida pea Cachaçaria Vale das Águas Quentes , empresa de Caldas Novas , Goiás .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Caipi Caldas"
+  },
+  {
+    "label": "NOME_ORGANIZACAO",
+    "text": "Cachaçaria Vale das Águas Quentes"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Caldas Novas"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Goiás"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A Cachaça Chapelão Ouro é uma cachaça com 40% de teor alcóolico , armazenada em tonéis de carvalho , pelo período de três anos .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Chapelão"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "Ouro"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA",
+    "text": "40%"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "tonéis"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "carvalho"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "três anos"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Turistas que perfazem o Circuito Turístico de Paraju têm parada obrigatória para uma degustação desta excelente cachaça premium de sabor incomparável !
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_LOCAL",
+    "text": "Circuito Turístico de Paraju"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "premium"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Após quase 40 anos dando aulas de português , abandonou a cidade e veio florir as Gerais .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "40 anos"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Dona Lúcia sempre participou da história dos Mourões , era ela quem fazia os rótulos de palha de bananeira e folhas de cortiça para decorar as primeiras cachaças .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_PESSOA",
+    "text": "Lúcia"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_PESSOA"
+  },
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Passados mais de 30 anos o aperfeiçoamento da Flor das Gerais não pára e , atualmente , é possível acompanhar de perto essa produção lá na fazenda , onde a Dona Lúcia e o Seu Adão recebem os hóspedes com o mesmo carinho que devotam à cachaça .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "30 anos"
+  },
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Flor das Gerais"
+  },
+  {
+    "label": "NOME_PESSOA",
+    "text": "Lúcia"
+  },
+  {
+    "label": "NOME_PESSOA",
+    "text": "Adão"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "NOME_PESSOA"
+  },
+  {
+    "label": "NOME_PESSOA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+É uma excelente cachaça artesanal com tradição de mais de 90 anos , conservando o puro sabor da cachaça branca , sendo uma ótima opção para um bom aperitivo ou no preparo dos mais deliciosos drinks e cocktails .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "90 anos"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "branca"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Inspirada em origens mineiras , desde o nome até a essência , a Cachaça Espírito de Minas é produzida em uma fazenda colonial na pequena cidade de São Tiago .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Espírito de Minas"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "São Tiago"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Composição : Cachaça Weber Haus , açúcar , extrato e aroma de anis .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Weber Haus"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "anis"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Sabor rico , equilibrado , suave e com notas florais , de baunilha e caramelo .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "notas florais"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "baunilha"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "caramelo"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+MARCA : 51 PIRASSUNUNGA
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_ORGANIZACAO",
+    "text": "51 PIRASSUNUNGA"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Avuá e sua história – Em 2009 , dois empreendedores dos EUA , Nate Whitehouse e Peter Nevenglosky , descobriram num boteco carioca o amor pelo Brasil e pela cachaça , portanto a paixão da dupla se transformou no projeto de criar a própria marca de cachaça focada para ser comercializado no mercado exterior .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Avuá"
+  },
+  {
+    "label": "TEMPO",
+    "text": "2009"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "EUA"
+  },
+  {
+    "label": "NOME_PESSOA",
+    "text": "Nate Whitehouse"
+  },
+  {
+    "label": "NOME_PESSOA",
+    "text": "Peter Nevenglosky"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Brasil"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "NOME_PESSOA"
+  },
+  {
+    "label": "NOME_PESSOA"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A cachaça fica boa numa releitura do clássico coquetel Manhattan : 80 ml de Porto do Vianna Premium , 40 ml de vermute tinto , 2 gotas de Angostura Bitters .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VOLUME",
+    "text": "80 ml"
+  },
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Porto do Vianna"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "Premium"
+  },
+  {
+    "label": "VOLUME",
+    "text": "40 ml"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+De aroma torrado ( chocolate , cereais ) , adocicado ( xarope de frutas e mel ) ; na boca , fruta seca ( figo e uva - passa ) .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "torrado"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "chocolate"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "cereais"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "adocicado"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "xarope de frutas"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "mel"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "fruta seca"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "figo"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "uva - passa"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A borra seca e cristalizada formada nas paredes do barril pelo vinho faz a cachaça ser naturalmente adoçada , contendo 9g / L de açúcar .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "barril"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Weber Haus Leandro Batista 750ml
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Weber Haus"
+  },
+  {
+    "label": "NOME_PESSOA",
+    "text": "Leandro Batista"
+  },
+  {
+    "label": "VOLUME",
+    "text": "750ml"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "VOLUME"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Weber Haus Leandro Batista 750ml
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Weber Haus"
+  },
+  {
+    "label": "NOME_PESSOA",
+    "text": "Leandro Batista"
+  },
+  {
+    "label": "VOLUME",
+    "text": "750ml"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "VOLUME"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Cachaça Weber Haus Leandro Batista é uma mistura de três madeiras brasileiras .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Weber Haus"
+  },
+  {
+    "label": "NOME_PESSOA",
+    "text": "Leandro Batista"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O blend é composto de cachaças envelhecidas por 1 ano em dornas de 700 litros de amburana ( 60% ) , bálsamo ( 35% ) e canela - sassafrás ( 5% )
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "blend"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "1 ano"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "dornas"
+  },
+  {
+    "label": "VOLUME",
+    "text": "700 litros"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "amburana"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "bálsamo"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "canela - sassafrás"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 2017 , em parceria com a destilaria Weber Haus , o sommelier lança as cachaças Umas e Outras e seu blend exclusivo , a cachaça Leandro Batista .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "2017"
+  },
+  {
+    "label": "NOME_ORGANIZACAO",
+    "text": "Weber Haus"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "blend"
+  },
+  {
+    "label": "NOME_PESSOA",
+    "text": "Leandro Batista"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "NOME_PESSOA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O blend é composto de cachaças envelhecidas por 1 ano em dornas de 700 litros de amburana ( 60% ) , bálsamo ( 35% ) e canela - sassafrás ( 5% )
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA",
+    "text": "blend"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "1 ano"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "dornas"
+  },
+  {
+    "label": "VOLUME",
+    "text": "700 litros"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "amburana"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "bálsamo"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "canela - sassafrás"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+lágrimas de rápido para moderado ; cor dourado com toques esverdeado e avermelhado ; percepção alcoólica baixa no nariz e na boca ; no nariz , baunilha , canela , cardamomo e pão de mel ; com repouso na taça evolui para floral ( jasmim ) ; na boca começa doce e termina como leve amargor ; leve medicinal ; retrogosto de rápido para moderado ; Ideal para : colocar no congelador e beber gelada .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "text": "dourado"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "text": "toques esverdeado"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "text": "avermelhado"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "baunilha"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "canela"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "cardamomo"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "pão de mel"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "floral"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "jasmim"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "doce"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "leve amargor"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "leve medicinal"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A primeira cachaça da família se chamava Primavera , uma homenagem à época do ano favorita dos alemães no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Primavera"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Brasil"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 10 hectares de plantação de cana - de - açúcar orgânica , Evandro produz uma linha vasta de cachaças , licores , gins e rums .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_PESSOA",
+    "text": "Evandro"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "NOME_PESSOA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : MAGNÍFICA TRADICIONAL IPÊ
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "MAGNÍFICA TRADICIONAL"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "IPÊ"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Descansa no mínimo por um ano em tonéis de Ipê , madeira nobre típica do Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "tonéis"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Ipê"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Brasil"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Middas Clássica 700ml com flocos de ouro
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Middas Clássica"
+  },
+  {
+    "label": "VOLUME",
+    "text": "700ml"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "VOLUME"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Os flocos de ouro 23 quilates que acompanham a Middas Clássica tornam esta Cachaça uma experiência única .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Middas Clássica"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Anexado à tampa da Cachaça Middas Clássica , o tubo de ouro comestível 23 quilates importado da Alemanha é um convite a uma incrível experiência sensorial .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Middas Clássica"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Alemanha"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A Middas Clássica é descansada por dois anos em tonéis de Amendoim do Campo , considerada a rainha das madeiras para envelhecer Cachaça .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Middas Clássica"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "dois anos"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "tonéis"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Amendoim do Campo"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O tempo de maturação confere à Middas Clássica um toque de maciez incomum e aveludado próprio de uma Cachaça bem produzida e bem maturada .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Middas Clássica"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "text": "aveludado"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Provar a Middas Clássica com gelo ou gelada é outra experiência para se guardar bem na memória .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Middas Clássica"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+E se a sua escolha for fazer um drink , a Middas é a Cachaça perfeita para coquetéis como nossa Caipirinha , que de quebra vai levar o charme dos flocos de ouro , o que a torna simplesmente incomparável com qualquer outra Cachaça branca para fazer o drink tipicamente brasileiro .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Middas"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : 970ml 38% prata Perdões
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VOLUME",
+    "text": "970ml"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Perdões"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O tremosdo jambu com a picância característica do gengibre cria uma sensação inigualável .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "text": "picância"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : 1000ml 39% blend de madeiras ( umburana , bálsamo , jaqueira e ipe 2 anos extra premium Areias - PA
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VOLUME",
+    "text": "1000ml"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "umburana"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "bálsamo"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "jaqueira"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "ipe"
+  },
+  {
+    "label": "TEMPO",
+    "text": "2 anos"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Areias"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "PA"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TEMPO"
+  },
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Madeira : Blend de Madeiras ( Umburana , Bálsamo , Jaqueira e Ipe
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Umburana"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Bálsamo"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Jaqueira"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Ipe"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+RECIPIENTE DE ARMAZENAMENTO : blend de madeiras ( umburana , bálsamo , jaqueira e ipe
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "umburana"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "bálsamo"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "jaqueira"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "ipe"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Sua história começa bem antes de 1925 , época em que era vendida em garrafões e dornas para os comerciantes e barqueiros que navegavam pelo rio São Francisco .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TEMPO",
+    "text": "1925"
+  },
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "text": "dornas"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TEMPO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Graduação : 48% Madeira : UmburanaVolume : 670 ml Cidade : Januária Minas Gerais Brasil
+
+Entidades verdadeiras:
+[
+  {
+    "label": "GRADUACAO_ALCOOLICA",
+    "text": "48%"
+  },
+  {
+    "label": "VOLUME",
+    "text": "670 ml"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Januária"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Minas Gerais"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Brasil"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+PREÇO : R$ 54 , 90
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VOLUME",
+    "text": "R$ 54 , 90"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PRECO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+PREÇO : R$ 27 , 50
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VOLUME",
+    "text": "R$ 27 , 50"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PRECO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+PREÇO : R$ 39 , 99
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VOLUME",
+    "text": "R$ 39 , 99"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PRECO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Alcoólica : 42%​Volume : 600 mlTempo de Envelhecimento : 2 anosOrigem : Salinas / MGColoração : DouradaAnálise : Sabor suave .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VOLUME",
+    "text": "600"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO",
+    "text": "2"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Salinas"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "NOME_LOCAL"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Sabor de Minas Porcelana Moringa
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Sabor de Minas"
+  },
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Moringa"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_BEBIDA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+PREÇO : R$ 59 , 90
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VOLUME",
+    "text": "R$ 59 , 90"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PRECO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : A Porcelana Moringa da Sabor de Minas é um presente artesanal , além de fino e original .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "NOME_BEBIDA",
+    "text": "Sabor de Minas"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+PREÇO : R$ 38 , 0
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VOLUME",
+    "text": "R$ 38 , 0"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "PRECO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Freijó é uma madeira da Amazônia que junto à cachaça transfere pouco sabor , cor e aroma deixando - a leve , com suaves notas de madeira .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "TIPO_MADEIRA",
+    "text": "Freijó"
+  },
+  {
+    "label": "NOME_LOCAL",
+    "text": "Amazônia"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A cachaça ganha uma suavidade maior e a torna ideal para “caipirinhas” , finos coquetéis , e também ótima para apreciar pura , pois mantém os aromas característicos da cana .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "text": "cana"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Apresentações em garrafa âmbar de 600ml e embalagem de 965ml , com teor alcoólico 39% vol .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "VOLUME",
+    "text": "600ml"
+  },
+  {
+    "label": "VOLUME",
+    "text": "965ml"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA",
+    "text": "39%"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "VOLUME"
+  },
+  {
+    "label": "GRADUACAO_ALCOOLICA"
+  }
+]
+

@@ -1,0 +1,128 @@
+{
+  "NOME_BEBIDA": {
+    "precision": 0.9761904761904762,
+    "recall": 0.9695945945945946,
+    "f1-score": 0.9728813559322034,
+    "support": 296.0
+  },
+  "GRADUACAO_ALCOOLICA": {
+    "precision": 0.9918032786885246,
+    "recall": 0.968,
+    "f1-score": 0.979757085020243,
+    "support": 125.0
+  },
+  "EQUIPAMENTO_DESTILACAO": {
+    "precision": 0.8709677419354839,
+    "recall": 0.9310344827586207,
+    "f1-score": 0.9,
+    "support": 29.0
+  },
+  "TEMPO_ARMAZENAMENTO": {
+    "precision": 0.9818181818181818,
+    "recall": 0.9818181818181818,
+    "f1-score": 0.9818181818181818,
+    "support": 110.0
+  },
+  "RECIPIENTE_ARMAZENAMENTO": {
+    "precision": 1.0,
+    "recall": 0.9659090909090909,
+    "f1-score": 0.9826589595375722,
+    "support": 88.0
+  },
+  "TIPO_MADEIRA": {
+    "precision": 0.9902439024390244,
+    "recall": 0.9806763285024155,
+    "f1-score": 0.9854368932038835,
+    "support": 207.0
+  },
+  "CARACTERISTICA_SENSORIAL_COR": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.9438202247191011,
+    "support": 44.0
+  },
+  "CARACTERISTICA_SENSORIAL_AROMA": {
+    "precision": 0.94,
+    "recall": 0.8703703703703703,
+    "f1-score": 0.9038461538461539,
+    "support": 54.0
+  },
+  "CARACTERISTICA_SENSORIAL_SABOR": {
+    "precision": 0.9272727272727272,
+    "recall": 0.864406779661017,
+    "f1-score": 0.8947368421052632,
+    "support": 59.0
+  },
+  "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA": {
+    "precision": 0.9333333333333333,
+    "recall": 0.875,
+    "f1-score": 0.9032258064516129,
+    "support": 32.0
+  },
+  "NOME_PESSOA": {
+    "precision": 0.9692307692307692,
+    "recall": 0.984375,
+    "f1-score": 0.9767441860465116,
+    "support": 64.0
+  },
+  "NOME_LOCAL": {
+    "precision": 0.990909090909091,
+    "recall": 0.9864253393665159,
+    "f1-score": 0.9886621315192744,
+    "support": 221.0
+  },
+  "NOME_ORGANIZACAO": {
+    "precision": 0.9101123595505618,
+    "recall": 0.9101123595505618,
+    "f1-score": 0.9101123595505618,
+    "support": 89.0
+  },
+  "TEMPO": {
+    "precision": 0.9734513274336283,
+    "recall": 0.990990990990991,
+    "f1-score": 0.9821428571428571,
+    "support": 111.0
+  },
+  "PRECO": {
+    "precision": 0.946236559139785,
+    "recall": 1.0,
+    "f1-score": 0.9723756906077348,
+    "support": 88.0
+  },
+  "VOLUME": {
+    "precision": 0.991869918699187,
+    "recall": 0.9721115537848606,
+    "f1-score": 0.9818913480885312,
+    "support": 251.0
+  },
+  "CLASSIFICACAO_BEBIDA": {
+    "precision": 0.9304347826086956,
+    "recall": 0.8699186991869918,
+    "f1-score": 0.8991596638655462,
+    "support": 123.0
+  },
+  "micro avg": {
+    "precision": 0.9705284552845529,
+    "recall": 0.9593169261677549,
+    "f1-score": 0.9648901237686285,
+    "support": 1991.0
+  },
+  "macro avg": {
+    "precision": 0.9563063401519296,
+    "recall": 0.9456052485905685,
+    "f1-score": 0.9505452787914841,
+    "support": 1991.0
+  },
+  "weighted avg": {
+    "precision": 0.9705249563422177,
+    "recall": 0.9593169261677549,
+    "f1-score": 0.9646783866985059,
+    "support": 1991.0
+  },
+  "samples avg": {
+    "precision": 0.9749906994047619,
+    "recall": 0.9735959545855378,
+    "f1-score": 0.9715404941316399,
+    "support": 1991.0
+  }
+}

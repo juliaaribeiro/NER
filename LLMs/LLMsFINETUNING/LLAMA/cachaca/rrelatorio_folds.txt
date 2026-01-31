@@ -1,0 +1,230 @@
+
+====== FOLD 0 ======
+- NOME_BEBIDA: Precision=0.969, Recall=0.982, F1=0.975
+- GRADUACAO_ALCOOLICA: Precision=0.991, Recall=0.982, F1=0.987
+- EQUIPAMENTO_DESTILACAO: Precision=0.926, Recall=0.926, F1=0.926
+- TEMPO_ARMAZENAMENTO: Precision=1.000, Recall=0.972, F1=0.986
+- RECIPIENTE_ARMAZENAMENTO: Precision=0.978, Recall=0.978, F1=0.978
+- TIPO_MADEIRA: Precision=0.987, Recall=0.981, F1=0.984
+- CARACTERISTICA_SENSORIAL_COR: Precision=0.973, Recall=0.900, F1=0.935
+- CARACTERISTICA_SENSORIAL_AROMA: Precision=0.889, Recall=0.865, F1=0.877
+- CARACTERISTICA_SENSORIAL_SABOR: Precision=0.767, Recall=0.805, F1=0.786
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: Precision=0.947, Recall=1.000, F1=0.973
+- NOME_PESSOA: Precision=0.907, Recall=0.929, F1=0.918
+- NOME_LOCAL: Precision=1.000, Recall=0.992, F1=0.996
+- NOME_ORGANIZACAO: Precision=0.921, Recall=0.901, F1=0.911
+- TEMPO: Precision=1.000, Recall=0.990, F1=0.995
+- PRECO: Precision=0.915, Recall=1.000, F1=0.956
+- VOLUME: Precision=0.996, Recall=0.959, F1=0.977
+- CLASSIFICACAO_BEBIDA: Precision=0.975, Recall=0.930, F1=0.952
+
+Macro Avg: Precision=0.950, Recall=0.947, F1=0.948
+Micro Avg: Precision=0.970, Recall=0.963, F1=0.966
+==================================================
+
+====== FOLD 1 ======
+- NOME_BEBIDA: Precision=0.958, Recall=0.977, F1=0.967
+- GRADUACAO_ALCOOLICA: Precision=0.981, Recall=0.981, F1=0.981
+- EQUIPAMENTO_DESTILACAO: Precision=0.875, Recall=0.875, F1=0.875
+- TEMPO_ARMAZENAMENTO: Precision=0.970, Recall=0.990, F1=0.980
+- RECIPIENTE_ARMAZENAMENTO: Precision=0.978, Recall=0.989, F1=0.983
+- TIPO_MADEIRA: Precision=0.989, Recall=0.984, F1=0.986
+- CARACTERISTICA_SENSORIAL_COR: Precision=0.872, Recall=0.829, F1=0.850
+- CARACTERISTICA_SENSORIAL_AROMA: Precision=0.903, Recall=0.800, F1=0.848
+- CARACTERISTICA_SENSORIAL_SABOR: Precision=0.840, Recall=0.840, F1=0.840
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: Precision=0.895, Recall=0.850, F1=0.872
+- NOME_PESSOA: Precision=0.972, Recall=0.959, F1=0.966
+- NOME_LOCAL: Precision=0.976, Recall=0.996, F1=0.986
+- NOME_ORGANIZACAO: Precision=0.941, Recall=0.932, F1=0.937
+- TEMPO: Precision=0.960, Recall=0.968, F1=0.964
+- PRECO: Precision=0.925, Recall=1.000, F1=0.961
+- VOLUME: Precision=1.000, Recall=0.969, F1=0.984
+- CLASSIFICACAO_BEBIDA: Precision=0.869, Recall=0.964, F1=0.914
+
+Macro Avg: Precision=0.935, Recall=0.935, F1=0.935
+Micro Avg: Precision=0.956, Recall=0.964, F1=0.960
+==================================================
+
+====== FOLD 2 ======
+- NOME_BEBIDA: Precision=0.971, Recall=0.940, F1=0.955
+- GRADUACAO_ALCOOLICA: Precision=0.982, Recall=0.965, F1=0.973
+- EQUIPAMENTO_DESTILACAO: Precision=1.000, Recall=0.964, F1=0.982
+- TEMPO_ARMAZENAMENTO: Precision=0.980, Recall=0.990, F1=0.985
+- RECIPIENTE_ARMAZENAMENTO: Precision=0.977, Recall=0.966, F1=0.971
+- TIPO_MADEIRA: Precision=0.973, Recall=0.978, F1=0.976
+- CARACTERISTICA_SENSORIAL_COR: Precision=0.946, Recall=0.972, F1=0.959
+- CARACTERISTICA_SENSORIAL_AROMA: Precision=0.978, Recall=0.978, F1=0.978
+- CARACTERISTICA_SENSORIAL_SABOR: Precision=1.000, Recall=0.787, F1=0.881
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: Precision=0.833, Recall=0.800, F1=0.816
+- NOME_PESSOA: Precision=0.981, Recall=0.945, F1=0.963
+- NOME_LOCAL: Precision=0.983, Recall=0.974, F1=0.979
+- NOME_ORGANIZACAO: Precision=0.879, Recall=0.941, F1=0.909
+- TEMPO: Precision=1.000, Recall=1.000, F1=1.000
+- PRECO: Precision=0.946, Recall=1.000, F1=0.972
+- VOLUME: Precision=0.996, Recall=0.972, F1=0.984
+- CLASSIFICACAO_BEBIDA: Precision=0.883, Recall=0.958, F1=0.919
+
+Macro Avg: Precision=0.959, Recall=0.949, F1=0.953
+Micro Avg: Precision=0.966, Recall=0.961, F1=0.964
+==================================================
+
+====== FOLD 3 ======
+- NOME_BEBIDA: Precision=0.973, Recall=0.973, F1=0.973
+- GRADUACAO_ALCOOLICA: Precision=0.979, Recall=0.960, F1=0.969
+- EQUIPAMENTO_DESTILACAO: Precision=0.917, Recall=0.917, F1=0.917
+- TEMPO_ARMAZENAMENTO: Precision=0.991, Recall=0.964, F1=0.977
+- RECIPIENTE_ARMAZENAMENTO: Precision=1.000, Recall=0.926, F1=0.962
+- TIPO_MADEIRA: Precision=0.989, Recall=0.973, F1=0.981
+- CARACTERISTICA_SENSORIAL_COR: Precision=0.921, Recall=1.000, F1=0.959
+- CARACTERISTICA_SENSORIAL_AROMA: Precision=0.927, Recall=0.905, F1=0.916
+- CARACTERISTICA_SENSORIAL_SABOR: Precision=0.852, Recall=0.920, F1=0.885
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: Precision=0.864, Recall=0.864, F1=0.864
+- NOME_PESSOA: Precision=0.984, Recall=0.984, F1=0.984
+- NOME_LOCAL: Precision=0.987, Recall=0.966, F1=0.977
+- NOME_ORGANIZACAO: Precision=0.932, Recall=0.885, F1=0.908
+- TEMPO: Precision=0.991, Recall=0.982, F1=0.987
+- PRECO: Precision=0.956, Recall=1.000, F1=0.978
+- VOLUME: Precision=0.996, Recall=0.976, F1=0.986
+- CLASSIFICACAO_BEBIDA: Precision=0.933, Recall=0.933, F1=0.933
+
+Macro Avg: Precision=0.952, Recall=0.949, F1=0.950
+Micro Avg: Precision=0.971, Recall=0.961, F1=0.966
+==================================================
+
+====== FOLD 4 ======
+- NOME_BEBIDA: Precision=0.976, Recall=0.970, F1=0.973
+- GRADUACAO_ALCOOLICA: Precision=0.992, Recall=0.968, F1=0.980
+- EQUIPAMENTO_DESTILACAO: Precision=0.871, Recall=0.931, F1=0.900
+- TEMPO_ARMAZENAMENTO: Precision=0.982, Recall=0.982, F1=0.982
+- RECIPIENTE_ARMAZENAMENTO: Precision=1.000, Recall=0.966, F1=0.983
+- TIPO_MADEIRA: Precision=0.990, Recall=0.981, F1=0.985
+- CARACTERISTICA_SENSORIAL_COR: Precision=0.933, Recall=0.955, F1=0.944
+- CARACTERISTICA_SENSORIAL_AROMA: Precision=0.940, Recall=0.870, F1=0.904
+- CARACTERISTICA_SENSORIAL_SABOR: Precision=0.927, Recall=0.864, F1=0.895
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: Precision=0.933, Recall=0.875, F1=0.903
+- NOME_PESSOA: Precision=0.969, Recall=0.984, F1=0.977
+- NOME_LOCAL: Precision=0.991, Recall=0.986, F1=0.989
+- NOME_ORGANIZACAO: Precision=0.910, Recall=0.910, F1=0.910
+- TEMPO: Precision=0.973, Recall=0.991, F1=0.982
+- PRECO: Precision=0.946, Recall=1.000, F1=0.972
+- VOLUME: Precision=0.992, Recall=0.972, F1=0.982
+- CLASSIFICACAO_BEBIDA: Precision=0.930, Recall=0.870, F1=0.899
+
+Macro Avg: Precision=0.956, Recall=0.946, F1=0.951
+Micro Avg: Precision=0.971, Recall=0.959, F1=0.965
+==================================================
+
+====== FOLD 5 ======
+- NOME_BEBIDA: Precision=0.978, Recall=0.981, F1=0.979
+- GRADUACAO_ALCOOLICA: Precision=1.000, Recall=0.981, F1=0.991
+- EQUIPAMENTO_DESTILACAO: Precision=0.879, Recall=0.853, F1=0.866
+- TEMPO_ARMAZENAMENTO: Precision=1.000, Recall=0.975, F1=0.988
+- RECIPIENTE_ARMAZENAMENTO: Precision=1.000, Recall=0.929, F1=0.963
+- TIPO_MADEIRA: Precision=0.952, Recall=0.975, F1=0.964
+- CARACTERISTICA_SENSORIAL_COR: Precision=0.939, Recall=0.920, F1=0.929
+- CARACTERISTICA_SENSORIAL_AROMA: Precision=0.822, Recall=0.881, F1=0.851
+- CARACTERISTICA_SENSORIAL_SABOR: Precision=0.778, Recall=0.724, F1=0.750
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: Precision=0.944, Recall=0.810, F1=0.872
+- NOME_PESSOA: Precision=0.977, Recall=0.956, F1=0.966
+- NOME_LOCAL: Precision=0.996, Recall=0.976, F1=0.986
+- NOME_ORGANIZACAO: Precision=0.851, Recall=0.887, F1=0.869
+- TEMPO: Precision=0.992, Recall=0.959, F1=0.975
+- PRECO: Precision=0.938, Recall=1.000, F1=0.968
+- VOLUME: Precision=0.996, Recall=0.964, F1=0.979
+- CLASSIFICACAO_BEBIDA: Precision=0.904, Recall=0.912, F1=0.908
+
+Macro Avg: Precision=0.938, Recall=0.923, F1=0.930
+Micro Avg: Precision=0.961, Recall=0.951, F1=0.956
+==================================================
+
+====== FOLD 6 ======
+- NOME_BEBIDA: Precision=0.970, Recall=0.970, F1=0.970
+- GRADUACAO_ALCOOLICA: Precision=1.000, Recall=0.975, F1=0.988
+- EQUIPAMENTO_DESTILACAO: Precision=0.971, Recall=0.919, F1=0.944
+- TEMPO_ARMAZENAMENTO: Precision=0.981, Recall=0.981, F1=0.981
+- RECIPIENTE_ARMAZENAMENTO: Precision=0.970, Recall=0.932, F1=0.950
+- TIPO_MADEIRA: Precision=0.979, Recall=0.979, F1=0.979
+- CARACTERISTICA_SENSORIAL_COR: Precision=0.818, Recall=1.000, F1=0.900
+- CARACTERISTICA_SENSORIAL_AROMA: Precision=0.960, Recall=0.889, F1=0.923
+- CARACTERISTICA_SENSORIAL_SABOR: Precision=0.859, Recall=0.847, F1=0.853
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: Precision=0.800, Recall=0.923, F1=0.857
+- NOME_PESSOA: Precision=0.946, Recall=0.930, F1=0.938
+- NOME_LOCAL: Precision=0.960, Recall=0.943, F1=0.951
+- NOME_ORGANIZACAO: Precision=0.864, Recall=0.817, F1=0.840
+- TEMPO: Precision=1.000, Recall=0.943, F1=0.971
+- PRECO: Precision=0.947, Recall=1.000, F1=0.973
+- VOLUME: Precision=0.984, Recall=0.972, F1=0.978
+- CLASSIFICACAO_BEBIDA: Precision=0.852, Recall=0.874, F1=0.863
+
+Macro Avg: Precision=0.933, Recall=0.935, F1=0.933
+Micro Avg: Precision=0.951, Recall=0.945, F1=0.948
+==================================================
+
+====== FOLD 7 ======
+- NOME_BEBIDA: Precision=0.969, Recall=0.955, F1=0.962
+- GRADUACAO_ALCOOLICA: Precision=0.983, Recall=0.975, F1=0.979
+- EQUIPAMENTO_DESTILACAO: Precision=0.720, Recall=0.692, F1=0.706
+- TEMPO_ARMAZENAMENTO: Precision=0.992, Recall=0.984, F1=0.988
+- RECIPIENTE_ARMAZENAMENTO: Precision=0.989, Recall=0.979, F1=0.984
+- TIPO_MADEIRA: Precision=0.975, Recall=1.000, F1=0.987
+- CARACTERISTICA_SENSORIAL_COR: Precision=0.875, Recall=0.946, F1=0.909
+- CARACTERISTICA_SENSORIAL_AROMA: Precision=0.921, Recall=0.875, F1=0.897
+- CARACTERISTICA_SENSORIAL_SABOR: Precision=0.930, Recall=0.930, F1=0.930
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: Precision=0.950, Recall=0.905, F1=0.927
+- NOME_PESSOA: Precision=0.977, Recall=0.977, F1=0.977
+- NOME_LOCAL: Precision=0.995, Recall=0.956, F1=0.975
+- NOME_ORGANIZACAO: Precision=0.959, Recall=0.843, F1=0.897
+- TEMPO: Precision=0.989, Recall=0.989, F1=0.989
+- PRECO: Precision=0.937, Recall=1.000, F1=0.967
+- VOLUME: Precision=0.981, Recall=0.977, F1=0.979
+- CLASSIFICACAO_BEBIDA: Precision=0.906, Recall=0.920, F1=0.913
+
+Macro Avg: Precision=0.944, Recall=0.935, F1=0.939
+Micro Avg: Precision=0.965, Recall=0.957, F1=0.961
+==================================================
+
+====== FOLD 8 ======
+- NOME_BEBIDA: Precision=0.979, Recall=0.989, F1=0.984
+- GRADUACAO_ALCOOLICA: Precision=0.968, Recall=1.000, F1=0.984
+- EQUIPAMENTO_DESTILACAO: Precision=0.826, Recall=0.826, F1=0.826
+- TEMPO_ARMAZENAMENTO: Precision=0.976, Recall=0.992, F1=0.984
+- RECIPIENTE_ARMAZENAMENTO: Precision=0.978, Recall=0.967, F1=0.972
+- TIPO_MADEIRA: Precision=0.935, Recall=0.990, F1=0.962
+- CARACTERISTICA_SENSORIAL_COR: Precision=0.921, Recall=0.921, F1=0.921
+- CARACTERISTICA_SENSORIAL_AROMA: Precision=0.810, Recall=0.850, F1=0.829
+- CARACTERISTICA_SENSORIAL_SABOR: Precision=0.800, Recall=0.846, F1=0.822
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: Precision=0.931, Recall=0.900, F1=0.915
+- NOME_PESSOA: Precision=0.907, Recall=0.942, F1=0.925
+- NOME_LOCAL: Precision=0.996, Recall=0.970, F1=0.982
+- NOME_ORGANIZACAO: Precision=0.948, Recall=0.929, F1=0.938
+- TEMPO: Precision=1.000, Recall=0.983, F1=0.991
+- PRECO: Precision=0.946, Recall=1.000, F1=0.972
+- VOLUME: Precision=0.992, Recall=0.972, F1=0.982
+- CLASSIFICACAO_BEBIDA: Precision=0.893, Recall=0.893, F1=0.893
+
+Macro Avg: Precision=0.930, Recall=0.939, F1=0.934
+Micro Avg: Precision=0.955, Recall=0.962, F1=0.958
+==================================================
+
+====== FOLD 9 ======
+- NOME_BEBIDA: Precision=0.981, Recall=0.962, F1=0.971
+- GRADUACAO_ALCOOLICA: Precision=1.000, Recall=0.983, F1=0.991
+- EQUIPAMENTO_DESTILACAO: Precision=0.903, Recall=0.800, F1=0.848
+- TEMPO_ARMAZENAMENTO: Precision=0.967, Recall=1.000, F1=0.983
+- RECIPIENTE_ARMAZENAMENTO: Precision=0.959, Recall=0.979, F1=0.969
+- TIPO_MADEIRA: Precision=0.957, Recall=0.985, F1=0.971
+- CARACTERISTICA_SENSORIAL_COR: Precision=0.921, Recall=0.972, F1=0.946
+- CARACTERISTICA_SENSORIAL_AROMA: Precision=0.783, Recall=0.857, F1=0.818
+- CARACTERISTICA_SENSORIAL_SABOR: Precision=0.863, Recall=0.815, F1=0.838
+- CARACTERISTICA_SENSORIAL_CONSISTÊNCIA: Precision=0.857, Recall=0.900, F1=0.878
+- NOME_PESSOA: Precision=0.962, Recall=0.962, F1=0.962
+- NOME_LOCAL: Precision=0.988, Recall=0.996, F1=0.992
+- NOME_ORGANIZACAO: Precision=0.944, Recall=0.918, F1=0.931
+- TEMPO: Precision=1.000, Recall=0.986, F1=0.993
+- PRECO: Precision=0.948, Recall=1.000, F1=0.974
+- VOLUME: Precision=1.000, Recall=0.960, F1=0.979
+- CLASSIFICACAO_BEBIDA: Precision=0.955, Recall=0.877, F1=0.915
+
+Macro Avg: Precision=0.940, Recall=0.938, F1=0.939
+Micro Avg: Precision=0.966, Recall=0.959, F1=0.962
+==================================================
