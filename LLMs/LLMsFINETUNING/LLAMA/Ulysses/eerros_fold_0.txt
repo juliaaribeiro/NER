@@ -1,28 +1,5 @@
 --------------------------------------------------------------------------------
 Texto:
-Por um lado , o governo federal pretende melhorar o atendimento às populações carentes dos Municípios por meio de transferências realizada pelo Programa Saúde da Família .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "ORGgovernamental",
-    "text": "governo federal"
-  },
-  {
-    "label": "PRODUTOprograma",
-    "text": "Programa Saúde da Família"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PRODUTOprograma"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
 Por outro , entretanto , a Lei de Responsabilidade Fiscal estabelece como limite máximo das despesas de pessoal o percentual de sessenta por cento das receitas correntes líquidas . 2 Câmara dos Deputados As duas coisas não podem ser feitas simultaneamente , senhor Presidente , senhoras e senhores Deputados .
 
 Entidades verdadeiras:
@@ -48,42 +25,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "ORGgovernamental"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Tendo em vista que os recursos do Programa Saúde da Família devem ser utilizados integralmente com o pagamento de salários dos profissionais de saúde integrantes do Programa , se o Município aceitar a transferência e realizar os gastos correspondentes , correrá o risco de sofrer as rigorosas sanções impostas pela LRF .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PRODUTOprograma",
-    "text": "Programa Saúde da Família"
-  },
-  {
-    "label": "FUNDapelido",
-    "text": "LRF"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PRODUTOprograma"
-  },
-  {
-    "label": "PRODUTOprograma"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOprograma"
-  },
-  {
+    "text": "Lei de Responsabilidade Fiscal",
     "label": "FUNDapelido"
+  },
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Deputados",
+    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -122,72 +73,68 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Tribunal de Contas do Estado de Minas Gerais",
     "label": "ORGgovernamental"
   },
   {
+    "text": "art . 18 da Lei de Responsabilidade Fiscal",
     "label": "FUNDlei"
   },
   {
-    "label": "FUNDlei"
-  },
-  {
+    "text": "Câmara dos Deputados",
     "label": "ORGgovernamental"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-Sobre a renda mensal do benefício de aposentadoria de valor mínimo incidirá acréscimo de setenta por cento , a partir da competência em que o segurado completar idade igual ou superior à expectativa de sobrevida no nascimento , obtida a partir da publicação mais recente da tábua completa de mortalidade construída pela Fundação Instituto Brasileiro de Geografia e Estatística – IBGE , considerando-se a média nacional única para ambos os sexos .
+Washington Reis ) Acrescenta art . 40 - A à Lei n o 8.213 , de 24 de julho de 1991 , e § 9 o ao art . 20 da Lei n ° 8.742 , de 7 de dezembro de 1993 , para dispor sobre acréscimo por idade na renda mensal do benefício de aposentadoria de valor mínimo do Regime Geral de Previdência Social e do benefício de prestação continuada da Assistência Social .
 
 Entidades verdadeiras:
 [
   {
-    "label": "ORGgovernamental",
-    "text": "Fundação Instituto Brasileiro de Geografia e Estatística – IBGE"
+    "label": "PESSOAindividual",
+    "text": "Washington Reis"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "art . 40 - A à Lei n o 8.213 , de 24 de julho de 1991"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "§ 9 o ao art . 20 da Lei n ° 8.742 , de 7 de dezembro de 1993"
+  },
+  {
+    "label": "PRODUTOoutros",
+    "text": "Regime Geral de Previdência Social"
+  },
+  {
+    "label": "PRODUTOoutros",
+    "text": "Assistência Social"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
+    "text": "Washington Reis",
+    "label": "PESSOAindividual"
   },
   {
-    "label": "PRODUTOoutros"
+    "text": "art . 40 - A à Lei n o 8.213 , de 24 de julho de 1991",
+    "label": "FUNDlei"
   },
   {
-    "label": "ORGgovernamental"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-O acréscimo de que trata o caput deste artigo : I – deverá ser recalculado sempre que houver reajuste do benefício ; II – somente poderá ser incorporado ao valor do benefício de pensão por morte a partir da competência em que o dependente completar idade igual ou superior à expectativa de sobrevida no nascimento , obtida a partir 2 da publicação mais recente da tábua completa de mortalidade construída pela Fundação Instituto Brasileiro de Geografia e Estatística – IBGE , considerando-se a média nacional única para ambos os sexos . ”
-
-Entidades verdadeiras:
-[
-  {
-    "label": "ORGgovernamental",
-    "text": "Fundação Instituto Brasileiro de Geografia e Estatística – IBGE"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PRODUTOoutros"
+    "text": "§ 9 o ao art . 20 da Lei n ° 8.742 , de 7 de dezembro de 1993",
+    "label": "FUNDlei"
   },
   {
-    "label": "PESSOAcargo"
+    "text": "Regime Geral de Previdência Social",
+    "label": "PRODUTOprograma"
   },
   {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "LOCALconcreto"
+    "text": "Assistência Social",
+    "label": "PRODUTOprograma"
   }
 ]
 
@@ -210,13 +157,40 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "art . 20 da Lei n o 8.742 , de 7 de dezembro de 1993",
     "label": "FUNDlei"
   },
   {
+    "text": "renda mensal do benefício de prestação continuada",
     "label": "PRODUTOoutros"
   },
   {
+    "text": "Fundação Instituto Brasileiro de Geografia e Estatística – IBGE",
     "label": "ORGgovernamental"
+  },
+  {
+    "text": "médias nacionais",
+    "label": "PRODUTOoutros"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Esse quadro é ainda mais grave no caso de hipossuficiência material dos idosos que recebem o benefício de prestação continuada da Assistência Social , atualmente limitado a um salário mínimo mensal .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PRODUTOoutros",
+    "text": "Assistência Social"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Assistência Social",
+    "label": "PRODUTOprograma"
   }
 ]
 
@@ -243,9 +217,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2018",
     "label": "DATA"
   },
   {
+    "text": "LUIS TIBÉ",
     "label": "PESSOAindividual"
   }
 ]
@@ -285,22 +261,20 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "LOCALconcreto"
-  },
-  {
+    "text": "2014",
     "label": "DATA"
   },
   {
+    "text": "Assembleia Legislativa",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Giovanni Coelho",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Alessandra Farmacêutica",
     "label": "PESSOAindividual"
-  },
-  {
-    "label": "ORGpartido"
   }
 ]
 
@@ -347,24 +321,35 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2014",
     "label": "DATA"
   },
   {
+    "text": "Câmara Legislativa",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Roberto Lucena",
     "label": "PESSOAindividual"
   },
   {
-    "label": "PESSOAindividual"
-  },
-  {
+    "text": "PMDB",
     "label": "ORGpartido"
   },
   {
+    "text": "Goudim",
     "label": "PESSOAindividual"
   },
   {
+    "text": "PPL",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "Luzia de Paula",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PEN",
     "label": "ORGpartido"
   }
 ]
@@ -408,24 +393,31 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Assembleia Legislativa do Amapá",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Edna Auzier",
     "label": "PESSOAindividual"
   },
   {
+    "text": "PROS",
     "label": "ORGpartido"
   },
   {
+    "text": "Maria Góes",
     "label": "PESSOAindividual"
   },
   {
+    "text": "PDT",
     "label": "ORGpartido"
   },
   {
+    "text": "Professor Paulo Lemos",
     "label": "PESSOAindividual"
   },
   {
+    "text": "PSOL",
     "label": "ORGpartido"
   }
 ]
@@ -453,6 +445,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Brasil",
     "label": "LOCALconcreto"
   }
 ]
@@ -476,35 +469,44 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "deputadas",
     "label": "PESSOAgrupocargo"
   },
   {
+    "text": "vereadoras",
     "label": "PESSOAgrupocargo"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-Além de estabelecer , no art . 8º-A , que alíquota mínima do ISSQN é de 2% , a Lei Complementar veda a concessão de isenções , incentivos ou benefícios tributários ou financeiros , inclusive de redução de base de cálculo ou de crédito presumido ou outorgado , ou sob qualquer outra forma que resulte , direta ou indiretamente , em carga tributária menor a que decorreria da aplicação dessa alíquota .
+( NR ) CÂMARA DOS DEPUTADOS Deputado Laudívio Carvalho JUSTIFICAÇÃO Os crimes hediondos representam as ofensas mais nefastas que podem ser praticadas contra os indivíduos .
 
 Entidades verdadeiras:
 [
   {
-    "label": "PRODUTOoutros",
-    "text": "ISSQN"
+    "label": "ORGgovernamental",
+    "text": "CÂMARA DOS DEPUTADOS"
+  },
+  {
+    "label": "PESSOAcargo",
+    "text": "Deputado"
+  },
+  {
+    "label": "PESSOAindividual",
+    "text": "Laudívio Carvalho"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "FUNDlei"
+    "text": "Deputado",
+    "label": "PESSOAcargo"
   },
   {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "FUNDapelido"
+    "text": "Laudívio Carvalho",
+    "label": "PESSOAindividual"
   }
 ]
 
@@ -551,25 +553,56 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "ORGgovernamental"
-  },
-  {
+    "text": "Deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "Laudívio Carvalho",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Supremo Tribunal Federal",
     "label": "ORGgovernamental"
   },
   {
-    "label": "FUNDlei"
-  },
-  {
+    "text": "Gilmar Ferreira",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Paulo Gustavo",
     "label": "PESSOAindividual"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+São Paulo : Saraiva , 2012 , p . 571 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCALconcreto",
+    "text": "São Paulo"
+  },
+  {
+    "label": "ORGnaogovernamental",
+    "text": "Saraiva"
+  },
+  {
+    "label": "DATA",
+    "text": "2012"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "2012",
+    "label": "DATA"
   }
 ]
 
@@ -592,35 +625,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Ministério da Saúde",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Instituto Butantan",
     "label": "ORGnaogovernamental"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-A pesquisa do Instituto levou em conta 10 dos defensivos mais utilizados no Brasil , incluindo o glifosato , um dos mais utilizados na agricultura .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "LOCALconcreto",
-    "text": "Brasil"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "ORGnaogovernamental"
-  },
-  {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "PRODUTOoutros"
   }
 ]
 
@@ -655,22 +665,52 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2018",
     "label": "DATA"
   },
   {
+    "text": "Relatório Nacional de Vigilância em Saúde de Populações Expostas a Agrotóxicos , da Agência Nacional de Vigilância Sanitária – ANVISA",
     "label": "PRODUTOoutros"
   },
   {
-    "label": "ORGgovernamental"
-  },
-  {
+    "text": "Brasil",
     "label": "LOCALconcreto"
   },
   {
+    "text": "2007",
     "label": "DATA"
   },
   {
+    "text": "2015",
     "label": "DATA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 7 2 2 / 2 0 1 9 A p re s e n ta ç ã o : 2 7 / 0 8 / 2 0 1 9 1 8 : 5 2 A repercussão internacional em razão da quantidade de agrotóxicos utilizados em solo brasileiro , bem como o alto número de liberações em um curto período de tempo , prejudica cada vez mais a imagem , o comércio e a credibilidade do Brasil , que precisa ser visto como um país sério e cuja agricultura , de alta qualidade e de potencial produtivo , é capaz de se manter como o responsável por mais de 5% da produção global de alimentos , e o terceiro maior exportador agrícola do mundo .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCALconcreto",
+    "text": "Brasil"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "agricultura",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "agricultura",
+    "label": "PRODUTOoutros"
   }
 ]
 
@@ -751,6 +791,58 @@ Entidades previstas:
 
 --------------------------------------------------------------------------------
 Texto:
+Art .9 ° . … … … … … . … … … … . … … . … … . … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … III - elaborar , em colaboração com os demais órgãos públicos federais , estaduais , municipais , ou com consórcios públicos que atuem na área , os planos anuais e plurianuais de desenvolvimento sustentável dos vales dos rios São Francisco , Parnaíba , Paraguaçu , Itapecuru e Mearim , indicando desde logo os programas e projetos prioritários , com relação às atividades previstas nesta Lei . "
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCALconcreto",
+    "text": "vales dos rios São Francisco"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "Parnaíba"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "Paraguaçu"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "Itapecuru"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "Mearim"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "planos anuais e plurianuais de desenvolvimento sustentável dos vales dos rios São Francisco",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Parnaíba",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Paraguaçu",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Itapecuru",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Mearim",
+    "label": "LOCALconcreto"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
 O Poder Executivo adotará as providências necessárias à adaptação do Estatuto da Codevasf às alterações decorrentes desta Lei .
 
 Entidades verdadeiras:
@@ -768,9 +860,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Poder Executivo",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Estatuto da Codevasf",
     "label": "FUNDapelido"
   }
 ]
@@ -790,7 +884,32 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Morro do Chapéu",
     "label": "LOCALconcreto"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Também acrescentamos a possibilidade de colaboração de consórcios públicos na elaboração dos planos anuais e plurianuais de desenvolvimento das regiões atendidas pela Codevasf .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGgovernamental",
+    "text": "Codevasf"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "consórcios públicos",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Codevasf",
+    "label": "ORGgovernamental"
   }
 ]
 
@@ -813,6 +932,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "art . 1º da Lei nº 9.492 , de 10 de setembro de 1997",
     "label": "FUNDlei"
   }
 ]
@@ -840,13 +960,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Fazenda Pública",
     "label": "ORGgovernamental"
   },
   {
-    "label": "PRODUTOoutros"
+    "text": "SPF",
+    "label": "LOCALvirtual"
   },
   {
-    "label": "ORGnaogovernamental"
+    "text": "SERASA",
+    "label": "LOCALvirtual"
   }
 ]
 
@@ -873,9 +996,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Lei de Protesto de Títulos",
     "label": "FUNDapelido"
   },
   {
+    "text": "Lei nº 9.492 , de 1997",
     "label": "FUNDlei"
   }
 ]
@@ -903,15 +1028,43 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2013",
     "label": "DATA"
   },
   {
+    "text": "Dr.",
     "label": "PESSOAcargo"
   },
   {
+    "text": "Jorge Silva",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Lei n ° 6.001 , de 19 de dezembro de 1973",
+    "label": "FUNDlei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta Lei regula a indenização de benfeitorias a agricultores ocupantes de boa-fé em terras indígenas , nos termos estabelecidos pelo § 6º do art . 231 da Constituição Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOAgrupocargo",
+    "text": "agricultores"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "§ 6º do art . 231 da Constituição Federal"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "§ 6º do art . 231 da Constituição Federal",
     "label": "FUNDlei"
   }
 ]
@@ -935,12 +1088,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "ORGgovernamental"
+    "text": "Orçamento Geral da União",
+    "label": "PRODUTOoutros"
   },
   {
-    "label": "FUNDapelido"
-  },
-  {
+    "text": "2012",
     "label": "DATA"
   }
 ]
@@ -964,12 +1116,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Lei nº 8.742 , de 7 de dezembro de 1993",
     "label": "FUNDlei"
   },
   {
+    "text": "Lei Orgânica da Assistência Social",
     "label": "FUNDapelido"
   },
   {
+    "text": "salário mínimo",
     "label": "PRODUTOoutros"
   }
 ]
@@ -993,7 +1148,8 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PESSOAcargo"
+    "text": "médicos",
+    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -1020,29 +1176,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2019",
     "label": "DATA"
   },
   {
+    "text": "FELIPE CARRERAS",
     "label": "PESSOAindividual"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Art . 3º A criação de AEIT se dará por decreto , que delimitará sua área , à vista de proposta dos estados ou municípios , em conjunto ou isoladamente .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PRODUTOoutros",
-    "text": "AEIT"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "LOCALconcreto"
   }
 ]
 
@@ -1061,6 +1200,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "AEIT",
     "label": "LOCALconcreto"
   }
 ]
@@ -1100,6 +1240,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Poder Público",
     "label": "ORGgovernamental"
   }
 ]
@@ -1123,7 +1264,32 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Poder Público",
     "label": "ORGgovernamental"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+CAROLINE DE TONI ) Altera o Código Penal para aumentar as penas dos crimes de homicídio simples e homicídio qualificado .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOAindividual",
+    "text": "CAROLINE DE TONI"
+  },
+  {
+    "label": "FUNDapelido",
+    "text": "Código Penal"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CAROLINE DE TONI",
+    "label": "PESSOAindividual"
   }
 ]
 
@@ -1146,7 +1312,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "artigos 121 , caput , e 121 , § 2º , do Código Penal",
     "label": "FUNDlei"
+  },
+  {
+    "text": "Código Penal",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "1940",
+    "label": "DATA"
   }
 ]
 
@@ -1177,32 +1352,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "art . 60 da Constituição Federal",
     "label": "FUNDlei"
   },
   {
+    "text": "art . 243 da Constituição Federal",
     "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDlei"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Uma verdadeira afronta ao Estado Democrático de Direito , à preservação ambiental e à imagem do Brasil 3 no exterior .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "LOCALconcreto",
-    "text": "Brasil"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PRODUTOoutros"
   }
 ]
 
@@ -1221,10 +1376,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "George Hilton",
     "label": "PESSOAindividual"
   },
   {
-    "label": "ORGnaogovernamental"
+    "text": "Salvinorina",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Salvia divinorum",
+    "label": "PRODUTOoutros"
   }
 ]
 
@@ -1255,26 +1416,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Portaria nº 344 , da Secretaria de Vigilância em saúde , do Ministério da Saúde",
     "label": "FUNDlei"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Dessa forma , solicito o apoio dos meus pares nesta Casa Legislativa no sentido do acolhimento do presente Projeto de Lei .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "ORGgovernamental",
-    "text": "Casa Legislativa"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -1305,29 +1452,24 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Administração Pública Federal",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Poderes Executivo",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Legislativo",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Judiciário",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Internet",
     "label": "LOCALvirtual"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Certos de que com a presente iniciativa contribuímos para uma solução simples , mas muito eficaz da melhor aplicação dos recursos públicos , encarecemos a todos o necessário apoio para a célere tramitação e aprovação do Projeto de Lei que ora submetemos a esta Casa Legislativa .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "ORGgovernamental",
-    "text": "Casa Legislativa"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PRODUTOoutros"
   }
 ]
 

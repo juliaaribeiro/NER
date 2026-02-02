@@ -1,28 +1,5 @@
 --------------------------------------------------------------------------------
 Texto:
-CÂMARA DOS DEPUTADOS PROJETO DE LEI Nº , DE 2019 .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "ORGgovernamental",
-    "text": "CÂMARA DOS DEPUTADOS"
-  },
-  {
-    "label": "DATA",
-    "text": "2019"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "DATA"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
 JUSTIFICAÇÃO A aprovação da Medida Provisória nº . 795 / 2017 , que concede incentivos fiscais às empresas petrolíferas que exploram camadas do pré-sal e pós-sal no território brasileiro importa em renúncia fiscal excessiva , inclusive apelidada pela grande imprensa de “ MP do Trilhão ” .
 
 Entidades verdadeiras:
@@ -40,36 +17,56 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "FUNDlei"
+    "text": "Medida Provisória nº . 795 / 2017",
+    "label": "FUNDprojetodelei"
   },
   {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "FUNDapelido"
+    "text": "MP do Trilhão",
+    "label": "PRODUTOoutros"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-IX - ao custeio das despesas relativas ao cumprimento das atribuições e às ações do Conselho de Controle de Atividades Financeiras - COAF , no combate aos crimes de " lavagem " ou ocultação de bens , direitos e valores , previstos na Lei no 9.613 , de 1998 , até o limite da disponibilidade da receita decorrente do inciso VI do art . 2º ; X - às entidades governamentais e não governamentais integrantes do Sistema Nacional de Atendimento Socioeducativo ( Sinase ) ; e , XI – às Comunidades Terapêuticas registradas junto a Senad
+A Medida Provisória nº . 795 / 2017 foi transformada na Lei nº . 13.586 / 2017 concedendo tratamento tributário diferenciado às empresas que empreendem atividades de exploração e desenvolvimento no campo do petróleo , do gás natural e de outros hidrocarbonetos fluidos no território brasileiro e altera diversos diplomas legais que dispunham sobre o tratamento tributário dispensado à atividade econômica referenciada .
 
 Entidades verdadeiras:
 [
   {
-    "label": "ORGgovernamental",
-    "text": "Conselho de Controle de Atividades Financeiras - COAF"
+    "label": "FUNDlei",
+    "text": "Medida Provisória nº . 795 / 2017"
   },
   {
     "label": "FUNDlei",
-    "text": "Lei no 9.613 , de 1998"
+    "text": "Lei nº . 13.586 / 2017"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Medida Provisória nº . 795 / 2017",
+    "label": "FUNDprojetodelei"
   },
   {
-    "label": "PRODUTOsistema",
-    "text": "Sistema Nacional de Atendimento Socioeducativo ( Sinase )"
+    "text": "Lei nº . 13.586 / 2017",
+    "label": "FUNDprojetodelei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+ENÉIAS REIS ) Estabelece o repasse de recursos do Fundo de Prevenção , Recuperação e de Combate às Drogas de Abuso ( Funcab ) para as Comunidades Terapêuticas registradas junto à Secretaria Nacional de Políticas sobre Drogas ( Senad ) .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOAindividual",
+    "text": "ENÉIAS REIS"
+  },
+  {
+    "label": "PRODUTOoutros",
+    "text": "Fundo de Prevenção , Recuperação e de Combate às Drogas de Abuso ( Funcab )"
   },
   {
     "label": "ORGnaogovernamental",
@@ -77,22 +74,22 @@ Entidades verdadeiras:
   },
   {
     "label": "ORGgovernamental",
-    "text": "Senad"
+    "text": "Secretaria Nacional de Políticas sobre Drogas ( Senad )"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "ORGgovernamental"
+    "text": "ENÉIAS REIS",
+    "label": "PESSOAindividual"
   },
   {
-    "label": "FUNDlei"
+    "text": "Fundo de Prevenção , Recuperação e de Combate às Drogas de Abuso ( Funcab )",
+    "label": "PRODUTOoutros"
   },
   {
-    "label": "PRODUTOsistema"
-  },
-  {
+    "text": "Secretaria Nacional de Políticas sobre Drogas ( Senad )",
     "label": "ORGgovernamental"
   }
 ]
@@ -116,12 +113,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Polícia Federal",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Polícias",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Distrito Federal",
     "label": "LOCALconcreto"
   }
 ]
@@ -145,9 +145,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "ORGgovernamental"
+    "text": "Comunidades Terapêuticas",
+    "label": "PRODUTOoutros"
   },
   {
+    "text": "Conad",
     "label": "ORGgovernamental"
   }
 ]
@@ -173,7 +175,56 @@ Entidades verdadeiras:
 ]
 
 Entidades previstas:
-[]
+[
+  {
+    "text": "Diretoria Colegiada",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Agência Nacional de Vigilância Sanitária",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Ministério da Saúde",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "RDC 29 / ANVISA",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Conselho Nacional de Políticas sobre Drogas",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Conselho Nacional de Políticas sobre Drogas / CONAD",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Sistema Nacional de Políticas Públicas sobre Drogas ( SISNAD )",
+    "label": "PRODUTOsistema"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Mesmo contando com as imunidades tributárias de impostos e de contribuições para a seguridade social , as Comunidades Terapêuticas passam por dificuldades financeiras para conseguirem realizar sua missão , porquanto seus serviços são ofertados gratuitamente .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGnaogovernamental",
+    "text": "Comunidades Terapêuticas"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "contribuições para a seguridade social",
+    "label": "PRODUTOoutros"
+  }
+]
 
 --------------------------------------------------------------------------------
 Texto:
@@ -194,28 +245,10 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Brasil",
     "label": "LOCALconcreto"
   }
 ]
-
---------------------------------------------------------------------------------
-Texto:
-Contudo , somente 300 delas mantêm parcerias com o Governo Federal , no âmbito do programa " Crack : é possível vencer " .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "ORGgovernamental",
-    "text": "Governo Federal"
-  },
-  {
-    "label": "PRODUTOprograma",
-    "text": "Crack : é possível vencer"
-  }
-]
-
-Entidades previstas:
-[]
 
 --------------------------------------------------------------------------------
 Texto:
@@ -236,13 +269,8 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Senad - Secretaria Nacional de Drogas",
     "label": "ORGgovernamental"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "PRODUTOoutros"
   }
 ]
 
@@ -269,9 +297,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Fundo de Prevenção , Recuperação e de Combate às Drogas de Abuso - Funcab",
     "label": "PRODUTOoutros"
   },
   {
+    "text": "Senad",
     "label": "ORGgovernamental"
   }
 ]
@@ -291,15 +321,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Funcab",
     "label": "PRODUTOoutros"
   },
   {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "LOCALvirtual"
-  },
-  {
+    "text": "Câmara dos Deputados",
     "label": "ORGgovernamental"
   }
 ]
@@ -323,26 +349,8 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Certo de que os ilustres Pares bem poderão compreender a importância da norma ora projetada , aguardo confiante a aprovação da matéria , que cria mais um importante instrumento na luta contra a corrupção , o desvio de dinheiro público e o chamado “ caixa 2 ” nas eleições .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "EVENTO",
-    "text": "eleições"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PESSOAgrupocargo"
+    "text": "Funcab",
+    "label": "PRODUTOprograma"
   }
 ]
 
@@ -361,9 +369,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "LOCALconcreto"
-  },
-  {
+    "text": "2008",
     "label": "DATA"
   }
 ]
@@ -391,9 +397,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "ORGnaogovernamental"
+    "text": "Conselho Nacional de Imigração",
+    "label": "ORGgovernamental"
   },
   {
+    "text": "2007",
     "label": "DATA"
   }
 ]
@@ -417,13 +425,64 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "IRAJÁ ABREU",
     "label": "PESSOAindividual"
   },
   {
+    "text": "2014",
     "label": "DATA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS PROJETO DE LEI Nº , DE 2011 ( Do Sr. Alfredo Kaefer ) Modifica o inciso VII do art . 12 da Lei nº 9.250 , de 26 de dezembro de 1995 , que " altera a legislação do imposto de renda das pessoas físicas e dá outras providências " , para prorrogar a dedução da contribuição patronal do imposto de renda apurado na declaração de ajuste anual .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "DATA",
+    "text": "2011"
+  },
+  {
+    "label": "PESSOAindividual",
+    "text": "Alfredo Kaefer"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "inciso VII do art . 12 da Lei nº 9.250 , de 26 de dezembro de 1995"
+  },
+  {
+    "label": "PRODUTOoutros",
+    "text": "imposto de renda das pessoas físicas"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "2011",
+    "label": "DATA"
+  },
+  {
+    "text": "Alfredo Kaefer",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "inciso VII do art . 12 da Lei nº 9.250 , de 26 de dezembro de 1995",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "imposto de renda",
+    "label": "PRODUTOoutros"
   }
 ]
 
@@ -458,24 +517,23 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2016",
     "label": "DATA"
   },
   {
+    "text": "2015",
     "label": "DATA"
   },
   {
+    "text": "Previdência Social",
     "label": "PRODUTOoutros"
   },
   {
-    "label": "PESSOAcargo"
-  },
-  {
-    "label": "DATA"
-  },
-  {
+    "text": "Lei nº 9.250 , de 1995",
     "label": "FUNDlei"
   },
   {
+    "text": "imposto de renda",
     "label": "PRODUTOoutros"
   }
 ]
@@ -499,69 +557,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Lei nº 11.324 , de 2006",
     "label": "FUNDlei"
   },
   {
+    "text": "Previdência Social",
     "label": "PRODUTOoutros"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-A dedução em epígrafe limita-se a um empregado doméstico por declaração , ao valor recolhido no ano-calendário a que se referir a declaração ; aplica-se somente ao modelo completo de declaração de ajuste anual ; não pode exceder ao valor da contribuição patronal calculada sobre um salário mínimo mensal , sobre o décimo-terceiro salário e sobre a remuneração adicional de férias , referidos também a um salário-mínimo , nem ao valor do imposto apurado , deduzidos os valores das deduções referentes às contribuições feitas aos Fundos controlados pelos Conselhos Municipais , Estaduais e Nacional dos Direitos da Criança e do Adolescente e pelos Conselhos Municipais , Estaduais e Nacional do Idoso , às contribuições realizadas em favor de projetos culturais e aos investimentos feitos a título de incentivo às atividades audiovisuais ; e condiciona-se à comprovação da regularidade do empregador doméstico perante o regime de geral de previdência social quando se tratar de contribuinte individual .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PRODUTOoutros",
-    "text": "salário mínimo"
-  },
-  {
-    "label": "PRODUTOoutros",
-    "text": "décimo-terceiro salário"
-  },
-  {
-    "label": "PRODUTOoutros",
-    "text": "salário-mínimo"
-  },
-  {
-    "label": "ORGgovernamental",
-    "text": "Conselhos Municipais , Estaduais e Nacional dos Direitos da Criança e do Adolescente"
-  },
-  {
-    "label": "ORGgovernamental",
-    "text": "Conselhos Municipais , Estaduais e Nacional do Idoso"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PESSOAcargo"
   }
 ]
 
@@ -604,65 +605,27 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Lei nº 11.324 , de 2006",
     "label": "FUNDlei"
   },
   {
+    "text": "2012",
     "label": "DATA"
   },
   {
+    "text": "2011",
     "label": "DATA"
   },
   {
+    "text": "Receita Federal",
     "label": "ORGgovernamental"
   },
   {
+    "text": "2006",
     "label": "DATA"
   },
   {
-    "label": "DATA"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-ALFREDO KAEFER Deputado Federal PSDB / PR 2011 _ 1373
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PESSOAindividual",
-    "text": "ALFREDO KAEFER"
-  },
-  {
-    "label": "PESSOAcargo",
-    "text": "Deputado Federal"
-  },
-  {
-    "label": "ORGpartido",
-    "text": "PSDB"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "PR"
-  },
-  {
-    "label": "DATA",
-    "text": "2011"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "PESSOAcargo"
-  },
-  {
-    "label": "ORGpartido"
-  },
-  {
+    "text": "2010",
     "label": "DATA"
   }
 ]
@@ -686,52 +649,8 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "ORGgovernamental"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-PROJETO DE LEI COMPLEMENTAR Nº , DE 2019 ( Do Sr. JOÃO MAIA ) Acrescenta o art . 48 - A na Lei Complementar nº 101 , de 4 de maio de 2000 , para incluir um código identificador das coordenadas geográficas ( georreferenciamento ) que permita o monitoramento e a fiscalização , do andamento das obras públicas , na União , nos Estados , no Distrito Federal e nos Municípios .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "DATA",
-    "text": "2019"
-  },
-  {
-    "label": "PESSOAindividual",
-    "text": "JOÃO MAIA"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "art . 48 - A na Lei Complementar nº 101 , de 4 de maio de 2000"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "ORGgovernamental"
+    "text": "Carta Magna",
+    "label": "FUNDapelido"
   }
 ]
 
@@ -750,19 +669,8 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "ORGgovernamental"
+    "text": "Lei de Responsabilidade Fiscal",
+    "label": "FUNDapelido"
   }
 ]
 
@@ -789,13 +697,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
+    "text": "GoogleMaps",
+    "label": "LOCALvirtual"
   },
   {
-    "label": "PRODUTOoutros"
+    "text": "Facebook",
+    "label": "ORGnaogovernamental"
   },
   {
-    "label": "PRODUTOoutros"
+    "text": "Waze",
+    "label": "LOCALvirtual"
   }
 ]
 
@@ -814,9 +725,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "DULCE MIRANDA",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Empresa Parceira Cinquenta Mais",
     "label": "PRODUTOoutros"
   }
 ]
@@ -852,16 +765,24 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Revista Veja",
     "label": "LOCALvirtual"
   },
   {
+    "text": "2017",
     "label": "DATA"
   },
   {
+    "text": "Pesquisa Nacional por Amostra de Domicílios Contínua ( Pnad",
     "label": "PRODUTOoutros"
   },
   {
+    "text": "IBGE",
     "label": "ORGgovernamental"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
   }
 ]
 
@@ -892,12 +813,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "SHÉRIDAN",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Lei Nº . 9.504 de 30 de Setembro de 1997",
     "label": "FUNDlei"
   },
   {
+    "text": "Lei das Eleições",
     "label": "FUNDapelido"
   }
 ]
@@ -921,9 +845,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PESSOAgrupocargo"
+    "text": "eleitor",
+    "label": "PESSOAcargo"
   },
   {
+    "text": "eleitor",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Justiça Eleitoral",
     "label": "ORGgovernamental"
   }
 ]
@@ -951,12 +881,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "DATA"
-  },
-  {
+    "text": "Justiça Eleitoral",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Art .36 - A desta lei",
     "label": "FUNDlei"
   }
 ]
@@ -984,9 +913,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Brasil",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Estados Unidos da América",
     "label": "LOCALconcreto"
   }
 ]
@@ -1010,115 +941,14 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
+    "text": "Funalixo",
+    "label": "PRODUTOprograma"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-Art . 2º Constituem recursos do Funalixo : I - até 5% ( cinco por cento ) dos recursos de que trata a alínea “ b ” do inciso I do caput do art . 49 da Lei nº 9.478 , de 6 de agosto de 1997 ; II - até 5% ( cinco por cento ) dos recursos de que trata a alínea “ f ” do inciso II do caput do art . 49 da Lei nº 9.478 , de 6 de agosto de 1997 ; III - até 5% ( cinco por cento ) dos recursos de que trata o inciso II do § 2º do art . 50 da Lei nº 9.478 , de 6 de agosto de 1997 ; IV – os decorrentes de acordos , ajustes , contratos e convênios celebrados com órgãos e entidades da administração pública federal , estadual , distrital ou municipal ; V – transferidos de entidades nacionais e internacionais , públicas ou privadas , ou de pessoas físicas ; VI - empréstimos de instituições financeiras nacionais sob controle da União ou de instituições financeiras internacionais multilaterais de fomento ; VII – dotações orçamentárias e de créditos adicionais , em consonância com as prioridades da Lei de Diretrizes Orçamentárias – LDO ; VIII – rendas provenientes do retorno de empréstimos concedidos ou de aplicações financeiras dos recursos do Funalixo ; IX – outras receitas previstas em lei .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PRODUTOoutros",
-    "text": "Funalixo"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "alínea “ b ” do inciso I do caput do art . 49 da Lei nº 9.478 , de 6 de agosto de 1997"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "alínea “ f ” do inciso II do caput do art . 49 da Lei nº 9.478 , de 6 de agosto de 1997"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "inciso II do § 2º do art . 50 da Lei nº 9.478 , de 6 de agosto de 1997"
-  },
-  {
-    "label": "FUNDapelido",
-    "text": "Lei de Diretrizes Orçamentárias – LDO"
-  },
-  {
-    "label": "PRODUTOoutros",
-    "text": "Funalixo"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDapelido"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Art . 3º Os recursos do Funalixo serão aplicados : I - em apoio financeiro reembolsável mediante concessão de empréstimo , por intermédio do órgão gestor do Fundo , em parceria com instituição financeira oficial sob controle da União , observadas as condições técnicas e financeiras estabelecidas em regulamento ; II - em apoio financeiro , não reembolsável , a projetos especiais , conforme diretrizes previamente estabelecidas pelo órgão gestor do Fundo ; III – em apoio financeiro não reembolsável a projetos conduzidos pelos Municípios com receita corrente líquida até cinco milhões de reais , conforme diretrizes previamente estabelecidas pelo órgão gestor do Fundo , observadas as disponibilidades orçamentárias e financeiras do Fundo .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PRODUTOoutros",
-    "text": "Funalixo"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Tais dados indicam que o País se ressente , nitidamente , de uma Política Nacional de Resíduos Sólidos , com vistas à redução da geração de resíduos , à reutilização e reciclagem , com regras claras e responsabilidades compartilhadas entre o Poder Público , na União , nos Estados e nos Municípios , e a iniciativa privada acerca dos vários tipos de resíduos produzidos , inclusive os oriundos dos serviços de saúde .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PRODUTOoutros",
-    "text": "Política Nacional de Resíduos Sólidos"
-  },
-  {
-    "label": "ORGgovernamental",
-    "text": "Poder Público"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "ORGgovernamental"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Art . 2º Fica criado o Fundo Federal de Proteção Animal , de natureza contábil , com as seguintes finalidades : I – financiar o recolhimento , tratamento e esterilização de animais de rua por centros ou unidades municipais de controle de zoonoses , assegurada a utilização , no caso da esterilização , de técnica que inflija o menor sofrimento possível ao animal ; 2 II – financiar os centros de triagem e os organismos de combate ao tráfico e de proteção aos animais .
+O valor da contribuição de que trata este artigo será recolhido junto ao Tesouro Nacional , que se obriga a repassar os valores arrecadados ao Fundo Federal de Proteção Animal até o dia 30 de cada mês .
 
 Entidades verdadeiras:
 [
@@ -1131,10 +961,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
+    "text": "Tesouro Nacional",
+    "label": "ORGgovernamental"
   },
   {
-    "label": "ORGgovernamental"
+    "text": "Fundo Federal de Proteção Animal",
+    "label": "PRODUTOoutros"
   }
 ]
 
@@ -1157,47 +989,51 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Fundo Federal de Proteção Animal",
     "label": "PRODUTOoutros"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDapelido"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "LOCALconcreto"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-As ações de recolhimento e eutanásia de cães tiveram como foco central o combate à raiva , que , em 2003 , foi controlada no Estado de São Paulo e em grande parte dos estados da Federação , com campanhas oficiais anuais de vacinação em cães .
+A destinação dos recursos do Fundo Federal de Proteção Animal obedecerá aos seguintes critérios : I - 50% para os Centros de Controle de Zoonoses ; II - 50% para os centros de triagem , organismos de combate ao tráfico animal e de proteção animal .
 
 Entidades verdadeiras:
 [
   {
-    "label": "DATA",
-    "text": "2003"
+    "label": "PRODUTOoutros",
+    "text": "Fundo Federal de Proteção Animal"
   },
   {
-    "label": "LOCALconcreto",
-    "text": "São Paulo"
+    "label": "ORGgovernamental",
+    "text": "Centros de Controle de Zoonoses"
+  },
+  {
+    "label": "ORGgovernamental",
+    "text": "centros de triagem , organismos de combate ao tráfico animal e de proteção animal"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "DATA"
+    "text": "Fundo Federal de Proteção Animal",
+    "label": "PRODUTOoutros"
   },
   {
-    "label": "LOCALconcreto"
+    "text": "Centros de Controle de Zoonoses",
+    "label": "ORGgovernamental"
   },
   {
+    "text": "centros de triagem",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "organismos de combate ao tráfico animal",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "proteção animal",
     "label": "ORGnaogovernamental"
   }
 ]
@@ -1221,26 +1057,32 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2011",
     "label": "DATA"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-Mas temos que pensar principalmente nos milhões de cidadãos brasileiros , principalmente os 40% ( quarenta por cento ) mais carentes , para os quais o celular pré-pago é a alternativa para lhes garantir o contato com seus amigos e familiares , quando presos ao trânsito ou outras dificuldades típicas do dia-a-dia , e mais frequentemente com seus empregadores .
+HUGO LEAL ) Dispõe sobre o direito do consumidor a substituição imediata de aparelho de telefonia móvel defeituoso .
 
 Entidades verdadeiras:
 [
   {
-    "label": "PESSOAgrupocargo",
-    "text": "empregadores"
+    "label": "PESSOAindividual",
+    "text": "HUGO LEAL )"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
+    "text": "HUGO LEAL",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "consumidor",
+    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -1259,9 +1101,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "CÂMARA DOS DEPUTADOS",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Pares",
     "label": "PESSOAgrupocargo"
   }
 ]
@@ -1285,38 +1129,20 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "HUGO LEAL",
     "label": "PESSOAindividual"
   },
   {
+    "text": "PSC",
     "label": "ORGpartido"
   },
   {
+    "text": "RJ",
     "label": "LOCALconcreto"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Se a pena a que se refere o caput exceder o tempo previsto nesta Lei , o infrator reincidente de que trata este artigo a cumprirá , primeiramente , em entidade prevista no art . 123 deste Estatuto até completar dezoito anos de idade , após o que será transferido para estabelecimento penal onde será cumprida o restante da pena de acordo com a Lei nº 7.210 , de 11 de julho de 1984 . ”
-
-Entidades verdadeiras:
-[
-  {
-    "label": "FUNDlei",
-    "text": "Lei nº 7.210 , de 11 de julho de 1984"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "FUNDapelido"
-  },
-  {
-    "label": "FUNDlei"
   }
 ]
 
@@ -1339,9 +1165,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Moreira Mendes",
     "label": "PESSOAindividual"
   },
   {
+    "text": "art . 187 - A à Constituição Federal",
     "label": "FUNDlei"
   }
 ]
@@ -1365,7 +1193,36 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
+    "text": "produtor rural",
+    "label": "PESSOAcargo"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A política rural será regulamentada por lei complementar . 4 * 9 5 7 F 9 A C 3 4 5 * 9 5 7 F 9 A C 3 4 5 JUSTIFICAÇÃO A presente Proposta de Emenda à Constituição visa a introduzir no texto constitucional conceitos relativos à política rural .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PRODUTOoutros",
+    "text": "política rural"
+  },
+  {
+    "label": "PRODUTOoutros",
+    "text": "política rural"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "política rural",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "política rural",
+    "label": "FUNDapelido"
   }
 ]
 
@@ -1384,7 +1241,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "ORGgovernamental"
+    "text": "setor rural produtivo",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "meio rural",
+    "label": "LOCALconcreto"
   }
 ]
 
@@ -1407,9 +1269,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Moreira Mendes",
     "label": "PESSOAindividual"
   },
   {
+    "text": "art . 187 - A à Constituição Federal",
     "label": "FUNDlei"
   }
 ]
@@ -1433,7 +1297,44 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Constituição Federal",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "art . 182 , estabelece que a política de desenvolvimento urbano deve ser estabelecida pelo Município",
     "label": "FUNDlei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI Nº , DE 2019 ( Do Sr. HEITOR FREIRE ) Dispõe sobre exclusão de informação inserida indevidamente em bancos de dados de órgãos públicos .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "DATA",
+    "text": "2019"
+  },
+  {
+    "label": "PESSOAindividual",
+    "text": "HEITOR FREIRE"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "HEITOR FREIRE",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "bancos de dados de órgãos públicos",
+    "label": "PRODUTOoutros"
   }
 ]
 

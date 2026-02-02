@@ -1,0 +1,122 @@
+{
+  "DATA": {
+    "precision": 0.9848484848484849,
+    "recall": 1.0,
+    "f1-score": 0.9923664122137404,
+    "support": 65.0
+  },
+  "EVENTO": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2.0
+  },
+  "FUNDapelido": {
+    "precision": 0.7619047619047619,
+    "recall": 1.0,
+    "f1-score": 0.8648648648648649,
+    "support": 16.0
+  },
+  "FUNDlei": {
+    "precision": 0.9583333333333334,
+    "recall": 0.9583333333333334,
+    "f1-score": 0.9583333333333334,
+    "support": 48.0
+  },
+  "FUNDprojetodelei": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "LOCALconcreto": {
+    "precision": 0.9642857142857143,
+    "recall": 0.7714285714285715,
+    "f1-score": 0.8571428571428571,
+    "support": 35.0
+  },
+  "LOCALvirtual": {
+    "precision": 0.4,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.5,
+    "support": 6.0
+  },
+  "ORGgovernamental": {
+    "precision": 0.7586206896551724,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8301886792452831,
+    "support": 24.0
+  },
+  "ORGnaogovernamental": {
+    "precision": 0.8461538461538461,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.8461538461538461,
+    "support": 13.0
+  },
+  "ORGpartido": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 3.0
+  },
+  "PESSOAcargo": {
+    "precision": 0.9117647058823529,
+    "recall": 0.9393939393939394,
+    "f1-score": 0.9253731343283582,
+    "support": 33.0
+  },
+  "PESSOAgrupocargo": {
+    "precision": 0.7142857142857143,
+    "recall": 0.625,
+    "f1-score": 0.6666666666666666,
+    "support": 8.0
+  },
+  "PESSOAindividual": {
+    "precision": 0.972972972972973,
+    "recall": 1.0,
+    "f1-score": 0.9863013698630136,
+    "support": 36.0
+  },
+  "PRODUTOoutros": {
+    "precision": 0.7777777777777778,
+    "recall": 0.75,
+    "f1-score": 0.7636363636363637,
+    "support": 28.0
+  },
+  "PRODUTOprograma": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 3.0
+  },
+  "PRODUTOsistema": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1.0
+  },
+  "micro avg": {
+    "precision": 0.8844984802431611,
+    "recall": 0.9037267080745341,
+    "f1-score": 0.8940092165898618,
+    "support": 322.0
+  },
+  "macro avg": {
+    "precision": 0.7740175834020915,
+    "recall": 0.8004360223110223,
+    "f1-score": 0.7827725537988537,
+    "support": 322.0
+  },
+  "weighted avg": {
+    "precision": 0.8918318325172669,
+    "recall": 0.9037267080745341,
+    "f1-score": 0.8944891217288,
+    "support": 322.0
+  },
+  "samples avg": {
+    "precision": 0.9072310405643739,
+    "recall": 0.9131393298059963,
+    "f1-score": 0.9028596623834719,
+    "support": 322.0
+  }
+}

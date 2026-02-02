@@ -25,19 +25,20 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Estatuto do Estrangeiro",
     "label": "FUNDapelido"
   },
   {
+    "text": "Lei nº 6.815 , de 1980",
     "label": "FUNDlei"
   },
   {
+    "text": "Estatuto do Estrangeiro",
     "label": "FUNDapelido"
   },
   {
-    "label": "FUNDprojetodelei"
-  },
-  {
-    "label": "ORGgovernamental"
+    "text": "Projeto de Lei nº 5.655 , de 2009",
+    "label": "FUNDapelido"
   }
 ]
 
@@ -72,24 +73,31 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2011",
     "label": "DATA"
   },
   {
+    "text": "Deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "Paulo Pimenta",
     "label": "PESSOAindividual"
   },
   {
+    "text": "parágrafo único do art . 2 . º do Estatuto do Desarmamento",
     "label": "FUNDlei"
   },
   {
+    "text": "SINARM",
     "label": "PRODUTOoutros"
   },
   {
+    "text": "policiais",
     "label": "PESSOAgrupocargo"
   },
   {
+    "text": "bombeiros militares",
     "label": "PESSOAgrupocargo"
   }
 ]
@@ -125,30 +133,40 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Sistema Nacional de Armas",
+    "label": "PRODUTOsistema"
+  },
+  {
+    "text": "2011",
     "label": "DATA"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-Entretanto , embora muito já tenha sido feito acerca deste assunto no Brasil , acreditamos que ainda é preciso estabelecer uma data específica para oportunizar a promoção de um diálogo aberto na sociedade entre os cidadãos , os profissionais de saúde e o Poder Público , em busca da sensibilização da população acerca da prevenção ao suicídio .
+Recentemente , foi publicada a Lei nº 13.819 , de 2019 6 , que instituiu a Política Nacional de Prevenção da Automutilação e do Suicídio , e trouxe diversas inovações ao ordenamento jurídico , no contexto da prevenção desse agravo .
 
 Entidades verdadeiras:
 [
   {
-    "label": "LOCALconcreto",
-    "text": "Brasil"
+    "label": "FUNDlei",
+    "text": "Lei nº 13.819 , de 2019"
   },
   {
-    "label": "ORGgovernamental",
-    "text": "Poder Público"
+    "label": "FUNDapelido",
+    "text": "Política Nacional de Prevenção da Automutilação e do Suicídio"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "LOCALconcreto"
+    "text": "Lei nº 13.819 , de 2019",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Política Nacional de Prevenção da Automutilação e do Suicídio",
+    "label": "PRODUTOoutros"
   }
 ]
 
@@ -171,12 +189,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "ANGELA AMIN",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Lei nº 10.292 , de 2001",
     "label": "FUNDlei"
   },
   {
+    "text": "Rodovia",
     "label": "LOCALconcreto"
   }
 ]
@@ -196,9 +217,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Lei nº 10.292 , de 27 de setembro de 2001",
     "label": "FUNDlei"
   },
   {
+    "text": "Rodovia Dra",
     "label": "LOCALconcreto"
   }
 ]
@@ -226,16 +249,124 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "art . 1º da Lei nº 10.292 , de 2001",
     "label": "FUNDlei"
   },
   {
+    "text": "Rodovia Governador Mário Covas",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Rodovia BR - 101",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Santa Catarina",
     "label": "LOCALconcreto"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O trecho da rodovia BR - 101 no Estado de Santa Catarina passa a se denominar “ Rodovia Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCALconcreto",
+    "text": "Santa Catarina"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BR - 101",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Rodovia",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Dra",
+    "label": "PESSOAindividual"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Zilda Arns Neumann nasceu em Forquilhinha , Estado de Santa Catarina , no dia 25 de agosto de 1934 , e foi médica pediatra e sanitarista formada pela Universidade Federal do Paraná , em 1959 .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOAindividual",
+    "text": "Zilda Arns Neumann"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "Forquilhinha"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "Santa Catarina"
+  },
+  {
+    "label": "DATA",
+    "text": "25 de agosto de 1934"
+  },
+  {
+    "label": "PESSOAcargo",
+    "text": "médica"
+  },
+  {
+    "label": "PESSOAcargo",
+    "text": "pediatra"
+  },
+  {
+    "label": "PESSOAcargo",
+    "text": "sanitarista"
+  },
+  {
+    "label": "ORGgovernamental",
+    "text": "Universidade Federal do Paraná"
+  },
+  {
+    "label": "DATA",
+    "text": "1959"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Zilda Arns Neumann",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Forquilhinha",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "25 de agosto de 1934",
+    "label": "DATA"
+  },
+  {
+    "text": "Universidade Federal do Paraná",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "1959",
+    "label": "DATA"
   }
 ]
 
@@ -266,53 +397,56 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Dom Paulo Evaristo Arns",
     "label": "PESSOAindividual"
   },
   {
+    "text": "arcebispo emérito da cidade de São Paulo",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Dra",
     "label": "PESSOAcargo"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-Fundou , em 1983 , a pedido da Conferência Nacional dos Bispos do Brasil ( CNBB ) , a Pastoral da Criança , formada inicialmente por um grupo de voluntários na pequena cidade paranaense de Florestópolis , para ajudar essas famílias necessitadas com a disseminação do uso do soro caseiro .
+Zilda Arns casou-se aos 21 anos de idade com o marceneiro Aloysio Neumann , com quem teve seis filhos , e ficou viúva em 1978 .
 
 Entidades verdadeiras:
 [
   {
+    "label": "PESSOAindividual",
+    "text": "Zilda Arns"
+  },
+  {
+    "label": "PESSOAcargo",
+    "text": "marceneiro"
+  },
+  {
+    "label": "PESSOAindividual",
+    "text": "Aloysio Neumann"
+  },
+  {
     "label": "DATA",
-    "text": "1983"
-  },
-  {
-    "label": "ORGnaogovernamental",
-    "text": "Conferência Nacional dos Bispos do Brasil ( CNBB )"
-  },
-  {
-    "label": "ORGnaogovernamental",
-    "text": "Pastoral da Criança"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Florestópolis"
+    "text": "1978"
   }
 ]
 
 Entidades previstas:
 [
   {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Aloysio Neumann",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "1978",
     "label": "DATA"
-  },
-  {
-    "label": "ORGnaogovernamental"
-  },
-  {
-    "label": "ORGnaogovernamental"
-  },
-  {
-    "label": "PESSOAgrupocargo"
-  },
-  {
-    "label": "LOCALconcreto"
   }
 ]
 
@@ -343,9 +477,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Zilda Arns",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Pastoral",
     "label": "ORGnaogovernamental"
   }
 ]
@@ -377,62 +513,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "abril de 2001",
     "label": "DATA"
   },
   {
+    "text": "MEDALHA ANITA GARIBALDI",
     "label": "PRODUTOoutros"
   },
   {
+    "text": "2006",
     "label": "DATA"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Em 2004 , Zilda Arns recebeu da CNBB outra missão semelhante : fundar e coordenar a Pastoral da Pessoa Idosa , hoje com mais de cem mil idosos acompanhados mensalmente por milhares de voluntários , em quase 600 municípios de 25 estados brasileiros .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "DATA",
-    "text": "2004"
-  },
-  {
-    "label": "PESSOAindividual",
-    "text": "Zilda Arns"
-  },
-  {
-    "label": "ORGnaogovernamental",
-    "text": "CNBB"
-  },
-  {
-    "label": "ORGnaogovernamental",
-    "text": "Pastoral da Pessoa Idosa"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "ORGnaogovernamental"
-  },
-  {
-    "label": "ORGnaogovernamental"
-  },
-  {
-    "label": "PESSOAgrupocargo"
-  },
-  {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "LOCALconcreto"
   }
 ]
 
@@ -471,18 +561,23 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "janeiro de 2010",
     "label": "DATA"
   },
   {
+    "text": "Curitiba",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Miami",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Porto Príncipe",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Haiti",
     "label": "LOCALconcreto"
   }
 ]
@@ -506,10 +601,36 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "12 de janeiro",
     "label": "DATA"
   },
   {
+    "text": "Igreja Sacré Coeur",
     "label": "ORGnaogovernamental"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Foi então que aconteceu o terremoto que destroçou Porto Príncipe , o prédio de três andares desabou e a Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCALconcreto",
+    "text": "Porto Príncipe"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Porto Príncipe",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Dra",
+    "label": "PESSOAcargo"
   }
 ]
 
@@ -532,6 +653,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Zilda Arns",
     "label": "PESSOAindividual"
   }
 ]
@@ -567,16 +689,40 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Rodovia Mário Covas",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Brasil",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Rodovia Dra",
+    "label": "LOCALconcreto"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Aliás , o traçado da BR 101 / SC , praticamente coincide com o itinerário cumprido pela Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCALconcreto",
+    "text": "SC"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BR 101 / SC",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Dra",
     "label": "PESSOAcargo"
-  },
-  {
-    "label": "LOCALconcreto"
   }
 ]
 
@@ -611,15 +757,19 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2019",
     "label": "DATA"
   },
   {
+    "text": "DIEGO GARCIA",
     "label": "PESSOAindividual"
   },
   {
+    "text": "art . 20 da Lei nº 8.742 , de 7 de dezembro de 1993",
     "label": "FUNDlei"
   },
   {
+    "text": "Benefício de Prestação Continuada",
     "label": "PRODUTOoutros"
   }
 ]
@@ -643,9 +793,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
-  },
-  {
+    "text": "Benefício de Prestação Continuada",
     "label": "PRODUTOoutros"
   }
 ]
@@ -669,6 +817,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Benefício de Prestação Continuada – BPC",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Assistência Social",
     "label": "PRODUTOoutros"
   }
 ]
@@ -688,16 +841,20 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "salário-mínimo",
     "label": "PRODUTOoutros"
   },
   {
+    "text": "Diego Garcia",
     "label": "PESSOAindividual"
   },
   {
+    "text": "PODE",
     "label": "ORGpartido"
   },
   {
-    "label": "FUNDlei"
+    "text": "PR",
+    "label": "LOCALconcreto"
   }
 ]
 
@@ -724,10 +881,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "parágrafo único do art . 34 da Lei nº 10.741 , de 1º de outubro de 2003",
     "label": "FUNDlei"
   },
   {
+    "text": "Estatuto do Idoso",
     "label": "FUNDapelido"
+  },
+  {
+    "text": "BPC",
+    "label": "PRODUTOoutros"
   }
 ]
 
@@ -750,6 +913,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Lei Orgânica da Assistência Social – Loas",
     "label": "FUNDapelido"
   }
 ]
@@ -781,15 +945,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
+    "text": "inciso V do art . 203 da Constituição",
     "label": "FUNDlei"
   },
   {
+    "text": "arts . 20 , 21 e 21 - A da Loas",
     "label": "FUNDlei"
   }
 ]
@@ -829,36 +989,24 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2003",
+    "label": "DATA"
+  },
+  {
+    "text": "Regime Geral de Previdência Social ( RGPS )",
     "label": "PRODUTOoutros"
   },
   {
+    "text": "Benefícios de Prestação Continuada ( BPC )",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Instituto Nacional do Seguro Social ( INSS )",
     "label": "ORGgovernamental"
   },
   {
-    "label": "PRODUTOoutros"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Aquela autarquia , aplicando o dispositivo a partir de uma leitura literal da norma , indeferia tais requerimentos , o que levou à proposição de diversas ações na Justiça Federal em que se pleiteava a aplicação extensiva do parágrafo único do art . 34 do Estatuto do Idoso . 1 Art . 29 .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "ORGgovernamental",
-    "text": "Justiça Federal"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "art . 34 do Estatuto do Idoso"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "FUNDapelido"
+    "text": "parágrafo único do art . 29 da Loas1",
+    "label": "FUNDlei"
   }
 ]
 
@@ -885,6 +1033,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "abril de 2013",
     "label": "DATA"
   }
 ]
@@ -946,35 +1095,7 @@ Entidades verdadeiras:
 ]
 
 Entidades previstas:
-[
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "PESSOAcargo"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "FUNDlei"
-  }
-]
+[]
 
 --------------------------------------------------------------------------------
 Texto:
@@ -1017,80 +1138,7 @@ Entidades verdadeiras:
 ]
 
 Entidades previstas:
-[
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "DATA"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Ocorre que a Corte também já teve a oportunidade de enfrentar a questão em sede de recurso extraordinário e sempre assentou que a interpretação extensiva dada ao art . 34 do Estatuto do Idoso não contraria o art . 203 , V , da Constituição nem viola a autoridade da decisão proferida no julgamento da ADI 1.232 .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "FUNDlei",
-    "text": "art . 34 do Estatuto do Idoso"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "art . 203 , V , da Constituição"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "ADI 1.232"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDlei"
-  }
-]
+[]
 
 --------------------------------------------------------------------------------
 Texto:
@@ -1129,44 +1177,7 @@ Entidades verdadeiras:
 ]
 
 Entidades previstas:
-[
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "DATA"
-  }
-]
+[]
 
 --------------------------------------------------------------------------------
 Texto:
@@ -1199,28 +1210,56 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "FUNDlei"
+    "text": "RE 580.963 - PR",
+    "label": "FUNDprojetodelei"
   },
   {
+    "text": "Min.",
     "label": "PESSOAcargo"
   },
   {
+    "text": "Gilmar Mendes",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Tribunal Pleno",
     "label": "ORGgovernamental"
   },
   {
+    "text": "18 - 04 - 2013",
     "label": "DATA"
   },
   {
+    "text": "13 - 11 - 2013",
     "label": "DATA"
   },
   {
+    "text": "DIEGO GARCIA",
     "label": "PESSOAindividual"
   },
   {
-    "label": "ORGpartido"
+    "text": "PODE / PR",
+    "label": "PARTIDOpoliticoindividual"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Dado que existe uma grande quantidade de instituições financeiras privadas no País , julgamos que o empresário que não consegue obter recursos nessas instituições e procura uma empresa pública já está em situação de fracasso empresarial .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOAcargo",
+    "text": "empresário"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "empresário",
+    "label": "PESSOAindividual"
   }
 ]
 
@@ -1239,7 +1278,88 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
+    "text": "funcionalismo público",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS 1 PROJETO DE LEI Nº , DE 2019 ( Do Sr. NICOLETTI ) Dispõe sobre o compartilhamento de microgeração distribuída fotovoltaica por até vinte consumidores pessoas físicas associados por meio de contrato .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGgovernamental",
+    "text": "CÂMARA DOS DEPUTADOS"
+  },
+  {
+    "label": "DATA",
+    "text": "2019"
+  },
+  {
+    "label": "PESSOAindividual",
+    "text": "NICOLETTI"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "NICOLETTI",
+    "label": "PESSOAindividual"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Todavia , constatamos que a norma que disciplina essa modalidade de geração , a Resolução nº 482 / 2012 da Agência Nacional de Energia Elétrica ( Aneel ) , incluiu barreiras que consideramos exageradas e desnecessárias para o caso daqueles consumidores que desejarem compartilhar uma instalação fotovoltaica para realizarem microgeração distribuída , desestimulando os investimentos na implantação dos empreendimentos .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "FUNDlei",
+    "text": "Resolução nº 482 / 2012 da Agência Nacional de Energia Elétrica ( Aneel )"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Resolução nº 482 / 2012",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Agência Nacional de Energia Elétrica ( Aneel )",
+    "label": "ORGgovernamental"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A demarcação de terras tradicionalmente ocupadas pelos índios será submetida à aprovação do Congresso Nacional , nos termos dos arts . 22 , XIV , 49 , X e 231 da Constituição Federal
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGgovernamental",
+    "text": "Congresso Nacional"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "arts . 22 , XIV , 49 , X e 231 da Constituição Federal"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "arts . 22 , XIV , 49 , X e 231 da Constituição Federal",
+    "label": "FUNDlei"
   }
 ]
 
@@ -1262,10 +1382,36 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Brasil",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Constituição de 1988",
     "label": "FUNDlei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Nos termos dos arts . 22 , XIV e 231 da Constituição Federal , é competência privativa da União Federal legislar sobre populações indígenas , incumbindo-lhe demarcar e fazer respeitar as terras indígenas em território nacional .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "FUNDlei",
+    "text": "arts . 22 , XIV e 231 da Constituição Federal"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "arts . 22 , XIV e 231 da Constituição Federal",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "União Federal",
+    "label": "ORGgovernamental"
   }
 ]
 
@@ -1284,34 +1430,86 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Poder Executivo",
     "label": "ORGgovernamental"
   },
   {
-    "label": "ORGgovernamental"
-  },
-  {
+    "text": "antropólogo",
     "label": "PESSOAcargo"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-Assim é que , em longas extensões de nossas fronteiras , passa-se a criar toda sorte de dificuldades à atuação das Forças Armadas e da Polícia Federal , sob o fundamento de que constituem terras indígenas .
+A região concentra parte substancial da produção rural de Mato Grosso do Sul , onde trabalham 30 mil agricultores , e responde por 60% da produção de grãos daquele Estado .
 
 Entidades verdadeiras:
 [
   {
-    "label": "ORGgovernamental",
-    "text": "Forças Armadas"
-  },
-  {
-    "label": "ORGgovernamental",
-    "text": "Polícia Federal"
+    "label": "LOCALconcreto",
+    "text": "Mato Grosso do Sul"
   }
 ]
 
 Entidades previstas:
-[]
+[
+  {
+    "text": "Mato Grosso do Sul",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "agricultores",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+No total , as 611 terras indígenas no Brasil perfazem 12,41% do território nacional , ou 105.672.003ha , habitados por 734.127 índios , o que equivale a 0,43% da população brasileira .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCALconcreto",
+    "text": "Brasil"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "índios",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A par do impacto na Federação , outros valores igualmente protegidos pela Constituição Federal se vêem ameaçados pela aplicação equivocada e assistemática de seu art . 231 e da legislação indigenista .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "FUNDapelido",
+    "text": "Constituição Federal"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Constituição Federal",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "art . 231",
+    "label": "FUNDlei"
+  }
+]
 
 --------------------------------------------------------------------------------
 Texto:
@@ -1340,13 +1538,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Raposa-Serra do Sol",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Roraima",
     "label": "LOCALconcreto"
   },
   {
-    "label": "ORGgovernamental"
+    "text": "FUNAI",
+    "label": "ORGnaogovernamental"
   }
 ]
 
@@ -1373,9 +1574,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Constituição de 1988",
     "label": "FUNDlei"
   },
   {
+    "text": "CF , arts . 20 e 91",
     "label": "FUNDlei"
   }
 ]
@@ -1399,35 +1602,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Constituição",
     "label": "FUNDapelido"
   },
   {
+    "text": "Sindicato",
     "label": "ORGnaogovernamental"
   },
   {
+    "text": "Brasil",
     "label": "LOCALconcreto"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Lincoln Portela ) Veda a progressão de regime no caso dos condenados pela prática do crime de latrocínio .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PESSOAindividual",
-    "text": "Lincoln Portela"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "PESSOAcargo"
   }
 ]
 
@@ -1450,12 +1634,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "Acélio Casagrande",
     "label": "PESSOAindividual"
   },
   {
+    "text": "art . 105 do Regimento Interno",
     "label": "FUNDlei"
   }
 ]

@@ -1,5 +1,57 @@
 --------------------------------------------------------------------------------
 Texto:
+O Estatuto da Juventude votado em outubro de 2011 na Câmara dos Deputados ( PL 4529 / 04 , pendente ainda da aprovação do Senado ) , definiu como jovens as pessoas com idade entre quinze e vinte e nove anos , conforme artigo 1º , § 1º e incisos de I a III .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "FUNDapelido",
+    "text": "Estatuto da Juventude"
+  },
+  {
+    "label": "DATA",
+    "text": "outubro de 2011"
+  },
+  {
+    "label": "ORGgovernamental",
+    "text": "Câmara dos Deputados"
+  },
+  {
+    "label": "FUNDprojetodelei",
+    "text": "PL 4529 / 04"
+  },
+  {
+    "label": "ORGgovernamental",
+    "text": "Senado"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto da Juventude",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "outubro de 2011",
+    "label": "DATA"
+  },
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "PL 4529 / 04",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Senado",
+    "label": "ORGgovernamental"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
 Tratando-se de candidaturas a cargos eletivos , será obviamente necessário que os partidos observem a idade mínima definida pela Constituição : é de dezoito anos para vereador e de vinte e um anos para deputado federal , estadual , ou distrital , ( CF , artigo 14 , § 3º , inciso VI ) .
 
 Entidades verdadeiras:
@@ -29,25 +81,20 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "FUNDapelido"
-  },
-  {
-    "label": "DATA"
-  },
-  {
+    "text": "vereador",
     "label": "PESSOAcargo"
   },
   {
+    "text": "deputado federal",
     "label": "PESSOAcargo"
   },
   {
+    "text": "estadual",
     "label": "PESSOAcargo"
   },
   {
+    "text": "distrital",
     "label": "PESSOAcargo"
-  },
-  {
-    "label": "FUNDlei"
   }
 ]
 
@@ -66,6 +113,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Tribunal",
     "label": "ORGgovernamental"
   }
 ]
@@ -93,12 +141,43 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Confederação Nacional de Municípios ( www.cnm.org.br )",
     "label": "ORGnaogovernamental"
   },
   {
+    "text": "Eleições Municipais 2008",
     "label": "EVENTO"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O dado sugere que a concentração de candidaturas por faixa etária começa a partir dos vinte e nove anos . 3 Observando o número de eleitos para a Câmara dos Deputados , constata-se que em setembro de 2012 estavam em exercício apenas 12 deputados com idade entre 21 e 29 anos ( percentual de 2% da Casa ) .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGgovernamental",
+    "text": "Câmara dos Deputados"
   },
   {
+    "label": "DATA",
+    "text": "setembro de 2012"
+  },
+  {
+    "label": "PESSOAgrupocargo",
+    "text": "deputados"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "setembro de 2012",
     "label": "DATA"
   }
 ]
@@ -122,36 +201,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Lei nº 13.819 , de 2019",
     "label": "FUNDlei"
   },
   {
+    "text": "Política Nacional de Prevenção da Automutilação e do Suicídio",
     "label": "FUNDapelido"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Mesmo com o avanço das normas relativas ao tema , como a Lei Maria da Penha e a do Feminicídio , os índices dessas ocorrências têm aumentado no país .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "FUNDapelido",
-    "text": "Lei Maria da Penha"
-  },
-  {
-    "label": "FUNDapelido",
-    "text": "Feminicídio"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "FUNDapelido"
-  },
-  {
-    "label": "PRODUTOoutros"
   }
 ]
 
@@ -178,16 +233,36 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "1980",
     "label": "DATA"
   },
   {
+    "text": "2013",
     "label": "DATA"
   },
   {
+    "text": "Mapa da Violência de 2015",
     "label": "PRODUTOoutros"
-  },
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , para enfrentar esse fenômeno propomos este projeto de lei , que cria o Banco Nacional de Boas Práticas na Prevenção e no Combate da Violência Contra a Mulher .
+
+Entidades verdadeiras:
+[
   {
-    "label": "DATA"
+    "label": "PRODUTOoutros",
+    "text": "Banco Nacional de Boas Práticas na Prevenção e no Combate da Violência Contra a Mulher"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Banco Nacional de Boas Práticas na Prevenção e no Combate da Violência Contra a Mulher",
+    "label": "ORGgovernamental"
   }
 ]
 
@@ -210,35 +285,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Projeto Violeta",
     "label": "PRODUTOprograma"
   },
   {
-    "label": "LOCALconcreto"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Outra ação exitosa é o Projeto Basta , de Foz de Iguaçu , que visa encerrar as agressões e ameaças recorrentes feitas pelos agressores , combatendo a reincidência .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PRODUTOoutros",
-    "text": "Projeto Basta"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Foz de Iguaçu"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PRODUTOprograma"
-  },
-  {
+    "text": "Rio de Janeiro",
     "label": "LOCALconcreto"
   }
 ]
@@ -262,9 +313,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Núcleo Judiciário da Mulher",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Lei Maria da Penha",
     "label": "FUNDapelido"
   }
 ]
@@ -292,19 +345,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "LINCOLN PORTELA",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Lei nº 12.305 , de 2 de agosto de 2010",
     "label": "FUNDlei"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -323,7 +369,72 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "art . 33 da Lei nº",
     "label": "FUNDlei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Estudo recente do Instituto de Pesquisa Econômica Aplicada – IPEA , estima em 160 mil toneladas a geração diária de resíduos sólidos urbanos no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGgovernamental",
+    "text": "Instituto de Pesquisa Econômica Aplicada – IPEA"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "Brasil"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Instituto de Pesquisa Econômica Aplicada – IPEA",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado Federal Lincoln Portela PL / MG * C D 1 9 2 4 3 7 0 3 2 0 0 0 * P L n .4 4 6 1 / 2 0 1 9 A p re s e n ta ç ã o : 1 4 / 0 8 / 2 0 1 9 1 4 : 4 4
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOAcargo",
+    "text": "Deputado Federal"
+  },
+  {
+    "label": "PESSOAindividual",
+    "text": "Lincoln Portela"
+  },
+  {
+    "label": "ORGpartido",
+    "text": "PL"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "MG"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Federal Lincoln Portela",
+    "label": "PESSOAindividual"
   }
 ]
 
@@ -346,13 +457,48 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "PROFESSOR",
     "label": "PESSOAcargo"
   },
   {
+    "text": "VICTÓRIO GALLI",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Lei nº 8.171 , de 17 de janeiro de 1991",
     "label": "FUNDlei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Nos artigos seguintes estabelece os critérios para a delimitação dessas áreas assim como o regime de proteção . 2 ] A Lei nº 8.171 , de 17 de janeiro de 1991 , que dispõe sobre a política agrícola , estabelece , no art . 104 , que as áreas de Preservação Permanente e de Reserva Legal são isentas de tributação e do pagamento do Imposto Territorial Rural .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "FUNDlei",
+    "text": "Lei nº 8.171 , de 17 de janeiro de 1991"
+  },
+  {
+    "label": "PRODUTOoutros",
+    "text": "Imposto Territorial Rural"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 8.171 , de 17 de janeiro de 1991",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "política agrícola",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "Imposto Territorial Rural",
+    "label": "PRODUTOoutros"
   }
 ]
 
@@ -403,98 +549,32 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Receita Federal",
     "label": "ORGgovernamental"
   },
   {
+    "text": "Fisco",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Fisco explica isenção de ITR de área ambiental",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "Jornal “ Valor Econômico ”",
     "label": "LOCALvirtual"
   },
   {
-    "label": "LOCALvirtual"
-  },
-  {
+    "text": "22 , 23 e 24 de junho de 2012",
     "label": "DATA"
   },
   {
-    "label": "DATA"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "DATA"
-  },
-  {
+    "text": "IBAMA",
     "label": "ORGgovernamental"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Deputado PROFESSOR VICTÓRIO GALLI PMDB - MT 2012 _ 18160
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PESSOAcargo",
-    "text": "Deputado"
   },
   {
-    "label": "PESSOAcargo",
-    "text": "PROFESSOR"
-  },
-  {
-    "label": "PESSOAindividual",
-    "text": "VICTÓRIO GALLI"
-  },
-  {
-    "label": "ORGpartido",
-    "text": "PMDB"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "MT"
-  },
-  {
-    "label": "DATA",
-    "text": "2012"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PESSOAcargo"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "ORGpartido"
-  },
-  {
-    "label": "LOCALconcreto"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Elismar Prado ) Dispõe os serviços de atendimento telefônico gratuito ao consumidor O Congresso Nacional decreta : Art . 1º Os fornecedores de bens e serviços ficam obrigados a manter serviços de atendimento telefônico gratuito ao consumidor
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PESSOAindividual",
-    "text": "Elismar Prado"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "ORGgovernamental"
+    "text": "Ato Declaratório Ambiental ( ADA )",
+    "label": "PRODUTOoutros"
   }
 ]
 
@@ -517,33 +597,32 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
-  },
-  {
+    "text": "telecomunicações",
     "label": "PRODUTOoutros"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-Conhecida como “ Lei do Calote ” , o referido diploma legal jogou para o colo das instituições privadas de ensino todo o ônus da alta inadimplência que ocorre no Brasil .
+O Congresso Nacional decreta : Art . 1º Esta Lei altera a Lei nº 9.870 , de 23 de novembro de 1999 , que dispõe sobre o valor total das anuidades escolares e dá outras providências , para permitir às instituições privadas de ensino a exigência de documento de quitação de débitos para realização de matrículas .
 
 Entidades verdadeiras:
 [
   {
-    "label": "FUNDapelido",
-    "text": "Lei do Calote"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Brasil"
+    "label": "FUNDlei",
+    "text": "Lei nº 9.870 , de 23 de novembro de 1999"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "LOCALconcreto"
+    "text": "Lei nº 9.870 , de 23 de novembro de 1999",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "instituições privadas de ensino",
+    "label": "ORGnaogovernamental"
   }
 ]
 
@@ -570,13 +649,52 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2019",
     "label": "DATA"
   },
   {
+    "text": "PEDRO UCZAI",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Lei nº 10.260 , de 12 de julho de 2001",
     "label": "FUNDlei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 9º O Ministério da Educação poderá definir outros critérios de qualidade e , nos termos do que for aprovado pelo CG-Fies , requisitos para adesão e participação das instituições de ensino no Fies , as quais deverão ter controle acionário majoritariamente nacional . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ”
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGgovernamental",
+    "text": "Ministério da Educação"
+  },
+  {
+    "label": "ORGgovernamental",
+    "text": "CG-Fies"
+  },
+  {
+    "label": "PRODUTOprograma",
+    "text": "Fies"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ministério da Educação",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "CG-Fies",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Fies",
+    "label": "PRODUTOoutros"
   }
 ]
 
@@ -611,73 +729,32 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Fundo de Financiamento Estudantil ( Fies )",
     "label": "PRODUTOoutros"
   },
   {
+    "text": "Lei nº 10.260 , de 12 de julho de 2001",
     "label": "FUNDlei"
   },
   {
+    "text": "Fundo Fies",
     "label": "PRODUTOoutros"
   },
   {
-    "label": "PRODUTOoutros"
+    "text": "Programa Fies ( P-Fies )",
+    "label": "PRODUTOprograma"
   },
   {
+    "text": "PNE",
     "label": "FUNDapelido"
   },
   {
-    "label": "DATA"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Desde o início do atual modelo de financiamento ( 2001 ) , passando por sua primeira remodelação em 2010 e grande expansão nos anos subsequentes , seguidas de retração desde 2015 e alterações na lei em 2017 , que promoveram forte financeirização do programa , o Fies foi um marco no âmbito das políticas de acesso à educação superior no Brasil .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "DATA",
-    "text": "2001"
-  },
-  {
-    "label": "DATA",
-    "text": "2010"
-  },
-  {
-    "label": "DATA",
-    "text": "2015"
-  },
-  {
-    "label": "DATA",
-    "text": "2017"
-  },
-  {
-    "label": "PRODUTOprograma",
-    "text": "Fies"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Brasil"
-  }
-]
-
-Entidades previstas:
-[
-  {
+    "text": "2024",
     "label": "DATA"
   },
   {
-    "label": "DATA"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "LOCALconcreto"
+    "text": "18% ( 18 por cento )",
+    "label": "PERCENTUAL"
   }
 ]
 
@@ -704,13 +781,48 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "PEDRO UCZAI",
     "label": "PESSOAindividual"
   },
   {
+    "text": "2019",
     "label": "DATA"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Arnaldo Faria de Sá ) Institui o Dia da Tolerância e Respeito entre os Povos , em reconhecimento ao genocídio praticado contra o povo armênio .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOAindividual",
+    "text": "Arnaldo Faria de Sá"
+  },
+  {
+    "label": "PRODUTOoutros",
+    "text": "Dia da Tolerância e Respeito entre os Povos"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Arnaldo Faria de Sá",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Dia da Tolerância e Respeito entre os Povos",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "povo armênio",
+    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -729,13 +841,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "24 de abril",
     "label": "DATA"
   },
   {
+    "text": "Dia da Tolerância e Respeito entre os Povos",
     "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -758,6 +869,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "comunidade armênia",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "Brasil",
     "label": "LOCALconcreto"
   }
 ]
@@ -785,43 +905,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "FUNDapelido"
+    "text": "Convenção sobre a Prevenção do Crime de Genocídio",
+    "label": "PRODUTOoutros"
   },
   {
+    "text": "Nações Unidas",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "1948",
     "label": "DATA"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Em 1987 , o Parlamento europeu adotou uma Resolução estabelecendo como condição para que a Turquia possa ser membro da Comunidade o prévio reconhecimento do genocídio armênio .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "DATA",
-    "text": "1987"
-  },
-  {
-    "label": "ORGnaogovernamental",
-    "text": "Parlamento europeu"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Turquia"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "LOCALconcreto"
   }
 ]
 
@@ -852,57 +945,44 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Senador",
     "label": "PESSOAcargo"
   },
   {
-    "label": "PESSOAgrupocargo"
-  },
-  {
+    "text": "ROBERT MENENDEZ",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Congresso dos EUA",
     "label": "ORGgovernamental"
   },
   {
-    "label": "EVENTO"
-  },
-  {
-    "label": "PESSOAgrupocargo"
-  },
-  {
-    "label": "PESSOAgrupocargo"
-  },
-  {
+    "text": "Convenção sobre o Genocídio da ONU",
     "label": "FUNDapelido"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-Por isso , pedimos o apoio dos nobres colegas do Congresso Nacional ao presente Projeto de Lei , que institui o Dia da Tolerância e Respeito entre os Povos , em reconhecimento ao genocídio praticado contra o povo armênio .
+Por todo o exposto , cumpre-nos acrescentar que o presente Projeto de Lei nos foi sugerido pelo conceituado Conselho Nacional Armênio da América do Sul – Representação do Brasil .
 
 Entidades verdadeiras:
 [
   {
-    "label": "ORGgovernamental",
-    "text": "Congresso Nacional"
+    "label": "ORGnaogovernamental",
+    "text": "Conselho Nacional Armênio da América do Sul"
   },
   {
-    "label": "PRODUTOoutros",
-    "text": "Dia da Tolerância e Respeito entre os Povos"
+    "label": "LOCALconcreto",
+    "text": "Brasil"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PESSOAgrupocargo"
+    "text": "Conselho Nacional Armênio da América do Sul – Representação do Brasil",
+    "label": "ORGnaogovernamental"
   }
 ]
 
@@ -929,42 +1009,24 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Deputada",
     "label": "PESSOAcargo"
   },
   {
+    "text": "LAURIETE",
     "label": "PESSOAindividual"
   },
   {
+    "text": "PSC",
     "label": "ORGpartido"
   },
   {
+    "text": "ES",
     "label": "LOCALconcreto"
   },
   {
+    "text": "2011",
     "label": "DATA"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-LUIZ ANTÔNIO CORRÊA ) Dispõe sobre a profissão de guarda - parque .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PESSOAindividual",
-    "text": "LUIZ ANTÔNIO CORRÊA"
-  },
-  {
-    "label": "PESSOAcargo",
-    "text": "guarda - parque"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PESSOAindividual"
   }
 ]
 
@@ -987,13 +1049,120 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2014",
     "label": "DATA"
   },
   {
+    "text": "Deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "Marco Maia",
     "label": "PESSOAindividual"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI Nº , DE 2018 ( Da Sra. BRUNA FURLAN ) Concede isenção de pagamento de taxas , nos estabelecimentos oficiais , relativas à revalidação de diplomas de graduação e ao reconhecimento de diplomas de Mestrado e de Doutorado expedidos por universidades estrangeiras a que se refere o art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996 , para os refugiados admitidos no Brasil conforme a Lei nº 9.474 , de 22 de julho de 1997 .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "DATA",
+    "text": "2018"
+  },
+  {
+    "label": "PESSOAindividual",
+    "text": "BRUNA FURLAN"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "Brasil"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "Lei nº 9.474 , de 22 de julho de 1997"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2018",
+    "label": "DATA"
+  },
+  {
+    "text": "BRUNA FURLAN",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Lei nº 9.474 , de 22 de julho de 1997",
+    "label": "FUNDlei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta Lei concede isenção de pagamento de taxas , nos estabelecimentos oficiais , relativas à revalidação de diplomas de graduação e ao reconhecimento de diplomas de Mestrado e de Doutorado expedidos por universidades estrangeiras a que se refere o art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996 , para os refugiados admitidos no Brasil conforme a Lei nº 9.474 , de 22 de julho de 1997 .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "FUNDlei",
+    "text": "art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "Brasil"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "Lei nº 9.474 , de 22 de julho de 1997"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Lei nº 9.474 , de 22 de julho de 1997",
+    "label": "FUNDlei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 4º As pessoas admitidas no Brasil sob a condição jurídica de refugiadas conforme a Lei nº 9.474 , de 22 de julho de 1997 , estarão isentas do pagamento de taxas , nos estabelecimentos oficiais , relativas aos procedimentos de que tratam os § § 2º e 3º deste artigo .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCALconcreto",
+    "text": "Brasil"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "Lei nº 9.474 , de 22 de julho de 1997"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 9.474 , de 22 de julho de 1997",
+    "label": "FUNDlei"
   }
 ]
 
@@ -1016,40 +1185,20 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Resolução nº 3 , de 22 de junho de 2016",
     "label": "FUNDlei"
   },
   {
-    "label": "FUNDlei"
-  },
-  {
+    "text": "Conselho Nacional de Educação",
     "label": "ORGgovernamental"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Dessa maneira , para conferir efetividade à integração profissional dos refugiados em solo brasileiro e dar pleno cumprimento aos preceitos da Convenção relativa ao Estatuto dos Refugiados , propomos a introdução de dispositivo na Lei de Diretrizes e Bases da Educação Nacional com a finalidade de conceder , em âmbito nacional , a isenção das taxas de revalidação e 4 de reconhecimento de diplomas expedidos por universidades estrangeiras às pessoas admitidas no Brasil na condição jurídica de refugiadas .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "FUNDapelido",
-    "text": "Estatuto dos Refugiados"
   },
   {
-    "label": "FUNDapelido",
-    "text": "Lei de Diretrizes e Bases da Educação Nacional"
+    "text": "Portaria Normativa nº 22 , de 13 de dezembro de 2016",
+    "label": "FUNDlei"
   },
   {
-    "label": "LOCALconcreto",
-    "text": "Brasil"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "FUNDapelido"
+    "text": "Ministério da Educação",
+    "label": "ORGgovernamental"
   }
 ]
 
@@ -1080,22 +1229,44 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2011",
     "label": "DATA"
   },
   {
+    "text": "Junji Abe",
     "label": "PESSOAindividual"
   },
   {
-    "label": "LOCALconcreto"
+    "text": "Plenário Deputado Paulo Kobayashi",
+    "label": "LOCALvirtual"
   },
   {
+    "text": "Plenário 2 , do Anexo II , da Câmara dos Deputados",
     "label": "LOCALconcreto"
-  },
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+A Câmara dos Deputados resolve : Art . 1º Esta resolução dá denominação ao Plenário 2 , do Anexo II , da Câmara dos Deputados .
+
+Entidades verdadeiras:
+[
   {
-    "label": "LOCALconcreto"
-  },
+    "label": "LOCALconcreto",
+    "text": "Plenário 2 , do Anexo II , da Câmara dos Deputados"
+  }
+]
+
+Entidades previstas:
+[
   {
+    "text": "Câmara dos Deputados",
     "label": "ORGgovernamental"
+  },
+  {
+    "text": "Plenário 2 , do Anexo II , da Câmara dos Deputados",
+    "label": "LOCALvirtual"
   }
 ]
 
@@ -1118,10 +1289,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PESSOAindividual"
+    "text": "Plenário Deputado Paulo Kobayashi",
+    "label": "LOCALvirtual"
   },
   {
-    "label": "ORGgovernamental"
+    "text": "Plenário 2 , do Anexo II , da Câmara dos Deputados",
+    "label": "LOCALfísico"
   }
 ]
 
@@ -1148,12 +1321,23 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Plenário 2",
     "label": "LOCALvirtual"
   },
   {
+    "text": "Anexo II",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "Paulo Kobayashi",
     "label": "PESSOAindividual"
   }
 ]
@@ -1173,10 +1357,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Comissão Mista de Planos , Orçamento Público e Fiscalização – CMO",
     "label": "ORGgovernamental"
   },
   {
-    "label": "LOCALconcreto"
+    "text": "Plenário 2",
+    "label": "LOCALvirtual"
   }
 ]
 
@@ -1203,10 +1389,36 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "PEDRO UCZAI",
     "label": "PESSOAindividual"
   },
   {
+    "text": "§ § 14 e 15 ao art . 20 e altera o § 1º do art . 21 da Lei nº 8.742 , de 7 de dezembro de 1993",
     "label": "FUNDlei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 14 É assegurado , à pessoa que tenha exercido atividade de cuidado do beneficiário de que trata o caput deste artigo , o pagamento do benefício de prestação continuada em decorrência da morte do beneficiário , observadas cumulativamente as seguintes condições : I – que a atividade tenha sido desempenhada sem qualquer remuneração ; II – que os cuidados tenham sido prestados em tempo integral ; III – que seja observado o disposto no § 3º deste artigo .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PRODUTOoutros",
+    "text": "benefício de prestação continuada"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "beneficiário",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "beneficiário",
+    "label": "PESSOAcargo"
   }
 ]
 
@@ -1229,6 +1441,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "art . 20 , § 3º da Lei nº 8.742 , de 1993",
     "label": "FUNDlei"
   }
 ]

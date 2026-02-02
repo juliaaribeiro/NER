@@ -1,77 +1,5 @@
 --------------------------------------------------------------------------------
 Texto:
-Trata-se de projeto de lei para denominar “ Willy Alfredo Zumblick ” o túnel construído no morro do Formigão , localizado entre o km 337,8 e o km 338,7 da BR - 101 , no Município de Tubarão , Estado de Santa Catarina .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PESSOAindividual",
-    "text": "Willy Alfredo Zumblick"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "morro do Formigão"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Tubarão"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Santa Catarina"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "LOCALconcreto"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Na Comissão de Constituição e Justiça e de Cidadania ( CCJC ) , não houve tempo hábil para apreciação , o que provocou seu arquivamento , tendo em vista o disposto no art . 105 do Regimento Interno da Câmara dos Deputados .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "ORGgovernamental",
-    "text": "Comissão de Constituição e Justiça e de Cidadania ( CCJC )"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "art . 105 do Regimento Interno da Câmara dos Deputados"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "ORGgovernamental"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
 Com o sucesso alcançado , impôs a Willy novas conquistas , levou sua exposição para o Cine Rex , em Florianópolis e diversas cidades catarinenses .
 
 Entidades verdadeiras:
@@ -93,15 +21,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Willy",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Cine Rex",
     "label": "LOCALconcreto"
   },
   {
-    "label": "LOCALconcreto"
-  },
-  {
+    "text": "Florianópolis",
     "label": "LOCALconcreto"
   }
 ]
@@ -121,19 +49,64 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Bandeira do Divino",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Contestado",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Anita Garibaldi",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Boi de Mamão",
+    "label": "EVENTO"
+  },
+  {
+    "text": "imigrantes",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Na Praça 7 de setembro , em Tubarão , em 30 de agosto criou o monumento à Mãe , esculpido em concreto , ferro e bronze .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "LOCALconcreto",
+    "text": "Praça 7 de setembro"
+  },
+  {
+    "label": "LOCALconcreto",
+    "text": "Tubarão"
+  },
+  {
+    "label": "DATA",
+    "text": "30 de agosto"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Praça 7 de setembro",
     "label": "LOCALconcreto"
   },
   {
-    "label": "PESSOAgrupocargo"
+    "text": "Tubarão",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "30 de agosto",
+    "label": "DATA"
+  },
+  {
+    "text": "Mãe",
+    "label": "PESSOAindividual"
   }
 ]
 
@@ -156,22 +129,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Centro Municipal",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Universidade do Sul de Santa Catarina – UNISUL",
     "label": "ORGnaogovernamental"
   },
   {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
+    "text": "Hospital Nossa Senhora da Conceição",
     "label": "ORGnaogovernamental"
-  },
-  {
-    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -190,9 +157,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "ORGnaogovernamental"
+    "text": "Diário Catarinense",
+    "label": "LOCALvirtual"
   },
   {
+    "text": "catarinenses",
     "label": "PESSOAgrupocargo"
   }
 ]
@@ -224,15 +193,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "26 de setembro de 2000",
     "label": "DATA"
   },
   {
-    "label": "LOCALconcreto"
+    "text": "Willy Zumblick",
+    "label": "PESSOAindividual"
   },
   {
-    "label": "LOCALconcreto"
-  },
-  {
+    "text": "Tubarão",
     "label": "LOCALconcreto"
   }
 ]
@@ -260,12 +229,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "12 de junho de 2010",
     "label": "DATA"
   },
   {
+    "text": "deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "Plenário da Câmara dos Deputados",
     "label": "LOCALconcreto"
   }
 ]
@@ -289,6 +261,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Willy Zumblick",
     "label": "PESSOAindividual"
   }
 ]
@@ -320,12 +293,19 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "03 de abril de 2008",
     "label": "DATA"
   },
   {
+    "text": "Hospital Nossa Senhora da Conceição",
     "label": "LOCALconcreto"
   },
   {
+    "text": "Cemitério Horto da Saudade",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Tubarão",
     "label": "LOCALconcreto"
   }
 ]
@@ -345,10 +325,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "junho",
     "label": "DATA"
   },
   {
-    "label": "ORGnaogovernamental"
+    "text": "Revista Globo Rural",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Resgate do Queijo Artesanal",
+    "label": "PRODUTOoutros"
   }
 ]
 
@@ -379,13 +365,60 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2019",
     "label": "DATA"
   },
   {
+    "text": "Tours",
     "label": "LOCALconcreto"
   },
   {
+    "text": "França",
     "label": "LOCALconcreto"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar desse reconhecimento internacional de qualidade já alcançado , nossos artesãos passam pela constrangedora situação da falta regulamentação para a saída do País com seus produtos de origem animal , os quais podem até mesmo ser eventualmente apreendidos pelos órgãos sanitários de vigilância dos aeroportos pelos quais transitarem .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOAgrupocargo",
+    "text": "artesãos"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "aeroportos",
+    "label": "LOCALconcreto"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS PROJETO DE LEI Nº , DE 2011 ( Do Sr .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGgovernamental",
+    "text": "CÂMARA DOS DEPUTADOS"
+  },
+  {
+    "label": "DATA",
+    "text": "2011"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2011",
+    "label": "DATA"
   }
 ]
 
@@ -412,45 +445,32 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Fernando Jordão",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Lei nº 6.189 , de 16 de dezembro de 1974",
     "label": "FUNDlei"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-No Brasil , constatamos que os habitantes de Angra dos Reis , onde se encontram as usinas nucleares de Angra 1 e 2 e se inicia a construção de Angra 3 , não percebem nenhuma compensação pelos riscos a que se submetem , mas são obrigados a conviver , diariamente , com inevitável apreensão quanto à possibilidade de acidentes nucleares .
+JUSTIFICAÇÃO Os moradores dos Municípios onde são instaladas usinas termonucleares de energia elétrica ficam sujeitos a riscos de acidentes que podem causar contaminação radioativa na população e no meio ambiente para que todos os demais os consumidores de energia elétrica do Brasil , sejam eles residenciais , comerciais ou industriais , tenham seu suprimento garantido .
 
 Entidades verdadeiras:
 [
   {
     "label": "LOCALconcreto",
     "text": "Brasil"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Angra dos Reis"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "PRODUTOoutros"
+    "text": "consumidores de energia elétrica do Brasil",
+    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -477,6 +497,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Congresso Nacional",
     "label": "ORGgovernamental"
   }
 ]
@@ -500,6 +521,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Poder Executivo",
     "label": "ORGgovernamental"
   }
 ]
@@ -519,7 +541,36 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Disque-Inclusão",
     "label": "PRODUTOoutros"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 3º O serviço objeto deste artigo deverá ser operado por Central de Atendimento à Pessoa com Deficiência , sob a organização e coordenação do Poder Executivo
+
+Entidades verdadeiras:
+[
+  {
+    "label": "ORGgovernamental",
+    "text": "Central de Atendimento à Pessoa com Deficiência"
+  },
+  {
+    "label": "ORGgovernamental",
+    "text": "Poder Executivo"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Central de Atendimento à Pessoa com Deficiência",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental"
   }
 ]
 
@@ -538,19 +589,8 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDlei"
+    "text": "Constituição Federal de 1988",
+    "label": "FUNDapelido"
   }
 ]
 
@@ -577,12 +617,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Convenção sobre os Direitos da Pessoa com Deficiência",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "§ 3º do art . 5º da Lei Maior",
     "label": "FUNDlei"
   },
   {
-    "label": "FUNDlei"
-  },
-  {
+    "text": "Decreto nº 6.949 , de 2009",
     "label": "FUNDlei"
   }
 ]
@@ -602,38 +645,12 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Lei nº 13.146 , de 6 de julho de 2015",
     "label": "FUNDlei"
   },
   {
+    "text": "Convenção",
     "label": "FUNDapelido"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Outrossim , importa registrar que a Lei Maior estabelece competência concorrente da União , estados , Distrito Federal e municípios para a elaboração de normas referentes à proteção e inclusão social da pessoa com deficiência ( art . 24 , inciso XIV ) .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "FUNDapelido",
-    "text": "Lei Maior"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "FUNDapelido"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
-    "label": "LOCALconcreto"
-  },
-  {
-    "label": "ORGgovernamental"
   }
 ]
 
@@ -656,9 +673,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "FUNDlei"
+    "text": "Constituição de 1988",
+    "label": "FUNDapelido"
   },
   {
+    "text": "Disque-Inclusão",
     "label": "PRODUTOoutros"
   }
 ]
@@ -690,12 +709,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Disque Denúncia",
     "label": "PRODUTOoutros"
   },
   {
+    "text": "Disque 100",
     "label": "PRODUTOoutros"
   },
   {
+    "text": "Disque 180",
     "label": "PRODUTOoutros"
   }
 ]
@@ -723,6 +745,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Poder Executivo",
     "label": "ORGgovernamental"
   }
 ]
@@ -783,117 +806,6 @@ Entidades previstas:
 
 --------------------------------------------------------------------------------
 Texto:
-1 * C 3 D 9 4 4 3 5 0 5 * C 3 D 9 4 4 3 5 0 5 PROJETO DE LEI Nº , DE 2013 ( Do Sr. Jhonatan de Jesus ) Altera o art . 19 da Lei nº 11.952 , de 25 de julho de 2009 , que “ Dispõe sobre a regularização fundiária das ocupações incidentes em terras situadas em áreas da União , no âmbito da Amazônia Legal ; altera as Leis nos 8.666 , de 21 de junho de 1993 , e 6.015 , de 31 de dezembro de 1973 ; e dá outras providências . ”
-
-Entidades verdadeiras:
-[
-  {
-    "label": "DATA",
-    "text": "2013"
-  },
-  {
-    "label": "PESSOAindividual",
-    "text": "Jhonatan de Jesus"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "art . 19 da Lei nº 11.952 , de 25 de julho de 2009"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Amazônia Legal"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "8.666 , de 21 de junho de 1993"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "6.015 , de 31 de dezembro de 1973"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "PESSOAindividual"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "FUNDlei"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Os casos que incorreram na pena prevista no caput deste artigo , entre 11 de fevereiro de 2012 e a data de publicação desta Lei , também farão jus ao prazo para adimplir o contrato no que foi descumprido ou renegociá-lo . “ ( NR ) Art . 2º Esta lei entra em vigor na data de sua publicação . 2 * C 3 D 9 4 4 3 5 0 5 * C 3 D 9 4 4 3 5 0 5 JUSTIFICAÇÃO O Programa Terra Legal , instituído pela Lei nº 11.952 , de 25 de junho de 2009 , visa promover a regularização fundiária de maneira massiva na Amazônia Legal .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "DATA",
-    "text": "11 de fevereiro de 2012"
-  },
-  {
-    "label": "PRODUTOprograma",
-    "text": "Programa Terra Legal"
-  },
-  {
-    "label": "FUNDlei",
-    "text": "Lei nº 11.952 , de 25 de junho de 2009"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Amazônia Legal"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "FUNDlei"
-  },
-  {
-    "label": "LOCALconcreto"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-O objetivo precípuo da regularização fundiária mais expedita e direcionada à Amazônia , como apregoa o Programa Terra Legal , é contribuir para a desconcentração fundiária do território e a democratização do acesso à terra .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "LOCALconcreto",
-    "text": "Amazônia"
-  },
-  {
-    "label": "PRODUTOprograma",
-    "text": "Programa Terra Legal"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "PRODUTOprograma"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
 Considerando as pretensões do Programa , entendemos ser de suma importância garantir a isonomia de direitos entre os beneficiários que receberam títulos anteriores e posteriores à edição da Lei nº 11.952 / 09 , atribuição da qual não se descuidou o texto legal , conforme se observa no § 3º do art . 17 da Lei nº 11.952 / 09 , abaixo transcrito : “ Art17
 
 Entidades verdadeiras:
@@ -911,84 +823,40 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Programa",
     "label": "PRODUTOprograma"
   },
   {
+    "text": "Lei nº 11.952 / 09",
     "label": "FUNDlei"
   },
   {
+    "text": "§ 3º do art . 17 da Lei nº 11.952 / 09",
     "label": "FUNDlei"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-§ 3º Os títulos emitidos pelo Incra entre 1º de maio de 2008 e 10 de fevereiro de 2009 para ocupantes em terras públicas federais na Amazônia Legal terão seus valores passíveis de enquadramento ao previsto nesta Lei , desde que requerido pelo interessado e nos termos do regulamento . ”
+Pressupõe-se , pelo disposto no art . 33 da referida Lei , que o Programa tem previsão de concluir suas ações até o ano de 2014 , podendo ser renovado por igual período .
 
 Entidades verdadeiras:
 [
   {
-    "label": "ORGgovernamental",
-    "text": "Incra"
-  },
-  {
     "label": "DATA",
-    "text": "1º de maio de 2008"
-  },
-  {
-    "label": "DATA",
-    "text": "10 de fevereiro de 2009"
-  },
-  {
-    "label": "LOCALconcreto",
-    "text": "Amazônia Legal"
+    "text": "2014"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "ORGgovernamental"
+    "text": "art . 33",
+    "label": "FUNDlei"
   },
   {
-    "label": "LOCALconcreto"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Referido dispositivo possibilita que os títulos emitidos pelo Incra , entre 1º de maio de 2008 e 10 de fevereiro de 2009 , tenham seus valores enquadrados nas regras do Programa Terra Legal que , cabe ressaltar , são bastante vantajosas para os titulados .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "ORGgovernamental",
-    "text": "Incra"
-  },
-  {
-    "label": "DATA",
-    "text": "1º de maio de 2008"
-  },
-  {
-    "label": "DATA",
-    "text": "10 de fevereiro de 2009"
-  },
-  {
-    "label": "PRODUTOprograma",
-    "text": "Programa Terra Legal"
-  }
-]
-
-Entidades previstas:
-[
-  {
+    "text": "2014",
     "label": "DATA"
-  },
-  {
-    "label": "DATA"
-  },
-  {
-    "label": "PRODUTOprograma"
   }
 ]
 
@@ -1019,32 +887,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "2019",
     "label": "DATA"
   },
   {
+    "text": "EMIDINHO MADEIRA",
     "label": "PESSOAindividual"
   },
   {
+    "text": "DIEGO ANDRADE",
     "label": "PESSOAindividual"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-Art . 2º Fica criada subvenção econômica na forma de equalização de preços a ser concedida a produtores rurais , ou a suas cooperativas , que promovam a venda de café por valor que se situe entre o preço de referência e o preço teto estabelecidos na forma deste artigo
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PESSOAgrupocargo",
-    "text": "produtores rurais"
-  }
-]
-
-Entidades previstas:
-[
-  {
-    "label": "ORGnaogovernamental"
   }
 ]
 
@@ -1067,12 +919,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "DATA"
-  },
-  {
-    "label": "PRODUTOoutros"
-  },
-  {
+    "text": "período agrícola 2019 / 2020",
     "label": "PRODUTOoutros"
   }
 ]
@@ -1096,7 +943,32 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Poder Público",
     "label": "ORGgovernamental"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 7 6 5 / 2 0 1 9 A p re s e n ta ç ã o : 2 9 / 0 8 / 2 0 1 9 1 0 : 1 7 3 A medida contribuirá para a sustentação dos preços do café , bem como para a manutenção da atividade de pequenos cafeicultores , em especial em períodos de crise no setor .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOAgrupocargo",
+    "text": "cafeicultores"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "café",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "pequenos cafeicultores",
+    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -1127,18 +999,23 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "EMIDINHO MADEIRA",
     "label": "PESSOAindividual"
   },
   {
+    "text": "Deputado",
     "label": "PESSOAcargo"
   },
   {
+    "text": "DIEGO ANDRADE",
     "label": "PESSOAindividual"
   },
   {
+    "text": "2019",
     "label": "DATA"
   }
 ]
@@ -1166,16 +1043,16 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Joaquim Beltrão",
     "label": "PESSOAindividual"
   },
   {
+    "text": "art . 27 da Lei nº 4.771 , de 15 de setembro de 1965",
     "label": "FUNDlei"
   },
   {
+    "text": "Código Florestal",
     "label": "FUNDapelido"
-  },
-  {
-    "label": "PRODUTOoutros"
   }
 ]
 
@@ -1194,6 +1071,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "SUDENE",
     "label": "LOCALconcreto"
   }
 ]
@@ -1225,6 +1103,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "SUDENE",
     "label": "LOCALconcreto"
   }
 ]
@@ -1248,26 +1127,40 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "agricultores",
     "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "Nordeste",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "fevereiro de 2011",
+    "label": "DATA"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-O primeiro concerne à topografia predominantemente ondulada da zona canavieira nordestina : tal característica é fator impeditivo ao uso de máquinas para o corte da cana com a tecnologia atualmente disponível .
+Socialmente , deve-se levar em conta que cada colhedora de cana substitui até 80 trabalhadores rurais .
 
 Entidades verdadeiras:
 [
   {
-    "label": "LOCALconcreto",
-    "text": "zona canavieira nordestina"
+    "label": "PESSOAgrupocargo",
+    "text": "trabalhadores rurais"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "PRODUTOoutros"
+    "text": "colhedora",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "trabalhadores rurais",
+    "label": "PESSOAgrupocargo"
   }
 ]
 
@@ -1294,9 +1187,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Lei nº 4.771 , de 15 de setembro de 1965",
     "label": "FUNDlei"
   },
   {
+    "text": "Código Florestal",
     "label": "FUNDapelido"
   }
 ]
@@ -1324,32 +1219,52 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "inciso XIII do art . 9º da Lei nº 6.938 , de 31 de agosto de 1981",
     "label": "FUNDlei"
   },
   {
+    "text": "Política Nacional de Meio Ambiente",
     "label": "FUNDapelido"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-As características da sociedade civil sem fins lucrativos são delineadas pela legislação mencionada no parágrafo anterior , notadamente quanto à : a ) atos constitutivos ; b ) composição mínima , em número de pessoas , para integrar a Assembléia de Fundação , bem como número mínimo dos controladores ; c ) atribuições , direitos e responsabilidades da categoria de pessoas que ficam investidas dos poderes de administração da sociedade ; d ) condições para a aceitação dos nomes dos dirigentes para poderem ser empossados , fixados pelo Órgão Fiscalizador do Governo Federal ; e ) como efetuar a aplicação dos recursos garantidores dos planos de benefícios das entidades ; f ) outros itens a serem cumpridos pelas entidades em relação à solvência e ao pagamento de benefícios .
+No caso da reserva florestal legal , preferimos , num primeiro momento , não incluí-la no sistema PSA , uma vez que a área não é de preservação permanente e pode ser explorada economicamente , por seu proprietário , sob regime de manejo florestal sustentável .
 
 Entidades verdadeiras:
 [
   {
-    "label": "ORGgovernamental",
-    "text": "Órgão Fiscalizador do Governo Federal"
+    "label": "PRODUTOoutros",
+    "text": "PSA"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "ORGnaogovernamental"
-  },
+    "text": "proprietário",
+    "label": "PESSOAcargo"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO O Código Civil de 1916 previa , no art . 16 , a existência das sociedades civis sem fins lucrativos .
+
+Entidades verdadeiras:
+[
   {
-    "label": "ORGgovernamental"
+    "label": "FUNDlei",
+    "text": "Código Civil de 1916"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Código Civil de 1916",
+    "label": "FUNDapelido"
   }
 ]
 
@@ -1372,28 +1287,11 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Código Civil",
     "label": "FUNDapelido"
   },
   {
-    "label": "ORGgovernamental"
-  }
-]
-
---------------------------------------------------------------------------------
-Texto:
-É de se ressaltar que o assunto sob comento não se insere naqueles cujos projetos de lei possuem a reserva de iniciativa do Chefe do Poder Executivo , uma vez que trata de um procedimento anterior à investidura em cargo público , quando os interessados nas vagas disponíveis ainda se encontram na condição de candidatos e não de servidores públicos .
-
-Entidades verdadeiras:
-[
-  {
-    "label": "PESSOAcargo",
-    "text": "Chefe do Poder Executivo"
-  }
-]
-
-Entidades previstas:
-[
-  {
+    "text": "Registro Civil das Pessoas Jurídicas",
     "label": "ORGgovernamental"
   }
 ]
@@ -1413,35 +1311,84 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "FUNDlei"
+    "text": "26 de abril de 2001",
+    "label": "DATA"
   },
   {
+    "text": "ESTADO DO ESPÍRITO SANTO",
     "label": "LOCALconcreto"
   }
 ]
 
 --------------------------------------------------------------------------------
 Texto:
-JUSTIFICAÇÃO A presente proposição busca contribuir para a superação , em definitivo , de disputa relacionada com o pagamento às concessionárias de transmissão de energia elétrica de valores referentes aos ativos não depreciados por ocasião da prorrogação de concessões vincendas por período de 30 anos , realizada em dezembro de 2012 , a qual vem trazendo grande inquietação para o setor de transmissão de energia elétrica e , por extensão , para todo o setor elétrico .
+Noutro giro , não ofende a Carta Magna a utilização do salário mínimo como critério de aferição do nível de pobreza dos aspirantes às carreiras púbicas , para fins de concessão do benefício de que trata a Lei capixaba nº 6.663 / 01 .
 
 Entidades verdadeiras:
 [
   {
-    "label": "DATA",
-    "text": "dezembro de 2012"
+    "label": "FUNDapelido",
+    "text": "Carta Magna"
+  },
+  {
+    "label": "PRODUTOoutros",
+    "text": "salário mínimo"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "Lei capixaba nº 6.663 / 01"
   }
 ]
 
 Entidades previstas:
 [
   {
-    "label": "DATA"
+    "text": "Carta Magna",
+    "label": "FUNDapelido"
   },
   {
-    "label": "PRODUTOoutros"
+    "text": "Lei capixaba nº 6.663 / 01",
+    "label": "FUNDlei"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+SILAS CÂMARA e VINÍCIUS CARVALHO ) Dispõe sobre a atualização do valor dos ativos das concessionárias de transmissão de energia elétrica considerados não depreciados existentes em 31 de maio de 2000 O Congresso Nacional decreta : Art . 1º O art . 15 da Lei nº 12.783 , 11 de janeiro de 2013 , passa a vigorar acrescido do seguinte § 3º-A : “ Art . 15
+
+Entidades verdadeiras:
+[
+  {
+    "label": "PESSOAindividual",
+    "text": "SILAS CÂMARA"
   },
   {
-    "label": "PRODUTOoutros"
+    "label": "PESSOAindividual",
+    "text": "VINÍCIUS CARVALHO"
+  },
+  {
+    "label": "DATA",
+    "text": "31 de maio de 2000"
+  },
+  {
+    "label": "FUNDlei",
+    "text": "art . 15 da Lei nº 12.783 , 11 de janeiro de 2013"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SILAS CÂMARA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "VINÍCIUS CARVALHO",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "art . 15 da Lei nº 12.783 , 11 de janeiro de 2013",
+    "label": "FUNDlei"
   }
 ]
 
@@ -1464,9 +1411,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Medida Provisória nº 579 , de 11 de setembro de 2012",
     "label": "FUNDprojetodelei"
   },
   {
+    "text": "31 de maio de 2000",
     "label": "DATA"
   }
 ]
@@ -1498,18 +1451,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Lei nº 12.783 , 11 de janeiro de 2013",
     "label": "FUNDlei"
   },
   {
-    "label": "FUNDlei"
-  },
-  {
+    "text": "Poder Concedente",
     "label": "ORGgovernamental"
   },
   {
-    "label": "ORGgovernamental"
-  },
-  {
+    "text": "Aneel",
     "label": "ORGgovernamental"
   }
 ]
@@ -1537,15 +1487,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "poder concedente",
     "label": "ORGgovernamental"
   },
   {
-    "label": "ORGgovernamental"
-  },
-  {
+    "text": "art . 17 da Lei nº 9.074 , de 1995",
     "label": "FUNDlei"
   },
   {
+    "text": "Aneel",
     "label": "ORGgovernamental"
   }
 ]
@@ -1581,9 +1531,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Portaria nº 120 , de 20 de abril de 2016",
     "label": "FUNDlei"
   },
   {
+    "text": "Ministério de Minas e Energia",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "ANEEL",
     "label": "ORGgovernamental"
   }
 ]
@@ -1611,9 +1567,19 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "§ 2º do art . 15 da MP 579 / 2012",
     "label": "FUNDlei"
   },
   {
+    "text": "31 de maio de 2000",
+    "label": "DATA"
+  },
+  {
+    "text": "caput",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "concessionárias de transmissão",
     "label": "ORGgovernamental"
   }
 ]
@@ -1645,10 +1611,8 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "ANEEL",
     "label": "ORGgovernamental"
-  },
-  {
-    "label": "PRODUTOoutros"
   }
 ]
 
@@ -1671,12 +1635,7 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "DATA"
-  },
-  {
-    "label": "ORGgovernamental"
-  },
-  {
+    "text": "Reserva Global de Reversão - RGR",
     "label": "PRODUTOoutros"
   }
 ]
@@ -1704,12 +1663,15 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
-    "label": "PESSOAcargo"
+    "text": "ANEEL",
+    "label": "ORGgovernamental"
   },
   {
+    "text": "§ 3º do art . 4º da Resolução Normativa nº 762 , de 21 de fevereiro de 2017",
     "label": "FUNDlei"
   },
   {
+    "text": "2017 - 2018",
     "label": "DATA"
   }
 ]
@@ -1737,9 +1699,31 @@ Entidades verdadeiras:
 Entidades previstas:
 [
   {
+    "text": "Comissão de Valores Mobiliários - CVM",
     "label": "ORGgovernamental"
+  }
+]
+
+--------------------------------------------------------------------------------
+Texto:
+No intuito de contribuir para uma solução definitiva para a questão do pagamento de valor relativo aos ativos de transmissoras de energia elétrica não depreciados existentes em 31 de maio de 2000 é que se apresenta o presente projeto de lei , que explicita que a atualização do mencionado valor compreende a correção monetária e o custo médio ponderado de capital , definido pela Aneel , que não tenham sido incorporados às tarifas de transmissão de energia elétrica entre a data de prorrogação das concessões e o efetivo reconhecimento dessa atualização nessas tarifas .
+
+Entidades verdadeiras:
+[
+  {
+    "label": "DATA",
+    "text": "31 de maio de 2000"
   },
   {
+    "label": "ORGgovernamental",
+    "text": "Aneel"
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Aneel",
     "label": "ORGgovernamental"
   }
 ]

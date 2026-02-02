@@ -1,0 +1,44 @@
+
+====== FOLD 0 ======
+- DATA: Precision=0.958, Recall=1.000, F1=0.979
+- EVENTO: Precision=1.000, Recall=0.143, F1=0.250
+- FUNDapelido: Precision=0.846, Recall=0.917, F1=0.880
+- FUNDlei: Precision=1.000, Recall=0.978, F1=0.989
+- FUNDprojetodelei: Precision=0.000, Recall=0.000, F1=0.000
+- LOCALconcreto: Precision=0.941, Recall=0.889, F1=0.914
+- LOCALvirtual: Precision=0.000, Recall=0.000, F1=0.000
+- ORGgovernamental: Precision=0.923, Recall=0.818, F1=0.867
+- ORGnaogovernamental: Precision=0.000, Recall=0.000, F1=0.000
+- ORGpartido: Precision=1.000, Recall=0.857, F1=0.923
+- PESSOAcargo: Precision=0.947, Recall=0.900, F1=0.923
+- PESSOAgrupocargo: Precision=1.000, Recall=0.818, F1=0.900
+- PESSOAindividual: Precision=1.000, Recall=1.000, F1=1.000
+- PRODUTOoutros: Precision=0.667, Recall=0.700, F1=0.683
+- PRODUTOprograma: Precision=0.667, Recall=1.000, F1=0.800
+- PRODUTOsistema: Precision=1.000, Recall=1.000, F1=1.000
+
+Macro Avg: Precision=0.747, Recall=0.689, F1=0.694
+Micro Avg: Precision=0.918, Recall=0.881, F1=0.899
+==================================================
+
+====== FOLD 1 ======
+- DATA: Precision=0.963, Recall=0.981, F1=0.972
+- EVENTO: Precision=1.000, Recall=0.500, F1=0.667
+- FUNDapelido: Precision=0.875, Recall=0.824, F1=0.848
+- FUNDlei: Precision=0.922, Recall=0.959, F1=0.940
+- FUNDprojetodelei: Precision=0.000, Recall=0.000, F1=0.000
+- LOCALconcreto: Precision=0.927, Recall=0.927, F1=0.927
+- LOCALvirtual: Precision=1.000, Recall=0.500, F1=0.667
+- ORGgovernamental: Precision=0.931, Recall=0.844, F1=0.885
+- ORGnaogovernamental: Precision=0.909, Recall=0.909, F1=0.909
+- ORGpartido: Precision=0.833, Recall=1.000, F1=0.909
+- PESSOAcargo: Precision=0.917, Recall=0.917, F1=0.917
+- PESSOAgrupocargo: Precision=0.909, Recall=0.909, F1=0.909
+- PESSOAindividual: Precision=1.000, Recall=1.000, F1=1.000
+- PRODUTOoutros: Precision=0.571, Recall=0.857, F1=0.686
+- PRODUTOprograma: Precision=0.900, Recall=0.750, F1=0.818
+- PRODUTOsistema: Precision=1.000, Recall=0.667, F1=0.800
+
+Macro Avg: Precision=0.854, Recall=0.784, F1=0.803
+Micro Avg: Precision=0.912, Recall=0.907, F1=0.909
+==================================================
