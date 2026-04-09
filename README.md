@@ -2,7 +2,7 @@
 
 ## About
 
-This project presents a comprehensive comparative study of **Named Entity Recognition (NER)** in Portuguese, evaluating state-of-the-art approaches for information extraction. We investigate the effectiveness of fine-tuning and few-shot learning techniques across two large language models (LLMs) and transformer-based architecture on diverse Portuguese datasets.
+This project presents a comprehensive comparative study of **Named Entity Recognition (NER)** in Portuguese, evaluating state-of-the-art approaches for information extraction. We investigate the effectiveness of fine-tuning and few-shot learning techniques across the BERT transformer-based model and large language models (LLMs) such as LLAMA and QWEN on diverse Portuguese datasets. The study employs iterative stratification for dataset partitioning, ensuring balanced distribution of entity types across folds to provide robust cross-validation and reliable performance estimation.
 
 ## Overview
 
@@ -75,10 +75,11 @@ If you use this project in your research, please cite our work:
 @article{[YourProjectYear],
     author={[Julia Ribeiro and Denilson Alves Pereira]},
     title={{Benchmarking Named Entity Recognition in the Portuguese Language}},
-    journal={[Computer Speech & Language]},
+    journal={[Journal of the Brazilian Computer Society]},
     year={[2026]},
     doi={[DOI]},
-    url={[URL]}
+    url={[URL]},
+    note={[submitted]}
 }
 ```
 
