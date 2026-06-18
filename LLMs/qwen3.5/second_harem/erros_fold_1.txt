@@ -1,0 +1,8176 @@
+--------------------------------------------------------------------------------
+Texto:
+Os preços de diversos bens e serviços vão aumentar, no próximo ano , acima da inflação de 2,1% prevista pelo Governo para 2008 , com destaque para o pão, com os industriais do sector a estimarem uma evolução de dois dígitos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "2,1%",
+    "label": "VALOR",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "para 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "de 2,1%",
+    "label": "VALOR"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "para 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "dois dígitos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('2,1%', 'VALOR')]
+Espúrias  (FP): [('de 2,1%', 'VALOR'), ('dois dígitos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+A maioria dos consumidores domésticos podem assim esperar uma subida da factura mensal de 1,08 euros no próximo ano , mas os clientes industriais sofrerão um aumento médio de 3,0% , com maior peso para os de muita alta tensão ( MAT ) e alta tensão ( AT ) que terão uma subida de 3,9% .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1,08 euros",
+    "label": "VALOR",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "3,0%",
+    "label": "VALOR",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "MAT",
+    "label": "OUTRO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "AT",
+    "label": "OUTRO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "3,9%",
+    "label": "VALOR",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "3,0%",
+    "label": "VALOR"
+  },
+  {
+    "text": "MAT",
+    "label": "COISA"
+  },
+  {
+    "text": "AT",
+    "label": "COISA"
+  },
+  {
+    "text": "3,9%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('1,08 euros', 'VALOR'), ('MAT', 'OUTRO'), ('AT', 'OUTRO')]
+Espúrias  (FP): [('MAT', 'COISA'), ('AT', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os clientes de média tensão ( MT ) terão um aumento de 2,7% , enquanto os de baixa tensão especial ( BTE ), normalmente pequenas empresas, terão um aumento de 2,5% .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MT",
+    "label": "OUTRO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "2,7%",
+    "label": "VALOR",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "BTE",
+    "label": "OUTRO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "2,5%",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MT",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "2,7%",
+    "label": "VALOR"
+  },
+  {
+    "text": "BTE",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "2,5%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('MT', 'OUTRO'), ('BTE', 'OUTRO')]
+Espúrias  (FP): [('MT', 'ABSTRACCAO'), ('BTE', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um dos casos em que a subida dos preços mais ultrapassa o valor da inflação prevista pelo Governo é o do pão, que deverá aumentar 10 a 15% em Janeiro ou Fevereiro , segundo contas feitas pela direcção da Associação dos Industriais de Panificação, Pastelaria e Similares do Norte | Associação dos Industriais de Panificação, Pastelaria e Similares do Norte ( AIPAN ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "10 a 15%",
+    "label": "VALOR",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Fevereiro",
+    "label": "TEMPO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Associação dos Industriais de Panificação, Pastelaria e Similares do Norte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Associação dos Industriais de Panificação, Pastelaria e Similares",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Norte",
+    "label": "LOCAL",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em Janeiro ou Fevereiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "10 a 15%",
+    "label": "VALOR"
+  },
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Fevereiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Associação dos Industriais de Panificação, Pastelaria e Similares do Norte",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AIPAN",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Governo', 'ORGANIZACAO'), ('Associação dos Industriais de Panificação, Pastelaria e Similares', 'ORGANIZACAO'), ('Norte', 'LOCAL')]
+Espúrias  (FP): [('em Janeiro ou Fevereiro', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Desde o último aumento do preço do pão, em Janeiro de 2004 , o preço da farinha mais do que duplicou, o das leveduras subiu 40% , o da energia 25% , o do gás 32% , o do gasóleo 70% e os custos com pessoal 14% , explicou.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em Janeiro de 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "40%",
+    "label": "VALOR",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "25%",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "32%",
+    "label": "VALOR",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "70%",
+    "label": "VALOR",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "14%",
+    "label": "VALOR",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Desde o último aumento do preço do pão",
+    "label": "TEMPO"
+  },
+  {
+    "text": "em Janeiro de 2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "40%",
+    "label": "VALOR"
+  },
+  {
+    "text": "25%",
+    "label": "VALOR"
+  },
+  {
+    "text": "32%",
+    "label": "VALOR"
+  },
+  {
+    "text": "70%",
+    "label": "VALOR"
+  },
+  {
+    "text": "14%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Desde o último aumento do preço do pão', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Associação Nacional dos Industriais de Arroz ( ANIA ) explicou que um conjunto de factores a nível do mercado internacional - aumento do preço das matérias-primas com parte da produção a ser desviada para o fabrico de biocombustíveis - provocou em Portugal um acréscimo do valor por tonelada de 200 a 230 euros em 2006 para 280 a 290 euros este ano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação Nacional dos Industriais de Arroz",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "ANIA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "200 a 230 euros",
+    "label": "VALOR",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "em 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "280 a 290 euros",
+    "label": "VALOR",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO",
+    "token_indices": [
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Associação Nacional dos Industriais de Arroz",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ANIA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "200 a 230 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "280 a 290 euros",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Portugal', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nos transportes públicos, a subida é, em média, de 3,9% , e nas portagens das auto-estradas será de 2,6% , também, em média, seguindo o estipulado na lei, que obriga as concessionárias a apresentar " até 15 de Novembro as propostas de aumentos de portagens, tendo como por base a última inflação homóloga conhecida.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "3,9%",
+    "label": "VALOR",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "2,6%",
+    "label": "VALOR",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "até 15 de Novembro",
+    "label": "TEMPO",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "até 15 de Novembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "até 15 de Novembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('3,9%', 'VALOR'), ('2,6%', 'VALOR')]
+Espúrias  (FP): [('até 15 de Novembro', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O tabaco também vai pesar mais na carteira: o Governo decidiu em 2005 que o Imposto sobre o Tabaco teria um aumento médio anual de 15% até 2009 e, a partir de Janeiro de 2008 , um maço das marcas mais comercializadas poderá mesmo aumentar, em média, 30 cêntimos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "em 2005",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Imposto sobre o Tabaco",
+    "label": "OUTRO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "15%",
+    "label": "VALOR",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "até 2009",
+    "label": "TEMPO",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "a partir de Janeiro de 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "30 cêntimos",
+    "label": "VALOR",
+    "token_indices": [
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 2005",
+    "label": "TEMPO"
+  },
+  {
+    "text": "até 2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "a partir de Janeiro de 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "30 cêntimos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Imposto sobre o Tabaco', 'OUTRO'), ('15%', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sem contas fechadas, os CTT adiantam que «os preços dos serviços de correios não vão aumentar já em Janeiro » e, na água, o Instituto Regulador das Águas e Resíduos ( IRAR ) diz que o procedimento para 2008 está actualmente em curso, prevendo-se a sua conclusão em Janeiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CTT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Instituto Regulador das Águas e Resíduos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "IRAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "para 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CTT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Instituto Regulador das Águas e Resíduos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IRAR",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('para 2008', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quanto às empresas concessionárias dos sistemas municipais, as tarifas são definidas no momento do estabelecimento da concessão e actualizadas de acordo com as regras constantes do respectivo contrato com aprovação pelo município.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "no momento",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('no momento', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O " Indexante de Apoios Sociais ( IAS ), o referencial de actualização e cálculo das prestações sociais, deverá situar-se nos 407,4 euros , o que traduz um crescimento de 2,4% , a partir de Janeiro do próximo ano , segundo as contas feitas pela agência Lusa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Indexante de Apoios Sociais",
+    "label": "OUTRO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "IAS",
+    "label": "OUTRO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "407,4 euros",
+    "label": "VALOR",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "2,4%",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "a partir de Janeiro do próximo ano",
+    "label": "TEMPO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Indexante de Apoios Sociais",
+    "label": "COISA"
+  },
+  {
+    "text": "IAS",
+    "label": "COISA"
+  },
+  {
+    "text": "407,4 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "2,4%",
+    "label": "VALOR"
+  },
+  {
+    "text": "a partir de Janeiro do próximo ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "agência Lusa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Indexante de Apoios Sociais', 'OUTRO'), ('IAS', 'OUTRO'), ('Lusa', 'ORGANIZACAO')]
+Espúrias  (FP): [('Indexante de Apoios Sociais', 'COISA'), ('IAS', 'COISA'), ('agência Lusa', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em relação à actualização das pensões atribuídas pelo sistema de Segurança Social , as pensões de valor igual ou inferior a 1,5 IAS ( 611,10 euros ) são actualizadas em 2,7% , as pensões entre 1,5 IAS e 6 IAS tem uma actualização de 2,17% e as pensões de valor superior a 6 IAS tem um aumento de 1,88% .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Segurança Social",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "1,5 IAS",
+    "label": "VALOR",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "611,10 euros",
+    "label": "VALOR",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "2,7%",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "entre 1,5 IAS e 6 IAS",
+    "label": "VALOR",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "2,17%",
+    "label": "VALOR",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "6 IAS",
+    "label": "VALOR",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "1,88%",
+    "label": "VALOR",
+    "token_indices": [
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Segurança Social",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1,5 IAS",
+    "label": "VALOR"
+  },
+  {
+    "text": "611,10 euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "2,7%",
+    "label": "VALOR"
+  },
+  {
+    "text": "1,5 IAS",
+    "label": "VALOR"
+  },
+  {
+    "text": "6 IAS",
+    "label": "VALOR"
+  },
+  {
+    "text": "2,17%",
+    "label": "VALOR"
+  },
+  {
+    "text": "6 IAS",
+    "label": "VALOR"
+  },
+  {
+    "text": "1,88%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('entre 1,5 IAS e 6 IAS', 'VALOR')]
+Espúrias  (FP): [('1,5 IAS', 'VALOR'), ('6 IAS', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Estes valores foram calculados com base na lei 53-B/2006, de 29 de Dezembro , que cria o indexante dos apoios sociais e novas regras de actualização das pensões e outras prestações sociais do sistema de Segurança Social .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de 29 de Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Segurança Social",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "lei 53-B/2006, de 29 de Dezembro",
+    "label": "OBRA"
+  },
+  {
+    "text": "Segurança Social",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('de 29 de Dezembro', 'TEMPO')]
+Espúrias  (FP): [('lei 53-B/2006, de 29 de Dezembro', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROVA TERÁ PERTO DE 6.000 QUILÓMETROS
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PERTO DE 6.000 QUILÓMETROS",
+    "label": "VALOR",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "6.000 QUILÓMETROS",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('PERTO DE 6.000 QUILÓMETROS', 'VALOR')]
+Espúrias  (FP): [('6.000 QUILÓMETROS', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+A 30.ª | 30.ª edição do Dakar vai partir de Lisboa no dia 5 de Janeiro com a chegada ao Senegal marcada para 20 , numa competição que terá no próximo ano perto de 6.000 quilómetros de provas especiais.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "30.ª",
+    "label": "VALOR",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Dakar",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "no dia 5 de Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Senegal",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "para 20",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "perto de 6.000 quilómetros",
+    "label": "VALOR",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "30.ª",
+    "label": "TEMPO"
+  },
+  {
+    "text": "30.ª",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dakar",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "no dia 5 de Janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Senegal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "20",
+    "label": "TEMPO"
+  },
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "6.000 quilómetros",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('30.ª', 'VALOR'), ('para 20', 'TEMPO'), ('perto de 6.000 quilómetros', 'VALOR')]
+Espúrias  (FP): [('30.ª', 'TEMPO'), ('30.ª', 'TEMPO'), ('20', 'TEMPO'), ('6.000 quilómetros', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 2006 e 2007 ficámos nos 4.000 , 5.000 quilómetros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "2007",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "4.000 , 5.000 quilómetros",
+    "label": "VALOR",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em 2006 e 2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "4.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "5.000",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Em 2006', 'TEMPO'), ('2007', 'TEMPO'), ('4.000 , 5.000 quilómetros', 'VALOR')]
+Espúrias  (FP): [('Em 2006 e 2007', 'TEMPO'), ('4.000', 'VALOR'), ('5.000', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 2008 , queremos mais especiais e menos ligações", afirmou o director do Lisboa-Dakar | director do Lisboa-Dakar , Etienne Lavigne , durante a apresentação da prova.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Lisboa-Dakar",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "director do Lisboa-Dakar",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Etienne Lavigne",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lisboa-Dakar",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "director do Lisboa-Dakar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Etienne Lavigne",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lisboa-Dakar",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Lisboa-Dakar', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A partida da edição de 2008 está marcada para a Praça do Império , em Lisboa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Praça do Império",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "da edição de 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Praça do Império",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('de 2008', 'TEMPO')]
+Espúrias  (FP): [('da edição de 2008', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Existe muita instabilidade neste momento em alguns países africanos. São zonas de risco onde não poderíamos a 100 por cento garantir a segurança, não só dos pilotos, mas de todo o staff que está envolvido na prova", justificou Etienne Lavigne , revelando que o Plano de Segurança Rodoviária que tinha sido criado para a última edição foi reformulado.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "neste momento",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Etienne Lavigne",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Plano de Segurança Rodoviária",
+    "label": "OBRA",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "a 100 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "Etienne Lavigne",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Plano de Segurança Rodoviária",
+    "label": "OBRA"
+  },
+  {
+    "text": "para a última edição",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('neste momento', 'TEMPO')]
+Espúrias  (FP): [('a 100 por cento', 'VALOR'), ('para a última edição', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Estamos muito perto dos desenhos finais dos percursos. Não podemos tornar público, mas temos trabalhado intensamente nesse sentido. Não há muito para mud ar. Os padrões estão de tal maneira elevados que é difícil fazer melhor", afirmou João Lagos , empresário responsável pela parte portuguesa do Lisboa-Dakar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "João Lagos",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Lisboa-Dakar",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lisboa-Dakar",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "João Lagos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Lisboa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+De acordo com os números revelados hoje pela organização, na edição 2007 do rali mais de um milhão de pessoas assistiram à passagem por Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "2007",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "na edição 2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('2007', 'TEMPO')]
+Espúrias  (FP): [('na edição 2007', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foram anos fantásticos, com uma adesão fantástica e um ambiente extraordinário", sublinhou João Lagos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "anos",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "João Lagos",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "João Lagos",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('anos', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Telescópios, brinquedos, livros, um simulador de voo, sessões de observação do sol e do céu nocturno e foguetões de água vão estar, entre sexta-feira e domingo , em Cascais , à disposição dos visitantes da FASCINIO - Feira de Astronomia e Ciência .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "entre sexta-feira e domingo",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Cascais",
+    "label": "LOCAL",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "FASCINIO - Feira de Astronomia e Ciência",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "entre sexta-feira e domingo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Cascais",
+    "label": "LOCAL"
+  },
+  {
+    "text": "FASCINIO",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Feira de Astronomia e Ciência",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('FASCINIO - Feira de Astronomia e Ciência', 'ACONTECIMENTO')]
+Espúrias  (FP): [('FASCINIO', 'ACONTECIMENTO'), ('Feira de Astronomia e Ciência', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Organizada pelo Núcleo Interactivo de Astronomia ( NUCLIO ) no Centro de Interpretação Ambiental da Ponta do Sal | Centro de Interpretação Ambiental da Ponta do Sal , em São Pedro do Estoril , a quarta edição da iniciativa inclui sessões de observação do sol e do céu nocturno, oficinas de astronomia, lançamentos de foguetões de água, palestras e uma "procura de asteróides", actividade que a instituição promove regularmente nas escolas do concelho.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Núcleo Interactivo de Astronomia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "NUCLIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Centro de Interpretação Ambiental da Ponta do Sal",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Centro de Interpretação Ambiental",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Ponta do Sal",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "São Pedro do Estoril",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "regularmente",
+    "label": "TEMPO",
+    "token_indices": [
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Núcleo Interactivo de Astronomia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "NUCLIO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Centro de Interpretação Ambiental da Ponta do Sal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Centro de Interpretação Ambiental",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ponta do Sal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Pedro do Estoril",
+    "label": "LOCAL"
+  },
+  {
+    "text": "a quarta edição",
+    "label": "TEMPO"
+  },
+  {
+    "text": "regularmente",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('a quarta edição', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+"A feira destina-se ao público em geral, embora o programa de sexta-feira esteja muito pensado para as escolas, com actividades para os primeiros ciclos, e sábado tenha actividades para os professores, com uma pequena mostra das actividades do NUCLIO ", disse à Agência Lusa a astrónoma Rosa Doran .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de sexta-feira",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "sábado",
+    "label": "TEMPO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "NUCLIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Agência Lusa",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Rosa Doran",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "sexta-feira",
+    "label": "TEMPO"
+  },
+  {
+    "text": "NUCLIO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Agência Lusa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rosa Doran",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('de sexta-feira', 'TEMPO'), ('sábado', 'TEMPO'), ('Agência Lusa', 'PESSOA')]
+Espúrias  (FP): [('sexta-feira', 'TEMPO'), ('Agência Lusa', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+" Sexta-feira estão previstas actividades para as escolas, a que chamámos 'sexta-feira divertida', dedicadas ao conhecimento das estrelas e constelações e ainda observação do Sol com Telescópios | Telescópios e construir enfeites de Natal | de Natal com motivos de astronomia", acrescentou.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sexta-feira",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Sol",
+    "label": "COISA",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Telescópios",
+    "label": "COISA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "de Natal",
+    "label": "TEMPO",
+    "token_indices": [
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sexta-feira",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Telescópios",
+    "label": "COISA"
+  },
+  {
+    "text": "Sol",
+    "label": "COISA"
+  },
+  {
+    "text": "Telescópios",
+    "label": "COISA"
+  },
+  {
+    "text": "Natal",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('de Natal', 'TEMPO')]
+Espúrias  (FP): [('Telescópios', 'COISA'), ('Natal', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Haverá observação nocturna do céu com telescópios e será ainda apresentado o programa do Observatório Astronómico da Universidade de Coimbra | Observatório Astronómico da Universidade de Coimbra | Observatório Astronómico da Universidade de Coimbra " Sol para Todos ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Observatório Astronómico da Universidade de Coimbra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Observatório Astronómico",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Universidade de Coimbra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Observatório Astronómico",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Sol para Todos",
+    "label": "OBRA",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Observação",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Observatório Astronómico da Universidade de Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Observatório Astronómico",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Universidade de Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sol para Todos",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Observatório Astronómico da Universidade de Coimbra', 'ORGANIZACAO'), ('Observatório Astronómico', 'ORGANIZACAO'), ('Universidade de Coimbra', 'ORGANIZACAO'), ('Observatório Astronómico', 'ORGANIZACAO'), ('Universidade', 'ORGANIZACAO'), ('Coimbra', 'LOCAL')]
+Espúrias  (FP): [('Observação', 'ACONTECIMENTO'), ('Observatório Astronómico da Universidade de Coimbra', 'LOCAL'), ('Observatório Astronómico', 'LOCAL'), ('Universidade de Coimbra', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+"O Observatório de Coimbra | Observatório de Coimbra tem um grande acervo de imagens do Sol , que registam diariamente desde os anos vinte do século passado , e estão a digitalizar essas imagens para que possam estar à disposição das escolas", explica Rosa Doran , realçando que desta forma "os meninos podem fazer ciência na própria sala de aula, podem ver a evolução das manchas do sol nas últimas décadas e comparar essa evolução, por exemplo, com as mudanças do clima".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Observatório de Coimbra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Observatório",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Sol",
+    "label": "COISA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "diariamente",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "desde os anos vinte do século passado",
+    "label": "TEMPO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Rosa Doran",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "nas últimas décadas",
+    "label": "TEMPO",
+    "token_indices": [
+      68,
+      69,
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Observatório de Coimbra",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Observatório",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sol",
+    "label": "COISA"
+  },
+  {
+    "text": "desde os anos vinte do século passado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Rosa Doran",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('diariamente', 'TEMPO'), ('nas últimas décadas', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo a responsável, um dos principais objectivos da FASCINIO é dar também a conhecer a oferta existente na área e valorizar o trabalho dos profissionais portugueses, "muito ligados" à investigação de vanguarda e pouco reconhecidos pelo grande público.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FASCINIO",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FASCINIO",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('FASCINIO', 'ACONTECIMENTO')]
+Espúrias  (FP): [('FASCINIO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Nossa Galáxia
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Nossa Galáxia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Nossa Galáxia', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O NUCLIO vai por isso assinar sábado um protocolo com a Câmara Municipal de Cascais | Câmara Municipal de Cascais para que o Centro de Interpretação Ambiental seja disponibilizado para as suas actividades junto da comunidade escolar. De acordo com o documento, a autarquia irá ainda apoiar a formação agendada para o presente ano lectivo com vinte mil euros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "NUCLIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "sábado",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Câmara Municipal de Cascais",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Câmara Municipal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Cascais",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Centro de Interpretação Ambiental",
+    "label": "LOCAL",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "para o presente ano lectivo",
+    "label": "TEMPO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "NUCLIO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "sábado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Câmara Municipal de Cascais",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Câmara Municipal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cascais",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Centro de Interpretação Ambiental",
+    "label": "LOCAL"
+  },
+  {
+    "text": "para o presente ano lectivo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "vinte mil euros",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('vinte mil euros', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Durante a feira será também apresentado o livro de divulgação científica " Passeio Aleatório pela ciência do dia-a-dia ", com a presença do autor Nuno Crespo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Passeio Aleatório pela ciência do dia-a-dia",
+    "label": "OBRA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Nuno Crespo",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Durante",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Passeio Aleatório pela ciência do dia-a-dia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Nuno Crespo",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Durante', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ainda no sábado , a investigadora do Centro de Astronomia da Universidade do Porto | Centro de Astronomia da Universidade do Porto | Centro de Astronomia da Universidade do Porto Catarina Lobo , que estuda enxames de galáxias, vai explicar ao público em geral que tipo de galáxia é a nossa, como se formam e como evoluem na palestra " A nossa Galáxia e as outras: Ilhas no Universo ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "no sábado",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Centro de Astronomia da Universidade do Porto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Centro de Astronomia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Universidade do Porto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Centro de Astronomia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Catarina Lobo",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "A nossa Galáxia e as outras: Ilhas no Universo",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "no sábado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Centro de Astronomia da Universidade do Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Centro de Astronomia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade do Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Catarina Lobo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Galáxia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Universo",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Centro de Astronomia', 'ORGANIZACAO'), ('Universidade', 'ORGANIZACAO'), ('Porto', 'LOCAL'), ('A nossa Galáxia e as outras: Ilhas no Universo', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Galáxia', 'ABSTRACCAO'), ('Universo', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No domingo está previsto que o público em geral possa participar no lançamento de foguetões de água e em Oficinas de Astronomia , com a construção de Relógios de Sol | Relógios de Sol , Espectroscópios | Espectroscópios , Astrolábios | Astrolábios , Planisférios | Planisférios e outros materiais de observação. A iniciativa termina com uma palestra por João Fernandes , o coordenador nacional do ano internacional da astronomia, que se assinala em 2009 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "No domingo",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Oficinas de Astronomia",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Relógios de Sol",
+    "label": "COISA",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Espectroscópios",
+    "label": "COISA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Astrolábios",
+    "label": "COISA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Planisférios",
+    "label": "COISA",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "João Fernandes",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "do ano internacional",
+    "label": "TEMPO",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "em 2009",
+    "label": "TEMPO",
+    "token_indices": [
+      72,
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "No domingo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Oficinas de Astronomia",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Relógios de Sol",
+    "label": "COISA"
+  },
+  {
+    "text": "Relógios de Sol",
+    "label": "COISA"
+  },
+  {
+    "text": "Espectroscópios",
+    "label": "COISA"
+  },
+  {
+    "text": "Espectroscópios",
+    "label": "COISA"
+  },
+  {
+    "text": "Astrolábios",
+    "label": "COISA"
+  },
+  {
+    "text": "Astrolábios",
+    "label": "COISA"
+  },
+  {
+    "text": "Planisférios",
+    "label": "COISA"
+  },
+  {
+    "text": "Planisférios",
+    "label": "COISA"
+  },
+  {
+    "text": "João Fernandes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 2009",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('do ano internacional', 'TEMPO')]
+Espúrias  (FP): [('Relógios de Sol', 'COISA'), ('Espectroscópios', 'COISA'), ('Astrolábios', 'COISA'), ('Planisférios', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Superflex lança cerveja "pública"
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superflex",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Superflex",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Superflex', 'PESSOA')]
+Espúrias  (FP): [('Superflex', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Matéria publicada originalmente na Folha online
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Folha",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Folha online",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Folha', 'LOCAL')]
+Espúrias  (FP): [('Folha online', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+REPORTAGEM LOCAL
+
+Entidades verdadeiras:
+[
+  {
+    "text": "REPORTAGEM LOCAL",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('REPORTAGEM LOCAL', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Uma nova marca de cerveja é lançada, hoje , na galeria Vermelho : a Free Beer . Entretanto, ao contrário das marcas tradicionais, que tratam como segredo de Estado a receita de suas bebidas, no próprio rótulo da Free Beer está estampada sua receita.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Vermelho",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Free Beer",
+    "label": "COISA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Free Beer",
+    "label": "COISA",
+    "token_indices": [
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Vermelho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Free Beer",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Free Beer', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Free Beer é a nova ação do coletivo dinamarquês Superflex , composto por Bjornstjerne Reuter Christiansen , Jakob Fenger e Rasmus Nielsen .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Free Beer",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Superflex",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Bjornstjerne Reuter Christiansen",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Jakob Fenger",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Rasmus Nielsen",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Free Beer",
+    "label": "OBRA"
+  },
+  {
+    "text": "Superflex",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Bjornstjerne Reuter Christiansen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jakob Fenger",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rasmus Nielsen",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Free Beer', 'ABSTRACCAO'), ('Superflex', 'PESSOA')]
+Espúrias  (FP): [('Free Beer', 'OBRA'), ('Superflex', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No ano passado , o grupo trouxe polêmica à 27ª Bienal de São Paulo | 27ª Bienal de São Paulo com o Guaraná Power , censurado pela presidência da instituição, que afirmou que não se tratava de uma obra de arte. Apesar do veto, o Guaraná Power , feito em colaboração com a Cooperativa de Agricultores da Região de Maués | Cooperativa de Agricultores da Região de Maués , na Amazônia , chegou a ser distribuído em museus e na própria Vermelho , durante a Bienal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "No ano passado",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "27ª Bienal de São Paulo",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "27ª Bienal",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Guaraná Power",
+    "label": "COISA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Guaraná Power",
+    "label": "COISA",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Cooperativa de Agricultores da Região de Maués",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Cooperativa de Agricultores",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Região de Maués",
+    "label": "LOCAL",
+    "token_indices": [
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Amazônia",
+    "label": "LOCAL",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Vermelho",
+    "label": "LOCAL",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Bienal",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      85
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "No ano passado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "27ª Bienal de São Paulo",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "27ª",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Bienal de São Paulo",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Guaraná Power",
+    "label": "OBRA"
+  },
+  {
+    "text": "presidência",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Guaraná Power",
+    "label": "OBRA"
+  },
+  {
+    "text": "Cooperativa de Agricultores da Região de Maués",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cooperativa de Agricultores",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Região de Maués",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Amazônia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bienal",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('27ª Bienal', 'ACONTECIMENTO'), ('São Paulo', 'LOCAL'), ('Guaraná Power', 'COISA'), ('Guaraná Power', 'COISA'), ('Vermelho', 'LOCAL')]
+Espúrias  (FP): [('27ª', 'TEMPO'), ('Bienal de São Paulo', 'ACONTECIMENTO'), ('Guaraná Power', 'OBRA'), ('presidência', 'PESSOA'), ('Guaraná Power', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Agora estamos propondo uma marca aberta e, nesse sentido, sugerimos um novo modelo econômico, que permite a qualquer um produzir e distribuir cerveja, a partir de uma receita que é pública, além de criar consumidores não obedientes, como gosta o mercado", conta Fenger .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fenger",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Agora",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Fenger",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Agora', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Free Beer surgiu em 2004 , numa parceria com estudantes da Universidade de Copenhague | Universidade de Copenhague .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Free Beer",
+    "label": "COISA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "em 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Universidade de Copenhague",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Copenhague",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Free Beer",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Universidade de Copenhague",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Copenhague",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Free Beer', 'COISA')]
+Espúrias  (FP): [('Free Beer', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Por isso, a Free Beer tem sido comparada ao Linux [sistema operacional gratuito] e à Wikipedia ", diz o artista.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Free Beer",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Linux",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Wikipedia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Free Beer",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Linux",
+    "label": "COISA"
+  },
+  {
+    "text": "Wikipedia",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Free Beer', 'ABSTRACCAO'), ('Linux', 'ABSTRACCAO'), ('Wikipedia', 'ABSTRACCAO')]
+Espúrias  (FP): [('Free Beer', 'ORGANIZACAO'), ('Linux', 'COISA'), ('Wikipedia', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem quiser produzir e comercializar a Free Beer pode baixar do site www.freebeer.org a logomarca da cerveja, de forma gratuita. "Já há Free Beer sendo produzida na Inglaterra , nos Estados Unidos , na Dinamarca e até na República Tcheca ", afirma Fenger .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Free Beer",
+    "label": "COISA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Free Beer",
+    "label": "COISA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Dinamarca",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "República Tcheca",
+    "label": "LOCAL",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Fenger",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Free Beer",
+    "label": "COISA"
+  },
+  {
+    "text": "www.freebeer.org",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Free Beer",
+    "label": "COISA"
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Dinamarca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "República Tcheca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fenger",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('www.freebeer.org', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+No Brasil , a Free Beer está sendo produzida pela Cervejaria Germânia , que irá comercializar a bebida durante a exposição a partir da versão 3.4, desenvolvida pela empresa.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Free Beer",
+    "label": "COISA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Cervejaria Germânia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Free Beer",
+    "label": "COISA"
+  },
+  {
+    "text": "Cervejaria Germânia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "a partir da versão 3.4",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Free Beer",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('a partir da versão 3.4', 'TEMPO'), ('Free Beer', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+"A única coisa que pedimos é que cada nova versão seja também tornada pública no site do Creative Commons ", diz Christiansen .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Creative Commons",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Christiansen",
+    "label": "PESSOA",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Christiansen",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Creative Commons', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Na Vermelho , o Superflex apresenta o " Free Beer Kit ", uma mesa com todos os ingredientes e instrumentos necessários para a produção da cerveja, o que será utilizado, aliás, no workshop " O Mundo da Cerveja ", com os especialistas Cilene Saorin e Arnaldo Ribeiro , no próximo dia 15 de dezembro , às 14 h .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vermelho",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Superflex",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Free Beer Kit",
+    "label": "COISA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "O Mundo da Cerveja",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Cilene Saorin",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Arnaldo Ribeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "no próximo dia 15 de dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "às 14 h",
+    "label": "TEMPO",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vermelho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Superflex",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Free Beer Kit",
+    "label": "COISA"
+  },
+  {
+    "text": "Cilene Saorin",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Arnaldo Ribeiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "no próximo dia 15 de dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "às 14 h",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('O Mundo da Cerveja', 'ACONTECIMENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No próximo sábado , às 16h , Ronaldo Lemos , diretor do Creative Commons | diretor do Creative Commons no Brasil , irá participar de um debate com os membros do Superflex , na Vermelho , e logo após será realizada uma gincana intitulada " Free Beer Pub Quiz ", na qual participantes receberão prêmios ao responderem questões sobre propriedade intelectual e direitos autorais.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "No próximo sábado",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "às 16h",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Ronaldo Lemos",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "diretor do Creative Commons",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Creative Commons",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Superflex",
+    "label": "PESSOA",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Vermelho",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Free Beer Pub Quiz",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "No próximo sábado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "às 16h",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Ronaldo Lemos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Creative Commons",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "diretor do Creative Commons",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Superflex",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Vermelho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Free Beer Pub Quiz",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCAL'), ('Superflex', 'PESSOA'), ('Free Beer Pub Quiz', 'ABSTRACCAO')]
+Espúrias  (FP): [('Superflex', 'ORGANIZACAO'), ('Free Beer Pub Quiz', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fonte: Press Release ( 28/10/2003 )
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Press Release",
+    "label": "LOCAL",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "28/10/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Press Release",
+    "label": "OBRA"
+  },
+  {
+    "text": "28/10/2003",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Press Release', 'LOCAL')]
+Espúrias  (FP): [('Press Release', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Expotec 2003 , Feira de Ciências e Cultura da Escola Fortec | Feira de Ciências e Cultura da Escola Fortec , reuniu mais de 2000 pessoas na unidade 4, em São Vicente - Feira de Ciências e Cultura da Escola Fortec.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Expotec 2003",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Feira de Ciências e Cultura da Escola Fortec",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Feira de Ciências e Cultura",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Escola Fortec",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "mais de 2000",
+    "label": "VALOR",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "São Vicente",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Expotec 2003",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Feira de Ciências e Cultura da Escola Fortec",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Feira de Ciências e Cultura",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Escola Fortec",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "mais de 2000 pessoas",
+    "label": "VALOR"
+  },
+  {
+    "text": "na unidade 4",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Vicente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Feira de Ciências e Cultura",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Escola Fortec",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('mais de 2000', 'VALOR')]
+Espúrias  (FP): [('mais de 2000 pessoas', 'VALOR'), ('na unidade 4', 'LOCAL'), ('Feira de Ciências e Cultura', 'ACONTECIMENTO'), ('Escola Fortec', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um dos destaques do evento foi a apresentação do resultado do trabalho desenvolvido em sala de aula pela oficina Noções básicas de Histórias em Quadrinhos , da Associação dos Artistas - Música e Arte .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Noções básicas de Histórias em Quadrinhos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Associação dos Artistas - Música e Arte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Noções básicas de Histórias em Quadrinhos",
+    "label": "OBRA"
+  },
+  {
+    "text": "Associação dos Artistas - Música e Arte",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Noções básicas de Histórias em Quadrinhos', 'ABSTRACCAO')]
+Espúrias  (FP): [('Noções básicas de Histórias em Quadrinhos', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+HQs de Velta disponíveis em CD-Rom ( 22/03/05 )
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Velta",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "22/03/05",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HQs de Velta",
+    "label": "COISA"
+  },
+  {
+    "text": "CD-Rom",
+    "label": "COISA"
+  },
+  {
+    "text": "22/03/05",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('HQs', 'COISA'), ('Velta', 'PESSOA')]
+Espúrias  (FP): [('HQs de Velta', 'COISA'), ('CD-Rom', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Folclore brasileiro em estilo mangá ( 03/03/05 )
+
+Entidades verdadeiras:
+[
+  {
+    "text": "03/03/05",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Folclore brasileiro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "03/03/05",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Folclore brasileiro', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+1. Revisão do mecanismo comunitário de protecção civil
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "comunitário",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('comunitário', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O acordo político quanto à revisão foi obtido durante a Presidência Alemã , tendo cabido a Portugal concluir o processo de revisão. Com a adopção da revisão do Mecanismo no Conselho de Justiça e Assuntos Internos de 8 de Novembro , este processo ficou concluído, passando a União a ficar dotado de um Mecanismo mais expedito para resposta a emergências graves. As principais novidades do Mecanismo são a clarificação de competências entre a Comissão e a Presidência no quadro de intervenções em países terceiros, a existência de competências comunitárias ao nível do transporte e a criação, numa base voluntária, de módulos de protecção civil.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidência Alemã",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Mecanismo",
+    "label": "OBRA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Conselho de Justiça e Assuntos Internos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "de 8 de Novembro",
+    "label": "TEMPO",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Mecanismo",
+    "label": "OBRA",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Mecanismo",
+    "label": "OBRA",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Presidência",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidência Alemã",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "no Conselho de Justiça e Assuntos Internos de 8 de Novembro",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mecanismo",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Presidência Alemã', 'ACONTECIMENTO'), ('Conselho de Justiça e Assuntos Internos', 'ORGANIZACAO'), ('de 8 de Novembro', 'TEMPO'), ('Mecanismo', 'OBRA'), ('Mecanismo', 'OBRA'), ('Comissão', 'ORGANIZACAO'), ('Presidência', 'ORGANIZACAO')]
+Espúrias  (FP): [('Presidência Alemã', 'ORGANIZACAO'), ('no Conselho de Justiça e Assuntos Internos de 8 de Novembro', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+2. Sistemas de Alerta Precoce
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sistemas de Alerta Precoce",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Sistemas de Alerta Precoce', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A necessidade de melhorar os actuais ou de estabelecer novos Sistemas de Alerta Precoce na União Europeia foi reconhecida pelo Conselho em diversas ocasiões .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sistemas de Alerta Precoce",
+    "label": "OBRA",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Sistemas de Alerta Precoce', 'OBRA'), ('União Europeia', 'LOCAL')]
+Espúrias  (FP): [('União Europeia', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para contribuir para este debate, a ANPC realizou, de 15 a 18 de Julho , em Albufeira , um seminário sobre Sistemas de Alerta Precoce , o qual reuniu cerca de 120 especialistas da maior parte dos Estados-Membros e no qual se procurou:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ANPC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "de 15 a 18 de Julho",
+    "label": "TEMPO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Albufeira",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Sistemas de Alerta Precoce",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "cerca de 120",
+    "label": "VALOR",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ANPC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "de 15 a 18 de Julho",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Albufeira",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sistemas de Alerta Precoce",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "cerca de 120",
+    "label": "VALOR"
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estados-Membros', 'LOCAL')]
+Espúrias  (FP): [('Estados-Membros', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+- identificar lacunas existentes no espaço da União Europeia (ex: sistema de alerta precoce para tsunamis) e delinear as bases para um Plano de Acção destinado a suprir as lacunas identificadas;
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União Europeia",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Plano de Acção",
+    "label": "OBRA",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('União Europeia', 'LOCAL'), ('Plano de Acção', 'OBRA')]
+Espúrias  (FP): [('União Europeia', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com base nas conclusões do seminário e nos resultados dos trabalhos desenvolvidos pela Comissão , ao nível de grupo de peritos, foi possível obter acordo sobre dois documentos de Conclusões do Conselho | Conclusões do Conselho adoptados no Conselho JAI de 5/6 de Dezembro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Conclusões do Conselho",
+    "label": "OBRA",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Conclusões",
+    "label": "OBRA",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "PESSOA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Conselho JAI",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "de 5/6 de Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conclusões do Conselho",
+    "label": "OBRA"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conclusões do Conselho",
+    "label": "OBRA"
+  },
+  {
+    "text": "Conselho JAI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "de 5/6 de Dezembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Conclusões', 'OBRA'), ('Conselho', 'PESSOA'), ('Conselho JAI', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Conselho', 'ORGANIZACAO'), ('Conclusões do Conselho', 'OBRA'), ('Conselho JAI', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+3. Cooperação com Países do Mediterrâneo Sul | Países do Mediterrâneo Sul
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Países do Mediterrâneo Sul",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Países",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Mediterrâneo Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Países do Mediterrâneo Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Países",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mediterrâneo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sul",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Países do Mediterrâneo Sul', 'ORGANIZACAO'), ('Países', 'ORGANIZACAO'), ('Mediterrâneo Sul', 'LOCAL')]
+Espúrias  (FP): [('Países do Mediterrâneo Sul', 'LOCAL'), ('Países', 'LOCAL'), ('Mediterrâneo', 'LOCAL'), ('Sul', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por outro lado, é também importante sublinhar o facto de que o Mecanismo Comunitário de Protecção Civil já interveio por diversas vezes nesta região (ex: sismos da Argélia e de Marrocos ) e diversos Estados-Membros mantêm acordos bilaterais de cooperação com os Países do Mediterrâneo Sul | Países do Mediterrâneo Sul , que conduziram a missões de assistência mútua durante emergências passadas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mecanismo Comunitário de Protecção Civil",
+    "label": "OBRA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "por diversas vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Argélia",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Marrocos",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Países do Mediterrâneo Sul",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Países",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Mediterrâneo Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mecanismo Comunitário de Protecção Civil",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Argélia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marrocos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Países do Mediterrâneo Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Países do Mediterrâneo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sul",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Mecanismo Comunitário de Protecção Civil', 'OBRA'), ('por diversas vezes', 'TEMPO'), ('Países do Mediterrâneo Sul', 'ORGANIZACAO'), ('Países', 'ORGANIZACAO'), ('Mediterrâneo Sul', 'LOCAL')]
+Espúrias  (FP): [('Mecanismo Comunitário de Protecção Civil', 'ORGANIZACAO'), ('Países do Mediterrâneo Sul', 'LOCAL'), ('Países do Mediterrâneo', 'LOCAL'), ('Sul', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Existe, pois, espaço mais do que suficiente e vontade comum para uma cooperação mais profunda e forte entre a UE e África no campo da protecção civil, nomeadamente com os parceiros do Mediterrâneo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "África",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Mediterrâneo",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "África",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mediterrâneo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('África', 'ORGANIZACAO')]
+Espúrias  (FP): [('África', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+De forma a permitir uma mais abrangente troca de pontos de vista neste campo, realizou-se no dia 24 de Outubro , no Porto , uma reunião informal entre os Directores-Gerais de Protecção Civil dos Países do Mediterrâneo | Directores-Gerais de Protecção Civil dos Países do Mediterrâneo | Directores-Gerais de Protecção Civil dos Países do Mediterrâneo e os Directores-Gerais de Protecção Civil da União Europeia | Directores-Gerais de Protecção Civil da União Europeia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "no dia 24 de Outubro",
+    "label": "TEMPO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Directores-Gerais de Protecção Civil dos Países do Mediterrâneo",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Directores-Gerais de Protecção Civil",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Países do Mediterrâneo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Directores-Gerais de Protecção Civil",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Países",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Mediterrâneo",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Directores-Gerais de Protecção Civil da União Europeia",
+    "label": "PESSOA",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Directores-Gerais de Protecção Civil",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70,
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "no dia 24 de Outubro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Directores-Gerais de Protecção Civil dos Países do Mediterrâneo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Directores-Gerais de Protecção Civil dos Países do Mediterrâneo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Directores-Gerais de Protecção Civil",
+    "label": "PESSOA"
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Países do Mediterrâneo', 'ORGANIZACAO'), ('Directores-Gerais de Protecção Civil', 'PESSOA'), ('Países', 'ORGANIZACAO'), ('Mediterrâneo', 'LOCAL'), ('Directores-Gerais de Protecção Civil da União Europeia', 'PESSOA'), ('Directores-Gerais de Protecção Civil', 'PESSOA')]
+Espúrias  (FP): [('Directores-Gerais de Protecção Civil dos Países do Mediterrâneo', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Essa reunião permitiu concluir da existência de abertura para um trabalho comum futuro, o qual, numa primeira fase, deverá estar integrado do Programa para a Prevenção e Redução de Desastres do Projecto Euromed e, numa segunda fase, deverá visar a inclusão de países do Mediterrâneo no Mecanismo Comunitário de Protecção Civil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa para a Prevenção e Redução de Desastres",
+    "label": "OBRA",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Projecto Euromed",
+    "label": "OBRA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Mediterrâneo",
+    "label": "LOCAL",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Mecanismo Comunitário de Protecção Civil",
+    "label": "OBRA",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Programa para a Prevenção e Redução de Desastres",
+    "label": "OBRA"
+  },
+  {
+    "text": "Projecto Euromed",
+    "label": "OBRA"
+  },
+  {
+    "text": "Mecanismo Comunitário de Protecção Civil",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Mediterrâneo', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+4. Consenso Europeu sobre Ajuda Humanitária
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Consenso Europeu sobre Ajuda Humanitária",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Consenso Europeu sobre Ajuda Humanitária', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na sequência de uma Comunicação | Comunicação da Comissão , o Conselho discutiu, no seu grupo de Trabalho de Cooperação e Desenvolvimento ( CODEV ) uma proposta de Consenso Europeu sobre Ajuda Humanitária .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Comunicação",
+    "label": "OBRA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Cooperação e Desenvolvimento",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "CODEV",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Consenso Europeu sobre Ajuda Humanitária",
+    "label": "OBRA",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Trabalho de Cooperação e Desenvolvimento",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "CODEV",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Consenso Europeu sobre Ajuda Humanitária",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Comunicação', 'OBRA'), ('Cooperação e Desenvolvimento', 'ABSTRACCAO'), ('CODEV', 'ORGANIZACAO')]
+Espúrias  (FP): [('Trabalho de Cooperação e Desenvolvimento', 'ACONTECIMENTO'), ('CODEV', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Após intensas negociações, o Consenso Europeu foi adoptado pelo CAGRE em 20 de Novembro , tendo-se conseguido que, na sua versão final, o Consenso não imponha limitações ao uso de recursos de protecção civil nos cenários de desastres naturais, tecnológicos e ambientais em tempo de paz. No entanto, para situações de emergências complexas (conflitos ou situações de fragilidade) o uso de meios de protecção civil acabou por ser considerado como excepcional.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Consenso Europeu",
+    "label": "OBRA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "CAGRE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "em 20 de Novembro",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Consenso",
+    "label": "OBRA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "em tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      42,
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Consenso Europeu",
+    "label": "OBRA"
+  },
+  {
+    "text": "CAGRE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 20 de Novembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Consenso', 'OBRA'), ('em tempo', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As Directrizes de Oslo são um documento das Nações Unidas , destinado a orientar o uso de meios militares e da defesa civil nos cenários de emergências naturais, tecnológicas ou ambientais em tempo de paz. Aquando da última revisão destas directrizes, em 2006 , os recursos de protecção civil foram englobados no mesmo grupo dos recursos militares, implicando que apenas poderiam ser utilizados como «último recurso», após esgotamento de outras alternativas civis.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Directrizes de Oslo",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Nações Unidas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "em tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "em 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Directrizes de Oslo",
+    "label": "OBRA"
+  },
+  {
+    "text": "Nações Unidas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 2006",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('em tempo', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Conscientes de que tal regra contradiria o princípio básico de actuação da protecção civil (resposta rápida e imediata após uma emergência), os Estados-Membros e a Comissão Europeia desenvolveram diversas diligências procurando obter uma clarificação/revisão de tais Directrizes junto da UN/OCHA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Directrizes",
+    "label": "OBRA",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "UN/OCHA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "UN/OCHA",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Directrizes', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em particular, foi obtido acordo no Grupo de Trabalho PROCIV quanto a uma abordagem global dos Estados-Membros sobre esta matéria.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo de Trabalho PROCIV",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grupo de Trabalho PROCIV",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Grupo de Trabalho PROCIV', 'PESSOA'), ('Estados-Membros', 'ORGANIZACAO')]
+Espúrias  (FP): [('Grupo de Trabalho PROCIV', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nesta sequência, foi realizada uma reunião com a UN/OCHA a 28 e 29 de Novembro , a qual permitiu adoptar uma revisão das Directrizes que clarifica o princípio do último recurso, garantindo um tratamento diferenciado para os recursos de Protecção Civil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "UN/OCHA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "a 28",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "29 de Novembro",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Directrizes",
+    "label": "OBRA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Protecção Civil",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      39,
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "a 28 e 29 de Novembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Directrizes",
+    "label": "OBRA"
+  },
+  {
+    "text": "Protecção Civil",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('UN/OCHA', 'ORGANIZACAO'), ('a 28', 'TEMPO'), ('29 de Novembro', 'TEMPO')]
+Espúrias  (FP): [('a 28 e 29 de Novembro', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+As conclusões do Conselho em matéria «de prevenção, de preparação para intervir e de resposta a atentados terroristas» e o «programa de solidariedade da União Europeia respeitante às consequências das ameaças e dos atentados terroristas", adoptado pelo Conselho em Dezembro de 2004 , apoiaram a elaboração de um Programa Europeu para a Protecção das Infra-Estruturas Críticas e a criação de uma Rede de Alerta para as Infra-estruturas Críticas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "em Dezembro de 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Programa Europeu para a Protecção das Infra-Estruturas Críticas",
+    "label": "OBRA",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Rede de Alerta para as Infra-estruturas Críticas",
+    "label": "OBRA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em Dezembro de 2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Programa Europeu para a Protecção das Infra-Estruturas Críticas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Rede de Alerta para as Infra-estruturas Críticas",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('União Europeia', 'ORGANIZACAO'), ('Conselho', 'ORGANIZACAO'), ('Rede de Alerta para as Infra-estruturas Críticas', 'OBRA')]
+Espúrias  (FP): [('Rede de Alerta para as Infra-estruturas Críticas', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Neste sentido, em Dezembro de 2006 , a Comissão apresentou uma proposta de Directiva do Conselho , na qual se propõem medidas para a identificação e designação das infra estruturas críticas europeias e para a avaliação da necessidade de melhorar a sua protecção, sendo que são abrangidas aquelas cuja perturbação ou destruição afectaria dois ou mais Estados-Membros , ou um único Estado-Membro se a infra-estrutura crítica estiver localizada em outro Estado-Membro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em Dezembro de 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Directiva do Conselho",
+    "label": "OBRA",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Estado-Membro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Estado-Membro",
+    "label": "LOCAL",
+    "token_indices": [
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em Dezembro de 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Directiva do Conselho",
+    "label": "OBRA"
+  },
+  {
+    "text": "dois ou mais Estados-Membros",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estado-Membro",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estado-Membro",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estados-Membros', 'ORGANIZACAO'), ('Estado-Membro', 'LOCAL')]
+Espúrias  (FP): [('dois ou mais Estados-Membros', 'ORGANIZACAO'), ('Estado-Membro', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na sequência dos trabalhos desenvolvidos pela Presidência Alemã neste âmbito, foi dada continuidade à negociação da proposta de Directiva , tendo-se analisado o parecer do Parlamento Europeu e discutido as reservas introduzidas pelas diversas delegações. O balanço final é positivo, uma vez que se conseguiu eliminar a maior parte das reservas existentes. Embora exista consenso em relação a cerca de 70% da proposta de Directiva , subsistem reservas de fundo de diversos Estados-Membros que se relacionam, por exemplo, com a natureza legal do instrumento a adoptar, a inclusão do sector do «nuclear» no âmbito da Directiva , a definição de Infra-estrutura Crítica Europeia e a obrigatoriedade de estabelecimento de Planos de Segurança e Oficiais de Ligação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidência Alemã",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Directiva",
+    "label": "OBRA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "cerca de 70%",
+    "label": "VALOR",
+    "token_indices": [
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Directiva",
+    "label": "OBRA",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Directiva",
+    "label": "OBRA",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "Infra-estrutura Crítica Europeia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "text": "Planos de Segurança",
+    "label": "OBRA",
+    "token_indices": [
+      109,
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Oficiais de Ligação",
+    "label": "OBRA",
+    "token_indices": [
+      113,
+      114,
+      115
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidência Alemã",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Directiva",
+    "label": "OBRA"
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Directiva",
+    "label": "OBRA"
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Infra-estrutura Crítica Europeia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Planos de Segurança e Oficiais de Ligação",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('cerca de 70%', 'VALOR'), ('Directiva', 'OBRA'), ('Infra-estrutura Crítica Europeia', 'ABSTRACCAO'), ('Planos de Segurança', 'OBRA'), ('Oficiais de Ligação', 'OBRA')]
+Espúrias  (FP): [('Infra-estrutura Crítica Europeia', 'OBRA'), ('Planos de Segurança e Oficiais de Ligação', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Neste contexto foi obtido acordo sobre um Relatório de Progresso adoptado no Conselho JAI de 5/6 Dezembro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Relatório de Progresso",
+    "label": "OBRA",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Conselho JAI",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "de 5/6 Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Relatório de Progresso",
+    "label": "OBRA"
+  },
+  {
+    "text": "Conselho JAI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "de 5/6 Dezembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Conselho JAI', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Conselho JAI', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+THANKSGIVING COM MINE DE RIEN
+
+Entidades verdadeiras:
+[
+  {
+    "text": "THANKSGIVING",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "THANKSGIVING",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "MINE DE RIEN",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('MINE DE RIEN', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na noite de Acção de Graças | Na noite de Acção de Graças apresento-vos um blogue escrito dos EUA , da cidade onde eu várias vezes passei este feriado. Evidentemente, é mais um blogue de um LEFT ista (embora neste caso não vá insistir muito no aspecto LEFT porque o rapaz nem é muito disso...). O autor, para além de um velho amigo - conheço-o desde caloiro -, é uma pessoa interessantíssima, e tem com certeza uma perspectiva muito sua a acrescentar ao assunto para mim fascinante das relações entre a Europa e a América , o Velho e o Novo Continente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Na noite de Acção de Graças",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Acção de Graças",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "várias vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "LEFT",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "América",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      94
+    ]
+  },
+  {
+    "text": "Velho",
+    "label": "LOCAL",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "Novo Continente",
+    "label": "LOCAL",
+    "token_indices": [
+      100,
+      101
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Na noite de Acção de Graças",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Na noite",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Acção de Graças",
+    "label": "TEMPO"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "LEFT",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "América",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Velho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Novo Continente",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Acção de Graças', 'ACONTECIMENTO'), ('várias vezes', 'TEMPO'), ('Europa', 'ORGANIZACAO'), ('América', 'ORGANIZACAO')]
+Espúrias  (FP): [('Na noite', 'TEMPO'), ('Acção de Graças', 'TEMPO'), ('Europa', 'LOCAL'), ('América', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Antes de eu ir para os EUA falava-me entusiasmadíssimo do american way of life e de como era boa a comida nas universidades americanas - a escolha de pizzas! os hot-dogs! os hamburgers! - sem se aperceber de como me estava a deixar horrorizado. Depois da LEFT o Pedro veio para Paris fazer Teoria de Cordas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "LEFT",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Pedro",
+    "label": "PESSOA",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Teoria de Cordas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      53,
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "LEFT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Pedro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Teoria de Cordas",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('LEFT', 'ABSTRACCAO'), ('Teoria de Cordas', 'ABSTRACCAO')]
+Espúrias  (FP): [('LEFT', 'ORGANIZACAO'), ('Teoria de Cordas', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na Cité Universitaire arranjou maneira de não ficar muito tempo na Residência André de Gouveia , indo antes para uma casa que era a cara dele - a Deutsche de la Meurthe , a mais antiga, a mais clássica, aquela onde Simone de Beauvoir ia visitar o estudante Jean-Paul Sartre .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cité Universitaire",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "muito tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Residência André de Gouveia",
+    "label": "LOCAL",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Deutsche de la Meurthe",
+    "label": "LOCAL",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Simone de Beauvoir",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Jean-Paul Sartre",
+    "label": "PESSOA",
+    "token_indices": [
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cité Universitaire",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Residência André de Gouveia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Deutsche de la Meurthe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Simone de Beauvoir",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jean-Paul Sartre",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Cité Universitaire', 'ORGANIZACAO'), ('muito tempo', 'TEMPO')]
+Espúrias  (FP): [('Cité Universitaire', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nessa altura era um parisiense com uma costela americana, português q.b. e vagamente judeu. Agora é um americano parisiense, um verdadeiro mangeur de fromage. Pôs a Europa e a Teoria das Cordas de parte e foi para a melhor cidade da América do Norte mostrar que um físico matemático é pau para toda a obra - nem que seja para mostrar que a Biologia Celular é só "quebra de simetria" e que não há nada como o outono na Nova Inglaterra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nessa altura",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Teoria das Cordas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "América do Norte",
+    "label": "LOCAL",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Biologia Celular",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "o outono",
+    "label": "TEMPO",
+    "token_indices": [
+      76,
+      77
+    ]
+  },
+  {
+    "text": "Nova Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      79,
+      80
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Nessa altura",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Teoria das Cordas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "América do Norte",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Biologia Celular",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Nova Inglaterra",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Europa', 'ABSTRACCAO'), ('o outono', 'TEMPO')]
+Espúrias  (FP): [('Europa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que rica prenda de Thanksgiving | de Thanksgiving .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de Thanksgiving",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Thanksgiving",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Thanksgiving",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Thanksgiving",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('de Thanksgiving', 'TEMPO')]
+Espúrias  (FP): [('Thanksgiving', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A 24 de Novembro de 1960 , no restaurante Le Vrai Gascon (n.º 82 da rue du Bac , Paris ), em torno dessas figuras majestáticas que eram Raymond Queneau e François Le Lionnais , nasceu uma das mais heterodoxas correntes literárias do século XX . Desafio intelectual e brincadeira de literatos apaixonados pela sua língua, explosiva mistura de cérebros moldados pelas leis da gramática e mentes científicas habituadas a todo o tipo de operações lógicas, o OuLiPo ( Ouvroir de Littérature Potentiel ) veio libertar a literatura da forma mais radical: acorrentando-a. Isto é, inventando um sem número de constrangimentos que estimulam a imaginação e a perícia verbal de quem escreve.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "A 24 de Novembro de 1960",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Le Vrai Gascon",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Bac",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Raymond Queneau",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "François Le Lionnais",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "do século XX",
+    "label": "TEMPO",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "OuLiPo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Ouvroir de Littérature Potentiel",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      79,
+      80,
+      81,
+      82
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "A 24 de Novembro de 1960",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Le Vrai Gascon",
+    "label": "LOCAL"
+  },
+  {
+    "text": "n.º 82",
+    "label": "VALOR"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Raymond Queneau",
+    "label": "PESSOA"
+  },
+  {
+    "text": "François Le Lionnais",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ouvroir de Littérature Potentiel",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "OuLiPo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "século XX",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Bac', 'LOCAL'), ('do século XX', 'TEMPO'), ('OuLiPo', 'ABSTRACCAO'), ('Ouvroir de Littérature Potentiel', 'ABSTRACCAO')]
+Espúrias  (FP): [('n.º 82', 'VALOR'), ('Ouvroir de Littérature Potentiel', 'ORGANIZACAO'), ('OuLiPo', 'ORGANIZACAO'), ('século XX', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na definição sucinta de Queneau , um autor oulipiano é um «rato que constrói o labirinto do qual se propõe sair». Um labirinto de palavras, claro; um labirinto textual. E se grande parte da produção destes autores auto-espartilhados não sobrevive fora do contexto em que surgiu, enquanto mecanismo lúdico ou exercício de estilo, o certo é que os processos do OuLiPo estão inscritos na estrutura de algumas obras-primas de autores como Italo Calvino ( Se Numa Noite de Inverno um Viajante ) ou Georges Perec ( A Vida Modo de Usar ; La Disparition ; etc). Quanto mais não fosse por isso, já valeria a pena celebrar os 45 anos | os 45 anos de um movimento que continua activo e em expansão (investigar aqui).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Queneau",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "OuLiPo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Italo Calvino",
+    "label": "PESSOA",
+    "token_indices": [
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Se Numa Noite de Inverno um Viajante",
+    "label": "OBRA",
+    "token_indices": [
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ]
+  },
+  {
+    "text": "Georges Perec",
+    "label": "PESSOA",
+    "token_indices": [
+      83,
+      84
+    ]
+  },
+  {
+    "text": "A Vida Modo de Usar",
+    "label": "OBRA",
+    "token_indices": [
+      86,
+      87,
+      88,
+      89,
+      90
+    ]
+  },
+  {
+    "text": "La Disparition",
+    "label": "OBRA",
+    "token_indices": [
+      92,
+      93
+    ]
+  },
+  {
+    "text": "os 45 anos",
+    "label": "TEMPO",
+    "token_indices": [
+      107,
+      108,
+      109
+    ]
+  },
+  {
+    "text": "45 anos",
+    "label": "VALOR",
+    "token_indices": [
+      112,
+      113
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Queneau",
+    "label": "PESSOA"
+  },
+  {
+    "text": "OuLiPo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Italo Calvino",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Se Numa Noite de Inverno um Viajante",
+    "label": "OBRA"
+  },
+  {
+    "text": "Georges Perec",
+    "label": "PESSOA"
+  },
+  {
+    "text": "A Vida Modo de Usar",
+    "label": "OBRA"
+  },
+  {
+    "text": "La Disparition",
+    "label": "OBRA"
+  },
+  {
+    "text": "45 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "45 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "OuLiPo",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('OuLiPo', 'ABSTRACCAO'), ('os 45 anos', 'TEMPO'), ('45 anos', 'VALOR')]
+Espúrias  (FP): [('OuLiPo', 'ORGANIZACAO'), ('45 anos', 'TEMPO'), ('45 anos', 'TEMPO'), ('OuLiPo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A sua familia era rica e influenciou-o a ingressar no curso de Direito na Universidade de Coimbra | Universidade de Coimbra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Direito",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Universidade de Coimbra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Universidade de Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Universidade",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Direito', 'ABSTRACCAO'), ('Universidade de Coimbra', 'ORGANIZACAO'), ('Universidade', 'ORGANIZACAO')]
+Espúrias  (FP): [('Universidade de Coimbra', 'LOCAL'), ('Universidade', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Depressa desistiu do curso e mudou-se para o curso de Arquitectura na Academia de Belas Artes de Lisboa | Academia de Belas Artes de Lisboa em 1905 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Arquitectura",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Academia de Belas Artes de Lisboa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Academia de Belas Artes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "em 1905",
+    "label": "TEMPO",
+    "token_indices": [
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Academia de Belas Artes de Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Academia de Belas Artes",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1905",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Arquitectura', 'ABSTRACCAO'), ('Academia de Belas Artes de Lisboa', 'ORGANIZACAO'), ('Academia de Belas Artes', 'ORGANIZACAO')]
+Espúrias  (FP): [('Academia de Belas Artes de Lisboa', 'LOCAL'), ('Academia de Belas Artes', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O curso nao satisfaz o seu genio criativo, por isso parte para Paris em 1906 instalando-se em Montparnasse com a intençao de continuar a estudar. As suas primeiras experiências artisticas conhecidas foram desenhos e caricaturas, depois dedicou-se à pintura. Poder-se-á dizer que foi um pintor impressionista, expressionista, cubista, futurista mas sempre recusou qualquer rotulo. Apesar das multiplas influencias procurava a originalidade e a criatividade na sua obra. Em 1908 instala-se no número catorze da Cité de Falguière .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "em 1906",
+    "label": "TEMPO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Montparnasse",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "depois",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Em 1908",
+    "label": "TEMPO",
+    "token_indices": [
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Cité de Falguière",
+    "label": "LOCAL",
+    "token_indices": [
+      74,
+      75,
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Montparnasse",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1906",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Em 1908",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Cité de Falguière",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('depois', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Frequentou ateliers preparatórios para Academia de Beaux-Arts e a Academia Viti do pintor catalão Anglada Camarasa mas, apesar disso, nao chega a ser admitido. Em 1910 esteve alguns meses em Bruxelas e em 1911 expôs trabalhos no Salon des Indépendants , em Paris , aproximando-se progressivamente das vanguardas e de artistas como Amedeo Modigliani , Constantin Brancusi , Alexander Archipenko , Juan Gris e Robert Delaunay .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Academia de Beaux-Arts",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Academia Viti",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Anglada Camarasa",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Em 1910",
+    "label": "TEMPO",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "alguns meses",
+    "label": "TEMPO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Bruxelas",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "em 1911",
+    "label": "TEMPO",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Salon des Indépendants",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Amedeo Modigliani",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Constantin Brancusi",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Alexander Archipenko",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Juan Gris",
+    "label": "PESSOA",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Robert Delaunay",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Academia de Beaux-Arts",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Academia Viti",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Anglada Camarasa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Em 1910",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Bruxelas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1911",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Salon des Indépendants",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Amedeo Modigliani",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Constantin Brancusi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alexander Archipenko",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Juan Gris",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Robert Delaunay",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Academia de Beaux-Arts', 'ORGANIZACAO'), ('Academia Viti', 'ORGANIZACAO'), ('alguns meses', 'TEMPO')]
+Espúrias  (FP): [('Academia de Beaux-Arts', 'LOCAL'), ('Academia Viti', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Regressou então a Portugal , onde iniciou meteórica carreira na experimentação de novas formas de expressão, tendo pintado com grande constância ao ponto de, em 1916 , expor no Porto 114 obras com o título " Abstraccionismo ", que serão também expostas em Lisboa , num e noutro caso com novidade e algum escândalo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "em 1916",
+    "label": "TEMPO",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "114",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Abstraccionismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1916",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "114",
+    "label": "VALOR"
+  },
+  {
+    "text": "Abstraccionismo",
+    "label": "OBRA"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Abstraccionismo', 'ABSTRACCAO')]
+Espúrias  (FP): [('Abstraccionismo', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 25 de Outubro de 1918 , aos 31 anos de idade, morre prematuramente em Espinho , vítima da "pneumónica" que grassava em Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 25 de Outubro de 1918",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "31 anos",
+    "label": "VALOR",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Espinho",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em 25 de Outubro de 1918",
+    "label": "TEMPO"
+  },
+  {
+    "text": "aos 31 anos de idade",
+    "label": "VALOR"
+  },
+  {
+    "text": "Espinho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('31 anos', 'VALOR')]
+Espúrias  (FP): [('aos 31 anos de idade', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Restauração da Independência
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Restauração da Independência",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Restauração da Independência', 'ACONTECIMENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Finalmente, um sentimento profundo de autonomia estava a crescer e foi consumado na revolta de 1640 , na qual um grupo de conspiradores da nobreza aclamou o duque de Bragança como Rei de Portugal | Rei de Portugal , com o título de D. João IV ( 1640-1656 ), dando início à quarta Dinastia -- Dinastia de Bragança .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de 1640",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "duque de Bragança",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Rei de Portugal",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Rei",
+    "label": "PESSOA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "D. João IV",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "1640-1656",
+    "label": "TEMPO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Dinastia",
+    "label": "PESSOA",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Dinastia de Bragança",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "na revolta de 1640",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Rei de Portugal",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rei",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D. João IV",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1640-1656",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dinastia de Bragança",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('de 1640', 'TEMPO'), ('duque de Bragança', 'PESSOA'), ('Dinastia', 'PESSOA'), ('Dinastia de Bragança', 'PESSOA')]
+Espúrias  (FP): [('na revolta de 1640', 'ACONTECIMENTO'), ('Dinastia de Bragança', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esses anos foram bem sucedidos devido à conjugação de diversas vertentes como a coincidência das revoltas na Catalunha , os esforços diplomáticos da Inglaterra , França , Holanda e Roma , a reorganização do exército português, a reconstrução de fortalezas e a consolidação política e administrativa.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Esses anos",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Catalunha",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "França",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Holanda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Roma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Esses anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Catalunha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Inglaterra",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "França",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Holanda",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Roma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "exército português",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('exército português', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Paralelamente, as tropas portuguesas conseguiram expulsar os holandeses do Brasil , como também de Angola e de São Tomé e Príncipe ( 1641-1654 ), restabelecendo o poder atlântico português. No entanto, as perdas no Oriente tornaram-se irreversíveis e Ceuta ficaria na posse dos Habsburgo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "São Tomé e Príncipe",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "1641-1654",
+    "label": "TEMPO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Ceuta",
+    "label": "LOCAL",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Habsburgo",
+    "label": "PESSOA",
+    "token_indices": [
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Tomé e Príncipe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1641-1654",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Ceuta",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Habsburgo",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Oriente', 'LOCAL'), ('Habsburgo', 'PESSOA')]
+Espúrias  (FP): [('Habsburgo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Lobos recebidos em apoteose
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lobos",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lobos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+SELECÇÃO DE REGRESSO APÓS BOA PRESTAÇÃO NO MUNDIAL
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SELECÇÃO",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "MUNDIAL",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MUNDIAL",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('SELECÇÃO', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quando a comitiva portuguesa saiu na área de chegadas, por volta das 16.30 horas , a agitação cresceu de tom, com a maioria dos adeptos a gritar o nome de Portugal de forma entusiasmada.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "por volta das 16.30 horas",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "por volta das 16.30 horas",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Portugal",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Portugal', 'ABSTRACCAO')]
+Espúrias  (FP): [('Portugal', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um dos jogadores mais acarinhados pelos adeptos na chegada a Lisboa , o capitão Vasco Uva explicou por que houve uma empatia tão grande entre a selecção e uma fatia considerável do público português. "Foi a maneira como nos batemos, a maneira como fizemos honrar o País ", considerou, acrescentando que o momento mais emotivo que sentiu foi quando ouviu o hino nacional português no jogo de estreia dos " Lobos ", contra a Escócia , em St. Etienne .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Vasco Uva",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "País",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "o momento",
+    "label": "TEMPO",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Lobos",
+    "label": "PESSOA",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Escócia",
+    "label": "PESSOA",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "St. Etienne",
+    "label": "LOCAL",
+    "token_indices": [
+      77,
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Vasco Uva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "País",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lobos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Escócia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "St. Etienne",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('o momento', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Da Bauhaus para ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bauhaus",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bauhaus",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Bauhaus', 'ABSTRACCAO')]
+Espúrias  (FP): [('Bauhaus', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+a House :
+
+Entidades verdadeiras:
+[
+  {
+    "text": "House",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('House', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É perceptível, quando se escuta Mills , que apesar dele pensar sua música em termos concretos (cordas "se liquefazem no corpo" como "ao ligar um aquecedor"), o som frequentemente parece ser só sinal para ele, só um veículo para a mensagem. Então tem essa mensagem um conteúdo? O inovador selo de Detroit Underground Resistance ( UR ), que Mills fundou com Mike Banks , costumava emplastrar suas capas com linguagem tipo-manifesto, preparando seu público para alguma indefinida revolução sônica. Logo eu quis saber se "a mensagem" é política.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "frequentemente",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Underground Resistance",
+    "label": "COISA",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "UR",
+    "label": "COISA",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Mike Banks",
+    "label": "PESSOA",
+    "token_indices": [
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Underground Resistance",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "UR",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mike Banks",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('frequentemente', 'TEMPO'), ('Detroit', 'LOCAL'), ('Underground Resistance', 'COISA'), ('UR', 'COISA')]
+Espúrias  (FP): [('Underground Resistance', 'ORGANIZACAO'), ('UR', 'ORGANIZACAO'), ('Mills', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+"É abstrata. É o que você está tentando dizer." Bem, isso me esclareceu. Mills é totalmente inacessível sobre conteúdo ou inspiração para os sons de seus álbuns. Não parece haver uma clara agenda estética ou social. Mas ele tem alguns princípios organizativos pouco usuais. "Eu penso num conceito e provavelmente o ponho em algum tipo de escala de cor," ele me conta em certo momento. "Preciso de uma sensação muito clara com algum tanto de drama, então talvez eu pegue verde. Em minha mente tenho esta idéia de como soa o verde. Verde é as frequências que são mais baixas, não subsônicas, mas de médio alcance." Então ele confusamente glosa isso dizendo "é como se você pegasse um teclado e começasse do branco e fosse por todo o caminho até o negro."
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Mills', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A maior parte das vezes Mills fala de si mesmo como o originador da mensagem, usando o usual e romântico vocabulário do artista, do criador. Mas ele é um criador com uma relação peculiar com seus instrumentos. "Geralmente eu dou início numa sequência e então deixo ela tocar. Eu saio e deixo-a tocando por cerca de vinte e quatro horas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "A maior parte das vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "por cerca de vinte e quatro horas",
+    "label": "TEMPO",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA"
+  },
+  {
+    "text": "cerca de vinte e quatro horas",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('A maior parte das vezes', 'TEMPO'), ('por cerca de vinte e quatro horas', 'TEMPO')]
+Espúrias  (FP): [('cerca de vinte e quatro horas', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+As máquinas flutuam. Com o passar do tempo a sequência muda ligeiramente. As máquinas moldam a si mesmas, dando seu próprio caráter a uma faixa. Nós fizemos muito disso com o UR . Algumas vezes nós deixamos o som rolar por vários dias .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "UR",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Algumas vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "por vários dias",
+    "label": "TEMPO",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "UR",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('UR', 'ABSTRACCAO'), ('Algumas vezes', 'TEMPO'), ('por vários dias', 'TEMPO')]
+Espúrias  (FP): [('UR', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Jeff Mills sai para o cinema e deixa as máquinas evoluirem sua sequência no estúdio, e ao fazê-lo assim faz o comentário talvez mais eloquente que nós temos de uma mudança cultural em todos os tipos de produção, artística e de outro tipo. É uma tensão que tem sido há muito tempo sentida na música pop, bem expressa no slogan mal intensionado de camiseta de garotada indie de alguns anos atrás : 'os escrotos sem cara do tecno.' (Por todo lugar outras camisetas respondiam "foda-se o Britpop "). Nestes dias o ídolo de rock, Liam Oásis da Vida , em cada polegada o artista tradicional, solitário e romanticamente sofrendo no palco, está em combate mortal com alguma coisa distribuída, cambiante ( Mills é x102 , UR , Axis ...) e não de todo humana. Algumas vezes Mills se auto denomina ' Criador de propósitos' e o ouvinte encontra a seguinte afirmação (não-assinada) numa capa: "só a consciência de um propósito que é maior que qualquer homem pode semear e fortificar as almas dos homens." É muito fácil identificar o criador de propósitos como o artista e o poder como Deus . Em Detroit o poder que é maior que o homem, que está semeando e fertilizando sua alma, é inorgânico, sem nome, baseado em silício.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jeff Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "há muito tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "de alguns anos atrás",
+    "label": "TEMPO",
+    "token_indices": [
+      67,
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Britpop",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "Nestes dias",
+    "label": "TEMPO",
+    "token_indices": [
+      88,
+      89
+    ]
+  },
+  {
+    "text": "Liam Oásis da Vida",
+    "label": "PESSOA",
+    "token_indices": [
+      94,
+      95,
+      96,
+      97
+    ]
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      121
+    ]
+  },
+  {
+    "text": "x102",
+    "label": "PESSOA",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "UR",
+    "label": "PESSOA",
+    "token_indices": [
+      125
+    ]
+  },
+  {
+    "text": "Axis",
+    "label": "PESSOA",
+    "token_indices": [
+      127
+    ]
+  },
+  {
+    "text": "Algumas vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      134,
+      135
+    ]
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      136
+    ]
+  },
+  {
+    "text": "Criador",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      141
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      189
+    ]
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL",
+    "token_indices": [
+      192
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Jeff Mills', 'PESSOA'), ('há muito tempo', 'TEMPO'), ('de alguns anos atrás', 'TEMPO'), ('Britpop', 'ABSTRACCAO'), ('Nestes dias', 'TEMPO'), ('Liam Oásis da Vida', 'PESSOA'), ('Mills', 'PESSOA'), ('x102', 'PESSOA'), ('UR', 'PESSOA'), ('Axis', 'PESSOA'), ('Algumas vezes', 'TEMPO'), ('Mills', 'PESSOA'), ('Criador', 'ABSTRACCAO'), ('Deus', 'PESSOA'), ('Detroit', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+" Algumas vezes quando eu penso em um ritmo", diz Mills , "eu penso numa máquina que está - caminhando em algum lugar, algum tipo de movimento, e eu tento vividamente criar esse tipo de progressão melódica." Tanques robôs, linhas de montagem, colonizando a imaginação, articuladas como vias permanentes de batidas pesadas bombando os corpos do público dançante. Quem origina esse ritmo? Nós ou eles? Reconstitua o processo de volta. Quem veio primeiro? Artista ou máquina? A idéia da máquina na mente do artista? O que pôs a idéia ali? Eterno retorno...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Algumas vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tanques robôs",
+    "label": "COISA"
+  },
+  {
+    "text": "Eterno retorno",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Algumas vezes', 'TEMPO')]
+Espúrias  (FP): [('Tanques robôs', 'COISA'), ('Eterno retorno', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Talvez você se sinta como um rato de laboratório pressionando uma alavanca por doses de endorfinas. Ao menos às três da manhã num galpão (warehouse, pra raves) quando embarca numa outra pastilha, você sabe que é um honesto rato de laboratório.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "às três da manhã",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "às três da manhã",
+    "label": "TEMPO"
+  },
+  {
+    "text": "galpão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "raves",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('galpão', 'LOCAL'), ('raves', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Durante o ano passado o nome Toyota Prius esteve nas bocas de todo o mundo e foi alvo de notícia e reportagem por vários meios de comunicação, a maioria deles sem estarem sequer relacionamos com o mundo automóvel.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Durante o ano passado",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Toyota Prius",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Durante o ano passado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Toyota Prius",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Toyota Prius', 'ABSTRACCAO')]
+Espúrias  (FP): [('Toyota Prius', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com toda esta atenção e o sucesso nas vendas por todo o mundo o nome Prius tornou-se um sinónimo de híbrido Nos Estados Unidos da America foram vendidos em 2004 mais de 50 mil unidades deste modelo e as listas de espera têm sido grandes, de tal forma grandes que existem casos de Prius a serem vendidos em segunda mão ao mesmo preço que um novo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prius",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Estados Unidos da America",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "em 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "mais de 50 mil",
+    "label": "VALOR",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Prius",
+    "label": "COISA",
+    "token_indices": [
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prius",
+    "label": "COISA"
+  },
+  {
+    "text": "Nos Estados Unidos da America",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "mais de 50 mil",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Prius', 'ABSTRACCAO'), ('Estados Unidos da America', 'LOCAL')]
+Espúrias  (FP): [('Nos Estados Unidos da America', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Dos 0 aos 100km/h o Prius demora cerca de 11 segundos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dos 0 aos 100km/h",
+    "label": "VALOR",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Prius",
+    "label": "COISA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "cerca de 11 segundos",
+    "label": "TEMPO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Dos 0 aos 100km/h",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Prius",
+    "label": "COISA"
+  },
+  {
+    "text": "11 segundos",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Dos 0 aos 100km/h', 'VALOR'), ('cerca de 11 segundos', 'TEMPO')]
+Espúrias  (FP): [('Dos 0 aos 100km/h', 'TEMPO'), ('11 segundos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Bibliografia de Censurados
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Censurados",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Censurados', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os Censurados começaram por tocar ao vivo. Muito. As letras, em português, eram simples e directas, refrões fortes que traduziam o sentimento da juventude da era Cavaquista .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Censurados",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "da era Cavaquista",
+    "label": "TEMPO",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Censurados",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cavaquista",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('da era Cavaquista', 'TEMPO')]
+Espúrias  (FP): [('Cavaquista', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este disco é um album histórico que foi aclamado pela mais importante fanzine dedicada ao Punk e Hardore "na altura, a Maximum Rockn'Roll ( EUA ) apesar das letras em português, o que mostra a qualidade das composições e sobretudo das prestações dos músicos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Punk",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Hardore",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Maximum Rockn'Roll",
+    "label": "COISA",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Maximum Rockn'Roll",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Punk",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Hardore",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [("Maximum Rockn'Roll", 'COISA')]
+Espúrias  (FP): [("Maximum Rockn'Roll", 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1991 editam o 2º | 2º album " Confusão " e passam os anos seguintes na estrada. Em 1993 sai o " Sopa " com o single de mesmo nome e uma participação de Jorge Palma na música " Estou agarrado a ti ". O ano de 1994 é o ano da despedida, mas antes participam no tributo a Zeca Afonso , " Filhos da Madrugada " com a reedição do tema " O que faz falta ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1991",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "2º",
+    "label": "VALOR",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Confusão",
+    "label": "OBRA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "os anos seguintes",
+    "label": "TEMPO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Em 1993",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Sopa",
+    "label": "OBRA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Jorge Palma",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Estou agarrado a ti",
+    "label": "OBRA",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "O ano de 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "o ano",
+    "label": "TEMPO",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "antes",
+    "label": "TEMPO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Zeca Afonso",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Filhos da Madrugada",
+    "label": "OBRA",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "O que faz falta",
+    "label": "OBRA",
+    "token_indices": [
+      74,
+      75,
+      76,
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em 1991",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2º",
+    "label": "VALOR"
+  },
+  {
+    "text": "2º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Confusão",
+    "label": "OBRA"
+  },
+  {
+    "text": "nos anos seguintes",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Em 1993",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Sopa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Jorge Palma",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estou agarrado a ti",
+    "label": "OBRA"
+  },
+  {
+    "text": "O ano de 1994",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Zeca Afonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Filhos da Madrugada",
+    "label": "OBRA"
+  },
+  {
+    "text": "O que faz falta",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('os anos seguintes', 'TEMPO'), ('o ano', 'TEMPO'), ('antes', 'TEMPO')]
+Espúrias  (FP): [('2º', 'VALOR'), ('nos anos seguintes', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1999 os Censurados reaparecem, para rejubilo dos fãns, participando no tributo de Xutos & Pontapés , " XX Anos XX Bandas ". Participaram na tourné de promoção desse disco com os Xutos , mas ao contrário do que se esperava os Censurados ficaram por aí, não voltando nunca mais.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Censurados",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Xutos & Pontapés",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "XX Anos XX Bandas",
+    "label": "OBRA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Xutos",
+    "label": "PESSOA",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Censurados",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em 1999",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Censurados",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Xutos & Pontapés",
+    "label": "PESSOA"
+  },
+  {
+    "text": "XX Anos XX Bandas",
+    "label": "OBRA"
+  },
+  {
+    "text": "tourné",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Xutos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Censurados",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('tourné', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ronaldo volta a treinar com bola no Milan
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ronaldo",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Milan",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ronaldo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Milan",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Milan', 'PESSOA')]
+Espúrias  (FP): [('Milan', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fenômeno não participava de um coletivo desde novembro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fenômeno",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "desde novembro",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "desde novembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Fenômeno', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em seguida, quando começou a movimentação com bola, Ronaldo seguiu correndo. Aí quem se destacou - negativamente, de acordo com o jornal italiano " La Gazzetta dello Sport " - foi o goleiro Dida .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ronaldo",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "La Gazzetta dello Sport",
+    "label": "COISA",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Dida",
+    "label": "PESSOA",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ronaldo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "La Gazzetta dello Sport",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Dida",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('La Gazzetta dello Sport', 'COISA')]
+Espúrias  (FP): [('La Gazzetta dello Sport', 'ORGANIZACAO')]
+

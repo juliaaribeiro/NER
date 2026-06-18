@@ -1,0 +1,3991 @@
+--------------------------------------------------------------------------------
+Texto:
+TUDO BEM, AS ESCOLAS ESTAO CONECTADAS. QUAL O PROXIMO PASSO? Com o acesso 'a Internet disponibilizado na maioria esmagadora das escolas publicas de todos os EUA , o debate a respeito dos computadores nas salas de aula esta' deixando de lado a questao 'eles sao necessarios nas escolas? ' em favor de outra pergunta: 'como tais computadores devem ser utilizados? ' Alguns educadores, como Ted Nellen , que leciona na Murry Bergtraum High School , da cidade de Nova Iorque , assumiu uma postura radical em relacao 'a nova tecnologia, atraves da incorporacao das mensagens enviadas via e-mail nas discussoes realizadas em sala de aula. Por exemplo, Nellen envia por e-mail perguntas aos seus alunos e estes o respondem com suas proprias mensagens eletronicas, as quais sao redirecionadas para o restante da turma. Embora diversos educadores nao pretendam ir tao longe quanto Nellen , provavelmente muitos deles nem mesmo seriam capazes de tentar, porque nao tem a minima ideia de como utilizar as ultimas aplicacoes para computadores. Um levantamento de 1999 realizado pela Milken Exchange , referente 'a Tecnologia Educacional , descobriu que a maioria dos professores que lidam diariamente com estudantes nao recebeu qualquer treinamento para saber como empregar esta nova tecnologia. E uma outra pesquisa recente apresentada pelo Centro Nacional para Estatisticas Educacionais (' National Center for Education Statistics '), dos EUA , revelou que somente 20% dos professores confiam em sua habilidade para manusear as novas aplicacoes e integrar a tecnologia em suas salas de aula. ( New York Times -- Education Life , 09 Jan 2000 ) e ( Edupage da RNP )
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Ted Nellen",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Murry Bergtraum High School",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70,
+      71,
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Nova Iorque",
+    "label": "LOCAL",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Nellen",
+    "label": "PESSOA",
+    "token_indices": [
+      107
+    ]
+  },
+  {
+    "text": "Nellen",
+    "label": "PESSOA",
+    "token_indices": [
+      142
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      170
+    ]
+  },
+  {
+    "text": "Milken Exchange",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      173,
+      174
+    ]
+  },
+  {
+    "text": "Tecnologia Educacional",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      178,
+      179
+    ]
+  },
+  {
+    "text": "Centro Nacional para Estatisticas Educacionais",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      210,
+      211,
+      212,
+      213,
+      214
+    ]
+  },
+  {
+    "text": "National Center for Education Statistics",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      216,
+      217,
+      218,
+      219,
+      220
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      223
+    ]
+  },
+  {
+    "text": "20%",
+    "label": "VALOR",
+    "token_indices": [
+      228
+    ]
+  },
+  {
+    "text": "New York Times",
+    "label": "LOCAL",
+    "token_indices": [
+      250,
+      251,
+      252
+    ]
+  },
+  {
+    "text": "Education Life",
+    "label": "LOCAL",
+    "token_indices": [
+      254,
+      255
+    ]
+  },
+  {
+    "text": "09 Jan 2000",
+    "label": "TEMPO",
+    "token_indices": [
+      257,
+      258,
+      259
+    ]
+  },
+  {
+    "text": "Edupage",
+    "label": "OUTRO",
+    "token_indices": [
+      263
+    ]
+  },
+  {
+    "text": "RNP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      265
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Internet",
+    "label": "COISA"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ted Nellen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Murry Bergtraum High School",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Nova Iorque",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Internet', 'LOCAL'), ('Nellen', 'PESSOA'), ('Nellen', 'PESSOA'), ('1999', 'TEMPO'), ('Milken Exchange', 'ORGANIZACAO'), ('Tecnologia Educacional', 'ABSTRACCAO'), ('Centro Nacional para Estatisticas Educacionais', 'ORGANIZACAO'), ('National Center for Education Statistics', 'ORGANIZACAO'), ('EUA', 'LOCAL'), ('20%', 'VALOR'), ('New York Times', 'LOCAL'), ('Education Life', 'LOCAL'), ('09 Jan 2000', 'TEMPO'), ('Edupage', 'OUTRO'), ('RNP', 'ORGANIZACAO')]
+Espúrias  (FP): [('Internet', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+INFOÉTICA OS DESAFIOS ETICOS, JURIDICOS E SOCIOCULTURAIS DA SOCIEDADE DA INFORMACAO NA AMERICA LATINA E CARIBE Nos dias 26 e 27 de outubro será realizado no Rio de Janeiro o workshop temático InfoÉtica 2000 Os Desafios Éticos, Jurídicos e Socioculturais da Sociedade da Informação na América Latina e Caribe .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "INFOÉTICA",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "AMERICA LATINA",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "CARIBE",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "26",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "27 de outubro",
+    "label": "TEMPO",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "InfoÉtica 2000 Os Desafios Éticos, Jurídicos e Socioculturais da Sociedade da Informação na América Latina e Caribe",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "INFOÉTICA",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "26",
+    "label": "TEMPO"
+  },
+  {
+    "text": "27",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "InfoÉtica 2000 Os Desafios Éticos, Jurídicos e Socioculturais da Sociedade da Informação na América Latina e Caribe",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('INFOÉTICA', 'ACONTECIMENTO'), ('AMERICA LATINA', 'LOCAL'), ('CARIBE', 'LOCAL'), ('27 de outubro', 'TEMPO')]
+Espúrias  (FP): [('INFOÉTICA', 'ABSTRACCAO'), ('27', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O objetivo é produzir uma proposta que retrate o pensamento latino-americano e caribenho sobre as questões legais e éticas no uso da informação em ambientes eletrônicos. Esse documento será levado ao 3 o. Congresso Internacional da UNESCO sobre Desafios Éticos, Jurídicos e Sociais do Ciberespaço | 3 o. Congresso Internacional da UNESCO sobre Desafios Éticos , Jurídicos e Sociais do Ciberespaço , que ocorrerá em Paris , de 13 a 15 de novembro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "3 o. Congresso Internacional da UNESCO sobre Desafios Éticos, Jurídicos e Sociais do Ciberespaço",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "3 o. Congresso Internacional",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "UNESCO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Éticos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Jurídicos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Sociais",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Ciberespaço",
+    "label": "LOCAL",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "13",
+    "label": "TEMPO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "15 de novembro",
+    "label": "TEMPO",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "3 o. Congresso Internacional da UNESCO sobre Desafios Éticos, Jurídicos e Sociais do Ciberespaço",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "3 o. Congresso Internacional da UNESCO sobre Desafios Éticos , Jurídicos e Sociais do Ciberespaço",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "13 a 15 de novembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('3 o. Congresso Internacional', 'ACONTECIMENTO'), ('UNESCO', 'ORGANIZACAO'), ('Éticos', 'ABSTRACCAO'), ('Jurídicos', 'ABSTRACCAO'), ('Sociais', 'ABSTRACCAO'), ('Ciberespaço', 'LOCAL'), ('13', 'TEMPO'), ('15 de novembro', 'TEMPO')]
+Espúrias  (FP): [('3 o. Congresso Internacional da UNESCO sobre Desafios Éticos , Jurídicos e Sociais do Ciberespaço', 'ACONTECIMENTO'), ('13 a 15 de novembro', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Promovido pela UNESCO , Programa Sociedade da Informa-ção e Ministério da Ciência e Tecnologia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "UNESCO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Programa Sociedade da Informa-ção",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Ministério da Ciência e Tecnologia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "UNESCO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Programa Sociedade da Informa-ção",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Ministério da Ciência e Tecnologia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Programa Sociedade da Informa-ção', 'ORGANIZACAO')]
+Espúrias  (FP): [('Programa Sociedade da Informa-ção', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Informacao: (61) 217.6332 (61) 3211798
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "(61) 217.6332",
+    "label": "VALOR"
+  },
+  {
+    "text": "(61) 3211798",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('(61) 217.6332', 'VALOR'), ('(61) 3211798', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Síndrome de Down poderá ter diagnóstico pré-concepcional Síndrome de Down poderá ter diagnóstico pré-concepcional (*) A causa do acidente genético que origina a Síndrome de Down vem sendo estudada pelo Prof. Michael Petersen , médico geneticista de Atenas , na Grécia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Síndrome de Down",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Síndrome de Down",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Síndrome de Down",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Prof. Michael Petersen",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Atenas",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Grécia",
+    "label": "LOCAL",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Síndrome de Down",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Síndrome de Down",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Prof. Michael Petersen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Atenas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Grécia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Síndrome de Down', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Prof. Petersen falou na Conferência de Barcelona sobre a origem e o mecanismo da anuploidia cromissomica na Síndrome de Down , como é chamado cientificamente este acidente. Segundo ele, através da análise de alguns marcadores presentes nos cromossomos maternos pode-se identificar quais as mães que têm maior risco de sofrer uma não-disjunção do cromossomo 21 , que leva a ocorrência da trissomia. Os estudos ainda são preliminares, mas são um grande passo no sentido do diagnóstico pré-concepcional, ou seja, poderão permitir futuramente que uma mãe ou pai saibam ainda antes de gerar um filho qual a probabilidade de ocorrer uma trissomia do 21 ou de outros cromossomos. O estudo deste risco genético para a não disjunção do 21 baseia-se na pesquisa da presença dos genes chamados APOE (alelo e4 ) no cromossomo 19 e PS1 (alelo ivs8 ) no cromossomo 14 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prof. Petersen",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Conferência de Barcelona",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Síndrome de Down",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "21",
+    "label": "COISA",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "21",
+    "label": "COISA",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "21",
+    "label": "COISA",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "APOE",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      127
+    ]
+  },
+  {
+    "text": "e4",
+    "label": "COISA",
+    "token_indices": [
+      129
+    ]
+  },
+  {
+    "text": "19",
+    "label": "COISA",
+    "token_indices": [
+      133
+    ]
+  },
+  {
+    "text": "PS1",
+    "label": "COISA",
+    "token_indices": [
+      135
+    ]
+  },
+  {
+    "text": "ivs8",
+    "label": "COISA",
+    "token_indices": [
+      137
+    ]
+  },
+  {
+    "text": "14",
+    "label": "COISA",
+    "token_indices": [
+      141
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prof. Petersen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conferência de Barcelona",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Síndrome de Down",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "21",
+    "label": "VALOR"
+  },
+  {
+    "text": "Síndrome de Turner",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Síndrome de Klinefelter",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('21', 'COISA'), ('21', 'COISA'), ('21', 'COISA'), ('APOE', 'ABSTRACCAO'), ('e4', 'COISA'), ('19', 'COISA'), ('PS1', 'COISA'), ('ivs8', 'COISA'), ('14', 'COISA')]
+Espúrias  (FP): [('21', 'VALOR'), ('Síndrome de Turner', 'ABSTRACCAO'), ('Síndrome de Klinefelter', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Prof. J. Egozcue , de Barcelona , explicou detalhadamente a técnica que está sendo desenvolvida para se diagnosticar antes da concepção, através do estudo de óvulos não fertilizados, a probabilidade de ocorrência de erros cromossomicos estruturais ou numéricos. Em sua opinião este tipo de teste permitirá detectar estes erros e será de utilidade nos casos em que o casal, por razões morais, rejeite a opção do abortamento. (*) Agradecemos ao Dr. Ruy do Amaral Pupo Filho , médico pediatra e sanitarista e presidente da Associação Up Down pelas anotações e transcrição das apresentações feitas na Conferência Médica Internacional sobre Síndrome de Down | Conferência Médica Internacional sobre Síndrome de Down , realizada em Barcelona , em 14 e 15 de março de 1997 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prof. J. Egozcue",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Barcelona",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Dr. Ruy do Amaral Pupo Filho",
+    "label": "PESSOA",
+    "token_indices": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Associação Up Down",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      85,
+      86,
+      87
+    ]
+  },
+  {
+    "text": "Conferência Médica Internacional",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "text": "Síndrome de Down",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "text": "Conferência Médica Internacional sobre Síndrome de Down",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ]
+  },
+  {
+    "text": "Barcelona",
+    "label": "LOCAL",
+    "token_indices": [
+      114
+    ]
+  },
+  {
+    "text": "14",
+    "label": "TEMPO",
+    "token_indices": [
+      117
+    ]
+  },
+  {
+    "text": "15 de março de 1997",
+    "label": "TEMPO",
+    "token_indices": [
+      119,
+      120,
+      121,
+      122,
+      123
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prof. J. Egozcue",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Barcelona",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Dr. Ruy do Amaral Pupo Filho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Associação Up Down",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conferência Médica Internacional sobre Síndrome de Down",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Conferência Médica Internacional sobre Síndrome de Down",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Barcelona",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Conferência Médica Internacional', 'ACONTECIMENTO'), ('Síndrome de Down', 'ABSTRACCAO'), ('14', 'TEMPO'), ('15 de março de 1997', 'TEMPO')]
+Espúrias  (FP): [('Conferência Médica Internacional sobre Síndrome de Down', 'ACONTECIMENTO'), ('1998', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Época .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Época",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Época",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Época', 'PESSOA')]
+Espúrias  (FP): [('Época', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Num segundo turno entre Ciro e Lula , FHC vota no PT ? Lula . Essa pergunta teria de ser feita ao presidente. Mas não vamos botar ninguém para vigiar o voto. Agora, um candidato que pode ter os votos dos ex-presidentes José Sarney , Itamar Franco e Fernando Henrique Cardoso tem muita respeitabilidade. Época .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ciro",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "José Sarney",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Itamar Franco",
+    "label": "PESSOA",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Fernando Henrique Cardoso",
+    "label": "PESSOA",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Época",
+    "label": "PESSOA",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ciro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José Sarney",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Itamar Franco",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fernando Henrique Cardoso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Época",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Época', 'PESSOA')]
+Espúrias  (FP): [('Época', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Lula . Acho que tenho. Época .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lula",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Época",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Acho que tenho.",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Época",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Época', 'PESSOA')]
+Espúrias  (FP): [('Acho que tenho.', 'ABSTRACCAO'), ('Época', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como o senhor acha que o presidente FHC deve conduzir o fim do governo? Lula . O presidente FHC deveria enviar ainda hoje ao Congresso o projeto de uma minirreforma tributária que desonere a produção e a exportação e acabe com os impostos em cascata. Já existe um consenso no Congresso a favor disso. Eu disse a um grupo de amigos que FHC tem de colocar na cabeça que o governo dele não acabou, que ele tem o controle da economia e da política. Se o homem que tem o cargo mais importante do Brasil ficar alquebrado, vai passar a impressão de falta de solução. Então ele tem de levantar a cabeça e assumir a iniciativa de fazer política. Época .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FHC",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Congresso",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Congresso",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      94
+    ]
+  },
+  {
+    "text": "Época",
+    "label": "PESSOA",
+    "token_indices": [
+      119
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FHC",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Congresso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Época",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Congresso', 'ORGANIZACAO'), ('Época', 'PESSOA')]
+Espúrias  (FP): [('Brasil', 'LOCAL'), ('Época', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Lula . José Alencar é uma das coisas mais extraordinárias que aconteceram nesta campanha. Conheci o Zé Alencar na festa de 50 anos de vida empresarial dele, à qual só fui por muita insistência do PT de Minas | PT de Minas e do deputado José Dirceu .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lula",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "José Alencar",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Zé Alencar",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "50 anos",
+    "label": "VALOR",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Minas",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "PT de Minas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "José Dirceu",
+    "label": "PESSOA",
+    "token_indices": [
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José Alencar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Zé Alencar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "50 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "PT de Minas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PT de Minas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José Dirceu",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PT', 'ORGANIZACAO'), ('Minas', 'LOCAL')]
+Espúrias  (FP): [('PT de Minas', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando ouvi o Zé Alencar , fiquei encantado. Época .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Zé Alencar",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Época",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Zé Alencar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Época",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Época', 'PESSOA')]
+Espúrias  (FP): [('Época', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+É um homem de excepcional caráter, um companheiro que está intimamente afinado com as coisas que penso. Não tenho preocupação de deixá-lo fazer qualquer debate porque sua história ganha o coração das pessoas. Época .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Época",
+    "label": "PESSOA",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Época",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Época', 'PESSOA')]
+Espúrias  (FP): [('Época', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não é contraditório fazer uma aliança com o ex-governador Orestes Quércia depois de o PT o chamar de corrupto durante anos? Lula . Estive junto com Quércia nas eleições ao Senado de 1974 , porque era ele no MDB contra Carvalho Pinto , da Arena .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Orestes Quércia",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Quércia",
+    "label": "PESSOA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Senado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "1974",
+    "label": "TEMPO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "MDB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Carvalho Pinto",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Arena",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Orestes Quécia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Senado",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1974",
+    "label": "TEMPO"
+  },
+  {
+    "text": "MDB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carvalho Pinto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Arena",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Orestes Quércia', 'PESSOA'), ('Quércia', 'PESSOA'), ('Senado', 'ORGANIZACAO')]
+Espúrias  (FP): [('Orestes Quécia', 'PESSOA'), ('Senado', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ora, se o PT decidiu fazer aliança com todos os setores de oposição ao projeto neoliberal, a verdade é que o PMDB de São Paulo | PMDB de São Paulo coordenado por Quércia esteve contra o governo FHC . Eleição é isso. Época .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "PMDB de São Paulo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Quércia",
+    "label": "PESSOA",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Época",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PMDB de São Paulo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PMDB de São Paulo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Quércia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Eleição",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Época",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('PMDB', 'ORGANIZACAO'), ('São Paulo', 'LOCAL'), ('Época', 'PESSOA')]
+Espúrias  (FP): [('PMDB de São Paulo', 'ORGANIZACAO'), ('Eleição', 'ACONTECIMENTO'), ('Época', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Formar governo é isso também? Lula . Quando você ganha, vira governo de 170 milhões de brasileiros. Temos fissuras ideológicas com o PFL , com o PPB , mas interesse de trabalhar com setores do PMDB que se opuseram ao governo FHC . A montagem de um governo é um acordo programático, feita preferencialmente com quem o apoiou, mas posso chamar também pessoas de partidos que competiram comigo. Época .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lula",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "170 milhões",
+    "label": "VALOR",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "PFL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "PPB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Época",
+    "label": "PESSOA",
+    "token_indices": [
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "170 milhões",
+    "label": "VALOR"
+  },
+  {
+    "text": "PFL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PPB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Época",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Época', 'PESSOA')]
+Espúrias  (FP): [('Época', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nos últimos quatro anos, todo mês me reuni com economistas, com Paul Singer , Luiz Gonzaga Belluzzo , Luciano Coutinho , João Manoel Cardoso de Mello .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paul Singer",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Luiz Gonzaga Belluzzo",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Luciano Coutinho",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "João Manoel Cardoso de Mello",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "quatro anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Paul Singer",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Luiz Gonzaga Belluzzo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Luciano Coutinho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "João Manoel Cardoso de Mello",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('quatro anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Época .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Época",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Época",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Época', 'PESSOA')]
+Espúrias  (FP): [('Época', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eles vão estar num governo Lula ? Lula . Para bom entendedor, meia palavra basta. Todos esses nomes podem estar no governo, mas vamos conversar com outros que não pertencem ao PT .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lula",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lula', 'ABSTRACCAO')]
+Espúrias  (FP): [('Lula', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+De igual modo haveria que investigar se, nesta ordem de valores, faz sentido a sobrecarga do co-financiamento. Há que implementar a colaboração com outros programas comunitários, pois os programas não podem funcionar uns ao lado dos outros, mas sim uns com os outros, de modo a poder-se tirar melhor partido dos recursos existentes. Os relatórios de acompanhamento da Comissão deveriam também considerar os relatórios de acompanhamento dos participantes, pois, para nós, é importante o resultado destes programas. Que tipo de repercussões têm, por exemplo, na formação dos professores? Que experiências positivas podem advir para alunos e estudantes? Tudo isto é importante para dar continuidade ao programa e/ou para o melhorar. Penso que temos direito a esperar resultados. No que se refere ao financiamento, não há dúvida de que foi uma dura batalha dar-lhe pernas para andar. Junto as minhas palavras ao que foi dito pela colega Pack : em 2004 , quando houver alargamento é imprescindível um reforço de dotações, pois, caso contrário, este programa estará condenado ao fracasso. Senhor Presidente , Senhora Comissária , caros colegas, antes de entrar mais aprofundadamente no debate do relatório sobre a execução do programa SÓCRATES , gostaria de cumprimentar a senhora deputada Pack pelo consciencioso trabalho que apresentou. Já tivemos ocasião de ouvir todos os números, e é realmente espantoso. Entre 1995 e 1999 tivemos o programa SÓCRATES I , que foi muito bem sucedido mas foi também alvo da necessária crítica. Os estudantes e docentes que nele participaram reconheceram abertamente que as experiências foram particularmente instrutivas e que o programa contribuiu de forma concreta para a cidadania europeia.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Pack",
+    "label": "PESSOA",
+    "token_indices": [
+      146
+    ]
+  },
+  {
+    "text": "2004",
+    "label": "TEMPO",
+    "token_indices": [
+      149
+    ]
+  },
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      169,
+      170
+    ]
+  },
+  {
+    "text": "Senhora Comissária",
+    "label": "PESSOA",
+    "token_indices": [
+      172,
+      173
+    ]
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA",
+    "token_indices": [
+      191
+    ]
+  },
+  {
+    "text": "Pack",
+    "label": "PESSOA",
+    "token_indices": [
+      199
+    ]
+  },
+  {
+    "text": "1995",
+    "label": "TEMPO",
+    "token_indices": [
+      218
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      220
+    ]
+  },
+  {
+    "text": "SÓCRATES I",
+    "label": "OBRA",
+    "token_indices": [
+      224,
+      225
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Pack', 'PESSOA'), ('2004', 'TEMPO'), ('Senhor Presidente', 'PESSOA'), ('Senhora Comissária', 'PESSOA'), ('SÓCRATES', 'OBRA'), ('Pack', 'PESSOA'), ('1995', 'TEMPO'), ('1999', 'TEMPO'), ('SÓCRATES I', 'OBRA')]
+Espúrias  (FP): [('Comissão', 'ORGANIZACAO'), ('Comissão Europeia', 'ORGANIZACAO'), ('Comissão Europeia', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Porém, a crítica incidiu sobretudo nos procedimentos. Estes eram excessivamente burocráticos, pouco transparentes, os pagamentos eram demasiado morosos e pouco foi feito com os resultados. Como é a situação neste momento? Entretanto, já há pouco mais de um ano e meio que nos ocupamos do programa SÓCRATES II , que vigorará até 2006 , e apesar de não ter sido ainda publicado qualquer relatório de avaliação intercalar há sinais de que já muito foi melhorado. Aparentemente, a relação entre a Comissão e as agências nacionais foi consideravelmente flexibilizada e os procedimentos administrativos foram um pouco mais simplificados. No entanto, há algumas observações marginais que gostaria de fazer. A prolixidade dos procedimentos - seguramente para os projectos de menor dimensão - continua a afugentar potenciais participantes. Além disso, de acordo com as informações de que disponho, os contratos são muitas vezes enviados tardiamente e os pagamentos das bolsas fazem-se esperar. O meu grupo considera isto inaceitável. Os projectos ficam, assim, em apuros financeiros, o que não contribui propriamente para aumentar a credibilidade da União Europeia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SÓCRATES II",
+    "label": "OBRA",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "2006",
+    "label": "TEMPO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      80
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      172,
+      173
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SÓCRATES II",
+    "label": "OBRA"
+  },
+  {
+    "text": "2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('União Europeia', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mas, Senhora Comissária , tendo em conta a postura do meu Ministro das Finanças , estou realmente a falar aqui um pouco por mim própria. Senhor Presidente , registo com grande agrado a criação da segunda fase do programa SÓCRATES e agradeço à senhora deputada Pack o seu excelente trabalho. Sem dúvida alguma que assistimos a uma maior cooperação no campo da educação europeia, combinada com um empenho renovado na formação contínua, o que é inspirador. No País de Gales , o meu país, e de facto em todo o Reino Unido , registam-se dificuldades, de uma forma geral, na promoção da aquisição de competências linguísticas. O Programa ERASMUS contribuiu largamente para melhorar esta situação e gostaria que o número de estudantes que participam anualmente neste programa, 460 000 , viesse a aumentar. Este intercâmbio não só obriga, claramente, a uma melhoria no domínio dos conhecimentos linguísticos como promove a cooperação cultural. A Comissão deve continuar a fazer tudo o que estiver ao seu alcance para garantir que o processo de candidatura seja mais convivial, pelo que concordo com os comentários de alguns oradores, a saber, que actualmente a parte administrativa do programa cria dificuldades aos participantes. Verifica-se que tem sido imposta aos candidatos uma carga administrativa pesada neste programa, particularmente ao abrigo da acção COMENIUS , que precisa urgentemente de ser objecto de atenção. Independentemente do êxito alcançado por este programa, é preciso que ele seja sempre o mais aberto possível a todos aqueles que nele desejarem participar. Senhor Presidente , o programa SÓCRATES não é um mero sistema de intercâmbios educativos. Funciona como instrumento de intervenção nas consciências dos jovens e como mecanismo de imposição de um determinado modelo educativo. O problema fulcral da educação, que é a formação universal dos jovens, fica de fora das actividades deste programa.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Comissária",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Ministro das Finanças",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Pack",
+    "label": "PESSOA",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "País de Gales",
+    "label": "LOCAL",
+    "token_indices": [
+      77,
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Reino Unido",
+    "label": "LOCAL",
+    "token_indices": [
+      90,
+      91
+    ]
+  },
+  {
+    "text": "Programa ERASMUS",
+    "label": "OBRA",
+    "token_indices": [
+      107,
+      108
+    ]
+  },
+  {
+    "text": "460 000",
+    "label": "VALOR",
+    "token_indices": [
+      127,
+      128
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      153
+    ]
+  },
+  {
+    "text": "COMENIUS",
+    "label": "OBRA",
+    "token_indices": [
+      215
+    ]
+  },
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      249,
+      250
+    ]
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA",
+    "token_indices": [
+      254
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senhora Comissária",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ministro das Finanças",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "País de Gales",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Reino Unido",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Programa ERASMUS",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('SÓCRATES', 'OBRA'), ('Pack', 'PESSOA'), ('460 000', 'VALOR'), ('Comissão', 'ORGANIZACAO'), ('COMENIUS', 'OBRA'), ('Senhor Presidente', 'PESSOA'), ('SÓCRATES', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Trata-se, em última análise, de um assunto do movimento popular. Senhor Presidente , quero felicitar a senhora deputada Doris Pack pelo relatório sobre o programa SÓCRATES , que me deu ensejo para uma série de considerações. Não há dúvida de que podemos afirmar que o principal objectivo, designadamente desenvolver a cidadania europeia e, em especial, melhorar a qualidade dos sistemas educativos, foi plenamente realizado. A demonstrá-lo temos os importantes benefícios conseguidos com a abertura cultural, com a superação de preconceitos e estereótipos culturais e, consequentemente, com a aprendizagem das línguas, de que beneficiaram os bolseiros do programa SÓCRATES .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Doris Pack",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA",
+    "token_indices": [
+      97
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Doris Pack",
+    "label": "PESSOA"
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA"
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA"
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA"
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('SÓCRATES', 'OBRA'), ('SÓCRATES', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar disso, a sua análise deixa patentes alguns pontos fracos, tais como a integração do programa SÓCRATES com os programas COMENIUS , LÍNGUA e LEONARDO DA VINCI , que deverá exigir importantes ajustamentos e uma maior coordenação e reforço. Um aspecto que eu considero que deve absolutamente ser tido em grande linha de conta é o do apoio financeiro oferecido aos vencedores de bolsas SÓCRATES : o montante atribuído revela-se insuficiente para o sustento dos estudantes, em virtude de um critério de distribuição quantitativa das bolsas que originou uma excessiva redução das verbas atribuíveis Com efeito, regista-se uma grande diversidade de situações nacionais num contexto de redução global dos montantes das bolsas concedidas a cada estudante, ao mesmo tempo que o contributo dos familiares tem tendência para aumentar.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "COMENIUS",
+    "label": "OBRA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "LÍNGUA",
+    "label": "OBRA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "LEONARDO DA VINCI",
+    "label": "OBRA",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "OBRA",
+    "token_indices": [
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SÓCRATES",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "COMENIUS",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "LÍNGUA",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "LEONARDO DA VINCI",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('SÓCRATES', 'OBRA'), ('COMENIUS', 'OBRA'), ('LÍNGUA', 'OBRA'), ('LEONARDO DA VINCI', 'OBRA'), ('SÓCRATES', 'OBRA')]
+Espúrias  (FP): [('SÓCRATES', 'ABSTRACCAO'), ('COMENIUS', 'ABSTRACCAO'), ('LÍNGUA', 'ABSTRACCAO'), ('LEONARDO DA VINCI', 'ABSTRACCAO'), ('SÓCRATES', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como já foi salientado no relatório, essa tendência cria, evidentemente, o risco de desigualdades crescentes entre os estudantes. Relativamente a este aspecto, importa assegurar os meios necessários suficientes a fim de que se possa proceder de maneira autónoma, ou seja, sem o indispensável apoio dos familiares, tendo em conta que as bolsas de estudo não devem ser diferenciadas, tanto no que se refere ao país da pessoa interveniente como ao país para onde esta última se desloca para desenvolver o seu projecto. Essa discriminação económica iria fazer com que o acesso ao programa só pudesse ser concedido a um grupo de indivíduos que pudessem contar com o apoio da família. Outro aspecto altamente negativo na atribuição das bolsas é constituído pelo processo burocrático de financiamento, o qual, neste momento, revela um enorme atraso e ao qual haverá necessariamente que pôr remédio. Senhor Presidente , educação, educação, educação - o Primeiro-Ministro britânico afirmou uma vez que esta era a sua prioridade. Tenho as minhas dúvidas sobre a verdade destas afirmações e pergunto-me se de facto esta será a nossa prioridade na Europa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      141,
+      142
+    ]
+  },
+  {
+    "text": "Primeiro-Ministro",
+    "label": "PESSOA",
+    "token_indices": [
+      149
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      180
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Setembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Janeiro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Senhor Presidente', 'PESSOA'), ('Primeiro-Ministro', 'PESSOA'), ('Europa', 'LOCAL')]
+Espúrias  (FP): [('Setembro', 'TEMPO'), ('Janeiro', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Seguramente que não, se olharmos para o que investimos neste domínio. Na Europa , gastamos 2,5 mil milhões de euros anualmente em azeitonas e gastámos menos de 2 mil milhões de euros , para um período de seis anos, no Programa SÓCRATES .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "2,5 mil milhões de euros",
+    "label": "VALOR",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "menos de 2 mil milhões de euros",
+    "label": "VALOR",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Programa SÓCRATES",
+    "label": "OBRA",
+    "token_indices": [
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "2,5 mil milhões de euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "2 mil milhões de euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "Programa SÓCRATES",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('menos de 2 mil milhões de euros', 'VALOR')]
+Espúrias  (FP): [('2 mil milhões de euros', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Forte de Aguada Colocado num ponto estratégico, controlando o estuário do Rio Mandovi , no concelho de Bardez , este forte é dos mais grandes e mais bem conservados em Goa . É visitado por muitos turistas, e conta com a atracção de dois faróis. Um é o mais velho do género na Ásia , o outro bem mais moderno cumpre agora a tarefa de ajudar à navegação marítima. O forte é muito grande, com vários baluartes. Estende-se por vários quilómetros quadrados e numa das suas partes junto ao rio Mandovi situa-se presentemente a prisão de Goa . Á sua volta encontram-se vários Hóteis de 5 estrelas, como o Taj , o Fort Aguada Resort , entre outros. Há planos do Departamento de Turismo para um campo de golfe e um complexo turístico para esta zona histórica. História Esta praça tinha originalmente o nome de Santa Catarina , mas devido às diversas fontes de água fresca no seu interior, foi baptizada de Forte Aguada , sendo que aqui os barcos portugueses aportavam para se reabastecerem de água e mantimentos. Começada a construção em 1604 , foi finalizada a parte principal em 1812 , data que está (estava?) marcada numa placa: "REINANDO MUI CATHOLICO REI D. FILLIPE 2.º DE PORTUGAL MANDOU A CIDADE FAZER ESTA FORTALEZA DO DINHEIRO DE UM POR CENTO , PARA GUARDA E DEFFENSÃO DAS NÁOS, QUE A ESTE PORTO VEM, A QUAL FOI ACABADA PELOS VEREADORES DO ANNO 1612 , SENDO VICE-REI DÉSTE ESTADO RUI LOURENÇO DE TAVORA ." Este forte foi essencial na defesa de Goa no bloqueio dos holandeses no século XVII e nas diversas incursões guerreiras dos maratas em Bardez .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Forte de Aguada",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Rio Mandovi",
+    "label": "LOCAL",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Bardez",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Ásia",
+    "label": "LOCAL",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Mandovi",
+    "label": "LOCAL",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "Hóteis",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "5",
+    "label": "VALOR",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "Taj",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      109
+    ]
+  },
+  {
+    "text": "Fort Aguada Resort",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      112,
+      113,
+      114
+    ]
+  },
+  {
+    "text": "Departamento de Turismo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      121,
+      122,
+      123
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCAL",
+    "token_indices": [
+      145,
+      146
+    ]
+  },
+  {
+    "text": "Forte Aguada",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      162,
+      163
+    ]
+  },
+  {
+    "text": "1604",
+    "label": "TEMPO",
+    "token_indices": [
+      183
+    ]
+  },
+  {
+    "text": "1812",
+    "label": "TEMPO",
+    "token_indices": [
+      191
+    ]
+  },
+  {
+    "text": "REI D. FILLIPE 2.º DE PORTUGAL",
+    "label": "PESSOA",
+    "token_indices": [
+      203,
+      204,
+      205,
+      206,
+      207,
+      208
+    ]
+  },
+  {
+    "text": "UM POR CENTO",
+    "label": "VALOR",
+    "token_indices": [
+      218,
+      219,
+      220
+    ]
+  },
+  {
+    "text": "1612",
+    "label": "TEMPO",
+    "token_indices": [
+      241
+    ]
+  },
+  {
+    "text": "RUI LOURENÇO DE TAVORA",
+    "label": "PESSOA",
+    "token_indices": [
+      247,
+      248,
+      249,
+      250
+    ]
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL",
+    "token_indices": [
+      259
+    ]
+  },
+  {
+    "text": "século XVII",
+    "label": "TEMPO",
+    "token_indices": [
+      265,
+      266
+    ]
+  },
+  {
+    "text": "Bardez",
+    "label": "LOCAL",
+    "token_indices": [
+      275
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Forte de Aguada', 'LOCAL'), ('Rio Mandovi', 'LOCAL'), ('Bardez', 'LOCAL'), ('Goa', 'LOCAL'), ('Ásia', 'LOCAL'), ('Mandovi', 'LOCAL'), ('Goa', 'LOCAL'), ('Hóteis', 'ORGANIZACAO'), ('5', 'VALOR'), ('Taj', 'ORGANIZACAO'), ('Fort Aguada Resort', 'ORGANIZACAO'), ('Departamento de Turismo', 'ORGANIZACAO'), ('Santa Catarina', 'LOCAL'), ('Forte Aguada', 'ABSTRACCAO'), ('1604', 'TEMPO'), ('1812', 'TEMPO'), ('REI D. FILLIPE 2.º DE PORTUGAL', 'PESSOA'), ('UM POR CENTO', 'VALOR'), ('1612', 'TEMPO'), ('RUI LOURENÇO DE TAVORA', 'PESSOA'), ('Goa', 'LOCAL'), ('século XVII', 'TEMPO'), ('Bardez', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No seu interior encontra-se ainda a Capela de Nossa Senhora da Boa Viagem (em péssimo estado de conservação) e o farol da Aguada , mandado construir pelo governador interino Lopes de Lima em 1841 , que incluía uma grande lanterna e um sino de 2250 quilos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Capela de Nossa Senhora da Boa Viagem",
+    "label": "OBRA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Aguada",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Lopes de Lima",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "1841",
+    "label": "TEMPO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "2250 quilos",
+    "label": "VALOR",
+    "token_indices": [
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Capela de Nossa Senhora da Boa Viagem",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Aguada",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lopes de Lima",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1841",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2250 quilos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Capela de Nossa Senhora da Boa Viagem', 'OBRA')]
+Espúrias  (FP): [('Capela de Nossa Senhora da Boa Viagem', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este sino era originário do Convento dos Agostinhos em Velha Goa . Este sino, está presentemente na Igreja de Panjim .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Convento dos Agostinhos",
+    "label": "OBRA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Velha Goa",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Igreja de Panjim",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Convento dos Agostinhos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Velha Goa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Igreja de Panjim",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Convento dos Agostinhos', 'OBRA')]
+Espúrias  (FP): [('Convento dos Agostinhos', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Andréia Cristina B Andréia Cristina B. Ramos - Mestrado - FOUSP - 1998 Orientador : Prof. Dr. Carlos de Paula Eduardo Título: Microinfiltração marginal em cavidades de classe V preparadas com alta rotação e com laser de Er:YAG - Estudo in vitro |Microinfiltração marginal em cavidades de classe V preparadas com alta rotação e com laser de Er:YAG - Estudo in vitro. Resumo: A microinfiltração é uma das causas de insucesso da restauração. Ela pode promover a descoloração marginal, cáries recorrentes, hipersensibilidade e o desenvolvimento de patologias pulpares. Vários materiais e técnicas têm sido investigados com o propósito de minimizar ou eliminar a microifiltração ao redor das restaurações, especialmente nas margens gengivais de cavidades de Classe V , devido à ausência, na maioria dos casos, de esmalte nesta área. O uso clínico de laser de Er:YAG em Dentística Restauradora é baseado principalmente na habilidade que este sistema possui de realizar preparos cavitários sem contato mecânico. A ablação dos tecidos duros resulta em preparo cavitário com superfícies irregulares, proporcionando uma forma adicional de retenção micromecânica para os materiais restauradores estéticos e talvez melhorar o selamento marginal. O propósito deste estudo foi avaliar através de lupa estereomicroscópica, microscópio eletrônico de varredura e também caracterizá-las através de análise por energia dispersiva de raios X, os graus de microinfiltração marginal encontrados em cavidades de Classe V preparadas com o laser de Er:YAG e comparar com os graus encontrados nas cavidades preparadas com alta rotação. Para este estudo, foram utilizados 36 dentes terceiros molares humanos extraídos, divididos igualmente em 3 grupos: grupo 1 - preparado com alta rotação e condicionado com ácido fosfórico a 35% , grupo 2 - preparado com laser de Er:YAG e condicionado com ácido fosfórico a 35% e grupo 3 - preparado e condicionado com laser de Er:YAG. Os espécimes foram restaurados com sistema adesivo dental Single bond ( 3M ) e resina composta fotopolimerizável Z100 ( 3M ), estocados a 37ºC em estufa por 24 horas , termociclados, imersos em solução de nitrato de prata a 50% por 24 horas em total ausência de luz e revelados em solução reveladora sob luz fluorescente por 6 horas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Andréia Cristina B",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Andréia Cristina B. Ramos",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "FOUSP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Orientador",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Prof. Dr. Carlos de Paula Eduardo",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Microinfiltração marginal em cavidades de classe V preparadas com alta rotação e com laser de Er:YAG - Estudo in vitro",
+    "label": "OBRA",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "V",
+    "label": "COISA",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Classe V",
+    "label": "COISA",
+    "token_indices": [
+      115,
+      116
+    ]
+  },
+  {
+    "text": "Dentística Restauradora",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      137,
+      138
+    ]
+  },
+  {
+    "text": "Classe V",
+    "label": "COISA",
+    "token_indices": [
+      220,
+      221
+    ]
+  },
+  {
+    "text": "36",
+    "label": "VALOR",
+    "token_indices": [
+      245
+    ]
+  },
+  {
+    "text": "3",
+    "label": "VALOR",
+    "token_indices": [
+      254
+    ]
+  },
+  {
+    "text": "35%",
+    "label": "VALOR",
+    "token_indices": [
+      269
+    ]
+  },
+  {
+    "text": "35%",
+    "label": "VALOR",
+    "token_indices": [
+      285
+    ]
+  },
+  {
+    "text": "Single bond",
+    "label": "COISA",
+    "token_indices": [
+      305,
+      306
+    ]
+  },
+  {
+    "text": "3M",
+    "label": "COISA",
+    "token_indices": [
+      308
+    ]
+  },
+  {
+    "text": "Z100",
+    "label": "COISA",
+    "token_indices": [
+      314
+    ]
+  },
+  {
+    "text": "3M",
+    "label": "COISA",
+    "token_indices": [
+      316
+    ]
+  },
+  {
+    "text": "37ºC",
+    "label": "VALOR",
+    "token_indices": [
+      320
+    ]
+  },
+  {
+    "text": "24 horas",
+    "label": "VALOR",
+    "token_indices": [
+      324,
+      325
+    ]
+  },
+  {
+    "text": "50%",
+    "label": "VALOR",
+    "token_indices": [
+      336
+    ]
+  },
+  {
+    "text": "24 horas",
+    "label": "VALOR",
+    "token_indices": [
+      338,
+      339
+    ]
+  },
+  {
+    "text": "6 horas",
+    "label": "VALOR",
+    "token_indices": [
+      354,
+      355
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Andréia Cristina B', 'PESSOA'), ('Andréia Cristina B. Ramos', 'PESSOA'), ('FOUSP', 'ORGANIZACAO'), ('1998', 'TEMPO'), ('Orientador', 'PESSOA'), ('Prof. Dr. Carlos de Paula Eduardo', 'PESSOA'), ('Microinfiltração marginal em cavidades de classe V preparadas com alta rotação e com laser de Er:YAG - Estudo in vitro', 'OBRA'), ('V', 'COISA'), ('Classe V', 'COISA'), ('Dentística Restauradora', 'ABSTRACCAO'), ('Classe V', 'COISA'), ('36', 'VALOR'), ('3', 'VALOR'), ('35%', 'VALOR'), ('35%', 'VALOR'), ('Single bond', 'COISA'), ('3M', 'COISA'), ('Z100', 'COISA'), ('3M', 'COISA'), ('37ºC', 'VALOR'), ('24 horas', 'VALOR'), ('50%', 'VALOR'), ('24 horas', 'VALOR'), ('6 horas', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Foram seccionados e avaliados através de lupa estereomicroscópica, microscópio eletrônico de varredura e análise por energia dispersiva de raios X. Os resultados foram submetidos aos testes estatísticos de Kruskal-Wallis e Mann-Whithey .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "testes estatísticos de Kruskal-Wallis",
+    "label": "COISA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Mann-Whithey",
+    "label": "COISA",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('testes estatísticos de Kruskal-Wallis', 'COISA'), ('Mann-Whithey', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Concluiu-se que as cavidades preparadas com o laser de Er:YAG, assim como as preparadas com alta rotação, ambas condicionadas com ácido fosfórico a 35% (grupos 1 e 2) mostraram menores graus de microinfiltração do que as cavidades preparadas e condicionadas com o laser de Er:YAG (grupo 3). Voltar
+
+Entidades verdadeiras:
+[
+  {
+    "text": "35%",
+    "label": "VALOR",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Er:YAG",
+    "label": "COISA"
+  },
+  {
+    "text": "Er:YAG",
+    "label": "COISA"
+  },
+  {
+    "text": "35%",
+    "label": "VALOR"
+  },
+  {
+    "text": "Er:YAG",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Er:YAG', 'COISA'), ('Er:YAG', 'COISA'), ('Er:YAG', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+P - E qual que era a clientela nessa época? R - Bom, eram clientes do Brasil inteiro... O Brasil de 64 era um país extremamente mais pobre de rodovias, de, de meios de comunicação, então as pessoas vinham, vamos dizer, de uma forma até sacrificante, até São Paulo , para fazer as compras para distribuir no seu estado. Então, nós tínhamos clientes do Brasil inteiro onde a gente vendia muito para regiões atacadistas, como Recife , Fortaleza , Belém do Pará , que sempre foram regiões fortes de distribuição, mas... as pessoas faziam verdadeiras maratonas para poder vir à São Paulo comprar, e conseguir distribuir essa mercadoria lá. Então, o cliente naquela época era extremamente exigente com relação a preço, porque uma vez que ele se sacrificava para vir até São Paulo , ele brigava por qualquer centavo para poder tentar tirar o custo da viagem e o sacrifício dele, para poder levar o máximo possível de mercadorias. E era um, um período difícil, era outro... um perfil completamente diferente do de hoje, né. As mercadorias ficavam dentro de balcões, eram solicitadas, vamos dizer, eram muito menos produtos e esses produtos eram conhecidos nominativamente, ou até pela referência, e isso facilitava muito fazer uma concorrência de preços. Vamos dizer, eram poucas indústrias em cada ramo, então, isso permitia com que o cliente em 2 horas ou 3 horas ele fizesse um pesquisa na região inteira. Hoje, esse perfil é bem diferente, a gama de produtos é extremamente maior, ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Brasil de 64",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Recife",
+    "label": "LOCAL",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "Fortaleza",
+    "label": "LOCAL",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Belém do Pará",
+    "label": "LOCAL",
+    "token_indices": [
+      79,
+      80,
+      81
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      100,
+      101
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      131,
+      132
+    ]
+  },
+  {
+    "text": "2 horas",
+    "label": "VALOR",
+    "token_indices": [
+      224,
+      225
+    ]
+  },
+  {
+    "text": "3 horas",
+    "label": "VALOR",
+    "token_indices": [
+      227,
+      228
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "64",
+    "label": "TEMPO"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Recife",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fortaleza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Belém do Pará",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Brasil de 64', 'ABSTRACCAO'), ('Brasil', 'LOCAL'), ('São Paulo', 'LOCAL'), ('2 horas', 'VALOR'), ('3 horas', 'VALOR')]
+Espúrias  (FP): [('64', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+nós passamos por um período de inflação que o preço muda todo o dia, então a memória, hoje, das pessoas com relação a preço ainda é muito curta. Agora, com a estabilização do real, pode ser que comece a renascer esse aspecto. P - Seu Gilberto | Seu Gilberto , quais seriam os produtos compreendidos como armarinho e se isso mudou ao longo do tempo? R - É, armarinho é uma palavra muito vaga, né.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gilberto",
+    "label": "PESSOA",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Seu Gilberto",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Seu Gilberto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Seu Gilberto",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Gilberto', 'PESSOA')]
+Espúrias  (FP): [('Seu Gilberto', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+e vai por aí afora, é um sem fim de itens, né! Na realidade, a nossa linha, a nossa empresa chama Rei do Armarinho , mas a gente não trabalha com esses ítens que eu estou mencionando. É só para dar um noção de amplitude. P - Quais são exatamente os ítens? R - A gente trabalha muito mais voltado para costura. A nossa linha mais específica são as fitas, rendas, bordados, galões, linhas, zíperes... P - ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rei do Armarinho",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rei do Armarinho",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Rei do Armarinho', 'ABSTRACCAO')]
+Espúrias  (FP): [('Rei do Armarinho', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+elásticos... R - ...elásticos, cadarços, cordões, coisas para cortinas, tipo acessórios para cortina, botões, aliás, botões é um dos pontos fortes nosso. É e, à medida que a loja foi crescendo, vamos dizer, foi tendo mais espaço para que a gente agregasse novas coisas. Então, numa determinada época do ano a gente valoriza um pouco o material escolar, em função da volta às aulas; no carnaval você agrega alguma coisa que sirva para fantasias etc.; no Natal você se especializa colocando enfeites para árvores, guirlandas etc. Então a gente complementa o armarinho tradicional ou o aviamento tradicional com coisas de cada época do ano. Então, isso acaba dando uma certa movimentação na, na atividade, porque uma boa parte da nossa clientela é rotativa, o cliente vem hoje, volta cada período.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Natal",
+    "label": "TEMPO",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Natal', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ronald Wilson Reagan ( 6 de Fevereiro, 1911 - 5 de Junho, 2004 ) foi o 40.º ( 1981-1989 ) Presidente dos Estados Unidos da América e o 33.º Governador da Califórnia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ronald Wilson Reagan",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "6 de Fevereiro, 1911",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "5 de Junho, 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "40.º",
+    "label": "VALOR",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "1981-1989",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Presidente dos Estados Unidos da América",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "33.º",
+    "label": "VALOR",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Governador da Califórnia",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ronald Wilson Reagan",
+    "label": "PESSOA"
+  },
+  {
+    "text": "6 de Fevereiro, 1911",
+    "label": "TEMPO"
+  },
+  {
+    "text": "5 de Junho, 2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "40.º",
+    "label": "VALOR"
+  },
+  {
+    "text": "1981-1989",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estados Unidos da América",
+    "label": "LOCAL"
+  },
+  {
+    "text": "33.º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Califórnia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Presidente dos Estados Unidos da América', 'PESSOA'), ('Governador da Califórnia', 'PESSOA')]
+Espúrias  (FP): [('Estados Unidos da América', 'LOCAL'), ('Califórnia', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1921 , com 11 anos de idade, Reagan foi batizado na igreja de sua mãe, a Discípulos de Cristo , em Dixon , e em 1924 ele começou a frequentar a Dixon's Northside High School .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1921",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "11 anos",
+    "label": "VALOR",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Reagan",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Discípulos de Cristo",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Dixon",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "1924",
+    "label": "TEMPO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Dixon's Northside High School",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1921",
+    "label": "TEMPO"
+  },
+  {
+    "text": "11 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Reagan",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Discípulos de Cristo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Dixon",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1924",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dixon's Northside High School",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Discípulos de Cristo', 'PESSOA')]
+Espúrias  (FP): [('Discípulos de Cristo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1926 , com 15 anos de idade, Reagan começou um trabalho de verão como salva-vidas em Lowell Park , a 3 Km de Dixon na vizinha Rock River .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1926",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "15 anos",
+    "label": "VALOR",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Reagan",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Lowell Park",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "3 Km",
+    "label": "VALOR",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Dixon",
+    "label": "PESSOA",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Rock River",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1926",
+    "label": "TEMPO"
+  },
+  {
+    "text": "15 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Reagan",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lowell Park",
+    "label": "LOCAL"
+  },
+  {
+    "text": "3 Km",
+    "label": "VALOR"
+  },
+  {
+    "text": "Dixon",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rock River",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Dixon', 'PESSOA')]
+Espúrias  (FP): [('Dixon', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ele continuou a trabalhar como um salva-vidas em Rock River pelos 7 anos seguintes, tendo salvo 77 pessoas de afogamento.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rock River",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "7 anos",
+    "label": "VALOR",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "77",
+    "label": "VALOR",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rock River",
+    "label": "LOCAL"
+  },
+  {
+    "text": "77",
+    "label": "VALOR"
+  },
+  {
+    "text": "7",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('7 anos', 'VALOR')]
+Espúrias  (FP): [('7', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Candidatos presidenciais mexicanos fazem campanha nos EUA SAN DIEGO ( CNN-AP ) -- Eles estão longe da pátria e das urnas onde serão decididas as próximas eleições presidenciais, mas os emigrantes mexicanos que trabalham nos Estados Unidos são incluídos de todas as formas nas campanhas dos principais candidatos do seu país. Neste fim de semana, Vicente Fox , candidato oposicionista que deseja tirar do poder o Partido Revolucionário Institucional nas eleições de 2 de julho , estará fazendo campanha ao norte da fronteira. No domingo à noite, o candidato de esquerda Cuauhtémoc Cárdenas , ex-prefeito da cidade do México e terceiro nas pesquisas, deve se apresentar en Los Angeles .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "SAN DIEGO",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "CNN-AP",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Vicente Fox",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Partido Revolucionário Institucional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "2 de julho",
+    "label": "TEMPO",
+    "token_indices": [
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Cuauhtémoc Cárdenas",
+    "label": "PESSOA",
+    "token_indices": [
+      91,
+      92
+    ]
+  },
+  {
+    "text": "México",
+    "label": "LOCAL",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "Los Angeles",
+    "label": "LOCAL",
+    "token_indices": [
+      107,
+      108
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "SAN DIEGO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "CNN-AP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Vicente Fox",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Partido Revolucionário Institucional",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2 de julho",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Cuauhtémoc Cárdenas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Los Angeles",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('CNN-AP', 'LOCAL'), ('México', 'LOCAL')]
+Espúrias  (FP): [('CNN-AP', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fox anunciou que estaria no sábado em Chicago e mais tarde viajaria para a Califórnia , com escalas em Bakersfield , Fresno e Sacramento .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fox",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Califórnia",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Bakersfield",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Fresno",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Sacramento",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fox",
+    "label": "PESSOA"
+  },
+  {
+    "text": "sábado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Califórnia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bakersfield",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fresno",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sacramento",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('sábado', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cárdenas planejava manter dois dias de reuniões com cidadãos mexicanos, grupos de apoio e jornalistas. Mas o quê pode levar um aspirante à presidência do México a fazer campanha num país estrangeiro, onde seus compatriotas não têm direito a voto nas eleições nacionais? O objetivo é buscar influência indireta, dizem alguns observadores. " Fox é muito inteligente", disse Ezequiel Banda Cifuentes , dirigente de um grupo favorável a Fox baseado em Chicago .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cárdenas",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "México",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Fox",
+    "label": "PESSOA",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Ezequiel Banda Cifuentes",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Fox",
+    "label": "PESSOA",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL",
+    "token_indices": [
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cárdenas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "MÉXICO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fox",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ezequiel Banda Cifuentes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('México', 'LOCAL'), ('Fox', 'PESSOA')]
+Espúrias  (FP): [('MÉXICO', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Ele vê o que outras pessoas não percebem: que nós somos mexicanos que vamos ao México , escrevemos cartas, ligamos por telefone quase diariamente para nossas mães, nossos pais e nossas irmãs". Os candidatos acreditam que se beneficiarão da grande influência que têm os emigrantes. Em conjunto, eles enviam à sua terra uns sete bilhões de dólares por ano, constituindo a terceira fonte de recursos externos do México , depois do petróleo e do turismo. "Somos um suporte da economia mexicana", disse Luis Magaña , coordenador de um grupo de assistência em Stockton , Califórnia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "México",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "México",
+    "label": "LOCAL",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Luis Magaña",
+    "label": "PESSOA",
+    "token_indices": [
+      82,
+      83
+    ]
+  },
+  {
+    "text": "Stockton",
+    "label": "LOCAL",
+    "token_indices": [
+      92
+    ]
+  },
+  {
+    "text": "Califórnia",
+    "label": "LOCAL",
+    "token_indices": [
+      94
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "México",
+    "label": "LOCAL"
+  },
+  {
+    "text": "México",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Luis Magaña",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Stockton",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Califórnia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "sete bilhões de dólares",
+    "label": "VALOR"
+  },
+  {
+    "text": "terceira",
+    "label": "VALOR"
+  },
+  {
+    "text": "México",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('sete bilhões de dólares', 'VALOR'), ('terceira', 'VALOR'), ('México', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Sem nós, o sistema viria abaixo". Nos Estados Unidos moram 7,2 milhões de imigrantes mexicanos, que representariam mais de 10 por cento do eleitorado mexicano se lhes fosse permitido votar no exterior, segundo o Instituto Federal Eleitoral do México .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "7,2 milhões",
+    "label": "VALOR",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "mais de 10 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Instituto Federal Eleitoral do México",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "7,2 milhões",
+    "label": "VALOR"
+  },
+  {
+    "text": "10 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "Instituto Federal Eleitoral do México",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('mais de 10 por cento', 'VALOR')]
+Espúrias  (FP): [('10 por cento', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas uma tentativa de conceder-lhes o voto no ano passado foi barrada no Senado mexicano pelos membros do Partido Revolucionário Institucional , que governa o país há 71 anos seguidos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Partido Revolucionário Institucional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "71 anos",
+    "label": "VALOR",
+    "token_indices": [
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senado mexicano",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Partido Revolucionário Institucional",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "71 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Senado', 'ORGANIZACAO')]
+Espúrias  (FP): [('Senado mexicano', 'ORGANIZACAO')]
+

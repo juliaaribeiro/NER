@@ -1,0 +1,2186 @@
+--------------------------------------------------------------------------------
+Texto:
+Por um lado , o governo federal pretende melhorar o atendimento às populações carentes dos Municípios por meio de transferências realizada pelo Programa Saúde da Família .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "governo federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Programa Saúde da Família",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Programa Saúde da Família",
+    "label": "PRODUTOprograma"
+  }
+]
+
+Perdidas  (FN): [('governo federal', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+2 Câmara dos Deputados As duas coisas não podem ser feitas simultaneamente , senhor Presidente , senhoras e senhores Deputados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Deputados",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Presidente', 'PESSOAcargo'), ('Deputados', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não é por outro motivo que grande parte dos prefeitos brasileiros está simplesmente deixando de aderir ao Programa e as consequências recaem , como sempre , sobre os mais necessitados .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "prefeitos brasileiros",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "Programa",
+    "label": "PRODUTOprograma"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('prefeitos brasileiros', 'PESSOAgrupocargo'), ('Programa', 'PRODUTOprograma')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além disso , o Tribunal de Contas do Estado de Minas Gerais , respondeu às Consultas nº 656.574 , 700.774 e 832.420 , com o entendimento unânime de que : “ .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal de Contas do Estado de Minas Gerais",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Consultas nº 656.574",
+    "label": "FUNDprojetodelei",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "700.774",
+    "label": "FUNDprojetodelei",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "832.420",
+    "label": "FUNDprojetodelei",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tribunal de Contas do Estado de Minas Gerais",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Consultas nº 656.574', 'FUNDprojetodelei'), ('700.774', 'FUNDprojetodelei'), ('832.420', 'FUNDprojetodelei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+” 3 Câmara dos Deputados Precisamos urgentemente corrigir essas distorções e , por isso , esperamos contar com o apoio dos nobres Colegas a fim de ver aprovada a presente proposição .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Câmara dos Deputados', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No Brasil , desde 2014 , tem sido realizada a campanha “ Setembro Amarelo ” , uma iniciativa do Centro de Valorização da Vida , do Conselho Federal de Medicina e da Associação Brasileira de Psiquiatria 1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "2014",
+    "label": "DATA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Setembro Amarelo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Centro de Valorização da Vida",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Conselho Federal de Medicina",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Associação Brasileira de Psiquiatria",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "2014",
+    "label": "DATA"
+  },
+  {
+    "text": "Setembro Amarelo",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Centro de Valorização da Vida",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Conselho Federal de Medicina",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Associação Brasileira de Psiquiatria",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('Conselho Federal de Medicina', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Conselho Federal de Medicina', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em setembro de 2017 , o MS lançou a Agenda de Ações Estratégicas para a Vigilância e Prevenção do Suicídio e Promoção da Saúde no Brasil 2017 - 2020 5 , com o objetivo de reduzir em 10% a mortalidade por 1 https : / / www.ufrgs.br / telessauders / noticias / dia-mundial-prevencao-suicidio / 2 https : / / www.paho.org / bra / index.php ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "setembro de 2017",
+    "label": "DATA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "MS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Agenda de Ações Estratégicas para a Vigilância e Prevenção do Suicídio e Promoção da Saúde no Brasil 2017 - 2020",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "https : / / www.ufrgs.br / telessauders / noticias / dia-mundial-prevencao-suicidio /",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "https : / / www.paho.org / bra /",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "setembro de 2017",
+    "label": "DATA"
+  },
+  {
+    "text": "MS",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Agenda de Ações Estratégicas para a Vigilância e Prevenção do Suicídio e Promoção da Saúde no Brasil 2017 - 2020",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "1 https : / / www.ufrgs.br / telessauders / noticias / dia-mundial-prevencao-suicidio /",
+    "label": "LOCALvirtual"
+  }
+]
+
+Perdidas  (FN): [('https : / / www.ufrgs.br / telessauders / noticias / dia-mundial-prevencao-suicidio /', 'LOCALvirtual'), ('https : / / www.paho.org / bra /', 'LOCALvirtual')]
+Espúrias  (FP): [('1 https : / / www.ufrgs.br / telessauders / noticias / dia-mundial-prevencao-suicidio /', 'LOCALvirtual')]
+
+--------------------------------------------------------------------------------
+Texto:
+option = com_content & view = article & id = 5671 : folha-informativa - suicidio & Itemid = 839 3 http : / / portalarquivos2 . saude.gov.br / images / pdf / 2018 / setembro / 20 / Coletiva-suic - - dio.pdf 4 http : / / www.saude.gov.br / saude-de-a-z / suicidio 5 https : / / www.neca.org.br / wp-content / uploads / cartilha_agenda-estrategica-publicada.pdf P L n .4 8 7 3 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 4 : 5 8 3 suicídio até 2020 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "http : / / portalarquivos2 . saude.gov.br / images / pdf / 2018 / setembro / 20 / Coletiva-suic - - dio.pdf",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "http : / / www.saude.gov.br / saude-de-a-z / suicidio 5 https : / / www.neca.org.br / wp-content / uploads / cartilha_agenda-estrategica-publicada.pdf",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "2020",
+    "label": "DATA",
+    "token_indices": [
+      105
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "http : / / portalarquivos2 . saude.gov.br / images / pdf / 2018 / setembro / 20 / Coletiva-suic - - dio.pdf",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "http : / / www.saude.gov.br / saude-de-a-z / suicidio",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "https : / / www.neca.org.br / wp-content / uploads / cartilha_agenda-estrategica-publicada.pdf",
+    "label": "LOCALvirtual"
+  }
+]
+
+Perdidas  (FN): [('http : / / www.saude.gov.br / saude-de-a-z / suicidio 5 https : / / www.neca.org.br / wp-content / uploads / cartilha_agenda-estrategica-publicada.pdf', 'LOCALvirtual'), ('2020', 'DATA')]
+Espúrias  (FP): [('http : / / www.saude.gov.br / saude-de-a-z / suicidio', 'LOCALvirtual'), ('https : / / www.neca.org.br / wp-content / uploads / cartilha_agenda-estrategica-publicada.pdf', 'LOCALvirtual')]
+
+--------------------------------------------------------------------------------
+Texto:
+Recentemente , foi publicada a Lei nº 13.819 , de 2019 6 , que instituiu a Política Nacional de Prevenção da Automutilação e do Suicídio , e trouxe diversas inovações ao ordenamento jurídico , no contexto da prevenção desse agravo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 13.819 , de 2019",
+    "label": "FUNDlei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Política Nacional de Prevenção da Automutilação e do Suicídio",
+    "label": "FUNDapelido",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 13.819 , de 2019",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Política Nacional de Prevenção da Automutilação e do Suicídio",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Política Nacional de Prevenção da Automutilação e do Suicídio', 'FUNDapelido')]
+Espúrias  (FP): [('Política Nacional de Prevenção da Automutilação e do Suicídio', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI N o , DE 2011 ( Do Sr. Marllos Sampaio ) Altera o limite de dedução , no imposto de renda devido pela pessoa jurídica , dos valores despendidos a título de patrocínio ou doação a projetos desportivos e paradesportivos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2011",
+    "label": "DATA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Marllos Sampaio",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "imposto de renda devido pela pessoa jurídica",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2011",
+    "label": "DATA"
+  },
+  {
+    "text": "Marllos Sampaio",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('imposto de renda devido pela pessoa jurídica', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+§ 6º A partir do ano-calendário de 2012 , o limite de dedução de que trata o inciso I do § 1º deste artigo será de 3% ( três por cento ) do imposto devido , observado o disposto no § 4º do art . 3º da Lei nº 9.249 , de 26 de dezembro de 1995 , em cada período de apuração " ( NR ) Art . 3º Esta Lei entra em vigor na data da sua publicação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2012",
+    "label": "DATA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "§ 4º do art . 3º da Lei nº 9.249 , de 26 de dezembro de 1995",
+    "label": "FUNDlei",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2012",
+    "label": "DATA"
+  },
+  {
+    "text": "art . 3º da Lei nº 9.249 , de 26 de dezembro de 1995",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('§ 4º do art . 3º da Lei nº 9.249 , de 26 de dezembro de 1995', 'FUNDlei')]
+Espúrias  (FP): [('art . 3º da Lei nº 9.249 , de 26 de dezembro de 1995', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+2 JUSTIFICAÇÃO No texto original da Lei nº 11.438 , de 29 de dezembro de 2006 , era previsto o limite de dedução de até 4% ( quatro por cento ) do imposto de renda devido pela pessoa jurídica dos patrocínios e das doações para projetos desportivos e paradesportivos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 11.438 , de 29 de dezembro de 2006",
+    "label": "FUNDlei",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "imposto de renda devido pela pessoa jurídica",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 11.438 , de 29 de dezembro de 2006",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('imposto de renda devido pela pessoa jurídica', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cabe lembrar que o país sediará os dois mais importantes eventos esportivos do mundo nos próximos anos : a Copa do Mundo de Futebol e os Jogos Olímpicos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Copa do Mundo de Futebol",
+    "label": "EVENTO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Jogos Olímpicos",
+    "label": "EVENTO",
+    "token_indices": [
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Copa do Mundo de Futebol', 'EVENTO'), ('Jogos Olímpicos', 'EVENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por essas razões , contamos com o apoio dos ilustres pares do Congresso Nacional para o aperfeiçoamento e aprovação deste Projeto de Lei .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Congresso Nacional",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Congresso Nacional', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Artigo 1º - Fica o Poder Executivo autorizado a criar , junto ao Ministério do Meio Ambiente , a figura do Vigilante Ambiental Voluntário em caráter nacional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Ministério do Meio Ambiente",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Vigilante Ambiental Voluntário",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Ministério do Meio Ambiente",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Vigilante Ambiental Voluntário",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Vigilante Ambiental Voluntário', 'PESSOAcargo')]
+Espúrias  (FP): [('Vigilante Ambiental Voluntário', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Parágrafo único - O exercício da atividade de Vigilante Ambiental Voluntário em âmbito nacional é considerado de interesse público relevante , em caráter voluntário e não será remunerado ; Artigo 2º - A atividade do Vigilante Ambiental Voluntário , que trata esta Lei , tem como atribuições impedir e denunciar atos de vandalismo praticados contra o meio ambiente , em especial , áreas verdes como reservas ecológicas , públicas ou privadas , áreas de proteção ambiental , áreas de relevante interesse ecológico , estações ecológicas , recursos hídricos , outras unidades de conservação e demais áreas protegidas , e também , parques , vias e bens públicos ajardinados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vigilante Ambiental Voluntário",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Vigilante Ambiental Voluntário",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vigilante Ambiental Voluntário",
+    "label": "PESSOAcargo"
+  }
+]
+
+Perdidas  (FN): [('Vigilante Ambiental Voluntário', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para garantir a efetividade desse direito , nossa Carta Magna determina como uma das obrigações do Poder Público a promoção da Educação Ambiental em todos os níveis de ensino e a conscientização pública .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carta Magna",
+    "label": "FUNDapelido",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Poder Público",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Público",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Carta Magna', 'FUNDapelido')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS PROJETO DE LEI Nº , DE 2019 ( Da Deputada Edna Henrique ) Dispõe sobre a obrigatoriedade de fornecimento , pelos meios de hospedagem , de informações aos consumidores sobre o valor dos correspondentes serviços prestados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Deputada",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "Deputada",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Edna Henrique",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Edna Henrique', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 3 6 3 / 2 0 1 9 A p re s e n ta ç ã o : 0 8 / 0 8 / 2 0 1 9 1 5 : 4 4 CÂMARA DOS DEPUTADOS Art . 4º Esta Lei entra em vigor na data de sua publicação .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Portanto , o fortalecimento e a expansão da indústria turística nacional são de interesse máximo do País , devendo atrair a melhor das atenções de governo , empresários e consumidores .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "empresários",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('empresários', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI Nº , DE 2019 ( Do Sr. Célio Studart ) Altera o caput do artigo 49 da Lei nº 8.078 , de 11 de setembro de 1990 , para aumentar o prazo do direito de arrependimento dos consumidores O Congresso Nacional decreta : Art . 1º O caput do artigo 49 da Lei nº 8.078 , de 11 de setembro de 1990 , passa a vigorar da seguinte forma : “ Art .49 O consumidor pode desistir do contrato , no prazo de 14 dias a contar de sua assinatura ou do ato de recebimento do produto ou serviço , sempre que a contratação de fornecimento de produtos e serviços ocorrer fora do estabelecimento comercial , especialmente por telefone ou a domicílio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Célio Studart",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "caput do artigo 49 da Lei nº 8.078 , de 11 de setembro de 1990",
+    "label": "FUNDlei",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "O caput do artigo 49 da Lei nº 8.078 , de 11 de setembro de 1990",
+    "label": "FUNDlei",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "Célio Studart",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "caput do artigo 49 da Lei nº 8.078 , de 11 de setembro de 1990",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('O caput do artigo 49 da Lei nº 8.078 , de 11 de setembro de 1990', 'FUNDlei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dep. Célio Studart PV / CE P L n .4 6 4 9 / 2 0 1 9 A p re s e n ta ç ã o : 2 1 / 0 8 / 2 0 1 9 1 9 : 1 6
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dep.",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Célio Studart",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "PV",
+    "label": "ORGpartido",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "CE",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Célio Studart",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PV",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "CE",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Dep.', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+8º-A , que alíquota mínima do ISSQN é de 2% , a Lei Complementar veda a concessão de isenções , incentivos ou benefícios tributários ou financeiros , inclusive de redução de base de cálculo ou de crédito presumido ou outorgado , ou sob qualquer outra forma que resulte , direta ou indiretamente , em carga tributária menor a que decorreria da aplicação dessa alíquota .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ISSQN",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ISSQN",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Lei Complementar",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Lei Complementar', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que propomos é adicionar exceção em favor dos “ Serviços relativos a hospedagem , turismo , viagens e congêneres ” previstos no item 9 da Lista de serviços anexa à Lei Complementar nº 116 , de 2003 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Complementar nº 116 , de 2003",
+    "label": "FUNDlei",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "item 9 da Lista de serviços anexa à Lei Complementar nº 116 , de 2003",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Lei Complementar nº 116 , de 2003', 'FUNDlei')]
+Espúrias  (FP): [('item 9 da Lista de serviços anexa à Lei Complementar nº 116 , de 2003', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º A presente Lei tem por objetivo acrescentar parágrafo único ao art . 1º da Lei nº 9.492 , de 10 de setembro de 1997 , para vedar o protesto de documentos comprobatórios da existência de débitos perante a Fazenda Pública .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 1º da Lei nº 9.492 , de 10 de setembro de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Fazenda Pública",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 1º da Lei nº 9.492 , de 10 de setembro de 1997",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Fazenda Pública', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No domingo passado , apenas a Polícia Militar recebeu 147 chamados para conter conflitos dentro das casas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Polícia Militar",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "domingo",
+    "label": "DATA"
+  },
+  {
+    "text": "Polícia Militar",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('domingo', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os dados fazem parte do Cadastro Nacional de Violência Doméstica e foram apresentados hoje ( 27 ) durante seminário sobre combate à violência de gênero realizado pelo Ministério Público do Rio de Janeiro ( MPRJ ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público do Rio de Janeiro ( MPRJ )",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cadastro Nacional de Violência Doméstica",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "27",
+    "label": "DATA"
+  },
+  {
+    "text": "Ministério Público do Rio de Janeiro ( MPRJ )",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Cadastro Nacional de Violência Doméstica', 'PRODUTOoutros'), ('27', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fonte ( Correio Braziliense ) : https : / / www.correiobraziliense.com.br / app / noticia / cidades / 2017 / 07 / 15 / interna_cidadesdf , 609909 / violencia - contra-a-mulher-fins-de-semana-sao-dias-com-mais-ocorrencia.shtml ; publicação em : 17 jul . 2017 ; acesso em : 18 ago . 2019 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Correio Braziliense",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "17 jul . 2017",
+    "label": "DATA",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "18 ago . 2019",
+    "label": "DATA",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Correio Braziliense",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "https : / / www.correiobraziliense.com.br / app / noticia / cidades / 2017 / 07 / 15 / interna_cidadesdf , 609909 / violencia - contra-a-mulher-fins-de-semana-sao-dias-com-mais-ocorrencia.shtml",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "17 jul . 2017",
+    "label": "DATA"
+  },
+  {
+    "text": "18 ago . 2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('Correio Braziliense', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Correio Braziliense', 'LOCALvirtual'), ('https : / / www.correiobraziliense.com.br / app / noticia / cidades / 2017 / 07 / 15 / interna_cidadesdf , 609909 / violencia - contra-a-mulher-fins-de-semana-sao-dias-com-mais-ocorrencia.shtml', 'LOCALvirtual')]
+
+--------------------------------------------------------------------------------
+Texto:
+2 Agressões a mulheres no RJ aumentam nos fins de semana e em dias de futebol .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "RJ",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('RJ', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fonte ( Agência Brasil ) : http : / / agenciabrasil.ebc.com.br / direitos-humanos / noticia / 2017 - 11 / agressoes-mulheres-no-rj - aumentam-nos-fins-de-semana-e-em-dias-de ; publicação em : 27 nov . 2017 ; acesso em : 18 ago . 2019 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Agência Brasil",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "27 nov . 2017",
+    "label": "DATA",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "18 ago . 2019",
+    "label": "DATA",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Agência Brasil",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "http : / / agenciabrasil.ebc.com.br / direitos-humanos / noticia / 2017 - 11 / agressoes-mulheres-no-rj - aumentam-nos-fins-de-semana-e-em-dias-de",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "27 nov . 2017",
+    "label": "DATA"
+  },
+  {
+    "text": "18 ago . 2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('Agência Brasil', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Agência Brasil', 'ORGgovernamental'), ('http : / / agenciabrasil.ebc.com.br / direitos-humanos / noticia / 2017 - 11 / agressoes-mulheres-no-rj - aumentam-nos-fins-de-semana-e-em-dias-de', 'LOCALvirtual')]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 1º As penas aplicam-se cumulativamente e em dobro , quando , para a execução do crime , se reúnem mais de três pessoas ou há emprego de armas ou mesmo é cometido por agentes políticos , militares ou servidores públicos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "agentes políticos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "militares",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "servidores públicos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      39,
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('agentes políticos', 'PESSOAgrupocargo'), ('militares', 'PESSOAgrupocargo'), ('servidores públicos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+§ 1º O valor mínimo de cada prestação será de : I – R $ 50,00 ( cinquenta reais ) , no caso de pessoa física ; e II – R $ 100,00 ( cem reais ) , no caso de pessoa jurídica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "pessoa jurídica",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('pessoa jurídica', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Essas modificações podem contribuir para aumentar os recursos financeiros à disposição dos contribuintes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "contribuintes",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('contribuintes', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 7 8 3 / 2 0 1 9 A p re s e n ta ç ã o : 2 9 / 0 8 / 2 0 1 9 1 6 : 4 4 3 Sala das Sessões , em de de 2019 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('2019', 'DATA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Há ainda que se considerar a apropriação indébita dos termos derivados da palavra chocolate dos seus mais fiéis produtores : os cultivadores do cacau .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "cultivadores do cacau",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('cultivadores do cacau', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado GERALDO SIMÕES 2011 _ 345
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "GERALDO SIMÕES",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "GERALDO SIMÕES",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "2011",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('2011', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Delegado Waldir Acrescenta o inciso IV ao art . 28 da Lei nº 11.343 , de 23 de agosto de 2006 , para fixar a pena de internação compulsória para tratamento dos usuários de drogas e bebidas alcoólicas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Delegado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Waldir",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "inciso IV ao art . 28 da Lei nº 11.343 , de 23 de agosto de 2006",
+    "label": "FUNDlei",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Delegado Waldir",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "inciso IV ao art . 28 da Lei nº 11.343 , de 23 de agosto de 2006",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Delegado', 'PESSOAcargo'), ('Waldir', 'PESSOAindividual')]
+Espúrias  (FP): [('Delegado Waldir', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 6º - O agente das condutas do Art . 28 será submetido a Exame Clínico em unidades de saúde com internação clínica / terapêutico compulsório pelo período necessário para tratamento integral provisoriamente fixando pelo médico atendente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "médico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "médico atendente",
+    "label": "PESSOAcargo"
+  }
+]
+
+Perdidas  (FN): [('médico', 'PESSOAcargo')]
+Espúrias  (FP): [('médico atendente', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Carta Magna somente aceita restrição e privação da liberdade de ir e vir nos casos de cometimento de crime , ou seja , no âmbito penal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carta Magna",
+    "label": "FUNDapelido",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carta Magna', 'FUNDapelido')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Gilmar Machado ) Altera a Lei nº 9.503 , de 23 de janeiro de 1997 , que institui o Código de Trânsito Brasileiro , para dispor sobre a Permissão para Dirigir .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gilmar Machado",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Lei nº 9.503 , de 23 de janeiro de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Código de Trânsito Brasileiro",
+    "label": "FUNDapelido",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Permissão para Dirigir",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gilmar Machado",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 9.503 , de 23 de janeiro de 1997",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Código de Trânsito Brasileiro",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Permissão para Dirigir', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta lei altera o § 3º do art . 148 da Lei nº 9.503 , de 23 de setembro de 1997 , que institui o Código de Trânsito Brasileiro para dispor sobre a Permissão para Dirigir .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "§ 3º do art . 148 da Lei nº 9.503 , de 23 de setembro de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Código de Trânsito Brasileiro",
+    "label": "FUNDapelido",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Permissão para Dirigir",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "§ 3º do art . 148 da Lei nº 9.503 , de 23 de setembro de 1997",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Código de Trânsito Brasileiro",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Permissão para Dirigir', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+§ 3º A Carteira Nacional de Habilitação será conferida ao condutor no término de um ano , desde que o mesmo não tenha cometido nenhuma infração de natureza gravíssima ou seja reincidente em infração grave ou média .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carteira Nacional de Habilitação",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carteira Nacional de Habilitação', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A exemplo de outras nações , o Brasil instituiu a habilitação restritiva e graduada , com uma primeira etapa temporária , na qual é concedida ao candidato a Permissão para Dirigir .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Permissão para Dirigir",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Permissão para Dirigir', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Após um ano , cumpridas as exigências , o candidato recebe a Carteira Nacional de Habilitação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carteira Nacional de Habilitação",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carteira Nacional de Habilitação', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+148 , que exige do portador da Permissão para Dirigir o não cometimento de nenhuma infração de natureza grave ou gravíssima ou ser reincidente em infração média durante o período de um ano , sob pena de ter que reiniciar todo o processo de habilitação , vide o § 4º do mesmo artigo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Permissão para Dirigir",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Permissão para Dirigir', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No que concerne ao acréscimo do crime de estelionato contra idoso , cremos que a agravante genérica estatuída no art . 61 , inciso II , h , do Código Penal – Decreto-Lei nº 2848 , de 7 de dezembro de 1940 , embora recepcionada pelo próprio Estatuto do Idoso , não se referiu aos abusos que são perpetrados contra os idosos nessa nova modalidade de crime por meios tecnológicos , antes não conhecidos e hoje muito utilizados e disponíveis pelas instituições financeiras como celular , notebook , facilitando e induzindo os mesmos a contrair esses empréstimos sem muito conhecimento dos grandes problemas e constrangimento que isso propiciará na sua renda mensal , com conseqüências psicológicas , traumas famílias , agravando os problemas de saúde , em muitos casos podendo levar a depressão e ao suicídio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 61 , inciso II , h , do Código Penal",
+    "label": "FUNDlei",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Decreto-Lei nº 2848 , de 7 de dezembro de 1940",
+    "label": "FUNDlei",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Estatuto do Idoso",
+    "label": "FUNDapelido",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 61 , inciso II , h , do Código Penal – Decreto-Lei nº 2848 , de 7 de dezembro de 1940",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Estatuto do Idoso",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('art . 61 , inciso II , h , do Código Penal', 'FUNDlei'), ('Decreto-Lei nº 2848 , de 7 de dezembro de 1940', 'FUNDlei')]
+Espúrias  (FP): [('art . 61 , inciso II , h , do Código Penal – Decreto-Lei nº 2848 , de 7 de dezembro de 1940', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por outro lado , a inclusão deste artigo no próprio Estatuto afigura-se-nos de melhor técnica legislativa , pois ficará melhor localizada , 3 não dando margem a qualquer tipo de manobra de agentes do crime e seus defensores de se furtarem às consequências deste tipo penal .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Estatuto', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO A Participação dos Trabalhadores nos Lucros ou Resultados das Empresas , criada pela Lei nº 10.101 , de 19 de dezembro de 2 2000 , converteu-se , nesses dez anos de existência , num eficaz instrumento de estímulo à produtividade dos empregados em todos os setores da economia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Participação dos Trabalhadores nos Lucros ou Resultados das Empresas",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Lei nº 10.101 , de 19 de dezembro de 2 2000",
+    "label": "FUNDlei",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Participação dos Trabalhadores nos Lucros ou Resultados das Empresas",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Lei nº 10.101 , de 19 de dezembro de 2 2 000",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Lei nº 10.101 , de 19 de dezembro de 2 2000', 'FUNDlei')]
+Espúrias  (FP): [('Lei nº 10.101 , de 19 de dezembro de 2 2 000', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+8º , elege o Sindicato como o verdadeiro defensor dos interesses dos trabalhadores , e reconhecer a posição de relevo atribuída por essa mesma Constituição à negociação coletiva , contribui , inegavelmente , não apenas para a pacificação nas relações entre capital e trabalho , mas , sobretudo , na redução do tão falado custo Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Constituição",
+    "label": "FUNDapelido",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sindicato",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "trabalhadores",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Constituição', 'FUNDapelido')]
+Espúrias  (FP): [('Sindicato', 'ORGnaogovernamental'), ('trabalhadores', 'PESSOAgrupocargo'), ('Brasil', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Veja-se , todavia , a situação , por exemplo , da Bahia : o Estado é o maior produtor de madeira para papel e celulose , com 14,7 milhões de m³ , o que representa 22,4% dos 65,3 milhões de m³ produzidos no País ( seguido do Paraná , com 11,1 milhões de m³ ( 16,9% ) ; Santa Catarina , com 7,4 milhões de m³ ( 11,4% ) ; Espírito Santo , com 6,1 milhões dem³ ( 9,3% ) e Minas 3 Gerais , com 5,4 milhões de m³ ( 8,2% ) ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bahia",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Paraná",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Espírito Santo",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Minas",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Gerais",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      83
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bahia",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Paraná",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Espírito Santo",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Pará",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Minas', 'LOCALconcreto'), ('Gerais', 'LOCALconcreto')]
+Espúrias  (FP): [('Pará', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+2 Art . 3º A rescisão do contrato de trabalho , independentemente do tempo de serviço , deverá ser assistida pelo respectivo sindicato profissional ou , na falta deste , por outro sindicato de trabalhadores com base territorial no mesmo município .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "sindicato profissional",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "sindicato de trabalhadores",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('sindicato profissional', 'ORGnaogovernamental'), ('sindicato de trabalhadores', 'ORGnaogovernamental')]
+

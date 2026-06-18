@@ -1,0 +1,6607 @@
+--------------------------------------------------------------------------------
+Texto:
+Documento assinado eletronicamente por Carlos Augusto de Sousa , Matricula 9319 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Augusto de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Augusto de Sousa', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para confirmar a validade deste documento , acesse : https : //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 213edf70af SUPERIOR TRIBUNAL MILITAR APELAÇÃO Nº 0000141-56.2015.7.01.0201 RELATOR : MINISTRO CARLOS AUGUSTO DE SOUSA REVISOR : MINISTRO ARTUR VIDIGAL DE OLIVEIRA APELANTE : LEONARDO PEREIRA XAVIER APELADO : MINISTÉRIO PÚBLICO MILITAR ADVOGADOS : DANIELLE THAIS DE LIMA BARBOSA AARÃO , DAGOBERTO LUIZ DE ARAUJO BARBOSA , DAGOBERTO LUIZ DE ARAUJO BARBOSA FILHO EMENTA : APELAÇÃO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SUPERIOR TRIBUNAL MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "APELAÇÃO Nº 0000141-56.2015.7.01.0201",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "CARLOS AUGUSTO DE SOUSA",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "ARTUR VIDIGAL DE OLIVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "LEONARDO PEREIRA XAVIER",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "DANIELLE THAIS DE LIMA BARBOSA AARÃO",
+    "label": "PESSOA",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "DAGOBERTO LUIZ DE ARAUJO BARBOSA",
+    "label": "PESSOA",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "DAGOBERTO LUIZ DE ARAUJO BARBOSA FILHO",
+    "label": "PESSOA",
+    "token_indices": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('SUPERIOR TRIBUNAL MILITAR', 'ORGANIZACAO'), ('APELAÇÃO Nº 0000141-56.2015.7.01.0201', 'JURISPRUDENCIA'), ('CARLOS AUGUSTO DE SOUSA', 'PESSOA'), ('ARTUR VIDIGAL DE OLIVEIRA', 'PESSOA'), ('LEONARDO PEREIRA XAVIER', 'PESSOA'), ('MINISTÉRIO PÚBLICO MILITAR', 'ORGANIZACAO'), ('DANIELLE THAIS DE LIMA BARBOSA AARÃO', 'PESSOA'), ('DAGOBERTO LUIZ DE ARAUJO BARBOSA', 'PESSOA'), ('DAGOBERTO LUIZ DE ARAUJO BARBOSA FILHO', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+MPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+ART . 251 DO CPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ART . 251 DO CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ART . 251 DO CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Atestada por laudo pericial a falsidade dos comprovantes de residência e dos bilhetes de passagem apresentados pelo Acusado com o fim de auferir vantagem indevida advinda do pagamento de auxílio-transporte , resta configurado o tipo previsto no art . 251 do CPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 251 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 251 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O recebimento indevido de auxilio-transporte enquadra-se no disposto no art . 251 do CPM quando se constata a combinação do recebimento de valores de forma ilícita e a manutenção da Administração Militar em erro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 251 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 251 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Precedentes do STM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+ACÓRDÃO Vistos , relatados e discutidos estes autos , acordam os ministros do Superior Tribunal Militar , em sessão de julgamento , sob a presidência do Ministro Dr. JOSÉ COÊLHO FERREIRA , na conformidade do Extrato da Ata do Julgamento , por unanimidade , em conhecer e negar provimento ao Apelo da Defesa , para manter incólume a Sentença proferida pelo Conselho Permanente de Justiça da 2º Auditoria da 1ª CJM , que condenou o 3º Sgt Mar LEONARDO PEREIRA XAVIER , à pena de 2 ( dois ) anos de prisão , como incurso no art . 251 , `` caput '' , do CPM , com o benefício do sursis pelo prazo de 2 ( dois ) anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "JOSÉ COÊLHO FERREIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "1ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69,
+      70
+    ]
+  },
+  {
+    "text": "LEONARDO PEREIRA XAVIER",
+    "label": "PESSOA",
+    "token_indices": [
+      78,
+      79,
+      80
+    ]
+  },
+  {
+    "text": "art . 251 , `` caput '' , do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO'), ('JOSÉ COÊLHO FERREIRA', 'PESSOA'), ('1ª CJM', 'ORGANIZACAO'), ('LEONARDO PEREIRA XAVIER', 'PESSOA'), ("art . 251 , `` caput '' , do CPM", 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ministro Alte Esq CARLOS AUGUSTO DE SOUSA Relator RELATÓRIO O Representante do Ministério Público Militar , perante a 2ª Auditoria da 1ª CJM , denunciou o 3º Sgt Mar LEONARDO PEREIRA XAVIER pela prática do crime previsto no art . 251 , caput , do CPM [ 1 ] .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CARLOS AUGUSTO DE SOUSA",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "1ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "LEONARDO PEREIRA XAVIER",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "art . 251 , caput , do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CARLOS AUGUSTO DE SOUSA', 'PESSOA'), ('Ministério Público Militar', 'ORGANIZACAO'), ('1ª CJM', 'ORGANIZACAO'), ('LEONARDO PEREIRA XAVIER', 'PESSOA'), ('art . 251 , caput , do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Exordial narra , em essência , que o aludido militar , em 19/5/2014 , requereu a concessão do benefício de Documento assinado eletronicamente por Carlos Augusto de Sousa , Matricula 9319 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "19/5/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Carlos Augusto de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('19/5/2014', 'TEMPO'), ('Carlos Augusto de Sousa', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para confirmar a validade deste documento , acesse : https : //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 213edf70af auxílio-transporte junto ao verificador de transportes da Base Naval do Rio de Janeiro-RJ , declarando que sua despesa diária com locomoção seria de R $ 54,30 ( cinquenta e quatro reais e trinta centavos ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rio de Janeiro-RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Rio de Janeiro-RJ', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo a Denúncia , após fortes suspeitas de adulteração de 36 ( trinta e seis ) bilhetes de passagens rodoviárias , trazidas à baila pelo militar responsável pela verificação de transportes , o SO RM1-EL OSWALDO ALEX FREITAS DE OLIVEIRA , foi constatada uma série de incongruências na documentação apresentada , uma vez que : a. os bilhetes de passagens apresentados não foram expedidos pela empresa de transporte neles indicada , tratando-se de bilhetes falsos ; b. a conta de energia elétrica apresentada continha adulteração nos campos nome e endereço do cliente ; e c. o contrato de locação apresentado pelo Acusado não correspondia com a versão do contrato ostentado pelo proprietário do imóvel , havendo divergência quanto ao endereço .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OSWALDO ALEX FREITAS DE OLIVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('OSWALDO ALEX FREITAS DE OLIVEIRA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , teria o Acusado incorrido no crime-fim do artigo 251 do CPM , porquanto as falsificações se dirigiram a um único objetivo - o estelionato .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 251 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('artigo 251 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O MPM arrolou como testemunhas : o 3º SG TIAGO DO CARMO LIMA , o SO OSWALDO ALEX FREITAS DE OLIVEIRA e o 1º Sgt RM1 LINO GARCEZ DA ROCHA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "TIAGO DO CARMO LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "OSWALDO ALEX FREITAS DE OLIVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "LINO GARCEZ DA ROCHA",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO'), ('TIAGO DO CARMO LIMA', 'PESSOA'), ('OSWALDO ALEX FREITAS DE OLIVEIRA', 'PESSOA'), ('LINO GARCEZ DA ROCHA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+3º SG TIAGO DO CARMO LIMA declarou ( fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TIAGO DO CARMO LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TIAGO DO CARMO LIMA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) que conheceu o Acusado quando serviu no Porta-Aviões São Paulo ; ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Porta-Aviões São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Porta-Aviões São Paulo', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) que o endereço do depoente era , e ainda é , a Rua 91 , Lote 14 , Quadra 1711 , Jaconé - Saquarema/RJ ; que a senhora Zulmira da Mota Cambaia é a proprietária desse imóvel ; que embarcou na Base Naval do Rio de Janeiro e foi se apresentar na Seção de Verificador do Auxílio Transporte com o Suboficial ALEX , onde tem início o processo de solicitação desse benefício ; que seu objetivo era preencher uma DECAT , levando consigo comprovantes de pagamento de luz e o original do contrato de aluguel , sendo que o SO ALEX , quando comparou o endereço , informou que já existia um outro militar nesse mesmo local ; que o Acusado nunca residiu na casa do depoente ; que o depoente ficou indignado e com muita raiva ; que a partir daí começou a sindicância para apurar quem efetivamente morava na residência ; que o depoente teve que juntar documentos na sindicância para provar que se tratava realmente da sua própria residência ; ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jaconé",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Saquarema/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Zulmira da Mota Cambaia",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Base Naval do Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "ALEX",
+    "label": "PESSOA",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "ALEX",
+    "label": "PESSOA",
+    "token_indices": [
+      101
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Jaconé', 'LOCAL'), ('Saquarema/RJ', 'LOCAL'), ('Zulmira da Mota Cambaia', 'PESSOA'), ('Base Naval do Rio de Janeiro', 'LOCAL'), ('ALEX', 'PESSOA'), ('ALEX', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) que o depoente trabalha desde ( sic ) 2014 na Seção de Auxílio Transporte onde ficam arquivados os documentos de cada militar e foi pegar nos arquivos a DECAT preenchida pelo Acusado e viu os documentos : cópia de energia da empresa AMPLA , que não é verdadeira , contrato de locação referente à casa do depoente e , salvo engano , uma conta de internet , todas no endereço do depoente ; que tais contas estavam autenticadas por um Oficial da Marinha ; que o depoente não teve nenhum prejuízo em relação a conduta do Acusado porque a Marinha implantou o seu benefício normalmente ; que o depoente deixou o original e as cópias de seus documentos com o Sargenteante para que lhe fosse concedido desde a época em que estava no Navio São Paulo ; que acredita que o Acusado tenha tido acesso aos mesmos na Sargenteança , pois ele trabalhava lá ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2014",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "AMPLA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Navio São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      134,
+      135,
+      136
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('2014', 'TEMPO'), ('AMPLA', 'ORGANIZACAO'), ('Navio São Paulo', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O SO OSWALDO ALEX FREITAS DE OLIVEIRA , em Juízo , declarou ( fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OSWALDO ALEX FREITAS DE OLIVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('OSWALDO ALEX FREITAS DE OLIVEIRA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) que desses pedidos alguns devem apresentar o comprovante de passagem , o pessoal que mora Documento assinado eletronicamente por Carlos Augusto de Sousa , Matricula 9319 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Augusto de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Augusto de Sousa', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) que posteriormente foi procurado pelo Sgt TIAGO DO CARMO LIMA , que , por ser recém embarcado , estava providenciando também o seu pedido , tendo informado ao depoente que havia um militar utilizando o mesmo endereço dele , o Acusado ; que pediu a TIAGO que trouxesse para o depoente a DECAT que estava sendo utilizada pelo militar e , ao conferir com os documentos do TIAGO , que eram originais e no mesmo endereço , viu que havia uma inconsistência e fez a CI já mencionada para o Comandante ; que a DECAT é uma declaração feita pelo próprio punho do militar na qual ele já afirma que mora naquele endereço ; que não é comum nem de praxe que militares da BNRJ sigam até o endereço fornecido para verificar a veracidade porque é suficiente a declaração do militar e a apresentação dos comprovantes de residência , qualquer um que comprove que ele mora naquele endereço , contas públicas , correspondências e etc ; que normalmente o depoente analisa os documentos para ver se há alguma coisa que chame muito a atenção antes de mandar para o Comandante ; ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TIAGO DO CARMO LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "TIAGO",
+    "label": "PESSOA",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "TIAGO",
+    "label": "PESSOA",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "BNRJ",
+    "label": "LOCAL",
+    "token_indices": [
+      125
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TIAGO DO CARMO LIMA', 'PESSOA'), ('TIAGO', 'PESSOA'), ('TIAGO', 'PESSOA'), ('BNRJ', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O 1º Sgt RM1 LINO GARCEZ DA ROCHA , o qual firmou um contrato de locação com o Acusado , declarou ( fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LINO GARCEZ DA ROCHA",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('LINO GARCEZ DA ROCHA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) que não possui imóvel residencial em Saquarema/RJ ; que nunca possuiu imóvel em Saquarema ; que possui um único imóvel , localizado na Rua Maria Rita , 1207 , apartamento 1501 , bloco 2 , bairro Porto Novo , em São Gonçalo/RJ ; ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Saquarema/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Saquarema",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Rua Maria Rita",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Porto Novo",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "São Gonçalo/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Saquarema/RJ', 'LOCAL'), ('Saquarema', 'LOCAL'), ('Rua Maria Rita', 'LOCAL'), ('Porto Novo', 'LOCAL'), ('São Gonçalo/RJ', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) que conhece o 3º Sargento Leonardo Pereira Xavier ; que assinou um contrato de locação de imóvel ( relativo ao imóvel localizado na Rua Maria Rita , ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Leonardo Pereira Xavier",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Maria Rita",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Leonardo Pereira Xavier', 'PESSOA'), ('Rua Maria Rita', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) , em São Gonçalo/RJ ) ; que reconhece sua assinatura no contrato de locação em anexo , porém não reconhece o endereço `` Rua 91 , Lote 14 , Quadra 1711 , bairro Jaconé , Saquarema/RJ '' ; que a assinatura seria relativa ao outro contrato , cujo objeto era o apartamento localizado em São Gonçalo/RJ , tendo o acusado substituído as duas primeiras folhas do contrato original ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São Gonçalo/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Jaconé",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Saquarema/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "São Gonçalo/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      55,
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('São Gonçalo/RJ', 'LOCAL'), ('Jaconé', 'LOCAL'), ('Saquarema/RJ', 'LOCAL'), ('São Gonçalo/RJ', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) que são parcialmente verdadeiros os fatos narrados na denúncia ; que procurou o Suboficial ALEX com uma declaração de imposto de renda e um comprovante de internet próprio e requereu o auxílio transporte ; que inicialmente o benefício foi negado , sendo que o Suboficial requereu mais um comprovante de residência , por ser o procedimento quando o militar reside distante da OM ; que apresentou uma conta de energia elétrica do endereço onde residia ; ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ALEX",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ALEX', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) que recebeu o auxílio transporte de setembro de 2014 a janeiro de 2015 ; que não foi informado dos motivos que levaram a OM a suspender o pagamento do benefício ; que em janeiro de 2015 foi aberta uma sindicância para apurar denúncia do suboficial ALEX de que os comprovantes de passagens apresentados pelo Acusado seriam falsos , na qual foi ouvido ; que quem mora distante da OM precisa comprovar com os bilhetes de passagem a cada final de mês ; que conseguia os bilhetes com o motorista do ônibus ; que gastava por dia R $ 54,30 ; que morava em Jaconé/Saquarema e servia na Base Naval do Rio de Janeiro ; que na época pegava três conduções de ida e três de volta ; que não falsificou as passagens para Documento assinado eletronicamente por Carlos Augusto de Sousa , Matricula 9319 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "setembro de 2014 a janeiro de 2015",
+    "label": "TEMPO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "janeiro de 2015",
+    "label": "TEMPO",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "ALEX",
+    "label": "PESSOA",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Jaconé/Saquarema",
+    "label": "LOCAL",
+    "token_indices": [
+      104
+    ]
+  },
+  {
+    "text": "Base Naval do Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+    ]
+  },
+  {
+    "text": "Carlos Augusto de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      138,
+      139,
+      140,
+      141
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('setembro de 2014 a janeiro de 2015', 'TEMPO'), ('janeiro de 2015', 'TEMPO'), ('ALEX', 'PESSOA'), ('Jaconé/Saquarema', 'LOCAL'), ('Base Naval do Rio de Janeiro', 'LOCAL'), ('Carlos Augusto de Sousa', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para confirmar a validade deste documento , acesse : https : //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 213edf70af apresentar na Unidade ; que firmou contrato de locação com o Sr. LINO GARCEZ DA ROCHA ; que o referido contrato se referia ao imóvel situado ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LINO GARCEZ DA ROCHA",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('LINO GARCEZ DA ROCHA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) na cidade de Saquarema , onde residiu de janeiro de 2014 a janeiro de 2015 ; que posteriormente , passou a residir na Rua Paulo Setubal , 20 São Gonçalo , casa de seu sogro , até a presente data ; ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Saquarema",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "janeiro de 2014 a janeiro de 2015",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Rua Paulo Setubal",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "São Gonçalo",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Saquarema', 'LOCAL'), ('janeiro de 2014 a janeiro de 2015', 'TEMPO'), ('Rua Paulo Setubal', 'LOCAL'), ('São Gonçalo', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) que não tem problemas de relacionamento pessoal com o Suboficial ALEX ; que , da mesma forma , não tem problemas de relacionamento com o 3º SG THIAGO DO CARMO LIMA ; que não tem ideia do porquê de ter sido falsamente acusado pelo Suboficial ALEX ; ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ALEX",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "THIAGO DO CARMO LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "ALEX",
+    "label": "PESSOA",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ALEX', 'PESSOA'), ('THIAGO DO CARMO LIMA', 'PESSOA'), ('ALEX', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em Alegações Escritas , o Parquet aponta que a perícia constatou a falsidade dos documentos apresentados pelo Acusado , com o único intuito de obter indevidamente o benefício de auxílio transporte em quantia superior a que fazia jus .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parquet",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Parquet', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ao final , pugnou pela condenação do Acusado como incurso no art . 251 do CPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 251 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 251 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por sua vez , a Defesa , no mesmo momento processual , pleiteou a absolvição do Acusado , pela prática do crime previsto no art . 251 , `` caput '' , do CPM , por ausência de provas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 251 , `` caput '' , do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [("art . 251 , `` caput '' , do CPM", 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No dia 18/4/2017 , foi prolatada sentença pelo Conselho Permanente de Justiça para a Marinha , que , por unanimidade , condenou o Acusado à pena de 2 ( dois ) anos de prisão , como incurso no art . 251 , `` caput '' , do CPM , com o benefício do sursis pelo prazo de 2 ( dois ) anos , o direito de apelar em liberdade e o regime prisional inicialmente aberto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "18/4/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Marinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "art . 251 , `` caput '' , do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('18/4/2017', 'TEMPO'), ('Marinha', 'ORGANIZACAO'), ("art . 251 , `` caput '' , do CPM", 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Sentença transitou em julgado para o MPM em 3/5/2017 ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "3/5/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO'), ('3/5/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Feita a leitura da Sentença na Sessão do dia 25/4/2017 , ausente a Defesa , foi determinada a sua intimação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "25/4/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('25/4/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por oportuno , em 2/5/2017 , a Defesa interpôs recurso de Apelação na qual sustenta a reforma da sentença , com a absolvição do Acusado , por insuficiência probatória , porquanto ele : a ) teria sido vítima de um golpe por quem teria lhe repassado os bilhetes de passagens ; b ) teria apresentado documento idôneo para comprovar a residência ( cópia de conta de energia elétrica ) , uma vez que dela consta um carimbo afirmando ser o documento `` CÓPIA FIEL DO ORIGINAL '' e ; c ) o contrato de locação apresentado não seria falso , já que o reconhecimento de firma da assinatura do Acusado se deu por autenticidade , ao passo que o reconhecimento da assinatura do LOCADOR , Sr. LINO GARCEZ DA ROCHA se deu por semelhança .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2/5/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "LINO GARCEZ DA ROCHA",
+    "label": "PESSOA",
+    "token_indices": [
+      126,
+      127,
+      128,
+      129
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('2/5/2017', 'TEMPO'), ('LINO GARCEZ DA ROCHA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nas contrarrazões , o MPM requer o não provimento do Recurso e a manutenção da condenação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Procuradoria-Geral da Justiça Militar , por seu Subprocurador-Geral MARCELO WEITZEL RABELLO DE SOUZA , manifestou-se pelo desprovimento do recurso Defensivo , a fim de que seja mantida a Sentença condenatória .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Procuradoria-Geral da Justiça Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "MARCELO WEITZEL RABELLO DE SOUZA",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Procuradoria-Geral da Justiça Militar', 'ORGANIZACAO'), ('MARCELO WEITZEL RABELLO DE SOUZA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Defesa pugna pela reforma da Sentença com a absolvição do 3º Sgt Mar LEONARDO PEREIRA XAVIER , condenado à pena de 2 ( dois ) anos de prisão , como incurso no art . 251 , caput , CPM , com o benefício do sursis pelo prazo de 2 ( dois ) anos , o direito de apelar em liberdade e o regime prisional inicialmente aberto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LEONARDO PEREIRA XAVIER",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "art . 251 , caput , CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('LEONARDO PEREIRA XAVIER', 'PESSOA'), ('art . 251 , caput , CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em suas razões , prefacialmente , colaciona julgado do TRF4 , que , no bojo do MS nº 2001.70.00.012472-8/PR , Documento assinado eletronicamente por Carlos Augusto de Sousa , Matricula 9319 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TRF4",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "MS nº 2001.70.00.012472-8/PR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Carlos Augusto de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TRF4', 'ORGANIZACAO'), ('MS nº 2001.70.00.012472-8/PR', 'JURISPRUDENCIA'), ('Carlos Augusto de Sousa', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Restou comprovado que os bilhetes apresentados pelo Acusado não foram expedidos pela Empresa VIAÇÃO 1001 , conforme se extrai do Ofício expedido por estar no bojo do IPM [ 2 ] , bem como do Laudo Pericial [ 3 ] .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "VIAÇÃO 1001",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('VIAÇÃO 1001', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com efeito , foram constatadas as seguintes inconsistências nos bilhetes apresentados : 1 ) o nome da empresa , impresso nos comprovantes , aparece como AVIAÇÃO 1001 ; 2 ) seus números de série não correspondem ao trecho e data/hora descritos ; 3 ) não apresentam o número da AIDF ( autorização para impressão de documentos fiscais ) ; e 4 ) não constam nome da gráfica e a respectiva inscrição no CNPJ .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AVIAÇÃO 1001",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('AVIAÇÃO 1001', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+1711 , Saquarema/RJ - fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Saquarema/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Saquarema/RJ', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A empresa AMPLA , responsável pelo fornecimento de energia elétrica na região , informou que a unidade cadastrada no mencionado endereço não está sob a responsabilidade do Acusado , mas de THIAGO DO CARMO LIMA , sendo o número da unidade consumidora 5357662-4 ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AMPLA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "THIAGO DO CARMO LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('AMPLA', 'ORGANIZACAO'), ('THIAGO DO CARMO LIMA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deste Laudo também se extrai que a unidade consumidora , informada pelo Apelante ( nº 54140007-2 ) , está atrelada ao endereço : RUA MARIA RITA 1207 , BL 2 , Apt .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RUA MARIA RITA",
+    "label": "LOCAL",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('RUA MARIA RITA', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+1501 , PORTO NOVO , SÃO GONÇALO/RJ , e não ao informado na conta apresentada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PORTO NOVO",
+    "label": "LOCAL",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "SÃO GONÇALO/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('PORTO NOVO', 'LOCAL'), ('SÃO GONÇALO/RJ', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Entrementes , saliente-se que o endereço de São Gonçalo/RJ é o mesmo transcrito no contrato apresentado em Juízo pela testemunha Sr. LINO GARCEZ DA ROCHA e firmado com o Acusado ( fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São Gonçalo/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "LINO GARCEZ DA ROCHA",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('São Gonçalo/RJ', 'LOCAL'), ('LINO GARCEZ DA ROCHA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Documento assinado eletronicamente por Carlos Augusto de Sousa , Matricula 9319 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Augusto de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Augusto de Sousa', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para confirmar a validade deste documento , acesse : https : //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 213edf70af Também faz-se importante mencionar que o contrato de locação , firmado em março de 2013 , pelo 3º Sgt TIAGO DO CARMO LIMA com a Sra. ZULMIRA DA MATTA CAMBRAIA ( proprietária do imóvel que o Acusado disse ter alugado em Saquarema/RJ - fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "março de 2013",
+    "label": "TEMPO",
+    "token_indices": [
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "TIAGO DO CARMO LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "ZULMIRA DA MATTA CAMBRAIA",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Saquarema/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('março de 2013', 'TEMPO'), ('TIAGO DO CARMO LIMA', 'PESSOA'), ('ZULMIRA DA MATTA CAMBRAIA', 'PESSOA'), ('Saquarema/RJ', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+122 e 122v do Apenso 1 ) , de per si possui o condão de afastar a alegação defensiva de que a falsidade estaria no contrato apresentado pelo Sr. LINO GARCEZ DA ROCHA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LINO GARCEZ DA ROCHA",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('LINO GARCEZ DA ROCHA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Esse dado pôde ser constatado pelo Cartório de Registro de Imóveis de Saquarema/RJ , bem como das correspondências relativas ao IPTU ( fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Saquarema/RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Saquarema/RJ', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , a conduta perpetrada pelo Acusado amolda-se perfeitamente ao tipo previsto no art . 251 do CPM , devendo a Sentença ser mantida em sua integralidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 251 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 251 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Embargos Infringentes n° 3-19.2007.7.03.0103 , Ministro-Relator José Américo dos Santos , julgado em 7/4/2011 , publicado no DJe de 15/6/2011 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Embargos Infringentes n° 3-19.2007.7.03.0103",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "José Américo dos Santos",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "7/4/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "15/6/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Embargos Infringentes n° 3-19.2007.7.03.0103', 'JURISPRUDENCIA'), ('José Américo dos Santos', 'PESSOA'), ('7/4/2011', 'TEMPO'), ('15/6/2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Conselho de Justiça reconheceu os bons antecedentes do Acusado e fixou a pena base no mínimo legal e , atendendo a requerimento do Ministério Público Militar , fundado no princípio da proporcionalidade , deixou de aplicar a agravante prevista no § 3º do art . 251 do CPM [ 4 ] .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "§ 3º do art . 251 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público Militar', 'ORGANIZACAO'), ('§ 3º do art . 251 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ante o exposto , voto no sentido de conhecer e negar provimento ao Apelo da Defesa , para manter incólume a Sentença proferida pelo Conselho Permanente de Justiça da 2º Auditoria da 1ª CJM , que condenou o 3º Sgt Mar LEONARDO PEREIRA XAVIER .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho Permanente de Justiça da 2º Auditoria da 1ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "LEONARDO PEREIRA XAVIER",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Conselho Permanente de Justiça da 2º Auditoria da 1ª CJM', 'ORGANIZACAO'), ('LEONARDO PEREIRA XAVIER', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Documento assinado eletronicamente por Carlos Augusto de Sousa , Matricula 9319 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Augusto de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Augusto de Sousa', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+[ 2 ] Ofício AV 1001/AJUR nº 558/2015 , de 15/05/2015 , acostado às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "15/05/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('15/05/2015', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+[ 5 ] Apelação nº 28-95.2008.7.03.0103/RS , relator Min .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Apelação nº 28-95.2008.7.03.0103/RS",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Apelação nº 28-95.2008.7.03.0103/RS', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dr. José Coelho Ferreira - DJe : 13/05/2015 e Apelação nº 13-02.2002.7.11.0011/DF , Relator Min .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José Coelho Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "13/05/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Apelação nº 13-02.2002.7.11.0011/DF",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('José Coelho Ferreira', 'PESSOA'), ('13/05/2015', 'TEMPO'), ('Apelação nº 13-02.2002.7.11.0011/DF', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ten Brig Ar Cleonilson Nicácio Silva DJe:07/03/2017
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cleonilson Nicácio Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "DJe:07/03/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Cleonilson Nicácio Silva', 'PESSOA'), ('DJe:07/03/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Documento assinado eletronicamente por Luis Carlos Gomes Mattos , Matricula 8829 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luis Carlos Gomes Mattos",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Luis Carlos Gomes Mattos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para confirmar a validade deste documento , acesse : https : //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 21ebd73e56 RELATOR : Ministro Gen Ex LUIS CARLOS GOMES MATTOS .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LUIS CARLOS GOMES MATTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('LUIS CARLOS GOMES MATTOS', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+REVISOR : Ministro Dr. PÉRICLES AURÉLIO LIMA DE QUEIROZ .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PÉRICLES AURÉLIO LIMA DE QUEIROZ",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('PÉRICLES AURÉLIO LIMA DE QUEIROZ', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+APELANTE : VITOR HUGO PADILHA DE LIMA , MINISTÉRIO PÚBLICO MILITAR .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "VITOR HUGO PADILHA DE LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('VITOR HUGO PADILHA DE LIMA', 'PESSOA'), ('MINISTÉRIO PÚBLICO MILITAR', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+APELADOS : VITOR HUGO PADILHA DE LIMA , MINISTÉRIO PÚBLICO MILITAR .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "VITOR HUGO PADILHA DE LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('VITOR HUGO PADILHA DE LIMA', 'PESSOA'), ('MINISTÉRIO PÚBLICO MILITAR', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+ADVOGADO : DEFENSORIA PÚBLICA DA UNIÃO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DEFENSORIA PÚBLICA DA UNIÃO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('DEFENSORIA PÚBLICA DA UNIÃO', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+NÃO CONHECIMENTO DO APELO DO MINISTÉRIO PÚBLICO MILITAR .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MINISTÉRIO PÚBLICO MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MINISTÉRIO PÚBLICO MILITAR', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+SÚMULA Nº 3 DO SUPERIOR TRIBUNAL MILITAR .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SÚMULA Nº 3 DO SUPERIOR TRIBUNAL MILITAR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('SÚMULA Nº 3 DO SUPERIOR TRIBUNAL MILITAR', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Havendo Apelos concorrentes do Ministério Público Militar e da Defesa , não se conhece do primeiro , em face de ser inadmissível a dualidade recursal objetivando o mesmo fim .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Preliminarmente , não conhecimento do Apelo do MPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Súmula nº 3 do Superior Tribunal Militar está em sintonia com a Constituição da República e com o Código Penal Militar e , de nenhum modo , constitui fator de inibição do Magistrado na valoração da prova .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Súmula nº 3 do Superior Tribunal Militar",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Constituição da República",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Código Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Súmula nº 3 do Superior Tribunal Militar', 'JURISPRUDENCIA'), ('Constituição da República', 'LEGISLACAO'), ('Código Penal Militar', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Provimento , no mérito , ao Apelo da Defesa , para absolver o Acusado , com espeque no artigo 439 , alínea `` e '' , do Código de Processo Penal Militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 439 , alínea `` e '' , do Código de Processo Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [("artigo 439 , alínea `` e '' , do Código de Processo Penal Militar", 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+ACÓRDÃO Vistos , relatados e discutidos estes autos , acordam os ministros do Superior Tribunal Militar , em sessão de julgamento , sob a presidência do Ministro Dr. José Coêlho Ferreira , na conformidade do Extrato da Ata do Julgamento , por unanimidade , preliminarmente , de ofício , em não conhecer do Apelo interposto pelo Ministério Público Militar ; por maioria , em rejeitar a preliminar arguida pela Defensoria Pública da União de falta de condição de procedibilidade para a Ação Penal Militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "José Coêlho Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Defensoria Pública da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69,
+      70,
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO'), ('José Coêlho Ferreira', 'PESSOA'), ('Ministério Público Militar', 'ORGANIZACAO'), ('Defensoria Pública da União', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No mérito , por maioria , em dar provimento ao Apelo da Defesa para , com a reforma da Sentença , absolver o Sd Ex VITOR HUGO PADILHA DE LIMA do crime previsto no art . 187 , c/c o art . 189 , inciso I , primeira parte , do CPM , com espeque no artigo 439 , alínea `` e '' , do CPPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "VITOR HUGO PADILHA DE LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "art . 187 , c/c o art . 189 , inciso I , primeira parte , do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "artigo 439 , alínea `` e '' , do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('VITOR HUGO PADILHA DE LIMA', 'PESSOA'), ('art . 187 , c/c o art . 189 , inciso I , primeira parte , do CPM', 'LEGISLACAO'), ("artigo 439 , alínea `` e '' , do CPPM", 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ministro Gen Ex LUIS CARLOS GOMES MATTOS Relator RELATOR : Ministro Gen Ex LUIS CARLOS GOMES MATTOS .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LUIS CARLOS GOMES MATTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "LUIS CARLOS GOMES MATTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('LUIS CARLOS GOMES MATTOS', 'PESSOA'), ('LUIS CARLOS GOMES MATTOS', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+REVISOR : Ministro Dr. PÉRICLES AURÉLIO LIMA DE QUEIROZ .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PÉRICLES AURÉLIO LIMA DE QUEIROZ",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('PÉRICLES AURÉLIO LIMA DE QUEIROZ', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+APELANTE : VITOR HUGO PADILHA DE LIMA , MINISTÉRIO PÚBLICO MILITAR .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "VITOR HUGO PADILHA DE LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('VITOR HUGO PADILHA DE LIMA', 'PESSOA'), ('MINISTÉRIO PÚBLICO MILITAR', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+APELADOS : VITOR HUGO PADILHA DE LIMA , MINISTÉRIO PÚBLICO MILITAR .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "VITOR HUGO PADILHA DE LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('VITOR HUGO PADILHA DE LIMA', 'PESSOA'), ('MINISTÉRIO PÚBLICO MILITAR', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+ADVOGADO : DEFENSORIA PÚBLICA DA UNIÃO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DEFENSORIA PÚBLICA DA UNIÃO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('DEFENSORIA PÚBLICA DA UNIÃO', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+In casu , os apelos , tanto do MPM quanto da Defesa , traduzem o inconformismo comum com o decreto condenatório em desfavor do Acusado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+2 e 3 , in verbis : '' O denunciado prestava serviço militar no 6o Regimento de Cavalaria Blindado , organização militar sediada em Alegrete/RS , quando , no dia 15 de agosto de 2016 , foi constatada sua ausência da referida unidade militar , ao faltar ao expediente sem apresentar qualquer motivo justificado ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "6o Regimento de Cavalaria Blindado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Alegrete/RS",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "15 de agosto de 2016",
+    "label": "TEMPO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('6o Regimento de Cavalaria Blindado', 'ORGANIZACAO'), ('Alegrete/RS', 'LOCAL'), ('15 de agosto de 2016', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em consequência , após a constatação da ausência , foi efetuado o inventário de seus bens e do material pertencente à Fazenda Nacional que se encontravam na sua posse ( fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fazenda Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Fazenda Nacional', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Documento assinado eletronicamente por Luis Carlos Gomes Mattos , Matricula 8829 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luis Carlos Gomes Mattos",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Luis Carlos Gomes Mattos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para confirmar a validade deste documento , acesse : https : //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 21ebd73e56 Com a continuidade da ausência , no dia 24 de agosto de 2016 , consumou-se o delito de Deserção , tendo sido lavrado o respectivo termo ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "24 de agosto de 2016",
+    "label": "TEMPO",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('24 de agosto de 2016', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 25 de agosto de 2016 , o desertor se apresentou voluntariamente ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "25 de agosto de 2016",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('25 de agosto de 2016', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+4 ) , foi , então , reincluído no serviço ativo do Exército .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ante o exposto , o Ministério Público Militar denuncia VITOR HUGO PADILHA DE LIMA como incurso no artigo 187 , c/c art . 189,1 , primeira parte , tudo do Código Penal Militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "VITOR HUGO PADILHA DE LIMA",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "artigo 187 , c/c art . 189,1 , primeira parte , tudo do Código Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público Militar', 'ORGANIZACAO'), ('VITOR HUGO PADILHA DE LIMA', 'PESSOA'), ('artigo 187 , c/c art . 189,1 , primeira parte , tudo do Código Penal Militar', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Denúncia foi recebida em 5/9/2016 às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "5/9/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('5/9/2016', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 11/10/2016 , o Conselho , por unanimidade , indeferiu o pedido de liberdade provisória do Acusado , concedendo , entretanto , a menagem ( Ata às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "11/10/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('11/10/2016', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 23/10/2016 , o Acusado foi colocado em liberdade , nos termos do art . 453 do Código de Processo Penal Militar ( Alvará de Soltura à fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "23/10/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "art . 453 do Código de Processo Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('23/10/2016', 'TEMPO'), ('art . 453 do Código de Processo Penal Militar', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As Testemunhas de Defesa foram inquiridas : 1º Ten GUILHERME FALCÃO SCHRAMM às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "GUILHERME FALCÃO SCHRAMM",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('GUILHERME FALCÃO SCHRAMM', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+161 e 162 ; 3º Sgt ANDRÉ SALDANHA DE SOUZA à fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ANDRÉ SALDANHA DE SOUZA",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ANDRÉ SALDANHA DE SOUZA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+163 ; e Civil DANIELA CONCEIÇÃO ZORZI às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DANIELA CONCEIÇÃO ZORZI",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('DANIELA CONCEIÇÃO ZORZI', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 22/2/2017 , veio o Ofício do Comando , dando conta de que , em 22/2/2017 , o Acusado consumou novo delito de Deserção ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "22/2/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "22/2/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('22/2/2017', 'TEMPO'), ('22/2/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 6/3/2017 , a Defesa requereu `` a suspensão do feito até a captura do Acusado '' ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "6/3/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('6/3/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 21/3/2017 , o Conselho , após deliberar sobre o prefalado requerimento defensivo , decidiu pelo prosseguimento do feito , ficando vencido o Juiz-Auditor Substituto , que votou pelo seu sobrestamento ( Ata às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "21/3/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('21/3/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 24/3/2017 , aportou o ofício do Comando informando que , nessa mesma data , o Acusado foi capturado ( fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "24/3/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('24/3/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 22/5/2017 , o Acusado foi interrogado às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "22/5/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('22/5/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 26/5/2017 , o Decisum condenatório foi lido , assinado e publicado , em consonância com a Ata de fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "26/5/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('26/5/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 5/6/2017 , o MPM ofertou o seu tempestivo Apelo ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "5/6/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('5/6/2017', 'TEMPO'), ('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 12/6/2017 , a DPU apresentou o seu também oportuno Apelo ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12/6/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "DPU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('12/6/2017', 'TEMPO'), ('DPU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 5/7/2017 , veio o Ofício do Comando , informando que , em cumprimento à decisão judicial prolatada pelo Juízo da 2ª Vara Federal de Uruguaiana , o Acusado foi licenciado do Serviço Ativo do Exército , a contar de 30/6/2017 ( fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "5/7/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "2ª Vara Federal de Uruguaiana",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "30/6/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('5/7/2017', 'TEMPO'), ('2ª Vara Federal de Uruguaiana', 'ORGANIZACAO'), ('Exército', 'ORGANIZACAO'), ('30/6/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+292 a 294 , o MPM sustenta , em suma , que , conforme bem reconheceu a Documento assinado eletronicamente por Luis Carlos Gomes Mattos , Matricula 8829 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Luis Carlos Gomes Mattos",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO'), ('Luis Carlos Gomes Mattos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pugna , por fim , pela absolvição do Acusado , com espeque no art . 439 , alínea `` e '' , do Código de Processo Penal Militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 439 , alínea `` e '' , do Código de Processo Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [("art . 439 , alínea `` e '' , do Código de Processo Penal Militar", 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+300 a 326 , a DPU , preliminarmente , sustenta que o efeito devolutivo do Apelo não se esgota no limite da matéria versada em 1º grau no processo , alcançando , destarte , também quaisquer outras que porventura venham a ser levantadas pela DPU perante o Superior Tribunal Militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DPU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "DPU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('DPU', 'ORGANIZACAO'), ('DPU', 'ORGANIZACAO'), ('Superior Tribunal Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Afirma , ainda preliminarmente , que falta condição de prosseguibilidade da Ação , `` ante a perda da qualidade de militar do Acusado '' , na linha , inclusive , que vem decidindo o Supremo Tribunal Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Supremo Tribunal Federal', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Também em sede vestibular , argui a `` inconstitucionalidade da Súmula 3 do STM por ofensa aos princípios da Presunção da Inocência e do Livre Convencimento Motivado '' .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Súmula 3 do STM",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Súmula 3 do STM', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ainda nesse fio , ressalta que também esse foi o entendimento do MPM , o qual chegou a recorrer em benefício do Acusado , pugnando pela sua absolvição .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sustenta , afinal , a `` aplicabilidade da suspensão condicional da pena '' em favor do Acusado , uma vez que a previsão ínsita no artigo 88 , inciso II , alínea `` a '' , do CPM , e no artigo 617 , inciso II , alínea `` a '' , do CPPM , seriam inconstitucionais , já que estariam em desconformidade com os princípios da individualização da pena e da dignidade da pessoa humana , o que , inclusive , já é objeto de divergência doutrinária no âmbito da Suprema Corte .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 88 , inciso II , alínea `` a '' , do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "artigo 617 , inciso II , alínea `` a '' , do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Suprema Corte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91,
+      92
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [("artigo 88 , inciso II , alínea `` a '' , do CPM", 'LEGISLACAO'), ("artigo 617 , inciso II , alínea `` a '' , do CPPM", 'LEGISLACAO'), ('Suprema Corte', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+6 ) seja concedido ao acusado o indulto natalino de 2016 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2016",
+    "label": "TEMPO",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('2016', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+329 a 332 , o MPM , primeiramente , salienta que recorreu em favor do Réu , pedindo , destarte , a sua absolvição , o que agora confirma pelas mesmas razões a que se reporta .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quanto à vedação legal do sursis , pondera que , em que pese a sua constitucionalidade , o Superior Tribunal Militar tem admitido que tanto não alcança os condenados que não mais ostentam a condição de Militar , como é exatamente a hipótese .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por fim , sustenta que inexiste inconstitucionalidade na Súmula nº 3 do Superior Tribunal Militar , uma vez que , em suma , o que é imposto é apenas o ônus da prova a quem alega qualquer causa excludente de culpabilidade , o que , inclusive , está previsto , textualmente , no artigo 296 do CPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Súmula nº 3 do Superior Tribunal Militar",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "artigo 296 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Súmula nº 3 do Superior Tribunal Militar', 'JURISPRUDENCIA'), ('artigo 296 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pede , afinal , que , no mérito , seja o Acusado absolvido com espeque no artigo 439 , alínea `` e '' , do CPPM , ou que , em caso de mantença de sua condenação , lhe seja concedido o benefício do sursis .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 439 , alínea `` e '' , do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [("artigo 439 , alínea `` e '' , do CPPM", 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+334 a 335v , a DPU sustenta que , consoante reconheceu o MPM , o contingente probatório é insatisfatório para prover a certeza de que o Acusado tenha agido dolosamente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DPU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('DPU', 'ORGANIZACAO'), ('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Louva , ademais , a própria iniciativa do Parquet em recorrer em favor do Acusado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parquet",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Parquet', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Documento assinado eletronicamente por Luis Carlos Gomes Mattos , Matricula 8829 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luis Carlos Gomes Mattos",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Luis Carlos Gomes Mattos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para confirmar a validade deste documento , acesse : https : //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 21ebd73e56 A Procuradoria-Geral da Justiça Militar , no Parecer de fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Procuradoria-Geral da Justiça Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Procuradoria-Geral da Justiça Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+344 a 349 , da lavra do Subprocurador-Geral Dr. José Garcia de Freitas Júnior , `` manifesta-se pelo conhecimento e provimento dos recursos da acusação e da defesa para absolver o Acusado haja vista a configuração de ausência de dolo para a prática do crime de Deserção '' .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José Garcia de Freitas Júnior",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('José Garcia de Freitas Júnior', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+VOTO Suscita-se , de ofício , preliminar , no sentido do não conhecimento do Apelo do MPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não se discute a legitimidade ativa e o próprio interesse recursal do Parquet Militar de 1º grau em apelar em favor do Réu .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parquet Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Parquet Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Contudo , quando o Apelo do MPM mostra-se concorrente com o Apelo da Defesa , a primazia é deste último , em face , sobretudo , de traduzir o interesse diretamente lesado pela Sentença .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E , por ser inadmissível dualidade recursal objetivando o mesmo fim , o Apelo do MPM não pode ser conhecido .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A propósito leciona Júlio Fabbrini Mirabete , in verbis : '' ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Júlio Fabbrini Mirabete",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Júlio Fabbrini Mirabete', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) havendo recurso da defesa com o mesmo objetivo que o recurso do Ministério Público em favor do réu , este deve ser considerado prejudicado , prevalecendo o interesse lesado diretamente pela decisão '' .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse sentido aponta igualmente o direito pretoriano pátrio , inclusive o emanado do Superior Tribunal Militar , conforme denotam , à guisa de referência , os seguintes precedentes : '' EMENTA : Apelos concorrentes do MPM e da Defesa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO'), ('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não conhecimento do Apelo do MPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Havendo Apelos concorrentes do MPM e da Defesa , a primazia é deste último , em face de traduzir o interesse diretamente atingido pela Sentença .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Delito de Recusa de obediência ( art . 163 do CPM ) perfeitamente delineado e provado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 163 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 163 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Decisão majoritária quanto à preliminar de não conhecimento do Apelo do MPM e também no que se refere ao Mérito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Apelação nº 20- 33.2009.7.05.0005/PR , Relator Ministro Gen Ex Renaldo Quintas Magioli , julgada em 16/05/2011 ) '' EMENTA : Apelação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Apelação nº 20- 33.2009.7.05.0005/PR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Renaldo Quintas Magioli",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "16/05/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Apelação nº 20- 33.2009.7.05.0005/PR', 'JURISPRUDENCIA'), ('Renaldo Quintas Magioli', 'PESSOA'), ('16/05/2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Havendo Apelos concorrentes do Ministério Público Militar e da Defesa , não se conhece do primeiro , em face de ser inadmissível a dualidade recursal objetivando o mesmo fim .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Delito previsto no art . 290 do CPM inteiramente delineado e provado em todas as suas elementares , na forma da posse de substância entorpecente no interior do quartel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 290 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 290 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Apelação nº 144-79.2010.7.05.0005/PR , Relator Ministro Gen Ex Renaldo Quintas Magioli , julgada em 10/08/2011 ) '' DESERÇÃO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Apelação nº 144-79.2010.7.05.0005/PR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Renaldo Quintas Magioli",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "10/08/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Apelação nº 144-79.2010.7.05.0005/PR', 'JURISPRUDENCIA'), ('Renaldo Quintas Magioli', 'PESSOA'), ('10/08/2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não se conhece recurso do MPM que pugna pela absolvição do Acusado quando existe recurso da Defesa no mesmo sentido .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A mera alegação de problemas pessoais , desacompanhadas de provas , não elide a condenação pelo crime de deserção , conforme preceitua a Súmula n° 3 desta Corte .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Súmula n° 3 desta Corte",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Súmula n° 3 desta Corte', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Obrigatoriedade de se efetivar a conversão da pena de detenção em prisão nos termos do art . 59 do CPM , além do reconhecimento da extinção da punibilidade pela concessão do indulto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 59 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 59 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Inteligência do art . 123 , inciso II , do CPM , c/c o art . 1° , inciso I , do Decreto n° 7.420 , de 31/12/2010 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 123 , inciso II , do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "art . 1° , inciso I , do Decreto n° 7.420",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "31/12/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 123 , inciso II , do CPM', 'LEGISLACAO'), ('art . 1° , inciso I , do Decreto n° 7.420', 'LEGISLACAO'), ('31/12/2010', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Apelação nº 193-10.2010.7.01.0401/RJ , Relator Ministro Dr. Artur Vidigal de Oliveira , Julgada em 25/08/2011 ) '' EMENTA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Apelação nº 193-10.2010.7.01.0401/RJ",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Artur Vidigal de Oliveira",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "25/08/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Apelação nº 193-10.2010.7.01.0401/RJ', 'JURISPRUDENCIA'), ('Artur Vidigal de Oliveira', 'PESSOA'), ('25/08/2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Preliminar de não conhecimento do recurso do MPM suscitada de ofício e acolhida à unanimidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No mérito , apesar das dificuldades financeiras que o Réu enfrentou para retornar da viagem que fez para auxiliar Documento assinado eletronicamente por Luis Carlos Gomes Mattos , Matricula 8829 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luis Carlos Gomes Mattos",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Luis Carlos Gomes Mattos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Apelação nº 2007.01.050651-0/SP , Relator Ministro Rayder Alencar da Silveira , julgada em 11/12/2007 ) E , ad argumentandum tantum , nem se diga que caberia também conhecer do Apelo do MPM , uma vez que , assim , ter-se-ia base mais ampla para assentar a apreciação da quaestio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Apelação nº 2007.01.050651-0/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Ministro Rayder Alencar da Silveira",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "11/12/2007",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Apelação nº 2007.01.050651-0/SP', 'JURISPRUDENCIA'), ('Ministro Rayder Alencar da Silveira', 'PESSOA'), ('11/12/2007', 'TEMPO'), ('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E assim não se faça porque , como visto , a proposta absolutória do Parquet assenta-se exclusivamente na dúvida quanto à presença do dolo a permear o proceder objetivo do Acusado , tese essa que é igualmente sustentada pela Defesa , ao lado de outras de sua exclusiva lavra , a dar maior amplitude à sua fundamentação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parquet",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Parquet', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Posto isso , preliminarmente , não se conhece do Apelo do MPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nessa perspectiva , assento que , até que sobrevenha legislação nova que ampare o entendimento hoje majoritário no Plenário , persevero entendendo que o status de militar da ativa é condição sine qua non para que o agente figure no polo passivo do processo de Deserção ou continue nesse polo quando o processo já estiver em andamento , inclusive na sua fase executória .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Plenário', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E , concessa venia , nem se diga que , com isso , estar-se-ia criando exigência estranha ao ordenamento processual penal militar , uma vez que , à luz de uma correta interpretação lógico-sistemática dos dispositivos do Código de Processo Penal Militar e da legislação correlata que se aplica à espécie , a conclusão a que se chega é exatamente outra , qual seja : a lei sempre exigiu - e ainda exige - a condição de militar da ativa para que possa o agente figurar no polo passivo do processo de Deserção ou continuar nesse polo quando o processo já estiver em andamento , qualquer que seja a sua fase .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Código de Processo Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Código de Processo Penal Militar', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E isso foi demonstrado à exaustão na Declaração de Voto do eminente Ministro Gen Ex Marco Antônio de Farias , lançada na Apelação nº 61-37.2016.7.02.0102/SP , da qual se destaca o seguinte fragmento : '' Os oficiais desertores são agregados e assim permanecem durante todo o trâmite processual .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Marco Antônio de Farias",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Apelação nº 61-37.2016.7.02.0102/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Marco Antônio de Farias', 'PESSOA'), ('Apelação nº 61-37.2016.7.02.0102/SP', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse sentido , a exordial acusatória é recebida e o processo sobrestado até a apresentação voluntária ou a captura do agente - art . 454 , §§ 3º e 4º , do CPPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 454 , §§ 3º e 4º , do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 454 , §§ 3º e 4º , do CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As praças com estabilidade desertoras também são agregadas - art . 456 , § 4º , do CPPM - e , após a apresentação voluntária ou a captura , são revertidas à Força respectiva .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 456 , § 4º , do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 456 , § 4º , do CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sendo a peça pórtico recebida , assim permanecem até o trânsito em julgado do processo e o cumprimento de eventual pena - art . 457 , § 3º , do CPPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 457 , § 3º , do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 457 , § 3º , do CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , durante o período de trânsfuga , os desertores , oficiais e praças com estabilidade , continuam militares da ativa e , nessa condição , respondem aos regulamentos disciplinares e ao CPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por outro lado , a praça sem estabilidade é excluída ao desertar , tornando-se requisito essencial que , após a sua capturada ou a sua apresentação , readquira o status de militar da ativa - art . 457 , §§ 1º , 2º e 4º , do CPPM - , igualando-se , no tocante a essa condição , em relação aos demais agentes oficiais e praças com estabilidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 457 , §§ 1º , 2º e 4º , do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 457 , §§ 1º , 2º e 4º , do CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com efeito , a Lei Penal Militar tratou a praça sem estabilidade desertora - em relação aos oficiais e praças com estabilidade e quantos aos aspectos ressaltados - de forma específica e proporcional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei Penal Militar', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+166 e o Abandono de Posto - art . 195 do CPM ) , ninguém questiona que se possa condenar o agente , militar na data dos fatos , mas civil na do julgamento .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 195 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 195 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Isso porque , se a legislação Documento assinado eletronicamente por Luis Carlos Gomes Mattos , Matricula 8829 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luis Carlos Gomes Mattos",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Luis Carlos Gomes Mattos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Isso ocorre em razão do CPPM , apenas no caso de deserção , exigir a aptidão para o Serviço Militar e a presença na ativa do agente não estável .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não haveria qualquer sentido de o CPPM exigir a reinclusão à ativa apenas para receber a denúncia , e não para o prosseguimento do processo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Seguindo-se a corrente `` tradicional '' nas referidas ações , pelo menos permanece o termo de deserção que autoriza a captura , até o limite da idade - art . 132 do CPM - ; evita-se a condenação de réus civis à revelia , sem conhecer as respectivas aptidões para o Serviço Militar ; o agente fica impedido de obter o certificado , o qual atesta o cumprimento das obrigações constitucionais , incluídos outros direitos decorrentes ; a prescrição da pretensão executória não ganha espaço ; e , ao ser submetido a processo , ainda poderá cumprir pena .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 132 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 132 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Essa opção do legislador e da jurisprudência , consolidada no STF , tem sentido , pois se encaixa perfeitamente aos momentos cruciais de Mobilização .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STF', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Vale lembrar que o bem jurídico tutelado abrange o Dever e o Serviço Militares e , diante das circunstâncias apresentadas ( militar licenciado do Serviço Militar no curso da APM ) , uma provável sanção penal imposta pela JMU tornar-se-á inócua , pois não atenderá ao fim Documento assinado eletronicamente por Luis Carlos Gomes Mattos , Matricula 8829 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "APM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Luis Carlos Gomes Mattos",
+    "label": "PESSOA",
+    "token_indices": [
+      51,
+      52,
+      53,
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('APM', 'ORGANIZACAO'), ('Luis Carlos Gomes Mattos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Foca-se , muitas vezes , na questão de se condenar o agente e de evitar , sob o aspecto da prevenção ( especial e geral ) , a impunidade , enquanto que , para o escopo da lei , o real interesse , apenas nesse crime , é ter o agente criminoso condenado , mas , também , apto a cumprir integralmente o SMI , em consonância com o disposto no art . 80 do RLSM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 80 do RLSM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      71,
+      72,
+      73,
+      74,
+      75
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 80 do RLSM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deve-se consignar , ainda , que a nova proposta de CPM e de CPPM prevê o julgamento monocrático quando o agente for civil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CPM', 'LEGISLACAO'), ('CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Enquanto isso , os militares ( na ativa ) sem estabilidade seriam julgados pelo CPJ .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CPJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CPJ', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Daí porque o certificado , se for o caso , será discricionariamente concedido depois do trânsito em julgado da APM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "APM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('APM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mas , mesmo que se reconheça a suficiência do quanto exposto nessa Declaração de Voto do eminente Ministro Gen Ex Marco Antônio de Farias para não deixar sequer dúvida de que a condição de militar da ativa é , em qualquer hipótese , condição essencial da Ação Penal Militar no crime de Deserção , não há de constituir demasia trazer a lume os precedentes do Supremo Tribunal Federal , os quais , firmemente , apontam nesse mesmo sentido .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Marco Antônio de Farias",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      65,
+      66,
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Marco Antônio de Farias', 'PESSOA'), ('Supremo Tribunal Federal', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PERDA DA CONDIÇÃO DE MILITAR ANTES DO JULGAMENTO DA APELAÇÃO PELO SUPERIOR TRIBUNAL MILITAR .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SUPERIOR TRIBUNAL MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('SUPERIOR TRIBUNAL MILITAR', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em razão da ausência da condição de procedibilidade , o art . 457 , § 2º , do Código de Processo Penal Militar e a Súmula n . 8 do Superior Tribunal Militar impedem a execução da pena imposta ao réu incapaz para o serviço ativo do Exército , que não detinha a condição de militar no ato de julgamento do recurso de apelação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 457 , § 2º , do Código de Processo Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Súmula n . 8 do Superior Tribunal Militar",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 457 , § 2º , do Código de Processo Penal Militar', 'LEGISLACAO'), ('Súmula n . 8 do Superior Tribunal Militar', 'JURISPRUDENCIA'), ('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Habeas Corpus n° 90.838/SP , Relatora Ministra Cármen Lúcia , julgado em 14/10/2008 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Habeas Corpus n° 90.838/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Cármen Lúcia",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "14/10/2008",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Habeas Corpus n° 90.838/SP', 'JURISPRUDENCIA'), ('Cármen Lúcia', 'PESSOA'), ('14/10/2008', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deserção ( art . 187 do código penal militar ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 187 do código penal militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 187 do código penal militar', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+I - Com o reconhecimento da incapacidade preexistente à condenação , e tendo em vista que a condição de militar é requisito para o exercício da pretensão punitiva em relação ao crime de deserção , nos termos do art . 457 , § 2º do CPPM , não há justa causa para a execução .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 457 , § 2º do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 457 , § 2º do CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+II - Ordem concedida '' ( Habeas Corpus n° 90.672/SP , Relator Ministro Joaquim Barbosa , julgado em 3/2/2009 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Habeas Corpus n° 90.672/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Joaquim Barbosa",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "3/2/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Habeas Corpus n° 90.672/SP', 'JURISPRUDENCIA'), ('Joaquim Barbosa', 'PESSOA'), ('3/2/2009', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+`` EMENTA : 'HABEAS CORPUS ' - POLICIAL MILITAR - CRIME DE DESERÇÃO ( CPM , ART . 187 ) - DELITO MILITAR EM SENTIDO PRÓPRIO - RÉU QUE NÃO DETINHA A QUALIDADE DE MILITAR DA ATIVA QUANDO DO RECEBIMENTO DA DENÚNCIA PELA JUSTIÇA MILITAR ESTADUAL - ESSENCIALIDADE DA CONDIÇÃO DE MILITAR DA ATIVA , NA HIPÓTESE DE CRIME DE DESERÇÃO , PARA EFEITO DE VÁLIDA INSTAURAÇÃO E/OU PROSSEGUIMENTO DA AÇÃO PENAL PROMOVIDA PERANTE A JUSTIÇA MILITAR - SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR - PRECEDENTES DO SUPREMO TRIBUNAL FEDERAL -DOUTRINA - CONFIGURAÇÃO DE INJUSTO CONSTRANGIMENTO - INVIABILIDADE DO PROSSEGUIMENTO DA PERSECUÇÃO Documento assinado eletronicamente por Luis Carlos Gomes Mattos , Matricula 8829 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CPM , ART . 187",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      87,
+      88,
+      89
+    ]
+  },
+  {
+    "text": "Luis Carlos Gomes Mattos",
+    "label": "PESSOA",
+    "token_indices": [
+      106,
+      107,
+      108,
+      109
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CPM , ART . 187', 'LEGISLACAO'), ('SÚMULA 12 DO SUPERIOR TRIBUNAL MILITAR', 'JURISPRUDENCIA'), ('SUPREMO TRIBUNAL FEDERAL', 'ORGANIZACAO'), ('Luis Carlos Gomes Mattos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Habeas Corpus n° 103.254/PR , Relator Ministro Celso de Mello , julgado em 29/6/2010 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Habeas Corpus n° 103.254/PR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Celso de Mello",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "29/6/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Habeas Corpus n° 103.254/PR', 'JURISPRUDENCIA'), ('Celso de Mello', 'PESSOA'), ('29/6/2010', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Habeas Corpus n° 99.445/RS , Relatora Ministra Cármen Lúcia , julgado em 28/9/2010 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Habeas Corpus n° 99.445/RS",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Cármen Lúcia",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "28/9/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Habeas Corpus n° 99.445/RS', 'JURISPRUDENCIA'), ('Cármen Lúcia', 'PESSOA'), ('28/9/2010', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+DESERÇÃO ( ART . 187 DO CÓDIGO PENAL MILITAR ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ART . 187 DO CÓDIGO PENAL MILITAR",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ART . 187 DO CÓDIGO PENAL MILITAR', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Habeas Corpus n° 108.197/PR , Relator Ministro Ricardo Lewandowski , julgado em 13/12/2011 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Habeas Corpus n° 108.197/PR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Ricardo Lewandowski",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "13/12/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Habeas Corpus n° 108.197/PR', 'JURISPRUDENCIA'), ('Ricardo Lewandowski', 'PESSOA'), ('13/12/2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+`` Agravo interposto contra decisão de inadmissibilidade de recurso extraordinário que impugna acórdão do Superior Tribunal Militar , assim do : AGRAVO REGIMENTAL EM EMBARGOS DE DECLARAÇÃO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Licenciado o militar que responde a processo por crime de deserção , a ação penal é considerada prejudicada , por manifesta perda da condição de procedibilidade , pelo que deve ser determinado o seu arquivamento em definitivo sem renovação , com base na Súmula n° 12 desta Corte .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Súmula n° 12 desta Corte",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Súmula n° 12 desta Corte', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O recurso de embargos de declaração que não atende ao pressuposto essencial disposto no art . 542 do CPPM não deve ser conhecido .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 542 do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 542 do CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+181 ) No apelo extremo , interposto com base no artigo 102 , inciso III , alínea 'a ' do permissivo constitucional , sustenta-se que o acórdão recorrido violou o artigo 129 , inciso I , da Constituição Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 102 , inciso III , alínea 'a ' do permissivo constitucional",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "artigo 129 , inciso I , da Constituição Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [("artigo 102 , inciso III , alínea 'a ' do permissivo constitucional", 'LEGISLACAO'), ('artigo 129 , inciso I , da Constituição Federal', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em suas razões , o Ministério Público Militar alega que denunciou o recorrido pela suposta prática do crime de deserção , tipificado no art . 187 , caput , do Código Penal Militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "art . 187 , caput , do Código Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público Militar', 'ORGANIZACAO'), ('art . 187 , caput , do Código Penal Militar', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No entanto , o Juízo do primeiro grau , ao ter notícia do licenciamento do suposto desertor , julgou extinto o processo , sem julgamento de mérito , em razão da ausência da condição de procedibilidade da ação penal Sustenta-se que o Superior Tribunal Militar , ao manter a decisão extintiva do processo , em razão da perda da qualidade de militar da ativa , violou o princípio da obrigatoriedade e exclusividade da ação penal pública , previsto no artigo 129 , inciso I , da Constituição Federal , porque criou condição de propositura não prevista na legislação processual penal militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "artigo 129 , inciso I , da Constituição Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO'), ('artigo 129 , inciso I , da Constituição Federal', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Verifico que , na espécie , a Corte castrense decidiu a controvérsia de acordo com a jurisprudência deste Supremo Tribunal que se consolidou no sentido de que a qualidade de militar é elemento estrutural do tipo penal de deserção , de modo que a ausência de tal requisito impede o processamento do feito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Supremo Tribunal', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse sentido , entre inúmeros precedentes , cito os seguintes : HC 90.838/SP , Rel Min .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HC 90.838/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('HC 90.838/SP', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cármen Lúcia , Primeira Turma , DJe 22.5.2009 ; HC 83.030/RJ , Rel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cármen Lúcia",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Primeira Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "22.5.2009",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "HC 83.030/RJ",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Cármen Lúcia', 'PESSOA'), ('Primeira Turma', 'ORGANIZACAO'), ('22.5.2009', 'TEMPO'), ('HC 83.030/RJ', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ellen Gracie , Segunda Turma , DJ 1°.8.2003 ; e HC 108.197/PR , Rel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ellen Gracie",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Segunda Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "1°.8.2003",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "HC 108.197/PR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ellen Gracie', 'PESSOA'), ('Segunda Turma', 'ORGANIZACAO'), ('1°.8.2003', 'TEMPO'), ('HC 108.197/PR', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+DESERÇÃO ( ART . 187 DO CÓDIGO PENAL MILITAR ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ART . 187 DO CÓDIGO PENAL MILITAR",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ART . 187 DO CÓDIGO PENAL MILITAR', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ausente , pois , condição de Documento assinado eletronicamente por Luis Carlos Gomes Mattos , Matricula 8829 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luis Carlos Gomes Mattos",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Luis Carlos Gomes Mattos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ante o exposto , conheço do presente agravo para negar seguimento ao recurso extraordinário ( art . 544 , § 4º , II , 'b ' , do CPC ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 544 , § 4º , II , 'b ' , do CPC",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [("art . 544 , § 4º , II , 'b ' , do CPC", 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Recurso Extraordinário com Agravo n° 705.741/DF , Relator Ministro Gilmar Mendes , julgado em 21/2/2013 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Recurso Extraordinário com Agravo n° 705.741/DF",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Gilmar Mendes",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "21/2/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Recurso Extraordinário com Agravo n° 705.741/DF', 'JURISPRUDENCIA'), ('Gilmar Mendes', 'PESSOA'), ('21/2/2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ministério Público Militar interpõe agravo visando impugnar decisão ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+189 a 191 ) que não admitiu recurso extraordinário , assentado em contrariedade ao art . 129 , inciso I , da Constituição Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 129 , inciso I , da Constituição Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 129 , inciso I , da Constituição Federal', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Insurge-se no apelo extremo contra acórdão proferido pelo Superior Tribunal Militar no Agravo Regimental n° 222- 73.2010.7.05.0005/PR , assim do : 'DESERÇÃO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Agravo Regimental n° 222- 73.2010.7.05.0005/PR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO'), ('Agravo Regimental n° 222- 73.2010.7.05.0005/PR', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+RECURSO DA PROCURADORIA-GERAL DA JUSTIÇA MILITAR DA UNIÃO CONTRA MONOCRÁTICA DE SOBRESTAMENTO DE APELAÇÃO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PROCURADORIA-GERAL DA JUSTIÇA MILITAR DA UNIÃO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('PROCURADORIA-GERAL DA JUSTIÇA MILITAR DA UNIÃO', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+ALEGADA VIOLAÇÃO DA PRERROGATIVA CONSTITUCIONAL DO MINISTÉRIO PÚBLICO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MINISTÉRIO PÚBLICO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MINISTÉRIO PÚBLICO', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Tal regra encontra-se prevista no art . 457 , §§ 1° e 3° do CPPM , a qual é válida para os processos em grau de Recurso , além de convergir como o ordenamento jurídico constitucional vigente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 457 , §§ 1° e 3° do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 457 , §§ 1° e 3° do CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sobre eventual transgressão ao art . 129 , inciso I , da Carta da República , forçoso concluir que a Corte Castrense ao decidir a questão se ateve ao exame da legislação infraconstitucional , notadamente aquelas previstas no Código de Processo Penal Militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 129 , inciso I , da Carta da República",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Código de Processo Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 129 , inciso I , da Carta da República', 'LEGISLACAO'), ('Código de Processo Penal Militar', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) '' ( Recurso Extraordinário com Agravo n° 674.299/PR , Relator Ministro Dias Toffoli , julgado em 27/2/2013 ) '' EMENTA : HABEAS CORPUS .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Recurso Extraordinário com Agravo n° 674.299/PR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Dias Toffoli",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "27/2/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Recurso Extraordinário com Agravo n° 674.299/PR', 'JURISPRUDENCIA'), ('Dias Toffoli', 'PESSOA'), ('27/2/2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+ART . 498 , § 1º , DO CPPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ART . 498 , § 1º , DO CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ART . 498 , § 1º , DO CPPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+I - Esta Corte firmou o entendimento de que o prazo para a correição parcial é de cinco dias entre a conclusão dos autos ao juiz-auditor corregedor e o protocolo da representação no Superior Tribunal Militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+III - Ordem concedida para cassar o acórdão do Superior Tribunal Militar que deferiu a correição parcial e determinar a extinção definitiva da ação penal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Habeas Corpus n° 115.754/RJ , Relator Ministro Ricardo Lewandowski , julgado em 19/3/2013 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Habeas Corpus n° 115.754/RJ",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Ricardo Lewandowski",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "19/3/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Habeas Corpus n° 115.754/RJ', 'JURISPRUDENCIA'), ('Ricardo Lewandowski', 'PESSOA'), ('19/3/2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+SÚMULAS NS . 282 E 356 DO SUPREMO TRIBUNAL FEDERAL .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SÚMULAS NS . 282",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "356 DO SUPREMO TRIBUNAL FEDERAL",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('SÚMULAS NS . 282', 'JURISPRUDENCIA'), ('356 DO SUPREMO TRIBUNAL FEDERAL', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+DECISÃO EM HARMONIA COM A JURISPRUDÊNCIA DO SUPREMO TRIBUNAL .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SUPREMO TRIBUNAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('SUPREMO TRIBUNAL', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Agravo nos autos principais contra decisão de inadmissão de recurso extraordinário , interposto com base no art . 102 , inc . III , alínea a , da Constituição da República contra julgado do Superior Tribunal Militar : 'EMBARGOS INFRINGENTES .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 102 , inc . III , alínea a , da Constituição da República",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 102 , inc . III , alínea a , da Constituição da República', 'LEGISLACAO'), ('Superior Tribunal Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+MPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Se o Estado-Administração , através da discricionariedade que lhe é peculiar , renunciou ao direito de impor ao soldado que cumpra o serviço militar obrigatório , demonstra a ausência de interesse de que seja preservado o bem jurídico tutelado pela norma que se subsume ao art . 187 do CPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 187 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 187 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Agravante afirma que o Tribunal de origem teria contrariado o art . 129 , inc . I , da Constituição da República .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 129 , inc . I , da Constituição da República",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 129 , inc . I , da Constituição da República', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Argumenta que 'o acórdão violou o princípio da obrigatoriedade e exclusividade da ação penal pública , previsto no artigo 129 , inciso I , da Lei Maior , ao transformar uma condição de propositura da ação penal em condição de prosseguibilidade [ sic ] da sua tramitação , sem qualquer amparo legal ' ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 129 , inciso I , da Lei Maior",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('artigo 129 , inciso I , da Lei Maior', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ademais , a decisão recorrida harmoniza-se com a Documento assinado eletronicamente por Luis Carlos Gomes Mattos , Matricula 8829 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luis Carlos Gomes Mattos",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Luis Carlos Gomes Mattos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para confirmar a validade deste documento , acesse : https : //eproc2g.stm.jus.br/eproc_2g_prod/ e digite o Codigo Verificador 21ebd73e56 jurisprudência deste Supremo Tribunal , no sentido de que a condição de militar é condição de procedibilidade para processamento do feito no crime de deserção : 'HABEAS CORPUS .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Supremo Tribunal', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+DESERÇÃO ( ART . 187 DO CÓDIGO PENAL MILITAR ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ART . 187 DO CÓDIGO PENAL MILITAR",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ART . 187 DO CÓDIGO PENAL MILITAR', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+II - Ordem concedida de ofício ' ( HC 108.197 , Relator o Ministro Ricardo Lewandowski , Segunda Turma , DJe 15.2.2012 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HC 108.197",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Ricardo Lewandowski",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Segunda Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "15.2.2012",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('HC 108.197', 'JURISPRUDENCIA'), ('Ricardo Lewandowski', 'PESSOA'), ('Segunda Turma', 'ORGANIZACAO'), ('15.2.2012', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PERDA DA CONDIÇÃO DE MILITAR ANTES DO JULGAMENTO DA APELAÇÃO PELO SUPERIOR TRIBUNAL MILITAR .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SUPERIOR TRIBUNAL MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('SUPERIOR TRIBUNAL MILITAR', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em razão da ausência de condição de procedibilidade , o art . 457 , § 2º , do Código de Processo Penal Militar e a Súmula n . 8 do Superior Tribunal Militar impedem a execução da pena imposta ao réu incapaz para o serviço ativo do Exército , que não detinha a condição de militar no ato de julgamento do recurso de apelação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 457 , § 2º , do Código de Processo Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Súmula n . 8 do Superior Tribunal Militar",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 457 , § 2º , do Código de Processo Penal Militar', 'LEGISLACAO'), ('Súmula n . 8 do Superior Tribunal Militar', 'JURISPRUDENCIA'), ('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+

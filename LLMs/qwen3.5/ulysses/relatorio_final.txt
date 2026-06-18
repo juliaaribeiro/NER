@@ -1,0 +1,26 @@
+=== MÉDIAS DOS 9 FOLDS ===
+Modelo : unsloth/Qwen3.5-9B
+(Fold 7 excluído — reservado para hiperparâmetros do BERT)
+Hiperparâmetros: épocas=3 | lr=0.0001 | batch=1 | grad_accum=4 | r=16 | alpha=64 | dropout=0.05
+
+  Por entidade (média dos folds):
+    DATA:               P=0.943  R=0.945  F1=0.943
+    EVENTO:             P=0.500  R=0.357  F1=0.356
+    FUNDapelido:        P=0.867  R=0.712  F1=0.776
+    FUNDlei:            P=0.878  R=0.852  F1=0.864
+    FUNDprojetodelei:   P=0.400  R=0.300  F1=0.333
+    LOCALconcreto:      P=0.872  R=0.848  F1=0.858
+    LOCALvirtual:       P=0.477  R=0.291  F1=0.323
+    ORGgovernamental:   P=0.717  R=0.740  F1=0.726
+    ORGnaogovernamental:P=0.749  R=0.602  F1=0.662
+    ORGpartido:         P=1.000  R=0.933  F1=0.960
+    PESSOAcargo:        P=0.928  R=0.741  F1=0.814
+    PESSOAgrupocargo:   P=0.620  R=0.454  F1=0.521
+    PESSOAindividual:   P=0.920  R=0.929  F1=0.924
+    PRODUTOoutros:      P=0.613  R=0.541  F1=0.571
+    PRODUTOprograma:    P=0.860  R=0.780  F1=0.759
+    PRODUTOsistema:     P=0.527  R=0.760  F1=0.593
+
+  Macro Avg : P=0.742  R=0.674  F1=0.686
+  Micro Avg : P=0.839  R=0.779  F1=0.807
+  Accuracy  : 0.953

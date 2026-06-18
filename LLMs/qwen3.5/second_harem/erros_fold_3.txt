@@ -1,0 +1,7241 @@
+--------------------------------------------------------------------------------
+Texto:
+Onde foi fabricado Bender Bending Rodriguez ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bender Bending Rodriguez",
+    "label": "COISA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bender Bending Rodriguez",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Bender Bending Rodriguez', 'COISA')]
+Espúrias  (FP): [('Bender Bending Rodriguez', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é o INTASAT
+
+Entidades verdadeiras:
+[
+  {
+    "text": "INTASAT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "INTASAT",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('INTASAT', 'ORGANIZACAO')]
+Espúrias  (FP): [('INTASAT', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos membros tinha durante a Segunda Grande Guerra ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Segunda Grande Guerra",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "durante a Segunda Grande Guerra",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Segunda Grande Guerra', 'ACONTECIMENTO')]
+Espúrias  (FP): [('durante a Segunda Grande Guerra', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Qual é a responsabilidade da ONUDI ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ONUDI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "UNODI",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('ONUDI', 'ORGANIZACAO')]
+Espúrias  (FP): [('UNODI', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que mar desagua o rio Orentes ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Orentes",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Orentes",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Orentes', 'LOCAL')]
+Espúrias  (FP): [('Orentes', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como se chama o deus grego da Medicina ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medicina",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Medicina', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que foi o atentado terrorista contra a AMIA ? Quantas pessoas morreram nesse ataque?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AMIA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "AMIA",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('AMIA', 'ORGANIZACAO')]
+Espúrias  (FP): [('AMIA', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que ano foi inaugurado o AVE Madrid-Sevilha ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AVE Madrid-Sevilha",
+    "label": "COISA",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "AVE Madrid-Sevilha",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('AVE Madrid-Sevilha', 'COISA')]
+Espúrias  (FP): [('AVE Madrid-Sevilha', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como se chamava o serviço secreto da RDA ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RDA",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "RDA",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('RDA', 'LOCAL')]
+Espúrias  (FP): [('RDA', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+De que material é feito um Moai ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Moai",
+    "label": "COISA",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Moai', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Que animais puxam o carro de Cíbele ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cíbele",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Cíbele', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O que é que mede a escala de Mohs | escala de Mohs?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "escala de Mohs",
+    "label": "COISA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "escala de Mohs",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "escala",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Mohs",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('escala de Mohs', 'COISA')]
+Espúrias  (FP): [('escala de Mohs', 'ABSTRACCAO'), ('escala', 'ABSTRACCAO'), ('Mohs', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que fabrica a Leica ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Leica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Leica",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Leica', 'ORGANIZACAO')]
+Espúrias  (FP): [('Leica', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantas vezes é que Alain Prost foi campeão do Mundo | Mundo?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alain Prost",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Mundo",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Alain Prost",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mundo",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Mundo', 'LOCAL')]
+Espúrias  (FP): [('Mundo', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantas caves tem a Torre Picasso ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Torre Picasso",
+    "label": "COISA",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Torre Picasso",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Torre Picasso', 'COISA')]
+Espúrias  (FP): [('Torre Picasso', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem inaugurou o Templo de Debod em Madrid ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Templo de Debod",
+    "label": "OBRA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Madrid",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Templo de Debod",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Madrid",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Templo de Debod', 'OBRA')]
+Espúrias  (FP): [('Templo de Debod', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Qual a altura do Vesúvio ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vesúvio",
+    "label": "COISA",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vesúvio",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Vesúvio', 'COISA')]
+Espúrias  (FP): [('Vesúvio', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Qual a altura da Pirámede do Sol de Teotihuacan | Pirámede do Sol de Teotihuacan ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pirámede do Sol de Teotihuacan",
+    "label": "OBRA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Pirámede do Sol",
+    "label": "OBRA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Teotihuacan",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pirámede do Sol de Teotihuacan",
+    "label": "COISA"
+  },
+  {
+    "text": "Pirámede",
+    "label": "COISA"
+  },
+  {
+    "text": "Sol",
+    "label": "COISA"
+  },
+  {
+    "text": "Teotihuacan",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Pirámede do Sol de Teotihuacan', 'OBRA'), ('Pirámede do Sol', 'OBRA')]
+Espúrias  (FP): [('Pirámede do Sol de Teotihuacan', 'COISA'), ('Pirámede', 'COISA'), ('Sol', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem atribui a Medalha Fields ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medalha Fields",
+    "label": "OUTRO",
+    "token_indices": [
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Medalha Fields",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Medalha Fields', 'OUTRO')]
+Espúrias  (FP): [('Medalha Fields', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+De que é que Jasão e os Argonautas andavam à procura?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jasão",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Argonautas",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jasão e os Argonautas",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Jasão', 'PESSOA'), ('Argonautas', 'PESSOA')]
+Espúrias  (FP): [('Jasão e os Argonautas', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem era presidente dos Estados Unidos | presidente dos Estados Unidos durante o ataque a Pearl Harbour ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "presidente dos Estados Unidos",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Pearl Harbour",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "presidente dos Estados Unidos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "durante",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Pearl Harbour",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Pearl Harbour', 'LOCAL')]
+Espúrias  (FP): [('durante', 'TEMPO'), ('Pearl Harbour', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é que a Norsk Hydro produzia durante a Segunda Guerra Mundial ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Norsk Hydro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Segunda Guerra Mundial",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Norsk Hydro",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "durante a Segunda Guerra Mundial",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Segunda Guerra Mundial', 'ACONTECIMENTO')]
+Espúrias  (FP): [('durante a Segunda Guerra Mundial', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantas pessoas morreram na Europa durante a epidemia de peste do século XIV ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "do século XIV",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "durante a epidemia de peste do século XIV",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('do século XIV', 'TEMPO')]
+Espúrias  (FP): [('durante a epidemia de peste do século XIV', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que dia foi promulgada a constituição espanhola de 1812 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de 1812",
+    "label": "TEMPO",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "constituição espanhola de 1812",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('de 1812', 'TEMPO')]
+Espúrias  (FP): [('constituição espanhola de 1812', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos quilos de anchova apanhou a frota do Cantábrico em 1994 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cantábrico",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cantábrico",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Cantábrico', 'LOCAL')]
+Espúrias  (FP): [('Cantábrico', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que organismo dirigiu Alan Turing durante a Segunda Guerra Mundial ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alan Turing",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Segunda Guerra Mundial",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Alan Turing",
+    "label": "PESSOA"
+  },
+  {
+    "text": "durante a Segunda Guerra Mundial",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Segunda Guerra Mundial', 'ACONTECIMENTO')]
+Espúrias  (FP): [('durante a Segunda Guerra Mundial', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem era o czar da Rússia | czar da Rússia durante a Segunda Grande Guerra ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "czar da Rússia",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Rússia",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Segunda Grande Guerra",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "czar da Rússia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rússia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "durante a Segunda Grande Guerra",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Segunda Grande Guerra', 'ACONTECIMENTO')]
+Espúrias  (FP): [('durante a Segunda Grande Guerra', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Contra que país é que a Espanha jogou a final de basquete das Olímpiadas de 1984 | Olímpiadas de 1984 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espanha",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Olímpiadas de 1984",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Olímpiadas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "de 1984",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Espanha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "final de basquete das Olímpiadas de 1984",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Olímpiadas de 1984",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Olímpiadas', 'ACONTECIMENTO'), ('de 1984', 'TEMPO')]
+Espúrias  (FP): [('final de basquete das Olímpiadas de 1984', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que ano é que Espanha ganhou o Mundial de Futebol ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espanha",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Mundial de Futebol",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mundial de Futebol",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Espanha', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+CONGRESSOS DO PSD , VOLTEM QUE ESTÃO PERDOADOS
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CONGRESSOS DO PSD",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('PSD', 'ORGANIZACAO')]
+Espúrias  (FP): [('CONGRESSOS DO PSD', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Há poucas coisas que me entristecem tanto como esta história das directas do PSD . É que eu sempre fui um aficcionado dos congressos do PSD . Trata-se do evento político onde é mais provável que, de repente, se levante uma dúzia de militantes, salte para o palco e desate aos pontapés a tudo e a todos, inclusive a um cartaz com a mensagem: « PSD: Responsabilidade e sentido de Estado .»
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "PSD: Responsabilidade e sentido de Estado",
+    "label": "OUTRO",
+    "token_indices": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('PSD: Responsabilidade e sentido de Estado', 'OUTRO')]
+Espúrias  (FP): [('PSD', 'ORGANIZACAO'), ('PSD', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+É certo que, agora que já não há intervenções pungentes de Santana Lopes , os congressos do PSD ficariam demasiado dependentes das gaffes de Luís Filipe Menezes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Santana Lopes",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Luís Filipe Menezes",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "agora",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Santana Lopes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Luís Filipe Menezes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('agora', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo Pacheco Pereira , é esta diversidade social que começa a estar seriamente ameaçada. Há uns tempos , escreveu no PÚBLICO que «o problema do PSD é começar a ter só um Portugal ou dois dentro de si». Não podia estar mais em desacordo com esta afirmação. Para mim, é precisamente esse o problema do partido. Se, em vez de « Portugais », o PSD tivesse uma Finlândia ou duas Dinamarcas dentro dele, aí sim podia ser que o partido fosse a algum lado.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pacheco Pereira",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Há uns tempos",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Portugais",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Finlândia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Dinamarcas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pacheco Pereira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Há uns tempos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "OBRA"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('PÚBLICO', 'LOCAL'), ('Portugal', 'ABSTRACCAO'), ('Portugais', 'ABSTRACCAO'), ('Finlândia', 'ABSTRACCAO'), ('Dinamarcas', 'ABSTRACCAO')]
+Espúrias  (FP): [('PÚBLICO', 'OBRA'), ('Portugal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+COISAS DA SÁBADO : NÃO HÁ MAL QUE SEMPRE DURE, NEM BEM QUE NUNCA ACABE
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SÁBADO",
+    "label": "OBRA",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SÁBADO",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('SÁBADO', 'OBRA')]
+Espúrias  (FP): [('SÁBADO', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+1. Acabou para Sócrates o alibi dos governos anteriores. Com excepcionais condições de governação, com maioria absoluta, com o show europeu para dar dimensão internacional, sem «forças de bloqueio» na Presidência , com uma oposição nos dois primeiros anos muito mais responsável do que alguma vez o PS foi, gozando de muitas simpatias e ainda de mais cumplicidades, mas agora são os resultados que se esperam.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sócrates",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Presidência",
+    "label": "PESSOA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "nos dois primeiros anos",
+    "label": "TEMPO",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sócrates",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidência",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('nos dois primeiros anos', 'TEMPO'), ('PS', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os primeiros resultados que se conhecem são todos maus com excepção do controlo do défice e mesmo aí parece (ao Tribunal de Contas ) que as coisas também não são tão boas como se pensava. O empobrecimento dos portugueses continua e é um empobrecimento sem esperança. Como se todos fossem, a seu modo, um desempregado com quarenta anos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal de Contas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tribunal de Contas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "com excepção",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "quarenta anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('com excepção', 'ABSTRACCAO'), ('quarenta anos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+2. A propaganda governamental está a esgotar-se. PowerPoint , simulações de computador, assistências reverendas ou de casting, já só sobrevivem na RTP e nos «momentos-"Chávez» .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PowerPoint",
+    "label": "COISA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "RTP",
+    "label": "COISA",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PowerPoint",
+    "label": "COISA"
+  },
+  {
+    "text": "RTP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Chávez",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('RTP', 'COISA')]
+Espúrias  (FP): [('RTP', 'ORGANIZACAO'), ('Chávez', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+3. As reformas estilo Sócrates não passaram na maioria dos casos de medidas de contenção orçamental e, só em raros casos, foram medidas de verdadeira reforma. Mas quer as verdadeiras quer as falsas reformas foram sempre acompanhadas de um discurso de agressividade populista contra as classes e grupos profissionais destinatários -- funcionários públicos, professores, agentes da justiça, jornalistas -- que motivaram respostas corporativas. Este estilo agressivo colocou os grupos profissionais inteiros contra o governo em vez de os dividir entre sectores conservadores e «modernizadores», o que retirou eficácia às poucas reformas genuínas que se esboçaram.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sócrates",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sócrates",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Sócrates', 'ABSTRACCAO')]
+Espúrias  (FP): [('Sócrates', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+4. Três programas emblemáticos caracterizaram este governo: o Plano Tecnológico , o Simplex e as « Novas Oportunidades ». O que de melhor o governo Sócrates fez, passou por aqui. Talvez, de todos, o Simplex tenha sido o que melhores resultados trouxe. Ainda é cedo para se fazer uma avaliação global, mas a simplificação burocrática conheceu um impulso sério.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Plano Tecnológico",
+    "label": "OBRA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Simplex",
+    "label": "OBRA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Novas Oportunidades",
+    "label": "OBRA",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Sócrates",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Simplex",
+    "label": "OBRA",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Plano Tecnológico",
+    "label": "OBRA"
+  },
+  {
+    "text": "Simplex",
+    "label": "OBRA"
+  },
+  {
+    "text": "Novas Oportunidades",
+    "label": "OBRA"
+  },
+  {
+    "text": "governo Sócrates",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Simplex",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Sócrates', 'ORGANIZACAO')]
+Espúrias  (FP): [('governo Sócrates', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+5. O Plano Tecnológico traduz muito do deslumbramento de Sócrates e da sua geração pelo poder das tecnologias, e pela crença que as tecnologias tem efeitos sociais de per si. Não tem. São instrumentos que só actuam em contextos sociais próprios e muitos milhares de euros de material avariado, computadores, gadgets, estão por essas escolas e instituições públicas onde depois das belas sessões públicas de ofertas e inaugurações não se cuidou, por exemplo, da manutenção. Para além disso, ter banda larga em Ferreira do Alentejo é excelente se ela servir para alguma coisa, se as literacias para a usar existirem para além da ida à Internet | Internet para ver os sítios de futebol, pornografia e as fotografias da turma no Hi5 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Plano Tecnológico",
+    "label": "OBRA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Sócrates",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Ferreira do Alentejo",
+    "label": "LOCAL",
+    "token_indices": [
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "OUTRO",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "Hi5",
+    "label": "LOCAL",
+    "token_indices": [
+      121
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Plano Tecnológico",
+    "label": "OBRA"
+  },
+  {
+    "text": "Sócrates",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ferreira do Alentejo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hi5",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Internet', 'OUTRO')]
+Espúrias  (FP): [('Internet', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+"ATAQUES GRÁFICOS CONTRA O IMPÉRIO
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "ATAQUES GRÁFICOS CONTRA O IMPÉRIO",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('ATAQUES GRÁFICOS CONTRA O IMPÉRIO', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A terça-feira em Salvador amanheceu diferente. As logomarcas nos totens dos bancos de Boston e Citibank , Clube Banco dos Ingleses e lanchonete McDonalds estavam manchadas de sangue. Pelo menos é o que parecia numa olhada rápida. O primeiro pensamento: mais uma onda de protestos atingiu os símbolos dos impérios britânico e americano. É vermelho, embora não seja sangue.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "A terça-feira",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Salvador",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Boston",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Citibank",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Clube Banco dos Ingleses",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "McDonalds",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Salvador",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Boston",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Citibank",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Clube Banco dos Ingleses",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "McDonalds",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('A terça-feira', 'TEMPO'), ('Boston', 'ORGANIZACAO')]
+Espúrias  (FP): [('Boston', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas a imagem é tão forte quanto: sobre o verdinho do BankBoston , escorria uma gosmenta tinta vermelha impregnada, difícil de limpar. "Só outro, algum transeunte pode ter balbuciado na ida para o ponto de ônibus de mais uma segunda-feira , dessa vez surpreendente e politizada. A mensagem é assim: "Estamos devolvendo simbolicamente o sangue derramado às empresas que representam entre nós o predomínio do Império , as quais serão consideradas cúmplices deste projeto macabro até que tomem publicamente posição contra (1). E veio de um coletivo organizado e anônimo de "cidadãos de boa índole indignados com essa nova fase do imperialismo, com o nome de " Operação Sangue Quente. Gente pacífica, mas não passiva .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BankBoston",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "de mais uma segunda-feira",
+    "label": "TEMPO",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Império",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Operação Sangue Quente. Gente pacífica, mas não passiva",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BankBoston",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Só outro, algum transeunte",
+    "label": "PESSOA"
+  },
+  {
+    "text": "de mais uma segunda-feira",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Império",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Operação Sangue Quente",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Império', 'LOCAL'), ('Operação Sangue Quente. Gente pacífica, mas não passiva', 'ABSTRACCAO')]
+Espúrias  (FP): [('Só outro, algum transeunte', 'PESSOA'), ('Império', 'ABSTRACCAO'), ('Operação Sangue Quente', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A inspiração veio das ruas: há três semanas , um outdoor do McDonald's na Avenida Jorge Amado havia recebido uma interferência gráfica. Estava lá em cima da mensagem publicitária da promoção McNight (sanduíches mais baratos durante a madrugada ) um texto em tinta neon: "Lixo dos EUA . Não financie a guerra. Boicote os produtos americanos. É o que está todo mundo fazendo, não é? Então eles decidiram ir além: um ataque cromático em emblemas do " Império .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "há três semanas",
+    "label": "TEMPO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "McDonald's",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Avenida Jorge Amado",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "McNight",
+    "label": "OUTRO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "durante a madrugada",
+    "label": "TEMPO",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Império",
+    "label": "LOCAL",
+    "token_indices": [
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "há três semanas",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Avenida Jorge Amado",
+    "label": "LOCAL"
+  },
+  {
+    "text": "McDonald's",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "McNight",
+    "label": "COISA"
+  },
+  {
+    "text": "durante a madrugada",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Império",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('McNight', 'OUTRO'), ('EUA', 'LOCAL'), ('Império', 'LOCAL')]
+Espúrias  (FP): [('McNight', 'COISA'), ('Império', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foram 20 pessoas no planejamento. Oito partiram para o ataque. Foi na madrugada de segunda para terça-feira , entre 3 e 4 horas , cronometradas, aproveitando a calmaria das ruas do primeiro dia da semana .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "20",
+    "label": "VALOR",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "na madrugada de segunda para terça-feira",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "entre 3 e 4 horas",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "do primeiro dia da semana",
+    "label": "TEMPO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "20",
+    "label": "VALOR"
+  },
+  {
+    "text": "Oito",
+    "label": "VALOR"
+  },
+  {
+    "text": "na madrugada de segunda para terça-feira",
+    "label": "TEMPO"
+  },
+  {
+    "text": "entre 3 e 4 horas",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Foi",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "primeiro dia da semana",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('do primeiro dia da semana', 'TEMPO')]
+Espúrias  (FP): [('Oito', 'VALOR'), ('Foi', 'ACONTECIMENTO'), ('primeiro dia da semana', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Duas "viaturas de ataque com quatro ativistas cada e um carro de cobertura. Eles se definem: "São três gerações de homens e mulheres desobedientes civis e militares com diferentes graus de envolvimento em questões e ações sociais. O mais novo 20 , o mais velho 59 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "20",
+    "label": "VALOR",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "59",
+    "label": "VALOR",
+    "token_indices": [
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Duas",
+    "label": "VALOR"
+  },
+  {
+    "text": "20",
+    "label": "VALOR"
+  },
+  {
+    "text": "59",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Duas', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Não deixe seu sangue esfriar, proteste é só o começo. Ainda que o efeito vermelho das bombas tenha sido efêmero, a adrenalina continua em alta.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "ainda",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('ainda', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+SANGUE QUENTE - Pelo menos a ocupação sinistra de Bush no Iraque serviu para mobilizar os glóbulos vermelhos de muita gente. O grupo da " Operação Sangue Quente garante: "O sangue não vai esfriar tão cedo. Eles estão em alerta. A idéia é que outras intervenções surpreendam os cidadãos soteropolitanos, autoridades e o que estiver no alvo dos "guerreiros.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bush",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Iraque",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Operação Sangue Quente",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bush",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Iraque",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Operação Sangue Quente",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Sangue Quente",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Bush', 'ORGANIZACAO')]
+Espúrias  (FP): [('Bush', 'PESSOA'), ('Sangue Quente', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O símbolo universal da paz, a pomba branca, aparece na logomarca da " Operação Sangue Quente bicando a cabeça de uma ave, que lembra o cruzamento de um urubu com uma águia: uma remissão às forças armadas norte-americanas sendo detonada por uma força que, embora pareça inofensiva, é propositiva, intervém. "Nessa ação específica, queríamos atingir os cidadãos médios, para que eles associassem os alvos com o capital que financia a guerra, explicam.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Operação Sangue Quente",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Operação Sangue Quente",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Operação Sangue Quente', 'ABSTRACCAO')]
+Espúrias  (FP): [('Operação Sangue Quente', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Agora, qualquer questão, a qualquer momento, em qualquer lugar poderá ser o próximo alvo do fervilhar sanguíneo dos coligados anônimos da " Operação Sangue Quente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Operação Sangue Quente",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Operação Sangue Quente",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Operação Sangue Quente', 'ABSTRACCAO')]
+Espúrias  (FP): [('Operação Sangue Quente', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Motivos por aqui não faltam. Mas o grupo ambiciona mais: quer instigar os cidadãos a ações semelhantes. Ou, no mínimo a um exercício de pensamento. Um dia desses uma estátua de gente importante pode aparecer ensacada (como fizeram os três artistas do grupo " 3Nós3 , no início da década de 80 , tempos em que São Paulo amanhecia mais surpreendente) ou algo do gênero.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Um dia desses",
+    "label": "TEMPO",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "3Nós3",
+    "label": "PESSOA",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "no início da década de 80",
+    "label": "TEMPO",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "tempos",
+    "label": "TEMPO",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "3Nós3",
+    "label": "PESSOA"
+  },
+  {
+    "text": "no início da década de 80",
+    "label": "TEMPO"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Um dia desses', 'TEMPO'), ('tempos', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+AÇÃO ENTRE AMIGOS - O plano foi discutido, a estratégia de ação muito bem pensada. Reuniões de cúpula na Toca dos Carcarás - nome dado ao local que abrigou os latinos de sangue quente - levantavam questões ideológicas e operacionais. Mapa do itinerário pronto, tinta fresca na bagagem. Alguns, tomados pela "síndrome do amarelismo, abortaram antes do ataque. "Melhor assim, disseram alguns.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Toca dos Carcarás",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "AÇÃO ENTRE AMIGOS",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Toca dos Carcarás",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('AÇÃO ENTRE AMIGOS', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A primeira bomba que atingiu o Citibank da Rua Miguel Calmon , no Comércio , e que deveria ser silenciosa como planejado fez um estrondo alto. Pernas bambas titubearam. Sorte a ronda da Polícia Federal que estava na área ter mais o que fazer naquele momento .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Citibank",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Rua Miguel Calmon",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Comércio",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Polícia Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "naquele momento",
+    "label": "TEMPO",
+    "token_indices": [
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Citibank",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rua Miguel Calmon",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Comércio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Polícia Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('naquele momento', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Da mesma forma com os homens da viatura da Polícia Militar ocupados em espancar dois homens em outra esquina e nada viram. Uma prostituta entretia a guarda de outra viatura na Manoel Dias e o coletivo pôde agir sem problemas no BankBoston , último banco-alvo da ação.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Polícia Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Manoel Dias",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "BankBoston",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Polícia Militar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Manoel Dias",
+    "label": "LOCAL"
+  },
+  {
+    "text": "BankBoston",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Polícia Militar', 'ORGANIZACAO')]
+Espúrias  (FP): [('Polícia Militar', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Aliviados, alguém do grupo levantou o fato de nenhum deles nunca ter participado de uma ação clandestina. Só naquele momento , eles avaliaram o perigo de uma bala ter sido disparada ou um policial ter perseguido os carros. As moças acharam melhor não irem direto para casa: voltaram à cena do crime como boas criminosas para fotografar e flagrar dois vigias e dois cães, todos de guarda dormindo relaxados, bem de frente para a fachada iluminada do Citibank da Barra | Citibank da Barra , tingida de tinta ainda quente.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "naquele momento",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Citibank da Barra",
+    "label": "LOCAL",
+    "token_indices": [
+      77,
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Citibank",
+    "label": "LOCAL",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Barra",
+    "label": "LOCAL",
+    "token_indices": [
+      83
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Só naquele momento",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Citibank da Barra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Citibank",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Barra",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('naquele momento', 'TEMPO'), ('Citibank', 'LOCAL')]
+Espúrias  (FP): [('Só naquele momento', 'TEMPO'), ('Citibank', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fontes: Centro de Mídia Independente (www.midiaindependente.org).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Centro de Mídia Independente",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Centro de Mídia Independente",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "www.midiaindependente.org",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('www.midiaindependente.org', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Jornal A Tarde | Jornal A Tarde (www.atarde.com.br).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jornal A Tarde",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "A Tarde",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jornal A Tarde",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Jornal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "A Tarde",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "www.atarde.com.br",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Jornal', 'ORGANIZACAO'), ('www.atarde.com.br', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O sismo fez-se sentir na manhã de 1 de Novembro de 1755 , dia que coincide com o feriado do Dia de Todos-os-Santos | do Dia de Todos-os-Santos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "na manhã de 1 de Novembro de 1755",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "dia",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "do Dia de Todos-os-Santos",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Dia de Todos-os-Santos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1 de Novembro de 1755",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dia de Todos-os-Santos",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Dia de Todos-os-Santos",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('na manhã de 1 de Novembro de 1755', 'TEMPO'), ('dia', 'TEMPO'), ('do Dia de Todos-os-Santos', 'TEMPO')]
+Espúrias  (FP): [('1 de Novembro de 1755', 'TEMPO'), ('Dia de Todos-os-Santos', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O epicentro não é conhecido com exactidão, havendo diversos sismólogos que propõem locais distanciados de centenas de quilómetros. No entanto, todos convergem para um epicentro no mar, entre 150 a 500 quilómetros a sudoeste de Lisboa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "entre 150 a 500 quilómetros",
+    "label": "VALOR",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('entre 150 a 500 quilómetros', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Relatos da época afirmam que os abalos foram sentidos, consoante o local, durante entre 6 minutos a 2 horas e meia | durante entre 6 minutos a 2 horas e meia , causando fissuras enormes de que ainda hoje há vestígios em Lisboa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "durante entre 6 minutos a 2 horas e meia",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "entre 6 minutos a 2 horas e meia",
+    "label": "VALOR",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "durante entre 6 minutos a 2 horas e meia",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('entre 6 minutos a 2 horas e meia', 'VALOR'), ('hoje', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com os vários desmoronamentos os sobreviventes procuraram refúgio na zona portuária e assistiram ao recuo das águas, revelando o fundo do mar cheio de destroços de navios e cargas perdidas. Poucas dezenas de minutos depois , um tsunami, que actualmente se supõe ter atingido 20 metros de altura, fez submergir o porto e o centro da cidade. Nas áreas que não foram afectadas pelo tsunami, o fogo logo se alastrou, e os incêndios duraram pelo menos cinco dias. Todos tinham fugido e não havia quem o apagasse.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poucas dezenas de minutos depois",
+    "label": "TEMPO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "20 metros",
+    "label": "VALOR",
+    "token_indices": [
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poucas dezenas de minutos depois",
+    "label": "TEMPO"
+  },
+  {
+    "text": "20 metros",
+    "label": "VALOR"
+  },
+  {
+    "text": "pelo menos cinco dias",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('pelo menos cinco dias', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os maremotos originados pela movimentação tectónica varreram desde do norte de África até ao norte da Europa , nomeadamente até à Finlândia e através do Atlântico , afectando locais tão longínquos como Martinica e Barbados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "África",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Finlândia",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Atlântico",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Martinica",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Barbados",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "até",
+    "label": "TEMPO"
+  },
+  {
+    "text": "até",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Finlândia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Atlântico",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Martinica",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Barbados",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('África', 'LOCAL'), ('Europa', 'LOCAL')]
+Espúrias  (FP): [('até', 'TEMPO'), ('até', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+De uma população de 275 mil habitantes em Lisboa , crê-se que 90 mil morreram[2]. Outros 10 mil foram vitimados em Marrocos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "275 mil",
+    "label": "VALOR",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "90 mil",
+    "label": "VALOR",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "10 mil",
+    "label": "VALOR",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Marrocos",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "90 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "Marrocos",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('275 mil', 'VALOR'), ('10 mil', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cerca de 85% das construções de Lisboa foram destruídas, incluindo palácios famosos e bibliotecas, conventos e igrejas, hospitais e todas as estruturas. Várias construções que sofreram poucos danos pelo terramoto foram destruídas pelo fogo que se seguiu ao abalo sísmico.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cerca de 85%",
+    "label": "VALOR",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "85%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Cerca de 85%', 'VALOR')]
+Espúrias  (FP): [('85%', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+A recém construída Casa da Ópera , aberta apenas seis meses antes , foi totalmente consumida pelo fogo. O Palácio Real , que se situava na margem do Tejo , onde hoje existe o Terreiro do Paço , foi destruído pelos abalos sísmicos e pelo tsunami. Dentro, a biblioteca de 70 mil volumes e centenas de obras de arte, incluindo pinturas de Ticiano , Rubens , e Correggio , foram perdidas. O precioso Arquivo Real com documentos relativos à exploração oceânica e outros documentos antigos também foram perdidos. O terramoto destruiu ainda as maiores igrejas de Lisboa , especialmente a Catedral de Santa Maria , e as Basílicas de São Paulo , Santa Catarina , São Vicente de Fora , e a da Misericórdia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Casa da Ópera",
+    "label": "OBRA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "seis meses antes",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Palácio Real",
+    "label": "OBRA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Tejo",
+    "label": "LOCAL",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Terreiro do Paço",
+    "label": "LOCAL",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "70 mil",
+    "label": "VALOR",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Ticiano",
+    "label": "PESSOA",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Rubens",
+    "label": "PESSOA",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Correggio",
+    "label": "PESSOA",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Arquivo Real",
+    "label": "OBRA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "Catedral de Santa Maria",
+    "label": "OBRA",
+    "token_indices": [
+      100,
+      101,
+      102,
+      103
+    ]
+  },
+  {
+    "text": "Basílicas de São Paulo",
+    "label": "OBRA",
+    "token_indices": [
+      107,
+      108,
+      109,
+      110
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "OBRA",
+    "token_indices": [
+      112,
+      113
+    ]
+  },
+  {
+    "text": "São Vicente de Fora",
+    "label": "OBRA",
+    "token_indices": [
+      115,
+      116,
+      117,
+      118
+    ]
+  },
+  {
+    "text": "Misericórdia",
+    "label": "OBRA",
+    "token_indices": [
+      123
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Casa da Ópera', 'OBRA'), ('seis meses antes', 'TEMPO'), ('Palácio Real', 'OBRA'), ('Tejo', 'LOCAL'), ('hoje', 'TEMPO'), ('Terreiro do Paço', 'LOCAL'), ('70 mil', 'VALOR'), ('Ticiano', 'PESSOA'), ('Rubens', 'PESSOA'), ('Correggio', 'PESSOA'), ('Arquivo Real', 'OBRA'), ('Lisboa', 'LOCAL'), ('Catedral de Santa Maria', 'OBRA'), ('Basílicas de São Paulo', 'OBRA'), ('Santa Catarina', 'OBRA'), ('São Vicente de Fora', 'OBRA'), ('Misericórdia', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As ruínas do Convento do Carmo ainda hoje podem ser visitadas no centro da cidade. O túmulo de Nuno Álvares Pereira , nesse convento, perdeu-se também. O Hospital Real de Todos os Santos foi consumido pelos fogos e centenas de pacientes morreram queimados. Registos históricos das viagens de Vasco da Gama e Cristóvão Colombo foram perdidos, e incontáveis construções foram arrasadas (incluindo muitos exemplares da arquitectura do período Manuelino em Portugal ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Convento do Carmo",
+    "label": "OBRA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Nuno Álvares Pereira",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Hospital Real de Todos os Santos",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Vasco da Gama",
+    "label": "PESSOA",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Cristóvão Colombo",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "do período Manuelino",
+    "label": "TEMPO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Convento do Carmo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Nuno Álvares Pereira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Hospital Real de Todos os Santos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Vasco da Gama",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cristóvão Colombo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Convento do Carmo', 'OBRA'), ('hoje', 'TEMPO'), ('do período Manuelino', 'TEMPO')]
+Espúrias  (FP): [('Convento do Carmo', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sempre é o iPhone , dirão os que acompanharam as especulações e palpites dos últimos meses .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "iPhone",
+    "label": "COISA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "dos últimos meses",
+    "label": "TEMPO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "iPhone",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('dos últimos meses', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O anúncio foi feito ontem , em São Francisco , nos EUA , onde decorre a Macworld , feira que a Apple organiza todos os anos para apresentar as suas novidades. Como de costume, a conferência de Steve Jobs , o director-geral da empresa, foi o ponto alto para os fãs da Apple .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ontem",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "São Francisco",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Macworld",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Apple",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "todos os anos",
+    "label": "TEMPO",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Steve Jobs",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Apple",
+    "label": "COISA",
+    "token_indices": [
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ontem",
+    "label": "TEMPO"
+  },
+  {
+    "text": "São Francisco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Macworld",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Apple",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "todos os anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Steve Jobs",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Apple",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Apple', 'COISA')]
+Espúrias  (FP): [('Apple', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+" De vez em quando chega um produto revolucionário que muda tudo. É sorte se pudermos trabalhar num ao longo da carreira... e a Apple é sortuda por já ter lançado vários", disse Steve Jobs .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "De vez em quando",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Apple",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Steve Jobs",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Apple",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Steve Jobs",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('De vez em quando', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O novo telefone vai estar disponível em Junho , nos EUA , em duas versões: uma com 8 gigabytes (GB) de capacidade de armazenamento, que custará 600 dólares , e outra com 4 GB , a cerca de 500 dólares .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em Junho",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "8 gigabytes (GB)",
+    "label": "VALOR",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "600 dólares",
+    "label": "VALOR",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "4 GB",
+    "label": "VALOR",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "cerca de 500 dólares",
+    "label": "VALOR",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em Junho",
+    "label": "TEMPO"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "8 gigabytes",
+    "label": "VALOR"
+  },
+  {
+    "text": "600 dólares",
+    "label": "VALOR"
+  },
+  {
+    "text": "4 GB",
+    "label": "VALOR"
+  },
+  {
+    "text": "500 dólares",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('8 gigabytes (GB)', 'VALOR'), ('cerca de 500 dólares', 'VALOR')]
+Espúrias  (FP): [('8 gigabytes', 'VALOR'), ('500 dólares', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nos EUA , o telemóvel da Apple funcionará na rede Cingular Wireless .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Apple",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Cingular Wireless",
+    "label": "COISA",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Apple",
+    "label": "COISA"
+  },
+  {
+    "text": "Cingular Wireless",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Apple', 'ORGANIZACAO')]
+Espúrias  (FP): [('Apple', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O seu desenvolvimento levou ao registo de mais de 200 patentes, o que o torna numa das maiores inovações da empresa.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "mais de 200",
+    "label": "VALOR",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('mais de 200', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O facto de ter o sistema operativo OS X - usado nos computadores da Apple - significa que o iPhone terá muitas das funções habituais naquelas máquinas. Permitirá aceder ao correio electrónico de forma automática ou ver os mapas do Google .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OS X",
+    "label": "COISA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Apple",
+    "label": "COISA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "iPhone",
+    "label": "COISA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Google",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "OS X",
+    "label": "COISA"
+  },
+  {
+    "text": "Apple",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Google",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Apple', 'COISA'), ('iPhone', 'COISA')]
+Espúrias  (FP): [('Apple', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pedro ou Pêro da Covilhã ( Covilhã ?, 1450? --- 1530? ) foi um diplomata e explorador português.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pedro",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Covilhã",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "1450? --- 1530?",
+    "label": "TEMPO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pedro ou Pêro da Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Covilhã",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1450?",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1530?",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Pedro', 'PESSOA'), ('Pêro da Covilhã', 'PESSOA'), ('1450? --- 1530?', 'TEMPO')]
+Espúrias  (FP): [('Pedro ou Pêro da Covilhã', 'PESSOA'), ('1450?', 'TEMPO'), ('1530?', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com cerca de 18 anos cativa um espanhol que visitava a Covilhã para comprar tecidos que o convida a servir o seu amo, D. Juan de Guzman , irmão do Duque de Medina-Sidónia , um dos mais conceituados fidalgos de Sevilha ; Pêro aceita a proposta e parte para Sevilha onde lhe é atribuído o papel de espadachim. Impressionado com a desenvoltura de Pêro de Covilhã , convida-o D. Juan de Gusman a participar nas embarcações do seu irmão, o Duque conhecido também como o Pirata Espanhol ; Pêro recusa a oferta e, em 1474 , acompanha D. Juan a Lisboa a uma entrevista com Afonso V de Portugal | Afonso V de Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "cerca de 18 anos",
+    "label": "VALOR",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Covilhã",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "D. Juan de Guzman",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Duque de Medina-Sidónia",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Sevilha",
+    "label": "LOCAL",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Pêro",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Sevilha",
+    "label": "LOCAL",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Pêro de Covilhã",
+    "label": "PESSOA",
+    "token_indices": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "D. Juan de Gusman",
+    "label": "PESSOA",
+    "token_indices": [
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Duque",
+    "label": "PESSOA",
+    "token_indices": [
+      80
+    ]
+  },
+  {
+    "text": "Pirata Espanhol",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      85,
+      86
+    ]
+  },
+  {
+    "text": "Pêro",
+    "label": "PESSOA",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "em 1474",
+    "label": "TEMPO",
+    "token_indices": [
+      93,
+      94
+    ]
+  },
+  {
+    "text": "D. Juan",
+    "label": "PESSOA",
+    "token_indices": [
+      97,
+      98
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "Afonso V de Portugal",
+    "label": "PESSOA",
+    "token_indices": [
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  {
+    "text": "Afonso V",
+    "label": "PESSOA",
+    "token_indices": [
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      113
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('cerca de 18 anos', 'VALOR'), ('Covilhã', 'LOCAL'), ('D. Juan de Guzman', 'PESSOA'), ('Duque de Medina-Sidónia', 'PESSOA'), ('Sevilha', 'LOCAL'), ('Pêro', 'PESSOA'), ('Sevilha', 'LOCAL'), ('Pêro de Covilhã', 'PESSOA'), ('D. Juan de Gusman', 'PESSOA'), ('Duque', 'PESSOA'), ('Pirata Espanhol', 'ABSTRACCAO'), ('Pêro', 'PESSOA'), ('em 1474', 'TEMPO'), ('D. Juan', 'PESSOA'), ('Lisboa', 'LOCAL'), ('Afonso V de Portugal', 'PESSOA'), ('Afonso V', 'PESSOA'), ('Portugal', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+D. Afonso simpatiza com Pêro também pelo seu domínio de línguas, nomeadamente a língua árabe e D. Juan cede a el-Rei os serviços do português. É assim que Pêro da Covilhã , aos seus 24 anos , é admitido como moço de esporas de D. Afonso V . Passado pouco tempo , decide el-Rei elevá-lo a escudeiro, com direito a armas e cavalo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "D. Afonso",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Pêro",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "D. Juan",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "el-Rei",
+    "label": "PESSOA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "24 anos",
+    "label": "VALOR",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "D. Afonso V",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Passado pouco tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "el-Rei",
+    "label": "PESSOA",
+    "token_indices": [
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "D. Afonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pêro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Juan",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "aos seus 24 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "D. Afonso V",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('el-Rei', 'PESSOA'), ('24 anos', 'VALOR'), ('Passado pouco tempo', 'TEMPO'), ('el-Rei', 'PESSOA')]
+Espúrias  (FP): [('aos seus 24 anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mais tarde , em iria acompanhar D. Afonso na jornada a França para pedir auxílio ao rei Luís XI de França | rei Luís XI de França na luta pelo trono de Castela , que seria rejeitado. Entretanto, D. Afonso abdica do trono, para D. João II .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mais tarde",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "D. Afonso",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "rei Luís XI de França",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "rei Luís XI",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Castela",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "D. Afonso",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "D. João II",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mais tarde",
+    "label": "TEMPO"
+  },
+  {
+    "text": "D. Afonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  },
+  {
+    "text": "rei Luís XI de França",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Castela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D. Afonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. João II",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('rei Luís XI', 'PESSOA'), ('França', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Após a execução do Duque de Bragança pelas próprias mãos do rei, Pêro da Covilhã foi designado para investigar quais os nobres que conspiravam contra D. João II , conseguindo identificar o D. Diogo , duque de Viseu e D. Garcia de Meneses , bispo de Évora | bispo de Évora .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Duque de Bragança",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "D. João II",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "D. Diogo",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "duque de Viseu",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "D. Garcia de Meneses",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "bispo de Évora",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Évora",
+    "label": "LOCAL",
+    "token_indices": [
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Duque de Bragança",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. João II",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Diogo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "duque de Viseu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Garcia de Meneses",
+    "label": "PESSOA"
+  },
+  {
+    "text": "bispo de Évora",
+    "label": "PESSOA"
+  },
+  {
+    "text": "bispo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Évora",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('bispo', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na sequência do desejo de el-Rei continuar a obra iniciada pelo infante D. Henrique dos Descobrimentos , escolhe novamente Pêro da Covilhã para embaixador nos tratados de paz com os berberes do Magrebe (como o rei de Fez | rei de Fez e o de Tremecém ), que convinham ao reino para convergir os esforços na odisseia marítima.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "el-Rei",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "infante D. Henrique",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Descobrimentos",
+    "label": "OBRA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Magrebe",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "rei de Fez",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Fez",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Tremecém",
+    "label": "LOCAL",
+    "token_indices": [
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rei",
+    "label": "PESSOA"
+  },
+  {
+    "text": "infante D. Henrique",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Magrebe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "rei de Fez",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fez",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tremecém",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('el-Rei', 'PESSOA'), ('Descobrimentos', 'OBRA')]
+Espúrias  (FP): [('Rei', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pêro da Covilhã torna-se, entretanto, escudeiro da guarda real e casa com Catarina que em poucos meses engravida.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Catarina",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "em poucos meses",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pêro da Covilhã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Catarina",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('em poucos meses', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+28/Dezembro/2007 · 0:01 · 147 Comentários
+
+Entidades verdadeiras:
+[
+  {
+    "text": "28/Dezembro/2007",
+    "label": "TEMPO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "0:01",
+    "label": "TEMPO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "147",
+    "label": "VALOR",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "28/Dezembro/2007",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('0:01', 'TEMPO'), ('147', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É sempre chocante assistir à decomposição de um país. Mas, após o assassinato de Benazir Bhutto , é o que está acontecendo com o Paquistão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Benazir Bhutto",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Paquistão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Benazir Bhutto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Paquistão",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Paquistão', 'ORGANIZACAO')]
+Espúrias  (FP): [('Paquistão', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O momento é tenso. Uma revolta popular pode estourar. Agora, que faria sentido declarar Estado de Emergência | Estado de Emergência e impor a Lei Marcial , o presidente Pervez Musharraf está desautorizado. Afinal, há coisa de dois meses , aplicou um golpe contra a Suprema Corte utilizando-se justamente desta tática.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estado de Emergência",
+    "label": "OBRA",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Lei Marcial",
+    "label": "OBRA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "presidente Pervez Musharraf",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "há coisa de dois meses",
+    "label": "TEMPO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Suprema Corte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estado de Emergência",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Estado de Emergência",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Lei Marcial",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Pervez Musharraf",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Suprema Corte",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "há coisa de dois meses",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Estado de Emergência', 'OBRA'), ('Lei Marcial', 'OBRA'), ('presidente Pervez Musharraf', 'PESSOA')]
+Espúrias  (FP): [('Estado de Emergência', 'ACONTECIMENTO'), ('Estado de Emergência', 'ACONTECIMENTO'), ('Lei Marcial', 'ACONTECIMENTO'), ('Pervez Musharraf', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Será que ousaria um novo Estado de Emergência | Estado de Emergência ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estado de Emergência",
+    "label": "OBRA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estado de Emergência",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Estado de Emergência', 'OBRA')]
+Espúrias  (FP): [('Estado de Emergência', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que acontecerá não é possível prever. Eleições estão marcadas para 8 de janeiro , Bhutto era favorita. O partido mais votado do parlamento eleito fará o primeiro ministro. Num país estável, o assassinato de um dos principais candidatos a essa altura seria justificativa para suspender o pleito e realizá-lo adiante, quando o partido vitimado tivesse chances de apresentar novo candidato. Mas, se já foi um dia , o Paquistão deixou de ser um país normal, quanto mais estável. O ideal seria que eleições ocorressem. É preciso manter a mínima aparência de democracia sob o risco de que ela desapareça de vez.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "para 8 de janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Bhutto",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "a essa altura",
+    "label": "TEMPO",
+    "token_indices": [
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "um dia",
+    "label": "TEMPO",
+    "token_indices": [
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Paquistão",
+    "label": "LOCAL",
+    "token_indices": [
+      69
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "8 de janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Bhutto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Paquistão",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('para 8 de janeiro', 'TEMPO'), ('a essa altura', 'TEMPO'), ('um dia', 'TEMPO')]
+Espúrias  (FP): [('8 de janeiro', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em campanha, a ex-primeira-ministra mostrava-se particularmente agressiva contra o Talibã , o radicalismo islâmico e sua cria, a al-Qaeda , alojados ao norte. Benazir Bhutto contava com a simpatia dos EUA por conta. Não há dúvidas de que, como premiê, Bhutto forçaria o presidente Musharraf a ampliar sua ofensiva. A conversa da experiente política com o presidente afegão Hamid Karzai , o outro chefe de Estado preocupado com esta briga, faz poucos dias , é indício de qual sua prioridade no governo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Talibã",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "al-Qaeda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Benazir Bhutto",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Bhutto",
+    "label": "PESSOA",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "presidente Musharraf",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Hamid Karzai",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "chefe de Estado",
+    "label": "PESSOA",
+    "token_indices": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "faz poucos dias",
+    "label": "TEMPO",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Talibã",
+    "label": "PESSOA"
+  },
+  {
+    "text": "al-Qaeda",
+    "label": "PESSOA"
+  },
+  {
+    "text": "EUA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Benazir Bhutto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bhutto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "presidente Musharraf",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Hamid Karzai",
+    "label": "PESSOA"
+  },
+  {
+    "text": "poucos dias",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Talibã', 'ABSTRACCAO'), ('al-Qaeda', 'ORGANIZACAO'), ('chefe de Estado', 'PESSOA'), ('faz poucos dias', 'TEMPO')]
+Espúrias  (FP): [('Talibã', 'PESSOA'), ('al-Qaeda', 'PESSOA'), ('poucos dias', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A al-Qaeda às vezes assume seus atentados. Outras vezes, não. No Onze de Setembro , ficou em silêncio por mais de mês enquanto a comunidade internacional cobrava provas de seu envolvimento antes de autorizar um ataque dos EUA ao Afeganistão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "al-Qaeda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "às vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Onze de Setembro",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "por mais de mês",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "al-Qaeda",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Onze de Setembro",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "por mais de mês",
+    "label": "TEMPO"
+  },
+  {
+    "text": "EUA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('al-Qaeda', 'ORGANIZACAO'), ('às vezes', 'TEMPO'), ('EUA', 'ORGANIZACAO')]
+Espúrias  (FP): [('al-Qaeda', 'PESSOA'), ('EUA', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A al-Qaeda é um grupo saudita. A Arábia Saudita era um dos três países do mundo que reconheciam, no Afeganistão , o governo Talibã .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "al-Qaeda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Arábia Saudita",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Talibã",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Al-Qaeda",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Arábia Saudita",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Talibã",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('al-Qaeda', 'ORGANIZACAO')]
+Espúrias  (FP): [('Al-Qaeda', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A vertente de islamismo radical que impera no norte do Paquistão é profundamente semelhante à que a Arábia Saudita espalha pelo mundo. Sharif não é fundamentalista. Mas a geopolítica que o sustenta e financia é tão atada aos sauditas que um gabinete liderado por ele é marcado por uma interrogação. O que vai imperar? A Arábia Saudita interessada em regimes islâmicos como os defendidos pelos radicais? Ou a Arábia Saudita interessada em combater o terrorismo? No Paquistão , as duas opções são incompatíveis.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paquistão",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Arábia Saudita",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Sharif",
+    "label": "PESSOA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Arábia Saudita",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Arábia Saudita",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Paquistão",
+    "label": "LOCAL",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Paquistão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Arábia Saudita",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sharif",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Paquistão",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Arábia Saudita', 'ORGANIZACAO'), ('Arábia Saudita', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Enterros no Paquistão acontecem rápido. Provavelmente hoje , talvez amanhã .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paquistão",
+    "label": "LOCAL",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "amanhã",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "talvez amanhã",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Paquistão', 'LOCAL'), ('amanhã', 'TEMPO')]
+Espúrias  (FP): [('talvez amanhã', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Se demorar mais, escaparam à tradição - coisa sempre perigosa - para evitar as multidões. A multidão é incontrolável. Se o país rachar. Se houver um golpe de Estado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Se houver um golpe de Estado",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Estado', 'ORGANIZACAO')]
+Espúrias  (FP): [('Se houver um golpe de Estado', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A relação do tecno com o binômio homem-máquina, no diálogo com Jeff Mills , o legendário produtor de tecno de Detroit nos leva a impressionantes insights do impacto que a terceira onda tem causado na paisagem contemporânea. Detroit , essa "cidade portátil", virtualizada na minimalista batida de um sequenciador automático, profetiza em sua música - que já nos deu a Motown , Stooges , e MC5 - o zeitgeist deste início de milênio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jeff Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Motown",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Stooges",
+    "label": "PESSOA",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "MC5",
+    "label": "PESSOA",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "deste início de milênio",
+    "label": "TEMPO",
+    "token_indices": [
+      69,
+      70,
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jeff Mills",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Motown",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Stooges",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "MC5",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "este início de milênio",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Motown', 'ORGANIZACAO'), ('Stooges', 'PESSOA'), ('MC5', 'PESSOA'), ('deste início de milênio', 'TEMPO')]
+Espúrias  (FP): [('Motown', 'ABSTRACCAO'), ('Stooges', 'ABSTRACCAO'), ('MC5', 'ABSTRACCAO'), ('este início de milênio', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Detroit tem por longo tempo sido um lugar de referência na imaginação sônica. Com o fim da escravatura, ela se tornou, como Chicago , um das estações ferroviárias do êxodo negro na direção do norte. As ferrovias atuavam como artérias culturais, trasmitindo pessoas e formas culturais do profundo sul de New Orleans e o rural Delta do Mississipi , pelo centro-oeste e para o iluminado mundo novo urbano dos Grandes Lagos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Detroit",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "por longo tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "New Orleans",
+    "label": "LOCAL",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Delta do Mississipi",
+    "label": "LOCAL",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Grandes Lagos",
+    "label": "LOCAL",
+    "token_indices": [
+      69,
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Detroit",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL"
+  },
+  {
+    "text": "New Orleans",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mississipi",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Grandes Lagos",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('por longo tempo', 'TEMPO'), ('Delta do Mississipi', 'LOCAL')]
+Espúrias  (FP): [('Mississipi', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+No processo o som acústico do Blues do Delta | Blues do Delta foi exposto ao ruído das linhas de produção industrial, e se transmutou no boogie de trem a vapor, de chão de fábrica do Rythm'n'Blues elétrico. O Blues de Basin Street | Blues de Basin Street vira a Pegada da Cidade Motor ( Motor City Stomp ). Quando do boom dos anos sessenta , Detroit era sinônimo das esperançosas ficções-soul de três minutos da Motown , um selo cuja ética produtivista e apelo de mercado massificado foi sempre um irônico espelho da cultura da Ford e da General Motors que dominava as vidas de seu jovem público negro. O povo da Motown deu seus primeiros passos dançando nas ruas, mas, à medida que os 70 iam passando, eles foram gradualmente reduzidos a viver só para a cidade. Durante os desolados anos Reagan | Durante os desolados anos Reagan , Detroit parecia uma zona morta, um símbolo do fim da velha ordem industrial. Mas pelo começo dos noventa a decadente cidade, tendo absorvido o trauma da crise do petróleo e a recessão mundial, reinventou-se como o imaginário e sombrio coração de uma nova cultura urbana global.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Blues do Delta",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Blues",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Delta",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Rythm'n'Blues",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Blues de Basin Street",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Blues",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Basin Street",
+    "label": "LOCAL",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Pegada da Cidade Motor",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Motor City Stomp",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "dos anos sessenta",
+    "label": "TEMPO",
+    "token_indices": [
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "de três minutos",
+    "label": "TEMPO",
+    "token_indices": [
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Motown",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Ford",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "General Motors",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      99,
+      100
+    ]
+  },
+  {
+    "text": "Motown",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      113
+    ]
+  },
+  {
+    "text": "os 70",
+    "label": "TEMPO",
+    "token_indices": [
+      125,
+      126
+    ]
+  },
+  {
+    "text": "Durante os desolados anos Reagan",
+    "label": "TEMPO",
+    "token_indices": [
+      139,
+      140,
+      141,
+      142,
+      143
+    ]
+  },
+  {
+    "text": "Reagan",
+    "label": "PESSOA",
+    "token_indices": [
+      149
+    ]
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL",
+    "token_indices": [
+      151
+    ]
+  },
+  {
+    "text": "pelo começo dos noventa",
+    "label": "TEMPO",
+    "token_indices": [
+      165,
+      166,
+      167,
+      168
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Blues do Delta', 'ABSTRACCAO'), ('Blues', 'ABSTRACCAO'), ('Delta', 'LOCAL'), ("Rythm'n'Blues", 'ABSTRACCAO'), ('Blues de Basin Street', 'ABSTRACCAO'), ('Blues', 'ABSTRACCAO'), ('Basin Street', 'LOCAL'), ('Pegada da Cidade Motor', 'ABSTRACCAO'), ('Motor City Stomp', 'ABSTRACCAO'), ('dos anos sessenta', 'TEMPO'), ('Detroit', 'LOCAL'), ('de três minutos', 'TEMPO'), ('Motown', 'ORGANIZACAO'), ('Ford', 'ORGANIZACAO'), ('General Motors', 'ORGANIZACAO'), ('Motown', 'ORGANIZACAO'), ('os 70', 'TEMPO'), ('Durante os desolados anos Reagan', 'TEMPO'), ('Reagan', 'PESSOA'), ('Detroit', 'LOCAL'), ('pelo começo dos noventa', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A síntese de Detroit de grooves de trance funk e futurismo disco europeu foi realizada por um surpreendentemente pequeno círculo de produtores, que começaram seus experimentos em meados dos 80 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Detroit",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "em meados dos 80",
+    "label": "TEMPO",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Detroit",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em meados dos 80",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Detroit', 'ABSTRACCAO')]
+Espúrias  (FP): [('Detroit', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+As estórias de Cybotron , Model 500 e a transição da disco para o eletro-funk para o tecno foram muito bem contadas em outras paragens por escritores como Matthew Collin ( Altered State ) e Kodwo Eshun ( More Brilliant Than The Sun: Adventures In Sonic Fiction ). Um dos pioneiros foi Jeff Mills , que, como produtor e DJ, tem semeado o som de Durban a Tóquio , e a ele não se deveria atribuir pouca responsabilidade pelo fato de que seres urbanos de todo o mundo agora vivam numa paisagem midiática onde enxutas batidas eletrônicas servem como trilha sonora para tudo, desde idas ao shopping e suas experiências com drogas, a noites em casa em frente da tv.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cybotron",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Model 500",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Matthew Collin",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Altered State",
+    "label": "OBRA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Kodwo Eshun",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "More Brilliant Than The Sun: Adventures In Sonic Fiction",
+    "label": "OBRA",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Jeff Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Durban",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Tóquio",
+    "label": "LOCAL",
+    "token_indices": [
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cybotron",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Model 500",
+    "label": "COISA"
+  },
+  {
+    "text": "Matthew Collin",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Altered State",
+    "label": "OBRA"
+  },
+  {
+    "text": "Kodwo Eshun",
+    "label": "PESSOA"
+  },
+  {
+    "text": "More Brilliant Than The Sun: Adventures In Sonic Fiction",
+    "label": "OBRA"
+  },
+  {
+    "text": "Jeff Mills",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Durban",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tóquio",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Model 500', 'PESSOA')]
+Espúrias  (FP): [('Model 500', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mills é um homem calmo, um tipo parecido com um pássaro, com uma cara ossuda e longos dedos. Quando está na cabine ele usa três picapes, raramente tocando um vinil por mais de um minuto , e frequentemente abrindo todos os três canais ao mesmo tempo; filtrando o som, logo uma picape toca a linha de baixo, o segundo a linha do meio e o terceiro a linha principal. Seu envolvimento com as máquinas é tão intenso, tão concentrado que, como ele se lança do mixer para a picape, Mills o DJ parece evidentemente um componente de uma assemblage homem-máquina, um sistema que inclui público, PA , o aparato completo da produção de vinis, e o Stylus de cartucho, cuja sensibilidade ele aprimorou de forma que o cartucho produza um triplo zumbido raivoso e metálico. Não é surpreendente que quando Mills descreve a experiencia de fazer música num estúdio, ele está preocupado com a frustração que sente quando "a mensagem" (para Mills música é sempre "a mensagem", ou "comunicação") é perdida ou degradada na transmissão da mente para o DAT .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "raramente",
+    "label": "TEMPO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "por mais de um minuto",
+    "label": "TEMPO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "frequentemente",
+    "label": "TEMPO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "PA",
+    "label": "COISA",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "Stylus",
+    "label": "COISA",
+    "token_indices": [
+      116
+    ]
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      140
+    ]
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      161
+    ]
+  },
+  {
+    "text": "DAT",
+    "label": "COISA",
+    "token_indices": [
+      179
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA"
+  },
+  {
+    "text": "por mais de um minuto",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PA",
+    "label": "COISA"
+  },
+  {
+    "text": "Stylus",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('raramente', 'TEMPO'), ('frequentemente', 'TEMPO'), ('Mills', 'PESSOA'), ('Mills', 'PESSOA'), ('Mills', 'PESSOA'), ('DAT', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A linguagem de mensagens, comunicações e comunicados oficiais e oficiosos de Mills é parte da teologia que guia o tecno de Detroit : a estória do circuito informacional que corre do futuro para o presente, do Claro Amanhã dos cruzadores pesados drexciyanos, de OVNIs ('você provavelmente verá um voando...') e dos anéis de Saturno , diretamente de volta para as rôtas rotas de hoje .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Claro Amanhã",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "OVNIs",
+    "label": "COISA",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Saturno",
+    "label": "COISA",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "de hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      62,
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Claro Amanhã",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Saturno",
+    "label": "LOCAL"
+  },
+  {
+    "text": "de hoje",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Claro Amanhã', 'ABSTRACCAO'), ('OVNIs', 'COISA'), ('Saturno', 'COISA')]
+Espúrias  (FP): [('Claro Amanhã', 'LOCAL'), ('Saturno', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+É um circuito que canaliza energia através do corpo do produtor para seu estúdio, energia que posteriormente sai pelo PA e se distribui sobre a pista de dança. Detroit mesma é uma picape satélite, coletando e amplificando o futuro-potencial, transmitindo-o perpassando carros enferrujados nas ruas da cidade... Mills : "Para mim, [minha música é] sobre fazer as pesoas sentirem que elas estão num tempo à frente deste tempo presente. Como se você estivesse ouvindo alguém falar numa língua que você não entende, ou se encontrasse numa vizinhança desconhecida. Isso quer dizer tirar você da sua base, deixando o ouvinte desarmado."
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PA",
+    "label": "COISA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Detroit",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Detroit",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mills",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PA', 'COISA'), ('Detroit', 'ABSTRACCAO')]
+Espúrias  (FP): [('Detroit', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ao contrário de alguns outros produtores, o futuro criado por Mills não é um sonho em ficção científica de puro cromo. É um "verfremdungseffekt", a desorientação do potencial puro. O ataque das batidas de Detroit é apenas um assalto pra tirar as defesas, forçando os ouvintes a se abrirem para a mensagem.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Detroit",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mills",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Detroit",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Detroit', 'ABSTRACCAO')]
+Espúrias  (FP): [('Detroit', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quadrinhos e pop art - É neste processo de renovação da sociedade norte-americana que a pop art ganha um impulso e, de certa forma, contribui para que os quadrinhos voltem de novo a ser tratados como coisa séria. Os artistas procuravam demolir a rigidez e a seriedade das artes plásticas através de ícones da sociedade ocidental. Garrafas de Coca Cola , latas de sopa, símbolos gráficos usados em estações de metrô eram usados em associações livres que permitiam o estabelecimento de relações simbólicas e afetivas com as obras em questão. Era uma arte que se valia da repetição de signos conhecidos no intuito de buscar uma identificação com o público a que ela se destinava. A idéia era eliminar as barreiras entre as culturas erudita e popular.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Coca Cola",
+    "label": "COISA",
+    "token_indices": [
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Quadrinhos e pop art",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "pop art",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Coca Cola",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Quadrinhos e pop art', 'ABSTRACCAO'), ('pop art', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sendo assim, é compreensível que os grandes nomes da pop art utilizassem também as histórias em quadrinhos como um elemento a mais dentro de seus trabalhos. Afinal, a linguagem das HQs , um balão de texto ligado a uma imagem, possibilita a compreensão imediata da mensagem. Além do que, graficamente, eles dispunham de inúmeras referências que serviriam de parâmetro para os pintores pop. Isso pode ser visto na obra de Roy Lichtenstein e seus painéis diretamente copiados de tiras de jornal e, em menor escala, no trabalho de Andy Warhol .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Roy Lichtenstein",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Andy Warhol",
+    "label": "PESSOA",
+    "token_indices": [
+      88,
+      89
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "pop art",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "HQs",
+    "label": "COISA"
+  },
+  {
+    "text": "Roy Lichtenstein",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Andy Warhol",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('pop art', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ao levar para as galerias a estética das HQs , a pop arte fez com que os quadrinhos ganhassem de volta o respeito que haviam perdido na década de 50 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "na década de 50",
+    "label": "TEMPO",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HQs",
+    "label": "COISA"
+  },
+  {
+    "text": "pop arte",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "na década de 50",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('pop arte', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com a pop art os quadrinhos passaram a ser aceitos por uma camada mais intelectualizada da sociedade. Jules Feiffer tem suas tiras publicadas nas páginas da elitista New Yorker .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jules Feiffer",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "New Yorker",
+    "label": "COISA",
+    "token_indices": [
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jules Feiffer",
+    "label": "PESSOA"
+  },
+  {
+    "text": "New Yorker",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('New Yorker', 'COISA')]
+Espúrias  (FP): [('New Yorker', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na Europa , François Truffaut , Alain Resnais , Federico Fellini e Umberto Eco , teorizam sobre as HQs e declaram seu amor aos quadrinistas norte-americanos. Com a benção da pop art, finalmente as histórias em quadrinhos viraram coisa de gente grande.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "François Truffaut",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Alain Resnais",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Federico Fellini",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Umberto Eco",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "François Truffaut",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alain Resnais",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Federico Fellini",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Umberto Eco",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('HQs', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A quebra de valores promovida pela pop art, pela contracultura, pelos comix e pela beat generation influenciou ainda o jornalismo e a literatura. Hunter S. Thompson e Tom Wolfe criam o "new journalism" e inventam uma nova forma de narrativa, misturando a notícia a impressões pessoais e estados alterados de consciência. Se, por um lado, Thompson experimentou todos os tipos de substâncias legais e ilegais para escrever Fear & Loathing in Las Vegas , um relato de suas maluquices na capital mundial do jogo, Wolfe desenvolveu uma linguagem acelerada e dinâmica parecida com as narrativas das HQs . Inclusive com a utilização de onomatopéias:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Hunter S. Thompson",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Tom Wolfe",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Thompson",
+    "label": "PESSOA",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Fear & Loathing in Las Vegas",
+    "label": "OBRA",
+    "token_indices": [
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Wolfe",
+    "label": "PESSOA",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      96
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Hunter S. Thompson",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tom Wolfe",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fear & Loathing in Las Vegas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Las Vegas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "HQs",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Thompson', 'PESSOA'), ('Wolfe', 'PESSOA')]
+Espúrias  (FP): [('Las Vegas', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+"mesmo que alguém quebrasse a corrente e em que todos fluíam e fosse bater de encontro ao asfalto da Grande Estrada a noventa quilômetros por hora - eles possuiam isso gravado na fita - e podiam tocar muitas vezes em retardos variáveis, skakkkkkkkkkkk-akkkkkkkk-akkkkk-akkkkkeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grande Estrada",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "muitas vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grande Estrada",
+    "label": "LOCAL"
+  },
+  {
+    "text": "a noventa quilômetros por hora",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('muitas vezes', 'TEMPO')]
+Espúrias  (FP): [('a noventa quilômetros por hora', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+VOCÊ É DEUS ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DEUS",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('DEUS', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Homem home on the range, cuspindo e buzinando fonfonrofonfon aquela maldita ladainha ao microfone - Home...home...on the ra-a-a-a-a-ange..."
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Home",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "home",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "on the ra-a-a-a-a-ange",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Home', 'ABSTRACCAO'), ('home', 'ABSTRACCAO'), ('on the ra-a-a-a-a-ange', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tom Wolfe - O Teste do Ácido do Refresco Elétrico
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tom Wolfe",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tom Wolfe",
+    "label": "PESSOA"
+  },
+  {
+    "text": "O Teste do Ácido do Refresco Elétrico",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('O Teste do Ácido do Refresco Elétrico', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Essa foi a estética vigente dos primeiros textos da literatura underground norte-americana. Em livros como V , O Leilão do Lote 49 e Arco Íris da Gravidade , todos publicados no período que vai de 61 a 73 , o escritor Thomas Pynchon freqüentemente adota um modelo de narrativa semelhante ao das histórias em quadrinhos e nos diverte com aviões sendo abatidos por uma rajada de tortas de creme, sátiras ao quadrinho de herói (o personagem Homem Foguete é claramente inspirado no Capitão América ), monstros imensos que surgem do nada, ratos falantes, uma rolha assassina que persegue um casal em pleno ato sexual e personagens como nomes improváveis e absurdos ( Benny Profane , Oedipa e Mucho Maas , Pierce Inverarity , Fausto Magistral , Tyrone Slothrop , General Pudding , Pig Bodine ...). Quem também se utiliza do humor quase infantil das HQs é Kurt Vonnegut em seu manifesto anti-militarista Matadouro 5 e no experimental Timequake .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "V",
+    "label": "OBRA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "O Leilão do Lote 49",
+    "label": "OBRA",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Arco Íris da Gravidade",
+    "label": "OBRA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "no período",
+    "label": "TEMPO",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "de 61 a 73",
+    "label": "TEMPO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Thomas Pynchon",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "freqüentemente",
+    "label": "TEMPO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Homem Foguete",
+    "label": "PESSOA",
+    "token_indices": [
+      76,
+      77
+    ]
+  },
+  {
+    "text": "Capitão América",
+    "label": "PESSOA",
+    "token_indices": [
+      82,
+      83
+    ]
+  },
+  {
+    "text": "Benny Profane",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      112,
+      113
+    ]
+  },
+  {
+    "text": "Oedipa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Mucho Maas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      117,
+      118
+    ]
+  },
+  {
+    "text": "Pierce Inverarity",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      120,
+      121
+    ]
+  },
+  {
+    "text": "Fausto Magistral",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      123,
+      124
+    ]
+  },
+  {
+    "text": "Tyrone Slothrop",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      126,
+      127
+    ]
+  },
+  {
+    "text": "General Pudding",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      129,
+      130
+    ]
+  },
+  {
+    "text": "Pig Bodine",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      132,
+      133
+    ]
+  },
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      144
+    ]
+  },
+  {
+    "text": "Kurt Vonnegut",
+    "label": "PESSOA",
+    "token_indices": [
+      146,
+      147
+    ]
+  },
+  {
+    "text": "Matadouro 5",
+    "label": "OBRA",
+    "token_indices": [
+      152,
+      153
+    ]
+  },
+  {
+    "text": "Timequake",
+    "label": "OBRA",
+    "token_indices": [
+      157
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "V",
+    "label": "OBRA"
+  },
+  {
+    "text": "O Leilão do Lote 49",
+    "label": "OBRA"
+  },
+  {
+    "text": "Arco Íris da Gravidade",
+    "label": "OBRA"
+  },
+  {
+    "text": "no período que vai de 61 a 73",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Thomas Pynchon",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Homem Foguete",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Capitão América",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benny Profane",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Oedipa Maas",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('no período', 'TEMPO'), ('de 61 a 73', 'TEMPO'), ('freqüentemente', 'TEMPO'), ('Benny Profane', 'ABSTRACCAO'), ('Oedipa', 'ABSTRACCAO'), ('Mucho Maas', 'ABSTRACCAO'), ('Pierce Inverarity', 'ABSTRACCAO'), ('Fausto Magistral', 'ABSTRACCAO'), ('Tyrone Slothrop', 'ABSTRACCAO'), ('General Pudding', 'ABSTRACCAO'), ('Pig Bodine', 'ABSTRACCAO'), ('HQs', 'COISA'), ('Kurt Vonnegut', 'PESSOA'), ('Matadouro 5', 'OBRA'), ('Timequake', 'OBRA')]
+Espúrias  (FP): [('no período que vai de 61 a 73', 'TEMPO'), ('Benny Profane', 'PESSOA'), ('Oedipa Maas', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fonte: Kung Fu Lounge (http://kfl.blogspot.com/).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kung Fu Lounge",
+    "label": "LOCAL",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kung Fu Lounge",
+    "label": "LOCAL"
+  },
+  {
+    "text": "http://kfl.blogspot.com/",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('http://kfl.blogspot.com/', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Multibanco é uma marca registada propriedade da empresa SIBS . O termo é utilizado comumente para designar as caixas automáticas (as máquinas que permitem a realização de operações bancárias em regime de auto-serviço), sendo mesmo utilizados em relação a caixas automáticas de sistema outros que o controlado pela SIBS . Neste contexto, também se utiliza o termo ATM , do inglês Automatic Teller Machine .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Multibanco",
+    "label": "COISA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "SIBS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "SIBS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "ATM",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Automatic Teller Machine",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      61,
+      62,
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Multibanco",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "SIBS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ATM",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Multibanco', 'COISA'), ('SIBS', 'ORGANIZACAO'), ('Automatic Teller Machine', 'ABSTRACCAO')]
+Espúrias  (FP): [('Multibanco', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Enquanto Portugal foi um dos últimos países da Europa ocidental a instalá-las, o equipamento usado representou o que havia de mais avançado, baseado nas experiências de outros países, muitos dos quais gastam agora imenso dinheiro para substituir e actualizar máquinas obsoletas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Europa', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O número de caixas Multibanco mais do que triplicou em Portugal na última década , revela um estudo da Marktest .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Multibanco",
+    "label": "COISA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "na última década",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Marktest",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "na última década",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Marktest",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Multibanco', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em Portugal , os multibancos têm tido muito sucesso, o que levou ao aparecimento de novos serviços não bancários, como a venda de bilhetes ou o pagamento de serviços.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "multibancos",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('multibancos', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Neste momento a Rede Multibanco é uma das mais sofisticadas redes interbancárias do mundo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Neste momento",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Rede Multibanco",
+    "label": "COISA",
+    "token_indices": [
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rede Multibanco",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Neste momento', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+MINISTÉRIOS DO AMBIENTE, DO ORDENAMENTO DO TERRITÓRIO E DO DESENVOLVIMENTO REGIONAL E DA AGRICULTURA, DO DESENVOLVIMENTO RURAL E DAS PESCAS .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MINISTÉRIOS DO AMBIENTE, DO ORDENAMENTO DO TERRITÓRIO E DO DESENVOLVIMENTO REGIONAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "DA AGRICULTURA, DO DESENVOLVIMENTO RURAL E DAS PESCAS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MINISTÉRIOS DO AMBIENTE, DO ORDENAMENTO DO TERRITÓRIO E DO DESENVOLVIMENTO REGIONAL E DA AGRICULTURA, DO DESENVOLVIMENTO RURAL E DAS PESCAS",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('MINISTÉRIOS DO AMBIENTE, DO ORDENAMENTO DO TERRITÓRIO E DO DESENVOLVIMENTO REGIONAL', 'ORGANIZACAO'), ('DA AGRICULTURA, DO DESENVOLVIMENTO RURAL E DAS PESCAS', 'ORGANIZACAO')]
+Espúrias  (FP): [('MINISTÉRIOS DO AMBIENTE, DO ORDENAMENTO DO TERRITÓRIO E DO DESENVOLVIMENTO REGIONAL E DA AGRICULTURA, DO DESENVOLVIMENTO RURAL E DAS PESCAS', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Portaria n.º 1/2008 de 2 de Janeiro
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Portaria n.º 1/2008",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "de 2 de Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portaria n.º 1/2008 de 2 de Janeiro",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Portaria n.º 1/2008', 'OBRA'), ('de 2 de Janeiro', 'TEMPO')]
+Espúrias  (FP): [('Portaria n.º 1/2008 de 2 de Janeiro', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Manda o Governo , pelos Ministros do Ambiente, do Ordenamento do Território e do Desenvolvimento Regional e da Agricultura, do Desenvolvimento Rural e das Pescas , o seguinte:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Ministros do Ambiente, do Ordenamento do Território e do Desenvolvimento Regional",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "da Agricultura, do Desenvolvimento Rural e das Pescas",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministros",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ambiente",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Ordenamento do Território",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Desenvolvimento Regional",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Agricultura",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Desenvolvimento Rural",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Pescas",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Ministros do Ambiente, do Ordenamento do Território e do Desenvolvimento Regional', 'PESSOA'), ('da Agricultura, do Desenvolvimento Rural e das Pescas', 'PESSOA')]
+Espúrias  (FP): [('Ministros', 'PESSOA'), ('Ambiente', 'ABSTRACCAO'), ('Ordenamento do Território', 'ABSTRACCAO'), ('Desenvolvimento Regional', 'ABSTRACCAO'), ('Agricultura', 'ABSTRACCAO'), ('Desenvolvimento Rural', 'ABSTRACCAO'), ('Pescas', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+1.º Pela presente portaria é concessionada, pelo período de 12 anos | pelo período de 12 anos , à Associação de Caçadores da Ajuda | Associação de Caçadores da Ajuda , com o número de identificação fiscal 502302569 e sede na Rua de D. Vasco , 7, 7050 Montemor-o-Novo , a zona de caça associativa da Herdade da Casa Branca e outras ( processo n.º 4799-DGRF ), englobando vários prédios rústicos cujos limites constam da planta anexa à presente portaria e que dela faz parte integrante, sitos na freguesia de Cabrela , município de Montemor-o-Novo , com a área de 545 ha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "pelo período de 12 anos",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "12 anos",
+    "label": "VALOR",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Associação de Caçadores da Ajuda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Associação de Caçadores",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Ajuda",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Rua de D. Vasco",
+    "label": "LOCAL",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Montemor-o-Novo",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Herdade da Casa Branca",
+    "label": "LOCAL",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Cabrela",
+    "label": "LOCAL",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Montemor-o-Novo",
+    "label": "LOCAL",
+    "token_indices": [
+      94
+    ]
+  },
+  {
+    "text": "545 ha",
+    "label": "VALOR",
+    "token_indices": [
+      100,
+      101
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "pelo período de 12 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Associação de Caçadores da Ajuda",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação de Caçadores",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ajuda",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rua de D. Vasco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "7",
+    "label": "VALOR"
+  },
+  {
+    "text": "7050",
+    "label": "VALOR"
+  },
+  {
+    "text": "Montemor-o-Novo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Herdade da Casa Branca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "outras",
+    "label": "LOCAL"
+  },
+  {
+    "text": "processo n.º 4799-DGRF",
+    "label": "OBRA"
+  },
+  {
+    "text": "Cabrela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Montemor-o-Novo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('12 anos', 'VALOR'), ('545 ha', 'VALOR')]
+Espúrias  (FP): [('7', 'VALOR'), ('7050', 'VALOR'), ('outras', 'LOCAL'), ('processo n.º 4799-DGRF', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A recuperação da confiança nos mercados de capitais deverá estimular a entrada de novas empresas em bolsa, quer através de privatizações, como ANA , TAP e Aquapor , quer através de capital privado, segundo gestores de activos contactados pela Lusa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ANA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "TAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Aquapor",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Lusa",
+    "label": "PESSOA",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ANA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "TAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Aquapor",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lusa', 'PESSOA')]
+Espúrias  (FP): [('Lusa', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Santander Gestão de Activos aponta para que as novas listagens no próximo ano na Euronext Lisboa aconteçam quer através de privatizações, dando como exemplos os casos da ANA e da TAP , quer através de sociedades de capital privado como o grupo Visabeira .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Santander Gestão de Activos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Euronext Lisboa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "ANA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "TAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Visabeira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Santander Gestão de Activos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "no próximo ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Euronext Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ANA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "TAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Visabeira",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Euronext Lisboa', 'ORGANIZACAO')]
+Espúrias  (FP): [('Euronext Lisboa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+No ano que agora termina houve duas entradas na bolsa portuguesa, concretamente da REN (através da privatização de 24% do capital) e da Martifer .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "No ano",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "REN",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "24%",
+    "label": "VALOR",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Martifer",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "No ano que agora termina",
+    "label": "TEMPO"
+  },
+  {
+    "text": "REN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "24%",
+    "label": "VALOR"
+  },
+  {
+    "text": "Martifer",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('No ano', 'TEMPO')]
+Espúrias  (FP): [('No ano que agora termina', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Site Admin | Site Admin
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Site Admin",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Site Admin",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Site Admin', 'LOCAL')]
+Espúrias  (FP): [('Site Admin', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mensagens: 4
+
+Entidades verdadeiras:
+[
+  {
+    "text": "4",
+    "label": "VALOR",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('4', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Colocada: Quarta-feira Maio 04, 2005 23:36 Assunto: Como efectuar um Registo (tem vantagens)
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Quarta-feira Maio 04, 2005",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "23:36",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Quarta-feira",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Maio",
+    "label": "TEMPO"
+  },
+  {
+    "text": "04",
+    "label": "VALOR"
+  },
+  {
+    "text": "23:36",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Quarta-feira Maio 04, 2005', 'TEMPO')]
+Espúrias  (FP): [('Quarta-feira', 'TEMPO'), ('Maio', 'TEMPO'), ('04', 'VALOR')]
+

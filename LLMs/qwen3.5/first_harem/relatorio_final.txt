@@ -1,0 +1,21 @@
+=== MÉDIAS DOS 9 FOLDS ===
+Modelo : unsloth/Qwen3.5-9B
+(Fold 7 excluído — reservado para hiperparâmetros do BERT)
+Hiperparâmetros: épocas=3 | lr=0.0001 | batch=1 | grad_accum=4 | r=16 | alpha=64 | dropout=0.05
+
+  Por entidade (média dos folds):
+    ABSTRACCAO:    P=0.682  R=0.336  F1=0.444
+    ACONTECIMENTO: P=0.745  R=0.577  F1=0.647
+    COISA:         P=0.367  R=0.286  F1=0.321
+    LOCAL:         P=0.909  R=0.655  F1=0.746
+    OBRA:          P=0.648  R=0.351  F1=0.440
+    ORGANIZACAO:   P=0.816  R=0.558  F1=0.661
+    OUTRO:         P=0.000  R=0.000  F1=0.000
+    PESSOA:        P=0.914  R=0.484  F1=0.633
+    TEMPO:         P=0.902  R=0.689  F1=0.770
+    VALOR:         P=0.786  R=0.534  F1=0.634
+
+  Macro Avg : P=0.677  R=0.447  F1=0.529
+  Micro Avg : P=0.824  R=0.537  F1=0.648
+
+  Accuracy  :0.939

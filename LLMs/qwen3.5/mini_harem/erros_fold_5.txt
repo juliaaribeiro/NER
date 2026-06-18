@@ -1,0 +1,4192 @@
+--------------------------------------------------------------------------------
+Texto:
+CAPÍTULO VIII / E TEMPO Mas é tempo de tornar àquela tarde de novembro, uma tarde clara e fresca, sossegada como a nossa casa e o trecho da rua em que morávamos. Verdadeiramente foi o princípio da minha vida; tudo o que sucedera antes foi como o pintar e vestir das pessoas que tinham de entrar em cena, o acender das luzes, o preparo das rabecas, a sinfonia... Agora é que eu ia começar a minha ópera. "A vida é uma ópera", dizia-me um velho tenor italiano que aqui viveu e morreu... E explicou-me um dia a definição, em tal maneira que me fez crer nela. Talvez valha a pena dá-la; é só um Capítulo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "VIII",
+    "label": "VALOR",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Capítulo",
+    "label": "OUTRO",
+    "token_indices": [
+      114
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "VIII",
+    "label": "TEMPO"
+  },
+  {
+    "text": "novembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Capítulo",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('VIII', 'VALOR'), ('Capítulo', 'OUTRO')]
+Espúrias  (FP): [('VIII', 'TEMPO'), ('novembro', 'TEMPO'), ('Capítulo', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Prezado(a) Colega, Gostaríamos de poder contar com a sua presença no evento que será realizado nos próximos dias 18 , 19 e 20 de agosto , na sala 14 do Centro de Treinamento do BNDES : o seminário " Programa de Ensino e Pesquisa em Reforma do Estado CPDA/UFRRJ: Resultados e Reflexões ". Abaixo apresentamos o programa do evento. Contamos com a sua participação, A Coordenação SEMINÁRIO PROGRAMA DE ENSINO E PESQUISA EM REFORMA DO ESTADO CPDA/UFRRJ: RESULTADOS E REFLEXÕES 18 , 19 e 20 DE AGOSTO DE 1999 BNDES .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "18",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "19",
+    "label": "TEMPO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "20 de agosto",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "sala 14 do Centro de Treinamento do BNDES",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Programa de Ensino e Pesquisa em Reforma do Estado CPDA/UFRRJ: Resultados e Reflexões",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Coordenação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "PROGRAMA DE ENSINO E PESQUISA EM REFORMA DO ESTADO CPDA/UFRRJ: RESULTADOS E REFLEXÕES",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+    ]
+  },
+  {
+    "text": "18",
+    "label": "TEMPO",
+    "token_indices": [
+      80
+    ]
+  },
+  {
+    "text": "19",
+    "label": "TEMPO",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "20 DE AGOSTO DE 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      84,
+      85,
+      86,
+      87,
+      88
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      89
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "18",
+    "label": "TEMPO"
+  },
+  {
+    "text": "19",
+    "label": "TEMPO"
+  },
+  {
+    "text": "20 de agosto",
+    "label": "TEMPO"
+  },
+  {
+    "text": "sala 14",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Centro de Treinamento do BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Programa de Ensino e Pesquisa em Reforma do Estado CPDA/UFRRJ: Resultados e Reflexões",
+    "label": "OBRA"
+  },
+  {
+    "text": "Coordenação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "18",
+    "label": "TEMPO"
+  },
+  {
+    "text": "19",
+    "label": "TEMPO"
+  },
+  {
+    "text": "20 DE AGOSTO DE 1999",
+    "label": "TEMPO"
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('sala 14 do Centro de Treinamento do BNDES', 'LOCAL'), ('Programa de Ensino e Pesquisa em Reforma do Estado CPDA/UFRRJ: Resultados e Reflexões', 'ACONTECIMENTO'), ('PROGRAMA DE ENSINO E PESQUISA EM REFORMA DO ESTADO CPDA/UFRRJ: RESULTADOS E REFLEXÕES', 'ACONTECIMENTO')]
+Espúrias  (FP): [('sala 14', 'LOCAL'), ('Centro de Treinamento do BNDES', 'ORGANIZACAO'), ('Programa de Ensino e Pesquisa em Reforma do Estado CPDA/UFRRJ: Resultados e Reflexões', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Centro de Treinamento, sala 14 RIO DE JANEIRO Coordenação : Ana Célia Castro ( CPDA / UFRRJ ) ancastro@gbl.com.br Apoio técnico: Eugenio Maia Giglio - eamg@ie.ufrj.br A questão da Reforma do Estado - especialmente quando enfocada pelo ângulo das relações entre Estado , Economia e Sociedade - ganha renovada importância no contexto atual: buscam-se capacidades - administrativas, gerenciais, financeiras, governativas capazes de ampliar a "inteligência" dos governos nacionais nas relações com os agentes econômicos e atores políticos,tanto no que diz respeito às políticas econômicas, quanto no que concerne às políticas sociais. Esta recapacitação do Estado , vis a vis as demandas políticas de diferentes procedências, parece essencial não apenas para enfrentar a alta concorrência gerada pela globalização dos mercados e pela planetarização das redes de informação e comunicação, mas principalmente para enfrentar os processos de reestruturação produtiva, tecnológica e financeira em curso. O Seminário pretende focalizar a interface entre questões mais gerais - ordem política,processos decisórios, descentralização, novas agências de regulação, novo papel da burocracia, instâncias alternativas de formulação de políticas, poder judiciário e poder local - e suas implicações sobre as políticas econômicas e sociais, especialmente na sua interface com as políticas agrícolas, agrárias e agroindustriais, e sobre a sociedade que se move no âmbito urbano-rural. O " Seminário Programa de Ensino e Pesquisa em Reforma do Estado do CPDA/UFRRJ: Resultados e Reflexões " tem, em suma, como objetivos apresentar resultados finais das pesquisas financiadas pela CAPES / MARE / CNPq / FINEP e aproveitar a reflexão resultante do esforço realizado para aprofundar a análise das relações entre processos econômicos e sociais e os recursos políticos disponíveis para fazer face às necessárias transformações pelas quais passa o Estado brasileiro hoje.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Centro de Treinamento, sala 14 RIO DE JANEIRO",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Coordenação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Ana Célia Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Eugenio Maia Giglio",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Reforma do Estado",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Economia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Sociedade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      94
+    ]
+  },
+  {
+    "text": "Seminário",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      143
+    ]
+  },
+  {
+    "text": "Seminário Programa de Ensino e Pesquisa em Reforma do Estado do CPDA/UFRRJ: Resultados e Reflexões",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223
+    ]
+  },
+  {
+    "text": "CAPES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      237
+    ]
+  },
+  {
+    "text": "MARE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      239
+    ]
+  },
+  {
+    "text": "CNPq",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      241
+    ]
+  },
+  {
+    "text": "FINEP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      243
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      278
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Centro de Treinamento, sala 14 RIO DE JANEIRO', 'LOCAL'), ('Coordenação', 'ORGANIZACAO'), ('Ana Célia Castro', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Eugenio Maia Giglio', 'PESSOA'), ('Reforma do Estado', 'ABSTRACCAO'), ('Estado', 'ABSTRACCAO'), ('Economia', 'ABSTRACCAO'), ('Sociedade', 'ABSTRACCAO'), ('Estado', 'ORGANIZACAO'), ('Seminário', 'ACONTECIMENTO'), ('Seminário Programa de Ensino e Pesquisa em Reforma do Estado do CPDA/UFRRJ: Resultados e Reflexões', 'ACONTECIMENTO'), ('CAPES', 'ORGANIZACAO'), ('MARE', 'ORGANIZACAO'), ('CNPq', 'ORGANIZACAO'), ('FINEP', 'ORGANIZACAO'), ('Estado', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PROGRAMA: Dia 18 de agosto de 1999 Manhã: 9:30 - 12:30 hs 9:30 - ABERTURA Reitor da UFRRJ - José Antonio da Veiga Diretor Científico da FAPERJ - Luis Manoel Fernandes Primeira Sessão: Relações Estado, Economia e Sociedade: Questões a partir da Reforma do Estado Coordenador : Ana Célia Castro Descentralização, Arenas Decisórias e Ordem Política Lourdes Sola e Eduardo Kugelmas Depart.Ciência Política/USP Poder Local Moacir Palmeira Programa de Pós-graduação em Antropologia Social , Museu Nacional , UFRJ Intervalo Debatedores : Luis Manoel Fernandes UFF e IRI / PUC Renato Lessa Iuperj Debates Tarde: 14 hs às 17:30 hs Coordenador : Renato Sérgio Jamil Maluf CPDA , UFRRJ Reforma do Estado: Processos Decisórios, Instituições e Grupos de interesse Maria Lúcia T+ Werneck Vianna - Instituto de Economia , UFRJ Estado e Burocracia - Uma Perspectiva Weber-Schumpeteriana Leonardo Burlamaqui UERJ e Universidade Cândido Mendes Intervalo A Sociologia Política das Novas Formas de Acesso ao Poder Judiciário no Brasil: a Judicialização da Política e a Jurisdicização das Relações Sociais Luiz Werneck Vianna IUPERJ e CPDA / UFRRJ Debatedores : Zairo Cheibub Núcleo de pesquisa e informação , UFF François D'Arcy Science Politique , Grenoble Debates Dia 19 de agosto de 1999 Manhã: 9:00 - 12:30 hs Segunda sessão: Estado e Políticas Econômicas e Sociais Coordenador : Nelson Siffert BNDES Condicionantes Externos à Reforma do Estado no Brasil: O GATT e o Acordo Agrícola da Rodada Uruguai Nelson Giordano Delgado CPDA / UFRRJ A Sustentabilidade do Sistema Agroalimentar: "Brasil em Ação" e Reforma do Estado Peter Herman May CPDA / UFRRJ Estratégias Empresariais no Agribusiness e o Programa Brasil em Ação Ana Célia Castro CPDA / UFRRJ Competitividade e Reorganização do Sistema Agroalimentar do Brasil e do Mercosul: A Cadeia de Lácteos no Contexto da Reforma do Estado John Wilkinson CPDA / UFRRJ Debatedores : Sérgio Salles Instituto de Geociências , Unicamp , sallesfi@ige.unicamp.br Lena Lavinas IPPUR - IPEA , lavinas@ipea.gov.br Debates Tarde: 14 hs às 17:30 hs Coordenador : Wessel Eykman CPDA / UFRRJ Reforma do Estado, modernização institucional e descentralização da política agrária no Brasil Sérgio Leite CPDA / UFRRJ Reestruturação Institucional e Reforma do Sistema de Transportes no Brasil: Um Estudo sobre Custos de Transação Maria da Graça Derengowski Fonseca IE / UFRJ Elites Agroindustriais : Estado, Competitividade e Representação de Interesse Regina Bruno CPDA / UFRRJ Reforma agrária, instituições, políticas e atores: o papel dos trabalhadores rurais Leonilde Sérvolo de Medeiros CPDA / UFRRJ Debatedores : Regina Novaes IFCH / UFRRJ Vicente de Palermo Instituto Torcuato Di Tella - Conicet ( Buenos Aires ) Cristina Possas ENSP / Fiocruz Debates Dia 20 de agosto de 1999 Manhã: 9:00 - 12:30 hs Terceira Sessão: Estado, Sociedade e Agricultura - Impactos, Questões e Perspectivas Coordenador : Ana Célia Castro CPDA / UFRJ Determinantes Econômicos da Aprovação das Reformas Inês Patrício IUPERJ e UFF Segurança Alimentar como um Princípio Orientador de Políticas Públicas: Conexões e Implicações para a Reforma do Estado no Brasil Lavínia Davis Rangel Pessanha DLCS / UFRRJ Assentamentos Rurais: mediadores sociais, ação coletiva e Sustentabilidade José Ambrósio Ferreira Neto UFV Reforma do Estado, Democracia Participativa e Desenvolvimento Local Fernando Marcelo de la Cuadra CPDA / UFRRJ A Relação Estado-Empresas no Processo de Formulação de Políticas Públicas no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "18 de agosto de 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "9:30",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "12:30 hs",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "9:30",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Reitor da UFRRJ",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "José Antonio da Veiga",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Diretor Científico da FAPERJ",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Luis Manoel Fernandes",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Relações Estado, Economia e Sociedade: Questões a partir da Reforma do Estado",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Coordenador",
+    "label": "PESSOA",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Ana Célia Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Descentralização, Arenas Decisórias e Ordem Política",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Lourdes Sola",
+    "label": "PESSOA",
+    "token_indices": [
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Eduardo Kugelmas",
+    "label": "PESSOA",
+    "token_indices": [
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Depart.Ciência Política/USP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Poder Local",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Moacir Palmeira",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Antropologia Social",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Museu Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      74,
+      75
+    ]
+  },
+  {
+    "text": "UFRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Debatedores",
+    "label": "PESSOA",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Luis Manoel Fernandes",
+    "label": "PESSOA",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "UFF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "IRI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "PUC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "Renato Lessa",
+    "label": "PESSOA",
+    "token_indices": [
+      89,
+      90
+    ]
+  },
+  {
+    "text": "Iuperj",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "14 hs",
+    "label": "TEMPO",
+    "token_indices": [
+      94,
+      95
+    ]
+  },
+  {
+    "text": "17:30 hs",
+    "label": "TEMPO",
+    "token_indices": [
+      97,
+      98
+    ]
+  },
+  {
+    "text": "Coordenador",
+    "label": "PESSOA",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Renato Sérgio Jamil Maluf",
+    "label": "PESSOA",
+    "token_indices": [
+      101,
+      102,
+      103,
+      104
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      107
+    ]
+  },
+  {
+    "text": "Reforma do Estado: Processos Decisórios, Instituições e Grupos de interesse",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+    ]
+  },
+  {
+    "text": "Maria Lúcia T+ Werneck Vianna",
+    "label": "PESSOA",
+    "token_indices": [
+      118,
+      119,
+      120,
+      121,
+      122
+    ]
+  },
+  {
+    "text": "Instituto de Economia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      124,
+      125,
+      126
+    ]
+  },
+  {
+    "text": "UFRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      128
+    ]
+  },
+  {
+    "text": "Estado e Burocracia - Uma Perspectiva Weber-Schumpeteriana",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135
+    ]
+  },
+  {
+    "text": "Leonardo Burlamaqui",
+    "label": "PESSOA",
+    "token_indices": [
+      136,
+      137
+    ]
+  },
+  {
+    "text": "UERJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      138
+    ]
+  },
+  {
+    "text": "Universidade Cândido Mendes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      140,
+      141,
+      142
+    ]
+  },
+  {
+    "text": "A Sociologia Política das Novas Formas de Acesso ao Poder Judiciário no Brasil: a Judicialização da Política e a Jurisdicização das Relações Sociais",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166
+    ]
+  },
+  {
+    "text": "Luiz Werneck Vianna",
+    "label": "PESSOA",
+    "token_indices": [
+      167,
+      168,
+      169
+    ]
+  },
+  {
+    "text": "IUPERJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      170
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      172
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      174
+    ]
+  },
+  {
+    "text": "Debatedores",
+    "label": "PESSOA",
+    "token_indices": [
+      175
+    ]
+  },
+  {
+    "text": "Zairo Cheibub",
+    "label": "PESSOA",
+    "token_indices": [
+      177,
+      178
+    ]
+  },
+  {
+    "text": "Núcleo de pesquisa e informação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      179,
+      180,
+      181,
+      182,
+      183
+    ]
+  },
+  {
+    "text": "UFF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      185
+    ]
+  },
+  {
+    "text": "François D'Arcy",
+    "label": "PESSOA",
+    "token_indices": [
+      186,
+      187
+    ]
+  },
+  {
+    "text": "Science Politique",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      188,
+      189
+    ]
+  },
+  {
+    "text": "Grenoble",
+    "label": "LOCAL",
+    "token_indices": [
+      191
+    ]
+  },
+  {
+    "text": "19 de agosto de 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      194,
+      195,
+      196,
+      197,
+      198
+    ]
+  },
+  {
+    "text": "9:00",
+    "label": "TEMPO",
+    "token_indices": [
+      200
+    ]
+  },
+  {
+    "text": "12:30 hs",
+    "label": "TEMPO",
+    "token_indices": [
+      202,
+      203
+    ]
+  },
+  {
+    "text": "Estado e Políticas Econômicas e Sociais",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      206,
+      207,
+      208,
+      209,
+      210,
+      211
+    ]
+  },
+  {
+    "text": "Coordenador",
+    "label": "PESSOA",
+    "token_indices": [
+      212
+    ]
+  },
+  {
+    "text": "Nelson Siffert",
+    "label": "PESSOA",
+    "token_indices": [
+      214,
+      215
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      216
+    ]
+  },
+  {
+    "text": "Condicionantes Externos à Reforma do Estado no Brasil: O GATT e o Acordo Agrícola da Rodada Uruguai",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233
+    ]
+  },
+  {
+    "text": "Nelson Giordano Delgado",
+    "label": "PESSOA",
+    "token_indices": [
+      234,
+      235,
+      236
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      237
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      239
+    ]
+  },
+  {
+    "text": "A Sustentabilidade do Sistema Agroalimentar: \"Brasil em Ação\" e Reforma do Estado",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251
+    ]
+  },
+  {
+    "text": "Peter Herman May",
+    "label": "PESSOA",
+    "token_indices": [
+      252,
+      253,
+      254
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      255
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      257
+    ]
+  },
+  {
+    "text": "Estratégias Empresariais no Agribusiness e o Programa Brasil em Ação",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267
+    ]
+  },
+  {
+    "text": "Ana Célia Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      268,
+      269,
+      270
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      271
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      273
+    ]
+  },
+  {
+    "text": "Competitividade e Reorganização do Sistema Agroalimentar do Brasil e do Mercosul: A Cadeia de Lácteos no Contexto da Reforma do Estado",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294
+    ]
+  },
+  {
+    "text": "John Wilkinson",
+    "label": "PESSOA",
+    "token_indices": [
+      295,
+      296
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      297
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      299
+    ]
+  },
+  {
+    "text": "Debatedores",
+    "label": "PESSOA",
+    "token_indices": [
+      300
+    ]
+  },
+  {
+    "text": "Sérgio Salles",
+    "label": "PESSOA",
+    "token_indices": [
+      302,
+      303
+    ]
+  },
+  {
+    "text": "Instituto de Geociências",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      304,
+      305,
+      306
+    ]
+  },
+  {
+    "text": "Unicamp",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      308
+    ]
+  },
+  {
+    "text": "Lena Lavinas",
+    "label": "PESSOA",
+    "token_indices": [
+      311,
+      312
+    ]
+  },
+  {
+    "text": "IPPUR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      313
+    ]
+  },
+  {
+    "text": "IPEA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      315
+    ]
+  },
+  {
+    "text": "14 hs",
+    "label": "TEMPO",
+    "token_indices": [
+      320,
+      321
+    ]
+  },
+  {
+    "text": "17:30 hs",
+    "label": "TEMPO",
+    "token_indices": [
+      323,
+      324
+    ]
+  },
+  {
+    "text": "Coordenador",
+    "label": "PESSOA",
+    "token_indices": [
+      325
+    ]
+  },
+  {
+    "text": "Wessel Eykman",
+    "label": "PESSOA",
+    "token_indices": [
+      327,
+      328
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      329
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      331
+    ]
+  },
+  {
+    "text": "Reforma do Estado, modernização institucional e descentralização da política agrária no Brasil",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343
+    ]
+  },
+  {
+    "text": "Sérgio Leite",
+    "label": "PESSOA",
+    "token_indices": [
+      344,
+      345
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      346
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      348
+    ]
+  },
+  {
+    "text": "Reestruturação Institucional e Reforma do Sistema de Transportes no Brasil: Um Estudo sobre Custos de Transação",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364
+    ]
+  },
+  {
+    "text": "Maria da Graça Derengowski Fonseca",
+    "label": "PESSOA",
+    "token_indices": [
+      365,
+      366,
+      367,
+      368,
+      369
+    ]
+  },
+  {
+    "text": "IE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      370
+    ]
+  },
+  {
+    "text": "UFRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      372
+    ]
+  },
+  {
+    "text": "Elites Agroindustriais : Estado, Competitividade e Representação de Interesse",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381
+    ]
+  },
+  {
+    "text": "Regina Bruno",
+    "label": "PESSOA",
+    "token_indices": [
+      382,
+      383
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      384
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      386
+    ]
+  },
+  {
+    "text": "Reforma agrária, instituições, políticas e atores: o papel dos trabalhadores rurais",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397
+    ]
+  },
+  {
+    "text": "Leonilde Sérvolo de Medeiros",
+    "label": "PESSOA",
+    "token_indices": [
+      398,
+      399,
+      400,
+      401
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      402
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      404
+    ]
+  },
+  {
+    "text": "Debatedores",
+    "label": "PESSOA",
+    "token_indices": [
+      405
+    ]
+  },
+  {
+    "text": "Regina Novaes",
+    "label": "PESSOA",
+    "token_indices": [
+      407,
+      408
+    ]
+  },
+  {
+    "text": "IFCH",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      409
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      411
+    ]
+  },
+  {
+    "text": "Vicente de Palermo",
+    "label": "PESSOA",
+    "token_indices": [
+      412,
+      413,
+      414
+    ]
+  },
+  {
+    "text": "Instituto Torcuato Di Tella - Conicet",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      415,
+      416,
+      417,
+      418,
+      419,
+      420
+    ]
+  },
+  {
+    "text": "Buenos Aires",
+    "label": "LOCAL",
+    "token_indices": [
+      422,
+      423
+    ]
+  },
+  {
+    "text": "Cristina Possas",
+    "label": "PESSOA",
+    "token_indices": [
+      425,
+      426
+    ]
+  },
+  {
+    "text": "ENSP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      427
+    ]
+  },
+  {
+    "text": "Fiocruz",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      429
+    ]
+  },
+  {
+    "text": "20 de agosto de 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      432,
+      433,
+      434,
+      435,
+      436
+    ]
+  },
+  {
+    "text": "9:00",
+    "label": "TEMPO",
+    "token_indices": [
+      438
+    ]
+  },
+  {
+    "text": "12:30 hs",
+    "label": "TEMPO",
+    "token_indices": [
+      440,
+      441
+    ]
+  },
+  {
+    "text": "Estado, Sociedade e Agricultura - Impactos, Questões e Perspectivas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452
+    ]
+  },
+  {
+    "text": "Coordenador",
+    "label": "PESSOA",
+    "token_indices": [
+      453
+    ]
+  },
+  {
+    "text": "Ana Célia Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      455,
+      456,
+      457
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      458
+    ]
+  },
+  {
+    "text": "UFRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      460
+    ]
+  },
+  {
+    "text": "Determinantes Econômicos da Aprovação das Reformas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      461,
+      462,
+      463,
+      464,
+      465,
+      466
+    ]
+  },
+  {
+    "text": "Inês Patrício",
+    "label": "PESSOA",
+    "token_indices": [
+      467,
+      468
+    ]
+  },
+  {
+    "text": "IUPERJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      469
+    ]
+  },
+  {
+    "text": "UFF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      471
+    ]
+  },
+  {
+    "text": "Segurança Alimentar como um Princípio Orientador de Políticas Públicas: Conexões e Implicações para a Reforma do Estado no Brasil",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490
+    ]
+  },
+  {
+    "text": "Lavínia Davis Rangel Pessanha",
+    "label": "PESSOA",
+    "token_indices": [
+      491,
+      492,
+      493,
+      494
+    ]
+  },
+  {
+    "text": "DLCS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      495
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      497
+    ]
+  },
+  {
+    "text": "Assentamentos Rurais: mediadores sociais, ação coletiva e Sustentabilidade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      498,
+      499,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505
+    ]
+  },
+  {
+    "text": "José Ambrósio Ferreira Neto",
+    "label": "PESSOA",
+    "token_indices": [
+      506,
+      507,
+      508,
+      509
+    ]
+  },
+  {
+    "text": "UFV",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      510
+    ]
+  },
+  {
+    "text": "Reforma do Estado, Democracia Participativa e Desenvolvimento Local",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518
+    ]
+  },
+  {
+    "text": "Fernando Marcelo de la Cuadra",
+    "label": "PESSOA",
+    "token_indices": [
+      519,
+      520,
+      521,
+      522,
+      523
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      524
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      526
+    ]
+  },
+  {
+    "text": "A Relação Estado-Empresas no Processo de Formulação de Políticas Públicas no Brasil",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      527,
+      528,
+      529,
+      530,
+      531,
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      538
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('18 de agosto de 1999', 'TEMPO'), ('9:30', 'TEMPO'), ('12:30 hs', 'TEMPO'), ('9:30', 'TEMPO'), ('Reitor da UFRRJ', 'PESSOA'), ('José Antonio da Veiga', 'PESSOA'), ('Diretor Científico da FAPERJ', 'PESSOA'), ('Luis Manoel Fernandes', 'PESSOA'), ('Relações Estado, Economia e Sociedade: Questões a partir da Reforma do Estado', 'ABSTRACCAO'), ('Coordenador', 'PESSOA'), ('Ana Célia Castro', 'PESSOA'), ('Descentralização, Arenas Decisórias e Ordem Política', 'ABSTRACCAO'), ('Lourdes Sola', 'PESSOA'), ('Eduardo Kugelmas', 'PESSOA'), ('Depart.Ciência Política/USP', 'ORGANIZACAO'), ('Poder Local', 'ABSTRACCAO'), ('Moacir Palmeira', 'PESSOA'), ('Antropologia Social', 'ABSTRACCAO'), ('Museu Nacional', 'ORGANIZACAO'), ('UFRJ', 'ORGANIZACAO'), ('Debatedores', 'PESSOA'), ('Luis Manoel Fernandes', 'PESSOA'), ('UFF', 'ORGANIZACAO'), ('IRI', 'ORGANIZACAO'), ('PUC', 'ORGANIZACAO'), ('Renato Lessa', 'PESSOA'), ('Iuperj', 'ORGANIZACAO'), ('14 hs', 'TEMPO'), ('17:30 hs', 'TEMPO'), ('Coordenador', 'PESSOA'), ('Renato Sérgio Jamil Maluf', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Reforma do Estado: Processos Decisórios, Instituições e Grupos de interesse', 'ABSTRACCAO'), ('Maria Lúcia T+ Werneck Vianna', 'PESSOA'), ('Instituto de Economia', 'ORGANIZACAO'), ('UFRJ', 'ORGANIZACAO'), ('Estado e Burocracia - Uma Perspectiva Weber-Schumpeteriana', 'ABSTRACCAO'), ('Leonardo Burlamaqui', 'PESSOA'), ('UERJ', 'ORGANIZACAO'), ('Universidade Cândido Mendes', 'ORGANIZACAO'), ('A Sociologia Política das Novas Formas de Acesso ao Poder Judiciário no Brasil: a Judicialização da Política e a Jurisdicização das Relações Sociais', 'ABSTRACCAO'), ('Luiz Werneck Vianna', 'PESSOA'), ('IUPERJ', 'ORGANIZACAO'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Debatedores', 'PESSOA'), ('Zairo Cheibub', 'PESSOA'), ('Núcleo de pesquisa e informação', 'ORGANIZACAO'), ('UFF', 'ORGANIZACAO'), ("François D'Arcy", 'PESSOA'), ('Science Politique', 'ABSTRACCAO'), ('Grenoble', 'LOCAL'), ('19 de agosto de 1999', 'TEMPO'), ('9:00', 'TEMPO'), ('12:30 hs', 'TEMPO'), ('Estado e Políticas Econômicas e Sociais', 'ABSTRACCAO'), ('Coordenador', 'PESSOA'), ('Nelson Siffert', 'PESSOA'), ('BNDES', 'ORGANIZACAO'), ('Condicionantes Externos à Reforma do Estado no Brasil: O GATT e o Acordo Agrícola da Rodada Uruguai', 'ABSTRACCAO'), ('Nelson Giordano Delgado', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('A Sustentabilidade do Sistema Agroalimentar: "Brasil em Ação" e Reforma do Estado', 'ABSTRACCAO'), ('Peter Herman May', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Estratégias Empresariais no Agribusiness e o Programa Brasil em Ação', 'ABSTRACCAO'), ('Ana Célia Castro', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Competitividade e Reorganização do Sistema Agroalimentar do Brasil e do Mercosul: A Cadeia de Lácteos no Contexto da Reforma do Estado', 'ABSTRACCAO'), ('John Wilkinson', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Debatedores', 'PESSOA'), ('Sérgio Salles', 'PESSOA'), ('Instituto de Geociências', 'ORGANIZACAO'), ('Unicamp', 'ORGANIZACAO'), ('Lena Lavinas', 'PESSOA'), ('IPPUR', 'ORGANIZACAO'), ('IPEA', 'ORGANIZACAO'), ('14 hs', 'TEMPO'), ('17:30 hs', 'TEMPO'), ('Coordenador', 'PESSOA'), ('Wessel Eykman', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Reforma do Estado, modernização institucional e descentralização da política agrária no Brasil', 'ABSTRACCAO'), ('Sérgio Leite', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Reestruturação Institucional e Reforma do Sistema de Transportes no Brasil: Um Estudo sobre Custos de Transação', 'ABSTRACCAO'), ('Maria da Graça Derengowski Fonseca', 'PESSOA'), ('IE', 'ORGANIZACAO'), ('UFRJ', 'ORGANIZACAO'), ('Elites Agroindustriais : Estado, Competitividade e Representação de Interesse', 'ABSTRACCAO'), ('Regina Bruno', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Reforma agrária, instituições, políticas e atores: o papel dos trabalhadores rurais', 'ABSTRACCAO'), ('Leonilde Sérvolo de Medeiros', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Debatedores', 'PESSOA'), ('Regina Novaes', 'PESSOA'), ('IFCH', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Vicente de Palermo', 'PESSOA'), ('Instituto Torcuato Di Tella - Conicet', 'ORGANIZACAO'), ('Buenos Aires', 'LOCAL'), ('Cristina Possas', 'PESSOA'), ('ENSP', 'ORGANIZACAO'), ('Fiocruz', 'ORGANIZACAO'), ('20 de agosto de 1999', 'TEMPO'), ('9:00', 'TEMPO'), ('12:30 hs', 'TEMPO'), ('Estado, Sociedade e Agricultura - Impactos, Questões e Perspectivas', 'ABSTRACCAO'), ('Coordenador', 'PESSOA'), ('Ana Célia Castro', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRJ', 'ORGANIZACAO'), ('Determinantes Econômicos da Aprovação das Reformas', 'ABSTRACCAO'), ('Inês Patrício', 'PESSOA'), ('IUPERJ', 'ORGANIZACAO'), ('UFF', 'ORGANIZACAO'), ('Segurança Alimentar como um Princípio Orientador de Políticas Públicas: Conexões e Implicações para a Reforma do Estado no Brasil', 'ABSTRACCAO'), ('Lavínia Davis Rangel Pessanha', 'PESSOA'), ('DLCS', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Assentamentos Rurais: mediadores sociais, ação coletiva e Sustentabilidade', 'ABSTRACCAO'), ('José Ambrósio Ferreira Neto', 'PESSOA'), ('UFV', 'ORGANIZACAO'), ('Reforma do Estado, Democracia Participativa e Desenvolvimento Local', 'ABSTRACCAO'), ('Fernando Marcelo de la Cuadra', 'PESSOA'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('A Relação Estado-Empresas no Processo de Formulação de Políticas Públicas no Brasil', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Caso do Setor de Papel e Celulose Valéria G+ da Vinha IE / UFRJ - CPDA / UFRRJ Tons do verde no Brasil: subordinação da política florestal à lógica da plantation Múcio Tosta Gonçalves PUC / MG Alternativas para a Agricultura Familiar Rural e as Perspectivas do Associativismo/Cooperativismo - o que se pode apreender da experiência do município de Itapurange, estado de Goiás Vera Lúcia Lunardi SPTA CPDA / UFRRJ Av. Presidente Vargas , 417/ 6º andar 20071-003 - Centro - Rio de Janeiro Tel: (021) 224 85 77 R: 200
+
+Entidades verdadeiras:
+[
+  {
+    "text": "O Caso do Setor de Papel e Celulose",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Valéria G+ da Vinha",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "IE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "UFRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Tons do verde no Brasil: subordinação da política florestal à lógica da plantation",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Múcio Tosta Gonçalves",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "PUC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "MG",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Alternativas para a Agricultura Familiar Rural e as Perspectivas do Associativismo/Cooperativismo - o que se pode apreender da experiência do município de Itapurange, estado de Goiás",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Vera Lúcia Lunardi",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "SPTA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "CPDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "UFRRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Av. Presidente Vargas",
+    "label": "LOCAL",
+    "token_indices": [
+      71,
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "text": "200",
+    "label": "VALOR",
+    "token_indices": [
+      91
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('O Caso do Setor de Papel e Celulose', 'ABSTRACCAO'), ('Valéria G+ da Vinha', 'PESSOA'), ('IE', 'ORGANIZACAO'), ('UFRJ', 'ORGANIZACAO'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Tons do verde no Brasil: subordinação da política florestal à lógica da plantation', 'ABSTRACCAO'), ('Múcio Tosta Gonçalves', 'PESSOA'), ('PUC', 'ORGANIZACAO'), ('MG', 'LOCAL'), ('Alternativas para a Agricultura Familiar Rural e as Perspectivas do Associativismo/Cooperativismo - o que se pode apreender da experiência do município de Itapurange, estado de Goiás', 'ABSTRACCAO'), ('Vera Lúcia Lunardi', 'PESSOA'), ('SPTA', 'ORGANIZACAO'), ('CPDA', 'ORGANIZACAO'), ('UFRRJ', 'ORGANIZACAO'), ('Av. Presidente Vargas', 'LOCAL'), ('Rio de Janeiro', 'LOCAL'), ('200', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dias Gomes reescreverá « Irmãos Coragem » A novela que Janete Clair assinou entre junho de 70 e julho de 71 ganhará nova versão na Globo em 95 O baiano Dias Gomes , 70 , está se preparando para ressuscitar um clássico da teledramaturgia brasileira. Semana que vem, começa a reescrever « Irmãos Coragem », novela de Janete Clair que a Globo exibiu com enorme sucesso entre junho de 70 e julho de 71 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dias Gomes",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Irmãos Coragem",
+    "label": "OBRA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Janete Clair",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "junho de 70",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "julho de 71",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Globo",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "95",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Dias Gomes",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "70",
+    "label": "VALOR",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Irmãos Coragem",
+    "label": "OBRA",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Janete Clair",
+    "label": "PESSOA",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Globo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "junho de 70",
+    "label": "TEMPO",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "julho de 71",
+    "label": "TEMPO",
+    "token_indices": [
+      71,
+      72,
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Dias Gomes', 'PESSOA'), ('Irmãos Coragem', 'OBRA'), ('Janete Clair', 'PESSOA'), ('junho de 70', 'TEMPO'), ('julho de 71', 'TEMPO'), ('Globo', 'LOCAL'), ('95', 'TEMPO'), ('Dias Gomes', 'PESSOA'), ('70', 'VALOR'), ('Irmãos Coragem', 'OBRA'), ('Janete Clair', 'PESSOA'), ('Globo', 'ORGANIZACAO'), ('junho de 70', 'TEMPO'), ('julho de 71', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A emissora pretende lançar o «remake» em janeiro de 95 , às 18h , no lugar de « Tropicaliente ». TUDO PELO CLIENTE No centro de todos esses nossos esforços de qualidade está o nosso cliente. É tudo pelo cliente. A principal meta da melhoria da qualidade da Degussa no Brasil é a satisfação total do cliente. É o cliente quem define os requisitos que teremos de cumprir e, até mesmo, superar, praticando qualidade em sua plenitude e obtendo, assim, seus benefícios, que são competitividade, lucratividade e satisfação. Entendemos que palavras como respeito, atenção e ética, incluindo a eficiência na prestação dos serviços, devem mais do que nunca, nortear nossa conduta nas relações com nossos clientes.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "janeiro de 95",
+    "label": "TEMPO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "18h",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Tropicaliente",
+    "label": "OBRA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Degussa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "95",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Degussa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('janeiro de 95', 'TEMPO'), ('18h', 'TEMPO'), ('Tropicaliente', 'OBRA'), ('Brasil', 'LOCAL')]
+Espúrias  (FP): [('95', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+«Nós não vamos acreditar que um povo tão culto como o da Guanabara possa ter problemas como andam dizendo por aí», afirmou, referindo-se à população do antigo Estado da Guanabara , que desapareceu na fusão com o Estado do Rio de Janeiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Guanabara",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Estado da Guanabara",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Estado do Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Guanabara",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Guanabara",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estado da Guanabara",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estado do Rio de Janeiro",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Guanabara', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um, o convencional, é o que o Plano Real contempla e tem como instrumentos essenciais a importação à taxa cambial fixa e baixa e quase sem tarifa aduaneira de mercadorias, tornando impossível pela competição os produtores e comerciantes brasileiros aumentarem seus preços; e a redução da demanda por bens de consumo e de investimento, mediante juros altos e corte do gasto público, impedindo as remarcações de preços pelo excesso de oferta suscitado. O outro, heterodoxo e inconvencional, consiste em controlar as pressões inflacionárias em sua origem, nas cadeias produtivas, mediante a fixação negociada entre todos os setores participantes de tetos para os aumentos de valores, sejam estes preços ou salários. A agitação ontem foi grande também na Bolsa de Mercadorias com frequentes boatos de dificuldades de instituições financeiras em cumprirem seus compromissos no mercado futuro do índice Bovespa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Plano Real",
+    "label": "OBRA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Bolsa de Mercadorias",
+    "label": "LOCAL",
+    "token_indices": [
+      117,
+      118,
+      119
+    ]
+  },
+  {
+    "text": "Bovespa",
+    "label": "COISA",
+    "token_indices": [
+      137
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Plano Real', 'OBRA'), ('Bolsa de Mercadorias', 'LOCAL'), ('Bovespa', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+0 Instituto das Apóstolas do Sagrado Coração de Jesus recebe autorização para o funcionamento da Faculdade de Filosofia, Ciências e Letras do Sagrado Coração de Jesus , através do Decreto nº 34.291/53 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Instituto das Apóstolas do Sagrado Coração de Jesus",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Faculdade de Filosofia, Ciências e Letras do Sagrado Coração de Jesus",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Decreto nº 34.291/53",
+    "label": "OBRA",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Instituto das Apóstolas do Sagrado Coração de Jesus",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Faculdade de Filosofia, Ciências e Letras do Sagrado Coração de Jesus",
+    "label": "OBRA"
+  },
+  {
+    "text": "Decreto nº 34.291/53",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Faculdade de Filosofia, Ciências e Letras do Sagrado Coração de Jesus', 'ORGANIZACAO')]
+Espúrias  (FP): [('Faculdade de Filosofia, Ciências e Letras do Sagrado Coração de Jesus', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A primeira aula é proferida em 7 de março do mesmo ano, sendo a Faculdade reconhecida antes da formatura de sua primeira turma, em 1956 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "7 de março",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Faculdade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "1956",
+    "label": "TEMPO",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "7 de março",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1956",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Faculdade', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dez anos |Dez anos após a instalação da Faculdade de Filosofia , o Instituto das Apóstolas ; consegue transformar o antigo Conservatório Musical Pio XII em Faculdade de Música .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dez anos",
+    "label": "VALOR",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Faculdade de Filosofia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Instituto das Apóstolas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Conservatório Musical Pio XII",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Faculdade de Música",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Dez anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dez anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Faculdade de Filosofia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Instituto das Apóstolas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conservatório Musical Pio XII",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Faculdade de Música",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Dez anos', 'VALOR')]
+Espúrias  (FP): [('Dez anos', 'TEMPO'), ('Dez anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Novas e Modernas Instalações. Deixando o tradicional prédio da avenida Rodrigues Alves , é inaugurada a grande obra arquitetônica que constitui hoje a USC - Universidade do Sagrado Coração .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rodrigues Alves",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "USC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Universidade do Sagrado Coração",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "avenida Rodrigues Alves",
+    "label": "LOCAL"
+  },
+  {
+    "text": "USC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade do Sagrado Coração",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Rodrigues Alves', 'LOCAL')]
+Espúrias  (FP): [('avenida Rodrigues Alves', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na década de 70 são instalados os cursos de Habilitação em Biologia e Enfermagem , nos anos 80 , Farmácia , Nutrição e Fonoaudiologia e na última década os cursos de Tradutor , Secretáriado Executivo Bilíngüe , Matemática , Química , Análise de Sistemas , Filosofia , Administração , Habilitação em Artes Cênicas , Fisioterapia , Odontologia e Terapia Ocupacional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "70",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Habilitação em Biologia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Enfermagem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "anos 80",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Farmácia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Nutrição",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Fonoaudiologia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Tradutor",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Secretáriado Executivo Bilíngüe",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Matemática",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Química",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Análise de Sistemas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Administração",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Habilitação em Artes Cênicas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Fisioterapia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Odontologia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Terapia Ocupacional",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "70",
+    "label": "TEMPO"
+  },
+  {
+    "text": "anos 80",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Tradutor",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Secretáriado Executivo Bilíngüe",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Matemática",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Química",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Análise de Sistemas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Administração",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Habilitação em Artes Cênicas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Fisioterapia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Odontologia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Terapia Ocupacional",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Habilitação em Biologia', 'ABSTRACCAO'), ('Enfermagem', 'ABSTRACCAO'), ('Farmácia', 'ABSTRACCAO'), ('Nutrição', 'ABSTRACCAO'), ('Fonoaudiologia', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Hoje. Uma USC Vibrante. Sob a direção geral da Dra. Irmã Jacinta Turolo Garcia e contando com aproximadamente 6.000 alunos, distribuidos nos seus 29 cursos e suas habilitações, possuindo na sua docência 350 professores, com apoio numa equipe técnica de sustentação sob a responsabilidade de 290 funcionários, a Universidade do Sagrado Coração cumpre um trabalho da mais alta relevância, forma um novo homem, cidadão, para um mundo mais justo e basicamente cristão. © Copyright 2000 - IASCJ .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "USC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Dra. Irmã Jacinta Turolo Garcia",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "aproximadamente 6.000",
+    "label": "VALOR",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "29",
+    "label": "VALOR",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "350",
+    "label": "VALOR",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "290",
+    "label": "VALOR",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Universidade do Sagrado Coração",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "IASCJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "USC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Dra. Irmã Jacinta Turolo Garcia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "6.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "29",
+    "label": "VALOR"
+  },
+  {
+    "text": "350",
+    "label": "VALOR"
+  },
+  {
+    "text": "290",
+    "label": "VALOR"
+  },
+  {
+    "text": "Universidade do Sagrado Coração",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IASCJ",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('aproximadamente 6.000', 'VALOR'), ('2000', 'TEMPO')]
+Espúrias  (FP): [('6.000', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Todos os Direitos Reservados E-mail: webmaster@usc.br
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Todos os Direitos Reservados",
+    "label": "COISA"
+  },
+  {
+    "text": "E-mail",
+    "label": "COISA"
+  },
+  {
+    "text": "webmaster@usc.br",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Todos os Direitos Reservados', 'COISA'), ('E-mail', 'COISA'), ('webmaster@usc.br', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Onde nasceu? Nasci a 22 de Dezembro de 1946 , no Muro dos Bacalhoeiros , no Porto , nº111 e agora vivo na Rua da Fonte Taurina , no Porto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "22 de Dezembro de 1946",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Muro dos Bacalhoeiros",
+    "label": "LOCAL",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Rua da Fonte Taurina",
+    "label": "LOCAL",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "22 de Dezembro de 1946",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Muro dos Bacalhoeiros",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "nº111",
+    "label": "VALOR"
+  },
+  {
+    "text": "Rua da Fonte Taurina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('nº111', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+O meu pai nasceu no Muro dos Bacalhoeiros no mesmo número e a minha mãe nasceu em Gaia . Qual a profissão dos seus pais? O trabalho da minha mãe era lavar roupa para fora, era a chamada lavadeira do rio. Ela ia recolher a roupa à casa das pessoas que tinham mais posses, e depois entregava-a lavada e passada a ferro. Quando eu era bebé, a minha mãe leváva-me dentro de uma bacia e lá ficava, até que ela acabasse de lavar a roupa. Quando chorava ela dáva-me um pano com açucar. Antigamente, as pessoas ganhavam dinheiro a lavar roupa para fora. O meu pai andava aí nas fragatas, a ir buscar carga a Lisboa a trazer para cá e a levar para lá. Passava pouco tempo em casa. Quantos irmão tem? Os meus irmãos foram nascendo e a minha mãe teve 22 filhos. Agora estamos nove vivos. Os meus irmãos foram morrendo, ainda agora morreu uma irmã ceguinha com diabetes. Outros morreram de acidente. Quando vinha da escola ajudava a trabalhar em casa? Não, quando andava na escola não trabalhava em casa. As minhas irmãs desde pequeninhas faziam tudo, desde o comer. Conte-nos como foi a sua infância? "Não podíamos andar descalços porque a polícia prendia-nos" A infância foi um bocado mal passada. A minha mãe fazia uma panela grande de sopa para todos. Ela trabalhava e o meu pai trabalhava.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Muro dos Bacalhoeiros",
+    "label": "LOCAL",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Gaia",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "22",
+    "label": "VALOR",
+    "token_indices": [
+      143
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Muro dos Bacalhoeiros', 'LOCAL'), ('Gaia', 'LOCAL'), ('Lisboa', 'LOCAL'), ('22', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A infância foi a pedir pão aos outros. A andar descalço, que não se podia andar porque éramos multados. Não podíamos andar descalços porque a polícia prendia-nos, e se andássemos assim com o cabelo grande havia a desinfecção, que éramos presos, rapavam-nos o cabelo todo e botavam creolina na cabeça por causa dos piolhos. Se andássemos descalços éramos presos e multados, pagavam, já nem sei, eram 12 ou 13 escudos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12",
+    "label": "VALOR",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "13 escudos",
+    "label": "VALOR",
+    "token_indices": [
+      68,
+      69
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "12 ou 13 escudos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('12', 'VALOR'), ('13 escudos', 'VALOR')]
+Espúrias  (FP): [('12 ou 13 escudos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+E então o que é que a gente fazia, botava um pano amarrado num pé e arranjávamos outro pé. O meu pai fazia socas em madeira, mas a gente até no lixo ou no rio se arranjava e se houvesse só uma a gente ponha um pano no outro pé. Mas éramos muitos, aqui toda a gente fazia isso. Nesta zona, a pobreza foi muito grande, mesmo porque o trabalho parou. Isto depois da Segunda Guerra Mundial , por aí fora, uns 10 , 15 anos , toda a gente aqui passou mal. Havia empregos, só que os empregos que havia ganhava-se pouco e eram muitos filhos. Todas as famílias aqui tinham para cima de cinco filhos. E então, o dinheiro que os pais ganhavam, se fosse filhos com distância uns dos outros de quatro ou cinco anos, os mais velhos já trabalhavam, mas nós éramos distância um ano de cada um. O a seguir a mim é mais novo do que eu um ano e o mais velho do que eu, é mais velho um ano. Era tudo assim, e então o que é que acontece, a minha falecida mãe morreu com 48 anos devido a um enfarte no coração. Uma mulher nova! O mal todo era isso! O trabalho não era muito. Havia muito frio. As roupas para se vestir eram poucas. As roupas para as camas eram poucas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Segunda Guerra Mundial",
+    "label": "TEMPO",
+    "token_indices": [
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "10",
+    "label": "VALOR",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "15 anos",
+    "label": "VALOR",
+    "token_indices": [
+      84,
+      85
+    ]
+  },
+  {
+    "text": "48 anos",
+    "label": "VALOR",
+    "token_indices": [
+      193,
+      194
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Segunda Guerra Mundial', 'TEMPO'), ('10', 'VALOR'), ('15 anos', 'VALOR'), ('48 anos', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A gente dormia no chão. Os meus irmãos encostavam-se uns aos outros para dormir mais quentes. As casas também eram velhas, como elas são. E o que é que acontecia, as pessoas pegavam aqueciam-se com as mulheres, agarravam-se a elas. Que tipo de brincadeiras tinha quando era miúdo? As brincadeiras no rio Douro foi desde pequenino. Mas as brincadeiras típicas que a gente tinha aqui era fazer barcos com pedras da rua. No chão, púnhamos pedras, tiradas da rua, uma espécie de proa e uma poupa. Depois os outros para entrar no barco tinham que mostrar aqueles bilhetes de eléctrico. Era assim que brincávamos. Também jogávamos à bola e quando não estávamos a fazer isso andávamos às escondidas; jogávamos à macaca. Junto com as raparigas havia poucas brincadeiras, era jogar ao pião. Havia uns indivíduos aqui que eram mais ricos e os filhos tinham merenda e a gente para eles darem a merenda, fazíamos de zangados e não deixávamos entrar nas nossas brincadeiras. E então, eles tinham que dar o pão que traziam como lanche. Iam a casa buscar o lanche para a gente poder comer. A fome era tanta! No Inverno , quando as águas estavam altas vinha muita fruta pela água abaixo, fruta tocada. A gente ia e atirava-se ao rio, mesmo com o frio, para ir agarrar essa fruta. Depois com a navalha tirava-se o podre e comia-se. Eu, por exemplo, atirava-me ao rio no Inverno para ir às barcas, que estavam ao largo, buscar verguinhas para vender no sucateiro, para ter dinheiro para ir à isca, para comer. Nunca na vida os moços da minha idade, gastavam esse dinheiro para comprar cigarros. A gente fumava mas eram baronas. Comprar nunca comprávamos, nem nas lojas vendiam à gente, mesmo às vezes a dizer que era para o pai, não vendiam.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Douro",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Inverno",
+    "label": "TEMPO",
+    "token_indices": [
+      191
+    ]
+  },
+  {
+    "text": "Inverno",
+    "label": "TEMPO",
+    "token_indices": [
+      238
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Douro', 'LOCAL'), ('Inverno', 'TEMPO'), ('Inverno', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Que actividades existiam na sua infância? As actividades na minha infância eram as mais saudáveis que podia haver e havia de haver, era o remo e a natação. Eu já fui nadador do Clube Fluvial Portuense quando era moço mais novo. Já remei no Fluvial , mas não era remador, por falta de remador, e então, fui sócio do Fluvial até à pouco tempo porque eles encareceram muito as quotas e não dá para se ser sócio de um clube a pagar um conto e tal por mês de quota. Então, havia natação, havia futebol, por exemplo, eu ainda sou tesoureiro do Clube Desportivo Infante D. Henrique que tem 50 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Clube Fluvial Portuense",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Fluvial",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Fluvial",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Clube Desportivo Infante D. Henrique",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      102,
+      103,
+      104,
+      105,
+      106
+    ]
+  },
+  {
+    "text": "50 anos",
+    "label": "VALOR",
+    "token_indices": [
+      109,
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Clube Fluvial Portuense",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Fluvial",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Clube Desportivo Infante D. Henrique",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "50 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Fluvial', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Havia esses grupos assim que eram os amadores que se pagava para jogar, tinha-se que pagar a bola e as botas. Naquela altura, fazíamos treinos, mas jogar era quando era pior, uma equipa ajeitava o campo, alugava o campo, pagávamos entre todos e jogávamos a bola. Mas para treinos e tudo era ali em cima, no Jardim do Infante ou na Serra do Pilar , em sítios que houvesse um espacito. Quando começou a trabalhar? Eu frequentei a escola até à 4ª classe e comecei a trabalhar aos 12 anos na José Rodrigues Pinto , uma firma de transporte de mercadorias, barqueiros e fragateiros, no rio Douro , a ganhar 50 escudos por semana. Já era bom, era muito bom, era mais do que qualquer homem a trabalhar. Eu ganhava bem porque o patrão era um senhor que morava mesmo no Muro dos Bacalhoeiros , os escritórios também eram lá, e ele tinha pena dos meus pais e dáva-me 50 escudos por semana. E eu aí já comecei a ganhar e daí foi sempre a andar até sair para outros patrões, outros e outros, até embarcar. Quando é que embarcou pela primeira vez? Embarquei com 14 anos , andei num navio que só tinha velas, não tinha motor que era o Tiofol .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jardim do Infante",
+    "label": "LOCAL",
+    "token_indices": [
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Serra do Pilar",
+    "label": "LOCAL",
+    "token_indices": [
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "12 anos",
+    "label": "VALOR",
+    "token_indices": [
+      88,
+      89
+    ]
+  },
+  {
+    "text": "José Rodrigues Pinto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "text": "Douro",
+    "label": "LOCAL",
+    "token_indices": [
+      106
+    ]
+  },
+  {
+    "text": "50 escudos",
+    "label": "VALOR",
+    "token_indices": [
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Muro dos Bacalhoeiros",
+    "label": "LOCAL",
+    "token_indices": [
+      141,
+      142,
+      143
+    ]
+  },
+  {
+    "text": "50 escudos",
+    "label": "VALOR",
+    "token_indices": [
+      159,
+      160
+    ]
+  },
+  {
+    "text": "14 anos",
+    "label": "VALOR",
+    "token_indices": [
+      195,
+      196
+    ]
+  },
+  {
+    "text": "Tiofol",
+    "label": "COISA",
+    "token_indices": [
+      211
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jardim do Infante",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Serra do Pilar",
+    "label": "LOCAL"
+  },
+  {
+    "text": "4ª classe",
+    "label": "VALOR"
+  },
+  {
+    "text": "12 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "José Rodrigues Pinto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Douro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "50 escudos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Muro dos Bacalhoeiros', 'LOCAL'), ('50 escudos', 'VALOR'), ('14 anos', 'VALOR'), ('Tiofol', 'COISA')]
+Espúrias  (FP): [('4ª classe', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Andei nele ainda moço e depois do Tiofol saí para outros navios até que cheguei a petroleiros. Andei nos navios petroleiros até me reformar, fazia viagens para o Golfo Pérsico e do Golfo Pérsico para cá. Depois de embarcar a vida correu sempre bem. Já havia dinheiro, eu ganhava muito bem e fazia uma vida boa. Naná vestido de marinheiro no navio petroleiro Dondo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tiofol",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Golfo Pérsico",
+    "label": "LOCAL",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Golfo Pérsico",
+    "label": "LOCAL",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Naná",
+    "label": "PESSOA",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Dondo",
+    "label": "COISA",
+    "token_indices": [
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tiofol",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Golfo Pérsico",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Golfo Pérsico",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Naná",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dondo",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Tiofol', 'TEMPO'), ('Dondo', 'COISA')]
+Espúrias  (FP): [('Tiofol', 'PESSOA'), ('Dondo', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eu ganhava bem. Nessa altura, já tinha uma motorizada que me custou nove contos e que comprei às prestações. Quantos filhos tem? Tenho nove filhos cinco da minha esposa e quatro são de fora. Netos só tenho três, são dos filhos da minha esposa, os de fora não sei, nem me dizem nada, estão zangados comigo. Dois |Dois estão em Lisboa , dois estão aqui no Porto , mas nem para mim falam, não querem saber de mim. Da minha mulher verdadeira foram cinco filhos, o resto é de outras mulheres por fora. Agora estou com uma que nem filhos tem. Mas tive vinte e tal anos com a minha mulher, depois separei-me dela. Não estamos divorciados ainda, separámo-nos e prontos, ficou ela para o lado dela, ficamos amigos na mesma, eu vou lá a casa quando quero. Eu era demais, eu para ela era demais. Mesmo depois de casado continuou a embarcar? Mesmo depois de casado continuei a embarcar. Andei sempre embarcado, passava meses, quando ia ao Golfo era um mês para lá e um mês para cá. Eu ia ao Golfo Pérsico por Freetown , Serra Leoa ,, não ia pelo canal Suês [mar mediterrâneo], porque se fosse pelo canal Suês a coisa ficava mais perto. Na altura que a gente ia eram uns navios muito velhos - eu andei no Fogo e no Dondo , eram navios antigos, agora já há muitos mais modernos- e era trinta dias para lá e trinta dias para cá.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dois",
+    "label": "VALOR",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Golfo",
+    "label": "LOCAL",
+    "token_indices": [
+      168
+    ]
+  },
+  {
+    "text": "Golfo Pérsico",
+    "label": "LOCAL",
+    "token_indices": [
+      182,
+      183
+    ]
+  },
+  {
+    "text": "Freetown",
+    "label": "LOCAL",
+    "token_indices": [
+      185
+    ]
+  },
+  {
+    "text": "Serra Leoa",
+    "label": "LOCAL",
+    "token_indices": [
+      187,
+      188
+    ]
+  },
+  {
+    "text": "Suês",
+    "label": "LOCAL",
+    "token_indices": [
+      194
+    ]
+  },
+  {
+    "text": "Suês",
+    "label": "LOCAL",
+    "token_indices": [
+      202
+    ]
+  },
+  {
+    "text": "Fogo",
+    "label": "COISA",
+    "token_indices": [
+      223
+    ]
+  },
+  {
+    "text": "Dondo",
+    "label": "COISA",
+    "token_indices": [
+      226
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "nove contos",
+    "label": "VALOR"
+  },
+  {
+    "text": "nove filhos",
+    "label": "VALOR"
+  },
+  {
+    "text": "cinco",
+    "label": "VALOR"
+  },
+  {
+    "text": "quatro",
+    "label": "VALOR"
+  },
+  {
+    "text": "três",
+    "label": "VALOR"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "cinco filhos",
+    "label": "VALOR"
+  },
+  {
+    "text": "20",
+    "label": "VALOR"
+  },
+  {
+    "text": "50 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "55 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Dois', 'VALOR'), ('Golfo', 'LOCAL'), ('Golfo Pérsico', 'LOCAL'), ('Freetown', 'LOCAL'), ('Serra Leoa', 'LOCAL'), ('Suês', 'LOCAL'), ('Suês', 'LOCAL'), ('Fogo', 'COISA'), ('Dondo', 'COISA')]
+Espúrias  (FP): [('nove contos', 'VALOR'), ('nove filhos', 'VALOR'), ('cinco', 'VALOR'), ('quatro', 'VALOR'), ('três', 'VALOR'), ('cinco filhos', 'VALOR'), ('20', 'VALOR'), ('50 anos', 'VALOR'), ('55 anos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sendo socio voce passa ter acesso a lista privativa dos socios no Yahoo , a Lista ancib-l no alternex e a desconto de 50 % em todas as atividades, produtos e eventos da ancib ou com sua participacao. A Ancib , como associada da SBPC permite seus socios podem serem membros da SBPC por 30 reais , receber o Boletim da SBPC pelo correio e ter desconto de 50 % nas reunioes anuais da SBPC . A Lista ancib-l continuara' aberta para todos. Socios e nao socios. Contudo, o Alternex esta' atualizando seu sistema de listas e os socios da ANCIB terao consulta on line da lista ancib-l e ao arquivo de todas as mensagens dissiminadas. Discussoes online sob topicos disseminados no dia , tambem , esta' previsto para os socios. Se voce quer se tornar um - novo - socio da ANCIB va ate'. Se voce ja' e' um dos nossos socios : IMPORTANTE : Pagar anuidade de R$ 60,00 , na conta da ANCIB no Banco do Brasil , Agencia : 0287-9 Botafogo , Rio de Janeiro , Conta n. 309.086-8 e contatar Selma Santiago : Telefax (21) 2750049 ou Email para repassar o comprovante de deposito e receber o seu Recibo de Pagamento da Anuidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Yahoo",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "50 %",
+    "label": "VALOR",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Ancib",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "SBPC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "SBPC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "30 reais",
+    "label": "VALOR",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "SBPC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "50 %",
+    "label": "VALOR",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "SBPC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Alternex",
+    "label": "COISA",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "ANCIB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "ANCIB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      142
+    ]
+  },
+  {
+    "text": "R$ 60,00",
+    "label": "VALOR",
+    "token_indices": [
+      159,
+      160
+    ]
+  },
+  {
+    "text": "ANCIB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      165
+    ]
+  },
+  {
+    "text": "Banco do Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      167,
+      168,
+      169
+    ]
+  },
+  {
+    "text": "Agencia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      171
+    ]
+  },
+  {
+    "text": "0287-9",
+    "label": "LOCAL",
+    "token_indices": [
+      173
+    ]
+  },
+  {
+    "text": "Botafogo",
+    "label": "LOCAL",
+    "token_indices": [
+      174
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      176,
+      177,
+      178
+    ]
+  },
+  {
+    "text": "309.086-8",
+    "label": "LOCAL",
+    "token_indices": [
+      182
+    ]
+  },
+  {
+    "text": "Selma Santiago",
+    "label": "PESSOA",
+    "token_indices": [
+      185,
+      186
+    ]
+  },
+  {
+    "text": "Recibo de Pagamento da Anuidade",
+    "label": "COISA",
+    "token_indices": [
+      203,
+      204,
+      205,
+      206,
+      207
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Yahoo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lista ancib-l",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alternex",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ancib",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ancib",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SBPC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "30 reais",
+    "label": "VALOR"
+  },
+  {
+    "text": "SBPC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lista ancib-l",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ANCIB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ANCIB",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Yahoo', 'LOCAL'), ('50 %', 'VALOR'), ('SBPC', 'ORGANIZACAO'), ('50 %', 'VALOR'), ('SBPC', 'ORGANIZACAO'), ('Alternex', 'COISA'), ('R$ 60,00', 'VALOR'), ('ANCIB', 'ORGANIZACAO'), ('Banco do Brasil', 'ORGANIZACAO'), ('Agencia', 'ORGANIZACAO'), ('0287-9', 'LOCAL'), ('Botafogo', 'LOCAL'), ('Rio de Janeiro', 'LOCAL'), ('309.086-8', 'LOCAL'), ('Selma Santiago', 'PESSOA'), ('Recibo de Pagamento da Anuidade', 'COISA')]
+Espúrias  (FP): [('Yahoo', 'ORGANIZACAO'), ('Lista ancib-l', 'LOCAL'), ('Alternex', 'ORGANIZACAO'), ('Ancib', 'ORGANIZACAO'), ('Lista ancib-l', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um grande abraco em todos. Aldo de Albuquerque Barreto , Presidente Associacao Nacional de Pesquisa e Pos-Graduacao em Ciencia da Informacao http://www.alternex.com.br/~aldoibct/ancib.html
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aldo de Albuquerque Barreto",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Associacao Nacional de Pesquisa e Pos-Graduacao em Ciencia da Informacao",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Aldo de Albuquerque Barreto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Associacao Nacional de Pesquisa e Pos-Graduacao em Ciencia da Informacao",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "http://www.alternex.com.br/~aldoibct/ancib.html",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Presidente', 'PESSOA')]
+Espúrias  (FP): [('http://www.alternex.com.br/~aldoibct/ancib.html', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os nomes dos seus pais? O meu pai é Modesto Moreira Anjo e a minha mãe é Maria de Lurdes Carlos Silva Anjo . Tem irmãos? Tenho quatro irmãos. Três rapazes e uma rapariga. E os seus avós? Da parte da minha mãe morreu o meu avô há dois anos e da parte do meu pai estão os dois vivos. Onde é que mora? Lugar das Parretas em Braga .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Modesto Moreira Anjo",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Maria de Lurdes Carlos Silva Anjo",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Lugar das Parretas",
+    "label": "LOCAL",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Modesto Moreira Anjo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Maria de Lurdes Carlos Silva Anjo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Quatro",
+    "label": "VALOR"
+  },
+  {
+    "text": "dois anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lugar das Parretas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Quatro', 'VALOR'), ('dois anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Há quantos anos foi? Há quinze ou vinte. E qual a lembrança mais antiga da cidade? São João do Souto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São João do Souto",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "quinze ou vinte",
+    "label": "VALOR"
+  },
+  {
+    "text": "São João do Souto",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('quinze ou vinte', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+A parte do seminário, a ruinha que vai dar ao São João do Souto e aquela parte das frigideiras. Da escola, lembro-me de uma professora que era um bocado rígida. Não se lembra que tipo de relações tinha com os seus irmãos, já aqui em Braga ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São João do Souto",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "São João do Souto",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('São João do Souto', 'LOCAL')]
+Espúrias  (FP): [('São João do Souto', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quer falar-nos um bocadinho da experiência de viver num colégio interno? Quando viemos para Braga fomos para um seminário em Santiago e a minha mãe, como eu era a única rapariga e como todos os retornados iam para o seminário, para me proteger colocou-me num colégio interno em Guimarães e eu só vinha a casa de quinze em quinze dias ou de mês a mês. E dentro do colégio relacionava-se bem com as outras colegas? Relacionava-me. Que tipo de relação e brincadeiras é que tinham? Aquelas de criança, de brincar ao jardim da celeste, à rodinha, à corda, às vezes lá fazia algumas traquinices, mas depois as freiras castigavam-me de noite.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Santiago",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Guimarães",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Braga",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Santiago",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Guimarães",
+    "label": "LOCAL"
+  },
+  {
+    "text": "15",
+    "label": "VALOR"
+  },
+  {
+    "text": "15",
+    "label": "VALOR"
+  },
+  {
+    "text": "15",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('15', 'VALOR'), ('15', 'VALOR'), ('15', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fiz todo o meu percurso escolar nos colégios. Sempre internos? Lembro-me que estive um tempinho no seminário e também me lembro de andar na escola São João de Souto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São João de Souto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "São João de Souto",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('São João de Souto', 'ORGANIZACAO')]
+Espúrias  (FP): [('São João de Souto', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Andei em Braga , na São João do Souto talvez na primária e depois é que mudei para o colégio. Aqueles primeiros tempos, enquanto não se arranjava colégio em Guimarães , estive em Braga .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "São João do Souto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Guimarães",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Braga",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São João do Souto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Guimarães",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('São João do Souto', 'ORGANIZACAO')]
+Espúrias  (FP): [('São João do Souto', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em sua casa que recordações é que tem? Lembro-me dos fins-de-semana. Vinha de autocarro para Braga e ajudava a minha mãe na cozinha a fazer bolos, que eu gostava de fazer bolos, e ajudava a arrumar. Às vezes pedia para me deixar sair, mas eu era mais caseira, gostava de ficar em casa a ver televisão ou a brincar. Os irmãos também frequentaram os colégios? Não. E então quando chegava a casa a relação que mantinha com eles era mais íntima? Ai não, com muitas saudades. Vivia com a mãe e com o pai? Sim, com os dois. Também tenho uma irmã, praticamente fui eu que a criei. Ela tem 10 anos , nasceu assim fora do tempo. Que tipo de relação é que tem com ela? É praticamente a minha filhinha. Isso ajudou-a na sua vida adulta? Ajudou-me depois de casar, que eu dizia que não queria ter mais filhos, porque tomar conta da minha irmã deu-me muito trabalho.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "10 anos",
+    "label": "VALOR",
+    "token_indices": [
+      110,
+      111
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Braga",
+    "label": "LOCAL"
+  },
+  {
+    "text": "10 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "12 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('12 anos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Levantava-me de manhã com ela a berrar que não se queria vestia. Eu vestia-a e ela despia-se. Ia para o colégio de pijama e as freiras depois vestiam-na. E eu dizia: "Eu nunca vou querer filho!" Em termos profissionais tinha algum sonho. Alguma carreira que gostasse de seguir? A carreira que eu gostava de seguir era ginástica desportiva, daquela de salto, porque eu adoro o desporto. Adorava ver aquelas ginastas, aqueles saltos no solo. Ainda estive um ano em desporto, depois a minha mãe dizia que o curso de desporto era assim mais para homens, não ficava bem em mulheres, e não me deixou seguir. Optei então, por outro curso. Cuidar da irmã, estudar em colégios, até que ponto isso influenciou a sua vivência? Eu acho que o andar em colégios, o facto de não poder vir cá para fora falar com as pessoas, tornou-me uma pessoa mais isolada. Acho que, ainda hoje, me isolo muito à conta de ter andado nos colégios. Posso ser aberta no serviço porque já tenho muita confiança, mas toda a gente me pergunta porque é que, fora da universidade, ando sempre sozinha ou ando com a filha e nunca ando com o marido. Eu acho que fiquei um bocado distanciada, isolada, por causa de andar nos colégios. Era capaz de definir o tipo de educação que teve? Não posso dizer que foi uma educação rígida porque eu gostei. Agora, gosto mais do que gostei no colégio, porque naquela altura o que eu queria era sair de lá. Mas pensando bem, reflectindo o que passei lá, gostei do que estive lá a fazer durante muitos anos. Gostava de ter continuado a estudar? A minha intenção era tirar o curso de ginástica. Como surgiu a profissão de assistente administrativa na Universidade do Minho ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Universidade do Minho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      294,
+      295,
+      296
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Universidade do Minho', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E nessa altura já trabalhava na universidade? Não, ainda não estava a trabalhar na Universidade do Minho , estava a estudar, Alberto Sampaio e ia concorrendo. Cada vez que saíam concursos nos jornais para a função pública, eu fazia uma candidatura e mandava. Ia fazendo o curso aumentava o currículo e mandava. Ia mandando, até que uma vez deu-me para ir às provas e fiquei. E daí ficou efectiva na Universidade ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Universidade do Minho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Alberto Sampaio",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Universidade do Minho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Alberto Sampaio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Alberto Sampaio', 'ORGANIZACAO')]
+Espúrias  (FP): [('Alberto Sampaio', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Agora os professores já não procuram tanto? Os professores talvez, mas alunos já tive mais do que actualmente. Os professores, também já tive mais, mas tenho um número de clientes fixos. O facto de a universidade disponibilizar os computadores para os alunos também influenciou isso? Eles têm os laboratórios no Centro de Informática .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Centro de Informática",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50,
+      51,
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Centro de Informática",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Centro de Informática', 'ORGANIZACAO')]
+Espúrias  (FP): [('Centro de Informática', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Só me aparecem quando é para entregar o trabalho no dia seguinte e não o têm feito: - "Ai, eu preciso de entregar o trabalho amanhã!" É casada? Sim, sou casada há sete anos. Quantos filhos tem? Uma menina, Bruna Filipa Anjo Dias , com quatro anos e meio, veio sem eu contar. Não estava previsto? Não, senão também nunca mais tinha. Mas está contente? Estou. Quando saiu da casa dos seus pais? Há sete anos, na altura em que casei. Como é que foi sair da casa dos pais? Chorei tanto nesse dia! Até na igreja quando estava vestida de noiva chorava, e o meu pai dizia - "Não te cases!"
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bruna Filipa Anjo Dias",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bruna Filipa Anjo Dias",
+    "label": "PESSOA"
+  },
+  {
+    "text": "sete anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Uma",
+    "label": "VALOR"
+  },
+  {
+    "text": "Bruna Filipa Anjo Dias",
+    "label": "PESSOA"
+  },
+  {
+    "text": "quatro anos e meio",
+    "label": "VALOR"
+  },
+  {
+    "text": "sete anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('sete anos', 'VALOR'), ('Uma', 'VALOR'), ('Bruna Filipa Anjo Dias', 'PESSOA'), ('quatro anos e meio', 'VALOR'), ('sete anos', 'VALOR')]
+

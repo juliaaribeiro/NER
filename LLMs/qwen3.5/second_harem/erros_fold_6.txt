@@ -1,0 +1,8003 @@
+--------------------------------------------------------------------------------
+Texto:
+Tour : Procura-se candidato
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tour",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Tour', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Tour', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pelo segundo ano consecutivo e após a era de Lance Armstrong , o Tour está desfalcado de grandes candidatos à vitória. Sem a presença do norte-americano, do alemão Jan Ullrich e do italiano Ivan Basso , e até de outro transalpino, Alessandro Petacchi , a « Grand Boucle » inicia-se amanhã em Londres sem grandes expectativas. Procura-se candidato, é este o ponto fulcral da prova, que também não terá o dorsal n.º 1 | 1.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "após a era",
+    "label": "TEMPO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Lance Armstrong",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Tour",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Jan Ullrich",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Ivan Basso",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Alessandro Petacchi",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Grand Boucle",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "amanhã",
+    "label": "TEMPO",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Londres",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "1",
+    "label": "OUTRO",
+    "token_indices": [
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pelo segundo ano consecutivo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lance Armstrong",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Jan Ullrich",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ivan Basso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alessandro Petacchi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Grand Boucle",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "amanhã",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Londres",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('após a era', 'TEMPO'), ('Tour', 'PESSOA'), ('1', 'OUTRO')]
+Espúrias  (FP): [('Pelo segundo ano consecutivo', 'TEMPO'), ('Tour', 'ACONTECIMENTO'), ('1', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Daí a organização ter decidido suspender os dorsais entre o 1 | 1 e o 1 | 1 , começando o Tour no 11 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1",
+    "label": "OUTRO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "1",
+    "label": "OUTRO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "11",
+    "label": "OUTRO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('1', 'OUTRO'), ('1', 'OUTRO'), ('11', 'OUTRO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cinco mil polícias
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Cinco mil",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Cinco mil', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cerca de 5 mil polícias foram destacados para estarem de serviço em Londres por ocasião da passagem do Tour por Inglaterra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cerca de 5 mil",
+    "label": "VALOR",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Londres",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Tour",
+    "label": "PESSOA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cerca de 5 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "Londres",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tour",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Tour', 'PESSOA')]
+Espúrias  (FP): [('Tour', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+E, para além do Tour , há ainda o Torneio de Ténis de Wimbledon | Torneio de Ténis de Wimbledon , e o GP de F1 de Silverstone | GP de F1 de Silverstone .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Torneio de Ténis de Wimbledon",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Torneio de Ténis",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Wimbledon",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "GP de F1 de Silverstone",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "GP de F1",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Silverstone",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Torneio de Ténis de Wimbledon",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Torneio de Ténis",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Wimbledon",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "GP de F1 de Silverstone",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "GP de F1",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Silverstone",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Wimbledon', 'LOCAL'), ('Silverstone', 'LOCAL')]
+Espúrias  (FP): [('Wimbledon', 'ACONTECIMENTO'), ('Silverstone', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Luís Correia domina concorrência em Casais S.Quintino
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luís Correia",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Casais S.Quintino",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Luís Correia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Casais S.Quintino",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Casais S.Quintino', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Casais S.Quintino', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Luís Correia em Suzuki RMZ 250 voltou a demonstrar o seu excelente momento de forma ao dominar por completo a classe 125cc na 2ª jornada do Campeonato Nacional de Motocross , que se realizou este domingo em Casais de S.Quintino .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luís Correia",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Suzuki RMZ 250",
+    "label": "COISA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "125cc",
+    "label": "COISA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Campeonato Nacional de Motocross",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "este domingo",
+    "label": "TEMPO",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Casais de S.Quintino",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Luís Correia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Suzuki RMZ 250",
+    "label": "COISA"
+  },
+  {
+    "text": "125cc",
+    "label": "VALOR"
+  },
+  {
+    "text": "2ª jornada",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Campeonato Nacional de Motocross",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "este domingo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Casais de S.Quintino",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('125cc', 'COISA')]
+Espúrias  (FP): [('125cc', 'VALOR'), ('2ª jornada', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Numa pista em bom estado, apesar da ameaça de chuva que pairou na região durante o domingo de Páscoa , foram muitos os espectadores que resolveram ver o espectáculo do Motocross .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "durante o domingo de Páscoa",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Motocross",
+    "label": "COISA",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "durante o domingo de Páscoa",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Motocross",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Motocross', 'COISA')]
+Espúrias  (FP): [('Motocross', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+E o piloto a dar mais espectáculo foi Luís Correia que deu um recital de condução aos seus mais directos adversários, averbando uma vitória que não deixa margens para dúvidas. Para o piloto do Team Suzuki Cepsa , o dia até começou muito bem com a conquista do 1º lugar na grelha de partida. Na partida não conseguiu chegar à primeira curva na liderança mas após algumas voltas, cedo instalou-se no comando do numeroso pelotão, distanciando-se a partir desse momento dos seus perseguidores. Com esta vitória cimentou a liderança na classificação actual do Campeonato Nacional de Motocross , classe 125 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luís Correia",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Team Suzuki Cepsa",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "o dia",
+    "label": "TEMPO",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "1º",
+    "label": "VALOR",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "a partir desse momento",
+    "label": "TEMPO",
+    "token_indices": [
+      76,
+      77,
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Campeonato Nacional de Motocross",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      93,
+      94,
+      95,
+      96
+    ]
+  },
+  {
+    "text": "125",
+    "label": "COISA",
+    "token_indices": [
+      99
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Luís Correia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Team Suzuki Cepsa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Campeonato Nacional de Motocross",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "125",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Team Suzuki Cepsa', 'PESSOA'), ('o dia', 'TEMPO'), ('a partir desse momento', 'TEMPO'), ('125', 'COISA')]
+Espúrias  (FP): [('Team Suzuki Cepsa', 'ORGANIZACAO'), ('125', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os seus companheiros de equipa tiveram prestações diferentes, tendo Ricardo Pereira alcançado o 6º lugar e Hugo Basaula o 15º lugar. Para o mais jovem membro do Team Suzuki Cepsa , Hugo Basaula , esta manga começou muito bem, pois o piloto fez uma partida fenomenal e assumiu a 3ª posição no pelotão. Mas uma queda que sofreu num salto, fez com que tivesse que recuperar da última posição e já com muito tempo de atraso para os seus adversários. Após uma recuperação endiabrada conseguiu então a 15º posição final.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ricardo Pereira",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "6º",
+    "label": "VALOR",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Hugo Basaula",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "15º",
+    "label": "VALOR",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Team Suzuki Cepsa",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Hugo Basaula",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "3ª",
+    "label": "VALOR",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "15º",
+    "label": "VALOR",
+    "token_indices": [
+      87
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ricardo Pereira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "6º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Hugo Basaula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "15º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Team Suzuki Cepsa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Hugo Basaula",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Team Suzuki Cepsa', 'PESSOA'), ('3ª', 'VALOR'), ('15º', 'VALOR')]
+Espúrias  (FP): [('Team Suzuki Cepsa', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na classe maior, Ricardo Pazos , partiu determinado a melhorar a sua prestação relativamente à Águeda , e com uma condução mais adaptada à Suzuki RMZ 450 , alcançou o 3º lugar, muito perto de Paulo Gonçalves que secundou Hugo Santos no Podium | Podium.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ricardo Pazos",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Águeda",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Suzuki RMZ 450",
+    "label": "COISA",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "3º",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Paulo Gonçalves",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Hugo Santos",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Podium",
+    "label": "OUTRO",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ricardo Pazos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Águeda",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Suzuki RMZ 450",
+    "label": "COISA"
+  },
+  {
+    "text": "3º lugar",
+    "label": "VALOR"
+  },
+  {
+    "text": "Paulo Gonçalves",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Hugo Santos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Podium",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Águeda', 'ACONTECIMENTO'), ('3º', 'VALOR'), ('Podium', 'OUTRO')]
+Espúrias  (FP): [('Águeda', 'PESSOA'), ('3º lugar', 'VALOR'), ('Podium', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+No final da tarde realizou-se a manga do Absoluto , e mais uma vez Luís Correia demonstrou porque é o piloto mais rápido a correr em Portugal com máquinas da classe 125 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "No final da tarde",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Absoluto",
+    "label": "COISA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Luís Correia",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "125",
+    "label": "COISA",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Absoluto",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Luís Correia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "125",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('No final da tarde', 'TEMPO'), ('Absoluto', 'COISA'), ('125', 'COISA')]
+Espúrias  (FP): [('Absoluto', 'ACONTECIMENTO'), ('125', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Alcançou o 3º lugar em termos de Absoluto e foi o melhor piloto da classe 125 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "3º",
+    "label": "VALOR",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Absoluto",
+    "label": "COISA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "125",
+    "label": "COISA",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "3º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Absoluto",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "melhor piloto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "classe 125",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Absoluto', 'COISA'), ('125', 'COISA')]
+Espúrias  (FP): [('Absoluto', 'ABSTRACCAO'), ('melhor piloto', 'PESSOA'), ('classe 125', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para Ricardo Pazos esta manga ficou marcada por uma queda espectacular que sofreu logo na volta inicial e quando tentava assumir a liderança, numa descida em que os pilotos alcançam velocidades muito elevadas. Apesar do grande aparato da queda, Ricardo Pazos pode prosseguir em prova, pois os seus equipamentos protegeram-no de lesões graves, nomeadamente o capacete CMS , botas Oxtar e equipamento Shift .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ricardo Pazos",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Ricardo Pazos",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "CMS",
+    "label": "COISA",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Oxtar",
+    "label": "COISA",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Shift",
+    "label": "COISA",
+    "token_indices": [
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ricardo Pazos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CMS",
+    "label": "COISA"
+  },
+  {
+    "text": "Oxtar",
+    "label": "COISA"
+  },
+  {
+    "text": "Shift",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Ricardo Pazos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar de ter quase uma volta de atraso para os seus adversários, não baixou os braços e realizou uma grande recuperação, alcançando o 12º lugar.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12º",
+    "label": "VALOR",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('12º', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para o publico presente a luta travada entre Hugo Basaula e Ricardo Pereira foi empolgante, pois os pilotos trocavam de posições em todo o percurso da pista. No final seria Ricardo Pereira a levar a melhor sobre o colega de equipa, alcançando o 11º lugar e Hugo Basaula o 17º lugar. Esta prova também contava para o Troféu Suzuki Cepsa Cetelem Motojornal , e o lugar mais alto do Podium | Podium voltou a ser ocupado por Ricardo Pereira , que assim permanece invicto deste o início desta iniciativa em 2004 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Hugo Basaula",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Ricardo Pereira",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Ricardo Pereira",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "11º",
+    "label": "VALOR",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Hugo Basaula",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "17º",
+    "label": "VALOR",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Troféu Suzuki Cepsa Cetelem Motojornal",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Podium",
+    "label": "OUTRO",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "Ricardo Pereira",
+    "label": "PESSOA",
+    "token_indices": [
+      77,
+      78
+    ]
+  },
+  {
+    "text": "em 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      89,
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Hugo Basaula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ricardo Pereira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "11º lugar",
+    "label": "VALOR"
+  },
+  {
+    "text": "17º lugar",
+    "label": "VALOR"
+  },
+  {
+    "text": "Troféu Suzuki Cepsa Cetelem Motojornal",
+    "label": "OUTRO"
+  },
+  {
+    "text": "Podium",
+    "label": "OUTRO"
+  },
+  {
+    "text": "Podium",
+    "label": "OUTRO"
+  },
+  {
+    "text": "Ricardo Pereira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "desde o início",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2004",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('11º', 'VALOR'), ('Hugo Basaula', 'PESSOA'), ('17º', 'VALOR'), ('Troféu Suzuki Cepsa Cetelem Motojornal', 'ACONTECIMENTO'), ('Ricardo Pereira', 'PESSOA'), ('em 2004', 'TEMPO')]
+Espúrias  (FP): [('11º lugar', 'VALOR'), ('17º lugar', 'VALOR'), ('Troféu Suzuki Cepsa Cetelem Motojornal', 'OUTRO'), ('Podium', 'OUTRO'), ('desde o início', 'TEMPO'), ('2004', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+NÃO FOI SÓ EM PORTUGAL QUE O HINO PUXOU PELAS EMOÇÕES FORTES
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PORTUGAL",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('PORTUGAL', 'LOCAL')]
+Espúrias  (FP): [('Portugal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os homens também choram, e isso ficou provado quando os jogadores da Selecção cantaram o hino antes do Escócia-Portugal | Escócia - Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Selecção",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Escócia-Portugal",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Escócia",
+    "label": "PESSOA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "PESSOA",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Escócia-Portugal",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Escócia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Selecção', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As imagens emocionaram o País mas não só. No bloco informativo dedicado à prova, a TF1 -- uma das principais cadeias de televisão francesas -- anunciou « o momento mais incrível do Mundial até agora» e, de seguida, exibiu « A Portuguesa » na íntegra, com os Lobos a chorarem.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "País",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "TF1",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "o momento",
+    "label": "TEMPO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Mundial",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "A Portuguesa",
+    "label": "OBRA",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Lobos",
+    "label": "PESSOA",
+    "token_indices": [
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "País",
+    "label": "LOCAL"
+  },
+  {
+    "text": "TF1",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mundial",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "até agora",
+    "label": "TEMPO"
+  },
+  {
+    "text": "A Portuguesa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Lobos",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('País', 'PESSOA'), ('o momento', 'TEMPO')]
+Espúrias  (FP): [('País', 'LOCAL'), ('até agora', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não é todos os dias que se vê um «gigante» de 1,84 metros e 140 kg a chorar como uma criança. Mas Rui Cordeiro foi um dos Lobos que mais impressionou a cantar hino. Logo ele, que «é difícil ir às lágrimas». «Senti tanta coisa. O hino sempre foi um momento importante nos nossos jogos e nós não o cantamos, gritamos! Depois entre o aquecimento e o regresso, as bancadas, que ainda estavam quase vazias, compuseram-se. Deu-me muitas ganas», explicou Cordeiro , prosseguindo: «Assim como a Nova Zelândia se motiva com o 'haka', nós fazemo-lo com ' A Portuguesa '.»
+
+Entidades verdadeiras:
+[
+  {
+    "text": "todos os dias",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "1,84 metros",
+    "label": "VALOR",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "140 kg",
+    "label": "VALOR",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Rui Cordeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Lobos",
+    "label": "PESSOA",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Depois",
+    "label": "TEMPO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Cordeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      80
+    ]
+  },
+  {
+    "text": "Nova Zelândia",
+    "label": "PESSOA",
+    "token_indices": [
+      86,
+      87
+    ]
+  },
+  {
+    "text": "A Portuguesa",
+    "label": "OBRA",
+    "token_indices": [
+      97,
+      98
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1,84 metros",
+    "label": "VALOR"
+  },
+  {
+    "text": "140 kg",
+    "label": "VALOR"
+  },
+  {
+    "text": "Rui Cordeiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lobos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cordeiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Nova Zelândia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "A Portuguesa",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('todos os dias', 'TEMPO'), ('Depois', 'TEMPO'), ('Nova Zelândia', 'PESSOA')]
+Espúrias  (FP): [('Nova Zelândia', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Adeus à Selecção
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Selecção",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Selecção', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O último jogo de Rui Cordeiro no Mundial vai ser também o derradeiro da carreira internacional. «É complicado conciliar a Selecção Nacional com a carreira profissional», justifica o pilar da Académica , que este ano regressa à Divisão de Honra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rui Cordeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Mundial",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Selecção Nacional",
+    "label": "OUTRO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Académica",
+    "label": "PESSOA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Divisão de Honra",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rui Cordeiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mundial",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Selecção Nacional",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Académica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Divisão de Honra",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Selecção Nacional', 'OUTRO'), ('Divisão de Honra', 'LOCAL')]
+Espúrias  (FP): [('Selecção Nacional', 'PESSOA'), ('Divisão de Honra', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Assim, o jogo com a Roménia promete trazer-nos um Cordeiro mais «chorão». «Vai haver choradeira no início, no fim, o tempo todo», promete, bem-disposto, o pilar, que vai «continuar na Académica enquanto der gozo».
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Roménia",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Cordeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Académica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Roménia",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Cordeiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Académica",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Roménia', 'PESSOA')]
+Espúrias  (FP): [('Roménia', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nas voltas que a Pampulha dá...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pampulha",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pampulha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Pampulha', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Pampulha', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Entre os quase 10 mil que correram os quase 18k da Volta Internacional da Pampulha | Volta Internacional da Pampulha no início do mês estava, havia um monte de... Índios !!!
+
+Entidades verdadeiras:
+[
+  {
+    "text": "quase 10 mil",
+    "label": "VALOR",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "quase 18k",
+    "label": "VALOR",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Volta Internacional da Pampulha",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Volta Internacional",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Pampulha",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "no início do mês",
+    "label": "TEMPO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Índios",
+    "label": "PESSOA",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "quase 10 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "quase 18k",
+    "label": "VALOR"
+  },
+  {
+    "text": "Volta Internacional da Pampulha",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Volta Internacional da Pampulha",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "no início do mês",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Índios",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Volta Internacional', 'ACONTECIMENTO'), ('Pampulha', 'LOCAL')]
+Espúrias  (FP): [('Volta Internacional da Pampulha', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Antonio Ricardo e mais uma turma da Araribóia Runners , trocou Nikiti por BH para suar ao redor do Lago da Pampulha | Lago da Pampulha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Antonio Ricardo",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Araribóia Runners",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Nikiti",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "BH",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Lago da Pampulha",
+    "label": "LOCAL",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Lago",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Pampulha",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Antonio Ricardo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Araribóia Runners",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Nikiti",
+    "label": "COISA"
+  },
+  {
+    "text": "BH",
+    "label": "COISA"
+  },
+  {
+    "text": "Lago da Pampulha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lago",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pampulha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Nikiti', 'LOCAL'), ('BH', 'LOCAL')]
+Espúrias  (FP): [('Nikiti', 'COISA'), ('BH', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Mais uma vez a prova foi fantástica! Testando resistência, o psicológico e outros bichos mais. Se você acha que a meia maratona é pesada, corra 18km na Pampulha onde a largada somente aconteceu às 10h , debaixo do maior sol e com muito calor. Isso é Pampulha !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "18km",
+    "label": "VALOR",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Pampulha",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "às 10h",
+    "label": "TEMPO",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Pampulha",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "18km",
+    "label": "VALOR"
+  },
+  {
+    "text": "Pampulha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "às 10h",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Pampulha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Pampulha', 'ABSTRACCAO')]
+Espúrias  (FP): [('Pampulha', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Esta prova realmente testa as condições do atleta e se ele se preparou adequadamente para enfrentá-la. Apesar da excelente estrutura de apoio, com muitos postos de hidratação (água a balde), o calor era muito forte. As motos espalhadas com médicos e ambulâncias trabalhando muito. Show.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Esta prova",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Esta prova', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+"O Alex aqui da Sulamerica , faltando 1 km , sentiu câimbras e foi para o hospital, ficando no soro... Mateus meu filho, faltando 3km , também sentiu câimbras nas duas pernas. Por sorte, o Edu parou e veio com ele devagar até a chegada. (Valeu Edu , obrigado por ajudar meu filho! Araribóia !!!) Continuei meu ritmo e dei uma força para o ' Chico Buarque ' ( Israel ), grande guerreiro araribóia, mandou muito bem! ( 1:40:00 ). Eu estava bem, minha passada dez, mais um índio amigo precisava de apoio pra chegar e, como somos uma família, fiz de tudo para ele cruzar a linha de chegada voando...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alex",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Sulamerica",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "1 km",
+    "label": "VALOR",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Mateus",
+    "label": "PESSOA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "3km",
+    "label": "VALOR",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Edu",
+    "label": "PESSOA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Edu",
+    "label": "PESSOA",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Araribóia",
+    "label": "OUTRO",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Chico Buarque",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Israel",
+    "label": "PESSOA",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "1:40:00",
+    "label": "VALOR",
+    "token_indices": [
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Alex",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sulamerica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1 km",
+    "label": "VALOR"
+  },
+  {
+    "text": "Mateus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "3km",
+    "label": "VALOR"
+  },
+  {
+    "text": "Edu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Chico Buarque",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Israel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1:40:00",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Sulamerica', 'PESSOA'), ('Edu', 'PESSOA'), ('Araribóia', 'OUTRO')]
+Espúrias  (FP): [('Sulamerica', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Receba este blog PermalinkEnvieComente Ler comentários ( 2 )
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2",
+    "label": "VALOR",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('2', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Bem baixinho, só aqui pra nós do Overmundo , a cobertura é um espetáculo a mais, embora não fizesse parte da programação. Um estouro, como diz vovó Marinalva .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Overmundo",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "vovó Marinalva",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Overmundo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Marinalva",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Overmundo', 'PESSOA'), ('vovó Marinalva', 'PESSOA')]
+Espúrias  (FP): [('Overmundo', 'ORGANIZACAO'), ('Marinalva', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fabio (ele não acentua o nome e que eu vou fazer com a proparoxítona relativa, a quebra de ditongo, o escambáu), pois o homem diz que Jessé Oliveira escreveu a frase "a propósito de justificar a escolha do texto Transegun , de Cuti , como primeira peça montada pelo grupo CaixaPreta , criado em 2002 a partir da reunião de artistas negros atuantes em Porto Alegre .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fabio",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Jessé Oliveira",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Transegun",
+    "label": "OBRA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Cuti",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "CaixaPreta",
+    "label": "PESSOA",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "em 2002",
+    "label": "TEMPO",
+    "token_indices": [
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Porto Alegre",
+    "label": "LOCAL",
+    "token_indices": [
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fabio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jessé Oliveira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Transegun",
+    "label": "OBRA"
+  },
+  {
+    "text": "Cuti",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CaixaPreta",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 2002",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Porto Alegre",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('CaixaPreta', 'PESSOA')]
+Espúrias  (FP): [('CaixaPreta', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+É disso mesmo, de diálogo e reflexão que se falou um tantão da abertura ao encerramento do encontro. Fabio diz que foi assim no monólogo Madrugada, me Proteja | Madrugada, me Proteja, também de Cuti , interpretado no sábado, 15 , pelo ator Sílvio Ramão ; na única atração musical do Encontro , o show Epahei! , da cantora e compositora Karine Cunha , na quinta, 13 , de quem nem vou falar muito porque vira prosa de fã e não tô aqui pra torrar vocês com meu gostinho particular e sim pra reportar as coisas como foram vistas pelo Fabio , né?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fabio",
+    "label": "PESSOA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Madrugada, me Proteja",
+    "label": "OBRA",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Cuti",
+    "label": "PESSOA",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "no sábado, 15",
+    "label": "TEMPO",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Sílvio Ramão",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Encontro",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Epahei!",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Karine Cunha",
+    "label": "PESSOA",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "na quinta, 13",
+    "label": "TEMPO",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Fabio",
+    "label": "PESSOA",
+    "token_indices": [
+      100
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fábio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Madrugada, me Proteja",
+    "label": "OBRA"
+  },
+  {
+    "text": "Madrugada, me Proteja",
+    "label": "OBRA"
+  },
+  {
+    "text": "Cuti",
+    "label": "PESSOA"
+  },
+  {
+    "text": "sábado, 15",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Sílvio Ramão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Encontro",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Epahei!",
+    "label": "OBRA"
+  },
+  {
+    "text": "Karine Cunha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "quinta, 13",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Fábio",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Fabio', 'PESSOA'), ('no sábado, 15', 'TEMPO'), ('Epahei!', 'ACONTECIMENTO'), ('na quinta, 13', 'TEMPO'), ('Fabio', 'PESSOA')]
+Espúrias  (FP): [('Fábio', 'PESSOA'), ('Madrugada, me Proteja', 'OBRA'), ('sábado, 15', 'TEMPO'), ('Epahei!', 'OBRA'), ('quinta, 13', 'TEMPO'), ('Fábio', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em Madrugada ..., Sílvio vive um negro de alta classe média que, julgando-se inalcançável pela insegurança que (infelizmente) tem sido a marca das noites nas grandes cidades, é humilhado durante um assalto. Já o show de Karine se apoiou nas canções em homenagem a diversos orixás que estruturam seu segundo CD, Epahei! , lançado em agosto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Madrugada",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Sílvio",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Karine",
+    "label": "PESSOA",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Epahei!",
+    "label": "OBRA",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "em agosto",
+    "label": "TEMPO",
+    "token_indices": [
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Madrugada",
+    "label": "OBRA"
+  },
+  {
+    "text": "Sílvio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Karine",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Epahei!",
+    "label": "OBRA"
+  },
+  {
+    "text": "em agosto",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Madrugada', 'LOCAL')]
+Espúrias  (FP): [('Madrugada', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Fabio contou que um destaque do Encontro foi a apresentação na sexta, 14 , da peça Taba-Taba , texto do francês Bernard Koltès , que marca a estréia da atriz Renata de Lélis na direção.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fabio",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Encontro",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "na sexta, 14",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Taba-Taba",
+    "label": "OBRA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Bernard Koltès",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Renata de Lélis",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fabio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Encontro",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "sexta, 14",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Taba-Taba",
+    "label": "OBRA"
+  },
+  {
+    "text": "Bernard Koltès",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Renata de Lélis",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('na sexta, 14', 'TEMPO')]
+Espúrias  (FP): [('sexta, 14', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Teve também " Sortilégio Negro , de Abdias do Nascimento , fundador do Teatro Experimental do Negro ( TEN ), referência histórica assumida pelo CaixaPreta já na época do lançamento de Transegun .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sortilégio Negro",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Abdias do Nascimento",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Teatro Experimental do Negro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "TEN",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "CaixaPreta",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "na época",
+    "label": "TEMPO",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Transegun",
+    "label": "OBRA",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sortilégio Negro",
+    "label": "OBRA"
+  },
+  {
+    "text": "Abdias do Nascimento",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Teatro Experimental do Negro",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "TEN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CaixaPreta",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Transegun",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Sortilégio Negro', 'ACONTECIMENTO'), ('Teatro Experimental do Negro', 'ABSTRACCAO'), ('TEN', 'ABSTRACCAO'), ('CaixaPreta', 'ABSTRACCAO'), ('na época', 'TEMPO')]
+Espúrias  (FP): [('Sortilégio Negro', 'OBRA'), ('Teatro Experimental do Negro', 'ORGANIZACAO'), ('TEN', 'ORGANIZACAO'), ('CaixaPreta', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Aquela história da presença nossa nos palcos, nós na cena, nós brilhando, nós dirigindo, nós na fita foi assunto a partir da trajetória de Abdias e do TEN , temas abordados na única palestra do Encontro , feita pela atriz Vera Lopes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Abdias",
+    "label": "PESSOA",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "TEN",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Encontro",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Vera Lopes",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Abdias",
+    "label": "PESSOA"
+  },
+  {
+    "text": "TEN",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Encontro",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Vera Lopes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('TEN', 'ABSTRACCAO')]
+Espúrias  (FP): [('TEN', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Uma das fundadoras do CaixaPreta , Vera falou, segundo Fabio , que não consegue entender porque alguns consideram a arte européia como superior, dando como exemplo que o teatro grego surgiu a partir de ritos - em que animais sacrificados eram oferecidos Dionísio - muito semelhantes às oferendas dos cultos afro-brasileiros para os orixás.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CaixaPreta",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Vera",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Fabio",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Dionísio",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CaixaPreta",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Vera",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fabio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dionísio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "orixás",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('CaixaPreta', 'ABSTRACCAO')]
+Espúrias  (FP): [('CaixaPreta', 'ORGANIZACAO'), ('orixás', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Cada personagem encarna um tipo ou um mito da cultura negra, em especial das religiões afro-brasileiras: Hamlet é Xangô ; o rei Cláudio , Zé Pelintra ; e Polônio , um ex-babalorixá que se tornou pastor evangélico. A música ao vivo (o próprio elenco manda ver em cânticos de umbanda, sambas, hip-hop, ladainhas de capoeira e até cantos evangélicos), além de ajudar a contar a história, torna o nível de comunicação do espetáculo com a platéia algo digno de nota.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Hamlet",
+    "label": "PESSOA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Xangô",
+    "label": "PESSOA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "rei Cláudio",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Zé Pelintra",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Polônio",
+    "label": "PESSOA",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Hamlet",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Xangô",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cláudio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Zé Pelintra",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Polônio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "um ex-babalorixá",
+    "label": "PESSOA"
+  },
+  {
+    "text": "pastor evangélico",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('rei Cláudio', 'PESSOA')]
+Espúrias  (FP): [('Cláudio', 'PESSOA'), ('um ex-babalorixá', 'PESSOA'), ('pastor evangélico', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Associação Académica de Coimbra | Associação Académica de Coimbra
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação Académica de Coimbra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Associação Académica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Associação Académica de Coimbra",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Associação Académica', 'ORGANIZACAO'), ('Coimbra', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Associação Académica de Coimbra | Associação Académica de Coimbra ( AAC ), fundada a 3 de Novembro de 1887 , é a mais antiga associação de estudantes de Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação Académica de Coimbra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Associação Académica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "a 3 de Novembro de 1887",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Associação Académica de Coimbra",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação Académica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "a 3 de Novembro de 1887",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Coimbra', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A AAC alberga uma série de secções culturais e desportivas. Entre as secções culturais pontificam, o Centro de Estudos Cinematográficos ( CEC ) que realiza anualmente o Festival " Caminhos do Cinema Português " | Festival "Caminhos do Cinema Português" , a Rádio Universidade de Coimbra ( RUC ), a Secção de Jornalismo (que edita o jornal universitário " A Cabra "), a secção de fado, o Grupo de folclore e etnografia | Grupo de folclore e etnografia ( GEFAC ) e os grupos de teatro ( TEUC e CITAC ). As secções desportivas abrangem um vasto leque de desportos, tais como o futebol, andebol, basquetebol, rugby, conoagem, natação, voleibol, ténis, artes marciais e xadrez, entre outros. A " Académica " é assim o "clube" mais eclético do pais, uma vez que "pratica" o maior número de modalidades.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Centro de Estudos Cinematográficos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "CEC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "anualmente",
+    "label": "TEMPO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Caminhos do Cinema Português",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Festival \"Caminhos do Cinema Português\"",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Rádio Universidade de Coimbra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "RUC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Secção de Jornalismo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "A Cabra",
+    "label": "COISA",
+    "token_indices": [
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Grupo de folclore e etnografia",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "GEFAC",
+    "label": "PESSOA",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "TEUC",
+    "label": "PESSOA",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "CITAC",
+    "label": "PESSOA",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "Académica",
+    "label": "PESSOA",
+    "token_indices": [
+      119
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('AAC', 'ORGANIZACAO'), ('Centro de Estudos Cinematográficos', 'ORGANIZACAO'), ('CEC', 'ORGANIZACAO'), ('anualmente', 'TEMPO'), ('Caminhos do Cinema Português', 'ACONTECIMENTO'), ('Festival "Caminhos do Cinema Português"', 'ACONTECIMENTO'), ('Rádio Universidade de Coimbra', 'ORGANIZACAO'), ('RUC', 'ORGANIZACAO'), ('Secção de Jornalismo', 'ORGANIZACAO'), ('A Cabra', 'COISA'), ('Grupo de folclore e etnografia', 'PESSOA'), ('GEFAC', 'PESSOA'), ('TEUC', 'PESSOA'), ('CITAC', 'PESSOA'), ('Académica', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Também referido como " Académica ", o clube de futebol profissional mais conhecido de Coimbra , de seu verdadeiro nome Associação Académica de Coimbra - Organismo Autónomo de Futebol ( AAC-OAF ), é considerado o herdeiro da secção de futebol da AAC (que se mantém na pratica amadora), mas é hoje um clube independente, cuja ligação com a AAC é cada vez mais ténue.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Académica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Associação Académica de Coimbra - Organismo Autónomo de Futebol",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "AAC-OAF",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Académica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Associação Académica de Coimbra",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AAC-OAF",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AAC",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Académica', 'ABSTRACCAO'), ('Associação Académica de Coimbra - Organismo Autónomo de Futebol', 'ABSTRACCAO'), ('AAC-OAF', 'ABSTRACCAO'), ('AAC', 'ORGANIZACAO'), ('hoje', 'TEMPO'), ('AAC', 'ORGANIZACAO')]
+Espúrias  (FP): [('Académica', 'PESSOA'), ('Associação Académica de Coimbra', 'PESSOA'), ('AAC-OAF', 'PESSOA'), ('AAC', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A AAC é dirigida pela Direcção Geral ( DG ), composta por estudantes, e eleita anualmente entre Novembro e Dezembro em eleições abertas a todos os sócios, tanto estudantes como os sócios seccionistas. À DG compete a administração da AAC bem como a representação política dos estudantes. Em termos políticos, é ainda de referir a importância das Assembleias Magnas , assembleias sobretudo de discussão da política da Academia , abertas a todos os sócios, cujas decisões têm de ser obrigatoriamente cumpridas, independentemente da opinião da DG . Este poder decisório da Assembleia Magna torna-a no palco de discussões acesas, sobretudo entre os estudantes politizados. No passado recente, tem havido no mínimo 5-6 Assembleias Magnas por ano , com participação oscilante, mas um mínimo de cerca de 200 sócios. Infelizmente, a falta de interesse generalizado por estas questões na nossa sociedade, particularmente nas faixas etárias mais jovens, faz-se reflectir na fraca participação das Assembleias Magnas [carece de fontes?]. No entanto, a AAC continua a lutar para pautar a política educativa do Ensino Superior em Portugal [carece de fontes?]. O actual edifício da AAC foi inaugurado em 1961 e alberga praticamente todas as secções da AAC , estando integrado num quarteirão que inclui ainda uma sala de espectáculos ( Teatro Académico de Gil Vicente ) e um complexo de cantinas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Direcção Geral",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "DG",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "anualmente",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "entre Novembro e Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "DG",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Assembleias Magnas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Academia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "DG",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Assembleia Magna",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91,
+      92
+    ]
+  },
+  {
+    "text": "5-6",
+    "label": "VALOR",
+    "token_indices": [
+      111
+    ]
+  },
+  {
+    "text": "Assembleias Magnas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      112,
+      113
+    ]
+  },
+  {
+    "text": "por ano",
+    "label": "TEMPO",
+    "token_indices": [
+      114,
+      115
+    ]
+  },
+  {
+    "text": "cerca de 200",
+    "label": "VALOR",
+    "token_indices": [
+      124,
+      125,
+      126
+    ]
+  },
+  {
+    "text": "Assembleias Magnas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      152,
+      153
+    ]
+  },
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      160
+    ]
+  },
+  {
+    "text": "Ensino Superior",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      170,
+      171
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      173
+    ]
+  },
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      181
+    ]
+  },
+  {
+    "text": "em 1961",
+    "label": "TEMPO",
+    "token_indices": [
+      184,
+      185
+    ]
+  },
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      193
+    ]
+  },
+  {
+    "text": "Teatro Académico de Gil Vicente",
+    "label": "LOCAL",
+    "token_indices": [
+      207,
+      208,
+      209,
+      210,
+      211
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "AAC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Direcção Geral",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "DG",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "entre Novembro e Dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Assembleias Magnas",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Academia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "DG",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Assembleia Magna",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "DG",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "no mínimo 5-6",
+    "label": "VALOR"
+  },
+  {
+    "text": "Assembleias Magnas",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "cerca de 1000",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('anualmente', 'TEMPO'), ('AAC', 'ORGANIZACAO'), ('Assembleia Magna', 'ORGANIZACAO'), ('5-6', 'VALOR'), ('por ano', 'TEMPO'), ('cerca de 200', 'VALOR'), ('Assembleias Magnas', 'ACONTECIMENTO'), ('AAC', 'ORGANIZACAO'), ('Ensino Superior', 'ABSTRACCAO'), ('Portugal', 'LOCAL'), ('AAC', 'ORGANIZACAO'), ('em 1961', 'TEMPO'), ('AAC', 'ORGANIZACAO'), ('Teatro Académico de Gil Vicente', 'LOCAL')]
+Espúrias  (FP): [('Assembleia Magna', 'ACONTECIMENTO'), ('no mínimo 5-6', 'VALOR'), ('cerca de 1000', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Educação Ambiental
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Educação Ambiental', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Este espaço se destina a divulgar os principais Programas , Projetos e Ações desenvolvidos pela Coordenação-Geral de Educação Ambiental que tem como eixos centrais: Fortalecimento da Política Nacional de Educação Ambiental - Lei 9795/99 ; Formação Continuada na Educação Básica ; Fomento a projetos de Educação Ambiental | Fomento a projetos de Educação Ambiental ; Educação Ambiental no Ensino Superior .Estas ações, em sua maior parte, estão em consonância com as ações procedidas no âmbito da Diretoria de Educação Ambiental - DEA , do Ministério do Meio Ambiente ; guardadas suas competências e atribuições específicas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Programas",
+    "label": "OBRA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Projetos",
+    "label": "OBRA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Ações",
+    "label": "OBRA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Coordenação-Geral de Educação Ambiental",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Fortalecimento da Política Nacional de Educação Ambiental",
+    "label": "OBRA",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Lei 9795/99",
+    "label": "OBRA",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Formação Continuada na Educação Básica",
+    "label": "OBRA",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Fomento a projetos de Educação Ambiental",
+    "label": "OBRA",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Educação Ambiental no Ensino Superior",
+    "label": "OBRA",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Diretoria de Educação Ambiental",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76,
+      77,
+      78,
+      79
+    ]
+  },
+  {
+    "text": "DEA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Ministério do Meio Ambiente",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      84,
+      85,
+      86,
+      87
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Coordenação-Geral de Educação Ambiental",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei 9795/99",
+    "label": "OBRA"
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Educação Ambiental no Ensino Superior",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Diretoria de Educação Ambiental",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "DEA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério do Meio Ambiente",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Programas', 'OBRA'), ('Projetos', 'OBRA'), ('Ações', 'OBRA'), ('Fortalecimento da Política Nacional de Educação Ambiental', 'OBRA'), ('Formação Continuada na Educação Básica', 'OBRA'), ('Fomento a projetos de Educação Ambiental', 'OBRA'), ('Educação Ambiental no Ensino Superior', 'OBRA')]
+Espúrias  (FP): [('Educação Ambiental', 'ABSTRACCAO'), ('Educação Ambiental no Ensino Superior', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que fazem as escolas que dizem que fazem EA
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EA",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('EA', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para responder a essa pergunta, uma parceria entre a Secretaria de Educação Continuada, Alfabetização e Diversidade - SECAD/MEC , o INEP e a Associação Nacional de Pesquisa em Educação - ANPED possibilitou a elaboração de uma pesquisa para aprofundar os dados obtidos no Censo Escolar ( 2001-2004 ) e conhecer melhor como estas alternativas são processadas e significadas nos diferentes contextos escolares, possibilitando uma compreensão qualitativa dos caminhos de inserção da Educação Ambiental no ensino fundamental.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Educação Continuada, Alfabetização e Diversidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "SECAD/MEC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "INEP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Associação Nacional de Pesquisa em Educação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "ANPED",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Censo Escolar",
+    "label": "OBRA",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "2001-2004",
+    "label": "TEMPO",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Secretaria de Educação Continuada, Alfabetização e Diversidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SECAD/MEC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "INEP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação Nacional de Pesquisa em Educação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ANPED",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Censo Escolar",
+    "label": "OBRA"
+  },
+  {
+    "text": "2001-2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "ensino fundamental",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('ensino fundamental', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Educação de Chico Mendes
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Educação de Chico Mendes",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Chico Mendes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Educação de Chico Mendes', 'OBRA')]
+Espúrias  (FP): [('Chico Mendes', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Formação continuada de professores em Educação Ambiental
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Educação Ambiental', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Resolução nº 13 do FNDE dá continuidade do Programa Vamos Cuidar do Brasil com as Escolas , estabelecendo normas para o apoio financeiro a projetos de formação de professores em Educação Ambiental .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Resolução nº 13",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "FNDE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Programa Vamos Cuidar do Brasil com as Escolas",
+    "label": "OBRA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Resolução nº 13",
+    "label": "OBRA"
+  },
+  {
+    "text": "FNDE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Programa Vamos Cuidar do Brasil com as Escolas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Educação Ambiental', 'ABSTRACCAO')]
+Espúrias  (FP): [('Educação Ambiental', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tais projetos de formação envolverão professores do segundo ciclo do ensino fundamental ( 5a a 8a séries), de escolas públicas que participaram do processo da II Conferência Nacional Infanto-Juvenil pelo Meio Ambiente ; e à elaboração, aquisição, reimpressão ou reprodução do material didático empregado na formação. O objetivo desta ação, é estimular, em professores, alunos e gestores de educação, a leitura crítica da realidade a partir da diversidade e do meio ambiente e a participação no processo de construção de conhecimentos, pesquisa e intervenção cidadã com base em valores voltados à sustentabilidade da vida em suas múltiplas dimensões. Os projetos de formação devem aprimorar a qualidade da abordagem da educação ambiental que, segundo Censo do INEP | Censo do INEP | Censo do INEP , encontra presente em 94,5% d
+
+Entidades verdadeiras:
+[
+  {
+    "text": "II Conferência Nacional Infanto-Juvenil pelo Meio Ambiente",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "INEP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Censo do INEP",
+    "label": "OBRA",
+    "token_indices": [
+      117,
+      118,
+      119
+    ]
+  },
+  {
+    "text": "Censo",
+    "label": "OBRA",
+    "token_indices": [
+      121
+    ]
+  },
+  {
+    "text": "INEP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "94,5%",
+    "label": "VALOR",
+    "token_indices": [
+      128
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "5a a 8a séries",
+    "label": "TEMPO"
+  },
+  {
+    "text": "II Conferência Nacional Infanto-Juvenil pelo Meio Ambiente",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "INEP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Censo do INEP",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "INEP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "80%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Censo do INEP', 'OBRA'), ('Censo', 'OBRA'), ('94,5%', 'VALOR')]
+Espúrias  (FP): [('5a a 8a séries', 'TEMPO'), ('Censo do INEP', 'ACONTECIMENTO'), ('80%', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Portfolio do Órgão Gestor da Política Nacional de Educação Ambiental
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Órgão Gestor da Política Nacional de Educação Ambiental",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Órgão Gestor",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Política Nacional de Educação Ambiental",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Órgão Gestor da Política Nacional de Educação Ambiental', 'ORGANIZACAO')]
+Espúrias  (FP): [('Órgão Gestor', 'ORGANIZACAO'), ('Política Nacional de Educação Ambiental', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Programa Juventude e Meio Ambiente
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa Juventude e Meio Ambiente",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Juventude e Meio Ambiente",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Programa Juventude e Meio Ambiente', 'OBRA')]
+Espúrias  (FP): [('Juventude e Meio Ambiente', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este Programa se propõe a incentivar e a aprofundar o debate socioambiental com foco em políticas públicas, deflagrando um processo de formação de jovens e de fortalecimento dos Coletivos Jovens de Meio Ambiente existentes em todo o país. A proposta dos Coletivos Jovens vem sendo construída e implementada desde 2003 , a partir da realização da I Conferência Nacional Infanto-Juvenil pelo Meio Ambiente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa",
+    "label": "OBRA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Coletivos Jovens de Meio Ambiente",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Coletivos Jovens",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "desde 2003",
+    "label": "TEMPO",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "I Conferência Nacional Infanto-Juvenil pelo Meio Ambiente",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Programa",
+    "label": "OBRA"
+  },
+  {
+    "text": "desde 2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "I Conferência Nacional Infanto-Juvenil pelo Meio Ambiente",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Coletivos Jovens de Meio Ambiente', 'ORGANIZACAO'), ('Coletivos Jovens', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Manual Orientador para Coletivos Jovens de Meio Ambiente é uma das publicações do Programa , e tem como objetivo contribuir para o fortalecimento dos Coletivos Jovens ( CJs ) já existentes e estimular a formação de novos Coletivos Jovens em municípios.A principal linha de ação do Programa é a formação de jovens na área socioambiental, em cinco temas principais: Educação Ambiental ; Fortalecimento Organizacional ; Educomunicação ; Empreendedorismo ; e Participação Política .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Manual Orientador para Coletivos Jovens de Meio Ambiente",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Programa",
+    "label": "OBRA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Coletivos Jovens",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "CJs",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Coletivos Jovens",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Programa",
+    "label": "OBRA",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Fortalecimento Organizacional",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Educomunicação",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Empreendedorismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Participação Política",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Manual Orientador para Coletivos Jovens de Meio Ambiente",
+    "label": "OBRA"
+  },
+  {
+    "text": "Programa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Coletivos Jovens",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CJs",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Educação Ambiental",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Fortalecimento Organizacional",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Educomunicação",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Empreendedorismo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Participação Política",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Programa', 'OBRA'), ('Coletivos Jovens', 'PESSOA'), ('CJs', 'PESSOA'), ('Coletivos Jovens', 'PESSOA'), ('Programa', 'OBRA')]
+Espúrias  (FP): [('Programa', 'ORGANIZACAO'), ('Coletivos Jovens', 'ORGANIZACAO'), ('CJs', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Trata-se de um processo de formação presencial e a distância, e que envolverá jovens de todos os estados brasileiros.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "de todos os estados brasileiros",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('de todos os estados brasileiros', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ensino Médio
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ensino Médio",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ensino Médio', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Secretaria de Educação Continuada, Alfabetização e Diversidade ( SECAD ) foi convidada pelo departamento de Ensino Médio da Secretaria de Educação Básica ( SEB ) a participar do processo de reelaboração dos Parâmetros Curriculares Nacionais do Ensino Médio , no intuito de produzir textos que contemplassem a perspectiva da diversidade.Nesse sentido, a SECAD fez uma oficina com a participação de suas coordenações-gerais onde foi trabalhada a questão da diversidade no currículo como forma de orientar as atividades pedagógicas, ou seja, definir qual a concepção de currículo e diversidade que se quer trabalhar, quais os objetivos e qual a melhor maneira de inserir as diferentes temáticas nas áreas e disciplinas do ensino médio. Cada coordenação produziu um texto procurando articular as várias temáticas, que resultará num Caderno de Diversidade para acompanhar os Parâmetros Curriculares Nacionais do Ensino Médio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Educação Continuada, Alfabetização e Diversidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "SECAD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Ensino Médio",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Secretaria de Educação Básica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "SEB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Parâmetros Curriculares Nacionais do Ensino Médio",
+    "label": "OBRA",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "SECAD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Caderno de Diversidade",
+    "label": "OBRA",
+    "token_indices": [
+      126,
+      127,
+      128
+    ]
+  },
+  {
+    "text": "Parâmetros Curriculares Nacionais do Ensino Médio",
+    "label": "OBRA",
+    "token_indices": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Secretaria de Educação Continuada, Alfabetização e Diversidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SECAD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Secretaria de Educação Básica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SEB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Parâmetros Curriculares Nacionais do Ensino Médio",
+    "label": "OBRA"
+  },
+  {
+    "text": "SECAD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Caderno de Orientações Pedagógicas para a Diversidade no Currículo do Ensino Médio",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Ensino Médio', 'ABSTRACCAO'), ('Caderno de Diversidade', 'OBRA'), ('Parâmetros Curriculares Nacionais do Ensino Médio', 'OBRA')]
+Espúrias  (FP): [('Caderno de Orientações Pedagógicas para a Diversidade no Currículo do Ensino Médio', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com-vida MEC
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Com-vida MEC",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Com-vida",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "MEC",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Com-vida MEC', 'OBRA')]
+Espúrias  (FP): [('Com-vida', 'ABSTRACCAO'), ('MEC', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Programa Institucional de Gestão Ambiental do MEC | Programa Institucional de Gestão Ambiental do MEC que visa a melhor gestão dos recursos naturais e a diminuição dos impactos ambientais gerados pelas suas atividades.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa Institucional de Gestão Ambiental do MEC",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Programa Institucional de Gestão Ambiental",
+    "label": "OBRA",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "MEC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Programa Institucional de Gestão Ambiental do MEC",
+    "label": "OBRA"
+  },
+  {
+    "text": "MEC",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Programa Institucional de Gestão Ambiental', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Aristides de Sousa Mendes permanece ainda cônsul de Bordéus | cônsul de Bordéus quando tem início a Segunda Guerra Mundial , e as tropas de Adolf Hitler avançam rapidamente sobre a França .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aristides de Sousa Mendes",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "cônsul de Bordéus",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Bordéus",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Segunda Guerra Mundial",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Adolf Hitler",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Aristides de Sousa Mendes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bordéus",
+    "label": "LOCAL"
+  },
+  {
+    "text": "cônsul de Bordéus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "cônsul",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bordéus",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Guerra Mundial",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Adolf Hitler",
+    "label": "PESSOA"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Adolf Hitler', 'ORGANIZACAO')]
+Espúrias  (FP): [('cônsul', 'PESSOA'), ('Bordéus', 'LOCAL'), ('Adolf Hitler', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Salazar manteve a neutralidade de Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Salazar",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Salazar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Portugal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Portugal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Entretanto, em 1940 , o governo francês refugiou-se temporariamente na cidade, fugindo de Paris antes da chegada das tropas alemãs. Dezenas de milhar de refugiados que fogem do avanço Nazi dirigiram-se a Bordéus .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em 1940",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Nazi",
+    "label": "PESSOA",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Bordéus",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em 1940",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bordéus",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Nazi', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Já no final de 1939 , Sousa Mendes tinha desobedecido às instruções do seu governo e emitido alguns vistos. Entre as pessoas que ele tinha então decidido ajudar encontra-se o Rabino de Antuérpia Jacob Kruger | Rabino de Antuérpia Jacob Kruger | Rabino de Antuérpia Jacob Kruger , que lhe faz compreender que há que salvar os refugiados judeus.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "no final de 1939",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Sousa Mendes",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Rabino de Antuérpia Jacob Kruger",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Rabino de Antuérpia",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Jacob Kruger",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Rabino",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Antuérpia",
+    "label": "LOCAL",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Jacob Kruger",
+    "label": "PESSOA",
+    "token_indices": [
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "no final de 1939",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Sousa Mendes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rabino de Antuérpia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jacob Kruger",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rabino de Antuérpia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rabino",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Antuérpia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rabino",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jacob Kruger",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Rabino de Antuérpia Jacob Kruger', 'PESSOA')]
+Espúrias  (FP): [('Rabino de Antuérpia', 'PESSOA'), ('Rabino', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A 16 de Junho de 1940 , Aristides decide entregar um visto a todos os refugiados que o pedirem: "A partir de agora, darei vistos a toda a gente, já não há nacionalidades, raça ou religião". Com a ajuda dos seus filhos e sobrinhos e do rabino Kruger , ele carimba passaportes, assina vistos, usando todas as folhas de papel disponíveis.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "A 16 de Junho de 1940",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Aristides",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "rabino Kruger",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "A 16 de Junho de 1940",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Aristides",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Kruger",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('rabino Kruger', 'PESSOA')]
+Espúrias  (FP): [('Kruger', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Confrontado com os primeiros avisos de Lisboa , ele terá dito: "Se há que desobedecer, prefiro que seja a uma ordem dos homens do que a uma ordem de Deus ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lisboa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Lisboa', 'ORGANIZACAO')]
+Espúrias  (FP): [('Lisboa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A 22 de Junho de 1940 , a França pediu um armistício à Alemanha Nazi . Mesmo a caminho de Hendaye , Aristides continua a emitir vistos para os refugiados que cruzam com ele a caminho da fronteira, uma vez que a 23 de Junho , Salazar demitira-o de suas funções de cônsul.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "A 22 de Junho de 1940",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "França",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Alemanha Nazi",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Hendaye",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Aristides",
+    "label": "PESSOA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "a 23 de Junho",
+    "label": "TEMPO",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Salazar",
+    "label": "PESSOA",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "A 22 de Junho de 1940",
+    "label": "TEMPO"
+  },
+  {
+    "text": "França",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Alemanha Nazi",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Hendaye",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Aristides",
+    "label": "PESSOA"
+  },
+  {
+    "text": "23 de Junho",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Salazar",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('a 23 de Junho', 'TEMPO')]
+Espúrias  (FP): [('23 de Junho', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ontem , na esquina de casa, um camelô estendia seus murais com capas de DVDs mal impressas. Passei por ele sem me importar, era apenas mais um desses caras que atrapalham o nosso caminho pelas calçadas. Continuei rumo à sessão das 19h no Espaço de Cinema em Botafogo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ontem",
+    "label": "TEMPO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "das 19h",
+    "label": "TEMPO",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Espaço de Cinema",
+    "label": "LOCAL",
+    "token_indices": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Botafogo",
+    "label": "LOCAL",
+    "token_indices": [
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ontem",
+    "label": "TEMPO"
+  },
+  {
+    "text": "19h",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Espaço de Cinema",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Botafogo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('das 19h', 'TEMPO')]
+Espúrias  (FP): [('19h', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Trinta passos adiante parei e lembrei do recente caso " Tropa de Elite : o filme tinha vazado no pirata, e desde o início da semana estava sendo vendido nas ruas do Rio . Titubeei um pouco, podia perder a sessão no cinema, mas acabei voltando para conferir os títulos que o camelô oferecia.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tropa de Elite",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "desde o início da semana",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Trinta",
+    "label": "VALOR"
+  },
+  {
+    "text": "Tropa de Elite",
+    "label": "OBRA"
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Tropa de Elite', 'ACONTECIMENTO'), ('desde o início da semana', 'TEMPO')]
+Espúrias  (FP): [('Trinta', 'VALOR'), ('Tropa de Elite', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cheguei devagar, olhando meio de longe, um pouco constrangido, confesso. Ainda sou dessas pessoas que têm um certo pudor em ficar ali, cara a cara com o pirata. Logo encontrei dois títulos nacionais: Xuxa Gêmeas e Ó paí ó | Ó paí ó. Perguntei se ele tinha Tropa de Elite , o rapaz branquelo, com cara de rapper zona sul, boné e bermudão Billabong respondeu:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Xuxa Gêmeas",
+    "label": "OBRA",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Ó paí ó",
+    "label": "OBRA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Tropa de Elite",
+    "label": "OBRA",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Billabong",
+    "label": "COISA",
+    "token_indices": [
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Xuxa Gêmeas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Ó paí ó",
+    "label": "OBRA"
+  },
+  {
+    "text": "Ó paí ó",
+    "label": "OBRA"
+  },
+  {
+    "text": "Tropa de Elite",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Billabong', 'COISA')]
+Espúrias  (FP): [('Ó paí ó', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Ah, esse não é o filme que teve os armamentos roubados no " Chapéu Mangueira "?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Chapéu Mangueira",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Chapéu Mangueira",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Chapéu Mangueira', 'LOCAL')]
+Espúrias  (FP): [('Chapéu Mangueira', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Beleza então, se a qualidade não for boa eu volto aqui amanhã e troco.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "amanhã",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('amanhã', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nessa, o camelo parou pra olhar uma conversa meio estranha que seu companheiro de banca travava com um sujeito meio cara de PM | PM à paisana. Ficou ali, meio de esguelha, prestando atenção, e eu, ao lado, esperando o produto. Parecia que a conversa alheia fechava alguma combinação. Cutuquei:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PM",
+    "label": "COISA",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PM",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PM",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PM', 'COISA')]
+Espúrias  (FP): [('PM', 'PESSOA'), ('PM', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+- E aê, tem o Tropa de Elite ou não? - perguntei de novo, querendo sair logo pro cinema.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tropa de Elite",
+    "label": "COISA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tropa de Elite",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Tropa de Elite', 'COISA')]
+Espúrias  (FP): [('Tropa de Elite', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Tem sim. Sai um Tropa aí - disse o branquelo pro chapa.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tropa",
+    "label": "COISA",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tropa', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O comparsa foi lá numa bolsa preta e pegou lá um plástico com uma folha mal impressa que trazia Tropa de Elite escrito com uma fonte meio " Linha Direta " e umas fotos não identificáveis que deviam reproduzir cenas do filme. Dentro vinha o DVD da "mídia roxinha", abri pra constatar. Me entregou logo dizendo:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tropa de Elite",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Linha Direta",
+    "label": "COISA",
+    "token_indices": [
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tropa de Elite",
+    "label": "OBRA"
+  },
+  {
+    "text": "Linha Direta",
+    "label": "OBRA"
+  },
+  {
+    "text": "DVD",
+    "label": "COISA"
+  },
+  {
+    "text": "mídia roxinha",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Tropa de Elite', 'ABSTRACCAO'), ('Linha Direta', 'COISA')]
+Espúrias  (FP): [('Tropa de Elite', 'OBRA'), ('Linha Direta', 'OBRA'), ('DVD', 'COISA'), ('mídia roxinha', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Ó Paí ó | Ó Paí ó, to ligado, esse eu já vi - o que não era verdade, só para não estender mais a transação.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ó Paí ó",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ó Paí",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Ó Paí ó', 'OBRA')]
+Espúrias  (FP): [('Ó Paí', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Também tem o Caixa Dois , sabe qual é?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Caixa Dois",
+    "label": "OBRA",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Caixa Dois",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Caixa Dois', 'OBRA')]
+Espúrias  (FP): [('Caixa Dois', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Sei sim, mas hoje só quero o Tropa mesmo - já quase íntimo do filme do Padilha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Tropa",
+    "label": "OBRA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Padilha",
+    "label": "PESSOA",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tropa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Padilha",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('hoje', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Paguei e fui pro cinema pensando na tamanha facilidade com que aquele filme tinha parado nas minhas mãos por 5 pratas , menos que um big mac...no esforço que devia ter sido fazer tudo aquilo: levantar a história com os Bopes , roteirizar em zilhões de tratamentos, reservar o espaço na agenda de caras como Tulé Peak (diretor de arte), Braulio Mantovani (roteirista) e Daniel Rezende (montador) - não por acaso, o mesmo trio ternura por trás de Cidade de Deus -, e além disso, aprovar o projeto, captar, produzir, filmar, ter as filmagens paralisadas pelo roubo de todo o armamento cenográfico, artefatos que protagonizam o filme do início ao fim, e ainda finalizar, negociar a comercialização, traçar uma estratégia de marketing, etc. Uma trabalheira danada. E depois de tudo isso, ver um pedaço mutilado do seu "filho" de 3 anos parar na mão de geral por 5 real (a versão que circula é que a cópia vendida pelos ambulantes é o segundo corte do filme, que já estaria na 16ª versão da montagem).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "5 pratas",
+    "label": "VALOR",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Bopes",
+    "label": "PESSOA",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Tulé Peak",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Braulio Mantovani",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Daniel Rezende",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Cidade de Deus",
+    "label": "OBRA",
+    "token_indices": [
+      78,
+      79,
+      80
+    ]
+  },
+  {
+    "text": "3 anos",
+    "label": "VALOR",
+    "token_indices": [
+      139,
+      140
+    ]
+  },
+  {
+    "text": "5 real",
+    "label": "VALOR",
+    "token_indices": [
+      147,
+      148
+    ]
+  },
+  {
+    "text": "16ª",
+    "label": "VALOR",
+    "token_indices": [
+      170
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "5 pratas",
+    "label": "VALOR"
+  },
+  {
+    "text": "Bopes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tulé Peak",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Braulio Mantovani",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Daniel Rezende",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cidade de Deus",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('3 anos', 'VALOR'), ('5 real', 'VALOR'), ('16ª', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É um caso inédito para o cinema brasileiro, e talvez para a Polícia também. Um filme que desperta tal interesse do público, de forma tão espontânea, que ganha as ruas pela via da ilegalidade antes do seu lançamento nos cinemas, numa avassaladora "não-ação" de marketing viral, ou numa curiosa referência àquilo mesmo de que trata sua história. O vazamento da cópia já está sendo investigado pela própria Polícia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Polícia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Polícia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Polícia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Polícia', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Resta saber como isso vai repercutir daqui pra frente. Vai ser bom ou não? Quem pode ter certeza sobre o que o diretor José Padilha diz à Folha de S. Paulo : "que ninguém sabe o efeito que as vendas piratas terão sobre a bilheteria do filme, mas acredita na chance de não haver prejuízo à performance da venda de ingressos, já que, analisa, o público do DVD pirata é um e o dos cinemas, outro." Ou será que o boca a boca vai fazer o filme estourar? Vai virar reportagem do Fantástico ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "diretor José Padilha",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Folha de S. Paulo",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Fantástico",
+    "label": "COISA",
+    "token_indices": [
+      92
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Folha de S. Paulo",
+    "label": "OBRA"
+  },
+  {
+    "text": "José Padilha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "daqui pra frente",
+    "label": "TEMPO"
+  },
+  {
+    "text": "DVD",
+    "label": "COISA"
+  },
+  {
+    "text": "Fantástico",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('diretor José Padilha', 'PESSOA'), ('Folha de S. Paulo', 'PESSOA'), ('Fantástico', 'COISA')]
+Espúrias  (FP): [('Folha de S. Paulo', 'OBRA'), ('José Padilha', 'PESSOA'), ('daqui pra frente', 'TEMPO'), ('DVD', 'COISA'), ('Fantástico', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mídia espontânea ou um baita furo pirata, ninguém pode dizer ainda. O que dá pra comentar do lado de cá é que o filme é brilhantemente aterrador. Um thriller que combina a crueza esquemática de Notícias de uma guerra particular | Notícias de uma guerra particular e a cinematografia exuberante de Cidade de Deus . Esse é só o começo de uma grande História que vem por aí. Em breve, num cinema perto de você.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Notícias de uma guerra particular",
+    "label": "OBRA",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Cidade de Deus",
+    "label": "OBRA",
+    "token_indices": [
+      51,
+      52,
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Notícias de uma guerra particular",
+    "label": "OBRA"
+  },
+  {
+    "text": "Notícias de uma guerra particular",
+    "label": "OBRA"
+  },
+  {
+    "text": "Cidade de Deus",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Notícias de uma guerra particular', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Talvez seja bom explicar o que se passa. O povo português tem tido, até agora, a decência de não delegar em PPM qualquer espécie de poder. Mas a verdade é que o povo português não tem sido tão sensato no que respeita a outras pessoas. Eu sei que esta notícia vai cair como uma bomba no 31 da Armada , mas há gente um pouco mais poderosa do que o PPM . É uma coisa muito ligeira, mas tem, de facto, um bocadinho mais de poder. E essa gente, quando se sente atingida, ou quando sente que os amigos foram atingidos (mesmo que seja por uma rábula humorística), pressiona, corta relações com a estação de televisão em que a rábula foi emitida, manda recados com ameaças, faz saber que ficará à espera de uma oportunidade para nos fazer, digamos, coisas bonitas (sempre que posso, uso expressões de Artur Jorge ). É isso que tem acontecido desde que o Diz Que É Uma Espécie de Magazine começou e foi o que aconteceu agora, de forma bastante mais intensa, na sequência do sketch sobre Marcelo Rebelo de Sousa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "31 da Armada",
+    "label": "LOCAL",
+    "token_indices": [
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Artur Jorge",
+    "label": "PESSOA",
+    "token_indices": [
+      147,
+      148
+    ]
+  },
+  {
+    "text": "Diz Que É Uma Espécie de Magazine",
+    "label": "OBRA",
+    "token_indices": [
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164
+    ]
+  },
+  {
+    "text": "Marcelo Rebelo de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      182,
+      183,
+      184,
+      185
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA"
+  },
+  {
+    "text": "até agora",
+    "label": "TEMPO"
+  },
+  {
+    "text": "31 da Armada",
+    "label": "LOCAL"
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Artur Jorge', 'PESSOA'), ('Diz Que É Uma Espécie de Magazine', 'OBRA'), ('Marcelo Rebelo de Sousa', 'PESSOA')]
+Espúrias  (FP): [('até agora', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Respondi que não, e não menti. Da RTP e do Provedor do Espectador , não veio qualquer espécie de pressão. Quem sobra? No entender do PPM , sobra ele e um post que escreveu no 31 da Armada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RTP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Provedor do Espectador",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "31 da Armada",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "RTP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Provedor do Espectador",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PPM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "31",
+    "label": "VALOR"
+  },
+  {
+    "text": "Armada",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('PPM', 'PESSOA'), ('31 da Armada', 'LOCAL')]
+Espúrias  (FP): [('PPM', 'ORGANIZACAO'), ('31', 'VALOR'), ('Armada', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fizemos uma rábula para um milhão e meio de espectadores por causa de um post do PPM no 31 da Armada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "31 da Armada",
+    "label": "LOCAL",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA"
+  },
+  {
+    "text": "31",
+    "label": "VALOR"
+  },
+  {
+    "text": "Armada",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('31 da Armada', 'LOCAL')]
+Espúrias  (FP): [('31', 'VALOR'), ('Armada', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mandei uma mensagem ao Herman a dar-lhe razão por causa de um post do PPM no 31 da Armada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Herman",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "31 da Armada",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Herman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PPM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "31",
+    "label": "VALOR"
+  },
+  {
+    "text": "Armada",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('PPM', 'PESSOA'), ('31 da Armada', 'LOCAL')]
+Espúrias  (FP): [('PPM', 'ORGANIZACAO'), ('31', 'VALOR'), ('Armada', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+E dei-lhe razão porque, como é óbvio, foi para isso que ele me advertiu. «Põe-te com brincadeiras e vais ver que, um dia destes , o PPM faz um post sobre ti no 31 da Armada », foram as palavras exactas dele. «Tinha razão, Herman », disse-lhe eu agora.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "um dia destes",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "31 da Armada",
+    "label": "LOCAL",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Herman",
+    "label": "PESSOA",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "um dia destes",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PPM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "31",
+    "label": "VALOR"
+  },
+  {
+    "text": "Armada",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Herman",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PPM', 'PESSOA'), ('31 da Armada', 'LOCAL')]
+Espúrias  (FP): [('PPM', 'ORGANIZACAO'), ('31', 'VALOR'), ('Armada', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Há, no meio disto tudo, um pormenor que pode intrigar o leitor. Se eu já interpretei tantas personagens apalermadas e de discurso incoerente, porque é que o PPM só se sentiu retratado agora? Boa pergunta, leitor. Vagamente insultuosa, mas boa. Eu respondo: por duas razões. Primeiro, porque quando eu disse que a RTP e o Provedor não nos tinham pressionado, a jornalista tirou conclusões que não são as minhas. Segundo, porque a crítica do PPM segue, digamos, a mesma matriz ideológica que o pequeno poder (e, às vezes , não tão pequeno como isso) perfilha. Aliás, a crítica do PPM não é nova, nem é só dele. Já tinha sido usada para pedir a nossa imparcialidade em relação a Salazar e Cunhal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "RTP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Provedor",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "às vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      86,
+      87
+    ]
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Salazar",
+    "label": "PESSOA",
+    "token_indices": [
+      119
+    ]
+  },
+  {
+    "text": "Cunhal",
+    "label": "PESSOA",
+    "token_indices": [
+      121
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA"
+  },
+  {
+    "text": "agora",
+    "label": "TEMPO"
+  },
+  {
+    "text": "RTP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Provedor",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "às vezes",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('PPM', 'PESSOA'), ('PPM', 'PESSOA'), ('Salazar', 'PESSOA'), ('Cunhal', 'PESSOA')]
+Espúrias  (FP): [('agora', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Parece que o que é intelectualmente honesto é dizer que um programa humorístico de sátira social e política deve ser imparcial (argumento espantoso). Ou dizer que criticar o prof. Marcelo é fazer campanha pelo Sim . O próprio prof. Marcelo diz que foi criticado por muitos defensores do Não o que só pode significar que, pelos vistos, há gente do Não a fazer campanha pelo Sim .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "prof. Marcelo",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Sim",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "prof. Marcelo",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Não",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Não",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Sim",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "prof. Marcelo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sim",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Não",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Sim",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Não",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('prof. Marcelo', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PPM , referindo-se ao sketch sobre o prof. Marcelo , diz que, «em plena campanha eleitoral» quisemos Žridicularizar os argumentos de um dos lados em confronto no referendo». Primeiro, o prof. Marcelo não representa o Não . Ele mesmo, aliás, afirma que há vários Nãos . Segundo, a nossa rábula sobre o prof. Marcelo foi transmitida no domingo, dia 28 de Janeiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "prof. Marcelo",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "prof. Marcelo",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Não",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Nãos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "prof. Marcelo",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "no domingo, dia 28 de Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Marcelo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Não",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Nãos",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "no domingo, dia 28 de Janeiro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('prof. Marcelo', 'PESSOA'), ('prof. Marcelo', 'PESSOA'), ('prof. Marcelo', 'PESSOA')]
+Espúrias  (FP): [('Marcelo', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A campanha começou na terça-feira, dia 30 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "na terça-feira, dia 30",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "na terça-feira",
+    "label": "TEMPO"
+  },
+  {
+    "text": "dia 30",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('na terça-feira, dia 30', 'TEMPO')]
+Espúrias  (FP): [('na terça-feira', 'TEMPO'), ('dia 30', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Dizer que fizemos o sketch «em plena campanha eleitoral» é, portanto, uma... Bom, parece-me que não há maneira delicada de o dizer: é mentira.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "em plena campanha eleitoral",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('em plena campanha eleitoral', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não posso deixar de fazer referência às últimas palavras de PPM , que me parecem interessantes: « Ricardo Araújo Pereira pode dizer que não me conhece de lado nenhum, como disse ao 24 Horas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Ricardo Araújo Pereira",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "24 Horas",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ricardo Araújo Pereira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "24 Horas",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('24 Horas', 'PESSOA')]
+Espúrias  (FP): [('24 Horas', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pode, mas estará a faltar à verdade se o repetir em relação ao Rodrigo Moita de Deus .» Quero agradecer, penhorado, que PPM me autorize a dizer o que eu disse. Já é mais do que costuma fazer, e registo a evolução democrática. Agradeço ainda mais que me ponha de sobreaviso em relação à veracidade do que eu não disse mas, por uma razão que neste momento me escapa, poderei vir a dizer.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rodrigo Moita de Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "neste momento",
+    "label": "TEMPO",
+    "token_indices": [
+      65,
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rodrigo Moita de Deus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PPM",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('PPM', 'PESSOA'), ('neste momento', 'TEMPO')]
+Espúrias  (FP): [('PPM', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Uma nota final: estou muito habituado às críticas do PPM , que têm, aliás, sempre o mesmo sentido. Normalmente, comento-as aqui mesmo. Na televisão e na imprensa, costumo satirizar gente que a generalidade do público conhece, e que diz coisas ridículas. Enquanto o PPM continuar a preencher apenas um destes requisitos, pela minha parte também continuarei a responder-lhe apenas aqui no blog. Por isso, e para evitar confusões futuras, gostava de sublinhar o seguinte: se, um dia , eu interpretar uma personagem megalómana, moralista e que mente para fazer valer os seus argumentos, o mais provável é que eu não esteja a satirizar o PPM . Há mais Marias na Terra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "um dia",
+    "label": "TEMPO",
+    "token_indices": [
+      75,
+      76
+    ]
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA",
+    "token_indices": [
+      104
+    ]
+  },
+  {
+    "text": "Marias",
+    "label": "COISA",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "Terra",
+    "label": "LOCAL",
+    "token_indices": [
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PPM",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PPM",
+    "label": "PESSOA"
+  },
+  {
+    "text": "um dia",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Marias",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Terra",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('PPM', 'PESSOA'), ('Marias', 'COISA')]
+Espúrias  (FP): [('Marias', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+RAP
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RAP",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('RAP', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+-O código malicioso "mais pontual" detectado nos últimos tempos, revela a Panda , foi o Trojan Aifone.A .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Panda",
+    "label": "OBRA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Trojan Aifone.A",
+    "label": "COISA",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Panda",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Trojan Aifone.A",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Panda', 'OBRA')]
+Espúrias  (FP): [('Panda', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O nome não engana: é um malware associado ao iPhone da Apple | iPhone da Apple .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "iPhone da Apple",
+    "label": "COISA",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "iPhone",
+    "label": "COISA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Apple",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "iPhone",
+    "label": "COISA"
+  },
+  {
+    "text": "Apple",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('iPhone da Apple', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ainda que algumas destas ameaças lhe possam parecer interessantes, a Panda recomenda o afastamento face a estes exemplos de malware.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Panda",
+    "label": "OBRA",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Panda",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Panda', 'OBRA')]
+Espúrias  (FP): [('Panda', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na internet, no cinema, na TV, na Locadora
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Locadora",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Locadora', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Carlos Gerbase faz parte de uma geração de cineastas que apareceu em Porto Alegre nos anos 90 , com a intenção de colocar o Rio Grande do Sul no mapa nacional da Sétima Arte . Através da Casa de Cinema de Porto Alegre | Casa de Cinema de Porto Alegre , esse grupo produziu obras-primas como o curta-metragem Ilha das Flores e apresentou para o país cineastas como Jorge Furtado , considerado um dos mais interessantes realizadores do cinema brasileiro atual. Gerbase faz parte desse grupo e, mantendo a tradição, coloca mais uma questão para a produção nacional ao lançar seu novo filme 3 Efes simultaneamente no cinema, na TV, na internet e em DVD. "Só faltou a versão rádio", brincou ele, bem-humorado, com a reportagem do jornal fluminense O Globo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Gerbase",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Porto Alegre",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "nos anos 90",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Sétima Arte",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Casa de Cinema de Porto Alegre",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Casa de Cinema",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Porto Alegre",
+    "label": "LOCAL",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Ilha das Flores",
+    "label": "OBRA",
+    "token_indices": [
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Jorge Furtado",
+    "label": "PESSOA",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Gerbase",
+    "label": "PESSOA",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "3 Efes",
+    "label": "OBRA",
+    "token_indices": [
+      103,
+      104
+    ]
+  },
+  {
+    "text": "O Globo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      129,
+      130
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carlos Gerbase",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Porto Alegre",
+    "label": "LOCAL"
+  },
+  {
+    "text": "nos anos 90",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sétima Arte",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Casa de Cinema de Porto Alegre",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Casa de Cinema",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Porto Alegre",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ilha das Flores",
+    "label": "OBRA"
+  },
+  {
+    "text": "Jorge Furtado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Gerbase",
+    "label": "PESSOA"
+  },
+  {
+    "text": "3 Efes",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('O Globo', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo a sinopse oferecida pela produção do filme, " 3 Efes é uma comédia dramática que aborda as dificuldades - afetivas, financeiras e culturais - enfrentadas por um grupo de personagens que circula em torno de Sissi , uma jovem universitária que sustenta, a duras penas, o pai viúvo e o irmão pequeno. Nessa situação de dificuldade, Sissi recorre aos conselhos de sua tia, Martina , uma dona-de-casa entediada que, em meio a uma crise no seu casamento com o publicitário Rogério , fica irresistivelmente atraída por William , um simples catador de papel. Rogério também está em apuros: sua última campanha publicitária deu errado, e agora ele precisa dar um jeito de salvar seu emprego - de qualquer jeito. Assim, sob todas essas pressões do cotidiano, os personagens acabam tomando importantes decisões que vão mudar muita coisa entre eles - e também provocar algumas situações inusitadas".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "3 Efes",
+    "label": "OBRA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Sissi",
+    "label": "PESSOA",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Sissi",
+    "label": "PESSOA",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Martina",
+    "label": "PESSOA",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Rogério",
+    "label": "PESSOA",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "William",
+    "label": "PESSOA",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "Rogério",
+    "label": "PESSOA",
+    "token_indices": [
+      94
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "3 Efes",
+    "label": "OBRA"
+  },
+  {
+    "text": "Sissi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Martina",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rogério",
+    "label": "PESSOA"
+  },
+  {
+    "text": "William",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Sissi', 'PESSOA'), ('Rogério', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O filme, que chegou ao público no dia 7 de dezembro , já pode ser visto pelo site www.3efes.com.br. Confira a entrevista exclusiva com o diretor Carlos Gerbase :
+
+Entidades verdadeiras:
+[
+  {
+    "text": "no dia 7 de dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "diretor Carlos Gerbase",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "no dia 7 de dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "www.3efes.com.br",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Carlos Gerbase",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('diretor Carlos Gerbase', 'PESSOA')]
+Espúrias  (FP): [('www.3efes.com.br', 'LOCAL'), ('Carlos Gerbase', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Autoridade da Concorrência formalizou hoje a decisão de não oposição à compra da Carrefour Portugal pela Sonae Distribuição , que fica obrigada à alienação, de pelo menos, dois supermercados Modelo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Autoridade da Concorrência",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Carrefour Portugal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Sonae Distribuição",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Modelo",
+    "label": "COISA",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Autoridade da Concorrência",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Carrefour Portugal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sonae Distribuição",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Modelo",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Modelo', 'COISA')]
+Espúrias  (FP): [('Modelo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além da alienação das lojas Modelo de Eiras , no distrito de Coimbra e de Lagoa , no concelho de Portimão , a Sonae Distribuição comprometeu-se à desafectação de áreas de vendas do retalho alimentar em Paços de Ferreira , Penafiel e de Valongo , Porto , de acordo com o comunicado hoje divulgado no site da Autoridade da Concorrência .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Modelo",
+    "label": "COISA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Eiras",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Lagoa",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Portimão",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Sonae Distribuição",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Paços de Ferreira",
+    "label": "LOCAL",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Penafiel",
+    "label": "LOCAL",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Valongo",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Autoridade da Concorrência",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Modelo de Eiras",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lagoa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portimão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sonae Distribuição",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Paços de Ferreira",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Penafiel",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Valongo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Autoridade da Concorrência",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Modelo', 'COISA'), ('Eiras', 'LOCAL'), ('hoje', 'TEMPO')]
+Espúrias  (FP): [('Modelo de Eiras', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Entre os compromissos assumidos pela Sonae Distribuição , conta-se ainda o de não apresentar pedidos de novas licenças para retalho de base alimentar nos mercados relevantes Montijo , Seixal , Barreiro , Paços de Ferreira , Penafiel , Viana do Castelo , coimbra e Portimão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sonae Distribuição",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Montijo",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Seixal",
+    "label": "LOCAL",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Barreiro",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Paços de Ferreira",
+    "label": "LOCAL",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Penafiel",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Viana do Castelo",
+    "label": "LOCAL",
+    "token_indices": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Portimão",
+    "label": "LOCAL",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sonae Distribuição",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Montijo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Seixal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Barreiro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Paços de Ferreira",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Penafiel",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Viana do Castelo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portimão",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('coimbra', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+No mercado relevante de Viana do Castelo , a Sonae terá que alienar o projecto da loja Carrefour e, se não existir comprador para o projecto, não poderá utilizar a licença num prazo de cinco anos a contar da decisão da Autoridade , salvo se, entretanto, tiver aberto ao público algum hipermercado concorrente na região, segundo o comunicado da AdC .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Viana do Castelo",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Sonae",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Carrefour",
+    "label": "COISA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "de cinco anos",
+    "label": "TEMPO",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Autoridade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "AdC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Viana do Castelo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sonae",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carrefour",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "num prazo de cinco anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Autoridade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AdC",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Carrefour', 'COISA'), ('de cinco anos', 'TEMPO')]
+Espúrias  (FP): [('Carrefour', 'ORGANIZACAO'), ('num prazo de cinco anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No Grande Porto , a Sonae terá que converter o projecto Carrefour para o Campo 24 de Agosto em supermercado Modelo , o que equivale a uma redução da área afecta à actividade de base alimentar em, pelo menos, 1.500 metros quadrados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grande Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Sonae",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Carrefour",
+    "label": "OBRA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Campo 24 de Agosto",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Modelo",
+    "label": "COISA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "1.500 metros quadrados",
+    "label": "VALOR",
+    "token_indices": [
+      39,
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grande Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sonae",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carrefour",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Campo 24 de Agosto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Modelo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1.500 metros quadrados",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Carrefour', 'OBRA'), ('Modelo', 'COISA')]
+Espúrias  (FP): [('Carrefour', 'ORGANIZACAO'), ('Modelo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ministro da Defesa Nacional visita Forças Nacionais Destacadas no Afeganistão | Forças Nacionais Destacadas no Afeganistão
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministro da Defesa Nacional",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Forças Nacionais Destacadas no Afeganistão",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Forças Nacionais Destacadas",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ministro da Defesa Nacional",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Forças Nacionais Destacadas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Forças Nacionais Destacadas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Forças Nacionais Destacadas no Afeganistão', 'PESSOA'), ('Forças Nacionais Destacadas', 'PESSOA')]
+Espúrias  (FP): [('Forças Nacionais Destacadas', 'ORGANIZACAO'), ('Forças Nacionais Destacadas', 'ORGANIZACAO'), ('Afeganistão', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Ministro da Defesa Nacional , Nuno Severiano Teixeira , desloca-se ao Afeganistão , no dia 29 de Dezembro , para efectuar uma visita às Forças Nacionais Destacadas em Cabul | Forças Nacionais Destacadas em Cabul .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministro da Defesa Nacional",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Nuno Severiano Teixeira",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "no dia 29 de Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Forças Nacionais Destacadas em Cabul",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Forças Nacionais Destacadas",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Cabul",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ministro da Defesa Nacional",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Nuno Severiano Teixeira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "no dia 29 de Dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Forças Nacionais Destacadas em Cabul",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Forças Nacionais Destacadas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cabul",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Forças Nacionais Destacadas em Cabul', 'PESSOA'), ('Forças Nacionais Destacadas', 'PESSOA')]
+Espúrias  (FP): [('Forças Nacionais Destacadas em Cabul', 'ORGANIZACAO'), ('Forças Nacionais Destacadas', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nuno Severiano Teixeira visitará o contingente português estacionado em Campo Warehouse , composto pela 22.ª Companhia de Atiradores Pára-Quedistas da Brigada de Reacção Rápida | 22.ª Companhia de Atiradores Pára-Quedistas da Brigada de Reacção Rápida e uma equipa de Controladores Aéreos Avançados da Força Aérea | Controladores Aéreos Avançados da Força Aérea .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nuno Severiano Teixeira",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Campo Warehouse",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "22.ª Companhia de Atiradores Pára-Quedistas da Brigada de Reacção Rápida",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "22.ª Companhia de Atiradores Pára-Quedistas",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Brigada de Reacção Rápida",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Controladores Aéreos Avançados da Força Aérea",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Controladores Aéreos Avançados",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Força Aérea",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Nuno Severiano Teixeira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Campo Warehouse",
+    "label": "LOCAL"
+  },
+  {
+    "text": "22.ª Companhia de Atiradores Pára-Quedistas da Brigada de Reacção Rápida",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "22.ª Companhia de Atiradores Pára-Quedistas da Brigada de Reacção Rápida",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Controladores Aéreos Avançados",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Força Aérea",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('22.ª Companhia de Atiradores Pára-Quedistas da Brigada de Reacção Rápida', 'PESSOA'), ('22.ª Companhia de Atiradores Pára-Quedistas', 'PESSOA'), ('Brigada de Reacção Rápida', 'ORGANIZACAO'), ('Controladores Aéreos Avançados da Força Aérea', 'PESSOA'), ('Controladores Aéreos Avançados', 'PESSOA')]
+Espúrias  (FP): [('22.ª Companhia de Atiradores Pára-Quedistas da Brigada de Reacção Rápida', 'ORGANIZACAO'), ('22.ª Companhia de Atiradores Pára-Quedistas da Brigada de Reacção Rápida', 'ORGANIZACAO'), ('Controladores Aéreos Avançados', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nuno Severiano Teixeira reúne-se ainda com o comandante da força da NATO ( ISAF ) no Afeganistão , General Dan McNeill .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nuno Severiano Teixeira",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "NATO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "ISAF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "General Dan McNeill",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Nuno Severiano Teixeira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ISAF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "General Dan McNeill",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('NATO', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A participação militar Portuguesa no Afeganistão começou a 10 de Agosto de 2005 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "a 10 de Agosto de 2005",
+    "label": "TEMPO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portuguesa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "a 10 de Agosto de 2005",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Portuguesa', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nuno Severiano Teixeira aproveita a deslocação a Cabul para manter encontros com as autoridades afegãs. O Ministro da Defesa deverá reunir-se com o Ministro da Defesa afegão, Raheem Wardag , e com o Presidente da República Islâmica do Afeganistão | Presidente da República Islâmica do Afeganistão , Hamid Karzai .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nuno Severiano Teixeira",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Cabul",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Ministro da Defesa",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Ministro da Defesa",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Raheem Wardag",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Presidente da República Islâmica do Afeganistão",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "República Islâmica do Afeganistão",
+    "label": "LOCAL",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Hamid Karzai",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Nuno Severiano Teixeira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cabul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ministro da Defesa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ministro da Defesa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ministro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Defesa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Raheem Wardag",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente da República Islâmica do Afeganistão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente da República Islâmica do Afeganistão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "República Islâmica do Afeganistão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Hamid Karzai",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('República Islâmica do Afeganistão', 'LOCAL')]
+Espúrias  (FP): [('Ministro', 'PESSOA'), ('Defesa', 'PESSOA'), ('Presidente da República Islâmica do Afeganistão', 'PESSOA'), ('República Islâmica do Afeganistão', 'ORGANIZACAO')]
+

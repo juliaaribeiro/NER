@@ -1,0 +1,6992 @@
+--------------------------------------------------------------------------------
+Texto:
+Quando é que a baleia azul foi extinta?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "baleia azul",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('baleia azul', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem disse " Ao vencedor, as batatas! " ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ao vencedor, as batatas!",
+    "label": "OUTRO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ao vencedor, as batatas!",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Ao vencedor, as batatas!', 'OUTRO')]
+Espúrias  (FP): [('Ao vencedor, as batatas!', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que princesa portuguesa foi rainha da Dinamarca | rainha da Dinamarca ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "rainha da Dinamarca",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Dinamarca",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Dinamarca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Dinamarca",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('rainha da Dinamarca', 'PESSOA')]
+Espúrias  (FP): [('Dinamarca', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que inglês foi treinador do Porto ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Porto",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Porto', 'PESSOA')]
+Espúrias  (FP): [('Porto', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Caen é a capital de que departamento?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Caen",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Caen",
+    "label": "LOCAL"
+  },
+  {
+    "text": "de",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('de', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como se chama Cayenne em português?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cayenne",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cayenne",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Cayenne', 'ABSTRACCAO')]
+Espúrias  (FP): [('Cayenne', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que cidade era capital do Brasil antes do governo ser transferido para Brasília ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasília",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com quem se casou a rainha Cristina ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "rainha Cristina",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cristina",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('rainha Cristina', 'PESSOA')]
+Espúrias  (FP): [('Cristina', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem foi o 13º rei de Portugal | rei de Portugal ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "13º",
+    "label": "VALOR",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "rei de Portugal",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "13º rei de Portugal",
+    "label": "PESSOA"
+  },
+  {
+    "text": "rei de Portugal",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('13º', 'VALOR'), ('Portugal', 'LOCAL')]
+Espúrias  (FP): [('13º rei de Portugal', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que são os DOM franceses? Quantos são eles? Qual deles fica na Europa ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DOM",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DOM",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('DOM', 'LOCAL'), ('Europa', 'LOCAL')]
+Espúrias  (FP): [('DOM', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que zona de Espanha nasce o rio Douro ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Douro",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Douro",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Douro', 'LOCAL')]
+Espúrias  (FP): [('Douro', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que percentagem dos finlandeses fala sueco?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "finlandeses",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('finlandeses', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é a FIDE ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FIDE",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FIDE",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('FIDE', 'ABSTRACCAO')]
+Espúrias  (FP): [('FIDE', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além da girafa, que outro animal pertence à família Giraffidae ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Giraffidae",
+    "label": "COISA",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Giraffidae",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Giraffidae', 'COISA')]
+Espúrias  (FP): [('Giraffidae', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando caíu Granada ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Granada",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Granada",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Granada', 'ORGANIZACAO')]
+Espúrias  (FP): [('Granada', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é a Granja do Torto ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Granja do Torto",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Granja do Torto",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Granja do Torto', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Granja do Torto', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é o ICBAS ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ICBAS",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ICBAS",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('ICBAS', 'ABSTRACCAO')]
+Espúrias  (FP): [('ICBAS', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que dia ocorreu a batalha de La Lys ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "La Lys",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "La Lys",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('La Lys', 'ACONTECIMENTO')]
+Espúrias  (FP): [('La Lys', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O lehendakari é presidente de quê?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "lehendakari",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('lehendakari', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem abriu os Jogos Olímpicos de 1948 | Jogos Olímpicos de 1948 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jogos Olímpicos de 1948",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Jogos Olímpicos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "1948",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jogos Olímpicos de 1948",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Jogos Olímpicos",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "de 1948",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('1948', 'TEMPO')]
+Espúrias  (FP): [('de 1948', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é M31?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "M31",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('M31', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é a Igreja Maronita ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Igreja Maronita",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Igreja Maronita",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Igreja Maronita', 'ABSTRACCAO')]
+Espúrias  (FP): [('Igreja Maronita', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando foi inaugurado o metropolitano de Lisboa ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "metropolitano de Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Lisboa', 'LOCAL')]
+Espúrias  (FP): [('metropolitano de Lisboa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A que altitude está Miguel Pereira ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Miguel Pereira",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Miguel Pereira",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Miguel Pereira', 'LOCAL')]
+Espúrias  (FP): [('Miguel Pereira', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem ganhou a NBA em 1995 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "NBA",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "NBA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('NBA', 'ACONTECIMENTO')]
+Espúrias  (FP): [('NBA', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que são os números E ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "E",
+    "label": "COISA",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('E', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diga um recipiente da Grande Cruz do Mérito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grande Cruz do Mérito",
+    "label": "OUTRO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grande Cruz do Mérito",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Grande Cruz do Mérito', 'OUTRO')]
+Espúrias  (FP): [('Grande Cruz do Mérito', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando começa o outono no hemisfério sul?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "o outono",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "outono",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('o outono', 'TEMPO')]
+Espúrias  (FP): [('outono', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que período existiu a República de Veneza ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "República de Veneza",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "República de Veneza",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('República de Veneza', 'ORGANIZACAO')]
+Espúrias  (FP): [('República de Veneza', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem comandou os gregos em Salamina ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Salamina",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Salamina",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Salamina', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Salamina', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é o Saquê ?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Saquê",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Saquê', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos senadores tem o Senado brasileiro actualmente? Quantos anos tem os seus mandatos? Quantos senadores tem cada estado? Quantos senadores havia em 1972 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "em 1972",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Senado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1972",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Senado', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+E quantos cantões tem? Quando é que Berna aderiu à Confederação ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Berna",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Confederação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Berna",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Confederação",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Berna', 'ORGANIZACAO')]
+Espúrias  (FP): [('Berna', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Qual o estilo arquitectónico da Torre dos Clérigos ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Torre dos Clérigos",
+    "label": "OBRA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Torre dos Clérigos",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Torre dos Clérigos', 'OBRA')]
+Espúrias  (FP): [('Torre dos Clérigos', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é o Tux ? Que animal é? Quem o criou? Quando?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tux",
+    "label": "COISA",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tux",
+    "label": "COISA"
+  },
+  {
+    "text": "Quando",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Quando', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é a TVI ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TVI",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TVI",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('TVI', 'ABSTRACCAO')]
+Espúrias  (FP): [('TVI', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é a Union Jack?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Union Jack",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Union Jack', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Onde é que nasceu o Vítor Baía ? Onde é que começou a jogar futebol? Quantos golos é que marcou na sua carreira? Que idade tinha ele quando se mudou para o FC Porto ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vítor Baía",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vítor Baía",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('FC Porto', 'ORGANIZACAO')]
+Espúrias  (FP): [('FC Porto', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quero o nome de um vinho húngaro.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "húngaro",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('húngaro', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quais são os signos do Zodíaco ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Zodíaco",
+    "label": "OUTRO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Zodíaco",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Zodíaco', 'OUTRO')]
+Espúrias  (FP): [('Zodíaco', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mosteiro de Santa Cruz
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mosteiro de Santa Cruz",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mosteiro de Santa Cruz",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Mosteiro de Santa Cruz', 'OBRA')]
+Espúrias  (FP): [('Mosteiro de Santa Cruz', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Igreja de Santa Cruz de Coimbra | Igreja de Santa Cruz de Coimbra foi fundada em 1131 por D. Telo ( São Teotónio ) e 11 outros religiosos, que adotaram a regra dos Cónegos Regrantes de Santo Agostinho .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Igreja de Santa Cruz de Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Igreja de Santa Cruz",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "em 1131",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "D. Telo",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "São Teotónio",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "11",
+    "label": "VALOR",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Cónegos Regrantes de Santo Agostinho",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Igreja de Santa Cruz de Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Igreja",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Santa Cruz de Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1131",
+    "label": "TEMPO"
+  },
+  {
+    "text": "D. Telo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "São Teotónio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "11",
+    "label": "VALOR"
+  },
+  {
+    "text": "Cónegos Regrantes de Santo Agostinho",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Igreja de Santa Cruz', 'LOCAL'), ('Coimbra', 'LOCAL'), ('Cónegos Regrantes de Santo Agostinho', 'ABSTRACCAO')]
+Espúrias  (FP): [('Igreja', 'LOCAL'), ('Santa Cruz de Coimbra', 'LOCAL'), ('Cónegos Regrantes de Santo Agostinho', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A nova Igreja recebeu muitos privilégios papais e doações dos primeiros reis de Portugal | reis de Portugal , tornando-se a mais importante casa monástica do reino. Sua escola foi uma das melhores instituições de ensino do Portugal medieval , tendo uma grande biblioteca (agora na Biblioteca Pública Municipal do Porto | Biblioteca Pública Municipal do Porto ) e um activo scriptorium. Nos tempos de D. Afonso Henriques , primeiro monarca português, o scriptorium de Santa Cruz foi usado como máquina de consolidação do poder real. A importância da Igreja é evidenciada pelo fato de que D. Afonso Henriques e seu sucessor, D. Sancho I , foram sepultados lá.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "reis de Portugal",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "OUTRO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Biblioteca Pública Municipal do Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Biblioteca Pública Municipal",
+    "label": "LOCAL",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Nos tempos",
+    "label": "TEMPO",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "D. Afonso Henriques",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Santa Cruz",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "D. Afonso Henriques",
+    "label": "PESSOA",
+    "token_indices": [
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "text": "D. Sancho I",
+    "label": "PESSOA",
+    "token_indices": [
+      102,
+      103,
+      104
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal medieval",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Biblioteca Pública Municipal do Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Biblioteca Pública Municipal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D. Afonso Henriques",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Santa Cruz",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "D. Afonso Henriques",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Sancho I",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('reis de Portugal', 'PESSOA'), ('Portugal', 'OUTRO'), ('Nos tempos', 'TEMPO'), ('Igreja', 'ORGANIZACAO')]
+Espúrias  (FP): [('Portugal medieval', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na Idade Média , o mais famoso estudante da Igreja de Santa Cruz foi Fernando Martins de Bulhões , o futuro Santo António de Lisboa | Santo António de Lisboa (ou Santo António de Pádua | Santo António de Pádua ). Em 1220 , o religioso assiste à chegada à Igreja dos restos mortais de cinco frades franciscanos martirizados no Marrocos (os Mártires do Marrocos | Mártires do Marrocos ), e decide fazer-se missionário e partir de Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Idade Média",
+    "label": "OUTRO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Igreja de Santa Cruz",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Fernando Martins de Bulhões",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Santo António de Lisboa",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Santo António",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Santo António de Pádua",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Santo António",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Pádua",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Em 1220",
+    "label": "TEMPO",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "LOCAL",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Marrocos",
+    "label": "LOCAL",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Mártires do Marrocos",
+    "label": "PESSOA",
+    "token_indices": [
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Mártires",
+    "label": "PESSOA",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Marrocos",
+    "label": "LOCAL",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Idade Média",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Igreja de Santa Cruz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fernando Martins de Bulhões",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Santo António de Lisboa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Santo António",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Santo António de Pádua",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Em 1220",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Igreja",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marrocos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mártires do Marrocos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Idade Média', 'OUTRO'), ('Igreja de Santa Cruz', 'ORGANIZACAO'), ('Lisboa', 'LOCAL'), ('Santo António', 'PESSOA'), ('Pádua', 'LOCAL'), ('Mártires', 'PESSOA'), ('Marrocos', 'LOCAL')]
+Espúrias  (FP): [('Idade Média', 'TEMPO'), ('Igreja de Santa Cruz', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+No início do século XVI , o rei D. Manuel I ordena uma grande reforma, reconstruindo e redecorando a igreja e o mosteiro. Nessa época são transladados os restos de Afonso Henriques e Sancho I dos seus sarcófagos originais para novos túmulos decorados em estilo manuelino.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "No início do século XVI",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "rei D. Manuel I",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Nessa época",
+    "label": "TEMPO",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Afonso Henriques",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Sancho I",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "No início do século XVI",
+    "label": "TEMPO"
+  },
+  {
+    "text": "D. Manuel I",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Afonso Henriques",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sancho I",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('rei D. Manuel I', 'PESSOA'), ('Nessa época', 'TEMPO')]
+Espúrias  (FP): [('D. Manuel I', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Entre 1530 e 1577 funcionou uma imprensa no claustro. É possível que o poeta Luís de Camões tenha estudado em Santa Cruz , uma vez que um parente seu ( D. Bento de Camões ) era prior do mosteiro na época , e há evidências em sua poesia de uma estadia em Coimbra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Entre 1530 e 1577",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Luís de Camões",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Santa Cruz",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "D. Bento de Camões",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Entre 1530 e 1577",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Luís de Camões",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Santa Cruz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D. Bento de Camões",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Santa Cruz', 'ORGANIZACAO')]
+Espúrias  (FP): [('Santa Cruz', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantas pessoas tiverem que abandonar as sus casas durante as cheias de 1995 na Holanda ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Holanda",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "durante as cheias de 1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Holanda",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('de 1995', 'TEMPO')]
+Espúrias  (FP): [('durante as cheias de 1995', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que ano é que eles se tornaram famosos? Em que línguas é que Flanders e Swann | Flanders e Swann cantavam? Em que ano morreu Flanders ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Flanders",
+    "label": "PESSOA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Swann",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Flanders e Swann",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Flanders",
+    "label": "PESSOA",
+    "token_indices": [
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Flanders e Swann",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Flanders",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Swann', 'PESSOA'), ('Flanders', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que foram ordenadas as primeiras mulheres pela Igreja de Inglaterra | Igreja de Inglaterra ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Igreja de Inglaterra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Igreja de Inglaterra",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Igreja', 'ORGANIZACAO'), ('Inglaterra', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diga marcas de azeite. Diga países onde se produz azeite. Que quantidade de azeite foi importada pelos Estados Unidos em 1994 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estados Unidos",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Estados Unidos', 'PESSOA')]
+Espúrias  (FP): [('Estados Unidos', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+De que grupo faz parte a Skoda ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Skoda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Skoda",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Skoda', 'ORGANIZACAO')]
+Espúrias  (FP): [('Skoda', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Qual a sua nacionalidade? Que filme com Connolly ganhou o prémio de melhor drama nos Prémios Bafta escoceses em 1995 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Connolly",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Prémios Bafta",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Connolly",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Prémios Bafta escoceses",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Prémios Bafta', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Prémios Bafta escoceses', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos locais pertencem ao sistema de Parques Nacionais dos Estados Unidos | Parques Nacionais dos Estados Unidos ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parques Nacionais dos Estados Unidos",
+    "label": "OBRA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Parques Nacionais",
+    "label": "OBRA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Parques Nacionais dos Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Parques Nacionais",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Parques Nacionais dos Estados Unidos', 'OBRA'), ('Parques Nacionais', 'OBRA')]
+Espúrias  (FP): [('Parques Nacionais dos Estados Unidos', 'LOCAL'), ('Parques Nacionais', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que aeroporto é que Carol Ann Timmel perdeu o seu gato? Como é que se chamava o gato? Em que tipo de avião é que o gato foi perdido? Quanto é que avião se atrasou enquanto prosseguia a busca?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carol Ann Timmel",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carol Ann Timmel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "gato",
+    "label": "COISA"
+  },
+  {
+    "text": "gato",
+    "label": "COISA"
+  },
+  {
+    "text": "gato",
+    "label": "COISA"
+  },
+  {
+    "text": "gato",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('gato', 'COISA'), ('gato', 'COISA'), ('gato', 'COISA'), ('gato', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem era o presidente da comissão nacional de caminhos-de-ferro argentina em 1994 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "comissão nacional de caminhos-de-ferro",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('presidente', 'PESSOA'), ('comissão nacional de caminhos-de-ferro', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Qual a autonomia do carro, em milhas? Quanto tempo demora a acelerar das 0 às 60 milhas por hora ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "das 0 às 60 milhas por hora",
+    "label": "VALOR",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "0",
+    "label": "VALOR"
+  },
+  {
+    "text": "60",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('das 0 às 60 milhas por hora', 'VALOR')]
+Espúrias  (FP): [('0', 'VALOR'), ('60', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Diga um modelo da Kia . Quantos carros é que a Kia produz por ano ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kia",
+    "label": "COISA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Kia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "por ano",
+    "label": "TEMPO",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kia",
+    "label": "COISA"
+  },
+  {
+    "text": "Kia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('por ano', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O que é Zanussi ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Zanussi",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Zanussi",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Zanussi', 'ORGANIZACAO')]
+Espúrias  (FP): [('Zanussi', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos vencedores do British Classic é que ele montou? Quanto tempo é que ele passou na prisão por crimes fiscais?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "British Classic",
+    "label": "COISA",
+    "token_indices": [
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "British Classic",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('British Classic', 'COISA')]
+Espúrias  (FP): [('British Classic', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é Glaxo?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Glaxo",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Glaxo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é Zantac?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Zantac",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Zantac', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é Flexoset?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Flexoset",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Flexoset', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é a Lakeland Plastics ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lakeland Plastics",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lakeland Plastics",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lakeland Plastics', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Lakeland Plastics', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é o HSBC ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HSBC",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HSBC",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('HSBC', 'ABSTRACCAO')]
+Espúrias  (FP): [('HSBC', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é o Eurofighter?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Eurofighter",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Eurofighter', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é um polígrafo? Quando é que foi inventado? Quem é que o inventou? Em que universidade é que o inventor estudava então?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "polígrafo",
+    "label": "COISA"
+  },
+  {
+    "text": "Quando",
+    "label": "TEMPO"
+  },
+  {
+    "text": "quem",
+    "label": "PESSOA"
+  },
+  {
+    "text": "então",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('polígrafo', 'COISA'), ('Quando', 'TEMPO'), ('quem', 'PESSOA'), ('então', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para que organização nos EUA trabalhava Aldrich H. Ames ? A que país é que Ames vendia informação? Como é que se chamava a mulher dele? Quando é que ele foi preso?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Aldrich H. Ames",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Ames",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Aldrich H. Ames",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ames",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ames",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Ames', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que ele morreu? Qual era a sua profissão quando morreu? Quantas pessoas foram a Jerusálem prestar homenagem a Rabin quando ele morreu?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jerusálem",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Rabin",
+    "label": "PESSOA",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rabin",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Jerusálem', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Que presidente americano organizou o Acordo de Camp David ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acordo de Camp David",
+    "label": "OBRA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acordo de Camp David",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Acordo de Camp David', 'OBRA')]
+Espúrias  (FP): [('Acordo de Camp David', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que ano tiveram lugar as negociações? Quantos acordos foram assinados? Em que data foi assinado posteriormente o tratado de paz entre Israel e o Egipto ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Israel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Egipto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em que ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Israel",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Egipto",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Israel', 'ORGANIZACAO'), ('Egipto', 'ORGANIZACAO')]
+Espúrias  (FP): [('Em que ano', 'TEMPO'), ('Israel', 'LOCAL'), ('Egipto', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é o efeito de estufa? Em que ano é que o efeito de estufa foi descoberto? Quem é que o descobriu? Menciona um gás que contribua para o aquecimento global.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "efeito de estufa",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Em que ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "efeito de estufa",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Quem",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('efeito de estufa', 'ABSTRACCAO'), ('Em que ano', 'TEMPO'), ('efeito de estufa', 'ABSTRACCAO'), ('Quem', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem é que o faz? Quando é que foi lançado? Quem fez o disco duro para os iPod de primeira geração?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "iPod",
+    "label": "COISA",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "iPod",
+    "label": "COISA"
+  },
+  {
+    "text": "de primeira geração",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('de primeira geração', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantas pessoas na Grã-Bretanha comem os " Walkers " desta marca todos os dias ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grã-Bretanha",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Walkers",
+    "label": "COISA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "todos os dias",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grã-Bretanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Walkers",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('todos os dias', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diz um tipo de plástico usado para fazer plástico reforçado com fibra de carbono. Diz uma ponte que tenha sido reforçada com fibra de carbono. Diz um consumível que pode ser feito com fibra de carbono.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "fibra de carbono",
+    "label": "COISA"
+  },
+  {
+    "text": "fibra de carbono",
+    "label": "COISA"
+  },
+  {
+    "text": "fibra de carbono",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('fibra de carbono', 'COISA'), ('fibra de carbono', 'COISA'), ('fibra de carbono', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que sistema de pensões diz ser "o segundo maior do Reino Unido pelo montante do fundo"? A que companhia comprou o Centro Comercial Forestside em Belfast por 50 milhões de libras em 1998 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reino Unido",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Centro Comercial Forestside",
+    "label": "LOCAL",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Belfast",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "50 milhões de libras",
+    "label": "VALOR",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "em 1998",
+    "label": "TEMPO",
+    "token_indices": [
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reino Unido",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Centro Comercial Forestside",
+    "label": "COISA"
+  },
+  {
+    "text": "Belfast",
+    "label": "LOCAL"
+  },
+  {
+    "text": "50 milhões de libras",
+    "label": "VALOR"
+  },
+  {
+    "text": "em 1998",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Centro Comercial Forestside', 'LOCAL')]
+Espúrias  (FP): [('Centro Comercial Forestside', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que organismo administra o Sistema de Pensões do SNS | Sistema de Pensões do SNS britânico?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sistema de Pensões do SNS",
+    "label": "OBRA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Sistema de Pensões",
+    "label": "OBRA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "SNS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sistema de Pensões do SNS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sistema de Pensões",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SNS",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Sistema de Pensões do SNS', 'OBRA'), ('Sistema de Pensões', 'OBRA')]
+Espúrias  (FP): [('Sistema de Pensões do SNS', 'ORGANIZACAO'), ('Sistema de Pensões', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A quantas pessoas foi até agora atribuída a Medalha Olímpica Nobre Guedes ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medalha Olímpica Nobre Guedes",
+    "label": "OUTRO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Medalha Olímpica Nobre Guedes",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Medalha Olímpica Nobre Guedes', 'OUTRO')]
+Espúrias  (FP): [('Medalha Olímpica Nobre Guedes', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+COISAS DA SÁBADO | COISAS DA SÁBADO : A DIFERENÇA ENTRE O JORNAL DE NOTÍCIAS E O DIÁRIO DE NOTÍCIAS
+
+Entidades verdadeiras:
+[
+  {
+    "text": "COISAS DA SÁBADO",
+    "label": "OUTRO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "JORNAL DE NOTÍCIAS",
+    "label": "COISA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "DIÁRIO DE NOTÍCIAS",
+    "label": "COISA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "COISAS DA SÁBADO",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "COISAS",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "SÁBADO",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('COISAS DA SÁBADO', 'OUTRO'), ('JORNAL DE NOTÍCIAS', 'COISA'), ('DIÁRIO DE NOTÍCIAS', 'COISA')]
+Espúrias  (FP): [('COISAS DA SÁBADO', 'ABSTRACCAO'), ('COISAS', 'ABSTRACCAO'), ('SÁBADO', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No dia em que a operação « Noite Branca » começou a prender suspeitos de serem responsáveis pelo clima de violência no Porto , a comparação entre um jornal de Lisboa , o Diário de Notícias , e um do Porto , o Jornal de Notícias , no mesmo dia 17 de Dezembro , não podia ser mais significativa. O Diário de Notícias falava das biografias e do background dos detidos, fazendo nota, como é óbvio, do seu profundo envolvimento com a claque do FCP , os Super Dragões .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "No dia",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Noite Branca",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Diário de Notícias",
+    "label": "OBRA",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Jornal de Notícias",
+    "label": "OBRA",
+    "token_indices": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "no mesmo dia 17 de Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Diário de Notícias",
+    "label": "OBRA",
+    "token_indices": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "FCP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "Super Dragões",
+    "label": "PESSOA",
+    "token_indices": [
+      87,
+      88
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Noite Branca",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "no mesmo dia 17 de Dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Diário de Notícias",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Jornal de Notícias",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Diário de Notícias",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "FCP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Super Dragões",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('No dia', 'TEMPO'), ('Lisboa', 'LOCAL'), ('Diário de Notícias', 'OBRA'), ('Jornal de Notícias', 'OBRA'), ('Diário de Notícias', 'OBRA'), ('Super Dragões', 'PESSOA')]
+Espúrias  (FP): [('Diário de Notícias', 'ORGANIZACAO'), ('Jornal de Notícias', 'ORGANIZACAO'), ('Diário de Notícias', 'ORGANIZACAO'), ('Super Dragões', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na verdade nenhum destes homens se tornou conhecido por ser segurança na noite, nem por frequentar ginásios e mesmo as suas páginas e vídeos guerreiros (*) nunca tinham merecido muita atenção. Onde eles apareciam era à frente da claque em filmes (a SIC mostrou-os) e em fotos de segurança aos dirigentes do clube. No Jornal de Notícias tudo isto é cuidadosamente omitido e os presos aparecem sem biografia, ou apenas com uma referência casual e singular a essa pertença. De facto, o Jornal de Notícias parece ser um jornal do Casaquistão tal é a ignorância do que se passa à sua volta. Mas não é, é mesmo do Porto e esse é que é o problema: é do Porto e cala.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SIC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Jornal de Notícias",
+    "label": "LOCAL",
+    "token_indices": [
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Jornal de Notícias",
+    "label": "OBRA",
+    "token_indices": [
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "text": "Casaquistão",
+    "label": "LOCAL",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      118
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SIC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Jornal de Notícias",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Casaquistão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Jornal de Notícias', 'LOCAL'), ('Jornal de Notícias', 'OBRA'), ('Porto', 'LOCAL')]
+Espúrias  (FP): [('Jornal de Notícias', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Neste arco temporal de 15 anos | de 15 anos , o CCB apresentou ao público de Lisboa artistas tão diversos como Sviatoslav Richter e Cecilia Bartoli , Pina Bausch et Pippo Delbono , Peter Brook e Jordi Savall , Philip Glass et Keith Jarrett , a Royal Shakespeare Company e o Piccolo Teatro di Milano , Robert Lepage e a companhia Cheek by Jowl , a companhia de ópera do Teatro Mariinski de S. Petersburgo e The Wooster Group .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de 15 anos",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "15 anos",
+    "label": "VALOR",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "CCB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Sviatoslav Richter",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Cecilia Bartoli",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Pina Bausch",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Pippo Delbono",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Peter Brook",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Jordi Savall",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Philip Glass",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Keith Jarrett",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Royal Shakespeare Company",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Piccolo Teatro di Milano",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Robert Lepage",
+    "label": "PESSOA",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Cheek by Jowl",
+    "label": "PESSOA",
+    "token_indices": [
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Teatro Mariinski",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      71,
+      72
+    ]
+  },
+  {
+    "text": "S. Petersburgo",
+    "label": "LOCAL",
+    "token_indices": [
+      74,
+      75
+    ]
+  },
+  {
+    "text": "The Wooster Group",
+    "label": "PESSOA",
+    "token_indices": [
+      77,
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('de 15 anos', 'TEMPO'), ('15 anos', 'VALOR'), ('CCB', 'ORGANIZACAO'), ('Lisboa', 'LOCAL'), ('Sviatoslav Richter', 'PESSOA'), ('Cecilia Bartoli', 'PESSOA'), ('Pina Bausch', 'PESSOA'), ('Pippo Delbono', 'PESSOA'), ('Peter Brook', 'PESSOA'), ('Jordi Savall', 'PESSOA'), ('Philip Glass', 'PESSOA'), ('Keith Jarrett', 'PESSOA'), ('Royal Shakespeare Company', 'PESSOA'), ('Piccolo Teatro di Milano', 'PESSOA'), ('Robert Lepage', 'PESSOA'), ('Cheek by Jowl', 'PESSOA'), ('Teatro Mariinski', 'ORGANIZACAO'), ('S. Petersburgo', 'LOCAL'), ('The Wooster Group', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Durante estes anos de viragem do século , o CCB acolheu alguns dos maiores espectáculos apresentados em Lisboa , tornando-se um dos equipamentos culturais de referência do país e um parceiro crescentemente procurado por insituições culturais internacionais. O balanço desta década e meia de actividade praticamente ininterrupta (o Centro só fecha no Dia de Natal ) mede-se pela frequência diária de centenas de pessoas, que habitam os espaços de estudo e lazer do CCB , além dos muitos milhares que ferquentam as suas actividades. Em 2006 , 150.000 pessoas assistiram a espectáculos, 200.000 visitaram as exposições, 90.000 frequentaram reuniões e congressos, 20.000 crianças participaram em actividades de pedagogia e animação.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Durante estes anos",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "do século",
+    "label": "TEMPO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "CCB",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "desta década e meia",
+    "label": "TEMPO",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Centro",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "no Dia de Natal",
+    "label": "TEMPO",
+    "token_indices": [
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "CCB",
+    "label": "LOCAL",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Em 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      84,
+      85
+    ]
+  },
+  {
+    "text": "150.000",
+    "label": "VALOR",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "200.000",
+    "label": "VALOR",
+    "token_indices": [
+      92
+    ]
+  },
+  {
+    "text": "90.000",
+    "label": "VALOR",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "20.000",
+    "label": "VALOR",
+    "token_indices": [
+      101
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Durante estes anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "CCB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "país",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Centro",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Dia de Natal",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Em 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "150.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "200.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "90.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "20.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "10.000",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('do século', 'TEMPO'), ('CCB', 'LOCAL'), ('desta década e meia', 'TEMPO'), ('Centro', 'LOCAL'), ('no Dia de Natal', 'TEMPO'), ('CCB', 'LOCAL')]
+Espúrias  (FP): [('CCB', 'ORGANIZACAO'), ('país', 'LOCAL'), ('Centro', 'ORGANIZACAO'), ('Dia de Natal', 'TEMPO'), ('10.000', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+É por isso que as comemorações dos 15 anos de actividade do CCB , que decorrerão ao longo do ano de 2008 , vão ser especialmente orientadas para o público que fez do CCB um equipamento indipensável na vida cultural da cidade. Não editaremos álbuns auto-congratulatórios nem promoveremos grandes jantares de celebração; não lançaremos fogo de artifício nem nos envolveremos em extravagâncias de programação que estariam para lá da nossa dimensão e recursos. Investiremos tudo o que está ao nosso alcance para tornar a programação de espectáculos de 2008 mais acessível aos frequentadores do CCB .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "15 anos",
+    "label": "VALOR",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "CCB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "ao longo do ano de 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "CCB",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "de 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      87,
+      88
+    ]
+  },
+  {
+    "text": "CCB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      94
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "15 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "ao longo do ano de 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "CCB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CCB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "de 2008",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('15 anos', 'VALOR'), ('CCB', 'LOCAL')]
+Espúrias  (FP): [('15 anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Assim, um conjunto de espectáculos programados para o Grande Auditório foi escolhido para integrar a série CCB 15 Anos , em que o leque de preços se situa em média 30% abaixo dos preços normalmente praticados para espectáculos semelhantes, mantendo-se além disso os descontos habituais. Mais: nos casos em que isso seja tecnicamente possível, os lugares de Galeria (em pé, por vezes com visibilidade reduzida) serão postos à venda ao preço único de 5 EUR (estes naturalmente sem desconto), permitindo que toda a gente tenha acesso aos espectáculos de maior atractividade para o público.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grande Auditório",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "CCB 15 Anos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "30%",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Galeria",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "por vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "5 EUR",
+    "label": "VALOR",
+    "token_indices": [
+      73,
+      74
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grande Auditório",
+    "label": "LOCAL"
+  },
+  {
+    "text": "CCB 15 Anos",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "30%",
+    "label": "VALOR"
+  },
+  {
+    "text": "5 EUR",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Galeria', 'LOCAL'), ('por vezes', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As comemorações terão assim início já em Dezembro , com a apresentação da Oratória de Natal de J. S. Bach | Oratória de Natal de J. S. Bach pela Akademie für Alte Musik e o RIAS Kammerchor de Berlim , para a qual o preço dos bilhetes varia entre os 5 ( Galerias ) e os 25 EUR ( 1ª Plateia ); em Janeiro , a ópera visual Operação Orfeu , apresentada pela companhia dinamarquesa Hotel ProForma , será também um espectáculo CCB 15 Anos (bilhetes entre 15 e 20 EUR ): CCB 15 Anos será também o ciclo de piano Beethoven 2008 (cinco recitais com o preço único de 15 EUR por concerto). E em Fevereiro haverá três espectáculos integrados nas comemorações : o concerto do quinteto de Enrico Rava , um dos maiores trompetistas de jazz da actualidade, oferecerá preços entre os 5 e os 20 EUR ; as duas récitas da coreografia de William Forsythe Impressing the Czar , pelo Ballet Real da Flandres , terão bilhetes entre 5 e 30 EUR ; e a Carta Branca a Jorge Palma , no último dia do mês , propõe entradas entre 5 e 20 EUR .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Oratória de Natal",
+    "label": "OBRA",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "J. S. Bach",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Oratória de Natal de J. S. Bach",
+    "label": "OBRA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Akademie für Alte Musik",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "RIAS Kammerchor",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Berlim",
+    "label": "LOCAL",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "5",
+    "label": "VALOR",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Galerias",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "25 EUR",
+    "label": "VALOR",
+    "token_indices": [
+      56,
+      57
+    ]
+  },
+  {
+    "text": "1ª Plateia",
+    "label": "LOCAL",
+    "token_indices": [
+      59,
+      60
+    ]
+  },
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Operação Orfeu",
+    "label": "OBRA",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Hotel ProForma",
+    "label": "PESSOA",
+    "token_indices": [
+      75,
+      76
+    ]
+  },
+  {
+    "text": "CCB 15 Anos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "text": "entre 15 e 20 EUR",
+    "label": "VALOR",
+    "token_indices": [
+      86,
+      87,
+      88,
+      89,
+      90
+    ]
+  },
+  {
+    "text": "CCB 15 Anos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "text": "Beethoven 2008",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      101,
+      102
+    ]
+  },
+  {
+    "text": "15 EUR",
+    "label": "VALOR",
+    "token_indices": [
+      110,
+      111
+    ]
+  },
+  {
+    "text": "em Fevereiro",
+    "label": "TEMPO",
+    "token_indices": [
+      115,
+      116
+    ]
+  },
+  {
+    "text": "Enrico Rava",
+    "label": "PESSOA",
+    "token_indices": [
+      129,
+      130
+    ]
+  },
+  {
+    "text": "entre os 5 e os 20 EUR",
+    "label": "VALOR",
+    "token_indices": [
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148
+    ]
+  },
+  {
+    "text": "William Forsythe",
+    "label": "PESSOA",
+    "token_indices": [
+      156,
+      157
+    ]
+  },
+  {
+    "text": "Impressing the Czar",
+    "label": "OBRA",
+    "token_indices": [
+      158,
+      159,
+      160
+    ]
+  },
+  {
+    "text": "Ballet Real da Flandres",
+    "label": "PESSOA",
+    "token_indices": [
+      163,
+      164,
+      165,
+      166
+    ]
+  },
+  {
+    "text": "entre 5 e 30 EUR",
+    "label": "VALOR",
+    "token_indices": [
+      170,
+      171,
+      172,
+      173,
+      174
+    ]
+  },
+  {
+    "text": "Carta Branca a Jorge Palma",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      178,
+      179,
+      180,
+      181,
+      182
+    ]
+  },
+  {
+    "text": "no último dia do mês",
+    "label": "TEMPO",
+    "token_indices": [
+      184,
+      185,
+      186,
+      187,
+      188
+    ]
+  },
+  {
+    "text": "entre 5 e 20 EUR",
+    "label": "VALOR",
+    "token_indices": [
+      192,
+      193,
+      194,
+      195,
+      196
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('em Dezembro', 'TEMPO'), ('Oratória de Natal', 'OBRA'), ('J. S. Bach', 'PESSOA'), ('Oratória de Natal de J. S. Bach', 'OBRA'), ('Akademie für Alte Musik', 'PESSOA'), ('RIAS Kammerchor', 'PESSOA'), ('Berlim', 'LOCAL'), ('5', 'VALOR'), ('Galerias', 'LOCAL'), ('25 EUR', 'VALOR'), ('1ª Plateia', 'LOCAL'), ('em Janeiro', 'TEMPO'), ('Operação Orfeu', 'OBRA'), ('Hotel ProForma', 'PESSOA'), ('CCB 15 Anos', 'ACONTECIMENTO'), ('entre 15 e 20 EUR', 'VALOR'), ('CCB 15 Anos', 'ACONTECIMENTO'), ('Beethoven 2008', 'ACONTECIMENTO'), ('15 EUR', 'VALOR'), ('em Fevereiro', 'TEMPO'), ('Enrico Rava', 'PESSOA'), ('entre os 5 e os 20 EUR', 'VALOR'), ('William Forsythe', 'PESSOA'), ('Impressing the Czar', 'OBRA'), ('Ballet Real da Flandres', 'PESSOA'), ('entre 5 e 30 EUR', 'VALOR'), ('Carta Branca a Jorge Palma', 'ACONTECIMENTO'), ('no último dia do mês', 'TEMPO'), ('entre 5 e 20 EUR', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cada edição do Programa de Actividades assinalará com o selo CCB 15 Anos os espectáculos integrados nesta oferta especial. E contamos com todos, nesta comemoração de uma data que deve ser pretexto para uma renovação da nossa ligação com o público que connosco habita, todos os dias , de há 15 anos para cá | de há 15 anos para cá , o Centro Cultural de Belém | Centro Cultural de Belém .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa de Actividades",
+    "label": "OBRA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "CCB 15 Anos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "todos os dias",
+    "label": "TEMPO",
+    "token_indices": [
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "de há 15 anos para cá",
+    "label": "TEMPO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "15 anos",
+    "label": "VALOR",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Centro Cultural de Belém",
+    "label": "LOCAL",
+    "token_indices": [
+      63,
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Centro Cultural",
+    "label": "LOCAL",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Belém",
+    "label": "LOCAL",
+    "token_indices": [
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Programa de Actividades",
+    "label": "OBRA"
+  },
+  {
+    "text": "CCB 15 Anos",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "de há 15 anos para cá",
+    "label": "TEMPO"
+  },
+  {
+    "text": "15 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Centro Cultural de Belém",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Centro Cultural",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Belém",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('CCB 15 Anos', 'ACONTECIMENTO'), ('todos os dias', 'TEMPO')]
+Espúrias  (FP): [('CCB 15 Anos', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Tour de França de 2009 | Tour de França de 2009 | Tour de França de 2009 vai começar no Mónaco com um contra-relógio de 15 quilómetros , numa etapa que também terminará no principado monegasco.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tour de França de 2009",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Tour de França",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "de 2009",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "de 2009",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Mónaco",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "15 quilómetros",
+    "label": "VALOR",
+    "token_indices": [
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tour de França de 2009",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Tour de França",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "de 2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Tour de França",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "de 2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "de 2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Mónaco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "15 quilómetros",
+    "label": "VALOR"
+  },
+  {
+    "text": "Mónaco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "principado monegasco",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('França', 'LOCAL')]
+Espúrias  (FP): [('Tour de França', 'ACONTECIMENTO'), ('de 2009', 'TEMPO'), ('Mónaco', 'LOCAL'), ('principado monegasco', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O início do contra-relógio terá lugar precisamente no mesmo local do local de partida das provas de Fórmula 1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fórmula 1",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fórmula 1",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Fórmula 1', 'ABSTRACCAO')]
+Espúrias  (FP): [('Fórmula 1', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Tour de França | Tour de França voltará assim ao Mónaco , depois de 45 anos | depois de 45 anos ausente.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tour de França",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Mónaco",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "depois de 45 anos",
+    "label": "TEMPO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "45 anos",
+    "label": "VALOR",
+    "token_indices": [
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tour de França",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mónaco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "45 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "45",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('depois de 45 anos', 'TEMPO'), ('45 anos', 'VALOR')]
+Espúrias  (FP): [('45 anos', 'TEMPO'), ('45', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+China vai desenvolver nova geração de telemóveis em 2008
+
+Entidades verdadeiras:
+[
+  {
+    "text": "China",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "em 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "China",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 2008",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('China', 'ORGANIZACAO')]
+Espúrias  (FP): [('China', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A China vai desenvolver telemóveis de banda larga «de nova geração» em 2008 , informa hoje a imprensa estatal.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "China",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "em 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "China",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 2008",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('China', 'ORGANIZACAO'), ('hoje', 'TEMPO')]
+Espúrias  (FP): [('China', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Conselho de Estado aprovou o plano de pesquisa da tecnologia de terceira geração, usando os padrões de redes nacionais TD-SCDMA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho de Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "TD-SCDMA",
+    "label": "COISA",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselho de Estado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "plano de pesquisa",
+    "label": "OBRA"
+  },
+  {
+    "text": "terceira geração",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "TD-SCDMA",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('TD-SCDMA', 'COISA')]
+Espúrias  (FP): [('plano de pesquisa', 'OBRA'), ('terceira geração', 'ABSTRACCAO'), ('TD-SCDMA', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O programa de desenvolvimento «estará de acordo com as tendências da tecnologia da informação e ajudará a melhorar a inovação e competitividade mundial das empresas chinesas», disse o ministro da Indústria da Informação , Wang Xundong , citado pela agência Xinhua .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ministro da Indústria da Informação",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Wang Xundong",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Xinhua",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "programa de desenvolvimento",
+    "label": "OBRA"
+  },
+  {
+    "text": "Wang Xundong",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Xinhua",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('ministro da Indústria da Informação', 'PESSOA')]
+Espúrias  (FP): [('programa de desenvolvimento', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A tecnologia TD-SCDMA é desenvolvida integralmente pela China , em oposição aos padrões norte-americanos ( CDMA 2000 ) e europeus ( WCDMA ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TD-SCDMA",
+    "label": "COISA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "China",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "CDMA 2000",
+    "label": "COISA",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "WCDMA",
+    "label": "COISA",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TD-SCDMA",
+    "label": "COISA"
+  },
+  {
+    "text": "China",
+    "label": "LOCAL"
+  },
+  {
+    "text": "CDMA 2000",
+    "label": "COISA"
+  },
+  {
+    "text": "WCDMA",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('China', 'ORGANIZACAO')]
+Espúrias  (FP): [('China', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+CONIMBRICENSES VENCEU NA FIGUEIRA DA FOZ NAS DUAS ÚLTIMAS ÉPOCAS
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FIGUEIRA DA FOZ",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CONIMBRICENSES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FIGUEIRA DA FOZ",
+    "label": "LOCAL"
+  },
+  {
+    "text": "DUAS ÚLTIMAS",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('CONIMBRICENSES', 'PESSOA'), ('DUAS ÚLTIMAS', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Naval e Académica não podem deixar amanhã de olhar para a tradição. É que a Briosa venceu sempre na Figueira da Foz ( 2005/06 : 1-0 e 2006/07 : 1-0 ) mas, por outro lado, a Naval também costuma brilhar em Coimbra -- 2005/06 : 2-2 e 2006/07 : 2-1 ) e, neste momento , até está mais bem posicionada na Liga .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Naval",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Académica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "amanhã",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Briosa",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Figueira da Foz",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "2005/06",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "1-0",
+    "label": "VALOR",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "2006/07",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "1-0",
+    "label": "VALOR",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Naval",
+    "label": "PESSOA",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "2005/06",
+    "label": "TEMPO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "2-2",
+    "label": "VALOR",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "2006/07",
+    "label": "TEMPO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "2-1",
+    "label": "VALOR",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "neste momento",
+    "label": "TEMPO",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Liga",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Naval",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Académica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Briosa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Figueira da Foz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "2005/06",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2006/07",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "2005/06",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2006/07",
+    "label": "TEMPO"
+  },
+  {
+    "text": "neste momento",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Liga",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Naval', 'ORGANIZACAO'), ('Académica', 'ORGANIZACAO'), ('amanhã', 'TEMPO'), ('1-0', 'VALOR'), ('1-0', 'VALOR'), ('2-2', 'VALOR'), ('2-1', 'VALOR'), ('Liga', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Académica', 'PESSOA'), ('Liga', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Espanha aumenta salário mínimo para 600 euros
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espanha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "600 euros",
+    "label": "VALOR",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "600 euros",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Espanha', 'ORGANIZACAO')]
+Espúrias  (FP): [('Espanha', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+«Aprovámos o decreto que estabelece o salário mínimo interprofissional nos 600 euros por mês , com efeito a partir de 1 de Janeiro », anunciou o chefe do Governo , José Luís Rodriguez Zapatero , numa conferência de imprensa do último Conselho de Ministros deste ano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "600 euros",
+    "label": "VALOR",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "por mês",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "a partir de 1 de Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "chefe do Governo",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "José Luís Rodriguez Zapatero",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Conselho de Ministros",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "deste ano",
+    "label": "TEMPO",
+    "token_indices": [
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "600 euros por mês",
+    "label": "VALOR"
+  },
+  {
+    "text": "a partir de 1 de Janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José Luís Rodriguez Zapatero",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conselho de Ministros",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "deste ano",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('600 euros', 'VALOR'), ('por mês', 'TEMPO'), ('chefe do Governo', 'PESSOA'), ('Conselho de Ministros', 'ACONTECIMENTO')]
+Espúrias  (FP): [('600 euros por mês', 'VALOR'), ('Governo', 'ORGANIZACAO'), ('Conselho de Ministros', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O chefe do governo vai disputar um segundo mandato de quatro anos nas eleições legislativas de 9 de Março , e salienta frequentemente o seu balanço económico positivo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "9 de Março",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "frequentemente",
+    "label": "TEMPO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "de quatro anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "eleições legislativas de 9 de Março",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('9 de Março', 'TEMPO'), ('frequentemente', 'TEMPO')]
+Espúrias  (FP): [('de quatro anos', 'TEMPO'), ('eleições legislativas de 9 de Março', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em Outubro , Zapatero prometeu igualmente aumentar o salário mínimo até aos 800 euros por mês em caso de reeleição.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em Outubro",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Zapatero",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "800 euros",
+    "label": "VALOR",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "por mês",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em Outubro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Zapatero",
+    "label": "PESSOA"
+  },
+  {
+    "text": "800 euros",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('por mês', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+À excepção dos antigos países do bloco de leste, a Espanha é um dos países que tem o salário mínimo mais baixo da União Europeia , juntamente com Portugal , Grécia e Malta .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "LOCAL",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Grécia",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Malta",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "União Europeia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Grécia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Malta",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Espanha', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Reino Unido quer proibir Tintim
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reino Unido",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Tintim",
+    "label": "OBRA",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reino Unido",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tintim",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Reino Unido', 'ORGANIZACAO'), ('Tintim', 'OBRA')]
+Espúrias  (FP): [('Reino Unido', 'LOCAL'), ('Tintim', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+12/Julho/2007 · 182 Comentários
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12/Julho/2007",
+    "label": "TEMPO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "182",
+    "label": "VALOR",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "12/Julho/2007",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('182', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O livro é racista. Profundamente racista. Colonialista ao limite. Publicado em 1930 , em Tintin au Congo negros são burros qual portas e são chamados de macacos. O álbum não é sequer particularmente bom: é uma obra menor na coleção ilustrada e redigida por Georges Remi , que se assinava Hergé .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em 1930",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Tintin au Congo",
+    "label": "OBRA",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Georges Remi",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Hergé",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em 1930",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Tintin au Congo",
+    "label": "OBRA"
+  },
+  {
+    "text": "em",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Georges Remi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Hergé",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Hergé', 'ABSTRACCAO')]
+Espúrias  (FP): [('em', 'TEMPO'), ('Hergé', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+No Reino Unido , Tintim na África é vendido entre os livros adultos, não entre os juvenis, justamente por conta do conteúdo racista. Traz na capa um alerta. Já velho, antes de morrer, Hergé falou da obra. "Quando jovem, disse, "fui muito influenciado pelos preconceitos e estereótipos burgueses do tempo. Ele listava Tintim na África entre seus pecados de juventude.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reino Unido",
+    "label": "LOCAL",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Tintim na África",
+    "label": "OBRA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Hergé",
+    "label": "PESSOA",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Tintim na África",
+    "label": "OBRA",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reino Unido",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tintim na África",
+    "label": "OBRA"
+  },
+  {
+    "text": "Hergé",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Tintim na África', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O governo britânico não está censurando: pede que as livrarias cooperem interrompendo a venda. Tintim na África faz parte de uma coleção de 23 álbuns. Se é mais imaturo - e é - também é um retrato de como a burguesia européia via o resto do mundo nos anos 1930 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tintim na África",
+    "label": "OBRA",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "23",
+    "label": "VALOR",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "nos anos 1930",
+    "label": "TEMPO",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "governo britânico",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tintim na África",
+    "label": "COISA"
+  },
+  {
+    "text": "23",
+    "label": "VALOR"
+  },
+  {
+    "text": "nos anos 1930",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Tintim na África', 'OBRA')]
+Espúrias  (FP): [('governo britânico', 'ORGANIZACAO'), ('Tintim na África', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Se o racismo nos incomoda hoje , se mesmo racistas envergonham-se de demonstrar o que pensam, é por conta de tragédias e lutas que, entre o Holocausto e Luther King , remodelaram nossa percepção do mundo. Esquecer que o racismo era natural há oitenta anos é desdenhar do esforço envolvido em dominá-lo. Se deixamos de ler os registros cotidianos daquele tempo - como Tintim na África -, estimulamos este esquecimento. Nenhuma obra deve ser lida ignorando a época na qual foi escrita.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Holocausto",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Luther King",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "há oitenta anos",
+    "label": "TEMPO",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "daquele tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Tintim na África",
+    "label": "OBRA",
+    "token_indices": [
+      63,
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Holocausto",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Luther King",
+    "label": "PESSOA"
+  },
+  {
+    "text": "há oitenta anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Tintim",
+    "label": "COISA"
+  },
+  {
+    "text": "África",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('daquele tempo', 'TEMPO'), ('Tintim na África', 'OBRA')]
+Espúrias  (FP): [('Tintim', 'COISA'), ('África', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um curioso exemplar, óbvio momento de experimentação portuguesa do gótico, o Convento de Santa Clara de Coimbra | Convento de Santa Clara de Coimbra , melhor conhecido por Mosteiro de Santa Clara-a-Velha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Convento de Santa Clara de Coimbra",
+    "label": "OBRA",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Convento de Santa Clara",
+    "label": "OBRA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Coimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Mosteiro de Santa Clara-a-Velha",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Convento de Santa Clara de Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Convento",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Santa Clara de Coimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mosteiro de Santa Clara-a-Velha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Convento de Santa Clara de Coimbra', 'OBRA'), ('Convento de Santa Clara', 'OBRA'), ('Coimbra', 'LOCAL'), ('Mosteiro de Santa Clara-a-Velha', 'ABSTRACCAO')]
+Espúrias  (FP): [('Convento de Santa Clara de Coimbra', 'LOCAL'), ('Convento', 'LOCAL'), ('Santa Clara de Coimbra', 'LOCAL'), ('Mosteiro de Santa Clara-a-Velha', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A fundação é posterior a 1286 , mas só com o auxílio de D. Isabel de Aragão | D. Isabel de Aragão , as obras do edifício actual tiveram início. Respeita, em termos de planta e alçados, a disposição dos templos de Clarissas - três naves de sete tramos sem transepto, e cabeceira com três capelas (as dos extremos quadrangulares, poligonal a capela-mor).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "a 1286",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "D. Isabel de Aragão",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "D. Isabel",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Aragão",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Clarissas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "posterior a 1286",
+    "label": "TEMPO"
+  },
+  {
+    "text": "D. Isabel de Aragão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Isabel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Aragão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Clarissas",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('a 1286', 'TEMPO'), ('Clarissas', 'ABSTRACCAO')]
+Espúrias  (FP): [('posterior a 1286', 'TEMPO'), ('Clarissas', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ao mestre Domingos Domingues devem-se as primeiras campanhas que decorreram de 1316 até 1325 , sendo depois sucedido por Estevão Domingues .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "mestre Domingos Domingues",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "de 1316 até 1325",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "depois",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Estevão Domingues",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Domingos Domingues",
+    "label": "PESSOA"
+  },
+  {
+    "text": "de 1316 até 1325",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estevão Domingues",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('mestre Domingos Domingues', 'PESSOA'), ('depois', 'TEMPO')]
+Espúrias  (FP): [('Domingos Domingues', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Estevão cobriu a nave central de uma abóbada de berço quebrado sustentada em arcos torais de grande porte, desistindo, ao que parece, de a cobrir com cruzaria de ogivas. Mas nas colaterais optou claramente por este sistema, apesar de grandes imperfeições técnicas a que não serão estranhas dificuldades de implantação do templo, que muito cedo se afundaria nos campos alagados do rio Mondego .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estevão",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Mondego",
+    "label": "LOCAL",
+    "token_indices": [
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estevão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "rio Mondego",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Mondego', 'LOCAL')]
+Espúrias  (FP): [('rio Mondego', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este templo inscreve-se pela sua importância enquanto estaleiro-escola, numa conjuntura de gradual influência e aceitação dos Franciscanos na corte e na sociedade em geral: a rainha D. Isabel era particularmente dedicada à Ordem , ingressando depois de viúva na Ordem Terceira de São Francisco e fazendo-se sepultar numa magnífica arca feral neste mesmo Mosteiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Franciscanos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "rainha D. Isabel",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Ordem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Ordem Terceira de São Francisco",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Mosteiro",
+    "label": "LOCAL",
+    "token_indices": [
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Franciscanos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "D. Isabel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ordem",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ordem Terceira de São Francisco",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mosteiro",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Franciscanos', 'ABSTRACCAO'), ('rainha D. Isabel', 'PESSOA'), ('Ordem', 'ABSTRACCAO'), ('Ordem Terceira de São Francisco', 'ABSTRACCAO')]
+Espúrias  (FP): [('Franciscanos', 'ORGANIZACAO'), ('D. Isabel', 'PESSOA'), ('Ordem', 'ORGANIZACAO'), ('Ordem Terceira de São Francisco', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+São admitidos à candidatura à matrícula no curso de formação n.o 25 680/2000, publicado no Diário da República , 2.a série, 2.a série, especializada candidatos com o grau de licenciatura em Enfermagem , de 15 de Dezembro de 2000 , e na sequência do despacho de 22 de de acordo com de acordo com o Regulamento dos Cursos de Formação Especializada Novembro de 2004 da reitora da Universidade de Aveiro | reitora da Universidade de Aveiro | reitora da Universidade de Aveiro , que aprovou a criação do curso de formação especializada em Enfermagem , deter- mino o seguinte: 7.o 1.o Frequência Criação O curso de formação especializada apenas poderá ser frequentado O curso de formação especializada em Enfermagem , de curta dura- em regime de tempo integral. ção, é criado de acordo com o Regulamento sobre a Criação de Cursos de Formação Especializada na Universidade de Aveiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Diário da República",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Enfermagem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "de 15 de Dezembro de 2000",
+    "label": "TEMPO",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Regulamento dos Cursos de Formação Especializada",
+    "label": "OBRA",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "reitora da Universidade de Aveiro",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66,
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Universidade de Aveiro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73,
+      74,
+      75
+    ]
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Aveiro",
+    "label": "LOCAL",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Enfermagem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "Enfermagem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "Regulamento sobre a Criação de Cursos de Formação Especializada na Universidade de Aveiro",
+    "label": "OBRA",
+    "token_indices": [
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Diário da República', 'LOCAL'), ('Enfermagem', 'ABSTRACCAO'), ('de 15 de Dezembro de 2000', 'TEMPO'), ('Regulamento dos Cursos de Formação Especializada', 'OBRA'), ('reitora da Universidade de Aveiro', 'PESSOA'), ('Universidade de Aveiro', 'ORGANIZACAO'), ('Universidade', 'ORGANIZACAO'), ('Aveiro', 'LOCAL'), ('Enfermagem', 'ABSTRACCAO'), ('Enfermagem', 'ABSTRACCAO'), ('Regulamento sobre a Criação de Cursos de Formação Especializada na Universidade de Aveiro', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A criação deste curso de formação especializada pretende responder 8.o a necessidades de formação de carácter específico para licenciados em Enfermagem .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Enfermagem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "8.o",
+    "label": "VALOR"
+  },
+  {
+    "text": "Enfermagem",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('8.o', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+A sua estrutura modular, estando orientada para Recursos necessários profissionais ou futuros profissionais que procuram formações com- A Secção Autónoma de Ciências da Saúde disponibilizará o corpo plementares específicas ou actualização de competências, permite uma docente necessário à leccionação deste curso, em articulação com gestão flexível do tempo compatível com percursos individuais de colaborações externas pontuais. formação. Os objectivos deste curso de formação especializada enquadram-se ainda nos objectivos da Universidade de Aveiro | Universidade de Aveiro para a formação pós- 9.o -graduada, proporcionando uma oferta formativa diversificada que Propinas responda a necessidades de formação contínua profissional para além da tradicional formação orientada para percursos académicos. As propinas mínimas correspondentes à frequência do curso de formação especializada serão fixadas anualmente , de acordo com o estipulado no artigo 15.o do Regulamento sobre a Criação de Cursos 2.o de Formação Especializada na Universidade de Aveiro, tendo em Organização curricular consideração os factores multiplicativos por área científica fixados pela Secção de Planeamento e Gestão do Senado | Secção de Planeamento e Gestão do Senado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secção Autónoma de Ciências da Saúde",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Universidade de Aveiro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Aveiro",
+    "label": "LOCAL",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "anualmente",
+    "label": "TEMPO",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "Secção de Planeamento e Gestão do Senado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162
+    ]
+  },
+  {
+    "text": "Secção de Planeamento e Gestão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      164,
+      165,
+      166,
+      167,
+      168
+    ]
+  },
+  {
+    "text": "Senado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      170
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Secção Autónoma de Ciências da Saúde",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade de Aveiro",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Aveiro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "no início do ano lectivo de 2006/2007",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('anualmente', 'TEMPO'), ('Secção de Planeamento e Gestão do Senado', 'ORGANIZACAO'), ('Secção de Planeamento e Gestão', 'ORGANIZACAO'), ('Senado', 'ORGANIZACAO')]
+Espúrias  (FP): [('no início do ano lectivo de 2006/2007', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O curso de formação especializada em Enfermagem , de curta dura- ção, corresponde à obtenção de um mínimo de quatro unidades de 29 de Novembro de 2004 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Enfermagem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "de 29 de Novembro de 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Enfermagem",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "de curta dura- ção",
+    "label": "TEMPO"
+  },
+  {
+    "text": "um mínimo de quatro unidades",
+    "label": "VALOR"
+  },
+  {
+    "text": "29 de Novembro de 2004",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('de 29 de Novembro de 2004', 'TEMPO')]
+Espúrias  (FP): [('de curta dura- ção', 'TEMPO'), ('um mínimo de quatro unidades', 'VALOR'), ('29 de Novembro de 2004', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+ONDE ESTÁ O PSD ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PSD",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('PSD', 'ABSTRACCAO')]
+Espúrias  (FP): [('PSD', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+É só uma questão de tempo até os jornais começarem a perguntar onde está o PSD , onde está Menezes , onde está a oposição vinda do partido que é suposto "liderá-la", que não se vê em parte nenhuma. O PP , o PCP e o BE , nalguns casos mesmo alguns raros dissidentes do PS socrático, têm criticado o Governo , enquanto o PSD passa entre as sombras, ou ficando pura e simplesmente silencioso, ou murmurando umas críticas de circunstância que ninguém ouve, ou, em muitos casos, concordando com o Governo e o PS . O único "não" sonoro que se ouviu foi a recusa do empréstimo à Câmara de Lisboa | Câmara de Lisboa , acompanhado por uma condução política que primou pela completa inépcia. Esse é daqueles que mais valia não se ter ouvido, sem com isso dizer que Costa tinha razão, que não a tinha.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Menezes",
+    "label": "PESSOA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "PP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "PCP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "BE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "PS",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      94
+    ]
+  },
+  {
+    "text": "Câmara de Lisboa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      109,
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      113
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Costa",
+    "label": "PESSOA",
+    "token_indices": [
+      142
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Menezes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PCP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "BE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Câmara de Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('PS', 'ABSTRACCAO'), ('PSD', 'ORGANIZACAO'), ('Governo', 'ORGANIZACAO'), ('Câmara de Lisboa', 'ORGANIZACAO'), ('Costa', 'PESSOA')]
+Espúrias  (FP): [('Câmara de Lisboa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A pergunta do "onde está" é tradicional na comunicação social e nalguns casos foi feita com estragos consideráveis, como aconteceu com Vítor Constâncio à frente do PS . A pergunta em si é pouco relevante, porque o que a comunicação social quer é festa e, quando acha que não a tem, clama por actores no palco. Admito que os tempos agora não estarão como estavam no tempo de Constâncio , nem a dedicação carinhosa da comunicação social ao PSD é idêntica à que na época prodigalizava ao PS , cujo estado a preocupava. Mas, quando vier a pergunta, será mais para a coreografia do que para a substância, porque esta está há muito respondida: de há uns tempos a esta parte , o PSD está onde está o PS .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vítor Constâncio",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "no tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Constâncio",
+    "label": "PESSOA",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "de há uns tempos a esta parte",
+    "label": "TEMPO",
+    "token_indices": [
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "PESSOA",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "PS",
+    "label": "PESSOA",
+    "token_indices": [
+      128
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vítor Constâncio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Constâncio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "de há uns tempos a esta parte",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('no tempo', 'TEMPO'), ('PSD', 'PESSOA'), ('PS', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A razão pela qual o PSD se ausentou para parte incerta foi explicada na pouco noticiada conferência de imprensa "oferecedora de pactos", antecedendo o debate parlamentar de "primeira oportunidade" entre Sócrates e Santana Lopes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PSD",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Sócrates",
+    "label": "PESSOA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Santana Lopes",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "para parte incerta",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Sócrates",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Santana Lopes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PSD', 'PESSOA')]
+Espúrias  (FP): [('PSD', 'ORGANIZACAO'), ('para parte incerta', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Desde aí que se conhecem as razões de substância para este já longo silêncio: o PSD aproximou-se politicamente do PS como nunca esteve antes , ao ponto de se oferecer para co-governar em praticamente todas as áreas. Na conferência e em declarações avulsas - da política externa à política europeia, passando pela defesa, segurança interna e legislação eleitoral, e acabando no célebre "pacto das obras públicas", a que se soma o "pacto da justiça" vindo do tempo de Marques Mendes -, o PSD faz uma abdicação da diferença, da alteridade, da oposição.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "antes",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "do tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Marques Mendes",
+    "label": "PESSOA",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      82
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Marques Mendes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('antes', 'TEMPO'), ('do tempo', 'TEMPO'), ('PSD', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O que nos é dito é que em Janeiro tudo vai mudar, aparecerão propostas e tomadas de posição, vai começar a oposição "a sério", quando estiverem gabinetes e assessores a funcionar. É um pouco bizarro que se anuncie um tempo de adiamento da oposição, uma paragem para uma retoma anunciada, quando antes tudo era tempo urgente. Menezes criticava Marques Mendes por não fazer oposição dia a dia , minuto a minuto , fogosa, ardente, caso a caso, para o que, dizia, não faltavam temas nem razões e que "com ele" isso iria mudar radicalmente. Já não me refiro às idas às fábricas que encerraram - entretanto já encerraram várias -, mas a um estilo prometido de pathos oposicionista, comunhão com o povo e de entusiasmo militante, que, de todo, não se vê. Não é que o estilo prometido fosse bom, mas foi o que foi prometido, antes deste enorme esforço de respeitabilidade fabricado por agências de comunicação. Estas flutuações matam o flutuante, mas, infelizmente, são o que é normal, quando se actua para uma sociedade do espectáculo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "antes",
+    "label": "TEMPO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Menezes",
+    "label": "PESSOA",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Marques Mendes",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "dia a dia",
+    "label": "TEMPO",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "minuto a minuto",
+    "label": "TEMPO",
+    "token_indices": [
+      68,
+      69,
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('em Janeiro', 'TEMPO'), ('antes', 'TEMPO'), ('Menezes', 'PESSOA'), ('Marques Mendes', 'PESSOA'), ('dia a dia', 'TEMPO'), ('minuto a minuto', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Permitam-me por isso que duvide da ofensiva putativa de Janeiro , porque a diferença não se faz com mais ou menos "estudos", "porta-vozes" ou "governos-sombra". Faz-se em primeiro lugar com políticas e não faltaram ocasiões nos últimos meses para se ser firme e duro com a política de um governo que está a empobrecer-nos a todos em nome de um modelo "social" que não tem futuro. Isto, na hipótese de o PSD ter um modelo diferente, que só pode ser mais liberal, mesmo que só moderadamente liberal, o que já não era mau.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "nos últimos meses",
+    "label": "TEMPO",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('de Janeiro', 'TEMPO'), ('nos últimos meses', 'TEMPO')]
+Espúrias  (FP): [('Janeiro', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando dois partidos se colam tanto que pouco se diferenciam, o que sobra para a luta política tende a ser incidental, conjuntural: esta nomeação, aquela opção por Ferreira de Cima em vez de ser por Ferreira de Baixo e várias variantes de questões "fracturantes", que em muitos casos são distracções dos problemas centrais de poder político e remetem para agendas em que nem sequer é líquido que o Estado e o poder político devam entrar.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ferreira de Cima",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Ferreira de Baixo",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ferreira de Cima",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ferreira de Baixo",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ferreira de Cima', 'LOCAL'), ('Ferreira de Baixo', 'LOCAL'), ('Estado', 'ORGANIZACAO')]
+Espúrias  (FP): [('Ferreira de Cima', 'PESSOA'), ('Ferreira de Baixo', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este "bloco central" político esteve sempre dentro do PSD , como esteve e está no PS e é uma sobrevivência de laços de interesses profundos representados nos dois partidos e que, depois, encontra expressão no rastro salazarista antidemocrático dos consensos. Nos primeiros anos da democracia, este "bloco central" concentrava-se em exercer o poder através da economia nacionalizada pós-1975 , daí poder ser representado simbolicamente na cena real de responsáveis dos dois partidos reunidos a distribuir os lugares de gestores públicos nas empresas: estes dois são para mim, este fica para ti, este vai para a TAP e dou-te dois na CP , mas este da EDP não pode ser comparado como este na Imprensa Nacional , etc., etc. Este tipo de partilhas que durou até há muito pouco tempo e em muitas áreas, a começar nas autarquias e nas empresas municipalizadas, ainda está longe de ter acabado.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Nos primeiros anos",
+    "label": "TEMPO",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "pós-1975",
+    "label": "TEMPO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "TAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "CP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "EDP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "Imprensa Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      113,
+      114
+    ]
+  },
+  {
+    "text": "até há muito pouco tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      124,
+      125,
+      126,
+      127,
+      128
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "depois",
+    "label": "TEMPO"
+  },
+  {
+    "text": "nos primeiros anos da democracia",
+    "label": "TEMPO"
+  },
+  {
+    "text": "pós-1975",
+    "label": "TEMPO"
+  },
+  {
+    "text": "TAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "EDP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Imprensa Nacional",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Nos primeiros anos', 'TEMPO'), ('até há muito pouco tempo', 'TEMPO')]
+Espúrias  (FP): [('depois', 'TEMPO'), ('nos primeiros anos da democracia', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas o "bloco central de interesses" evoluiu com a economia, e adaptou-se às privatizações, deslocou-se para fora do Estado e foi para os grupos económicos, para os bancos, as seguradoras, as empresas de construção civil, etc., etc. Quase que se pode formular uma regra simples: quanto mais depender um grupo económico de decisões do governo para conduzir a sua actividade empresarial, tanto maior é a presença deste "bloco central de interesses" no seu seio. A deslocação do Estado para o privado significa que os mecanismos de influência tendem a deslocar-se de fora para dentro, a centrar-se na mediação de negócios, assentes em empresas de consultadoria e em grandes escritórios de advogados, que todos sabem serem as portas certas para chegar ao governo, este e os anteriores. Quando um partido político, ainda por cima na oposição, se demarca deste jogo de interesses instalado, as suas lideranças são sujeitas a um processo que começa pela descredibilização e acaba na tentativa de expulsar os incontroláveis. Marcelo Rebelo de Sousa , num momento da sua liderança, quando contestou alguns grandes negócios, foi sujeito a essa campanha.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Marcelo Rebelo de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      162,
+      163,
+      164,
+      165
+    ]
+  },
+  {
+    "text": "num momento",
+    "label": "TEMPO",
+    "token_indices": [
+      167,
+      168
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estado', 'ORGANIZACAO'), ('Marcelo Rebelo de Sousa', 'PESSOA'), ('num momento', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O PS foi crucial na defesa da democracia política em 1975 , o PSD foi crucial na normalização democrática. Sem o PSD , na fórmula da AD de Sá Carneiro , não se iria tão longe e tão cedo no fim da presença militar na tutela da democracia. Sem Cavaco Silva não haveria uma cultura de "bom governo", o fim da Constituição socializante na economia, o retorno à economia de mercado, o boom de infra-estruturas, a democratização do ensino, uma modernização imperfeita mas real do país. Ambos associaram um programa de reformas à alteração das condições políticas dominantes em momentos desejados e sentidos como de ruptura: Sá Carneiro e Freitas do Amaral mostraram que outros partidos podiam governar Portugal que não apenas o PS , e Cavaco abriu caminho para as maiorias absolutas como condição de governabilidade.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "em 1975",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "AD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Sá Carneiro",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Cavaco Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Constituição",
+    "label": "OBRA",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Sá Carneiro",
+    "label": "PESSOA",
+    "token_indices": [
+      106,
+      107
+    ]
+  },
+  {
+    "text": "Freitas do Amaral",
+    "label": "PESSOA",
+    "token_indices": [
+      109,
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "Cavaco",
+    "label": "PESSOA",
+    "token_indices": [
+      126
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1975",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sá Carneiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cavaco Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('PSD', 'ORGANIZACAO'), ('Constituição', 'OBRA'), ('Sá Carneiro', 'PESSOA'), ('Freitas do Amaral', 'PESSOA'), ('Cavaco', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sem esse lado reformista, o PSD ficará tão próximo do Governo e do PS que, à luz de um, não se vê a sombra do outro. E nem de holofote a laser, banhado no mais forte néon, Diógenes encontrará qualquer homem na cidade.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PSD",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Diógenes",
+    "label": "PESSOA",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Diógenes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PSD', 'ABSTRACCAO')]
+Espúrias  (FP): [('PSD', 'ORGANIZACAO')]
+

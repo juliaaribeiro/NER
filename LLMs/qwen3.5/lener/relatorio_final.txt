@@ -1,0 +1,16 @@
+=== MÉDIAS DOS 9 FOLDS ===
+Modelo : unsloth/Qwen3.5-9B
+(Fold 7 excluído — reservado para hiperparâmetros do BERT)
+Hiperparâmetros: épocas=3 | lr=0.0001 | batch=1 | grad_accum=4 | r=16 | alpha=64 | dropout=0.05
+
+  Por entidade (média dos folds):
+    JURISPRUDENCIA: P=0.872  R=0.744  F1=0.803
+    LEGISLACAO:     P=0.937  R=0.833  F1=0.881
+    LOCAL:          P=0.860  R=0.564  F1=0.661
+    ORGANIZACAO:    P=0.895  R=0.786  F1=0.835
+    PESSOA:         P=0.973  R=0.788  F1=0.868
+    TEMPO:          P=0.968  R=0.801  F1=0.875
+
+  Macro Avg : P=0.918  R=0.753  F1=0.821
+  Micro Avg : P=0.922  R=0.775  F1=0.841
+  Accuracy  : 0.963

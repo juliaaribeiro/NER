@@ -1,0 +1,5785 @@
+--------------------------------------------------------------------------------
+Texto:
+Número do Acórdão ACÓRDÃO 1160/2016 - PLENÁRIO Relator AUGUSTO NARDES Processo 006.010/2000-4 Tipo de processo TOMADA DE CONTAS SIMPLIFICADA ( TCSP ) Data da sessão 11/05/2016 Número da ata 16/2016 Relator da deliberação recorrida Ministra Ana Arraes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ACÓRDÃO 1160/2016",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "AUGUSTO NARDES",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Processo 006.010/2000-4",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "11/05/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Ana Arraes",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ACÓRDÃO 1160/2016",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AUGUSTO NARDES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "006.010/2000-4",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "11/05/2016",
+    "label": "TEMPO"
+  },
+  {
+    "text": "16/2016",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Ana Arraes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Processo 006.010/2000-4', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('006.010/2000-4', 'JURISPRUDENCIA'), ('16/2016', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Interessado : Superior Tribunal Militar ( 00.497.560/0001-01 ) 3.2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Responsáveis : Aldo da Silva Fagundes ( 000.212.881-00 ) ; Antonio Carlos de Nogueira ( 002.094.571-04 ) ; Carlos Aureliano Motta de Souza ( 090.118.467-53 ) ; Carlos de Almeida Baptista ( 005.128.930-04 ) ; Edson Alves Mey ( 025.120.847-87 ) ; Grupo Ok Construções e Empreendimentos Ltda. ( 24.934.309/0001-17 ) ; Luiz de Oliveira Alves ( 182.583.101-78 ) ; Raul Lopes Biangolino ( 290.244.477-04 ) 3.3 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aldo da Silva Fagundes",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Antonio Carlos de Nogueira",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Carlos de Almeida Baptista",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Edson Alves Mey",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Grupo Ok Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Luiz de Oliveira Alves",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Raul Lopes Biangolino",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aldo da Silva Fagundes', 'PESSOA'), ('Antonio Carlos de Nogueira', 'PESSOA'), ('Carlos Aureliano Motta de Souza', 'PESSOA'), ('Carlos de Almeida Baptista', 'PESSOA'), ('Edson Alves Mey', 'PESSOA'), ('Grupo Ok Construções e Empreendimentos Ltda.', 'ORGANIZACAO'), ('Luiz de Oliveira Alves', 'PESSOA'), ('Raul Lopes Biangolino', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Representante do Ministério Público Subprocuradora-Geral Cristina Machado da Costa e Silva .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cristina Machado da Costa e Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Cristina Machado da Costa e Silva', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Unidade Técnica Secretaria de Recursos ( SERUR ) ; Secretaria de Controle Externo da Defesa Nacional e da Segurança Pública ( SecexDefes ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Unidade Técnica Secretaria de Recursos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "SERUR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Secretaria de Controle Externo da Defesa Nacional e da Segurança Pública",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "SecexDefes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Secretaria de Recursos ( SERUR )",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Secretaria de Controle Externo da Defesa Nacional e da Segurança Pública",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Unidade Técnica Secretaria de Recursos', 'ORGANIZACAO'), ('SERUR', 'ORGANIZACAO'), ('SecexDefes', 'ORGANIZACAO')]
+Espúrias  (FP): [('Secretaria de Recursos ( SERUR )', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ielton Carvalho Piancó ( 13469-E/OAB-DF ) e outros , representando Grupo Ok Construções e Empreendimentos Ltda. 8.2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ielton Carvalho Piancó",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Grupo Ok Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ielton Carvalho Piancó', 'PESSOA'), ('Grupo Ok Construções e Empreendimentos Ltda.', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assunto Recurso de Reconsideração interposto por Carlos Aureliano Motta de Souza ( ex-Diretor-Geral do Superior Tribunal Militar ) contra decisão que julgou suas contas irregulares e o condenou em débito e ao pagamento de multa em razão de irregularidades nas obras de construção do prédio da 1ª Circunscrição Judiciária Militar no Rio de Janeiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "1ª Circunscrição Judiciária Militar no Rio de Janeiro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Aureliano Motta de Souza', 'PESSOA'), ('Superior Tribunal Militar', 'ORGANIZACAO'), ('1ª Circunscrição Judiciária Militar no Rio de Janeiro', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sumário RECURSO DE REVISÃO INTERPOSTO PELO MINISTÉRIO PÚBLICO JUNTO AO TCU CONTRA ACÓRDÃO QUE JULGOU REGULARES COM RESSALVA AS CONTAS DO STM DE 1999 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('1999', 'TEMPO')]
+Espúrias  (FP): [('TCU', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+LIQUIDAÇÃO IRREGULAR DE DESPESA E DANO AO ERÁRIO DECORRENTE DE PAGAMENTOS ANTECIPADOS PARA EXECUÇÃO DAS OBRAS DO EDIFÍCIO-SEDE DA 1ª CIRCUNSCRIÇÃO JUDICIÁRIA MILITAR NA ILHA DO GOVERNADOR-RJ .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1ª CIRCUNSCRIÇÃO JUDICIÁRIA MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "ILHA DO GOVERNADOR-RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1ª CIRCUNSCRIÇÃO JUDICIÁRIA MILITAR', 'ORGANIZACAO'), ('ILHA DO GOVERNADOR-RJ', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Acórdão VISTOS , relatados e discutidos estes autos de recurso de reconsideração interposto pelo Sr. Carlos Aureliano Motta de Souza , contra o Acórdão nº 1.466/2013-TCU-Plenário , ACORDAM os Ministros do Tribunal de Contas da União , reunidos em sessão do Plenário , ante as razões expostas pelo Relator , em : 9.1. conhecer , com fundamento nos arts . 32 , inciso I , e 33 da Lei nº 8.443 , de 16 de julho de 1992 , do recurso para , no mérito , dar-lhe provimento , a fim de julgar regulares com ressalva as contas do Senhor Carlos Aureliano Motta de Souza e afastar o débito que lhe foi atribuído mediante o item 9.2 do Acórdão n.º 1.466/2013 – Plenário , tornando insubsistente , outrossim , a multa que lhe foi aplicada , mantendo-se o débito apenas para o Grupo OK Construções e Empreendimentos Ltda. bem como a respectiva multa que lhe foi imputada ; 9.2. dar conhecimento desta deliberação ao recorrente e aos interessados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Acórdão nº 1.466/2013-TCU-Plenário",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "arts . 32 , inciso I , e 33 da Lei nº 8.443",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "16 de julho de 1992",
+    "label": "TEMPO",
+    "token_indices": [
+      73,
+      74,
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "text": "Acórdão n.º 1.466/2013",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      118,
+      119,
+      120
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      122
+    ]
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Acórdão nº 1.466/2013-TCU-Plenário",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "arts . 32 , inciso I , e 33 da Lei nº 8.443",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "16 de julho de 1992",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Tribunal de Contas da União', 'ORGANIZACAO'), ('Acórdão n.º 1.466/2013', 'JURISPRUDENCIA'), ('Plenário', 'ORGANIZACAO'), ('Grupo OK Construções e Empreendimentos Ltda.', 'ORGANIZACAO')]
+Espúrias  (FP): [('Carlos Aureliano Motta de Souza', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ministros presentes : Raimundo Carreiro ( na Presidência ) , Benjamin Zymler , Augusto Nardes ( Relator ) , Bruno Dantas e Vital do Rêgo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Raimundo Carreiro",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Benjamin Zymler",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Augusto Nardes",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Bruno Dantas e Vital do Rêgo",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Raimundo Carreiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benjamin Zymler",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Augusto Nardes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bruno Dantas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Vital do Rêgo",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Bruno Dantas e Vital do Rêgo', 'PESSOA')]
+Espúrias  (FP): [('Bruno Dantas', 'PESSOA'), ('Vital do Rêgo', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Relatório Reproduzo , a seguir , com ajustes de forma , a instrução unânime elaborada no âmbito da Serur : “ INTRODUÇÃO Trata-se de recurso de reconsideração interposto por Carlos Aureliano Motta de Souza ( peças 66 e 82 ) , ex-diretor-geral do Superior Tribunal Militar - STM , no ano de 1999 , contra o Acórdão 1.466/2013 ( peça 28 ) , mantido pelo Acórdão 633/2014 ( peça 84 ) , ambos do Plenário , com o seguinte teor : 9.1. conhecer do recurso de revisão e dar-lhe provimento ; 9.2. rejeitar as alegações de defesa de Carlos Aureliano Motta de Souza , julgar irregulares suas contas , com fulcro nos arts . 1º , inciso I ; 16 , inciso III , alínea `` c '' ; 19 , caput ; e 23 , inciso III , da Lei 8.443/1992 , e condená-lo , solidariamente com o Grupo OK Construções e Empreendimentos Ltda. , ao pagamento das quantias a seguir relacionadas , e fixar o prazo de 15 ( quinze ) dias , a contar da notificação , para que comprovem , perante o Tribunal ( art . 214 , inciso III , alínea `` a '' , do Regimento Interno ) , o recolhimento da dívida aos cofres do Tesouro Nacional , com incidência de encargos legais , calculados a partir das datas de ocorrência , até a data do pagamento : Débito ( R $ ) Data de ocorrência R $ 176.118,95 16/12/1999 R $ 246.000,00 27/12/1999 9.3. aplicar , individualmente , a Carlos Aureliano Motta de Souza e ao Grupo OK Construções e Empreendimentos Ltda. , a multa do artigo 57 da Lei 8.443/1992 , no valor de R $ 30.000,00 ( trinta mil reais ) , fixando-lhes o prazo de 15 ( quinze ) dias , a contar da notificação , para que comprovem , perante o Tribunal ( art . 214 , inciso III , alínea “ a ” , do Regimento Interno ) , o recolhimento das dívidas aos cofres do Tesouro Nacional , com incidência de encargos legais calculados da data deste acórdão até a data do pagamento , se este for efetuado após o vencimento do prazo estipulado ; 9.4.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Serur",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Acórdão 1.466/2013",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Acórdão 633/2014",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      98,
+      99,
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "text": "arts . 1º , inciso I ; 16 , inciso III , alínea `` c '' ; 19 , caput ; e 23 , inciso III , da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141
+    ]
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+    ]
+  },
+  {
+    "text": "art . 214 , inciso III , alínea `` a '' , do Regimento Interno",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202
+    ]
+  },
+  {
+    "text": "Tesouro Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      212,
+      213
+    ]
+  },
+  {
+    "text": "16/12/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      246
+    ]
+  },
+  {
+    "text": "27/12/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      250
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      257,
+      258,
+      259,
+      260,
+      261
+    ]
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      264,
+      265,
+      266,
+      267,
+      268,
+      269
+    ]
+  },
+  {
+    "text": "artigo 57 da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      274,
+      275,
+      276,
+      277,
+      278
+    ]
+  },
+  {
+    "text": "art . 214 , inciso III , alínea “ a ” , do Regimento Interno",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329
+    ]
+  },
+  {
+    "text": "Tesouro Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      339,
+      340
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Serur', 'ORGANIZACAO'), ('Carlos Aureliano Motta de Souza', 'PESSOA'), ('Superior Tribunal Militar', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO'), ('1999', 'TEMPO'), ('Acórdão 1.466/2013', 'JURISPRUDENCIA'), ('Acórdão 633/2014', 'JURISPRUDENCIA'), ('Plenário', 'ORGANIZACAO'), ('Carlos Aureliano Motta de Souza', 'PESSOA'), ("arts . 1º , inciso I ; 16 , inciso III , alínea `` c '' ; 19 , caput ; e 23 , inciso III , da Lei 8.443/1992", 'LEGISLACAO'), ('Grupo OK Construções e Empreendimentos Ltda.', 'ORGANIZACAO'), ("art . 214 , inciso III , alínea `` a '' , do Regimento Interno", 'LEGISLACAO'), ('Tesouro Nacional', 'ORGANIZACAO'), ('16/12/1999', 'TEMPO'), ('27/12/1999', 'TEMPO'), ('Carlos Aureliano Motta de Souza', 'PESSOA'), ('Grupo OK Construções e Empreendimentos Ltda.', 'ORGANIZACAO'), ('artigo 57 da Lei 8.443/1992', 'LEGISLACAO'), ('art . 214 , inciso III , alínea “ a ” , do Regimento Interno', 'LEGISLACAO'), ('Tesouro Nacional', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+julgar regulares com ressalva as contas dos responsáveis Carlos de Almeida Batista , Antonio Carlos de Nogueira , Edson Alves Mey , Aldo da Silva Fagundes , José Luiz Soares Reali , Raul Lopes Biangolino e Luiz de Oliveira Alves e dar-lhes quitação , nos termos dos artigos 1º , inciso I , 16 , inciso II , 18 e 23 , inciso II , da Lei 8.443/1992 ; 9.5. autorizar , nos termos do art . 28 , inciso II , da Lei 8.443/1992 , a cobrança judicial das dívidas , caso não atendidas as notificações ; 9.6. autorizar o pagamento das dívidas em até 36 ( trinta e seis ) parcelas mensais consecutivas , caso venha ser solicitado pelos responsáveis antes do envio do processo para cobrança judicial , nos termos do art . 26 da Lei 8.443/1992 , c/c o art . 217 do Regimento Interno ; 9.6.1. fixar o vencimento da primeira parcela em 15 ( quinze ) dias , a contar do recebimento da notificação e o das demais a cada 30 ( trinta ) dias , com incidência de encargos legais sobre o valor de cada parcela ; 9.6.2. alertar aos responsáveis que a inadimplência de qualquer parcela importará vencimento antecipado do saldo devedor , nos termos do art . 26 , parágrafo único , c/c o § 2º do art . 217 do Regimento Interno ; 9.7. dar ciência desta decisão aos responsáveis ; 9.8. encaminhar cópia deste acórdão , bem como do relatório e do voto que o fundamentaram , ao Superior Tribunal Militar e ao Tribunal Regional Federal da 2ª Região , a fim de fornecer subsídios para os processos judiciais 2001.34.00.024796-9 e 2003.34.00.044227-3 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos de Almeida Batista",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Antonio Carlos de Nogueira",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Edson Alves Mey",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Aldo da Silva Fagundes",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "José Luiz Soares Reali",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Raul Lopes Biangolino",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Luiz de Oliveira Alves",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "artigos 1º , inciso I , 16 , inciso II , 18 e 23 , inciso II , da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "art . 28 , inciso II , da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "text": "art . 26 da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      134,
+      135,
+      136,
+      137,
+      138,
+      139
+    ]
+  },
+  {
+    "text": "art . 217 do Regimento Interno",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      143,
+      144,
+      145,
+      146,
+      147,
+      148
+    ]
+  },
+  {
+    "text": "art . 26 , parágrafo único , c/c o § 2º do art . 217 do Regimento Interno",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      259,
+      260,
+      261
+    ]
+  },
+  {
+    "text": "Tribunal Regional Federal da 2ª Região",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      264,
+      265,
+      266,
+      267,
+      268,
+      269
+    ]
+  },
+  {
+    "text": "2001.34.00.024796-9",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      280
+    ]
+  },
+  {
+    "text": "2003.34.00.044227-3",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      282
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carlos de Almeida Batista",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Antonio Carlos de Nogueira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Edson Alves Mey",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Aldo da Silva Fagundes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José Luiz Soares Reali",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Raul Lopes Biangolino",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Luiz de Oliveira Alves",
+    "label": "PESSOA"
+  },
+  {
+    "text": "art . 1º , inciso I , 16 , inciso II , 18 e 23 , inciso II , da Lei 8.443/1992",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "art . 28 , inciso II , da Lei 8.443/1992",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('artigos 1º , inciso I , 16 , inciso II , 18 e 23 , inciso II , da Lei 8.443/1992', 'LEGISLACAO'), ('art . 26 da Lei 8.443/1992', 'LEGISLACAO'), ('art . 217 do Regimento Interno', 'LEGISLACAO'), ('art . 26 , parágrafo único , c/c o § 2º do art . 217 do Regimento Interno', 'LEGISLACAO'), ('Superior Tribunal Militar', 'ORGANIZACAO'), ('Tribunal Regional Federal da 2ª Região', 'ORGANIZACAO'), ('2001.34.00.024796-9', 'JURISPRUDENCIA'), ('2003.34.00.044227-3', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('art . 1º , inciso I , 16 , inciso II , 18 e 23 , inciso II , da Lei 8.443/1992', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Trata-se , originariamente , de recurso de revisão interposto pelo Ministério Público junto ao Tribunal de Contas da União , com vistas à reabertura das contas do Superior Tribunal Militar – STM relativas ao exercício de 1999 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público', 'ORGANIZACAO'), ('Tribunal de Contas da União', 'ORGANIZACAO'), ('Superior Tribunal Militar', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO'), ('1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Primeira Câmara desta Corte , em acórdão constante da Relação 31/2000 , ata 27/2000 , ministro Marcos Vinicios Vilaça , julgou regulares com ressalva as contas de Carlos Aureliano Motta de Souza , ex-diretor-geral do STM , no ano de 1999 ( peça 1 , p. 49-51 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Primeira Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Marcos Vinicios Vilaça",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Primeira Câmara', 'ORGANIZACAO'), ('Marcos Vinicios Vilaça', 'PESSOA'), ('Carlos Aureliano Motta de Souza', 'PESSOA'), ('STM', 'ORGANIZACAO'), ('1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Entretanto , o Tribunal procedera a acompanhamento da obra de construção do prédio da 1ª Circunscrição Judiciária Militar no Rio de Janeiro – 1ª CJM/RJ , determinado pela Decisão n . 633/1999 - Plenário , a qual deliberou sobre levantamento de auditoria realizado no mesmo empreendimento , atendendo aos trabalhos de apoio ao Congresso Nacional na elaboração da Lei Orçamentária para o ano de 2000 , de acordo com dados disponibilizados no Sistema de Fiscalização de Obras ( Fiscobras 1999 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1ª Circunscrição Judiciária Militar no Rio de Janeiro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "1ª CJM/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Decisão n . 633/1999",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Congresso Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Lei Orçamentária",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1ª Circunscrição Judiciária Militar",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1ª CJM/RJ",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Congresso Nacional",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ano de 2000",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Fiscobras 1999",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('1ª Circunscrição Judiciária Militar no Rio de Janeiro', 'ORGANIZACAO'), ('Decisão n . 633/1999', 'JURISPRUDENCIA'), ('Plenário', 'ORGANIZACAO'), ('Lei Orçamentária', 'LEGISLACAO'), ('2000', 'TEMPO'), ('1999', 'TEMPO')]
+Espúrias  (FP): [('1ª Circunscrição Judiciária Militar', 'ORGANIZACAO'), ('Rio de Janeiro', 'LOCAL'), ('ano de 2000', 'TEMPO'), ('Fiscobras 1999', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Secretaria de Controle Externo no Estado do Rio de Janeiro – Secex/RJ , no bojo do TC 009.153/1999-3 , identificou irregularidades relativas a pagamentos antecipados à contratada para a obra , Grupo OK Construções e Empreendimentos Ltda. , tendo como fundamento questionáveis termos de depósito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Controle Externo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Estado do Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Secex/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "TC 009.153/1999-3",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Secretaria de Controle Externo no Estado do Rio de Janeiro",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Secex/RJ",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "TC 009.153/1999-3",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Secretaria de Controle Externo', 'ORGANIZACAO'), ('Estado do Rio de Janeiro', 'LOCAL')]
+Espúrias  (FP): [('Secretaria de Controle Externo no Estado do Rio de Janeiro', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com isso , a Corte , por meio da Decisão 877/2000 – Plenário , manifestou-se nos seguintes termos : 8.1 - determinar à SECEX/RJ que , com base nos artigos 41 e 43 , inciso II , da Lei nº 8.443/92 : 8.1.1 - promova a audiência do responsável acima identificado , para que , no prazo regimental , apresente razões de justificativa quanto a ocorrência de antecipações de pagamentos para fornecimento de esquadrias de alumínio , ar-condicionado e elevadores da obra de construção do edifício da 1ª CJM/RJ , em afronta aos artigos 62 e 63 da Lei nº 4.320/64 ; 38 do Decreto nº 93.872/86 ; e 65 , inciso II , letra `` c '' , da Lei nº 8.666/93 , bem como quanto às alterações contratuais , referentes ao mesmo empreendimento , havidas em desconformidade com os artigos 7º , § 4º ; 8º , e 65 , §§ 1º e 2º , da Lei de Licitações e Contratos ; 8.1.2 - prossiga no acompanhamento da obra referida , de acordo com o subitem 8.2 da Decisão nº 633/99-TCU-Plenário ; 8.1.3 - realize inspeção na Delegacia do Patrimônio da União nesse Estado a fim de verificar a situação de regularidade da cessão do terreno explorado como estacionamento na capital pela empresa Wal Park , caso o assunto já não seja objeto de tratamento em outro processo ; 8.2 - determinar à 5ª SECEX que , com base no artigo 41 da Lei nº 8.443/92 , forme processo apartado para acompanhamento da licitação a ser instaurada pelo STM para a complementação de serviços atinentes à obra da 1ª CJM/RJ , até o momento da homologação do procedimento , após o que deverá ser apensado a estes autos ; 8.3 - encaminhar cópia desta decisão , bem como do relatório e voto que a fundamentam , à Comissão Mista de Planos , Orçamentos Públicos e Fiscalização do Congresso Nacional e ao atual Presidente do STM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Decisão 877/2000",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "SECEX/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "artigos 41 e 43 , inciso II , da Lei nº 8.443/92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "1ª CJM/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      87,
+      88
+    ]
+  },
+  {
+    "text": "artigos 62 e 63 da Lei nº 4.320/64",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ]
+  },
+  {
+    "text": "38 do Decreto nº 93.872/86",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      102,
+      103,
+      104,
+      105,
+      106
+    ]
+  },
+  {
+    "text": "65 , inciso II , letra `` c '' , da Lei nº 8.666/93",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122
+    ]
+  },
+  {
+    "text": "artigos 7º , § 4º ; 8º , e 65 , §§ 1º e 2º , da Lei de Licitações e Contratos",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162
+    ]
+  },
+  {
+    "text": "Decisão nº 633/99-TCU-Plenário",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      180,
+      181,
+      182
+    ]
+  },
+  {
+    "text": "Delegacia do Patrimônio da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      189,
+      190,
+      191,
+      192,
+      193
+    ]
+  },
+  {
+    "text": "Wal Park",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      215,
+      216
+    ]
+  },
+  {
+    "text": "5ª SECEX",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      235,
+      236
+    ]
+  },
+  {
+    "text": "artigo 41 da Lei nº 8.443/92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      242,
+      243,
+      244,
+      245,
+      246,
+      247
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      260
+    ]
+  },
+  {
+    "text": "1ª CJM/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      270,
+      271
+    ]
+  },
+  {
+    "text": "Comissão Mista de Planos , Orçamentos Públicos e Fiscalização do Congresso Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      326
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Decisão 877/2000', 'JURISPRUDENCIA'), ('Plenário', 'ORGANIZACAO'), ('SECEX/RJ', 'ORGANIZACAO'), ('artigos 41 e 43 , inciso II , da Lei nº 8.443/92', 'LEGISLACAO'), ('1ª CJM/RJ', 'ORGANIZACAO'), ('artigos 62 e 63 da Lei nº 4.320/64', 'LEGISLACAO'), ('38 do Decreto nº 93.872/86', 'LEGISLACAO'), ("65 , inciso II , letra `` c '' , da Lei nº 8.666/93", 'LEGISLACAO'), ('artigos 7º , § 4º ; 8º , e 65 , §§ 1º e 2º , da Lei de Licitações e Contratos', 'LEGISLACAO'), ('Decisão nº 633/99-TCU-Plenário', 'JURISPRUDENCIA'), ('Delegacia do Patrimônio da União', 'ORGANIZACAO'), ('Wal Park', 'ORGANIZACAO'), ('5ª SECEX', 'ORGANIZACAO'), ('artigo 41 da Lei nº 8.443/92', 'LEGISLACAO'), ('STM', 'ORGANIZACAO'), ('1ª CJM/RJ', 'ORGANIZACAO'), ('Comissão Mista de Planos , Orçamentos Públicos e Fiscalização do Congresso Nacional', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Após a oitiva dos responsáveis naqueles autos , o Tribunal , por intermédio da Decisão 1.040/2002 – Plenário , determinou a abertura de tomada de contas especial – TCE , para apurar o dano e a responsabilidade pelos fatos irregulares , posicionando-se no seguinte sentido : 8.1. acolher as razões de justificativa apresentadas pelo Tenente-Brigadeiro-do-Ar Carlos de Almeida Baptista , ex-Presidente do Superior Tribunal Militar – STM , em relação à sua responsabilidade pelas alterações contratuais e antecipações de pagamentos ao Grupo OK Construções e Empreendimentos Ltda. , para o fornecimento de esquadrias de alumínio , sistema de ar-condicionado e elevadores para as obras de construção do edifício da 1a Circunscrição Judiciária Militar do Rio de Janeiro – 1ª CJM/RJ ; 8.2. determinar ao STM que , no prazo de 15 ( quinze ) dias , a contar da notificação , instaure tomada de contas especial , sob pena de responsabilidade solidária da autoridade omissa , nos termos do art . 8º da Lei nº 8.443/92 , relativamente aos valores pagos irregularmente , em montante de R $ 878.782,18 , indicados como pagamentos adiantados na planilha que serviu de base à aplicação da sanção de multa ao Grupo OK , elaborada pela Comissão Regional de Obras da 1a Região Militar – CRO/1 , sem que houvesse a devida contraprestação em serviços ou materiais ; e que do cumprimento dessa determinação dê conhecimento imediato a este Tribunal , por meio da Secex/RJ ; 8.3. determinar ao Superior Tribunal Militar que observe os seguintes dispositivos legais : 8.3.1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Decisão 1.040/2002",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Carlos de Almeida Baptista",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
+    ]
+  },
+  {
+    "text": "1a Circunscrição Judiciária Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      109,
+      110,
+      111,
+      112
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      114,
+      115,
+      116
+    ]
+  },
+  {
+    "text": "1ª CJM/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      118,
+      119
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      124
+    ]
+  },
+  {
+    "text": "art . 8º da Lei nº 8.443/92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165
+    ]
+  },
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      197,
+      198
+    ]
+  },
+  {
+    "text": "Comissão Regional de Obras da 1a Região Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ]
+  },
+  {
+    "text": "CRO/1",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      211
+    ]
+  },
+  {
+    "text": "Secex/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      240
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      245,
+      246,
+      247
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Decisão 1.040/2002', 'JURISPRUDENCIA'), ('Plenário', 'ORGANIZACAO'), ('Carlos de Almeida Baptista', 'PESSOA'), ('Superior Tribunal Militar', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO'), ('Grupo OK Construções e Empreendimentos Ltda.', 'ORGANIZACAO'), ('1a Circunscrição Judiciária Militar', 'ORGANIZACAO'), ('Rio de Janeiro', 'LOCAL'), ('1ª CJM/RJ', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO'), ('art . 8º da Lei nº 8.443/92', 'LEGISLACAO'), ('Grupo OK', 'ORGANIZACAO'), ('Comissão Regional de Obras da 1a Região Militar', 'ORGANIZACAO'), ('CRO/1', 'ORGANIZACAO'), ('Secex/RJ', 'ORGANIZACAO'), ('Superior Tribunal Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+§ 4o do art . 7o ; caput do art . 8o ; e §§ 1o e 2º do art . 65 da Lei nº 8.666/93 , que dispõem sobre a obrigatoriedade da licitação abranger a totalidade do objeto a ser contratado e respectivas alterações contratuais ; 8.3.2. artigos 62 e 63 da Lei nº 4.320/64 ; artigo 65 , inciso II , alínea “ c ” , in fine , da Lei nº 8.666/93 ; e artigo 38 do Decreto nº 93.872/86 , que dispõem sobre pagamentos antecipados e concessão de garantias ; 8.4.determinar à Secex/RJ que acompanhe a instauração da tomada de contas especial a que se refere o subitem 8.2 anterior ; 8.5. restituir os presentes autos à Secex/RJ para que dê continuidade ao acompanhamento desta obra , consoante os subitens 8.2 da Decisão n° 633/99 e 8.1.2 da Decisão n° 877/2000 , ambas do Plenário , no que diz respeito à conclusão das etapas restantes ; e 8.6. remeter cópia desta decisão , bem como do relatório e voto que a fundamentam : a ) à Presidência e ao Controle Interno do Superior Tribunal Militar ; e b ) à Presidência e à Comissão Mista de Planos , Orçamentos Públicos e Fiscalização do Congresso Nacional , informando-as de que as obras em exame não constam do Quadro VII da Lei nº 10.407/2002 e podem prosseguir normalmente , diante do encerramento do contrato do qual advieram os indícios de irregularidades e das providências tomadas nesta oportunidade por este Tribunal , não existindo outros problemas a registrar no momento , além dos aqui tratados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "§ 4o do art . 7o ; caput do art . 8o ; e §§ 1o e 2º do art . 65 da Lei nº 8.666/93",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "artigos 62 e 63 da Lei nº 4.320/64",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "artigo 65 , inciso II , alínea “ c ” , in fine , da Lei nº 8.666/93",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "text": "artigo 38 do Decreto nº 93.872/86",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Secex/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "Secex/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      121
+    ]
+  },
+  {
+    "text": "Decisão n° 633/99",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      136,
+      137,
+      138
+    ]
+  },
+  {
+    "text": "Decisão n° 877/2000",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      142,
+      143,
+      144
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      148
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      186,
+      187,
+      188
+    ]
+  },
+  {
+    "text": "Comissão Mista de Planos , Orçamentos Públicos e Fiscalização do Congresso Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208
+    ]
+  },
+  {
+    "text": "Quadro VII da Lei nº 10.407/2002",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      220,
+      221,
+      222,
+      223,
+      224,
+      225
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('§ 4o do art . 7o ; caput do art . 8o ; e §§ 1o e 2º do art . 65 da Lei nº 8.666/93', 'LEGISLACAO'), ('artigos 62 e 63 da Lei nº 4.320/64', 'LEGISLACAO'), ('artigo 65 , inciso II , alínea “ c ” , in fine , da Lei nº 8.666/93', 'LEGISLACAO'), ('artigo 38 do Decreto nº 93.872/86', 'LEGISLACAO'), ('Secex/RJ', 'ORGANIZACAO'), ('Secex/RJ', 'ORGANIZACAO'), ('Decisão n° 633/99', 'JURISPRUDENCIA'), ('Decisão n° 877/2000', 'JURISPRUDENCIA'), ('Plenário', 'ORGANIZACAO'), ('Superior Tribunal Militar', 'ORGANIZACAO'), ('Comissão Mista de Planos , Orçamentos Públicos e Fiscalização do Congresso Nacional', 'ORGANIZACAO'), ('Quadro VII da Lei nº 10.407/2002', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nos autos da Tomada de Contas Especial ( TC 003.783/2004-8 ) , foram enfrentadas as irregularidades graves na obra conduzida naquela gestão , o que ensejou a interposição , nos presentes autos , de recurso de revisão pelo Ministério Público junto ao TCU – MP/TCU , com fulcro nos seguintes fatos ( peça 4 , p. 2-3 ) : Antecipações de pagamento na obra de construção do edifício-sede da 1ª Circunscrição Judiciária Militar na Ilha do Governador-RJ , referente ao fornecimento de esquadrias de alumínio e do sistema de ar-condicionado , sem a devida contraprestação de serviços , pagos em 16.12.1999 e 27.12.1999 ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TC 003.783/2004-8",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Ministério Público junto ao TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "MP/TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "1ª Circunscrição Judiciária Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69,
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Ilha do Governador-RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "16.12.1999",
+    "label": "TEMPO",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "27.12.1999",
+    "label": "TEMPO",
+    "token_indices": [
+      102
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TC 003.783/2004-8', 'JURISPRUDENCIA'), ('Ministério Público junto ao TCU', 'ORGANIZACAO'), ('MP/TCU', 'ORGANIZACAO'), ('1ª Circunscrição Judiciária Militar', 'ORGANIZACAO'), ('Ilha do Governador-RJ', 'LOCAL'), ('16.12.1999', 'TEMPO'), ('27.12.1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Após citação dos responsáveis e análise das contrarrazões recursais apresentadas , o Tribunal , por meio do Acórdão 1.466/2013 ( peça 28 ) , mantido pelo Acórdão 633/2014 ( peça 84 ) , ambos do Plenário , julgou irregulares as contas de Carlos Aureliano Motta de Souza , ex-diretor-geral do Superior Tribunal Militar - STM , no ano de 1999 , condenando-o em débito solidário com o Grupo OK Construções e Empreendimentos Ltda. , bem como aplicando-lhes multa individual , na forma transcrita na introdução acima .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão 1.466/2013",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Acórdão 633/2014",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão 1.466/2013",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Acórdão 633/2014",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('1999', 'TEMPO')]
+Espúrias  (FP): [('Plenário', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Insatisfeito , Carlos Aureliano Motta de Souza interpôs o presente recurso de reconsideração ( peças 66 e 82 ) , requerendo ( peças 66 , p. 31 ; e 82 , p. 4 ) : ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Aureliano Motta de Souza', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) 1 ) Exclusão de sua responsabilidade em relação aos danos causados pela CONTRATADA , via ação criminosa e agora imputados em Juízo ; 2 ) Dispensa da multa imposta ; 3 ) Caso não seja atendido nas pretensões acima , o que julga improvável , seja o processo sobrestado , em relação ao RECORRENTE , até a decisão final da ação interposta pela União para ressarcimento dos mesmos valores .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Conjuntura envolvendo a construção do edifício-sede da 1ª Circunscrição Judiciária Militar na Ilha do Governador-RJ e a conduta do recorrente ( peças 66 , p. 2-5 ; 12-14 , 20-23 , 27-28 e 32-57 ) 5.1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1ª Circunscrição Judiciária Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Ilha do Governador-RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1ª Circunscrição Judiciária Militar', 'ORGANIZACAO'), ('Ilha do Governador-RJ', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O ex-diretor-geral do Superior Tribunal Militar - STM , Carlos Aureliano Motta de Souza , aduz que agiu com zelo , diante da conjuntura envolvendo a construção do edifício-sede da Justiça Militar da União no Rio de Janeiro , não podendo ser responsabilizado pelas irregularidades descritas nos autos , tendo em vista os seguintes argumentos : a ) Ao ser convidado a ocupar o cargo de Diretor-Geral do STM no biênio da Presidência do Ministro Carlos Almeida Batista , o recorrente foi motivado a solucionar o problema relacionado à construção do edifício-sede da Justiça Militar da União no Rio de Janeiro ; b ) Conforme extenso histórico descrito no recurso ( peça 66 , p. 3-5 ) , a obra já estava licitada e contratada com o Grupo OK Empreendimentos Imobiliários Ltda. , quando o STM constatou diversos problemas na posse do local da construção .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Justiça Militar da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Carlos Almeida Batista",
+    "label": "PESSOA",
+    "token_indices": [
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "text": "Justiça Militar da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      93,
+      94,
+      95,
+      96
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      98,
+      99,
+      100
+    ]
+  },
+  {
+    "text": "Grupo OK Empreendimentos Imobiliários Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      127,
+      128,
+      129,
+      130,
+      131
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      135
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO'), ('Carlos Aureliano Motta de Souza', 'PESSOA'), ('Justiça Militar da União', 'ORGANIZACAO'), ('Rio de Janeiro', 'LOCAL'), ('STM', 'ORGANIZACAO'), ('Carlos Almeida Batista', 'PESSOA'), ('Justiça Militar da União', 'ORGANIZACAO'), ('Rio de Janeiro', 'LOCAL'), ('Grupo OK Empreendimentos Imobiliários Ltda.', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Um dos terrenos estava afetado à Academia Nacional de Medicina , pela Lei 7.674/1988 , sendo que o Tribunal não havia tentado se apossar do imóvel até então , o que seria a origem das irregularidades ; c ) A Administração foi obrigada a encomendar novo projeto para o lote remanescente , com novo custo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Academia Nacional de Medicina",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Lei 7.674/1988",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Academia Nacional de Medicina', 'ORGANIZACAO'), ('Lei 7.674/1988', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Contudo , por problemas com o ordenamento territorial do Município , constatou-se que o edifício não poderia ser construído também na área 2 ( peça 66 , p. 3 ) ; d ) O orçamento de 1998 consignou R $ 2.510.200,00 para a obra , mas R $ 2.379.599,00 passaram para 1999 , inscritos em restos a pagar , que deveriam ser recolhidos ao Tesouro em 2000 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Tesouro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO",
+    "token_indices": [
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1998', 'TEMPO'), ('1999', 'TEMPO'), ('Tesouro', 'ORGANIZACAO'), ('2000', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Isso implicaria em diminuição do ritmo dos trabalho e aumento de custo , sendo que os recursos orçamentários daquele exercício não seriam suficientes para a conclusão do objeto ( peça 66 , p. 4 ) ; e ) Havia , também , termo para que as Auditorias , Ministério Público e Defensoria Pública da Justiça Militar da União da 1ª/CJM saíssem do prédio que ocupavam , o que tornou imperativa a obra , para não serem obrigados a arcar com despesas de aluguel de outro imóvel ; f ) O Diretor-Geral à época sugeriu a aquisição antecipada , em resposta a questionamento do futuro Presidente ( peça 66 , p. 4 , 13 e 37-38 – pergunta 15 ) ; g ) Ao assumir a Diretoria-Geral , em 19/3/1999 , o recorrente apresentou relatório sobre a situação das obras ao Conselho de Administração do STM ( peça 66 , p. 4 , 12-13 e 39-55 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Defensoria Pública",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "1ª/CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "19/3/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      128
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      144
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público', 'ORGANIZACAO'), ('Defensoria Pública', 'ORGANIZACAO'), ('1ª/CJM', 'ORGANIZACAO'), ('19/3/1999', 'TEMPO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O colegiado , em 19/3/1999 , decidiu aguardar até 30/5/1999 , a aprovação de projeto na Assembleia Legislativa do Rio de Janeiro , acerca do novo terreno a ser cedido à Justiça Militar , para , então , deliberar sobre a viabilidade da realização da obra ( peça 66 , p. 56-57 ) , sendo que o recorrente alertou para a necessidade de início dos trabalhos até 1º/9/1998 , tendo em vista a validade dos restos a pagar ( peça 66 , p. 53 , item 6 ) ; h ) A compra antecipada de materiais foi discutida na ocasião , sem conclusões sobre a forma de garantia ( peça 66 , p. 5 , 13 e 54 , item 6 , alínea “ e ” ) ; i ) O STM buscou alternativas à construção do edifício no local previsto inicialmente , a exemplo de aluguel ou aquisição de outro terreno , tendo o Tribunal iniciado negociações com a Aeronáutica para cessão de imóvel na Ilha do Governador , com transferência urgente ao órgão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "19/3/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "30/5/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Assembleia Legislativa do Rio de Janeiro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "1º/9/1998",
+    "label": "TEMPO",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      131
+    ]
+  },
+  {
+    "text": "Ilha do Governador",
+    "label": "LOCAL",
+    "token_indices": [
+      166,
+      167,
+      168
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('19/3/1999', 'TEMPO'), ('30/5/1999', 'TEMPO'), ('Assembleia Legislativa do Rio de Janeiro', 'ORGANIZACAO'), ('1º/9/1998', 'TEMPO'), ('STM', 'ORGANIZACAO'), ('Ilha do Governador', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em sessão de 10/9/1999 , a Corte aprovou o início da construção .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "10/9/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('10/9/1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Como os restos a pagar deveriam ser gastos até 31/12/1999 , já não havia mais tempo ( peça 66 , p. 5 ) ; j ) O recorrente tomou o cuidado de contratar a Comissão Regional de Obras da 1ª Região do Exército , como fiscalizadora da obra ; e o Diretor-Geral anterior , Raul Lopes Biangolino , conhecedor do imbróglio , para fiscalizar o contrato ( peça 66 , p. 13 ) ; l ) O ex-gestor obteve autorização da Aeronáutica para usar o Depósito Central de Intendência , para guarda de materiais adquiridos por antecipação , experiências bem-sucedidas com diversos itens , tais como divisórias e poltronas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "31/12/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Comissão Regional de Obras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "1ª Região do Exército",
+    "label": "LOCAL",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Raul Lopes Biangolino",
+    "label": "PESSOA",
+    "token_indices": [
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Aeronáutica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Depósito Central de Intendência",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      85,
+      86,
+      87,
+      88
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('31/12/1999', 'TEMPO'), ('Comissão Regional de Obras', 'ORGANIZACAO'), ('1ª Região do Exército', 'LOCAL'), ('Raul Lopes Biangolino', 'PESSOA'), ('Aeronáutica', 'ORGANIZACAO'), ('Depósito Central de Intendência', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dos sete itens adquiridos por antecipação estocados no Depósito de Intendência da Aeronáutica , por iniciativa do recorrente , apenas dois não foram adimplidos ; o ) Os materiais guardados pela Aeronáutica foram adquiridos no Rio de Janeiro , o que não foi possível com as três aquisições-problema , as quais exigiriam lapso temporal para a entrega , até que fossem fabricadas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aeronáutica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Aeronáutica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aeronáutica', 'ORGANIZACAO'), ('Aeronáutica', 'ORGANIZACAO'), ('Rio de Janeiro', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Essa segurança não era possível naquele momento , em razão do custo de fiança bancária , sendo que o Grupo OK alegou não ter recursos para efetuar caução .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com isso e diante da conjuntura já relatada , o recorrente , após discussão com os diretores do STM , decidiu pelo termo de fiel depositário , previsto na legislação pátria ( peça 66 , p. 22 ) ; r ) Deve-se discutir , também , o posicionamento expresso no item 36 do relatório do acórdão recorrido , em contraposição à alegada intenção do recorrente de fazer crer ter agido com autorização do Plenário administrativo do STM ( peça 66 , p. 22 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Caso as obras tivessem iniciado até julho de 1999 , como alertado pelo autor do presente pedido , os recursos de 1998 poderiam ter sido integralmente utilizados , afastando-se os problemas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "julho de 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('julho de 1999', 'TEMPO'), ('1998', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse sentido é que o responsável se refere a ações possíveis ( peça 66 , p. 22-23 ) ; s ) Carlos Aureliano não atribuiu qualquer responsabilidade ao colegiado , mas sim o cientificou , tendo o Conselho autorizado , por outros motivos , o início das obras a destempo , o que criou problemas ao gestor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Aureliano",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Aureliano', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por conta disso , o responsável e mesmo os ministros integrantes do STM à época deveriam ter sido ouvidos quando da instauração da TCE , de modo a trazer à lume a situação efetivamente vivenciada ( peça 66 , p. 27-28 ) ; t ) O recorrente não procurou “ fazer crer ” , como insinuado pelo auditor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A informação acerca das aquisições antecipadas constava tanto nas respostas do Diretor-Geral anterior quanto no relatório entregue por Carlos Aureliano ao Conselho de Administração da Corte ( peça 66 , p. 32-55 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Aureliano",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Conselho de Administração da Corte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Aureliano', 'PESSOA'), ('Conselho de Administração da Corte', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O recorrente pretendeu dizer que , se os restos a pagar de 1998 fossem aproveitados ao máximo , os recursos de 1999 passariam para 2000 e seriam suficientes para a manutenção do canteiro , até a obtenção de novos recursos ( peça 66 , p. 23 ) ; v ) O recorrente jamais falou em perda integralizada com a inflação como afirmado no item 68 do relatório do acórdão recorrido , transcrito no pedido ( peça 66 , p. 27 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1998', 'TEMPO'), ('1999', 'TEMPO'), ('2000', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O perdimento dos recursos se referia aos valores de 1998 , inscritos em restos a pagar de 1999 , como discutido com diretorias do STM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1998', 'TEMPO'), ('1999', 'TEMPO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Exigia-se o uso desses valores até 31/12/1999 , sob pena de devolução ao Tesouro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "31/12/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Tesouro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('31/12/1999', 'TEMPO'), ('Tesouro', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com isso , 80 a 85 % dos recursos destinados à obra eram dotação de 1998 , os quais poderiam ter o mesmo fim dos valores orçamentários de 1997 , devolvidos em razão do atraso no início dos trabalhos ( peça 66 , p. 27 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "1997",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1998', 'TEMPO'), ('1997', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Destaque-se que , não obstante a ideia inicial das compras antecipadas tenha sido do gestor anterior , Carlos Aureliano chancelou a proposta e foi aquele que a materializou , conforme se nota no primeiro relatório por ele apresentado ( peça 66 , p. 53-54 , item 6 , letra “ e ” ) e nos documentos que embasaram os pagamentos irregulares ( peça 2 , p. 9 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Aureliano",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Aureliano', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em relação aos itens também adquiridos antecipadamente , mas com sucesso , segundo o recorrente , verifica-se , no próprio relato do ex-gestor , que houve cuidado substancialmente maior do recorrente em armazená-los no Depósito Central da Intendência da Aeronáutica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Depósito Central da Intendência",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Aeronáutica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Depósito Central da Intendência', 'ORGANIZACAO'), ('Aeronáutica', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O fato de esses itens não poderem ser adquiridos ou elaborados no Rio de Janeiro ou não serem encontrados em prateleiras , como afirma o recorrente , apenas reforça o dever de cuidado no pagamento dessas despesas , as quais necessariamente deveriam ter sido precedidas de regular liquidação , ainda que por medições , como comum em obras de edificações .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Rio de Janeiro', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não é de forma desmotivada que a Lei 4.320/1964 prevê , em seus artigos 62 e 63 , a fase de liquidação da despesa , a qual consiste na verificação do direito adquirido pela Administração , antes do pagamento , evitando-se quitações antecipadas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei 4.320/1964",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei 4.320/1964', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Esta Corte de Contas já firmou entendimento no sentido de que a antecipação de pagamento somente deve ser admitida em situações excepcionais , devidamente justificadas pela Administração , ocasião em que deve ficar demonstrada a existência de interesse público , obedecidos os critérios e exceções expressamente previstos pela legislação que rege a matéria , quais sejam , existência de previsão no edital de licitação ou nos instrumentos formais de adjudicação direta e as indispensáveis cautelas e garantias ( Acórdão 2.565/2007 – Primeira Câmara ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão 2.565/2007",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Primeira Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81,
+      82
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Acórdão 2.565/2007', 'JURISPRUDENCIA'), ('Primeira Câmara', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A possibilidade de devolução dos recursos ao Tesouro Nacional não constitui justificativa hábil a ensejar pagamentos antecipados temerários , sem sequer se acercar da lisura dos documentos apresentados pelo Grupo OK .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tesouro Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tesouro Nacional', 'ORGANIZACAO'), ('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O recorrente tinha ciência da necessidade de inspeção física dos materiais adquiridos e circularização da veracidade das informações inseridas pelo Grupo OK nos “ termos de fiel depositário ” ( peça 3 , p. 15 e 31-32 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A razão de não ter sido comprado pelo STM já foi explicada acima .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sem que sequer técnicos do órgão confirmassem junto aos fornecedores supostamente depositários dos materiais os pagamentos pelo Grupo OK , o STM , com base em autorização do recorrente , pagou antecipadamente despesas superiores a R $ 400.000,00 , em valores da época .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Entretanto , recebeu o ofício já com prazo assinado de 15 dias para apresentar defesa perante a Secretaria de Controle Externo do Estado do Rio de Janeiro – Secex/RJ , após transcorridos meses ( peça 66 , p. 6 ) ; b ) Na Secex/RJ , procurou contato com o Secretário , sem sucesso , tendo conversado com Sérgio Honorato , o qual estranhou o fato de não ter sido ouvido no âmbito da TCE .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Controle Externo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Estado do Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Secex/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Secex/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Sérgio Honorato",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Secretaria de Controle Externo', 'ORGANIZACAO'), ('Estado do Rio de Janeiro', 'LOCAL'), ('Secex/RJ', 'ORGANIZACAO'), ('Secex/RJ', 'ORGANIZACAO'), ('Sérgio Honorato', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O processo , depois , foi remetido ao Tribunal ; c ) Na Secretaria de Recursos , o Secretário informou-lhe que ele teria a oportunidade de defesa no momento próprio ( peça 66 , p. 7 ) ; d ) A ampla defesa , inscrita na Carta Constitucional , transcende o formalismo e constitui entendimento da questão , estabelecendo rico contraditório , especialmente na Primeira Instância , posicionamento expresso em jurisprudência desta Casa ( peça 66 , p. 7 ) ; e ) O Secretário da Secex/RJ , em despacho prolatado nos autos do TC 009.153/1999-3 e transcrito parcialmente no recurso ( peça 66 , p. 7-9 ) , tece crítica aos atos praticados na fase interna da TCE , sem a notificação dos responsáveis , com infringência à segurança jurídica , ao princípio inscrito no art . 5º , inciso LV , da Constituição Federal e às Leis 9.784/1999 e 8.112/1990 ; f ) Não foi dada oportunidade de defesa ao recorrente , no momento oportuno , o que propiciaria demonstrar ao tomador de contas as diversas facetas da situação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Recursos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Carta Constitucional",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Secex/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "TC 009.153/1999-3",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      94,
+      95
+    ]
+  },
+  {
+    "text": "art . 5º , inciso LV , da Constituição Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145
+    ]
+  },
+  {
+    "text": "Leis 9.784/1999",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      148,
+      149
+    ]
+  },
+  {
+    "text": "8.112/1990",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      151
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Secretaria de Recursos', 'ORGANIZACAO'), ('Carta Constitucional', 'LEGISLACAO'), ('Secex/RJ', 'ORGANIZACAO'), ('TC 009.153/1999-3', 'JURISPRUDENCIA'), ('art . 5º , inciso LV , da Constituição Federal', 'LEGISLACAO'), ('Leis 9.784/1999', 'LEGISLACAO'), ('8.112/1990', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Seria possível a obtenção de provas materiais e testemunhais , de modo a constatar a inidoneidade da empresa contratada ( peça 66 , p. 9 ) ; g ) A defesa do recorrente , que já estava acometido de grave doença , após a comunicação do STM , restringiu-se a escrever poucas linhas , por intermédio de advogado , sem a capacidade de demonstrar a realidade dos fatos que levaram à tomada de posição pelo gestor ; Análise 6.2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O contraditório somente se torna obrigatório com o ingresso da documentação no Tribunal de Contas da União ( Acórdão 2.471/2013 – Plenário ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Acórdão 2.471/2013",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tribunal de Contas da União', 'ORGANIZACAO'), ('Acórdão 2.471/2013', 'JURISPRUDENCIA'), ('Plenário', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cabe relatar que , não obstante as citações tenham sido realizadas no bojo do TC 007.236/2001-4 , referiram-se devidamente aos fatos atinentes ao presente processo , ao qual fazem referência expressa no corpo da comunicação processual .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TC 007.236/2001-4",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TC 007.236/2001-4', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com isso , não havendo prejuízo , não há que se falar em nulidade , conforme o postulado do formalismo moderado , consagrado em direito processual pelo brocardo pas de nulité sans grief e materializado no art . 171 do Regimento Interno do TCU , in verbis : Art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 171 do Regimento Interno do TCU",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 171 do Regimento Interno do TCU', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Decisões judiciais e processo no TCU ( peças 66 , p. 10-12 , 28 , e 58-93 ; e 82 , p. 2 ) 7.1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TCU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O recorrente afirma não ser possível cumprir a deliberação do Tribunal , tendo em vista os seguintes argumentos : a ) Diante da fraude perpetrada pela contratada , com falsificação de documentos , a Administração efetuou o distrato , previsto legalmente e oficiou à Procuradoria-Geral da República acerca das ocorrências , solicitando as providências cíveis e penais cabíveis , com processos em ambas as esferas ( peça 66 , p. 10 ) ; b ) Na esfera cível , há processo ( 2001.34.00.024796-9 ) que trata do ressarcimento dos danos ao erário exatamente pelo não fornecimento dos itens adquiridos antecipadamente , discutidos nos presentes autos ; c ) O Grupo OK ajuizou ação , com o objetivo de anular o ato que rescindiu o contrato .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Procuradoria-Geral da República",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "2001.34.00.024796-9",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      109,
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Procuradoria-Geral da República', 'ORGANIZACAO'), ('2001.34.00.024796-9', 'JURISPRUDENCIA'), ('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O processo encontra-se em grau de recurso , mas com grande possibilidade de confirmação , dadas as provas periciais juntadas ; d ) Existem duas decisões com determinação para ressarcimento aos cofres públicos dos pagamentos antecipados ao Grupo OK : o julgado ora em discussão e a deliberação da Justiça Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Se o Grupo OK cumprir a decisão judicial , a empresa e o recorrente não precisarão atender o julgado do Tribunal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Caso o ex-gestor ou a pessoa jurídica cumpram a deliberação desta Corte , ainda assim a contratada estará obrigada ao mandamento da Justiça Federal ( peça 66 , p. 11-12 ) ; f ) Conforme pacífica jurisprudência desta Casa , caso o réu seja absolvido na justiça comum , estará isento de reprimenda também na Corte de Contas ( peça 66 , p. 11 ) ; g ) Com a deliberação da Justiça federal , que condenou o Grupo OK , favorecendo o recorrente , a prudência , a lógica e a Justiça recomendam a exclusão da responsabilidade dele no processo administrativo ou o sobrestamento do feito até decisão final do processo na Justiça Federal ; Análise 7.2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O artigo 935 do Código Civil prescreve que a “ responsabilidade civil é independente da criminal , não se podendo questionar mais sobre a existência do fato , ou sobre quem seja o seu autor , quando estas questões se acharem decididas no juízo criminal ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 935 do Código Civil",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('artigo 935 do Código Civil', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse último , por exemplo , o STF decidiu que a sentença proferida em processo penal é incapaz de gerar direito líquido e certo de impedir o Tribunal de Contas da União - TCU de proceder à tomada de contas , mas poderá servir de prova em processos administrativos se concluir pela não-ocorrência material do fato ou pela negativa de autoria .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STF', 'ORGANIZACAO'), ('Tribunal de Contas da União', 'ORGANIZACAO'), ('TCU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse mesmo sentido é o teor do art . 126 da Lei 8.112/1990 , segundo o qual a “ responsabilidade administrativa do servidor será afastada no caso de absolvição criminal que negue a existência do fato ou sua autoria ” ( grifos acrescidos ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 126 da Lei 8.112/1990",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 126 da Lei 8.112/1990', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Também consta na Lei 8.429/1992 , que trata da improbidade administrativa , a positivação do referido princípio , quando seu artigo 12 destaca que o responsável por ato de improbidade está sujeito às cominações estabelecidas por esta norma , independentemente das sanções penais , civis e administrativas previstas na legislação específica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei 8.429/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei 8.429/1992', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A ação ajuizada pela União não incluiu o ex-gestor no polo passivo , não havendo qualquer manifestação acerca da autoria dos eventos no âmbito da Administração Pública .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Plenário do Supremo Tribunal Federal já decidiu , inclusive , que o ajuizamento de ação civil pública não retira a competência do Tribunal de Contas da União para instaurar tomada de contas especial , tendo em vista a competência do TCU inserta no art . 71 da Constituição Federal , como se constata no seguinte excerto do MS 25.880/DF , de 7/2/2007 , da relatoria do Ministro Eros Grau : EMENTA : MANDADO DE SEGURANÇA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Plenário do Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "art . 71 da Constituição Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "MS 25.880/DF",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "7/2/2007",
+    "label": "TEMPO",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Eros Grau",
+    "label": "PESSOA",
+    "token_indices": [
+      68,
+      69
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Plenário do Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "art . 71 da Constituição Federal",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "MS 25.880/DF",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "7/2/2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Eros Grau",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('TCU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PROCEDIMENTO DISCIPLINADO NA LEI N . 8.443/92 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LEI N . 8.443/92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('LEI N . 8.443/92', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A competência do Tribunal de Contas da União para julgar contas abrange todos quantos derem causa a perda , extravio ou outra irregularidade de que resulte dano ao erário , devendo ser aplicadas aos responsáveis , em caso de ilegalidade de despesa ou irregularidade de contas , as sanções previstas em lei , lei que estabelecerá , entre outras cominações , multa proporcional ao dano causado aos cofres públicos [ art . 71 , II , da CB/88 e art . 5º , II e VIII , da Lei n . 8.443/92 ] .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "art . 71 , II , da CB/88",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "text": "art . 5º , II e VIII , da Lei n . 8.443/92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tribunal de Contas da União', 'ORGANIZACAO'), ('art . 71 , II , da CB/88', 'LEGISLACAO'), ('art . 5º , II e VIII , da Lei n . 8.443/92', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não se impõe a observância , pelo TCU , do disposto nos artigos 148 a 182 da Lei n . 8.112/90 , já que o procedimento da tomada de contas especial está disciplinado na Lei n . 8.443/92 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "artigos 148 a 182 da Lei n . 8.112/90",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Lei n . 8.443/92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TCU', 'ORGANIZACAO'), ('artigos 148 a 182 da Lei n . 8.112/90', 'LEGISLACAO'), ('Lei n . 8.443/92', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O ajuizamento de ação civil pública não retira a competência do Tribunal de Contas da União para instaurar a tomada de contas especial e condenar o responsável a ressarcir ao erário os valores indevidamente percebidos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tribunal de Contas da União', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A comprovação da efetiva prestação de serviços de assessoria jurídica durante o período em que a impetrante ocupou cargo em comissão no Tribunal Regional do Trabalho da 1ª Região exige dilação probatória incompatível com o rito mandamental .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal Regional do Trabalho da 1ª Região",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tribunal Regional do Trabalho da 1ª Região', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O voto condutor do Acórdão 2/2003-TCU-2ª Câmara demonstra a posição pacífica deste Tribunal sobre o tema , quando assim dispôs : O TCU tem jurisdição própria e privativa sobre as pessoas e matérias sujeitas a sua competência , de modo que a proposição de qualquer ação no âmbito do Poder Judiciário não obsta que esta Corte cumpra sua missão constitucional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão 2/2003-TCU-2ª Câmara",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Acórdão 2/2003-TCU-2ª Câmara', 'JURISPRUDENCIA'), ('TCU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+De fato , por força de mandamento constitucional ( CF , art . 71 , inc. II ) , compete a este Tribunal julgar as contas dos administradores e demais responsáveis por dinheiros , bens e valores da administração federal direta e indireta , e as contas daqueles que derem causa a perda , extravio ou outra irregularidade de que resulte prejuízo ao Erário .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CF , art . 71 , inc. II",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CF , art . 71 , inc. II', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E , para o exercício dessa atribuição específica , o TCU é instância independente , não sendo cabível , portanto , tal como pretende o interessado , que se aguarde manifestação do Poder Judiciário no tocante à matéria em discussão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TCU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O recorrente afirma não poder ser penalizado pelos atos irregulares em julgamento nesta Corte , por ausência de má-fé , tendo em vista os seguintes argumentos : a ) O administrador inábil ou que pratique mera ilegalidade ou irregularidades administrativas não pode ser punido pela Lei de improbidade administrativa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei de improbidade administrativa",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei de improbidade administrativa', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O autor buscou cumprir a missão que lhe foi dada ; c ) Questiona-se se as cautelas tomadas pelo recorrente antes da posse , na tentativa de abortar ou acelerar a decisão do STM sobre o assunto ora em debate , não são provas suficientes da boa-fé do agente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Trata-se do testemunho de três ministros do STM , membros do Conselho de administração do Tribunal , na época dos fatos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diante do golpe aplicado pelo Grupo OK , o recorrente se dirigiu , em correspondência , ao Relator do processo no Tribunal e ao Presidente do STM , requerendo exoneração do cargo em comissão ocupado ( peça 66 , p. 30-31 e 110-111 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É pacífico na jurisprudência desta Corte que a boa-fé do responsável deve ser objetivamente analisada e provada no caso concreto , considerando-se a prática efetiva e as consequências de determinado ato à luz de um modelo de conduta comum do homem médio ( Acórdãos 2.464/2013 e 2.550/2008 , ambos do Plenário ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdãos 2.464/2013",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "2.550/2008",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Acórdãos 2.464/2013', 'JURISPRUDENCIA'), ('2.550/2008', 'JURISPRUDENCIA'), ('Plenário', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Há nos autos e nas próprias provas colacionadas pelo recorrente elementos que demonstram que seria exigível do responsável , como Diretor-Geral do STM , conduta diversa na condução das aquisições questionadas , em cotejo com a ação do gestor médio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Diretor-Geral anterior , de fato , previu a possibilidade de compra de materiais relativos a etapas subsequentes da obra , ainda em março de 1999 ( peça 66 , p. 38-39 , questão 15 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "março de 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('março de 1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O recorrente chancelou integralmente a ideia ( peça 66 , p. 51 , item 14 ) , em relatório datado 19/4/1999 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "19/4/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('19/4/1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em qualquer hipótese , a fase de liquidação das despesas deveria ser preservada , por imposição legal , razão pela qual se mostrou temerária a ampliação dada pelo ex-gestor à ideia inicial , prevendo pagamentos antecipados de materiais que sequer estariam sob a responsabilidade do STM ( peça 66 , p. 54 , item 6 , alínea “ e ” ) : e ) a diferença de R $ 210.000,00 a R $ 400.000,00 pode ser gasta em 1999 mediante a aquisição de material constante do projeto , como elevadores e materiais de acabamento , as quais poderão ficar estocados na posse do STM ou caucionados com o fabricante e/ou construtora .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO'), ('1999', 'TEMPO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Além disso , ao compulsar o relatório elaborado pelo recorrente , verifica-se que o responsável tinha ciência de que o Grupo OK se encontrava em precária situação financeira ( peça 66 , p. 54 , item 8 ) , o que obrigaria qualquer gestor médio a se acercar de cuidados adicionais nos pagamentos realizados à empresa , especialmente em caso de indevida antecipação de recursos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Entretanto , mesmo diante de elementos contundentes a exigir cautela na condução das compras vinculadas à obra de construção do edifício da 1ª CJM no Rio de Janeiro , o recorrente , em 16/12/1999 , proferiu despacho autorizando as compras antecipadas , com base apenas em “ Termos de Fiel Depositário ” ( peça 2 , p. 13 ) : 1. autorizei a construtora a adquirir equipamentos , materiais e insumos de etapas posteriores do cronograma , desde que , em relação aos equipamentos e materiais as empresas fornecedoras entregassem o respectivo Termo de Fiel Depositário e em relação aos insumos fossem os mesmos estocados na obra ; 8.8 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "16/12/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1ª CJM', 'ORGANIZACAO'), ('Rio de Janeiro', 'LOCAL'), ('16/12/1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cabe informar que , estranhamente , o Grupo OK já havia adquirido as esquadrias de alumínio de forma antecipada , conforme nota fiscal e medição datadas de 2/12/1999 ( peça 2 , p. 5-7 ) , cujo pagamento ocorreu na mesma data do despacho autorizador ( peça 2 , p. 8 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "2/12/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO'), ('2/12/1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Do mesmo modo , os materiais a serem empregados nas instalações de ar condicionado foram adquiridos em 15/12/1999 ( peça 2 , p. 10-12 ) , também antes do despacho com a autorização de aquisição de tal sorte atípica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "15/12/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('15/12/1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O pagamento dessa despesa ocorreu em 27/12/1999 ( peça 2 , p. 14 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "27/12/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('27/12/1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os “ Termos de Fiel Depositário ” , que embasaram as despesas questionadas , datam de 3 e 23/11/1999 ( peça 3 , p. 15 e 31 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "3 e 23/11/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('3 e 23/11/1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , a autorização dada pelo recorrente para que o Grupo OK adquirisse antecipadamente os materiais sequer estava revestida em ato administrativo formal anterior , em conduta claramente temerária , negligente e imprudente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diante disso , nesta Corte , ao contrário do que afirma o responsável , para a imputação de débito não é necessária a demonstração de má-fé e dolo , diversamente da responsabilidade fixada frente à Lei de Improbidade Administrativa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei de Improbidade Administrativa",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei de Improbidade Administrativa', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A obrigação de reparar o dano ao erário não se direciona apenas aos responsáveis por desvios ou locupletamentos , mas também sobre o gestor que atua culposamente , de forma temerária , conforme a jurisprudência desta Casa ( Acórdão 863/2014 – Segunda Câmara ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão 863/2014",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Segunda Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Acórdão 863/2014', 'JURISPRUDENCIA'), ('Segunda Câmara', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , a ausência de dolo e de locupletamento por parte do responsável não afasta a possibilidade de aplicação de sanção ao gestor por esta Corte , nem o exime do dever de recompor o dano a que der causa por meio de atuação culposa , consubstanciada no descuido no atuar ou no descumprimento de um dever , seja por negligência , imprudência ou imperícia ( Acórdão 123/2007 – Primeira Câmara ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão 123/2007",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Primeira Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69,
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Acórdão 123/2007', 'JURISPRUDENCIA'), ('Primeira Câmara', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O recorrente aduz terem sido eficazes as garantias adotadas nas compras com pagamento antecipado , discutidas nos presentes autos , tendo em vista os seguintes argumentos : a ) O dano encontrado se limitou a duas aquisições , decorrentes de ação criminosa da contratada , ao deixar de entregar o material adquirido antecipadamente ( peça 66 , p. 17 ) ; b ) Outros danos causados ao erário , em razão de conduta culposa , não foram objeto de abordagem neste processo , a exemplo da desorganização no Serviço de Patrimônio da União – SPU , na doação em duplicidade do mesmo terreno , descuido da administração anterior do STM ao receber o imóvel doado , projeto básico inicial com custo elevado e aproveitamento apenas parcial e novo planejamento , com novos gastos ( peça 66 , p. 17-18 ) ; c ) Os técnicos não elogiaram a utilização do depósito voluntário como solução , quando as aquisições antecipadas foram entregues na etapa adequada , a exemplo dos produtos descritos nos itens 36.1 , 49 e 61 da TCE ( peça 66 , p. 18 ) , os quais parte foram liquidados na gestão do corrente e parte do sucessor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Serviço de Patrimônio da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "text": "SPU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      94
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      109
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Serviço de Patrimônio da União', 'ORGANIZACAO'), ('SPU', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Isso demonstra que a Administração trabalhava com a ideia de melhor aproveitamento dos recursos ; d ) Os materiais entregues com sucesso foram adquiridos em 2000 , com recursos de restos a pagar de 1999 , mas não estavam empenhados em favor do Grupo OK , razão pela qual puderam ser adquiridos diretamente pelo STM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2000",
+    "label": "TEMPO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('2000', 'TEMPO'), ('1999', 'TEMPO'), ('Grupo OK', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Permaneceram sob a guarda da Aeronáutica e foram montados posteriormente pelas vencedoras dos respectivos certames ( peça 66 , p. 19 ) ; e ) Em relação às esquadrias e ar condicionado , os recursos inscritos em restos a pagar de 1998 já estavam empenhados ao Grupo OK , logo , não poderiam ser adquiridos diretamente , mas sim em nome da empresa , fato desconsiderado pelos técnicos ( peça 66 , p. 19 ) ; f ) Em situações emergenciais , estando em risco o interesse público , o gestor , ao buscar cumprir a missão que lhe foi atribuída , deve procurar a solução mais adequada a cada situação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1998', 'TEMPO'), ('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por exemplo , em 1984/85 , quando Comandante do Cindacta I , o recorrente era obrigado a adquirir antecipadamente pneus , utilizando-se do “ Termo de Fiel Depositário ” , de forma a garantir o uso das viaturas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1984/85",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Cindacta I",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1984/85', 'TEMPO'), ('Cindacta I', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em uma aquisição , ironicamente , a vencedora do certame foi a empresa OK Pneus ( peça 66 , p. 19-20 ) ; g ) O “ Termo de Fiel Depositário ” não constitui invenção , pois está inscrito na legislação pátria e inclusive possuía legitimação constitucional , no art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OK Pneus",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('OK Pneus', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O recorrente acreditava que a probidade anda junto com os títulos , lição que tem lhe custado aborrecimentos ; i ) Deve-se questionar , também , afirmação dos técnicos , constante do item 45 do relatório do acórdão recorrido , transcrito no recurso ( peça 66 , p. 23-24 ) , sobre não se poder centrar a discussão entre “ termo de depósito ” e “ fiança bancária ” , pois os documentos que embasaram as aquisições não eram fidedignos , haja vista não terem sequer a titularidade do STM ( peça 66 , p. 23-24 ) ; j ) Os recursos de 1998 estavam empenhados em favor do Grupo OK .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      109,
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO'), ('1998', 'TEMPO'), ('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Logo , o STM não poderia titularizar os documentos de aquisição .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Após discussões com técnicos do STM e diante da possibilidade de perda dos recursos , tornou-se forçosa a aquisição pela contratada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em outro , o Grupo OK se colocou diretamente como depositário das mesmas mercadorias ( peça 66 , p. 100-101 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ao contrário dos termos falsificados , os outros itens foram entregues no momento adequado , validando-se a garantia ( peça 66 , p. 24 ) ; l ) A afirmação dos técnicos de que o material não foi comprado pelo STM , mas supostamente contratado a terceiros pelo Grupo OK , sem a verificação do pagamento aos fornecedores , não sendo de esperar a entrega dos materiais não pagos às empresas ( peça 66 , p. 25 ) , também merece reparos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO'), ('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Havia muita pressão influenciando a administração do recorrente , especialmente a necessidade de agilizar a aposentadoria do Presidente do STM , para que ele assumisse funções no Executivo , o que explica o momento de tensão adicional em 1999 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO'), ('1999', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Normalmente , o contrato seria assinado com o Grupo OK , com entrada e parcelas , coincidindo a última com a entrega e montagem .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por conta do pagamento antecipado pelo valor total , antes da instalação , o STM buscou o Termo como garantia ( peça 66 , p. 25 ) ; o ) É questionável também o posicionamento dos auditores de que o STM não poderia agir contra o Grupo OK ou as empresas , pois não havia titularidade do órgão nos termos ( peça 66 , p. 26 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO'), ('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Caso os documentos fossem verdadeiros e as fornecedoras falhassem na entrega , caberia à contratada agir contra a vendedora , com ou sem o Superior Tribunal Militar como litisconsorte ( peça 66 , p. 26 ) ; p ) Os termos não eram , de fato , fidedignos , como afirma a unidade técnica no item 63 do relatório do acórdão recorrido ( peça 66 , p. 26 ) , sendo esta a razão do processo em debate .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Se o Grupo OK não tivesse aplicado golpe no contratante , protegido pela imunidade do proprietário , os termos seriam válidos , nos moldes de outras três aquisições , com a mesma garantia , decisões corretas do recorrente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O ex-gestor se referiu à devolução dos recursos de 1998 , inscritos em restos a pagar e passados ao ano de 1999 , os quais estavam empenhados ao Grupo OK e tinham a finalidade precípua de aplicação na construção do Edifício da 1ª CJM , como informado em diversas reuniões com técnicos do STM e na forma ocorrida com os valores de 1997 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "1ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "1997",
+    "label": "TEMPO",
+    "token_indices": [
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1998', 'TEMPO'), ('1999', 'TEMPO'), ('Grupo OK', 'ORGANIZACAO'), ('1ª CJM', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO'), ('1997', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No ano de 1999 , 80 a 85 % dos valores destinados à obra eram da dotação de 1998 ; Análise 9.2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1999', 'TEMPO'), ('1998', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ao contrário , demonstram o contexto de descuido do órgão na condução das aquisições vinculadas à obra e poderiam até ser objeto de apenação dos demais responsáveis e também a Carlos Aureliano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Aureliano",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Aureliano', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Como disserta o próprio recurso , o no-break , as divisórias e as poltronas ficaram depositadas na Aeronáutica , com determinação explícita do responsável de fiscalização in loco da estocagem pelo CRO/1 do Exército ( peça 2 , p. 13 ) : 2. determinei ao órgão fiscalizador , a CRO/1 do Exército , a verificação do recebimento dos Termos de Fiel Depositário para cada equipamento ou material adquirido e a confirmação da estocagem no canteiro de obras dos insumos referentes a etapas subsequentes do cronograma .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aeronáutica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "CRO/1 do Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "CRO/1 do Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49,
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aeronáutica', 'ORGANIZACAO'), ('CRO/1 do Exército', 'ORGANIZACAO'), ('CRO/1 do Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Note-se que , de acordo com a orientação do ora recorrente , para as compras antecipadas de esquadrias e materiais para o ar condicionado , apenas os “ Termos de Fiel Depositário ” seriam suficientes sem qualquer outra ação da administração para confirmar as aquisições , sequer circularização das informações para garantir que o Grupo OK tivesse , de fato , realizado as aquisições .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A interpretação do recorrente acerca da possibilidade de prisão do Senador da República , sócio do Grupo OK , em caso de não entrega dos materiais adquiridos e garantidos por depósito não está correta .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Como demonstram os termos , não era o Grupo OK o fiel depositário dos itens , mas sim as empresas que venderam os produtos para a construtora contratada ( peça 3 , p. 15 e 31 ) , as quais sequer foram contatadas pelo STM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO'), ('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diante da conjuntura apresentada nos autos e tendo em vista o disposto nos artigos 62 e 63 da Lei 4.320/1964 , a certeza quanto à existência do material adquirido seria medida obrigatória antes da realização dos pagamentos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigos 62 e 63 da Lei 4.320/1964",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('artigos 62 e 63 da Lei 4.320/1964', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ao contrário do que afirma o recorrente , as aquisições supostamente realizadas pelo Grupo OK e colocadas em depósito junto aos fornecedores envolviam essencialmente materiais e equipamentos , como demonstram os próprios termos ( peça 66 , p. 15 e 31 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Aliás , não poderia ser diferente , pois essa espécie contratual envolve , por natureza , a guarda de objeto móvel e corpóreo , na forma prevista no artigo 627 do Código Civil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 627 do Código Civil",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('artigo 627 do Código Civil', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+De fato , como afirmou a unidade técnica , diante das cláusulas especificadas nos termos e da ausência de participação da União na avença , haveria dificuldade jurídica em reaver os materiais supostamente adquiridos , caso fossem os fornecedores os operadores da fraude .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Também em concordância com a unidade técnica , diante das soluções possíveis à disposição do recorrente , a autorização para realização de pagamentos antecipados com claros riscos ao erário se mostrou sobremaneira mais prejudicial ao Estado do que seria a devolução dos recursos de 1998 ao erário , com nova discussão orçamentária .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1998', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A omissão do STM e as fragilidades no planejamento da obra em si trouxeram prejuízos ao órgão , os quais foram agravados pessoalmente pelo ex-gestor ao permitir , de forma temerária , os pagamentos antecipados por produtos adquiridos pela contratada junto a terceiro , sem qualquer garantia da existência dos materiais ou sequer da efetiva relação jurídica entre os fornecedores e o Grupo OK .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Grupo OK",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      62,
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO'), ('Grupo OK', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , como já destacado anteriormente , a antecipação de pagamento somente deve ser admitida em situações excepcionais , devidamente justificadas pela Administração , ocasião em que deve ficar demonstrada a existência de interesse público , obedecidos os critérios e exceções expressamente previstos pela legislação que rege a matéria , quais sejam , existência de previsão no edital de licitação ou nos instrumentos formais de adjudicação direta e as indispensáveis cautelas e garantias ( Acórdão 2.565/2007 – Primeira Câmara ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão 2.565/2007",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      74,
+      75
+    ]
+  },
+  {
+    "text": "Primeira Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77,
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Acórdão 2.565/2007', 'JURISPRUDENCIA'), ('Primeira Câmara', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A sentença condenatória na ação cível está respaldada em laudo do perito judicial , confirmado em manifestação de técnico da Advocacia-Geral da União .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Advocacia-Geral da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Advocacia-Geral da União', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Primeiramente , os índices apresentados pelo ex-gestor não se referem à atualização do débito no âmbito desta Corte , mas sim ao Relatório da TCE no STM ( peça 82 , p. 3 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os valores indicados tanto no relatório do tomador ( TC 003.783/2004-8 , peça 7 , p. 15 ) , quanto na ação judicial trazida no recurso ( peça 66 , p. 68 , 77 e 84 ) tratam de reajustamento previsto no Sexto Termo Aditivo ao Contrato SECOT 249/97 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TC 003.783/2004-8",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TC 003.783/2004-8', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Desse modo , a jurisprudência deste tribunal se firmou no sentido de que os débitos e multas imputados pelo TCU serão atualizados monetariamente , mantendo-se em 1 % os juros de mora incidentes nos casos de débitos , nos termos do art . 59 da Lei 8.383/1991 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "art . 59 da Lei 8.383/1991",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TCU', 'ORGANIZACAO'), ('art . 59 da Lei 8.383/1991', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse sentido são os seguintes julgados desta Corte : acórdãos 612/2007-1ª Câmara e 322/2005-2ª Câmara .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "acórdãos 612/2007-1ª Câmara",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "322/2005-2ª Câmara",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "612/2007-1ª Câmara",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "322/2005-2ª Câmara",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('acórdãos 612/2007-1ª Câmara', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('612/2007-1ª Câmara', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+É verdadeira a informação de que Carlos Aureliano Motta de Souza não consta do rol de responsável quando do segundo pagamento irregular , questionado nos presentes autos , em 27/12/1999 , pois o cargo era exercido por José Luiz Soares Reali , em substituição ( peça 1 , p. 2-3 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "27/12/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "José Luiz Soares Reali",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Carlos Aureliano Motta de Souza', 'PESSOA'), ('27/12/1999', 'TEMPO'), ('José Luiz Soares Reali', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Erroneamente , a parte se referiu às esquadrias de alumínio , mas a compra envolveu os materiais destinados ao ar condicionado , como descrito no próprio documento indicado pelo autor ( TC 003.783/2004-8 – peça 7 , p. 15 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TC 003.783/2004-8",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TC 003.783/2004-8', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ao realizar o pagamento , o ordenador de despesa substituto anexou aos documentos comprobatórios da parcela do dia 27/12/1999 o despacho com a autorização de Carlos Aureliano , no seguinte sentido ( peça 2 , p. 13 ) , demonstrando-se uma vez mais a participação dele no nexo causal do dano : 1. autorizei a construtora a adquirir equipamentos , materiais e insumos de etapas posteriores do cronograma , desde que , em relação aos equipamentos e materiais as empresas fornecedoras entregassem o respectivo Termo de Fiel Depositário e em relação aos insumos fossem os mesmos estocados na obra ; 11.6 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "27/12/1999",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Carlos Aureliano",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('27/12/1999', 'TEMPO'), ('Carlos Aureliano', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cabe destacar que as duas notas fiscais , com despesas questionadas nos presentes autos , foram emitidas antes do fim da gestão do recorrente ( peça 2 , p. 5-14 ) , demonstrando a ingerência direta do ex-gestor nas aquisições irregulares e no dano ao erário , ainda que se pudesse questionar a responsabilização de José Luiz Soares Reali , ordenador quando do segundo pagamento irregular .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José Luiz Soares Reali",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('José Luiz Soares Reali', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O contraditório somente se torna obrigatório com o ingresso da documentação no Tribunal de Contas da União ; c ) O fato de a apuração da irregularidade ter-se realizado em outro processo não afeta a avaliação do conjunto da gestão , que é feita ao final do exame das contas , desde que , naqueles autos , tenha-se obedecido às exigências que caracterizam o devido processo legal e que , no exame das contas , esteja demonstrada a avaliação da irregularidade no contexto dos demais atos de gestão do período ; d ) No ordenamento jurídico brasileiro vigora o princípio da independência das instâncias , em razão do qual podem ocorrer condenações simultâneas nas diferentes esferas – cível , criminal e administrativa ; e ) A boa-fé do responsável deve ser objetivamente analisada e provada no caso concreto , considerando-se a prática efetiva e as consequências de determinado ato à luz de um modelo de conduta comum do homem médio ; f ) A ausência de dolo e de locupletamento por parte do responsável não afasta a possibilidade de aplicação de sanção ao gestor por esta Corte , nem o exime do dever de recompor o dano a que der causa por meio de atuação culposa , consubstanciada no descuido no atuar ou no descumprimento de um dever , seja por negligência , imprudência ou imperícia ; g ) A jurisprudência deste tribunal se firmou no sentido de que os débitos e multas imputados pelo TCU serão atualizados monetariamente , mantendo-se em 1 % os juros de mora incidentes nos casos de débitos , nos termos do art . 59 da Lei 8.383/1991 ; h ) O gestor será responsabilizado quando se comprove a participação dele no nexo de causalidade do dano ao erário , de modo que , sem o ato do acusado , a despesa irregular não teria sido realizada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      245
+    ]
+  },
+  {
+    "text": "art . 59 da Lei 8.383/1991",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      267,
+      268,
+      269,
+      270,
+      271,
+      272
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tribunal de Contas da União', 'ORGANIZACAO'), ('TCU', 'ORGANIZACAO'), ('art . 59 da Lei 8.383/1991', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diante do exposto , com fundamento nos artigos 32 , I , e 33 , da Lei 8.443/1992 , submetem-se os autos à consideração superior , com posterior encaminhamento ao Ministério Público junto ao TCU e ao Gabinete do Relator , propondo : a ) conhecer do recurso e , no mérito , negar-lhe provimento ; b ) comunicar ao recorrente , ao Superior Tribunal Militar e ao Tribunal Regional Federal da 2ª Região , a fim de fornecer subsídios para os processos judiciais 2001.34.00.024796-9 e 2003.34.00.044227-3 ; e aos demais interessados a deliberação que vier a ser proferida por esta Corte ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigos 32 , I , e 33 , da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Tribunal Regional Federal da 2ª Região",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ]
+  },
+  {
+    "text": "2001.34.00.024796-9",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "2003.34.00.044227-3",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      86
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "artigos 32 , I , e 33 , da Lei 8.443/1992",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Ministério Público junto ao TCU",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tribunal Regional Federal da 2ª Região",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2001.34.00.024796-9",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "2003.34.00.044227-3",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Ministério Público', 'ORGANIZACAO'), ('TCU', 'ORGANIZACAO')]
+Espúrias  (FP): [('Ministério Público junto ao TCU', 'ORGANIZACAO')]
+

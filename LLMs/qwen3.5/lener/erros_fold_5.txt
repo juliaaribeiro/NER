@@ -1,0 +1,5862 @@
+--------------------------------------------------------------------------------
+Texto:
+GRUPO I CLASSE II 2ª Câmara TC 019.040/2013-0 Natureza : Tomada de Contas Especial Entidade : Projeto Aero Circus Espetáculos Itinerantes Responsável : Robsmar da Silva ( 730.850.069-15 ) Interessado : Secretaria de Fomento e Incentivo Fomento À Cultura Advogado constituído nos autos : não há SUMÁRIO : TOMADA DE CONTAS ESPECIAL .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2ª Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "TC 019.040/2013-0",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Projeto Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Secretaria de Fomento e Incentivo Fomento À Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "GRUPO I",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2ª Câmara",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "TC 019.040/2013-0",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Aero Circus",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "730.850.069-15",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Secretaria de Fomento e Incentivo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Fomento À Cultura",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Projeto Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO'), ('Secretaria de Fomento e Incentivo Fomento À Cultura', 'ORGANIZACAO')]
+Espúrias  (FP): [('GRUPO I', 'ORGANIZACAO'), ('Aero Circus', 'ORGANIZACAO'), ('730.850.069-15', 'PESSOA'), ('Secretaria de Fomento e Incentivo', 'ORGANIZACAO'), ('Fomento À Cultura', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+LEI ROUANET .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LEI ROUANET",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('LEI ROUANET', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+NÃO COMPROVAÇÃO DA BOA E REGULAR APLICAÇÃO DE RECURSOS PÚBLICOS FEDERAIS RECEBIDOS À CONTA DA LEI ROUANET .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LEI ROUANET",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('LEI ROUANET', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A ausência de comprovação da boa e regular aplicação dos recursos federais recebidos à conta da Lei Rouanet enseja a responsabilização do gestor dos recursos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei Rouanet', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+RELATÓRIO Tratam os autos de Tomada de Contas Especial instaurada pela Secretaria de Incentivo e Fomento à Cultura , do Ministério da Cultura , em desfavor do Sr. Robsmar da Silva , pela omissão no dever de prestar contas dos recursos recebidos à conta da Lei Rouanet para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Incentivo e Fomento à Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Ministério da Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Secretaria de Incentivo e Fomento à Cultura', 'ORGANIZACAO'), ('Ministério da Cultura', 'ORGANIZACAO'), ('Robsmar da Silva', 'PESSOA'), ('Lei Rouanet', 'LEGISLACAO'), ('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Consoante exame preliminar ( Peça 02 ) , o disposto no art . 4º da IN-TCU nº 56/2007 foi observado , vez que constam nos autos os documentos elencados no referido dispositivo normativo que se enquadram ao caso vertente e que possibilitam a análise do mérito da questão em debate e o amplo exercício do contraditório e do direito de defesa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 4º da IN-TCU nº 56/2007",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 4º da IN-TCU nº 56/2007', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por meio da instrução inicial ( Peça 03 ) , propôs a Unidade Técnica a citação do responsável , Sr. Robsmar da Silva , para que apresentasse alegações de defesa e/ou recolhesse aos cofres públicos a importância de R $ 67.826,00 , atualizada monetariamente e acrescida dos devidos encargos , por não ter prestado contas dos recursos que geriu para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      65,
+      66,
+      67,
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Robsmar da Silva', 'PESSOA'), ('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Instruído o feito , a Unidade Técnica apresentou proposta final de encaminhamento acorde , que , nos termos do inciso I , §3º do art . 1º da Lei nº 8.443/92 transcrevo ( Peças 15/16 ) : “ O presente processo de Tomada de Contas Especial foi instaurado pela Secretaria de Incentivo e Fomento à Cultura , do Ministério da Cultura , em desfavor do Sr. Robsmar da Silva ( CPF 730.850.069-15 ) , pela omissão no dever de prestar contas dos recursos recebidos para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” , conforme processo 01400.005462/03-24 que autorizou a captação de recursos no período de 26/09/2003 a 31/12/2004 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "inciso I , §3º do art . 1º da Lei nº 8.443/92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Secretaria de Incentivo e Fomento à Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Ministério da Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      90,
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "text": "26/09/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "31/12/2004",
+    "label": "TEMPO",
+    "token_indices": [
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "inciso I , §3º do art . 1º da Lei nº 8.443/92",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Secretaria de Incentivo e Fomento à Cultura",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério da Cultura",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Aero Circus",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "processo 01400.005462/03-24",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('26/09/2003', 'TEMPO'), ('31/12/2004', 'TEMPO')]
+Espúrias  (FP): [('Aero Circus', 'ORGANIZACAO'), ('processo 01400.005462/03-24', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Sr. Robsmar da Silva , sob o amparo da Lei 8.313/1991 , Lei Rouanet , assinou , em 29/12/2003 , o Recibo 001 PRONAC 03.3925 ( Peça 1 , p. 52 ) , 3/1/2002 , no valor inicial de R $ 84.783,41 , para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” que previa a realização de 20 espetáculos circenses itinerantes no Estado do Paraná com a Trupe “ Aero Circus ” , nos seguintes municípios , conforme a solicitação de apoio a projetos ( Peça 1 , p. 4-22 ) : Município Quantidade de espetáculos Londrina 3 Campo Mourão 2 Curitiba 3 Cascavel 3 Foz do Iguaçu 3 Guarapuava 3 Maringá 3 3 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Lei 8.313/1991",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "29/12/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "3/1/2002",
+    "label": "TEMPO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Aero Circus",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Londrina",
+    "label": "LOCAL",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Campo Mourão",
+    "label": "LOCAL",
+    "token_indices": [
+      101,
+      102
+    ]
+  },
+  {
+    "text": "Curitiba",
+    "label": "LOCAL",
+    "token_indices": [
+      104
+    ]
+  },
+  {
+    "text": "Cascavel",
+    "label": "LOCAL",
+    "token_indices": [
+      106
+    ]
+  },
+  {
+    "text": "Foz do Iguaçu",
+    "label": "LOCAL",
+    "token_indices": [
+      108,
+      109,
+      110
+    ]
+  },
+  {
+    "text": "Guarapuava",
+    "label": "LOCAL",
+    "token_indices": [
+      112
+    ]
+  },
+  {
+    "text": "Maringá",
+    "label": "LOCAL",
+    "token_indices": [
+      114
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lei 8.313/1991",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "29/12/2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "3/1/2002",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Aero Circus",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Francisco Beltrão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Curitiba",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO'), ('Londrina', 'LOCAL'), ('Campo Mourão', 'LOCAL'), ('Cascavel', 'LOCAL'), ('Foz do Iguaçu', 'LOCAL'), ('Guarapuava', 'LOCAL'), ('Maringá', 'LOCAL')]
+Espúrias  (FP): [('Francisco Beltrão', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foram captados pelo responsável , recursos no montante R $ 67.826,00 , junto à Companhia de Saneamento do Paraná Sanepar , com crédito aportado em 29/12/2003 , à conta-corrente 42.762-6 , da agência 0394 da Caixa Econômica Federal ( peça 1 , p. 151 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Companhia de Saneamento do Paraná",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Sanepar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "29/12/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Caixa Econômica Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Companhia de Saneamento do Paraná', 'ORGANIZACAO'), ('Sanepar', 'ORGANIZACAO'), ('29/12/2003', 'TEMPO'), ('Caixa Econômica Federal', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O responsável deveria apresentar a Prestação de Contas Final em 30/1/2005 , conforme carta de cobrança de Prestação de Contas 101/2005 ( Peça 1 , p. 60 ) e Ficha de Qualificação ( Peça 1 , p. 84-85 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "30/1/2005",
+    "label": "TEMPO",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('30/1/2005', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diante dessas conclusões , o responsável , Sr. Robsmar da Silva ( CPF 730.850.069-15 ) , foi citado nos termos do artigo 10 , § 1º e inciso II do artigo 12 , da Lei 8.443/1992 , c/c o inciso II do artigo 202 do Regimento Interno do TCU , para que apresentasse alegações de defesa e/ou recolhesse aos cofres do Tesouro Nacional , o valor de R $ 67.826,00 , que deverá ser atualizado a partir de 29/12/2003 , em razão da omissão no dever de prestar contas dos recursos captados por meio da Lei 8.313/1991 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "artigo 10 , § 1º e inciso II do artigo 12 , da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "inciso II do artigo 202 do Regimento Interno do TCU",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Tesouro Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "29/12/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "Lei 8.313/1991",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      95,
+      96
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "artigo 10 , § 1º e inciso II do artigo 12 , da Lei 8.443/1992",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "inciso II do artigo 202 do Regimento Interno do TCU",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "29/12/2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lei 8.313/1991",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Tesouro Nacional', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A citação ocorreu por meio do Ofício 948/2013-TCU/SECEX-PR , de 12/8/2013 ( Peça 6 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12/8/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('12/8/2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ao apresentar suas alegações de defesa , constantes da Peça 13 , o responsável trouxe aos autos : folder de apresentações ; vários recibos referentes à elaboração de projeto , da Associação Londrinense de Circo ; recibos autônomos de pagamentos efetuados para serviços de terceiros ; notas fiscais de agência de turismo para o pagamento de passagem aérea , jantar em londrina , local onde o responsável residia ; despesas em Paranavaí/PR ; hospedagens em Maringa/PR e Paranavaí/PR ; serviço de locação de transporte entre Londrina/PR e Paranavaí/PR ; impressão de material gráfico ; e algumas fotos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação Londrinense de Circo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Paranavaí/PR",
+    "label": "LOCAL",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "Maringa/PR",
+    "label": "LOCAL",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "Paranavaí/PR",
+    "label": "LOCAL",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Londrina/PR",
+    "label": "LOCAL",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Paranavaí/PR",
+    "label": "LOCAL",
+    "token_indices": [
+      87
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Associação Londrinense de Circo', 'ORGANIZACAO'), ('Paranavaí/PR', 'LOCAL'), ('Maringa/PR', 'LOCAL'), ('Paranavaí/PR', 'LOCAL'), ('Londrina/PR', 'LOCAL'), ('Paranavaí/PR', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Destaco , que as poucas notas fiscais apresentadas foram emitidas apenas em três municípios do Paraná : Londrina , Maringá e Paranavaí .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Londrina",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Maringá",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Paranavaí",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Paraná', 'LOCAL'), ('Londrina', 'LOCAL'), ('Maringá', 'LOCAL'), ('Paranavaí', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ressalto que o município de Paranavaí , nem ao menos , está incluída no rol de apresentações relacionadas no item 2 desta instrução .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paranavaí",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Paranavaí', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Desta feita , cabe apenas a rejeição das alegações de defesa , devendo o responsável ser condenado a ressarcir os cofres do Tesouro Nacional o valor original de R $ 67.826,00 , que deverá ser atualizado a partir de 29/12/2003 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tesouro Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "29/12/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tesouro Nacional', 'ORGANIZACAO'), ('29/12/2003', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O responsável não logrou êxito em comprovar a boa e regular aplicação dos recursos recebidos para a execução do projeto “ Aero Circus Espetáculos Itinerantes ” , em virtude da não apresentação de documentos que comprovem , ao menos , a realização dos eventos programados , assim como a ausência do extrato bancário da conta que recebeu os recursos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar , de o próprio responsável apresentar contrato firmado com empresa denominada Cultura Interativa S/C Ltda .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cultura Interativa S/C Ltda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Cultura Interativa S/C Ltda', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+rejeitar as alegações de defesa apresentadas pelo Sr. Robsmar da Silva ( CPF 730.850.069-15 ) ; 18.2. com fundamento nos artigos 1º , inciso I , 16 , inciso III , alíneas “ a ” , “ c ” e “ d ” da Lei 8.443/1992 , c/c os artigos 13 e 23 , inciso III do mesmo instrumento legal , julgar irregulares as contas do Sr. Robsmar da Silva ( CPF 730.850.069-15 ) ; 18.3. condenar o Sr. Robsmar da Silva ( CPF 730.850.069-15 ) a recolher , aos cofres do Fundo Nacional de Cultura - FNC , o valor de R $ 67.826,00 , que deverá ser atualizado a partir de 29/12/2003 , e acrescido dos devidos juros de mora , em conformidade com a legislação em vigor ; 18.4. aplicar ao Sr. Robsmar da Silva ( CPF 730.850.069-15 ) a multa prevista no artigo 57 da Lei 8.443/1992 ; 18.5. autorizar , desde logo , nos termos do art . 28 , inciso II , da Lei 8.443/1992 , a cobrança judicial das dívidas , caso não atendidas as notificações expedidas ; 18.6. encaminhar , nos termos do § 3º do art . 16 da Lei 8.443/1992 c/c o § 6º do art . 209 do RI/TCU , cópia do presente Acórdão , acompanhado do respectivo Relatório e Voto , à Procuradoria da República no Estado do Paraná , para ajuizamento das ações que entender cabíveis. ” PARECER DO MINISTÉRIO PÚBLICO JUNTO AO TCU 6 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "artigos 1º , inciso I , 16 , inciso III , alíneas “ a ” , “ c ” e “ d ” da Lei 8.443/1992 , c/c os artigos 13 e 23 , inciso III",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      79,
+      80,
+      81
+    ]
+  },
+  {
+    "text": "Fundo Nacional de Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      92,
+      93,
+      94,
+      95
+    ]
+  },
+  {
+    "text": "FNC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "29/12/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      113
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      135,
+      136,
+      137
+    ]
+  },
+  {
+    "text": "artigo 57 da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      146,
+      147,
+      148,
+      149,
+      150
+    ]
+  },
+  {
+    "text": "art . 28 , inciso II , da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170
+    ]
+  },
+  {
+    "text": "§ 3º do art . 16 da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199
+    ]
+  },
+  {
+    "text": "§ 6º do art . 209 do RI/TCU",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ]
+  },
+  {
+    "text": "Procuradoria da República no Estado do Paraná",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230
+    ]
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      246
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Robsmar da Silva', 'PESSOA'), ('artigos 1º , inciso I , 16 , inciso III , alíneas “ a ” , “ c ” e “ d ” da Lei 8.443/1992 , c/c os artigos 13 e 23 , inciso III', 'LEGISLACAO'), ('Robsmar da Silva', 'PESSOA'), ('Robsmar da Silva', 'PESSOA'), ('Fundo Nacional de Cultura', 'ORGANIZACAO'), ('FNC', 'ORGANIZACAO'), ('29/12/2003', 'TEMPO'), ('Robsmar da Silva', 'PESSOA'), ('artigo 57 da Lei 8.443/1992', 'LEGISLACAO'), ('art . 28 , inciso II , da Lei 8.443/1992', 'LEGISLACAO'), ('§ 3º do art . 16 da Lei 8.443/1992', 'LEGISLACAO'), ('§ 6º do art . 209 do RI/TCU', 'LEGISLACAO'), ('Procuradoria da República no Estado do Paraná', 'ORGANIZACAO'), ('TCU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O ilustre representante do Ministério Público , Procurador Júlio Marcelo de Oliveira , concordou , na essência , com a aludida proposta da Unidade Técnica , pugnando apenas por pequeno ajuste quanto à tipificação legal das condutas apuradas ( Peça 17 ) , senão vejamos : Trata-se de Tomada de Contas Especial instaurada pela Secretaria de Incentivo e Fomento à Cultura , do Ministério da Cultura , contra o sr. Robsmar da Silva , em decorrência da omissão no dever de prestar contas dos recursos recebidos para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” , conforme processo 01400.005462/03-24 , que autorizou a captação de recursos , no período de 26.9.2003 a 31.12.2004 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Marcelo de Oliveira",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Secretaria de Incentivo e Fomento à Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Ministério da Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "26.9.2003",
+    "label": "TEMPO",
+    "token_indices": [
+      112
+    ]
+  },
+  {
+    "text": "31.12.2004",
+    "label": "TEMPO",
+    "token_indices": [
+      114
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público', 'ORGANIZACAO'), ('Marcelo de Oliveira', 'PESSOA'), ('Secretaria de Incentivo e Fomento à Cultura', 'ORGANIZACAO'), ('Ministério da Cultura', 'ORGANIZACAO'), ('Robsmar da Silva', 'PESSOA'), ('26.9.2003', 'TEMPO'), ('31.12.2004', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O sr. Robsmar da Silva , sob o amparo da Lei 8.313/1991 , Lei Rouanet , assinou , em 29.12.2003 , o recibo 1 Pronac 03.3925 ( peça 1 , p. 52 ) , de 3.1.2002 , no valor inicial de R $ 84.783,41 ( peça 1 , p. 30 ) , para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” , que previa a realização de 20 espetáculos circenses itinerantes nos municípios de Londrina , Campo Mourão , Curitiba , Cascavel , Foz do Iguaçu , Guarapuava e Maringá , todos no Estado do Paraná , com a Trupe “ Aero Circus ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Lei 8.313/1991",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "29.12.2003",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "3.1.2002",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Londrina",
+    "label": "LOCAL",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Campo Mourão",
+    "label": "LOCAL",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Curitiba",
+    "label": "LOCAL",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Cascavel",
+    "label": "LOCAL",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Foz do Iguaçu",
+    "label": "LOCAL",
+    "token_indices": [
+      85,
+      86,
+      87
+    ]
+  },
+  {
+    "text": "Guarapuava",
+    "label": "LOCAL",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "Maringá",
+    "label": "LOCAL",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      95,
+      96,
+      97
+    ]
+  },
+  {
+    "text": "Aero Circus",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      103,
+      104
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Robsmar da Silva', 'PESSOA'), ('Lei 8.313/1991', 'LEGISLACAO'), ('Lei Rouanet', 'LEGISLACAO'), ('29.12.2003', 'TEMPO'), ('3.1.2002', 'TEMPO'), ('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO'), ('Londrina', 'LOCAL'), ('Campo Mourão', 'LOCAL'), ('Curitiba', 'LOCAL'), ('Cascavel', 'LOCAL'), ('Foz do Iguaçu', 'LOCAL'), ('Guarapuava', 'LOCAL'), ('Maringá', 'LOCAL'), ('Estado do Paraná', 'LOCAL'), ('Aero Circus', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Foram captados pelo responsável , recursos no montante de R $ 67.826,00 , junto à Companhia de Saneamento do Paraná Sanepar , com crédito aportado , em 29.12.2003 , à conta-corrente 42.762-6 , da agência 0394 da Caixa Econômica Federal ( peça 1 , p. 52 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Companhia de Saneamento do Paraná",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Sanepar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Caixa Econômica Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Companhia de Saneamento do Paraná', 'ORGANIZACAO'), ('Sanepar', 'ORGANIZACAO'), ('Caixa Econômica Federal', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A prestação de contas final deveria ter sido apresentada em 30.1.2005 ( peça 1 , p. 60 ) , no entanto , o gestor foi omisso .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "30.1.2005",
+    "label": "TEMPO",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('30.1.2005', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+II No âmbito do TCU , o sr. Robsmar da Silva foi citado por meio do Ofício 948/2013 TCU/Secex/PR , de 12.8.2013 ( peça 6 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "12.8.2013",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TCU', 'ORGANIZACAO'), ('Robsmar da Silva', 'PESSOA'), ('12.8.2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O auditor entendeu que o responsável não logrou êxito em comprovar a boa e regular aplicação dos recursos recebidos para a execução do projeto “ Aero Circus Espetáculos Itinerantes ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+rejeitar as alegações de defesa apresentadas pelo Sr. Robsmar da Silva ( CPF 730.850.069-15 ) ; 18.2. com fundamento nos artigos 1º , inciso I , 16 , inciso III , alíneas ‘ a ’ , ‘ c ’ e ‘ d ’ da Lei 8.443/1992 , c/c os artigos 13 e 23 , inciso III , do mesmo instrumento legal , julgar irregulares as contas do Sr. Robsmar da Silva ( CPF 730.850.069-15 ) ; 18.3. condenar o Sr. Robsmar da Silva ( CPF 730.850.069-15 ) a recolher , aos cofres do Fundo Nacional de Cultura - FNC , o valor de R $ 67.826,00 , que deverá ser atualizado a partir de 29/12/2003 , e acrescido dos devidos juros de mora , em conformidade com a legislação em vigor ; 18.4. aplicar ao Sr. Robsmar da Silva ( CPF 730.850.069-15 ) a multa prevista no artigo 57 da Lei 8.443/1992 ; 18.5. autorizar , desde logo , nos termos do art . 28 , inciso II , da Lei 8.443/1992 , a cobrança judicial das dívidas , caso não atendidas as notificações expedidas ; 18.6. encaminhar , nos termos do § 3º do art . 16 da Lei 8.443/1992 c/c o § 6º do art . 209 do RI/TCU , cópia do presente Acórdão , acompanhado do respectivo Relatório e Voto , à Procuradoria da República no Estado do Paraná , para ajuizamento das ações que entender cabíveis. ” III O Ministério Público concorda , no essencial , com o entendimento da unidade instrutiva .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "artigos 1º , inciso I , 16 , inciso III , alíneas ‘ a ’ , ‘ c ’ e ‘ d ’ da Lei 8.443/1992 , c/c os artigos 13 e 23 , inciso III",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Fundo Nacional de Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      93,
+      94,
+      95,
+      96
+    ]
+  },
+  {
+    "text": "FNC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "29/12/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      114
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      136,
+      137,
+      138
+    ]
+  },
+  {
+    "text": "artigo 57 da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      147,
+      148,
+      149,
+      150,
+      151
+    ]
+  },
+  {
+    "text": "art . 28 , inciso II , da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171
+    ]
+  },
+  {
+    "text": "§ 3º do art . 16 da Lei 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ]
+  },
+  {
+    "text": "§ 6º do art . 209 do RI/TCU",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210
+    ]
+  },
+  {
+    "text": "Procuradoria da República no Estado do Paraná",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231
+    ]
+  },
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      243,
+      244
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Robsmar da Silva', 'PESSOA'), ('artigos 1º , inciso I , 16 , inciso III , alíneas ‘ a ’ , ‘ c ’ e ‘ d ’ da Lei 8.443/1992 , c/c os artigos 13 e 23 , inciso III', 'LEGISLACAO'), ('Robsmar da Silva', 'PESSOA'), ('Robsmar da Silva', 'PESSOA'), ('Fundo Nacional de Cultura', 'ORGANIZACAO'), ('FNC', 'ORGANIZACAO'), ('29/12/2003', 'TEMPO'), ('Robsmar da Silva', 'PESSOA'), ('artigo 57 da Lei 8.443/1992', 'LEGISLACAO'), ('art . 28 , inciso II , da Lei 8.443/1992', 'LEGISLACAO'), ('§ 3º do art . 16 da Lei 8.443/1992', 'LEGISLACAO'), ('§ 6º do art . 209 do RI/TCU', 'LEGISLACAO'), ('Procuradoria da República no Estado do Paraná', 'ORGANIZACAO'), ('Ministério Público', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+1/2 ) ; documentos relativos à elaboração de projeto , captação dos recursos e correspondências enviadas pelo Ministério da Cultura ( peça 13 , pp .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério da Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério da Cultura', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+52 ) ; recibos de despesa de serviço de locação de transporte entre Londrina/PR e Paranavaí/PR ( peça 13 , p. 53/4 ) e nota fiscal de serviço de impressão de material gráfico ( peça 13 , pp .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Londrina/PR",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Paranavaí/PR",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Londrina/PR', 'LOCAL'), ('Paranavaí/PR', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+55/7 ) ; b ) a documentação não é acompanhada de relatório de execução da receita e das despesas , relação de pagamentos , relatório físico , extratos bancários , conciliação bancária e relatório final ; c ) verificam-se as seguintes inconsistências na documentação agregada : c.1 ) notas fiscais foram emitidas por apenas três municípios do Paraná : ( Londrina , Maringá e Paranavaí ) , sendo que , na solicitação de apoio a projetos , constavam sete ( peça 1 , pp .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Londrina",
+    "label": "LOCAL",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Maringá",
+    "label": "LOCAL",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Paranavaí",
+    "label": "LOCAL",
+    "token_indices": [
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Paraná', 'LOCAL'), ('Londrina', 'LOCAL'), ('Maringá', 'LOCAL'), ('Paranavaí', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Além disso , o município de Paranavaí não deveria ter recebido as apresentações ; c.2 ) em alguns recibos de pagamento não consta a assinatura do recebedor ( peça 13 , pp .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paranavaí",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Paranavaí', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O sr. Robsmar da Silva , ao celebrar a avença , estava ciente do seu dever de prestar contas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Robsmar da Silva', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ademais , verifica-se que ele foi devidamente comunicado a respeito da documentação necessária para a aprovação da prestação de contas , cosoante correspondência que lhe foi encaminhada ( peça 1 , p. 66 ) : “ Os formulários que compõem a prestação de contas poderão ser obtidos no site www.cultura.gov.br , no caminho : Apoio a projetos / Categorias Internas / Lei Rouanet / Incentivo Fiscal/ Prestação de Contas / Anexos /Formulário PC/Incentivo Fiscal : Anexo II - Relatório de Execução da Receita e Despesa Anexo III - Relação de Pagamentos Anexo IV - Relatório Físico Anexo V - Relatório de Bens de Capitais ( ainda que não tenha havido a aquisição ) Anexo VI - Relatório de Bens Imóveis ( ainda que não tenha havido a aquisição ) Anexo VII - Conciliação Bancária Anexo VIII - Relatório Final Os formulários deverão ser preenchidos conforme orientações constantes do endereço acima e conter data e assinatura do responsável legal pelo Projeto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei Rouanet', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A não apresentação da Prestação de Contas implicará na inabilitação dos responsáveis e ou Tomada de Contas Especial , por omissão , conforme Artigos 44 e 46 Portaria MinC 46/1998 e IN/TCU 56/2007. ” Dessa forma , tem-se que a documentação apresentada , de fato , não se presta a comprovar a execução do projeto “ Aero Circus Espetáculos Itinerantes ” e o correspondente nexo de causalidade entre os gastos efetuados e os recursos federais recebidos , devendo suas alegações de defesa serem rejeitadas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Artigos 44 e 46 Portaria MinC 46/1998",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "IN/TCU 56/2007.",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Artigos 44 e 46 Portaria MinC 46/1998', 'LEGISLACAO'), ('IN/TCU 56/2007.', 'LEGISLACAO'), ('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A responsabilidade do sr. Robsmar da Silva está perfeitamente configurada , pois este fez a solicitação do projeto ( peça 1 , p. 4 ) e foi o destinatário dos recursos federais ( peça 1 , p. 52 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Robsmar da Silva', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Ministério Público entende , todavia , que deve ser feito reparo na fundamentação do julgamento pela irregularidade das contas constante da proposta de encaminhamento da unidade instrutiva .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O que é inquestionável no presente caso é a ocorrência do dano ao Erário , bem como a grave infração à norma legal ( IN/STN 1/1997 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IN/STN 1/1997",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('IN/STN 1/1997', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+IV Ante o exposto , o Ministério Público endossa a proposta da unidade instrutiva modificando-se apenas o fundamento do julgamento da irregularidade das contas , que passa a ser o artigo 1º , inciso I , 16 , inciso III , alíneas “ a ” , “ b ” e “ c ” , c/c os arts . 19 e 23 , inciso III , da Lei 8.443/1992. ” É o Relatório .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "artigo 1º , inciso I , 16 , inciso III , alíneas “ a ” , “ b ” e “ c ” , c/c os arts . 19 e 23 , inciso III , da Lei 8.443/1992.",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público', 'ORGANIZACAO'), ('artigo 1º , inciso I , 16 , inciso III , alíneas “ a ” , “ b ” e “ c ” , c/c os arts . 19 e 23 , inciso III , da Lei 8.443/1992.', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+VOTO Conforme já delineado no relatório precedente , a presente Tomada de Contas Especial foi instaurada pela omissão no dever de prestar contas dos recursos recebidos à conta da Lei Rouanet pelo Sr. Robsmar da Silva para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei Rouanet', 'LEGISLACAO'), ('Robsmar da Silva', 'PESSOA'), ('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No caso , o referido responsável , sob o amparo da Lei 8.313/1991 ( Lei Rouanet ) , recebeu a importância de R $ 67.826,00 , para a realização do projeto “ Aero Circus Espetáculos Itinerantes ” que previa a realização de 20 espetáculos circenses itinerantes no Estado do Paraná com a Trupe “ Aero Circus ” , nos municípios de Londrina , Campo Mourão , Curitiba , Cascavel , Foz do Iguaçu , Guarapuava e Maringá .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei 8.313/1991",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Aero Circus",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Londrina",
+    "label": "LOCAL",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Campo Mourão",
+    "label": "LOCAL",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Curitiba",
+    "label": "LOCAL",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Cascavel",
+    "label": "LOCAL",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Foz do Iguaçu",
+    "label": "LOCAL",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Guarapuava",
+    "label": "LOCAL",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Maringá",
+    "label": "LOCAL",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei 8.313/1991",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Londrina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Campo Mourão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Curitiba",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cascavel",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Foz do Iguaçu",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Guarapuava",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Maringá",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO'), ('Aero Circus', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Referida documentação , todavia , não se presta a comprovar a execução do projeto “ Aero Circus Espetáculos Itinerantes ” e o correspondente nexo de causalidade entre os gastos efetuados e os recursos federais recebidos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Como bem demonstraram tanto a Unidade Técnica ( Peça 15 ) , quanto o MP/TCU ( Peça 17 ) , várias são as inconsistências e irregularidades que justificam a rejeição das presentes contas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MP/TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MP/TCU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O MP/TCU , aliás , sintetizou tais inconsistências em seu parecer final ( Peça 17 ) , destacando que a documentação não é acompanhada de relatório de execução da receita e das despesas , relação de pagamentos , relatório físico , extratos bancários , conciliação bancária e relatório final ; que notas fiscais foram emitidas por apenas três municípios do Paraná : ( Londrina , Maringá e Paranavaí ) , sendo que , na solicitação de apoio a projetos , constavam sete ( peça 1 , pp .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MP/TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Londrina",
+    "label": "LOCAL",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "Maringá",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Paranavaí",
+    "label": "LOCAL",
+    "token_indices": [
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MP/TCU', 'ORGANIZACAO'), ('Paraná', 'LOCAL'), ('Londrina', 'LOCAL'), ('Maringá', 'LOCAL'), ('Paranavaí', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+4/22 ) ; que , além disso , o município de Paranavaí não deveria ter recebido as apresentações ; e que em alguns recibos de pagamento não consta a assinatura do recebedor ( peça 13 , pp .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paranavaí",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Paranavaí', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Neste momento , contudo , importante esclarecer , conforme inclusive destacou o MP/TCU , que as condutas ora apreciadas , ao contrário do que salientou a Unidade Técnica , não se amoldam à alínea “ d ” do inciso III do Art . 16 da Lei nº 8.443/92 , mas sim às alíneas “ a ” , “ b ” e “ c ” do mencionado dispositivo legal , pois embora o responsável não tenha logrado êxito em comprovar a boa e regular aplicação dos recursos que geriu , sendo , destarte , inquestionável o dano ao Erário , não restou evidenciada a ocorrência de desfalque ou desvio de dinheiros , bens ou valores públicos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MP/TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "alínea “ d ” do inciso III do Art . 16 da Lei nº 8.443/92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MP/TCU', 'ORGANIZACAO'), ('alínea “ d ” do inciso III do Art . 16 da Lei nº 8.443/92', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em face do exposto , acolho a proposta da Unidade Técnica , com os ajustes propostos pelo MP/TCU , e Voto no sentido de que seja adotado o Acórdão que ora submeto à consideração deste Colegiado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MP/TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MP/TCU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+RAIMUNDO CARREIRO Relator ACÓRDÃO Nº 4687/2014 TCU 2ª Câmara 1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RAIMUNDO CARREIRO",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "ACÓRDÃO Nº 4687/2014",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "TCU 2ª Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ACÓRDÃO Nº 4687/2014",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2ª Câmara",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('RAIMUNDO CARREIRO', 'PESSOA'), ('TCU 2ª Câmara', 'ORGANIZACAO')]
+Espúrias  (FP): [('TCU', 'ORGANIZACAO'), ('2ª Câmara', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Processo nº TC 019.040/2013-0 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TC 019.040/2013-0",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TC 019.040/2013-0', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Interessado : Secretaria de Fomento e Incentivo Fomento À Cultura 3.2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Fomento e Incentivo Fomento À Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Secretaria de Fomento e Incentivo Fomento À Cultura', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Responsável : Robsmar da Silva ( 730.850.069-15 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Robsmar da Silva', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Órgão/Entidade : Projeto Aero Circus Espetáculos Itinerantes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Representante do Ministério Público : Procurador Júlio Marcelo de Oliveira .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Júlio Marcelo de Oliveira",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público', 'ORGANIZACAO'), ('Júlio Marcelo de Oliveira', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Unidade Técnica : Secretaria de Controle Externo no Estado do Paraná ( SECEX-PR ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Controle Externo no Estado do Paraná",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "SECEX-PR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Secretaria de Controle Externo no Estado do Paraná', 'ORGANIZACAO'), ('SECEX-PR', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Acórdão : VISTOS , relatados e discutidos estes autos de Tomada de Contas Especial instaurada pela Secretaria de Incentivo e Fomento à Cultura , do Ministério da Cultura , em desfavor do Sr. Robsmar da Silva , pela omissão no dever de prestar contas dos recursos recebidos à conta da Lei Rouanet para a realização do Projeto “ Aero Circus Espetáculos Itinerantes ” , ACORDAM os Ministros do Tribunal de Contas da União , reunidos em Sessão da Segunda Câmara , com fundamento nos arts . 1º , inciso I , 16 , inciso III , alíneas “ a ” , “ b ” e “ c ” , da Lei nº 8.443 , de 16 de julho de 1992 , c/c os arts .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Incentivo e Fomento à Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Ministério da Cultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Aero Circus Espetáculos Itinerantes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68,
+      69,
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Segunda Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "arts . 1º , inciso I , 16 , inciso III , alíneas “ a ” , “ b ” e “ c ” , da Lei nº 8.443",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ]
+  },
+  {
+    "text": "16 de julho de 1992",
+    "label": "TEMPO",
+    "token_indices": [
+      115,
+      116,
+      117,
+      118,
+      119
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Secretaria de Incentivo e Fomento à Cultura",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério da Cultura",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lei Rouanet",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "arts . 1º , inciso I , 16 , inciso III , alíneas “ a ” , “ b ” e “ c ” , da Lei nº 8.443",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "16 de julho de 1992",
+    "label": "TEMPO"
+  },
+  {
+    "text": "arts .",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Segunda Câmara",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Aero Circus Espetáculos Itinerantes', 'ORGANIZACAO')]
+Espúrias  (FP): [('arts .', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+19 e 23 , inciso III , da mesma Lei , e com arts . 1º , inciso I , 209 , incisos , I , II e III , 210 e 214 , inciso III , do Regimento Interno do TCU , em : 9.1. julgar irregulares as contas do Sr. Robsmar da Silva ( CPF 730.850.069-15 ) , e condená-lo ao pagamento da quantia de R $ 67.826,00 ( sessenta e sete mil , oitocentos e vinte e seis reais ) , com a fixação do prazo de 15 ( quinze ) dias , a contar da notificação , para comprovar , perante o Tribunal ( art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "arts . 1º , inciso I , 209 , incisos , I , II e III , 210 e 214 , inciso III , do Regimento Interno do TCU",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Robsmar da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('arts . 1º , inciso I , 209 , incisos , I , II e III , 210 e 214 , inciso III , do Regimento Interno do TCU', 'LEGISLACAO'), ('Robsmar da Silva', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+267 do Regimento Interno , no valor de R $ 6.700,00 ( seis mil e setecentos reais ) , com a fixação do prazo de quinze dias , a contar da notificação , para comprovar , perante o Tribunal ( art .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "267 do Regimento Interno",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('267 do Regimento Interno', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+214 , inciso III , alínea “ a ” , do Regimento Interno ) , o recolhimento da dívida ao Tesouro Nacional , atualizada monetariamente desde a data do presente Acórdão até a do efetivo recolhimento , se for paga após o vencimento , na forma da legislação em vigor ; 9.3. autorizar , desde já , se requerido , o pagamento das dívidas mencionadas nos itens 9.1 e 9.2 acima , em até 36 ( trinta e seis ) parcelas mensais consecutivas , nos termos do art . 26 da Lei n.º 8.443 , de 16 de junho de 1992 , c/c o art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tesouro Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "art . 26 da Lei n.º 8.443",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "text": "16 de junho de 1992",
+    "label": "TEMPO",
+    "token_indices": [
+      96,
+      97,
+      98,
+      99,
+      100
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tesouro Nacional', 'ORGANIZACAO'), ('art . 26 da Lei n.º 8.443', 'LEGISLACAO'), ('16 de junho de 1992', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+217 do Regimento Interno deste Tribunal ; 9.5. determinar à Secex/PR que inclua nas notificações para o pagamento dos valores mencionados nos itens 9.1 e 9.2 o disposto nos itens 9.3 e 9.4 , com fundamento no art . 15 e no art . 18 , inciso II , alínea “ a ” , da Resolução n.º 170 , de 30 de junho de 2004 ; 9.6.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secex/PR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "art . 15 e no art . 18 , inciso II , alínea “ a ” , da Resolução n.º 170",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "30 de junho de 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Secex/PR', 'ORGANIZACAO'), ('art . 15 e no art . 18 , inciso II , alínea “ a ” , da Resolução n.º 170', 'LEGISLACAO'), ('30 de junho de 2004', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+autorizar , desde logo , nos termos do art . 28 , inciso II , da Lei nº 8.443 , de 1992 , a cobrança judicial das dívidas , caso não atendidas as notificações ; e 9.7. encaminhar cópia da presente deliberação , bem como do relatório e do voto que a fundamentam , à Procuradoria da República no Estado do Paraná , nos termos do § 7º do art . 209 do Regimento Interno do TCU , para adoção das medidas que entender cabíveis , com a informação de que a decisão está sujeita a Recurso de Reconsideração previsto no art . 285 do RI/TCU .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 28 , inciso II , da Lei nº 8.443",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Procuradoria da República no Estado do Paraná",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "§ 7º do art . 209 do Regimento Interno do TCU",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "art . 285 do RI/TCU",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 28 , inciso II , da Lei nº 8.443 , de 1992",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Procuradoria da República no Estado do Paraná",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "§ 7º do art . 209 do Regimento Interno do TCU",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "art . 285 do RI/TCU",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('art . 28 , inciso II , da Lei nº 8.443', 'LEGISLACAO'), ('1992', 'TEMPO')]
+Espúrias  (FP): [('art . 28 , inciso II , da Lei nº 8.443 , de 1992', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ata n° 32/2014 2ª Câmara .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2ª Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ata n° 32/2014",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "2ª Câmara",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Ata n° 32/2014', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Código eletrônico para localização na página do TCU na Internet : AC-4687-32/14-2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TCU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ministros presentes : Aroldo Cedraz ( Presidente ) , Raimundo Carreiro ( Relator ) e José Jorge .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aroldo Cedraz",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Raimundo Carreiro",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "José Jorge",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aroldo Cedraz', 'PESSOA'), ('Raimundo Carreiro', 'PESSOA'), ('José Jorge', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Assinado Eletronicamente ) AROLDO CEDRAZ ( Assinado Eletronicamente ) RAIMUNDO CARREIRO Presidente Relator Fui presente : ( Assinado Eletronicamente ) CRISTINA MACHADO DA COSTA E SILVA Subprocuradora-Geral
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AROLDO CEDRAZ",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "RAIMUNDO CARREIRO",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "CRISTINA MACHADO DA COSTA E SILVA",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('AROLDO CEDRAZ', 'PESSOA'), ('RAIMUNDO CARREIRO', 'PESSOA'), ('CRISTINA MACHADO DA COSTA E SILVA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+acao=valida_documento_consultar e digite o Codigo Verificador 2173463d04 SUPERIOR TRIBUNAL MILITAR APELAÇÃO Nº 0000079-49.2013.7.06.0006 RELATOR : MINISTRO JOSÉ COÊLHO FERREIRA REVISOR : MINISTRO LUIS CARLOS GOMES MATTOS APELANTE : RAFAEL ANTÔNIO COSTA CARVALHO E MINISTÉRIO PÚBLICO APELADO : RAFAEL ANTÔNIO COSTA CARVALHO E MINISTÉRIO PÚBLICO ADVOGADO ( A ) : MARCIO SILVA PRATA EMENTA : APELAÇÃO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SUPERIOR TRIBUNAL MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "APELAÇÃO Nº 0000079-49.2013.7.06.0006",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "JOSÉ COÊLHO FERREIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "LUIS CARLOS GOMES MATTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "RAFAEL ANTÔNIO COSTA CARVALHO",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "RAFAEL ANTÔNIO COSTA CARVALHO",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "MARCIO SILVA PRATA",
+    "label": "PESSOA",
+    "token_indices": [
+      49,
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SUPERIOR TRIBUNAL MILITAR",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "APELAÇÃO Nº 0000079-49.2013.7.06.0006",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "JOSÉ COÊLHO FERREIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LUIS CARLOS GOMES MATTOS",
+    "label": "PESSOA"
+  },
+  {
+    "text": "RAFAEL ANTÔNIO COSTA CARVALHO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MARCIO SILVA PRATA",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('RAFAEL ANTÔNIO COSTA CARVALHO', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+MPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+123 , inciso IV , c/c o art . 125 , inciso VII , todos do CPM , tendo em vista o transcurso do lapso temporal suficiente para aplicação desse instituto entre a publicação da sentença e o julgamento do presente feito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "123 , inciso IV , c/c o art . 125 , inciso VII , todos do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 125 , inciso VII , todos do CPM",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('123 , inciso IV , c/c o art . 125 , inciso VII , todos do CPM', 'LEGISLACAO')]
+Espúrias  (FP): [('art . 125 , inciso VII , todos do CPM', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+ACÓRDÃO Vistos , relatados e discutidos estes autos , acordam os ministros do Superior Tribunal Militar , em sessão de julgamento , sob a presidência do Ministro JOSÉ COÊLHO FERREIRA , na conformidade do Extrato da Ata do Julgamento , por unanimidade , em negar provimento aos Apelos , nos termos do voto do Relator Ministro JOSÉ COÊLHO FERREIRA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "JOSÉ COÊLHO FERREIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "JOSÉ COÊLHO FERREIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      56,
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO'), ('JOSÉ COÊLHO FERREIRA', 'PESSOA'), ('JOSÉ COÊLHO FERREIRA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+acao=valida_documento_consultar e digite o Codigo Verificador 2173463d04 Ministro JOSÉ COÊLHO FERREIRA Presidente e Relator RELATÓRIO Trata-se de Apelação interposta pelo Ministério Público Militar contra Sentença da Auditoria da 6ª CJM no tocante ao quantum da pena aplicada ; e RAFAEL ANTONIO COSTA DE CARVALHO , 1º Sgt Ex , condenado à pena de 06 meses de prisão , como incurso no art . 187 do CPM , com o direito de apelar em liberdade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "JOSÉ COÊLHO FERREIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Auditoria da 6ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "RAFAEL ANTONIO COSTA DE CARVALHO",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "art . 187 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('JOSÉ COÊLHO FERREIRA', 'PESSOA'), ('Ministério Público Militar', 'ORGANIZACAO'), ('Auditoria da 6ª CJM', 'ORGANIZACAO'), ('RAFAEL ANTONIO COSTA DE CARVALHO', 'PESSOA'), ('art . 187 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo a Denúncia , recebida em 23/5/2014 , fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "23/5/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('23/5/2014', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+acao=valida_documento_consultar e digite o Codigo Verificador 2173463d04 7/9/2013 , os oito dias de ausência , conforme Termo de Deserção à fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "7/9/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('7/9/2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O 1º Sgt RAFAEL integrava o efetivo do 7º Regimento de Cavalaria Mecanizado , localizado em Santana do Livramento/RS , porém estava vinculado por decisão Judicial ao 28º Batalhão de Caçadores , em Aracaju/SE , em razão de medida cautelar inominada do Juiz Federal da Seção Judiciária do Estado de Sergipe que autorizou o militar a realizar uma cirurgia na Capital nordestina e permanecer na cidade até sua recuperação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RAFAEL",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "7º Regimento de Cavalaria Mecanizado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Santana do Livramento/RS",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "28º Batalhão de Caçadores",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Aracaju/SE",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Seção Judiciária do Estado de Sergipe",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "7º Regimento de Cavalaria Mecanizado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Santana do Livramento/RS",
+    "label": "LOCAL"
+  },
+  {
+    "text": "28º Batalhão de Caçadores",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Aracaju/SE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Capital nordestina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estado de Sergipe",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('RAFAEL', 'PESSOA'), ('Seção Judiciária do Estado de Sergipe', 'ORGANIZACAO')]
+Espúrias  (FP): [('Capital nordestina', 'LOCAL'), ('Estado de Sergipe', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A cirurgia ocorreu em agosto de 2011 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "agosto de 2011",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('agosto de 2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em face desses aclaratórios , a Advocacia Geral da União emitiu parecer , após consulta do 28º BC , atestando a executoriedade do decisum , aduzindo que não `` obsta que o autor retorne ao trabalho , por enquanto na Unidade Militar de Aracajú , exercendo atividades compatíveis com o procedimento cirúrgico a que se submeteu '' .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Advocacia Geral da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "28º BC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Aracajú",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Advocacia Geral da União', 'ORGANIZACAO'), ('28º BC', 'ORGANIZACAO'), ('Aracajú', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A partir de então , a Organização Militar passou a exigir o comparecimento do Sgt RAFAEL , o qual passou à condição de ausente desde o dia 29/8/2013 , tendo sido considerado desertor em 7/9/2013 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RAFAEL",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "29/8/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "7/9/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('RAFAEL', 'PESSOA'), ('29/8/2013', 'TEMPO'), ('7/9/2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+87 ) , de 21/11/2013 , da lavra do MM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "21/11/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('21/11/2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com isso , o Ministério Público Militar diligenciou para que a documentação fosse refeita para sanar as imperfeições detectadas pelo órgão ministerial , tendo sido refeitos a Parte de Ausência e o Termo de Deserção e submetidos à Juíza-Auditora Substituta , Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sheyla Costa Bastos Dias , sendo considerados formalmente válidos e aptos , a qual ordenou a captura do militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sheyla Costa Bastos Dias",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Sheyla Costa Bastos Dias', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 8/3/2014 , foi realizada a prisão do desertor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "8/3/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('8/3/2014', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 11/3/2014 , foi proferida Decisão do mesmo Juiz-Federal aduzindo que a União , ao determinar o retorno ao posto de trabalho do Sargento RAFAEL , sem juntar prova da plena convalescência dele , desobedeceu , flagrantemente , sentença transitada em julgado daquele Juízo nos autos da Ação Cautelar Inominada nº 1614-89.2011.4.05.8500 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "11/3/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "RAFAEL",
+    "label": "PESSOA",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Ação Cautelar Inominada nº 1614-89.2011.4.05.8500",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('11/3/2014', 'TEMPO'), ('União', 'ORGANIZACAO'), ('RAFAEL', 'PESSOA'), ('Ação Cautelar Inominada nº 1614-89.2011.4.05.8500', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No mesmo Decisum , a Justiça Federal determina a realização de nova perícia para esclarecer se o militar possuía ou não condições de saúde para o retorno ao trabalho no Exército Brasileiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Exército Brasileiro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Exército Brasileiro', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em Despacho de 12/3/2014 , o MM Juiz-Auditor da Auditoria da 6ª CJM mandou informar à OM que o militar só deveria ser posto em liberdade mediante alvará de soltura expedido por aquele Juízo , decidindo , em 24/3/2014 , pela manutenção da prisão do graduado , por entender ser a Justiça Federal incompetente para anular o Termo de Deserção e considera-lo revestido das formalidades legais ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12/3/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Auditoria da 6ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "24/3/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('12/3/2014', 'TEMPO'), ('Auditoria da 6ª CJM', 'ORGANIZACAO'), ('24/3/2014', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Superior Tribunal Militar , em 14/4/2014 , instado a manifestar-se em sede do Habeas Corpus nº 41-86.2014.7.00.0000 , da Relatoria do Ministro Artur Vidigal de Oliveira , decidiu pela concessão parcial da ordem para conferir ao paciente o relaxamento de prisão e responder à Instrução Provisória de Deserção e ao processo em liberdade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "14/4/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Habeas Corpus nº 41-86.2014.7.00.0000",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Artur Vidigal de Oliveira",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Superior Tribunal Militar', 'ORGANIZACAO'), ('14/4/2014', 'TEMPO'), ('Habeas Corpus nº 41-86.2014.7.00.0000', 'JURISPRUDENCIA'), ('Artur Vidigal de Oliveira', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Sentença do Conselho Permanente de Justiça da Auditoria da 6ª CJM , de 20/6/2015 , reiterou que a Justiça Federal não é competente para anular o Termo de Deserção , aduzindo também que restou comprovada a capacidade laboral do militar pelos laudos médicos periciais e que o militar deveria ter se apresentado à OM quando instado a assim agir , optando , porém , por sacrificar o dever legal a que estava obrigado como militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho Permanente de Justiça da Auditoria da 6ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "20/6/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Conselho Permanente de Justiça da Auditoria da 6ª CJM', 'ORGANIZACAO'), ('20/6/2015', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Publicada em 21/7/2015 , a Sentença do Conselho Permanente de Justiça para o Exército , por maioria ( 3x2 ) , jugou procedente a Denúncia e condenou o 1º Sargento Ex RAFAEL ANTONIO COSTA CARVALHO , por infração Documento assinado eletronicamente por José Coêlho Ferreira , Matricula 7570 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "21/7/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Conselho Permanente de Justiça para o Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "RAFAEL ANTONIO COSTA CARVALHO",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "José Coêlho Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('21/7/2015', 'TEMPO'), ('Conselho Permanente de Justiça para o Exército', 'ORGANIZACAO'), ('RAFAEL ANTONIO COSTA CARVALHO', 'PESSOA'), ('José Coêlho Ferreira', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+acao=valida_documento_consultar e digite o Codigo Verificador 2173463d04 ao art . 187 do CPM , a 6 ( seis ) meses de detenção , convertida em prisão , na forma do art . 59 do CPM , sem o benefício do sursis em virtude da expressa vedação do artigo 617 , inciso II , alínea `` a '' do CPPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 187 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "art . 59 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "artigo 617 , inciso II , alínea `` a '' do CPPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 187 do CPM', 'LEGISLACAO'), ('art . 59 do CPM', 'LEGISLACAO'), ("artigo 617 , inciso II , alínea `` a '' do CPPM", 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+554 ) , aduzindo que havia decisão judicial da Justiça Federal afastando-o do expediente junto ao 28º Batalhão de Caçadores no período da deserção .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "28º Batalhão de Caçadores",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('28º Batalhão de Caçadores', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O MPM , por sua vez , também apresentou contrarrazões argumentando que não há nulidade pelo uso de prova emprestada , na medida em que o Juízo a validou .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dada vista à douta PGJM , esta se manifestou na pessoa da Subprocuradora-Geral da Justiça Militar Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PGJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('PGJM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Arilma Cunha da Silva , a qual opinou pelo provimento do apelo ministerial e desprovimento do apelo defensivo , aliando-se ao entendimento de que as questões inerentes ao Juízo Federal não se confundem com a competência da Justiça Militar da União para processar e julgar o delito de deserção ( fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Arilma Cunha da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Arilma Cunha da Silva', 'PESSOA'), ('União', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em atenção a decisão plenária de 25 de agosto de 2016 , a Procuradoria-Geral da Justiça Militar , na pessoa do Dr. Roberto Coutinho , Vice-Procurador-Geral da Justiça Militar , lavrou novo parecer opinando pelo trancamento da ação penal por falta de justa causa e , no mérito , pugnando absolvição por ausência de dolo do Apelante .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "25 de agosto de 2016",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Procuradoria-Geral da Justiça Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Roberto Coutinho",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('25 de agosto de 2016', 'TEMPO'), ('Procuradoria-Geral da Justiça Militar', 'ORGANIZACAO'), ('Roberto Coutinho', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Submetido novamente a julgamento , o Tribunal , em sessão de 25/10/2016 , decidiu converter o julgamento em diligência , tendo em vista a documentação apresentada pela Defesa do Apelante , consistente na cópia de Ata de Inspeção de Saúde nº 1349/2016 , cujo diagnóstico aponta a possibilidade de incapacidade definitiva a ser avaliada caso haja persistência do quadro , razão pela qual oficiou-se ao Comando do 28º Batalhão de Caçadores , na cidade de Aracaju/SE , e do 7º Batalhão de Cavalaria Mecanizado , na cidade de Santana do Livramento/RS , para que fossem apresentadas cópias das Atas de Inspeção de Saúde a que o militar fora submetido desde o ano de 2011 até a data de hoje .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "25/10/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "28º Batalhão de Caçadores",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67,
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Aracaju/SE",
+    "label": "LOCAL",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "7º Batalhão de Cavalaria Mecanizado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      79,
+      80,
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "Santana do Livramento/RS",
+    "label": "LOCAL",
+    "token_indices": [
+      88,
+      89,
+      90
+    ]
+  },
+  {
+    "text": "2011",
+    "label": "TEMPO",
+    "token_indices": [
+      113
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "25/10/2016",
+    "label": "TEMPO"
+  },
+  {
+    "text": "28º Batalhão de Caçadores",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Aracaju/SE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "7º Batalhão de Cavalaria Mecanizado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Santana do Livramento/RS",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dada nova vista à Procuradoria-Geral da Justiça Militar , a Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Procuradoria-Geral da Justiça Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Procuradoria-Geral da Justiça Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+MARIA DE NAZARÉ GUIMARÃES DE MORAES , Subprocuradora-Geral da Justiça Militar , emitiu parecer ratificando in totum o parecer de fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MARIA DE NAZARÉ GUIMARÃES DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MARIA DE NAZARÉ GUIMARÃES DE MORAES', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+ARILMA CUNHA DA SILVA , cujas razões apontam para o desprovimento do Apelo da Defesa e para o provimento do Apelo do MPM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ARILMA CUNHA DA SILVA",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "MPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ARILMA CUNHA DA SILVA', 'PESSOA'), ('MPM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 29/5/2017 , o Dr. Udine Antônio Brandão Cardoso apresentou petição renunciando os poderes outorgados pelo Apelante e , sem comprovar a comunicação ao mandante acerca da sua renúncia , determinei a intimação do réu para que constituísse novo advogado , fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "29/5/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Udine Antônio Brandão Cardoso",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('29/5/2017', 'TEMPO'), ('Udine Antônio Brandão Cardoso', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Vencido o prazo , vieram aos autos requerimento para juntada da procuração do novo causídico , tendo sido dada nova vista à PGJM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PGJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('PGJM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+acao=valida_documento_consultar e digite o Codigo Verificador 2173463d04 VOTO Os recursos da Defesa e do Ministério Público militar foram interpostos tempestivamente e , estando presentes os pressupostos de admissibilidade , devem os apelos ser conhecidos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em atenção a decisão plenária de 25 de agosto de 2016 , a Procuradoria-Geral da Justiça Militar , na pessoa do Dr. Roberto Coutinho , Vice-Procurador-Geral da Justiça Militar , lavrou novo parecer opinando pelo trancamento da ação penal por falta de justa causa e , no mérito , pugna pela absolvição por ausência de dolo do Apelante .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "25 de agosto de 2016",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Procuradoria-Geral da Justiça Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Roberto Coutinho",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('25 de agosto de 2016', 'TEMPO'), ('Procuradoria-Geral da Justiça Militar', 'ORGANIZACAO'), ('Roberto Coutinho', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Embora a PGJM não tenha suscitado uma preliminar de trancamento da ação penal por falta de justa causa , em sua conclusão , deixa a entender que a apreciação dessa matéria seria antecedente ao exame do mérito , do que discordo , uma vez que as análises da validade , da regularidade e da efetividade da documentação referente à ausência do militar , em especial o Termo de Deserção , são cotejadas no exame da materialidade do crime , razão pela qual será examinada no mérito do presente recurso .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PGJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('PGJM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Ministério Público Militar requer a majoração da pena imposta pela primeira instância , justificando que a pena-base aplicada ao militar deveria ser acima do mínimo legal , no caso , 8 ( oito ) meses de prisão , tendo em vista tratar-se de praça graduado , 1º Sargento , o qual ocupa a função de fazer o elo entre o comando e a tropa , perfazendo-se numa afronta ao princípio da equidade a aplicação da mesma pena imputada às praças que cumprem o serviço militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério Público Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em que pese os bem lançados argumentos do nobre Promotor de Justiça Militar Dr. Adriano Alves , não vejo como prosperar o pedido .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Adriano Alves",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Adriano Alves', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A fixação da pena-base , que ocorre na primeira fase de aplicação da pena , deve seguir o rito do artigo 69 do CPM , que prevê como circunstâncias judiciais para a majoração da pena e apreciação da gravidade do crime e a personalidade do réu os seguintes parâmetros : a intensidade do dolo ou grau da culpa , a maior ou menor extensão do dano ou perigo de dano , os meios empregados , o modo de execução , os motivos determinantes , as circunstâncias de tempo e lugar , os antecedentes do réu e sua atitude de insensibilidade , indiferença ou arrependimento após o crime .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 69 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('artigo 69 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Vale destacar que o Código Penal Militar já prevê os casos em que praças graduadas ou oficiais devem ter as penas agravadas pela sua graduação ou patente , não sendo correto adotar-se como circunstância judicial negativa essa condição pessoal quando a própria lei prevê os casos em que é relevante o nível hierárquico ou função militar do réu .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Código Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Código Penal Militar', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O próprio crime de deserção , na sua modalidade especial , prevista no artigo 190 do CPM , dispõe , no seu § 3º , o aumento da pena em 1/3 ( um terço ) no caso do desertor ser um sargento , subtenente ou suboficial .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 190 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('artigo 190 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deixar o militar de apresentar-se no momento da partida do navio ou aeronave , de que é Documento assinado eletronicamente por José Coêlho Ferreira , Matricula 7570 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José Coêlho Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('José Coêlho Ferreira', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+acao=valida_documento_consultar e digite o Codigo Verificador 2173463d04 tripulante , ou do deslocamento da unidade ou força em que serve : ( Redação dada pela Lei nº 9.764 , de 18.12.1998 ) Pena - detenção , até três meses , se após a partida ou deslocamento se apresentar , dentro de vinte e quatro horas , à autoridade militar do lugar , ou , na falta desta , à autoridade policial , para ser comunicada a apresentação ao comando militar competente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 9.764",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "18.12.1998",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei nº 9.764', 'LEGISLACAO'), ('18.12.1998', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Redação dada pela Lei nº 9.764 , de 18.12.1998 ) 10 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 9.764",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "18.12.1998",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei nº 9.764', 'LEGISLACAO'), ('18.12.1998', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ora , parece-me claro que , se a Lei Penal Militar entendesse que a graduação do militar , por si só , justificasse o aumento da pena no caso da deserção do artigo 187 do CPM , teria previsto na própria lei essa causa especial de aumento de pena , como fez para o caso da deserção especial do artigo 190 do mesmo Codex .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Penal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "artigo 187 do CPM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei Penal Militar', 'LEGISLACAO'), ('artigo 187 do CPM', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Trata-se de um militar que estava licenciado por motivo de saúde , que foi submetido a uma cirurgia em agosto de 2011 , amparado por uma decisão judicial e que , ao ser convocado para se apresentar , deixou de fazê-lo em desobediência ao seu Comandante .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "agosto de 2011",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('agosto de 2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Alega o douto Advogado que a Sentença seria nula por ter ocorrido flagrante cerceamento de defesa , desrespeitando o art . 5º , LV , da Constituição Federal de 1988 , em face do indeferimento do pleito de prova pericial substanciada no fato de o desertor ter apresentado Parte de Doente no período em que a deserção foi consumada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 5º , LV , da Constituição Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "1988",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('art . 5º , LV , da Constituição Federal', 'LEGISLACAO'), ('1988', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quanto às menções do acusado sobre eventual problema de coluna , elas se encontram em partes do ano 2011 ( Apenso 1 , fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2011",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+46/47 do Apenso 2 , a Administração Militar informa que naquela mesma época o 1º Sgt RAFAEL foi considerado em inspeção de saúde `` Apto para o serviço do Exército '' , com restrições por 30 ( trinta ) dias .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RAFAEL",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('RAFAEL', 'PESSOA'), ('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quanto à testemunha Aelton , a mesma diz que ao visitar o pai do réu , no início de setembro de 2013 , aquele senhor lhe disse que o filho lá estava dormindo , com problema de coluna .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aelton",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "setembro de 2013",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aelton', 'PESSOA'), ('setembro de 2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diante dessa incerteza de datas aquela visita evidentemente pode ter ocorrido depois de 07.09.2013 , quando o réu já era considerado desertor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "07.09.2013",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('07.09.2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mesmo assumindo o contrário , a testemunha também diz não saber se o fato foi informado ao militar que procurou o réu naquele local , bem como desconhecer se o 1º Sgt RAFAEL procurou a Junta de Saúde para uma avaliação do problema de saúde alegado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RAFAEL",
+    "label": "PESSOA",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('RAFAEL', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Noutro giro , o que se extrai dos autos é que naquela época o 1º Sgt RAFAEL além de não procurar qualquer atendimento médico do Exército , como deveria fazer , ainda se furtava às diligências que tinham por fim localizá-lo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RAFAEL",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('RAFAEL', 'PESSOA'), ('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+275 do Apenso 1 , o mesmo é de 27.05.2014 , portanto bem posterior ao fato dos autos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "27.05.2014",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('27.05.2014', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+acao=valida_documento_consultar e digite o Codigo Verificador 2173463d04 Disso tudo decorre ser o problema no joelho a única questão de saúde do 1º Sgt RAFAEL relevante para este processo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RAFAEL",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('RAFAEL', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+'O periciando foi operado da lesão referida nos Autos ( lesão do menisco medial do joelho esquerdo ) em agosto de 2011 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "agosto de 2011",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('agosto de 2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Destacou-se ) Não há dúvida , portanto , de que o réu está curado da lesão em tela pelo menos desde 28.01.2013 , data do laudo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "28.01.2013",
+    "label": "TEMPO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('28.01.2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A duas porque nada corrobora a alegação defensiva de que a respectiva clínica preste serviços ao Exército .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Isto posto , Decide o Conselho Permanente de Justiça para o Exército , por unanimidade , REJEITAR o r. pleito defensivo por falta de amparo legal , devendo o feito prosseguir em seus regulares termos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , portanto , decidiu o Conselho rejeitar o pedido defensivo , em 8/10/2014 , ou seja , após mais de um ano da data da consumação da Deserção , não se configurando qualquer cerceamento de Defesa negar a realização dessa perícia , sobretudo quando se tem perícia judicial tratando do mesmo tema e lesão alegada pelo militar e revelando a capacidade laborativa do réu .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "8/10/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('8/10/2014', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Além desse laudo , a Defesa teve a oportunidade de acostar aos autos exames , atestados médicos , laudos médicos , um segundo laudo pericial , informações médicas fornecidas pelo Exército Brasileiro , dentre outras manifestações , sendo certo que não pode a parte impugnar uma perícia que ela mesma trouxe aos autos , pois a ninguém é dado beneficiar-se da própria torpeza .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Exército Brasileiro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Exército Brasileiro', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não poderia um militar experiente acreditar que uma simples parte de doença acompanhada de relatórios médicos de datas anteriores , sendo o mais próximo com a data de 8/3/2013 , lembrando que a deserção se consumou no dia 7/9/2013 , conforme Termo de Deserção à fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "8/3/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "7/9/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('8/3/2013', 'TEMPO'), ('7/9/2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+107 , e , portanto , não seria meio hábil para desobrigá-lo de se apresentar e se submeter a uma inspeção médica do Exército Brasileiro , sobretudo quando a documentação médica na qual se baseava para alegar a impossibilidade de se apresentar está desatualizada em seis meses .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Exército Brasileiro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Exército Brasileiro', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para o Conselho , bem como para mim , está bem claro que a Sentença do Juiz Federal Edmilson da Silva Pimenta , prolatada em sede de Embargos de Declaração opostos pela Advocacia Geral da União , foi no sentido de que o militar poderia retornar ao trabalho assim que se recuperasse .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Edmilson da Silva Pimenta",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Advocacia Geral da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Edmilson da Silva Pimenta', 'PESSOA'), ('Advocacia Geral da União', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+3 ) : `` a sentença é clara em determinar que o autor realizasse a cirurgia e permanecesse em Aracaju até a sua recuperação e , se esta já ocorreu , como alega a União , nada obsta que o autor retorne ao trabalho , por enquanto na unidade militar de Aracaju , exercendo atividades compatíveis com o procedimento cirúrgico a que se submeteu , até final da demanda principal , ou quando seja determinado o seu retorno à unidade militar de origem , observados os critérios administrativos e os requisitos de aptidão física previstos na legislação militar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aracaju",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Aracaju",
+    "label": "LOCAL",
+    "token_indices": [
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aracaju', 'LOCAL'), ('União', 'ORGANIZACAO'), ('Aracaju', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Há , inclusive , uma Decisão do Juiz-Auditor da Auditoria da 6ª CJM , de 28/11/2016 , atestando a anulação realizada pela Justiça Federal dos documentos que deram azo à deserção ( fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "6ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "28/11/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('6ª CJM', 'ORGANIZACAO'), ('28/11/2016', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por fim , vale frisar que se trata de um militar experiente e que possuía total discernimento para saber que qualquer licença médica deve ser submetida à Força Terrestre , ainda que acreditasse estar albergado por decisão judicial , o militar sabia que estava convocado a se apresentar e preferiu enviar a parte de doença a cumprir a determinação do seu Comando , o que não se coaduna com o comprometimento que um militar graduado , com Documento assinado eletronicamente por José Coêlho Ferreira , Matricula 7570 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José Coêlho Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('José Coêlho Ferreira', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ficou claro nos autos que a intenção do acusado era e é não retornar à sua OM de origem na cidade de Santana do Livramento .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Santana do Livramento",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Santana do Livramento', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por fim , quanto à competência de cada Justiça , elas estão elencadas na Constituição Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Constituição Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Constituição Federal', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Justiça Militar da União deve processar e julgar o desertor , como também corrigir o termo de deserção segundo o rito processual .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+INSTRUÇÃO PROVISÓRIA DE DESERÇÃO ( CPM , ART . 187 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CPM , ART . 187",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CPM , ART . 187', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Trata-se de pedido de salvo-conduto , para não ser preso em decorrência de IPD , formulado por oficial médico do Exército que , ao invés de se apresentar pronto para o serviço ao término de Licença para Tratar de Interesse Particular ( LTIP ) , encaminha à Administração Militar atestados médicos não homologados por peritos oficiais competentes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Causa estranheza que o Paciente tenha ficado de LTIP durante dois anos - período em que realizou residência médica numa especialidade difícil e estressante ( médico intensivista ) , além de ter sido aprovado em diversos concursos públicos que exigem higidez física e mental , tendo sido , inclusive , nomeado para o exercício de cargo no Hospital Universitário da Universidade Federal de Mato Grosso do Sul - e depois de ter o seu pedido de transferência para a reserva remunerada indeferido por não preenchimento dos requisitos legais , apresente atestados expedidos por médicos colegas seus , chegando ao ponto de apresentar documento sobre sua interdição judicial , concedida em caráter provisório , tudo com o intuito de descaracterizar a fluência do prazo para a configuração do delito de deserção .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Hospital Universitário da Universidade Federal de Mato Grosso do Sul",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Hospital Universitário da Universidade Federal de Mato Grosso do Sul', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+acao=valida_documento_consultar e digite o Codigo Verificador 2173463d04 Lúcio Mário de Barros Góes , julgamento : 30/9/2014 , Publicação DJe : 15/10/2014 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lúcio Mário de Barros Góes",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "30/9/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "15/10/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lúcio Mário de Barros Góes', 'PESSOA'), ('30/9/2014', 'TEMPO'), ('15/10/2014', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O ato administrativo que determinou o retorno do Paciente às atividades na caserna se reveste de legalidade plena , pois a constatação da aptidão parcial para o trabalho , com a consequente revogação da agregação , remete-o ao status quo anterior à Sentença , de forma a afastar a hipótese do inciso III do artigo 106 da Lei nº 6.880/1980 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "inciso III do artigo 106 da Lei nº 6.880/1980",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('inciso III do artigo 106 da Lei nº 6.880/1980', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Habeas Corpus nº 119-80.2014.7.00.0000/MG .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Habeas Corpus nº 119-80.2014.7.00.0000/MG",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Habeas Corpus nº 119-80.2014.7.00.0000/MG', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A análise das Atas de Inspeção de Saúde acostadas aos autos em face da diligência requerida pelo Plenário não tem o condão de excluir a antijuridicidade da conduta do desertor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Plenário', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Data : 12/1/2011 - Apto para o serviço do Exército , com restrições por 30 dias ; data : 1º/1/2011 - Apto para o serviço do Exército , com restrições por 30 dias ; data : 10/11/2011 - Incapaz temporariamente para o serviço do Exército .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12/1/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "1º/1/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "10/11/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('12/1/2011', 'TEMPO'), ('Exército', 'ORGANIZACAO'), ('1º/1/2011', 'TEMPO'), ('Exército', 'ORGANIZACAO'), ('10/11/2011', 'TEMPO'), ('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Necessita de 60 dias de afastamento do serviço e instrução para seu tratamento ; 29/2/2012 - Incapaz temporariamente para o serviço do Exército .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "29/2/2012",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('29/2/2012', 'TEMPO'), ('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Necessita de 30 dias de afastamento do serviço e instrução para seu tratamento ; 15/4/2013 - Apto para o serviço do Exército , com restrições por 30 dias ; 20/5/2013 - Apto para o serviço do Exército , com restrições por 30 dias ; 25/7/2016 - Incapaz temporariamente para o serviço do Exército .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "15/4/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "20/5/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "25/7/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('15/4/2013', 'TEMPO'), ('Exército', 'ORGANIZACAO'), ('20/5/2013', 'TEMPO'), ('Exército', 'ORGANIZACAO'), ('25/7/2016', 'TEMPO'), ('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Necessita de 60 dias de afastamento do serviço e instrução para seu tratamento ; 31/8/2016 - Apto para o serviço do Exército , com restrições por 30 dias ; 15/9/2016 - Apto para o serviço do Exército , com restrições por 30 dias ; 14/10/2016 - Apto para o serviço do Exército , com restrições por 30 dias ; 4/11/2016 - Apto para o serviço do Exército , com restrições por 90 dias ; 32 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "31/8/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "15/9/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "14/10/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "4/11/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('31/8/2016', 'TEMPO'), ('Exército', 'ORGANIZACAO'), ('15/9/2016', 'TEMPO'), ('Exército', 'ORGANIZACAO'), ('14/10/2016', 'TEMPO'), ('Exército', 'ORGANIZACAO'), ('4/11/2016', 'TEMPO'), ('Exército', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Como se vê , em nenhuma delas existe a menção à incapacidade para o serviço ativo do Exército e , tampouco , referem-se ao período em que se deu a consumação da deserção , a qual aconteceu a partir do dia 7/9/2013 , conforme Termo de Deserção à fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Exército",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "7/9/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Exército', 'ORGANIZACAO'), ('7/9/2013', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+) Como sinalizamos , vemos que esse Tribunal já afastou a existência de conflito de competência entre a Justiça Militar e a Justiça Federal , com o que concluímos pela prevalência do Parecer da Documento assinado eletronicamente por José Coêlho Ferreira , Matricula 7570 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José Coêlho Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39,
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('José Coêlho Ferreira', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+acao=valida_documento_consultar e digite o Codigo Verificador 2173463d04 PGJM exarado às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PGJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('PGJM', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+
+

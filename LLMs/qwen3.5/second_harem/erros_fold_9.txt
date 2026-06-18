@@ -1,0 +1,7068 @@
+--------------------------------------------------------------------------------
+Texto:
+Decreto 7/2002 , de 25 de Março que aprova o Protocolo de Quioto à Convenção Quadro das Nações Unidas sobre Alterações Climáticas
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Decreto 7/2002",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "de 25 de Março",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Protocolo de Quioto",
+    "label": "OBRA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Convenção Quadro das Nações Unidas sobre Alterações Climáticas",
+    "label": "OBRA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Decreto 7/2002",
+    "label": "OBRA"
+  },
+  {
+    "text": "de 25 de Março",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Protocolo de Quioto",
+    "label": "OBRA"
+  },
+  {
+    "text": "Nações Unidas",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Convenção Quadro das Nações Unidas sobre Alterações Climáticas', 'OBRA')]
+Espúrias  (FP): [('Nações Unidas', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Documentos relacionados com o PNALE
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PNALE",
+    "label": "OBRA",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PNALE",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('PNALE', 'OBRA')]
+Espúrias  (FP): [('PNALE', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Decisão da Comissão Europeia sobre o PNALE português
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "PNALE",
+    "label": "OBRA",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PNALE",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "português",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('PNALE', 'OBRA')]
+Espúrias  (FP): [('PNALE', 'ABSTRACCAO'), ('português', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Comunicado de imprensa da COMISSÃO - " Comércio de Emissões : a Comissão deu o seu aval a mais oito planos, abrindo caminho para o início do Comércio de Emissões na data prevista" (IP/04/1250)
+
+Entidades verdadeiras:
+[
+  {
+    "text": "COMISSÃO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Comércio de Emissões",
+    "label": "OUTRO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Comércio de Emissões",
+    "label": "OUTRO",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "COMISSÃO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comércio de Emissões",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comércio de Emissões",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "IP/04/1250",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Comércio de Emissões', 'OUTRO'), ('Comércio de Emissões', 'OUTRO')]
+Espúrias  (FP): [('Comércio de Emissões', 'ABSTRACCAO'), ('Comércio de Emissões', 'ABSTRACCAO'), ('IP/04/1250', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Plano Nacional de Atribuição de Licenças de Emissão - PNALE 2005-2007 (versão notificada à Comissão Europeia )
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Plano Nacional de Atribuição de Licenças de Emissão",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "PNALE 2005-2007",
+    "label": "OBRA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Plano Nacional de Atribuição de Licenças de Emissão - PNALE 2005-2007",
+    "label": "OBRA"
+  },
+  {
+    "text": "PNALE 2005-2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Plano Nacional de Atribuição de Licenças de Emissão', 'OBRA'), ('PNALE 2005-2007', 'OBRA')]
+Espúrias  (FP): [('Plano Nacional de Atribuição de Licenças de Emissão - PNALE 2005-2007', 'OBRA'), ('PNALE 2005-2007', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+PNALE 2005-2007 - Relatório da Consulta Pública | PNALE 2005-2007 - Relatório da Consulta Pública
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PNALE 2005-2007 - Relatório da Consulta Pública",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PNALE 2005-2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PNALE 2005-2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Relatório da Consulta Pública",
+    "label": "OBRA"
+  },
+  {
+    "text": "Relatório da Consulta Pública",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('PNALE 2005-2007 - Relatório da Consulta Pública', 'OBRA')]
+Espúrias  (FP): [('PNALE 2005-2007', 'TEMPO'), ('PNALE 2005-2007', 'TEMPO'), ('Relatório da Consulta Pública', 'OBRA'), ('Relatório da Consulta Pública', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Metodologia de Atribuição de Licenças de Emissão - PNALE 2005-2007 | Metodologia de Atribuição de Licenças de Emissão - PNALE 2005-2007
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Metodologia de Atribuição de Licenças de Emissão - PNALE 2005-2007",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Metodologia de Atribuição de Licenças de Emissão - PNALE 2005-2007",
+    "label": "OBRA"
+  },
+  {
+    "text": "Metodologia de Atribuição de Licenças de Emissão",
+    "label": "OBRA"
+  },
+  {
+    "text": "PNALE 2005-2007",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Metodologia de Atribuição de Licenças de Emissão', 'OBRA'), ('PNALE 2005-2007', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Documentos relacionados com o Comércio Europeu de Licenças de Emissão
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Comércio Europeu de Licenças de Emissão",
+    "label": "OUTRO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comércio Europeu de Licenças de Emissão",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Comércio Europeu de Licenças de Emissão', 'OUTRO')]
+Espúrias  (FP): [('Comércio Europeu de Licenças de Emissão', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Directiva 2003/87/CE do Parlamento Europeu e do Concelho | Directiva 2003/87/CE do Parlamento Europeu e do Concelho , de 13 de Outubro de 2003 , relativa à criação de um regime de comércio de licenças de emissão de gases com efeito de estufa na Comunidade e que altera a Directiva 96/61/CE do Conselho | Directiva 96/61/CE do Conselho
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Directiva 2003/87/CE do Parlamento Europeu e do Concelho",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Concelho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "de 13 de Outubro de 2003",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Comunidade",
+    "label": "LOCAL",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Directiva 96/61/CE do Conselho",
+    "label": "OBRA",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Directiva 2003/87/CE do Parlamento Europeu e do Concelho",
+    "label": "OBRA"
+  },
+  {
+    "text": "Directiva 2003/87/CE",
+    "label": "OBRA"
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Concelho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "de 13 de Outubro de 2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Comunidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Directiva 96/61/CE",
+    "label": "OBRA"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Comunidade', 'LOCAL'), ('Directiva 96/61/CE do Conselho', 'OBRA')]
+Espúrias  (FP): [('Directiva 2003/87/CE', 'OBRA'), ('Comunidade', 'ORGANIZACAO'), ('Directiva 96/61/CE', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Decreto-Lei n.º 233/2004 , de 14 de Dezembro , alterado pelo Decreto-Lei n.º 243-A/2004 , de 31 de Dezembro , que estabelece o regime de comércio de licenças de gases com efeito de estufa na União Europeia
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Decreto-Lei n.º 233/2004",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "de 14 de Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Decreto-Lei n.º 243-A/2004",
+    "label": "OBRA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "de 31 de Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Decreto-Lei n.º 233/2004",
+    "label": "OBRA"
+  },
+  {
+    "text": "de 14 de Dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Decreto-Lei n.º 243-A/2004",
+    "label": "OBRA"
+  },
+  {
+    "text": "de 31 de Dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('União Europeia', 'LOCAL')]
+Espúrias  (FP): [('União Europeia', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Decisão da Comissão n.º 156/2004 , de 29 de Janeiro de 2004 , que estabelece orientações para a monitorização e comunicação de informações relativas às emissões de gases com efeito de estufa
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Decisão da Comissão n.º 156/2004",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "de 29 de Janeiro de 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "n.º 156/2004",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "de 29 de Janeiro de 2004",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Decisão da Comissão n.º 156/2004', 'OBRA')]
+Espúrias  (FP): [('Comissão', 'ORGANIZACAO'), ('n.º 156/2004', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Regulamento (CE) n.º 2216/2004 da Comissão de 21 de Dezembro de 2004 , relativo a um sistema de registos normalizado e protegido em conformidade com a Directiva 2003/87/CE do Parlamento Europeu e do Conselho e a Decisão n.º 280/2004/CE do Parlamento Europeu e do Conselho
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Regulamento (CE) n.º 2216/2004",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "de 21 de Dezembro de 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Directiva 2003/87/CE",
+    "label": "OBRA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Decisão n.º 280/2004/CE",
+    "label": "OBRA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Regulamento (CE) n.º 2216/2004 da Comissão de 21 de Dezembro de 2004",
+    "label": "OBRA"
+  },
+  {
+    "text": "Directiva 2003/87/CE do Parlamento Europeu e do Conselho",
+    "label": "OBRA"
+  },
+  {
+    "text": "Decisão n.º 280/2004/CE do Parlamento Europeu e do Conselho",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Regulamento (CE) n.º 2216/2004', 'OBRA'), ('Comissão', 'ORGANIZACAO'), ('de 21 de Dezembro de 2004', 'TEMPO'), ('Directiva 2003/87/CE', 'OBRA'), ('Parlamento Europeu', 'ORGANIZACAO'), ('Conselho', 'ORGANIZACAO'), ('Decisão n.º 280/2004/CE', 'OBRA'), ('Parlamento Europeu', 'ORGANIZACAO'), ('Conselho', 'ORGANIZACAO')]
+Espúrias  (FP): [('Regulamento (CE) n.º 2216/2004 da Comissão de 21 de Dezembro de 2004', 'OBRA'), ('Directiva 2003/87/CE do Parlamento Europeu e do Conselho', 'OBRA'), ('Decisão n.º 280/2004/CE do Parlamento Europeu e do Conselho', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+International Emissions Trading Association , "Guidelines for an accredited verification system of the greenhouse gas emissions within the EU Emissions Trading Scheme " (em inglês)
+
+Entidades verdadeiras:
+[
+  {
+    "text": "International Emissions Trading Association",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "EU Emissions Trading Scheme",
+    "label": "OBRA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "International Emissions Trading Association",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "EU Emissions Trading Scheme",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('EU Emissions Trading Scheme', 'OBRA')]
+Espúrias  (FP): [('EU Emissions Trading Scheme', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Directiva 2004/101/CE do Parlamento Europeu e do Conselho | Directiva 2004/101/CE do Parlamento Europeu e do Conselho , de 27 de Outubro de 2004 , que altera a Directiva 2003/87/CE relativa à criação de um regime de comércio de licenças de emissão de gases com efeito de estufa na Comunidade , no que diz respeito aos mecanismos baseados em projectos do Protocolo de Quioto
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Directiva 2004/101/CE do Parlamento Europeu e do Conselho",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Directiva 2004/101/CE",
+    "label": "OBRA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "de 27 de Outubro de 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Directiva 2003/87/CE",
+    "label": "OBRA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Comunidade",
+    "label": "LOCAL",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Protocolo de Quioto",
+    "label": "OBRA",
+    "token_indices": [
+      61,
+      62,
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Directiva 2004/101/CE do Parlamento Europeu e do Conselho",
+    "label": "OBRA"
+  },
+  {
+    "text": "Directiva 2004/101/CE",
+    "label": "OBRA"
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "de 27 de Outubro de 2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Directiva 2003/87/CE",
+    "label": "OBRA"
+  },
+  {
+    "text": "Comunidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Protocolo de Quioto",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Comunidade', 'LOCAL')]
+Espúrias  (FP): [('Comunidade', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ku , palavra e não palavrão, parece vir do mais puro vernáculo do Kimbundo ( MataKu =nádegas, assento plural de ritaku), principal língua falada em Luanda , Angola (da qual falamos centenas de vocábulos, sem saber - inclusive Ku , certo?) O sentido figurado da palavra é, exatamente, o mesmo que usamos no Brasil : Bunda (palavra aliás, oriunda também do mesmo Kimbundo ), literalmente traduzida para o portugês também como nádegas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ku",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Kimbundo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "MataKu",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Luanda",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Ku",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Bunda",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Kimbundo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ku",
+    "label": "COISA"
+  },
+  {
+    "text": "Kimbundo",
+    "label": "COISA"
+  },
+  {
+    "text": "MataKu",
+    "label": "COISA"
+  },
+  {
+    "text": "ritaku",
+    "label": "COISA"
+  },
+  {
+    "text": "Luanda",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bunda",
+    "label": "COISA"
+  },
+  {
+    "text": "Kimbundo",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Ku', 'ABSTRACCAO'), ('Kimbundo', 'ABSTRACCAO'), ('MataKu', 'ABSTRACCAO'), ('Ku', 'ABSTRACCAO'), ('Bunda', 'ABSTRACCAO'), ('Kimbundo', 'ABSTRACCAO')]
+Espúrias  (FP): [('Ku', 'COISA'), ('Kimbundo', 'COISA'), ('MataKu', 'COISA'), ('ritaku', 'COISA'), ('Bunda', 'COISA'), ('Kimbundo', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O sentido da expressão Kuduro poderá ser melhor explicado por um Angolano, mas, ao que tudo indica, significa o que parece: Kuduro = Bunda imóvel, sem rebolar, o que, considerando-se que um dos movimentos fundamentais da dança angolana é o sofisticado rebolado (dos homens inclusive), é muito significativo. Algo como uma dança diferente , supostamente 'moderna', no âmbito das danças tradicionais que, como já disse são, extremamente, rebolativas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Bunda",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Angolano",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Bunda', 'ABSTRACCAO')]
+Espúrias  (FP): [('Angolano', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Contudo, dança livre que é, no Kuduro também se pode rebolar, é claro, basta querer.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Kuduro', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dito isto, o Kuduro , inserido no âmbito da cultura Hip Hop , é uma dança de rua (ou uma street dance, para quem gosta americanismos) Como todos os outros gêneros assemelhados, o Funk carioca e o Kwaito (da África do Sul ) é a resposta africana avassaladora influência da indústria cultural de massa capitalista, cujo eixo como se sabe, localiza-se, desde o fim da segunda guerra mundial, na América do Norte .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Hip Hop",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Funk",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Kwaito",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "África do Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "América do Norte",
+    "label": "LOCAL",
+    "token_indices": [
+      69,
+      70,
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Hip Hop",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Funk",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Kwaito",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "África do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "desde o fim da segunda guerra mundial",
+    "label": "TEMPO"
+  },
+  {
+    "text": "América do Norte",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('desde o fim da segunda guerra mundial', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas o Kuduro também é um símbolo dos mais fortes, neste momento , da enorme capacidade da resistência cultural das populações não-brancas, do outrora chamado Terceiro Mundo , diante da pressão globalizante, sinônimo evidente de aculturação.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "neste momento",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "outrora",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Terceiro Mundo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "neste momento",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Terceiro Mundo",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('outrora', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Acreditem, mas, os Pupilos do Kuduro , e outros kuduristas , quando em conjunto, dançam, quase exatamente, o que a nossa Ala dos Malandrinhos dançava lá naqueles bem passados anos 60 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pupilos do Kuduro",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Ala dos Malandrinhos",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "naqueles bem passados anos 60",
+    "label": "TEMPO",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pupilos do Kuduro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Ala dos Malandrinhos",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "nosqueles bem passados anos 60",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Ala dos Malandrinhos', 'PESSOA'), ('naqueles bem passados anos 60', 'TEMPO')]
+Espúrias  (FP): [('Kuduro', 'ABSTRACCAO'), ('Ala dos Malandrinhos', 'ABSTRACCAO'), ('nosqueles bem passados anos 60', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Teria sido aquela minha saudosa rapaziada de Padre Miguel a inventora do Kuduro ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Padre Miguel",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Padre Miguel",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Padre Miguel', 'LOCAL'), ('Kuduro', 'ABSTRACCAO')]
+Espúrias  (FP): [('Padre Miguel', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Apenas uma opinião, mas, é preciso cuidado porque assim, por extensão, o papel do Mocinho poderia ser atribuído a sociedade neoliberal globalizada, ao Capitalismo em suma, e ao estupendo grau de desenvolvimento tecnológico que ele propicia.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mocinho",
+    "label": "OUTRO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Capitalismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mocinho",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Mocinho', 'OUTRO'), ('Capitalismo', 'ABSTRACCAO')]
+Espúrias  (FP): [('Mocinho', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Sampler e sucedâneos são, neste contexto, apenas instrumentos musicais, meios, facilitadores de registro, meros suportes. Se disponíveis estiverem, ferramentas de cultura serão. Se não estiverem, outras ferramentas se inventarão.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sampler",
+    "label": "COISA",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Sampler', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Aliás, o que um Sampler faz mesmo? Não muda nada. Copia. E haja periferia e miséria para samplear.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sampler",
+    "label": "COISA",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Sampler', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Vírus no sistema. O Mocinho verdadeiro desta história- o anti herói - não é a sociedade,mas sim o homem.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mocinho",
+    "label": "OUTRO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Mocinho', 'OUTRO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Inside the Kuduro
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Inside the Kuduro",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Inside the Kuduro', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+No caso do Kuduro clássico (como ocorre com toda coqueluche pop, as distorções e deformações aparecem rapidamente), a batida copiada (sampleada) parece ser o que se chamava nos anos 70 , 80 de Kabetula , um ritmo muito popular em Luanda , semelhante ao Semba , do qual talvez seja uma variação (uma outra corrente afirma, contudo, que o Kuduro é uma variação do Kuzukuta , ritmo popular do carnaval angolano).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "nos anos 70",
+    "label": "TEMPO",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "80",
+    "label": "TEMPO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Kabetula",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Luanda",
+    "label": "LOCAL",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Semba",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Kuzukuta",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kuduro clássico",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "nos anos 70",
+    "label": "TEMPO"
+  },
+  {
+    "text": "80",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Kabetula",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Luanda",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Semba",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Kuzukuta",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Kuduro', 'ABSTRACCAO')]
+Espúrias  (FP): [('Kuduro clássico', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ficou tudo em casa, no entanto, porque ambos os ritmos (como a maior parte das danças de negro do Brasil , desde, pelo menos, o século 19 ), tipicamente urbanos que são, vieram, provavelmente, do Kaduke , espécie de Kuduro surgido na cidade de Ambaça ( Mbaka ), grande centro urbano e comercial (!) lá pelos idos de 1880 (veja Capello e Ivens ), no tempo da colonização portuguesa em Angola
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "desde, pelo menos, o século 19",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Kaduke",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Ambaça",
+    "label": "LOCAL",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Mbaka",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "pelos idos de 1880",
+    "label": "TEMPO",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Capello e Ivens",
+    "label": "OBRA",
+    "token_indices": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "no tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "desde, pelo menos, o século 19",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Kaduke",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Ambaça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mbaka",
+    "label": "LOCAL"
+  },
+  {
+    "text": "lá pelos idos de 1880",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Capello e Ivens",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('pelos idos de 1880', 'TEMPO'), ('Capello e Ivens', 'OBRA'), ('no tempo', 'TEMPO'), ('Angola', 'LOCAL')]
+Espúrias  (FP): [('lá pelos idos de 1880', 'TEMPO'), ('Capello e Ivens', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este Kaduke , talvez tenha gerado, a partir do mesmo processo, no Brasil colonial, o Kalundu que, mesclado à danças européias como a Polka e a Mazurka (espécies de danças de periferia brancas, populares na Europa central), deram numa dança popularíssima na Corte brasileira (um Kuduro colonial) chamada de Lundu .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kaduke",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Kalundu",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Polka",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Mazurka",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Corte",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Kuduro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Lundu",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kaduke",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Kalundu",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Polka",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Mazurka",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Corte",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lundu",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Kuduro', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pois não é que o Kaduke , o Kalundu e talvez até mesmo o Jongo formaram talvez, a base principal - coreográfica e musical- do que conhecemos vulgarmente hoje no Brasil como Samba ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kaduke",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Kalundu",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Jongo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Samba",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kaduke",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Kalundu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jongo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Samba",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Kaduke', 'ABSTRACCAO'), ('Kalundu', 'ABSTRACCAO'), ('Jongo', 'ABSTRACCAO'), ('hoje', 'TEMPO')]
+Espúrias  (FP): [('Kaduke', 'PESSOA'), ('Kalundu', 'PESSOA'), ('Jongo', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como, facilmente, se pode notar, o mundo roda enquanto a cultura das periferias gira, circula, como um bambolê. Somos do Overmundo , o pá! O Bicho, o vírus da maçã. Y love you Angola !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Overmundo",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Overmundo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Bicho",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Y love you Angola",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Overmundo', 'LOCAL'), ('Angola', 'LOCAL')]
+Espúrias  (FP): [('Overmundo', 'ABSTRACCAO'), ('Bicho', 'ABSTRACCAO'), ('Y love you Angola', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Coletivo dinamarquês acusa Fundação Bienal de censura
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Coletivo",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Fundação Bienal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Coletivo dinamarquês",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Fundação Bienal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Coletivo', 'PESSOA')]
+Espúrias  (FP): [('Coletivo dinamarquês', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Apresentada na Bienal de Veneza | Bienal de Veneza em 2003 , a obra " Guaraná Power ", do coletivo dinamarquês Superflex , foi selecionada pela curadoria da 27ª Bienal de São Paulo | 27ª Bienal de São Paulo mas teve sua exibição vetada pela Fundação realizadora da mostra.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bienal de Veneza",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Bienal",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Veneza",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "em 2003",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Guaraná Power",
+    "label": "OBRA",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Superflex",
+    "label": "PESSOA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "27ª Bienal de São Paulo",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "27ª Bienal",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Fundação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bienal de Veneza",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Bienal de Veneza",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Superflex",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Guaraná Power",
+    "label": "OBRA"
+  },
+  {
+    "text": "27ª Bienal de São Paulo",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "27ª",
+    "label": "VALOR"
+  },
+  {
+    "text": "Bienal de São Paulo",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Fundação",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Bienal', 'ACONTECIMENTO'), ('Veneza', 'LOCAL'), ('em 2003', 'TEMPO'), ('27ª Bienal', 'ACONTECIMENTO'), ('São Paulo', 'LOCAL')]
+Espúrias  (FP): [('Bienal de Veneza', 'ACONTECIMENTO'), ('27ª', 'VALOR'), ('Bienal de São Paulo', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tônico de sabor concentrado e propriedades energéticas, de grande sucesso na Europa , o Guaraná Power tem como função primeira a crítica ao monopólio do mercado e a suas conseqüências nas comunidades agricultoras. A partir de um estudo econômico da cidade de Maués , no Amazonas , detectou-se o impacto econômico da redução do preço das sementes de guaraná por parte das grandes indústrias. "Estabelecemos o valor de R$ 15 para o quilo de sementes, enquanto as indústrias pagam R$ 7 ", afirmou Bjornstjerne Christiansen , membro do Superflex , em entrevista à Folha de São Paulo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Guaraná Power",
+    "label": "COISA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Maués",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Amazonas",
+    "label": "LOCAL",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "R$ 15",
+    "label": "VALOR",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "R$ 7",
+    "label": "VALOR",
+    "token_indices": [
+      79,
+      80
+    ]
+  },
+  {
+    "text": "Bjornstjerne Christiansen",
+    "label": "PESSOA",
+    "token_indices": [
+      83,
+      84
+    ]
+  },
+  {
+    "text": "Superflex",
+    "label": "PESSOA",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "Folha de São Paulo",
+    "label": "PESSOA",
+    "token_indices": [
+      93,
+      94,
+      95,
+      96
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Guaraná Power",
+    "label": "COISA"
+  },
+  {
+    "text": "Maués",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Amazonas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "R$ 15",
+    "label": "VALOR"
+  },
+  {
+    "text": "R$ 7",
+    "label": "VALOR"
+  },
+  {
+    "text": "Bjornstjerne Christiansen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Superflex",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Folha de São Paulo",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Superflex', 'PESSOA'), ('Folha de São Paulo', 'PESSOA')]
+Espúrias  (FP): [('Superflex', 'ORGANIZACAO'), ('Folha de São Paulo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O projeto conta com o apoio da Secretaria de Desenvolvimento Sustentável do Governo do Estado do Amazonas | Secretaria de Desenvolvimento Sustentável do Governo do Estado do Amazonas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Secretaria de Desenvolvimento Sustentável do Governo do Estado do Amazonas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Secretaria de Desenvolvimento Sustentável",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Estado do Amazonas",
+    "label": "LOCAL",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Secretaria de Desenvolvimento Sustentável do Governo do Estado do Amazonas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Secretaria de Desenvolvimento Sustentável",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Governo do Estado do Amazonas",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Governo', 'ORGANIZACAO'), ('Estado do Amazonas', 'LOCAL')]
+Espúrias  (FP): [('Governo do Estado do Amazonas', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Impedidos de apresentar a obra - e tendo suas páginas do catálogo da mostra cobertas por tarjas pretas -, os dinamarqueses distribuíram o Guaraná Power , sem rótulo, em vernissages na Galeria Vermelho e Instituto Tomie Ohtake , além de pontos espalhados pela capital paulista. O coletivo Superflex já recebeu elogios do Ministro da Cultura Gilberto Gil em junho deste ano , ao apresentar no Brasil o projeto Free Beer ("cerveja livre"), cerveja cuja fórmula é licenciada em Creative Commons e permite que qualquer pessoa interessada possa fabricá-la ou aprimorá-la.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Guaraná Power",
+    "label": "COISA",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Galeria Vermelho",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Instituto Tomie Ohtake",
+    "label": "LOCAL",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Superflex",
+    "label": "PESSOA",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Ministro da Cultura Gilberto Gil",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "em junho deste ano",
+    "label": "TEMPO",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Free Beer",
+    "label": "OBRA",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Creative Commons",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Guaraná Power",
+    "label": "COISA"
+  },
+  {
+    "text": "Galeria Vermelho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Instituto Tomie Ohtake",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Superflex",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministro da Cultura Gilberto Gil",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em junho deste ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Free Beer",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Superflex', 'PESSOA'), ('Creative Commons', 'ABSTRACCAO')]
+Espúrias  (FP): [('Superflex', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na entrevista coletiva dos organizadores da Bienal , o presidente da Fundação Bienal | presidente da Fundação Bienal , Manuel Francisco Pires da Costa , optou por, além de responsabilizar a assessoria jurídica, emitir sua opinião pessoal acerca da obra polêmica: "Eu jamais interferi no mérito das obras selecionadas. Aliás, a acho de muito mau gosto e, se não julguei, estou julgando agora. Foi o departamento jurídico da Bienal quem informou que essa obra não estava de acordo com as regras da legislação brasileira".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bienal",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "presidente da Fundação Bienal",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Fundação Bienal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Manuel Francisco Pires da Costa",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Bienal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bienal",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "presidente da Fundação Bienal",
+    "label": "PESSOA"
+  },
+  {
+    "text": "presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fundação Bienal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Manuel Francisco Pires da Costa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bienal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "agora",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('presidente', 'PESSOA'), ('agora', 'TEMPO'), ('Brasil', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+"O que eles sempre nos disseram é que isso [a referência à marca do guaraná Antarctica ] poderia ser um problema, mas o presidente nunca nos deu respostas claras. Nossas obras sempre envolvem negociação, mas com ele tivemos as portas fechadas. Se eles olhassem como ficou a lata [diferente da criação original], não haveria problema legal", afirmou Jakob Fenger , um dos membros do coletivo, em entrevista para a Folha de São Paulo , em matéria que informa ainda: "Por meio de sua assessoria, a AmBev [fabricante do guaraná Antarctica ] declarou não ver problema na obra. Diz não ter tido nenhum contato com o grupo".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Antarctica",
+    "label": "COISA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Jakob Fenger",
+    "label": "PESSOA",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Folha de São Paulo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69,
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "AmBev",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Antarctica",
+    "label": "COISA",
+    "token_indices": [
+      89
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Antarctica",
+    "label": "COISA"
+  },
+  {
+    "text": "presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jakob Fenger",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Folha de São Paulo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AmBev",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Antarctica",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('presidente', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Superflex ainda distribuiu à imprensa, no dia da coletiva, o documento " A obra de arte que os brasileiros não terão permissão de ver na Bienal | A obra de arte que os brasileiros não terão permissão de ver na Bienal" .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superflex",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "no dia",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "A obra de arte que os brasileiros não terão permissão de ver na Bienal",
+    "label": "OBRA",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Superflex",
+    "label": "PESSOA"
+  },
+  {
+    "text": "no dia da coletiva",
+    "label": "TEMPO"
+  },
+  {
+    "text": "A obra de arte que os brasileiros não terão permissão de ver na Bienal",
+    "label": "OBRA"
+  },
+  {
+    "text": "A obra de arte que os brasileiros não terão permissão de ver na Bienal",
+    "label": "OBRA"
+  },
+  {
+    "text": "Bienal",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('no dia', 'TEMPO')]
+Espúrias  (FP): [('no dia da coletiva', 'TEMPO'), ('A obra de arte que os brasileiros não terão permissão de ver na Bienal', 'OBRA'), ('Bienal', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nele, afirma-se que o " presidente da Fundação Bienal | presidente da Fundação Bienal censurou um trabalho com reconhecimento internacional para o público brasileiro", que, segundo o texto divulgado, teria sido recusado "por não ser considerada uma 'atividade artística'".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "presidente da Fundação Bienal",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Fundação Bienal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "presidente da Fundação Bienal",
+    "label": "PESSOA"
+  },
+  {
+    "text": "presidente da Fundação Bienal",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fundação Bienal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('presidente da Fundação Bienal', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os Presidentes do Parlamento Europeu , do Conselho e da Comissão | Presidentes do Parlamento Europeu , do Conselho e da Comissão assinaram, a 12 de Dezembro de 2007 , em Estrasburgo , a Carta dos Direitos Fundamentais da União Europeia | Carta dos Direitos Fundamentais da União Europeia , um dia antes da assinatura do Tratado de Lisboa , na capital portuguesa. Os três salientaram o "dia histórico" para os cidadãos europeus e também o "desafio quotidiano" e o "compromisso das instituições europeias" de respeitar e promover os direitos e valores fundamentais.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidentes do Parlamento Europeu",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "do Conselho",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "da Comissão",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Presidentes",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "a 12 de Dezembro de 2007",
+    "label": "TEMPO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Estrasburgo",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais da União Europeia",
+    "label": "OBRA",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47,
+      48
+    ]
+  },
+  {
+    "text": "um dia antes",
+    "label": "TEMPO",
+    "token_indices": [
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Tratado de Lisboa",
+    "label": "OBRA",
+    "token_indices": [
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "o \"dia histórico\"",
+    "label": "TEMPO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Presidentes do Parlamento Europeu', 'PESSOA'), ('do Conselho', 'PESSOA'), ('da Comissão', 'PESSOA'), ('Presidentes', 'PESSOA'), ('Parlamento Europeu', 'ORGANIZACAO'), ('Conselho', 'ORGANIZACAO'), ('Comissão', 'ORGANIZACAO'), ('a 12 de Dezembro de 2007', 'TEMPO'), ('Estrasburgo', 'LOCAL'), ('Carta dos Direitos Fundamentais da União Europeia', 'OBRA'), ('Carta dos Direitos Fundamentais', 'OBRA'), ('União Europeia', 'ORGANIZACAO'), ('um dia antes', 'TEMPO'), ('Tratado de Lisboa', 'OBRA'), ('o "dia histórico"', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+"Trata-se de um dia feliz para as cidadãs e os cidadãos da União Europeia ", em que se festejam "os nossos valores comuns", afirmou o Presidente do Parlamento Europeu | Presidente do Parlamento Europeu , Hans-Gert PÖTTERING , no discurso que antecedeu a assinatura da Carta dos Direitos Fundamentais da União Europeia | Carta dos Direitos Fundamentais da União Europeia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de um dia",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Presidente do Parlamento Europeu",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Hans-Gert PÖTTERING",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais da União Europeia",
+    "label": "OBRA",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidente do Parlamento Europeu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais da União Europeia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA"
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('de um dia', 'TEMPO'), ('União Europeia', 'LOCAL'), ('Hans-Gert PÖTTERING', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Relembrando o "caminho significativo" que foi necessário percorrer até chegar a este momento , afirmou que "os ensinamentos da história da Europa foram tomados em consideração", num documento que garante "valores como a liberdade e a segurança".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "a este momento",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('a este momento', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+"Com a proclamação da Carta , temos a obrigação e a oportunidade de dar aos quase 500 milhões de cidadãos a ideia de uma Europa unida. Somos essencialmente uma comunidade de valores -- são estes valores comuns que constituem o fundamento da União Europeia ", declarou.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carta",
+    "label": "OBRA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "quase 500 milhões",
+    "label": "VALOR",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      42,
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "500 milhões",
+    "label": "VALOR"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('quase 500 milhões', 'VALOR'), ('Europa', 'LOCAL'), ('União Europeia', 'ABSTRACCAO')]
+Espúrias  (FP): [('500 milhões', 'VALOR'), ('Europa', 'ORGANIZACAO'), ('União Europeia', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Hans-Gert PÖTTERING destacou ainda a importância, para o PE , de ver reconhecido o valor juridicamente vinculativo da Carta , um passo "essencial no quadro de reforma dos Tratados e essencial para a identidade europeia".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Hans-Gert PÖTTERING",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "PE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Tratados",
+    "label": "OBRA",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Hans-Gert PÖTTERING",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Tratados', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+"Sem estes valores, a União Europeia não teria futuro". Dentro e fora da Europa , "temos o dever de sempre defender a dignidade e os direitos humanos", concluiu.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União Europeia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('União Europeia', 'ABSTRACCAO')]
+Espúrias  (FP): [('União Europeia', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Também o Presidente em exercício do Conselho da UE | Conselho da UE José SÓCRATES , destacou o dia de hoje como "uma data fundamental na história da integração europeia".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Conselho da UE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "José SÓCRATES",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "o dia de hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidente em exercício do Conselho da UE",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conselho da UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José SÓCRATES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Presidente', 'PESSOA'), ('Conselho', 'ORGANIZACAO'), ('o dia de hoje', 'TEMPO')]
+Espúrias  (FP): [('Presidente em exercício do Conselho da UE', 'PESSOA'), ('hoje', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Carta "representa um compromisso das instituições da União de a respeitarem e aplicarem quotidianamente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carta",
+    "label": "OBRA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "quotidianamente",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('quotidianamente', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Só assim seremos dignos herdeiros do que há de melhor na nossa identidade colectiva e tradição comum de uma Europa que honra os direitos e as garantias dos cidadãos".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Europa', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para SÓCRATES , esta Carta "vai para além" dos cidadãos da UE , representando "um esteio fundamental da convicção de um mundo melhor e de que os direitos são universalmente respeitados".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SÓCRATES",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "UE",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SÓCRATES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA"
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('UE', 'LOCAL')]
+Espúrias  (FP): [('UE', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Expressando ainda a "honra" por Portugal ficar associado a "uma importante etapa da cidadania europeia" -- foi durante a Presidência em 2000 que se iniciou a Convenção que deu origem à Carta e é durante a actual Presidência que a Carta é proclamada -- SÓCRATES alertou, no entanto, para o facto de a tarefa ainda não estar acabada.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Presidência",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "em 2000",
+    "label": "TEMPO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Convenção",
+    "label": "OBRA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Presidência",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "PESSOA",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Presidência em 2000",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Presidência",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Carta",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "SÓCRATES",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Portugal', 'ORGANIZACAO'), ('Presidência', 'ACONTECIMENTO'), ('em 2000', 'TEMPO'), ('Convenção', 'OBRA'), ('Carta', 'OBRA'), ('Presidência', 'ACONTECIMENTO'), ('Carta', 'OBRA')]
+Espúrias  (FP): [('Portugal', 'LOCAL'), ('Presidência em 2000', 'TEMPO'), ('Presidência', 'TEMPO'), ('Carta', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Também o Presidente da Comissão Europeia | Presidente da Comissão Europeia , José Manuel Durão BARROSO , declarou que, com a Carta dos Direitos Fundamentais , a Europa está "mais equipada para levar a cabo o seu combate pela liberdade, democracia e paz".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidente da Comissão Europeia",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "José Manuel Durão BARROSO",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidente da Comissão Europeia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente da Comissão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José Manuel Durão BARROSO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Presidente', 'PESSOA'), ('Comissão Europeia', 'ORGANIZACAO'), ('Europa', 'ORGANIZACAO')]
+Espúrias  (FP): [('Presidente da Comissão', 'PESSOA'), ('Europa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Trata-se de um êxito extraordinário de que a UE se deve sentir orgulhosa. É particularmente importante que aconteça numa Europa alargada que esteve dividia por regimes ditatoriais. Se conjugarmos esforços para estimular esta cultura de direitos humanos, daremos um contributo essencial para uma Europa de valores", concluiu.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Europa', 'ORGANIZACAO'), ('Europa', 'ORGANIZACAO')]
+Espúrias  (FP): [('Europa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+No mesmo registo, Martin SCHULZ ( PSE , DE ), líder do PSE | líder do PSE , recordou que, na República de Weimar , se queria acabar com os inimigos em forma de coro e quem dirigia esse coro era Hitler ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Martin SCHULZ",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "PSE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "DE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "líder do PSE",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "PSE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "República de Weimar",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Hitler",
+    "label": "PESSOA",
+    "token_indices": [
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Martin SCHULZ",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PSE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "DE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PSE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "líder do PSE",
+    "label": "PESSOA"
+  },
+  {
+    "text": "líder do PSE",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "República de Weimar",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hitler",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('República de Weimar', 'ACONTECIMENTO')]
+Espúrias  (FP): [('líder do PSE', 'ABSTRACCAO'), ('República de Weimar', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Do grupo ALDE , Graham WATSON lançou uma petição para que a Presidência do PE | Presidência do PE use os poderes que lhe confere o regimento "para mandar embora um deputado que se comporte de maneira indigna": "Uma atitude como esta não se pode tolerar e traz-nos o pior de um estádio de futebol", afirmou.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ALDE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Graham WATSON",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Presidência do PE",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Presidência",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "PE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ALDE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Graham WATSON",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidência do PE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Presidência",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PE",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Presidência do PE', 'PESSOA'), ('Presidência', 'PESSOA')]
+Espúrias  (FP): [('Presidência do PE', 'ORGANIZACAO'), ('Presidência', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Francis WURTZ , da CEUE/EVN , condenou "de maneira absoluta as declarações antieuropeias e indignas" que se ouviram no hemiciclo: "O meu grupo está a favor de um referendo, mas opõe-se a acções como esta", afirmou.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Francis WURTZ",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "CEUE/EVN",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Francis WURTZ",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CEUE/EVN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "O meu grupo",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('O meu grupo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Também o co-presidente dos Verdes/ALE | co-presidente dos Verdes/ALE , Daniel COHN-BENDIT , se mostrou "consternado" com o ocorrido, mas pediu que não se dramatize a situação: "Há 50 loucos mas há 700 sãos"; "não peçamos a expulsão destes loucos porque um Parlamento | Parlamento livre é aquele que aguenta os loucos que lhe são desagradáveis".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "co-presidente dos Verdes/ALE",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Verdes/ALE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Daniel COHN-BENDIT",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "50",
+    "label": "VALOR",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "700",
+    "label": "VALOR",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "co-presidente dos Verdes/ALE",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Verdes/ALE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Daniel COHN-BENDIT",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Há 50",
+    "label": "VALOR"
+  },
+  {
+    "text": "700",
+    "label": "VALOR"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('50', 'VALOR')]
+Espúrias  (FP): [('Há 50', 'VALOR'), ('Parlamento', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Da mesma forma, para Brian CROWLEY , da UEN , o ocorrido "superou o permissível".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brian CROWLEY",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "UEN",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brian CROWLEY",
+    "label": "PESSOA"
+  },
+  {
+    "text": "UEN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "o ocorrido",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('o ocorrido', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+http://www.eu2007.pt/UE/vPT/Noticias_Documentos/20071212DiscursoPM.htm
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "http://www.eu2007.pt/UE/vPT/Noticias_Documentos/20071212DiscursoPM.htm",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('http://www.eu2007.pt/UE/vPT/Noticias_Documentos/20071212DiscursoPM.htm', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Discurso de José Sócrates na cerimónia de Proclamação da Carta dos Direitos Fundamentais
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José Sócrates",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Proclamação da Carta dos Direitos Fundamentais",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "José Sócrates",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Proclamação da Carta dos Direitos Fundamentais', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Carta dos Direitos Fundamentais', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O PRESIDENTE Sarkozy abriu a Conferência de Dadores realizada em Paris com uma frase grandiloquente sobre a necessidade urgente de criar um Estado palestiniano no fim de 2008 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PRESIDENTE Sarkozy",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Conferência de Dadores",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "no fim de 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PRESIDENTE Sarkozy",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conferência de Dadores",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "no fim de 2008",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Estado', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Presidente ou é mentiroso ou finge-se ignorante, ou as duas coisas. Depois do falhanço esperado da cimeira de Annapolis , um modo de Condoleezza Rice salvar a face e de a Administração | Administração americana e a Europa continuarem a fingir que estão interessadas em resolver o conflito israelo-palestiniano e de lavarem as mãos de tudo o resto, Sarkozy não pode ignorar que o momento para pronunciamentos débeis é o menos adequado. Tony Blair , depois de ter minado todo o processo de paz do Médio Oriente ao ordenar a invasão do Iraque de braço dado com Bush , continua a emitir piedades deste género, e diz que está na altura de resolver o problema e que ele pode ser resolvido. Blair não sabe o que diz.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Annapolis",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Condoleezza Rice",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Administração",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Sarkozy",
+    "label": "PESSOA",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Tony Blair",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      86,
+      87
+    ]
+  },
+  {
+    "text": "Iraque",
+    "label": "LOCAL",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "Bush",
+    "label": "PESSOA",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "na altura",
+    "label": "TEMPO",
+    "token_indices": [
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Blair",
+    "label": "PESSOA",
+    "token_indices": [
+      122
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Condoleezza Rice",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Administração",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Administração americana",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sarkozy",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Annapolis",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Tony Blair",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Iraque",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bush",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Annapolis', 'LOCAL'), ('Europa', 'ORGANIZACAO'), ('na altura', 'TEMPO'), ('Blair', 'PESSOA')]
+Espúrias  (FP): [('Administração americana', 'ORGANIZACAO'), ('Europa', 'LOCAL'), ('Annapolis', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A verdade é que não pode ser resolvido, já não pode, e não pode justamente nesta fase, quando os palestinianos têm não um mas dois governos e dois territórios, um ocupado pelos israelitas, a Cisjordânia , outro abandonado pelos israelitas e bombardeado pelos israelitas, Gaza . Anos e anos de destruição compulsiva de interlocutores, alguns moderados, e de opressão, fizeram do povo palestiniano uma nação de pedintes. Gaza subvive das esmolas iranianas, sauditas e dos Emiratos , e a Cisjordânia subvive de doações da Europa , da América , de Estados árabes e das Nações Unidas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Anos e anos",
+    "label": "TEMPO",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Gaza",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Emiratos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "América",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "Estados árabes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      90,
+      91
+    ]
+  },
+  {
+    "text": "Nações Unidas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      94,
+      95
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gaza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Emiratos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "América",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estados",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Nações Unidas",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Anos e anos', 'TEMPO'), ('Gaza', 'ORGANIZACAO'), ('Cisjordânia', 'ORGANIZACAO'), ('Estados árabes', 'ORGANIZACAO')]
+Espúrias  (FP): [('anos', 'TEMPO'), ('Gaza', 'LOCAL'), ('Estados', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nenhuma nação palestiniana pode aspirar a ser um Estado palestiniano , e um país viável, sem unidade do território e do povo, e sem soberania sobre esse povo e esse território. No terreno, temos a pior situação de sempre. O Hamas a mandar em Gaza , e a OLP a fingir que manda na Cisjordânia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Gaza",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "OLP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "OLP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Estado', 'ORGANIZACAO'), ('Gaza', 'ORGANIZACAO'), ('Cisjordânia', 'ORGANIZACAO')]
+Espúrias  (FP): [('Gaza', 'LOCAL'), ('Cisjordânia', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sarkozy , e Blair , e os europeus, sendo a Europa o maior dador de dinheiro para os palestinianos e já vamos ver porquê, não podem desconhecer que nem Mahmoud Abbas é um chefe com apoio popular na Cisjordânia nem a OLP , dominada pela Fatah , tem apoio popular em Gaza . Se realizassem eleições na Cisjordânia , Abbas e um grupo de agentes corruptos disfarçados de "moderados" não as ganhariam, e não as ganhariam nas cidades onde o Hamas ganhou. Abbas pode fingir mandar em Ramallah e na clientela privilegiada de uma organização que não soube constituir-se como fonte legítima do poder palestiniano, não pode fingir que é considerado em Jenin e Hebron , em Nablus e Tulkarem , em Jericó e Jerusalém Oriental .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sarkozy",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Blair",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Mahmoud Abbas",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "OLP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Fatah",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Abbas",
+    "label": "PESSOA",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      80
+    ]
+  },
+  {
+    "text": "Abbas",
+    "label": "PESSOA",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "Ramallah",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "Jenin",
+    "label": "LOCAL",
+    "token_indices": [
+      112
+    ]
+  },
+  {
+    "text": "Hebron",
+    "label": "LOCAL",
+    "token_indices": [
+      114
+    ]
+  },
+  {
+    "text": "Nablus",
+    "label": "LOCAL",
+    "token_indices": [
+      117
+    ]
+  },
+  {
+    "text": "Tulkarem",
+    "label": "LOCAL",
+    "token_indices": [
+      119
+    ]
+  },
+  {
+    "text": "Jericó",
+    "label": "LOCAL",
+    "token_indices": [
+      122
+    ]
+  },
+  {
+    "text": "Jerusalém Oriental",
+    "label": "LOCAL",
+    "token_indices": [
+      124,
+      125
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Sarkozy', 'PESSOA'), ('Blair', 'PESSOA'), ('Europa', 'ORGANIZACAO'), ('Mahmoud Abbas', 'PESSOA'), ('Cisjordânia', 'LOCAL'), ('OLP', 'ORGANIZACAO'), ('Fatah', 'ORGANIZACAO'), ('Gaza', 'LOCAL'), ('Cisjordânia', 'LOCAL'), ('Abbas', 'PESSOA'), ('Hamas', 'ORGANIZACAO'), ('Abbas', 'PESSOA'), ('Ramallah', 'ORGANIZACAO'), ('Jenin', 'LOCAL'), ('Hebron', 'LOCAL'), ('Nablus', 'LOCAL'), ('Tulkarem', 'LOCAL'), ('Jericó', 'LOCAL'), ('Jerusalém Oriental', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Abbas , arrastando-se aos pés dos chefes europeus a mendigar uns milhares de milhões de dólares enquanto insulta o Hamas e aceita que os palestinianos de Gaza sejam colectivamente punidos pelo embargo israelita e pela recusa americana e europeia de incluir o Hamas no processo de paz é visto como uma marioneta do Ocidente e um traidor.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Abbas",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Ocidente",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Abbas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Hamas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hamas",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Hamas', 'ORGANIZACAO'), ('Hamas', 'ORGANIZACAO'), ('Ocidente', 'ORGANIZACAO')]
+Espúrias  (FP): [('Hamas', 'PESSOA'), ('Hamas', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os israelitas sabem isto melhor do que ninguém porque são os que melhor conhecem a quimera do road map. Israel , sabendo que não pode devolver a Cisjordânia , desmantelar os colonatos, prescindir da Ocupação sem comprometer a sua segurança, dividir Jerusalém ou ceder a pretensões sobre o regresso de milhões de refugiados (que nunca poderão regressar), está interessado em manter as ficções americanas e europeias e administrar a Ocupação e a relação de forças, como a sua supremacia militar assegura. O Hamas está interessado, simetricamente, em administrar a resistência. Israel só seria obrigado a ceder se os Estados Unidos deixassem de apoiar e de vender milhares de milhões de dólares de armas aos israelitas, e Israel sabe que isso nunca acontecerá, por razões da política interna americana e da força do lobby judeu. Nenhum candidato democrata, nem mesmo o utópico Obama , ousariam modificar este estado de coisas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Israel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Ocupação",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Jerusalém",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Ocupação",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "Israel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      98,
+      99
+    ]
+  },
+  {
+    "text": "Israel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      116
+    ]
+  },
+  {
+    "text": "Obama",
+    "label": "PESSOA",
+    "token_indices": [
+      141
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Israel",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cisjordânia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Jerusalém",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Ocupação', 'ACONTECIMENTO'), ('Ocupação', 'ACONTECIMENTO'), ('Hamas', 'ORGANIZACAO'), ('Israel', 'ORGANIZACAO'), ('Israel', 'ORGANIZACAO'), ('Obama', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A posição da Europa , dando milhares de milhões que a dispensem de contribuir para uma resolução política, é a mais contraproducente. A Europa prefere pagar para não ser incomodada, e prefere transformar, como transformou, os palestinianos numa nação de pedintes. A velha e cínica Europa , origem de todo este problema, a assassina Europa como lhe chama o escritor israelita Amos Oz , sabe que não pode contrariar os Estados Unidos e não quer contrariar os israelitas por má consciência. Sabe também que os palestinianos são um povo espoliado, banido, revoltado e oprimido, e que parte da responsabilidade histórica dessa opressão lhe pertence. Como contribui para o problema sem contribuir para a solução, a Europa adoptou um discurso de duplicidades e subentendidos, de fraquezas e recuos, de que o senhor Javier Solanas é o exemplo acabado. A rematar o discurso, a Europa passa cheques. Os palestinianos habituaram-se a explorar esta fraqueza a seu favor e transformaram a sua reivindicação numa vitimização que lhes dá direito, de tanto em tanto tempo , a uma compensação monetária. Muitos milhões acabam, como no tempo de Arafat , em contas secretas e nos bolsos de uma oligarquia. Tanto dinheiro não chega para comprar os palestinianos que não estão à venda. Os palestinianos vêem o Muro entrar-lhes pelas vidas dentro, vêem a sua destituição transformada em humilhação, e votam Hamas ou Jihad Islâmica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Amos Oz",
+    "label": "PESSOA",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "senhor Javier Solanas",
+    "label": "PESSOA",
+    "token_indices": [
+      130,
+      131,
+      132
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      142
+    ]
+  },
+  {
+    "text": "de tanto em tanto tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      166,
+      167,
+      168,
+      169,
+      170
+    ]
+  },
+  {
+    "text": "no tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      180,
+      181
+    ]
+  },
+  {
+    "text": "Arafat",
+    "label": "PESSOA",
+    "token_indices": [
+      183
+    ]
+  },
+  {
+    "text": "Muro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      211
+    ]
+  },
+  {
+    "text": "Hamas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      225
+    ]
+  },
+  {
+    "text": "Jihad Islâmica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      227,
+      228
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Amos Oz",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Europa', 'ORGANIZACAO'), ('senhor Javier Solanas', 'PESSOA'), ('Europa', 'ORGANIZACAO'), ('de tanto em tanto tempo', 'TEMPO'), ('no tempo', 'TEMPO'), ('Arafat', 'PESSOA'), ('Muro', 'ABSTRACCAO'), ('Hamas', 'ORGANIZACAO'), ('Jihad Islâmica', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Camacho ganhou sempre a Jesualdo mas não ao FC Porto
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Camacho",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Jesualdo",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Camacho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jesualdo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('FC Porto', 'PESSOA')]
+Espúrias  (FP): [('FC Porto', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+AS ESTATÍSTICAS DO CLÁSSICO DE SÁBADO QUANTO À LIGA
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "de sábado",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('de sábado', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Se as estatísticas quiserem dizer alguma coisa, Camacho pode encarar o clássico de sábado com optimismo. O espanhol soma por vitórias os 3 jogos frente a Jesualdo Ferreira , técnico ao qual sucedeu no comando do Benfica , em 2002/2003 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Camacho",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "de sábado",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "3",
+    "label": "VALOR",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Jesualdo Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "em 2002/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Camacho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "de sábado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Jesualdo Ferreira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benfica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 2002/2003",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('3', 'VALOR'), ('Benfica', 'PESSOA')]
+Espúrias  (FP): [('Benfica', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No entanto, há outra leitura que tem de ser feita: o espanhol jamais venceu o FC Porto para o campeonato.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FC Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('FC Porto', 'PESSOA')]
+Espúrias  (FP): [('FC Porto', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em três "duelos", face a Jesualdo , então ao comando do Sp.Braga , Camacho venceu por duas vezes como visitante ( 3-1 em 2002/2003 e 3-0 em 2003/2004 ) e uma como anfitrião ( 2-0 em 2003/2004 ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jesualdo",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Sp.Braga",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Camacho",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "por duas vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "3-1",
+    "label": "VALOR",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "em 2002/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "em 2003/2004",
+    "label": "TEMPO",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "2-0",
+    "label": "VALOR",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "em 2003/2004",
+    "label": "TEMPO",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jesualdo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sp.Braga",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Camacho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "3-1",
+    "label": "VALOR"
+  },
+  {
+    "text": "2002/2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "3-0",
+    "label": "VALOR"
+  },
+  {
+    "text": "2003/2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2-0",
+    "label": "VALOR"
+  },
+  {
+    "text": "2003/2004",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Sp.Braga', 'PESSOA'), ('por duas vezes', 'TEMPO'), ('em 2002/2003', 'TEMPO'), ('em 2003/2004', 'TEMPO'), ('em 2003/2004', 'TEMPO')]
+Espúrias  (FP): [('Sp.Braga', 'ORGANIZACAO'), ('2002/2003', 'TEMPO'), ('3-0', 'VALOR'), ('2003/2004', 'TEMPO'), ('2003/2004', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O espanhol está 100 por cento vitorioso face a Jesualdo , mas nunca enceu o FC Porto para o campeonato, tendo como melhor registo o empate na Luz , em 2003/2004 ( 1-1 ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jesualdo",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Luz",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "em 2003/2004",
+    "label": "TEMPO",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "1-1",
+    "label": "VALOR",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jesualdo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Luz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 2003/2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1-1",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('FC Porto', 'PESSOA')]
+Espúrias  (FP): [('FC Porto', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na mesma temporada, Camacho perdeu no FC Porto por 2-0 e, na anterior, já tinha perdido em casa por 1-0 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Camacho",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "2-0",
+    "label": "VALOR",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "1-0",
+    "label": "VALOR",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Camacho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2-0",
+    "label": "VALOR"
+  },
+  {
+    "text": "1-0",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('FC Porto', 'LOCAL')]
+Espúrias  (FP): [('FC Porto', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No entanto, pesar de não ter qualquer triunfo no campeonato, o espanhol conquistou frente aos "dragões" o único título da sua carreira.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "No entanto",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "frente aos",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "dragões",
+    "label": "PESSOA"
+  },
+  {
+    "text": "o único título",
+    "label": "VALOR"
+  },
+  {
+    "text": "da sua carreira",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('No entanto', 'ABSTRACCAO'), ('frente aos', 'ABSTRACCAO'), ('dragões', 'PESSOA'), ('o único título', 'VALOR'), ('da sua carreira', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A 16 de Maio de 2004 , na final da Taça de Portugal | Taça de Portugal , o FC Porto adiantou-se, por Derlei , mas o grego Fyssas empatou e, no prolongamento, Simão derrotou o "onze" de José Mourinho , que, 10 dias depois | 10 dias depois, viria a vencer a Liga dos Campeões ( 3-0 ao AS Mónaco ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "A 16 de Maio de 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Taça de Portugal",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Taça",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Derlei",
+    "label": "PESSOA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Fyssas",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Simão",
+    "label": "PESSOA",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "José Mourinho",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "10 dias depois",
+    "label": "TEMPO",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "10 dias",
+    "label": "VALOR",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Liga dos Campeões",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "3-0",
+    "label": "VALOR",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "AS Mónaco",
+    "label": "PESSOA",
+    "token_indices": [
+      59,
+      60
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "A 16 de Maio de 2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Taça de Portugal",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Taça",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Derlei",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fyssas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Simão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José Mourinho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "10 dias depois",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Liga dos Campeões",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "3-0",
+    "label": "VALOR"
+  },
+  {
+    "text": "AS Mónaco",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('FC Porto', 'PESSOA'), ('10 dias', 'VALOR'), ('AS Mónaco', 'PESSOA')]
+Espúrias  (FP): [('FC Porto', 'ORGANIZACAO'), ('AS Mónaco', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por seu lado, Jesualdo Ferreira tem um balanço negativo nos confrontos com o Benfica , com quatro vitórias, três empates e cinco derrotas ( 13-19 em golos), mas nunca perdeu ao comando do FC Porto : "a época passada, venceu no Dragão ( 3-2 ) e empatou na Luz ( 1-1 ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jesualdo Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "13-19",
+    "label": "VALOR",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Dragão",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "3-2",
+    "label": "VALOR",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Luz",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "1-1",
+    "label": "VALOR",
+    "token_indices": [
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jesualdo Ferreira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benfica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "quatro",
+    "label": "VALOR"
+  },
+  {
+    "text": "três",
+    "label": "VALOR"
+  },
+  {
+    "text": "cinco",
+    "label": "VALOR"
+  },
+  {
+    "text": "13-19",
+    "label": "VALOR"
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "a época passada",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dragão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "3-2",
+    "label": "VALOR"
+  },
+  {
+    "text": "Luz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1-1",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Benfica', 'PESSOA'), ('FC Porto', 'PESSOA')]
+Espúrias  (FP): [('Benfica', 'ORGANIZACAO'), ('quatro', 'VALOR'), ('três', 'VALOR'), ('cinco', 'VALOR'), ('FC Porto', 'ORGANIZACAO'), ('a época passada', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+PASSAPORTE BIOLÓGICO EM 2008
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EM 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em 2008",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('EM 2008', 'TEMPO')]
+Espúrias  (FP): [('em 2008', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O ano de 2008 promete ser aquele em que tudo se fará para combater o flagelo do doping. Pelo menos é esta a intenção de vários agentes da modalidade que criaram, para tal, o passaporte biológico, a designação de um documento electrónico e individual na qual constarão todos os resultados dos controlos antidoping à urina e ao sangue efectuados aos ciclistas, assim como o respectivo perfil hematológico. O cruzamento destas informações permitirá avaliar as variações das análises e, consequentemente, detectar se houve manipulação de sangue.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "O ano de 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "O ano de 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "passaporte biológico",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('passaporte biológico', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O passaporte biológico é o resultado de uma reunião verificada há alguns meses , em Paris , organizada pelo ministro francês da Saúde , o ministro francês da Saúde , a UCI e a Agência Mundial Antidopagem ( AMA ). O objectivo é chegar ao Tour com o passaporte biológico de todos os possíveis participantes em total funcionamento, de modo a evitarem-se os casos de doping que ocorreram este ano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "há alguns meses",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Saúde",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Saúde",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "UCI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Agência Mundial Antidopagem",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "AMA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO",
+    "token_indices": [
+      68,
+      69
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "há alguns meses",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ministro francês da Saúde",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ministro francês da Saúde",
+    "label": "PESSOA"
+  },
+  {
+    "text": "UCI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Agência Mundial Antidopagem",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AMA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tour",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Saúde', 'ABSTRACCAO'), ('Saúde', 'ABSTRACCAO')]
+Espúrias  (FP): [('ministro francês da Saúde', 'PESSOA'), ('ministro francês da Saúde', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O passaporte biológico abrange todos os ciclistas do ProTour , onde só há um português, podendo as equipas Continentais Profissionais , na qual faz parte o Benfica , serem também abrangidas. Ao todo, o grupo de trabalho prevê fazer 4.200 análises ao sangue -- seis por cada ciclista do ProTour --, mais 3.700 do que em 2007 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ProTour",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Continentais Profissionais",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "4.200",
+    "label": "VALOR",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "ProTour",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "3.700",
+    "label": "VALOR",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "em 2007",
+    "label": "TEMPO",
+    "token_indices": [
+      55,
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ProTour",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Continentais Profissionais",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "4.200",
+    "label": "VALOR"
+  },
+  {
+    "text": "seis",
+    "label": "VALOR"
+  },
+  {
+    "text": "em 2007",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('ProTour', 'ACONTECIMENTO'), ('Continentais Profissionais', 'PESSOA'), ('ProTour', 'ACONTECIMENTO'), ('3.700', 'VALOR')]
+Espúrias  (FP): [('ProTour', 'ABSTRACCAO'), ('Continentais Profissionais', 'ABSTRACCAO'), ('seis', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em suma, a UCI quer controlar em 2008 cada ciclista por 12 vezes -- às análises de sangue juntam-se às da urina --, na sua maioria inopinadas, devendo gastar, com todo o programa do passaporte biológico, qualquer coisa como 6 milhões de euros , contra 1 milhão gasto este ano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "UCI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "em 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "por 12 vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "6 milhões de euros",
+    "label": "VALOR",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "1 milhão",
+    "label": "VALOR",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO",
+    "token_indices": [
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "UCI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "12 vezes",
+    "label": "VALOR"
+  },
+  {
+    "text": "6 milhões de euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('por 12 vezes', 'TEMPO'), ('1 milhão', 'VALOR')]
+Espúrias  (FP): [('12 vezes', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME: COLETIVOS, SENHA: COLABORAÇÃO
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "COLETIVOS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "COLABORAÇÃO",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('COLETIVOS', 'ORGANIZACAO'), ('COLABORAÇÃO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A recente onda dos coletivos artísticos e ativistas (ou "artivistas") no Brasil tem chamado a atenção da mídia mainstream para um fenômeno de proporções bem maiores e razões mais profundas que a vã filosofia dos cadernos culturais poderia imaginar. Pouco compreendida, a dinâmica destas articulações chega assim maquiada com um verniz espetaculoso e superficial que, ao que parece, tenta esconder o pano de fundo crítico e instrumental desses grupos. Muitas vezes passageiros como um casual flashmob, outras vezes organizados e duradouros como uma associação, tais ajuntamentos são na verdade indícios de uma mutação maior que está se dando tanto na esfera tecnológica quanto na social.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Muitas vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      69,
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "muitas vezes",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Muitas vezes', 'TEMPO')]
+Espúrias  (FP): [('muitas vezes', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Coletivos, em si, nada têm de novo. Já são uma tradição na arte, na literatura, que percorreu todo o século vinte , aqui como lá fora. Segundo o historiador de coletivos artísticos Alan Moore (1) , seu ponto de partida foi logo após a Revolução Francesa , com os estudantes de Jacques-Louis David , os barbados, ou " Barbu ", que formaram uma comunidade criativa que viria a ser chamada de Boêmia , espécie de nação imaginária espiritual de artistas -cujo nome provinha de uma nação de verdade e geraria a idealização do estilo de vida "boêmio"-, compondo um contraponto à academia oficial. Desde então, o fenômeno tem ocasionalmente se repetido ao longo da história da arte, como o Arts and Crafts na Inglaterra vitoriana, dadaístas, situacionistas, Fluxus , numa lista quase infinita de grupos dos mais diversos tipos. No Brasil , eles remontam ao século dezenove , com o grupo dos românticos em São Paulo , os grupelhos de poetas simbolistas, os modernistas da década de 1920 , o grupo antropofágico, os concretistas nos anos 1950 , o coletivo Rex de artistas na década seguinte , 3Nós3 e Manga Rosa na década de 1970 , Tupi Não Dá , ou os mais recentes Neo-Tao e Mico , entre inúmeros outros.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "todo o século vinte",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Alan Moore",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Revolução Francesa",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Jacques-Louis David",
+    "label": "PESSOA",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Barbu",
+    "label": "PESSOA",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Boêmia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "ocasionalmente",
+    "label": "TEMPO",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "Arts and Crafts",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      119,
+      120,
+      121
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "Fluxus",
+    "label": "PESSOA",
+    "token_indices": [
+      127
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      140
+    ]
+  },
+  {
+    "text": "ao século dezenove",
+    "label": "TEMPO",
+    "token_indices": [
+      144,
+      145,
+      146
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      154,
+      155
+    ]
+  },
+  {
+    "text": "da década de 1920",
+    "label": "TEMPO",
+    "token_indices": [
+      164,
+      165,
+      166,
+      167
+    ]
+  },
+  {
+    "text": "nos anos 1950",
+    "label": "TEMPO",
+    "token_indices": [
+      174,
+      175,
+      176
+    ]
+  },
+  {
+    "text": "Rex",
+    "label": "PESSOA",
+    "token_indices": [
+      180
+    ]
+  },
+  {
+    "text": "na década seguinte",
+    "label": "TEMPO",
+    "token_indices": [
+      183,
+      184,
+      185
+    ]
+  },
+  {
+    "text": "3Nós3",
+    "label": "PESSOA",
+    "token_indices": [
+      187
+    ]
+  },
+  {
+    "text": "Manga Rosa",
+    "label": "PESSOA",
+    "token_indices": [
+      189,
+      190
+    ]
+  },
+  {
+    "text": "na década de 1970",
+    "label": "TEMPO",
+    "token_indices": [
+      191,
+      192,
+      193,
+      194
+    ]
+  },
+  {
+    "text": "Tupi Não Dá",
+    "label": "PESSOA",
+    "token_indices": [
+      196,
+      197,
+      198
+    ]
+  },
+  {
+    "text": "Neo-Tao",
+    "label": "PESSOA",
+    "token_indices": [
+      204
+    ]
+  },
+  {
+    "text": "Mico",
+    "label": "PESSOA",
+    "token_indices": [
+      206
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('todo o século vinte', 'TEMPO'), ('Alan Moore', 'PESSOA'), ('Revolução Francesa', 'ACONTECIMENTO'), ('Jacques-Louis David', 'PESSOA'), ('Barbu', 'PESSOA'), ('Boêmia', 'ABSTRACCAO'), ('ocasionalmente', 'TEMPO'), ('Arts and Crafts', 'ABSTRACCAO'), ('Inglaterra', 'LOCAL'), ('Fluxus', 'PESSOA'), ('Brasil', 'LOCAL'), ('ao século dezenove', 'TEMPO'), ('São Paulo', 'LOCAL'), ('da década de 1920', 'TEMPO'), ('nos anos 1950', 'TEMPO'), ('Rex', 'PESSOA'), ('na década seguinte', 'TEMPO'), ('3Nós3', 'PESSOA'), ('Manga Rosa', 'PESSOA'), ('na década de 1970', 'TEMPO'), ('Tupi Não Dá', 'PESSOA'), ('Neo-Tao', 'PESSOA'), ('Mico', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O que diferencia a atual voga de movimentações coletivas no Brasil são o caráter político de boa parte delas, assim como o uso que muitas fazem da internet, seja via listas de discussão, websites, fotologs e blogs ou simplesmente comunicação e ações planejadas por e-mail.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasil', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Na Europa e nos EUA , a fusão de arte e política já estava presente nos dadaístas e surrealistas, e representou o ponto fundamental dos situacionistas no pós-guerra, e desde então essa mescla tem se dado em vários grupos que atuam na fronteira ativismo/arte, como o Arte & Linguagem , Art Workers Coalition , Black Mask , neoístas, Gran Fury , Group Material , PAD/D , Guerrilla Girls , ou os mais recentes Luther Blissett Project , RTmark , Etoy , Critical Art Ensemble , boa parte destes últimos atuando diretamente com alta tecnologia, no que se tem atualmente denominado de mídia tática.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Arte & Linguagem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Art Workers Coalition",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Black Mask",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Gran Fury",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Group Material",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "PAD/D",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Guerrilla Girls",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Luther Blissett Project",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      73,
+      74,
+      75
+    ]
+  },
+  {
+    "text": "RTmark",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Etoy",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Critical Art Ensemble",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "no pós-guerra",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Arte & Linguagem",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Art Workers Coalition",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Black Mask",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gran Fury",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Group Material",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PAD/D",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Guerrilla Girls",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Luther Blissett Project",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "RTmark",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Etoy",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Critical Art Ensemble",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Arte & Linguagem', 'ABSTRACCAO'), ('Art Workers Coalition', 'ABSTRACCAO'), ('Black Mask', 'ABSTRACCAO'), ('Gran Fury', 'ABSTRACCAO'), ('Group Material', 'ABSTRACCAO'), ('PAD/D', 'ABSTRACCAO'), ('Guerrilla Girls', 'ABSTRACCAO'), ('Luther Blissett Project', 'ABSTRACCAO'), ('RTmark', 'ABSTRACCAO'), ('Etoy', 'ABSTRACCAO'), ('Critical Art Ensemble', 'ABSTRACCAO')]
+Espúrias  (FP): [('no pós-guerra', 'TEMPO'), ('Arte & Linguagem', 'ORGANIZACAO'), ('Art Workers Coalition', 'ORGANIZACAO'), ('Black Mask', 'ORGANIZACAO'), ('Gran Fury', 'ORGANIZACAO'), ('Group Material', 'ORGANIZACAO'), ('PAD/D', 'ORGANIZACAO'), ('Guerrilla Girls', 'ORGANIZACAO'), ('Luther Blissett Project', 'ORGANIZACAO'), ('RTmark', 'ORGANIZACAO'), ('Etoy', 'ORGANIZACAO'), ('Critical Art Ensemble', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mesmo assim, a maioria deles surgem ou agem graças à internet. Alguns, como o Expressão Sarcástica , Vitoriamario , Poro , TEMP , BaseV , ou Cocadaboa , possuem seus próprios sites. Outros, como o CORO , um grupo que pretende mapear todos os coletivos em ação no Brasil , ou a Universidade do Fora , entre outros, funcionam com lista de discussão. Blogs também hospedam grupos com identidade virtual à Luther Blissett , como o Ari Almeida ou Timóteo Pinto , enquanto os fotologs tem servido como meio de divulgação de coletivos como o Radioatividade , ou grupos do stencil e do sticker (adesivo) como Faca , Coletivo Rua , SHN , entre dezenas de outros.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Expressão Sarcástica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Vitoriamario",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Poro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "TEMP",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "BaseV",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Cocadaboa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "CORO",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Universidade do Fora",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Luther Blissett",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Ari Almeida",
+    "label": "PESSOA",
+    "token_indices": [
+      76,
+      77
+    ]
+  },
+  {
+    "text": "Timóteo Pinto",
+    "label": "PESSOA",
+    "token_indices": [
+      79,
+      80
+    ]
+  },
+  {
+    "text": "Radioatividade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "Faca",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      106
+    ]
+  },
+  {
+    "text": "Coletivo Rua",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      108,
+      109
+    ]
+  },
+  {
+    "text": "SHN",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      111
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Expressão Sarcástica', 'ABSTRACCAO'), ('Vitoriamario', 'ABSTRACCAO'), ('Poro', 'ABSTRACCAO'), ('TEMP', 'ABSTRACCAO'), ('BaseV', 'ABSTRACCAO'), ('Cocadaboa', 'ABSTRACCAO'), ('CORO', 'ABSTRACCAO'), ('Brasil', 'LOCAL'), ('Universidade do Fora', 'ABSTRACCAO'), ('Luther Blissett', 'ABSTRACCAO'), ('Ari Almeida', 'PESSOA'), ('Timóteo Pinto', 'PESSOA'), ('Radioatividade', 'ABSTRACCAO'), ('Faca', 'ABSTRACCAO'), ('Coletivo Rua', 'ABSTRACCAO'), ('SHN', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Se a tecnologia não é fundamento básico destes grupos para ações tipo hacktivismo, net arte ou similares, é por meio dela, contudo, que se dá a dinâmica de ação e propagação das atividades destes grupos na vida real. Pois uma palavra-chave de todos estes coletivos é a colaboração. Espécie de buzzword atualmente, a colaboração, bem como termos irmãos como livre cooperação, comunidade, interação e rede são senhas para uma transformação que está se dando em escala global.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Espécie de buzzword",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Espécie de buzzword', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foi a colaboração que permitiu o surgimento de movimentos massivos como os protestos "anti-globalização", bem como a organização de festas-protesto como as do Reclaim the Streets , ou ainda a publicação aberta da rede Indymedia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reclaim the Streets",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Indymedia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reclaim the Streets",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Indymedia",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Indymedia', 'ORGANIZACAO')]
+Espúrias  (FP): [('Indymedia', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Inicialmente restrita ao círculo de programadores e geeks, a idéia da criação coletiva e distribuída que caracteriza as comunidades Linux e software livre tem virado fonte de inspiração para grupos os mais diversos que estão se voltando para este modo de trabalho como um modelo viável e menos restritivo, não-hierárquico.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Linux",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Linux",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "software livre",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('software livre', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tive recentemente a oportunidade de participar de uma conferência sobre o tema na universidade de Buffalo , NY . Chamada " Redes, arte e colaboração " (" Networks, art and collaboration "), e organizada pelo artista e professor de novas mídias Trebor Scholz e por Geert Lovink , net crítico e teórico de mídia tática, a conferência teve o mérito de reunir diversos ativistas, teóricos e artistas que trabalham colaborativamente, e pautou por abordar diversas facetas da questão, como o conflito com os interesses financeiros das grandes instituições do capitalismo, os conflitos internos dentro da dinâmica coletiva, ou as diversas iniciativas em áreas que vão das artes à educação, da criação em rede à distribuição livre de conhecimento.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Buffalo",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "NY",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Redes, arte e colaboração",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Networks, art and collaboration",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Trebor Scholz",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Geert Lovink",
+    "label": "PESSOA",
+    "token_indices": [
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "recentemente",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Buffalo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "NY",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Redes, arte e colaboração",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Trebor Scholz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Geert Lovink",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Networks, art and collaboration', 'ABSTRACCAO')]
+Espúrias  (FP): [('recentemente', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O tema é quente o bastante para gerar semanas de debates acalorados, mas aqui se limitou a um final de semana onde se sucederam mesas abertas, performances e apresentações de projetos. Teóricos e historiadores de arte ativista em coletivos como Gregory Sholette , Alan Moore e Brian Holmes , grupos como Critical Art Ensemble e Guerrilla Girls , net críticos como McKenzie Wark , ou o teórico maior da colaboração online, o alemão Cristoph Spehr , estiveram presentes. Spehr , autor do cultuado livro Die Aliens sind unter uns! |Die Aliens sind unter uns! (" "Os alienígenas estão entre nós! "), tem servido como o melhor tradutor da mecânica funcional do código aberto (open source) para o campo da política, da organização social, e da economia.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "semanas",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "a um final de semana",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Gregory Sholette",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Alan Moore",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Brian Holmes",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Critical Art Ensemble",
+    "label": "PESSOA",
+    "token_indices": [
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Guerrilla Girls",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "McKenzie Wark",
+    "label": "PESSOA",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Cristoph Spehr",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Spehr",
+    "label": "PESSOA",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "Die Aliens sind unter uns!",
+    "label": "OBRA",
+    "token_indices": [
+      84,
+      85,
+      86,
+      87,
+      88
+    ]
+  },
+  {
+    "text": "\"Os alienígenas estão entre nós!",
+    "label": "OBRA",
+    "token_indices": [
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gregory Sholette",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alan Moore",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Brian Holmes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Critical Art Ensemble",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Guerrilla Girls",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "McKenzie Wark",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cristoph Spehr",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Spehr",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Die Aliens sind unter uns!",
+    "label": "OBRA"
+  },
+  {
+    "text": "Die Aliens sind unter uns!",
+    "label": "OBRA"
+  },
+  {
+    "text": "Aliens",
+    "label": "PESSOA"
+  },
+  {
+    "text": "entre nós",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('semanas', 'TEMPO'), ('a um final de semana', 'TEMPO'), ('Critical Art Ensemble', 'PESSOA'), ('Guerrilla Girls', 'PESSOA'), ('"Os alienígenas estão entre nós!', 'OBRA')]
+Espúrias  (FP): [('Critical Art Ensemble', 'ORGANIZACAO'), ('Guerrilla Girls', 'ORGANIZACAO'), ('Die Aliens sind unter uns!', 'OBRA'), ('Aliens', 'PESSOA'), ('entre nós', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em seu livro, num estilo que remixa ensaio e ficção científica, grupos colaborativos independentes e autônomos seriam os grandes monstros que ameaçam o atual estágio do neo-liberalismo corporativo. Espécie de alienígenas no meio da lógica capitalista da competitividade e das redes de "cooperação forçada", os coletivos colaborativos autônomos atuam numa esfera que transcende a mercantilização e podem efetuar uma troca auto-sustentável que, se aplicada em larga escala - o que para muitos é pura utopia - , correria o risco de transformar totalmente a paisagem social, econômica e política do planeta. Comunismo open source? Talvez, pelo menos é o que Spehr acredita, com um otimismo desafiante, o mesmo que o faz organizar a conferência anual " Out of This World em Bremen , onde junta programadores, ativistas, escritores de ficção científica, filósofos e teóricos para debater a aplicação do código aberto à transformação social visando o futuro.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Spehr",
+    "label": "PESSOA",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "Out of This World",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      116,
+      117,
+      118,
+      119
+    ]
+  },
+  {
+    "text": "Bremen",
+    "label": "LOCAL",
+    "token_indices": [
+      121
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em seu livro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Spehr",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1999",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Linux",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Out of This World', 'ACONTECIMENTO'), ('Bremen', 'LOCAL')]
+Espúrias  (FP): [('Em seu livro', 'ABSTRACCAO'), ('em 1999', 'TEMPO'), ('Linux', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por outro lado, o capitalismo há muito já aprendeu a trabalhar em rede. O fenômeno dos coletivos de livre cooperação na esfera artístico-ativista encontra seu paralelo nos grupos criativos de trabalho descentralizado e flexível produzindo para o mercado. Como diz o teórico Brian Holmes num ensaio sobre a questão (2), esse tipo de organização característica da produção imaterial no atual estágio capitalista do pós-fordismo, seria o da "personalidade flexível", adaptativa e versátil em sua atuação profissional, a qual, obviamente não excluiria sob hipótese alguma a competição ou o controle pela vigilância, ainda que à distância. Para combatê-la, só um ativismo "flexível" que, mesmo por sua característica cooperativa e autônoma, se adaptasse à configuração de um mundo cada vez mais baseado em redes, distribuído em setores terceirizados, "aparentemente" independentes.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brian Holmes",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brian Holmes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "(2)",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('(2)', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em se tratando da internet, o crescente uso das redes de compartilhamento peer-to-peer, weblogs, software livre, listas de discussão, publicações abertas tipo slashdot, wiki ou Indymedia , as bibliotecas online de livre acesso, foruns e todas as outras formas operacionais das comunidades na rede estariam abrindo o caminho para essa transformação pelo trabalho colaborativo que os ativistas e coletivos de hoje usam como tática de resistência e cuja disseminação compartilhada podem ter consequências ainda imprevisíveis.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Indymedia",
+    "label": "COISA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "de hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      59,
+      60
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Indymedia",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Indymedia', 'COISA'), ('de hoje', 'TEMPO')]
+Espúrias  (FP): [('Indymedia', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como diz Geert Lovink em seu último livro, My First Recession , a cultura da internet "é um meio global no qual redes sociais são moldadas por uma mistura de regras implícitas, redes informais, conhecimento, convenções e rituais coletivos" (3). Procurar entender o atual fenômeno dos coletivos ignorando essa dinâmica de código e cultura, ou seja, modus operandi, instrumentos, ativismos e lutas democráticas face a uma crescente repressão na guerra global do capital, equivaleria a esquecer por completo a senha na hora de logar. Esqueceu sua senha?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Geert Lovink",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "My First Recession",
+    "label": "OBRA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "na hora",
+    "label": "TEMPO",
+    "token_indices": [
+      80,
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Geert Lovink",
+    "label": "PESSOA"
+  },
+  {
+    "text": "My First Recession",
+    "label": "OBRA"
+  },
+  {
+    "text": "3",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('na hora', 'TEMPO')]
+Espúrias  (FP): [('3', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+(Este texto é dedicado ao professor e poeta Jorge Wanderley (em memória) que me "incomodava" com Borges e com a literatura.)
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jorge Wanderley",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Borges",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jorge Wanderley",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Borges",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Borges', 'ABSTRACCAO')]
+Espúrias  (FP): [('Borges', 'PESSOA')]

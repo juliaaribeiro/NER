@@ -1,0 +1,3882 @@
+--------------------------------------------------------------------------------
+Texto:
+Internet na Escola - Pesquisa de Disciplinas História Bandeiras Históricas Brasileiras Página sobre as bandeiras históricas utilizadas pelo Brasil desde o seu descobrimento até os dias atuais. Traz uma seleção de textos detalhados sobre a história de cada bandeira, com ilustrações e descrições das bandeiras. http://www.terravista.pt/Copacabana/1452 Canudos - 100 Anos | Canudos - 100 Anos Site totalmente dedicado ao episódio da Guerra de Canudos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Internet",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Escola",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "História",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Bandeiras Históricas Brasileiras",
+    "label": "OUTRO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Canudos",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "100 Anos",
+    "label": "VALOR",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Canudos - 100 Anos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Guerra de Canudos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      61,
+      62,
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Internet",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Escola",
+    "label": "LOCAL"
+  },
+  {
+    "text": "História",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Bandeiras Históricas Brasileiras",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Página",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1452",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Canudos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "100 Anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Canudos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Guerra de Canudos",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Internet', 'ABSTRACCAO'), ('Escola', 'ORGANIZACAO'), ('Bandeiras Históricas Brasileiras', 'OUTRO'), ('100 Anos', 'VALOR'), ('Canudos - 100 Anos', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Internet', 'LOCAL'), ('Escola', 'LOCAL'), ('Bandeiras Históricas Brasileiras', 'ABSTRACCAO'), ('Página', 'COISA'), ('1452', 'TEMPO'), ('100 Anos', 'TEMPO'), ('Canudos', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Conta a história ilustrada da saga de Antonio Conselheiro , comentada em artigos e resenhas enviados por internautas. Traz também notícias e uma extensa bibliografia sobre o tema. http://www.ax.apc.org/~eraldojunior/hp13.htm História do Brasil Imperial Este site tem o objetivo de divulgar o conhecimento histórico sobre a Independência do Brasil e o Período Imperial ( 1822-1889 ) através de textos, fotos, imagens, tabelas e cronologias. O período escolhido abrange os anos entre a Independência do Brasil em 1822 e a Proclamação da República em 1889 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Antonio Conselheiro",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Brasil Imperial",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Independência do Brasil",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Período Imperial",
+    "label": "TEMPO",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "1822-1889",
+    "label": "TEMPO",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Independência do Brasil",
+    "label": "TEMPO",
+    "token_indices": [
+      71,
+      72,
+      73
+    ]
+  },
+  {
+    "text": "1822",
+    "label": "TEMPO",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "Proclamação da República",
+    "label": "TEMPO",
+    "token_indices": [
+      78,
+      79,
+      80
+    ]
+  },
+  {
+    "text": "1889",
+    "label": "TEMPO",
+    "token_indices": [
+      82
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Antonio Conselheiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "História do Brasil Imperial",
+    "label": "OBRA"
+  },
+  {
+    "text": "Independência do Brasil",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Período Imperial",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1822-1889",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1822",
+    "label": "TEMPO"
+  },
+  {
+    "text": "República",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "1889",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Brasil Imperial', 'LOCAL'), ('Independência do Brasil', 'TEMPO'), ('Proclamação da República', 'TEMPO')]
+Espúrias  (FP): [('História do Brasil Imperial', 'OBRA'), ('República', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O uso dos textos dessa página é livre, desde que a mesma seja citada como fonte, assim como a bibliografia por ela utilizada. http://www.geocities.com/Athens/6953 Ilustres Navegadores Portugueses Este site é próprio para quem procura informações sobre navegadores como Vasco da Gama , Pedro Álvares Cabral e Gil Eanes : Inclui fotos, uma biografia e uma mensagem poética. Vale a pena conferir! http://www.geocities.com/SoHo/3808/ Regime Militar de 1964 | Regime Militar de 1964 Durante 21 anos o país viveu um regime de governo militar, que marcou a nação, seu povo e suas instituições. Neste site você vai encontrar um resumo histórico dos governos militares, a presidência anterior ao regime e o período de redemocratização. Verá também alguns fatos que marcaram a ditadura: os movimentos de oposição e a repressão. http://www.geocities.com/CapitolHill/3038/ Atualizado em 17/02/98
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vasco da Gama",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Pedro Álvares Cabral",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Gil Eanes",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Regime Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "1964",
+    "label": "TEMPO",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Regime Militar de 1964",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67,
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "21 anos",
+    "label": "VALOR",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "17/02/98",
+    "label": "TEMPO",
+    "token_indices": [
+      130
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vasco da Gama",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pedro Álvares Cabral",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Gil Eanes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Regime Militar de 1964",
+    "label": "TEMPO"
+  },
+  {
+    "text": "21 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Regime Militar', 'ORGANIZACAO'), ('1964', 'TEMPO'), ('Regime Militar de 1964', 'ORGANIZACAO'), ('17/02/98', 'TEMPO')]
+Espúrias  (FP): [('Regime Militar de 1964', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+FUJIFILM do Brasil | FUJIFILM do Brasil EXPOSIÇÃO NA CASA DA FOTOGRAFIA FUJI RETRATA O POVO BRASILEIRO A Casa da Fotografia Fuji abre ao público, a partir do dia 22 de setembro , a exposição " Brasilidade ", um retrato do povo brasileiro, a partir do olhar do fotógrafo Canário Caliari e do geógrafo Sérgio Rondelli .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FUJIFILM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "FUJIFILM do Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "CASA DA FOTOGRAFIA FUJI",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "POVO BRASILEIRO",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Casa da Fotografia Fuji",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "22 de setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Brasilidade",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Canário Caliari",
+    "label": "PESSOA",
+    "token_indices": [
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Sérgio Rondelli",
+    "label": "PESSOA",
+    "token_indices": [
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FUJIFILM do Brasil",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "FUJIFILM do Brasil",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Casa da Fotografia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Fuji",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasilidade",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Canário Caliari",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sérgio Rondelli",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Casa da Fotografia Fuji",
+    "label": "LOCAL"
+  },
+  {
+    "text": "22 de setembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('FUJIFILM', 'ORGANIZACAO'), ('Brasil', 'LOCAL'), ('CASA DA FOTOGRAFIA FUJI', 'LOCAL'), ('POVO BRASILEIRO', 'ABSTRACCAO'), ('Casa da Fotografia Fuji', 'ORGANIZACAO'), ('Brasilidade', 'ACONTECIMENTO')]
+Espúrias  (FP): [('FUJIFILM do Brasil', 'ORGANIZACAO'), ('Casa da Fotografia', 'ORGANIZACAO'), ('Fuji', 'ORGANIZACAO'), ('Brasilidade', 'ABSTRACCAO'), ('Casa da Fotografia Fuji', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Para você conhecer um país é preciso conhecer as pessoas, olhar para o povo". Nesta busca, ele flagrou o cotidiano das pessoas, a relação com o meio ambiente, o artesanato, a culinária, o folclore etc. O resultado é a cara do Brasil , que muitos brasileiros desconhecem. "Os estrangeiros sempre estiveram 'de olho' nas potencialidades do Brasil , mas o brasileiro desconhece o seu próprio país. Por isso, queremos mostrar a cara do Brasil para os brasileiros", afirma Canário .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Canário",
+    "label": "PESSOA",
+    "token_indices": [
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cara do Brasil",
+    "label": "OBRA"
+  },
+  {
+    "text": "Canário",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCAL'), ('Brasil', 'LOCAL')]
+Espúrias  (FP): [('Cara do Brasil', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Projeto Brasil 2 mil As imagens que compõem a exposição " Brasilidade " fazem parte do projeto Brasil 2 mil : 500 anos em 500 dias | Brasil 2 mil: 500 anos em 500 dias , uma iniciativa de Canário Caliari e de Sérgio Rondelli com o objetivo de documentar o Brasil nesta virada de milênio. Durante exatos 500 dias - de 9 de dezembro de 1998 a 22 de abril de 2000 - eles percorreram todos os ecossistemas brasileiros totalizando 86 mil quilômetros de carro e 20 mil quilômetros de barco, canoa, balão, avião, helicóptero, cavalo e a pé.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Projeto Brasil 2 mil",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Brasilidade",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Brasil 2 mil",
+    "label": "OBRA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "500 anos em 500 dias",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Brasil 2 mil: 500 anos em 500 dias",
+    "label": "OBRA",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Canário Caliari",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Sérgio Rondelli",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "500 dias",
+    "label": "VALOR",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "9 de dezembro de 1998",
+    "label": "TEMPO",
+    "token_indices": [
+      62,
+      63,
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "22 de abril de 2000",
+    "label": "TEMPO",
+    "token_indices": [
+      68,
+      69,
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "86 mil quilômetros",
+    "label": "VALOR",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "20 mil quilômetros",
+    "label": "VALOR",
+    "token_indices": [
+      87,
+      88,
+      89
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil 2 mil",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Brasilidade",
+    "label": "OBRA"
+  },
+  {
+    "text": "Brasil 2 mil",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "500 anos em 500 dias",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Brasil 2 mil: 500 anos em 500 dias",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Canário Caliari",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sérgio Rondelli",
+    "label": "PESSOA"
+  },
+  {
+    "text": "500 dias",
+    "label": "VALOR"
+  },
+  {
+    "text": "9 de dezembro de 1998",
+    "label": "TEMPO"
+  },
+  {
+    "text": "22 de abril de 2000",
+    "label": "TEMPO"
+  },
+  {
+    "text": "86 mil quilômetros",
+    "label": "VALOR"
+  },
+  {
+    "text": "20 mil quilômetros",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Projeto Brasil 2 mil', 'OBRA'), ('Brasilidade', 'ACONTECIMENTO'), ('Brasil 2 mil', 'OBRA'), ('500 anos em 500 dias', 'ACONTECIMENTO'), ('Brasil 2 mil: 500 anos em 500 dias', 'OBRA'), ('Brasil', 'LOCAL')]
+Espúrias  (FP): [('Brasil 2 mil', 'ABSTRACCAO'), ('Brasilidade', 'OBRA'), ('Brasil 2 mil', 'ABSTRACCAO'), ('500 anos em 500 dias', 'ABSTRACCAO'), ('Brasil 2 mil: 500 anos em 500 dias', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O vasto e rico material produzido durante a expedição - 30 mil fotos e 150 horas de vídeo - está reunido em uma exposição itinerante, que vem percorrendo diversas localidades do país. Para divulgar este trabalho, Rondelli e Caliari também realizam palestras e, em breve, vão lançar um livro para contar as histórias e aventuras que colecionam desde 93 , quando realizaram a primeira expedição pelo Brasil , percorrendo a pé os 300 quilômetros de praias entre Itaúnas , litoral do Espírito Santo e Porto Seguro , na Bahia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "30 mil",
+    "label": "VALOR",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "150 horas",
+    "label": "VALOR",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Rondelli",
+    "label": "PESSOA",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Caliari",
+    "label": "PESSOA",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "93",
+    "label": "TEMPO",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "300 quilômetros",
+    "label": "VALOR",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Itaúnas",
+    "label": "LOCAL",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Espírito Santo",
+    "label": "LOCAL",
+    "token_indices": [
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Porto Seguro",
+    "label": "LOCAL",
+    "token_indices": [
+      84,
+      85
+    ]
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL",
+    "token_indices": [
+      88
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rondelli",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Caliari",
+    "label": "PESSOA"
+  },
+  {
+    "text": "93",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "300 quilômetros",
+    "label": "VALOR"
+  },
+  {
+    "text": "Itaúnas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Espírito Santo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Porto Seguro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('30 mil', 'VALOR'), ('150 horas', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Projeto Brasil 2 mil contou com o patrocínio do Banco do Brasil e apoio da FUJIFILM .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Projeto Brasil 2 mil",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Banco do Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "FUJIFILM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Projeto Brasil 2 mil",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Banco do Brasil",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "FUJIFILM",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Projeto Brasil 2 mil', 'OBRA')]
+Espúrias  (FP): [('Projeto Brasil 2 mil', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A aventura pode ser conferida pela internet no site: http://www.brasil2mil.com.br. Informações p/imprensa: Ateliê de Textos |Ateliê de Textos c/ Alzira Hisgail e Isabel Silvares Telefax: (11) 3675.0809 e-mail: atelie@uninet.com.br Home | Contatos Copyright © FUJIFILM
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ateliê de Textos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Alzira Hisgail",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Isabel Silvares",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "FUJIFILM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "http://www.brasil2mil.com.br",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ateliê de Textos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ateliê de Textos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Alzira Hisgail",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Isabel Silvares",
+    "label": "PESSOA"
+  },
+  {
+    "text": "(11) 3675.0809",
+    "label": "VALOR"
+  },
+  {
+    "text": "atelie@uninet.com.br",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Home",
+    "label": "LOCAL"
+  },
+  {
+    "text": "FUJIFILM",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('http://www.brasil2mil.com.br', 'LOCAL'), ('Ateliê de Textos', 'ORGANIZACAO'), ('(11) 3675.0809', 'VALOR'), ('atelie@uninet.com.br', 'LOCAL'), ('Home', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Memória Oral do Idoso Depoimento de Adolfo Giuliana São Paulo , 13 de outubro de 1992 Realização Museu da Pessoa Fita 11 Transcrito por Liamara Guimarães de Paiva P - Seu Adolfo |Seu Adolfo , eu queria que primeiro o senhor se apresentasse, falasse seu nome, onde o senhor nasceu, a data, o nome do seu pai, da sua mãe. R - Eu nasci na Itália , perto do (" Comuni de Mulacio "?), província de ___________, 13 de janeiro de 1916 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Adolfo Giuliana",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "13 de outubro de 1992",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Museu da Pessoa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Fita 11",
+    "label": "COISA",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Liamara Guimarães de Paiva",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Seu Adolfo",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Adolfo",
+    "label": "PESSOA",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Comuni de Mulacio",
+    "label": "LOCAL",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "13 de janeiro de 1916",
+    "label": "TEMPO",
+    "token_indices": [
+      77,
+      78,
+      79,
+      80,
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Adolfo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Giuliana",
+    "label": "PESSOA"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "13 de outubro de 1992",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Museu da Pessoa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "11",
+    "label": "VALOR"
+  },
+  {
+    "text": "Liamara Guimarães de Paiva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Seu Adolfo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mulacio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "13 de janeiro de 1916",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Adolfo Giuliana', 'PESSOA'), ('Fita 11', 'COISA'), ('Comuni de Mulacio', 'LOCAL')]
+Espúrias  (FP): [('Giuliana', 'PESSOA'), ('11', 'VALOR'), ('Mulacio', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+E, logo, tinha talvez um ano, meus pais me levaram para o Egito onde eu fui criado e freqüentei as escolas francesas e as escolas italianas. P - Como é o nome do seu pai e da sua mãe? Do que eles trabalhavam? R - O nome do pai era Angelo Giuliana , ele nasceu no Egito e tinha uma fábrica de móveis, minha mãe era dona de casa, cuidava da casa. P - Senhor Adolfo |Senhor Adolfo , o senhor poderia contar um pouco da sua infância? Como é que foi sua infância, contar um pouco como é que foi a sua vida quando pequeno? R - Eu fui criado nas escolas francesas. Lá tinha muitas escolas, cada comunidade tinha a própria escola, unidade grega, armênia, franceses, ingleses, cada comunidade tinha sua escola. Seu hospital também. Era um ambiente mais ou menos cosmopolita, lá todo mundo falava três ou quatro idiomas. Eu não cheguei a acabar o curso colegial devido à guerra e interrompi os estudos. Então, fui trabalhar numa livraria antiquária, durante a guerra, e depois eu abri uma loja de livros antigos para mim mesmo. Agora, em 56 , infelizmente, veio a questão do Canal de Suez , que foi ocupado pelo ______________. E, aquele conflito ingleses franceses. Devido a isto eu perdi todos meus fregueses ingleses, franceses, israelitas...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Angelo Giuliana",
+    "label": "PESSOA",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Senhor Adolfo",
+    "label": "PESSOA",
+    "token_indices": [
+      74,
+      75
+    ]
+  },
+  {
+    "text": "Adolfo",
+    "label": "PESSOA",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "56",
+    "label": "TEMPO",
+    "token_indices": [
+      190
+    ]
+  },
+  {
+    "text": "Canal de Suez",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      197,
+      198,
+      199
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Egito', 'LOCAL'), ('Angelo Giuliana', 'PESSOA'), ('Egito', 'LOCAL'), ('Senhor Adolfo', 'PESSOA'), ('Adolfo', 'PESSOA'), ('56', 'TEMPO'), ('Canal de Suez', 'ACONTECIMENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E, fiquei até 60 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "60",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "60",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('60', 'TEMPO')]
+Espúrias  (FP): [('60', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+R - No tempo da guerra no Egito , muitos "egitarianos" foram, a maioria dos "egitarianos" foram no campo de "concentramento". Eu nunca me tinha me ocupado de política, por isso só entre os povos que nunca ocuparam de política que ficaram fora. P - O senhor lembra de algum episódio, do cotidiano da guerra no Egito ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  },
+  {
+    "text": "concentramento",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('concentramento', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+E, depois, os movimentos nacionalistas, o Egito , coitado, passou uma ocupação dos pérsios, dos gregos, dos romanos, dos turcos, Napoleão , os ingleses e estavam fartos de estrangeiros. Então, aquele movimento natural de cada nação. Então, daí um movimento muito forte que acabou explodindo com a ocupação do Canal de Suez pelo _____________. Agora, eu como livreiro antiquário perdi a maioria dos meus clientes, ingleses, franceses, israelitas... Então, até 60 , 1960 , fiquei tentando sobreviver, depois não dava mais. Então, como tinha comprado uma biblioteca, nessa biblioteca tinha um livro em francês de ( Stephan ______?) que a tradução do título é " Brasil terra do futuro ". Eu li esse livro e disse: "Eu vou lá". Meu irmão foi para a Argentina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Napoleão",
+    "label": "PESSOA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Canal de Suez",
+    "label": "LOCAL",
+    "token_indices": [
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "60",
+    "label": "TEMPO",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "1960",
+    "label": "TEMPO",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Stephan",
+    "label": "PESSOA",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "Brasil terra do futuro",
+    "label": "OBRA",
+    "token_indices": [
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL",
+    "token_indices": [
+      124
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Napoleão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Canal de Suez",
+    "label": "LOCAL"
+  },
+  {
+    "text": "60",
+    "label": "VALOR"
+  },
+  {
+    "text": "1960",
+    "label": "VALOR"
+  },
+  {
+    "text": "Brasil terra do futuro",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('60', 'TEMPO'), ('1960', 'TEMPO'), ('Stephan', 'PESSOA'), ('Argentina', 'LOCAL')]
+Espúrias  (FP): [('60', 'VALOR'), ('1960', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+As religiões, a filosofia, tudo, tudo o que concerne ao Oriente Médio , O Egito e o Oriente Médio Antigo , Idade Média e Moderna .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Oriente Médio",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Oriente Médio Antigo",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Idade Média",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Moderna",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Oriente Médio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "O Egito",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Oriente Médio Antigo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Idade Média",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Moderna",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Egito', 'LOCAL'), ('Idade Média', 'ABSTRACCAO'), ('Moderna', 'ABSTRACCAO')]
+Espúrias  (FP): [('O Egito', 'LOCAL'), ('Idade Média', 'TEMPO'), ('Moderna', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O senhor chegou a ir para Itália procurar trabalho? R - Em 57 , depois da ocupação do Canal , eu fui para Itália .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "57",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Canal",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "57",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Canal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Canal', 'ACONTECIMENTO'), ('Itália', 'LOCAL')]
+Espúrias  (FP): [('Canal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+P - O senhor veio como, de navio? R - Eu cheguei em abril , fiquei um mês em uma pensão e me aconselharam a comprar o Estado de São Paulo para ler as ofertas de empregos. E, em maio , eu vi, tinha uma oferta. Estavam pedindo um representante que falasse inglês.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "abril",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Estado de São Paulo",
+    "label": "COISA",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "maio",
+    "label": "TEMPO",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "abril",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estado de São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "maio",
+    "label": "TEMPO"
+  },
+  {
+    "text": "inglês",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Estado de São Paulo', 'COISA')]
+Espúrias  (FP): [('Estado de São Paulo', 'LOCAL'), ('inglês', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eu fui lá, era a ( ITT ?), se chamava ___________. Eu cheguei lá tinha uma fila de quase 150 pessoas. Eu quase ia desistindo, disse comigo mesmo: "Você não vai pretender ser o único no Brasil que fala inglês." E, depois, disse "Não, vamos tentar." Agora, a minha chance é que eu falava inglês, francês, italiano e árabe. Tinha um pequeno som de espanhol, conhece italiano e francês. E fui escolhido. E, desde então trabalhei até fechar as portas da ( ITT ?). Quando veio a Embratel eu tive um susto porque o diretor me chamou e disse: "Olha Giuliana , vamos fechar pois vem a Embratel ." Eu disse: "Eu comecei a minha vida do zero novamente aos 44 anos , agora vou ter que começar novamente?" E, depois, fui trabalhar com a Santa Hidrelétrica que pertence a ( ITT ?). Depois da Santa Hidrelétrica a ( ITT ?) abriu, com a razão social, um escritório aqui, a ( ITT ?) ________ Comunications .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ITT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "quase 150",
+    "label": "VALOR",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "ITT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "Embratel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "Giuliana",
+    "label": "PESSOA",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "Embratel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      107
+    ]
+  },
+  {
+    "text": "44 anos",
+    "label": "VALOR",
+    "token_indices": [
+      120,
+      121
+    ]
+  },
+  {
+    "text": "Santa Hidrelétrica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      135,
+      136
+    ]
+  },
+  {
+    "text": "ITT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      141
+    ]
+  },
+  {
+    "text": "Santa Hidrelétrica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      145,
+      146
+    ]
+  },
+  {
+    "text": "ITT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      149
+    ]
+  },
+  {
+    "text": "ITT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      161
+    ]
+  },
+  {
+    "text": "Comunications",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      164
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ITT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Giuliana",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Embratel",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Embratel",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ITT",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('quase 150', 'VALOR'), ('Brasil', 'LOCAL'), ('44 anos', 'VALOR'), ('Santa Hidrelétrica', 'ORGANIZACAO'), ('ITT', 'ORGANIZACAO'), ('Santa Hidrelétrica', 'ORGANIZACAO'), ('ITT', 'ORGANIZACAO'), ('ITT', 'ORGANIZACAO'), ('Comunications', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 84 eu disse: "Chega! Vamos descansar um pouco." P - Vamos voltar um pouco, contar como é que o senhor conheceu a sua esposa, como é que foi a história do namoro do casamento? R - Olha, eu conheci a minha esposa pelo meio de uma vizinha que morava perto de nós e conhecia também a família de minha esposa. Então, ela me conhecia e conhecia a minha esposa. "Vamos ver, vamos juntar esses dois aqui, estão muito longe." Morávamos no mesmo bairro, então, isso aconteceu. P - E como é que foi o namoro, o casamento, os filhos? R - Tem um negócio que é... A minha esposa tinha a mãe dela, que veio também para o Brasil , era aquelas senhoras antigas, muito rígidas e eu não era, eu e minha esposa, não era aquele tipo extravagante, não mais.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "84",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      119
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('84', 'TEMPO'), ('Brasil', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Agora, às vezes, eu quando ia embora ela fazia de tudo para ir na cozinha ou ir ____ para nos acompanhar. E nós ficamos rindo, eu e minha esposa, minha noiva. Quer dizer, foi alguma coisa. Quer dizer, eu e minha esposa tínhamos mais que, quase, 30 , 35 anos , né? Então, não era aquela juventude 19 , 20 anos é uma coisa normal. P - E aí o senhor casou no Egito ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "30",
+    "label": "VALOR",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "35 anos",
+    "label": "VALOR",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "19",
+    "label": "VALOR",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "20 anos",
+    "label": "VALOR",
+    "token_indices": [
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "30",
+    "label": "VALOR"
+  },
+  {
+    "text": "35",
+    "label": "VALOR"
+  },
+  {
+    "text": "19",
+    "label": "VALOR"
+  },
+  {
+    "text": "20",
+    "label": "VALOR"
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('35 anos', 'VALOR'), ('20 anos', 'VALOR')]
+Espúrias  (FP): [('35', 'VALOR'), ('20', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+R - Sim, casei no Egito sim. P - O senhor fala várias línguas, quais são as línguas que o senhor fala? Como é que o senhor aprendeu a falar tantas línguas? R - Lá no Egito , eu fiz as escolas francesas, oito horas por dia, inglês, francês e árabe. Agora, era uma escola dos irmãos, da Escola Cristã .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Escola Cristã",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  },
+  {
+    "text": "francesas",
+    "label": "COISA"
+  },
+  {
+    "text": "inglês",
+    "label": "COISA"
+  },
+  {
+    "text": "francês",
+    "label": "COISA"
+  },
+  {
+    "text": "árabe",
+    "label": "COISA"
+  },
+  {
+    "text": "Escola Cristã",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('francesas', 'COISA'), ('inglês', 'COISA'), ('francês', 'COISA'), ('árabe', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eram muito rígidos. Quando o aluno não dava resultados o fim de semana era perdido para ele e para os pais. Sábado da uma hora às cinco horas da tarde era para copiar de um livro. Agora, os religiosos passavam atrás, quem não tinha boa letra: "Eu quero boa letra." Arrancava assim "Próxima semana você volta novamente." Você fazia isso uma vez, duas vezes, depois a bronca dos pais e ficar quatro, cinco horas escrevendo assim, se endireitava. P - O senhor aprendeu as línguas no colégio? R - Na escola e na vida também. Tem uma coisa importante, era em 56 , 57 , na minha livraria. Um dia entra, tinha a minha esposa e as duas meninas, entra uma pessoa bem vestida, um senhor de cor, preto, e eu nunca ia ao encontro de qualquer cliente, eu deixava o cliente. Ele começou a olhar os livros, nos falávamos, tudo. Depois de um pouco ele falou num italiano perfeito. E ficamos falando _______ depois eu disse "Mas como é que o senhor fala tão bem o italiano?" Ele disse: "Eu passei dez anos na Academia de Belas Artes de Roma ." Assim, todo mundo tinha a oportunidade lá de falar vários idiomas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "56",
+    "label": "TEMPO",
+    "token_indices": [
+      101
+    ]
+  },
+  {
+    "text": "57",
+    "label": "TEMPO",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "Academia de Belas Artes de Roma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      185,
+      186,
+      187,
+      188,
+      189,
+      190
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('56', 'TEMPO'), ('57', 'TEMPO'), ('Academia de Belas Artes de Roma', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Uma outra vez fomos num hospital, para minha esposa, e tinha um servente lá do hospital. Um hospital francês. Ele falava um francês, esse servente, também de cor, um francês, uma perfeição. Então, minha esposa perguntou, ele disse "Sim porque eu trabalhei muitas vezes em muitas famílias francesas desde pequeno." Agora, a Escola Italiana fiz também. Tem italiano, francês, inglês e árabe, são quatro idiomas, oito horas por dia e lá era caxias, né? P - O senhor poderia falar um pouco os países que o senhor já conheceu? R - Fui na Grécia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Escola Italiana",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Grécia",
+    "label": "LOCAL",
+    "token_indices": [
+      93
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "hospital",
+    "label": "LOCAL"
+  },
+  {
+    "text": "hospital",
+    "label": "LOCAL"
+  },
+  {
+    "text": "francês",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Escola Italiana",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "caxias",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Grécia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('hospital', 'LOCAL'), ('hospital', 'LOCAL'), ('francês', 'LOCAL'), ('caxias', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na ida o navio foi para Grécia , não pude descer na Grécia porque ainda não tinha relações diplomáticas, da guerra, tudo isso. Uma outra vez, então, fui para Grécia , desci lá, vi Atenas , Corinto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grécia",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Grécia",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Grécia",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Atenas",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Corinto",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grécia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Grécia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Atenas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Corinto",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Grécia', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Na França , na Suíça , no _______, um país maravilhoso. Itália , várias cidades da Itália .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Suíça",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "França",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Suíça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "_______",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('_______', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Estou convicta de que precisamos de uma política europeia dinâmica a favor da infância, de que precisamos de um defensor das crianças, que as proteja de forma eficaz e exclusiva. Tendo em vista a assembleia da ONU do próximo mês de Maio que vai proceder à revisão da Convenção dos Direitos da Criança e na qual o Parlamento Europeu deveria ter uma participação, conforme pedido por nós formulado, creio que seria muito positivo se a senhora Comissária tomasse uma iniciativa para nos dotarmos de uma política nova, abrangente e comum a favor das crianças e dos jovens a nível europeu. Senhor Presidente , saúdo calorosamente o relatório da senhora deputada Gröner .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ONU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Maio",
+    "label": "TEMPO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Convenção dos Direitos da Criança",
+    "label": "OBRA",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Comissária",
+    "label": "PESSOA",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      100,
+      101
+    ]
+  },
+  {
+    "text": "Gröner",
+    "label": "PESSOA",
+    "token_indices": [
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ONU",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Maio",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Senhora Comissária",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "senhora deputada Gröner",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Convenção dos Direitos da Criança', 'OBRA'), ('Comissária', 'PESSOA'), ('Gröner', 'PESSOA')]
+Espúrias  (FP): [('Senhora Comissária', 'PESSOA'), ('senhora deputada Gröner', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar de um início tardio, o programa JUVENTUDE provou ser um programa de valor inestimável. Por que razão este programa se reveste de tanta importância? Porque um dos seus principais objectivos é abarcar uma proporção mais elevada de jovens desfavorecidos: indivíduos, grupos ou organizações, que de outra forma não teriam qualquer acesso a qualquer tipo de financiamento europeu. Claro que surgem as críticas sobre os elevados custos administrativos, visto que o programa compreende vários microprojectos que, pela sua dimensão, são naturalmente mais difíceis de administrar. Tive a sorte de ter trabalhado de perto com um grupo de jovens desfavorecidos do País de Gales , o meu próprio país, que receberam financiamento ao abrigo deste programa. Os jovens participantes beneficiaram tanto desta acção que, vê-los falar aqui em Bruxelas - alguns deles eram anteriormente jovens delinquentes -, mostrou-me claramente a importância deste programa. A inclusão de projectos válidos que visem jovens desfavorecidos, garanto-lhes, vale cada centavo do que custa. Temos de salvaguardar o programa e proteger os seus principais objectivos, isto é, chegar até aos jovens desfavorecidos. Senhora Presidente , talvez seja útil recordar aqui que a cultura europeia não esteve à espera da Comissão para que as artes e as línguas dos vários países europeus dessem ao mundo as provas mais tangíveis do génio humano.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "JUVENTUDE",
+    "label": "OBRA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "País de Gales",
+    "label": "LOCAL",
+    "token_indices": [
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "text": "Bruxelas",
+    "label": "LOCAL",
+    "token_indices": [
+      127
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      176,
+      177
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      193
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "JUVENTUDE",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "País de Gales",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('JUVENTUDE', 'OBRA'), ('Bruxelas', 'LOCAL'), ('Senhora Presidente', 'PESSOA'), ('Comissão', 'ORGANIZACAO')]
+Espúrias  (FP): [('JUVENTUDE', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Encorajar tal riqueza é, decerto, uma das missões menos contestáveis da Comissão , e o relatório Gröner vai no bom sentido. Contudo, os programas que hoje estamos a discutir podem ser objecto de dois tipos de observações. A primeira, de ordem técnica, e que é largamente referida nos diversos relatórios hoje debatidos, tem a ver com o seu peso e opacidade. Quem os solicitou pôde verificar o verdadeiro quebra-cabeças que são os dossiês dos pedidos. Talvez a Comissão veja, aqui, uma verdadeira forma de arte. Tornar os procedimentos mais leves permitiria porém, nomeadamente, suprimir as subvenções às associações intermediárias cujo objecto é, muito simplesmente, ajudar os artistas e os estudantes a conseguirem os famosos fundos europeus. Algumas destas associações são, aliás, presididas por membros desta assembleia. Sem querer fazer aqui processos de intenções, esta mistura não é, com certeza, desejável. A segunda observação, de ordem política, tem a ver com a intenção mal escondida de desenvolver, a partir destes programas, uma propaganda tendente a converter os jovens cidadãos dos nossos Estados-Membros em "homo-europeus" anacionais. Senhora Presidente , em primeiro lugar, gostaria de felicitar a senhora deputada Gröner pelo excelente trabalho que realizou, bem como a Comissão , e em particular a senhora Comissária , pela iniciativa da elaboração deste Livro Branco , que já de si considero um grande êxito. Devemos ter presente, porém, que é agora que somos chamados a fazer um verdadeiro esforço para assegurar a respectiva aplicação nos Estados-Membros , pois, se o não fizermos, não tiraremos partido de todo o dinheiro que investimos na elaboração deste Livro Branco , o que seria profundamente lamentável. Não podemos esquecer que os jovens são o nosso futuro, o futuro da Europa e de grande parte do mundo, e que, neste processo, estamos a procurar aproximar jovens provenientes de mais de trinta países.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Gröner",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "LOCAL",
+    "token_indices": [
+      170
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      174,
+      175
+    ]
+  },
+  {
+    "text": "Gröner",
+    "label": "PESSOA",
+    "token_indices": [
+      186
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      195
+    ]
+  },
+  {
+    "text": "Comissária",
+    "label": "PESSOA",
+    "token_indices": [
+      202
+    ]
+  },
+  {
+    "text": "Livro Branco",
+    "label": "OBRA",
+    "token_indices": [
+      209,
+      210
+    ]
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "LOCAL",
+    "token_indices": [
+      241
+    ]
+  },
+  {
+    "text": "Livro Branco",
+    "label": "OBRA",
+    "token_indices": [
+      260,
+      261
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      281
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gröner",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estados-Membros', 'LOCAL'), ('Senhora Presidente', 'PESSOA'), ('Gröner', 'PESSOA'), ('Comissão', 'ORGANIZACAO'), ('Comissária', 'PESSOA'), ('Livro Branco', 'OBRA'), ('Estados-Membros', 'LOCAL'), ('Livro Branco', 'OBRA'), ('Europa', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Devemos igualmente procurar que os custos administrativos não sejam demasiado elevados e, por último, gostaria de pedir o apoio dos governos na obtenção de vistos por parte de jovens oriundos de países fora da União que pretendam participar nestes programas. Senhora Presidente , permita-me em primeiro lugar que agradeça a Lissy Gröner .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Lissy Gröner",
+    "label": "PESSOA",
+    "token_indices": [
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lissy Gröner",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO'), ('Senhora Presidente', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ela sempre foi, no Parlamento , a chave-mestra para nos lançarmos numa verdadeira política para os jovens. E, quando falamos de política para os jovens, estamos muito longe de uma política de propaganda. Estamos, mesmo, no pólo oposto, porque o programa JUVENTUDE contribui para desenvolver o conhecimento do outro, a aprendizagem de outras línguas, outras culturas, a liberdade de expressão e, consequentemente, para promover valores fundamentais como a tolerância, a diversidade, a solidariedade. São estas as bases sobre as quais deve construir-se uma Europa da cidadania. Se oferecermos a centenas de milhar de jovens, todos os anos, a possibilidade de trabalharem em conjunto, de escutarem outros jovens e outras culturas, de se empenharem para ajudar socialmente aqueles que mais necessitam, estaremos a fazer uma obra de civilização, não uma obra de propaganda. Foram apresentadas pelos deputados várias observações a que gostaria de responder. Tentámos melhorar a gestão do programa e simplificar o acesso a ele. Vários deputados, aliás, frisaram o esforço desenvolvido nos últimos anos, nos últimos meses.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "JUVENTUDE",
+    "label": "OBRA",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      83
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "JUVENTUDE",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('JUVENTUDE', 'OBRA')]
+Espúrias  (FP): [('JUVENTUDE', 'ABSTRACCAO'), ('Europa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esta atitude poderá ser explicada pelas declarações do ministro da Indústria e Energia , Mira Amaral , que também compareceu à conferência de imprensa, já na fase dos «cocktails»: «A VW ainda não tomou qualquer decisão, porque estão a analisar as várias hipóteses. Mas, para já ainda nem sequer é certo que vá ser construída uma nova fábrica, por isso não se pode falar no projecto VW para Portugal .» Mira Amaral confirmou, no entanto, que Portugal é uma das possibilidades que estão a ser estudadas pelos alemães, tendo-lhe sido colocadas várias perguntas sobre as condições de investimento, quando da recente visita a uma das fábricas da VW , na Alemanha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Indústria e Energia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Mira Amaral",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "VW",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "VW",
+    "label": "OBRA",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Mira Amaral",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "VW",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      107
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Indústria e Energia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mira Amaral",
+    "label": "PESSOA"
+  },
+  {
+    "text": "VW",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "VW",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "VW",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Indústria e Energia', 'ABSTRACCAO'), ('VW', 'OBRA'), ('Mira Amaral', 'PESSOA')]
+Espúrias  (FP): [('Indústria e Energia', 'ORGANIZACAO'), ('VW', 'ORGANIZACAO'), ('Alemanha', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para o ministro, a decisão deverá ser tomada em meados de 1993 e, se a escolha recair sobre Portugal , essa será «uma boa altura» em termos de incentivos. «Em 1993 já estarão esgotadas as verbas do actual Quadro Comunitário de Apoio [ QCA ] e ainda não estarão disponíveis as do QCA de 1994 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1993",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "1993",
+    "label": "TEMPO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Quadro Comunitário de Apoio",
+    "label": "OBRA",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "QCA",
+    "label": "OBRA",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "QCA de 1994",
+    "label": "OBRA",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1993",
+    "label": "TEMPO"
+  },
+  {
+    "text": "QCA",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "1994",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('1993', 'TEMPO'), ('Quadro Comunitário de Apoio', 'OBRA'), ('QCA', 'OBRA'), ('QCA de 1994', 'OBRA')]
+Espúrias  (FP): [('QCA', 'ABSTRACCAO'), ('1994', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+UMA EX-ESPERANÇA Inovação tecnológica concentrada entre grandes e médias empresas e uma forte dependência a grupos estrangeiros no que se refere à pesquisa e desenvolvimento ( P&D ) estão deixando o Brasil para trás na corrida tecnológica. Estudo realizado pelo " Observatoire des Sciences et Techniques " ( OST ), instituição francesa voltada ao recenseamento de pesquisa científica e tecnológica, concluiu que a produção científica da União Européia ultrapassou em volume a dos Estados Unidos pela primeira vez. No que se refere ao Brasil , o diretor da OST , Rémi Barré , o coloca ao lado da Índia , definindo os dois países como "ex-esperanças" de desenvolvimento na era da tecnologia da informação. A opção pela desarticulação de uma política nacional de P&D é corroborada por outro levantamento, realizado em 1996 pela Fundação Seade , através da sua " Pesquisa da Atividade Econômica Paulista " ( Paep ), que ouviu 400 mil empresas do estado. Como assinala a " Gazeta Mercantil ", constatou-se que as inovações tecnológicas estão concentradas apenas em parte das maiores empresas e que centros de pesquisa, universidades e consultorias, entre outros organismos, não são fontes de informação prioritárias para o empresariado paulista. (Análise da AcessoCom , 10/1/2000 )
+
+Entidades verdadeiras:
+[
+  {
+    "text": "P&D",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Observatoire des Sciences et Techniques",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "OST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "União Européia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "OST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "Rémi Barré",
+    "label": "PESSOA",
+    "token_indices": [
+      90,
+      91
+    ]
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "P&D",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "1996",
+    "label": "TEMPO",
+    "token_indices": [
+      131
+    ]
+  },
+  {
+    "text": "Fundação Seade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      133,
+      134
+    ]
+  },
+  {
+    "text": "Pesquisa da Atividade Econômica Paulista",
+    "label": "OBRA",
+    "token_indices": [
+      140,
+      141,
+      142,
+      143,
+      144
+    ]
+  },
+  {
+    "text": "Paep",
+    "label": "OBRA",
+    "token_indices": [
+      147
+    ]
+  },
+  {
+    "text": "400 mil",
+    "label": "VALOR",
+    "token_indices": [
+      151,
+      152
+    ]
+  },
+  {
+    "text": "Gazeta Mercantil",
+    "label": "LOCAL",
+    "token_indices": [
+      160,
+      161
+    ]
+  },
+  {
+    "text": "AcessoCom",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      199
+    ]
+  },
+  {
+    "text": "10/1/2000",
+    "label": "TEMPO",
+    "token_indices": [
+      201
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('P&D', 'ABSTRACCAO'), ('Brasil', 'LOCAL'), ('Observatoire des Sciences et Techniques', 'ORGANIZACAO'), ('OST', 'ORGANIZACAO'), ('União Européia', 'ORGANIZACAO'), ('Estados Unidos', 'ORGANIZACAO'), ('Brasil', 'LOCAL'), ('OST', 'ORGANIZACAO'), ('Rémi Barré', 'PESSOA'), ('Índia', 'LOCAL'), ('P&D', 'ABSTRACCAO'), ('1996', 'TEMPO'), ('Fundação Seade', 'ORGANIZACAO'), ('Pesquisa da Atividade Econômica Paulista', 'OBRA'), ('Paep', 'OBRA'), ('400 mil', 'VALOR'), ('Gazeta Mercantil', 'LOCAL'), ('AcessoCom', 'ORGANIZACAO'), ('10/1/2000', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Se isso fica uma vez mais reiterado em « Memoribilia », a compilação dos seus êxitos a solo e nos Soft Cell , que parcialmente regravou para o efeito, também é visível que nos respectivos novos vídeos colados às antigas canções qualquer coisa mudou em Almond .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Memoribilia",
+    "label": "OBRA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Soft Cell",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Almond",
+    "label": "PESSOA",
+    "token_indices": [
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Memoribilia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Soft Cell",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Almond",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Soft Cell', 'PESSOA')]
+Espúrias  (FP): [('Soft Cell', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+CR-ROOM O SHOW DO CRISTÃO é só para quem e salvo em cristo e tem computador primeiro programa igual ao show do milhão de silvio santos,. um jogo aprovado por neto ,filho,,pai ,avô e bisavô. são 70 megas de informações super ilustradas com a mais alta tecnologia, milhares de perguntas variadas sobre toda biblia, desde o velho testamento a té o novo testamento. você que é cristão agora pode aprender brincando com este novissimo software que já é o maior sucesso de no meio do povo de Deus . junte sua familia, irmãos e seu amigos e divirta-se a vontade com este CD-rom que tem um precinho que você pode pagar. apenas R$ 19,90 reserve já seu SHOW DO CRISTÃO ,indique 5 pessoas e ganhe um livro (e-books) evangelico para sua edificação. queroshowdocristao@argentina.com ou novidades@sobral.org.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "O SHOW DO CRISTÃO",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "70 megas",
+    "label": "VALOR",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "R$ 19,90",
+    "label": "VALOR",
+    "token_indices": [
+      112,
+      113
+    ]
+  },
+  {
+    "text": "SHOW DO CRISTÃO",
+    "label": "COISA",
+    "token_indices": [
+      117,
+      118,
+      119
+    ]
+  },
+  {
+    "text": "5",
+    "label": "VALOR",
+    "token_indices": [
+      121
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CR-ROOM",
+    "label": "COISA"
+  },
+  {
+    "text": "CRISTÃO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "show do milhão",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "silvio santos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "neto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "filho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "pai",
+    "label": "PESSOA"
+  },
+  {
+    "text": "avô",
+    "label": "PESSOA"
+  },
+  {
+    "text": "bisavô",
+    "label": "PESSOA"
+  },
+  {
+    "text": "70 megas",
+    "label": "VALOR"
+  },
+  {
+    "text": "CD-rom",
+    "label": "COISA"
+  },
+  {
+    "text": "R$ 19,90",
+    "label": "VALOR"
+  },
+  {
+    "text": "SHOW DO CRISTÃO",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('O SHOW DO CRISTÃO', 'OBRA'), ('Deus', 'PESSOA'), ('5', 'VALOR')]
+Espúrias  (FP): [('CR-ROOM', 'COISA'), ('CRISTÃO', 'PESSOA'), ('show do milhão', 'ABSTRACCAO'), ('silvio santos', 'PESSOA'), ('neto', 'PESSOA'), ('filho', 'PESSOA'), ('pai', 'PESSOA'), ('avô', 'PESSOA'), ('bisavô', 'PESSOA'), ('CD-rom', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Primeiro dia de matrícula é marcado por dúvidas Quinta-feira, 7 de janeiro de 1999 O Estado de São Paulo Primeiro dia de matrícula é marcado por dúvidas JULIANA JUNQUEIRA Apesar de tranqüilo, o primeiro dia de matrículas das crianças com 7 anos incompletos foi marcado por algumas dúvidas por parte dos pais. Ainda estão indefinidos, por exemplo, os horários de aulas das salas emergenciais e a distribuição dos alunos por períodos. "Só vamos ter esses dados depois de finalizadas as matrículas", afirmou ontem o secretário municipal da Educação , João Gualberto de Carvalho Meneses .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Quinta-feira, 7 de janeiro de 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "O Estado de São Paulo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "JULIANA JUNQUEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "7 anos",
+    "label": "VALOR",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Educação",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "João Gualberto de Carvalho",
+    "label": "PESSOA",
+    "token_indices": [
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "text": "Meneses",
+    "label": "PESSOA",
+    "token_indices": [
+      93
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Quinta-feira, 7 de janeiro de 1999",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estado de São Paulo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "JULIANA JUNQUEIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "7 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "João Gualberto de Carvalho Meneses",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Educação",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('O Estado de São Paulo', 'ORGANIZACAO'), ('Educação', 'ABSTRACCAO'), ('João Gualberto de Carvalho', 'PESSOA'), ('Meneses', 'PESSOA')]
+Espúrias  (FP): [('Estado de São Paulo', 'ORGANIZACAO'), ('João Gualberto de Carvalho Meneses', 'PESSOA'), ('Educação', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Será após esse período que a secretaria saberá quantas salas emergenciais serão necessárias e onde irão funcionar. "Um balanço de primeiro dia nos indicou a necessidade de 168 salas emergenciais", disse o secretário. "Vamos colocar à disposição 680 salas", afirmou. O secretário garantiu ontem que nenhuma criança em idade escolar ficará fora das escolas. Em Capela do Socorro , bairro da região sul da capital, um grupo de pais e alunos invadiu um posto de saúde com o objetivo de transformar o local em escola. Segundo o diretor da Escola Municipal Miguel Vieira Ferreira , Carlos Alberto Giannazi , que participou do movimento intitulado Marcha dos Sem-Vaga , a região sofre pela carência de vagas nas escolas. A secretaria enviou ao local uma equipe do SOS Matrículas e um engenheiro para avaliar o caso. "Não sei dizer se há deficiência de vagas naquela região", disse Meneses .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "168",
+    "label": "VALOR",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "680",
+    "label": "VALOR",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Capela do Socorro",
+    "label": "LOCAL",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Escola Municipal Miguel Vieira Ferreira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      89,
+      90,
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "text": "Carlos Alberto Giannazi",
+    "label": "PESSOA",
+    "token_indices": [
+      95,
+      96,
+      97
+    ]
+  },
+  {
+    "text": "Marcha dos Sem-Vaga",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      104,
+      105,
+      106
+    ]
+  },
+  {
+    "text": "SOS Matrículas",
+    "label": "PESSOA",
+    "token_indices": [
+      125,
+      126
+    ]
+  },
+  {
+    "text": "Meneses",
+    "label": "PESSOA",
+    "token_indices": [
+      145
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Capela do Socorro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Escola Municipal Miguel Vieira Ferreira",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carlos Alberto Giannazi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Marcha dos Sem-Vaga",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "SOS Matrículas",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('168', 'VALOR'), ('680', 'VALOR'), ('Marcha dos Sem-Vaga', 'ABSTRACCAO'), ('SOS Matrículas', 'PESSOA'), ('Meneses', 'PESSOA')]
+Espúrias  (FP): [('Marcha dos Sem-Vaga', 'ACONTECIMENTO'), ('SOS Matrículas', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+"~Mas a região sul tem alguns pontos localizados em que o problema existe", afirmou. Segundo Giannazi , as escolas na região de Capela do Socorro estão com lista de espera e não há garantia de vaga para todos. Sem filas na frente das escolas, a preocupação de alguns diretores, ontem, era quanto à duplicidade de matrículas. É que alguns pais desconheciam a rematrícula automática das escolas de educação infantil para as do ensino fundamental na rede municipal e fizeram matrícula também em escolas estaduais.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Giannazi",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Capela do Socorro",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Capela do Socorro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Giannazi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Capela do Socorro",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('sul', 'LOCAL'), ('Capela do Socorro', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A interligação entre as secretarias detectou o problema, mas as crianças ficarão matriculadas na primeira escola em que se inscreveram. Copyright 1999 - O Estado de S. Paulo - Todos os direitos reservados Carlos Giannazi
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "O Estado de S. Paulo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Carlos Giannazi",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "A",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Estado de S. Paulo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carlos Giannazi",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('1999', 'TEMPO'), ('O Estado de S. Paulo', 'ORGANIZACAO')]
+Espúrias  (FP): [('A', 'ABSTRACCAO'), ('Estado de S. Paulo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Energia Hidráulica [Volta] A utilização da energia cinética e potencial das águas pela Humanidade remonta a tempos imemoriais, já que desde sempre se instalaram variados dispositivos nas margens e nos leitos dos rios. Foi, porém, no século XIX que o aproveitamento dessa forma de energia se tornou mais atraente do ponto de vista econômico pois, com a invenção dos grupos turbinas-geradores de energia elétrica e a possibilidade do transporte de eletricidade a grandes distâncias, se conseguiu obter um elevado rendimento econômico desse aproveitamento. 1. Termos Gerais 1.1 - Energia Hidráulica - Energia potencial e cinética das águas. 1.2 - Represa - Grande depósito formado artificialmente fechando um vale mediante diques ou barragens e no qual se armazenam as águas de um rio com o objetivo de as utilizar na regularização de caudais, na irrigação, no abastecimento de água, na produção de energia elétrica, etc. 1.3 - Central Hidroelétrica - Instalação na qual a energia potencial e cinética da água é transformada em energia elétrica. 1.4 - Central Hidroelétrica a Fio de Água - Central hidroelétrica num curso de água, sem represa, reguladora de volume significativo. 1.5 - Central Hidroelétrica de Represa - Central hidroelétrica cuja alimentação pode ser regulada graças a uma represa. 1.6 - Aproveitamento Hidroelétrico de Acumulação por Bombagem; Instalação para Bombagem e Turbinagem - Central hidroelétrica que possui duas represas, uma a montante e outra a juzante, bem como as respectivas instalações de bombagem e de turbinagem, que permitem devolver à represa de montante a água armazenada na represa de juzante, após a sua utilização na produção de energia. 1.7 - Central Maremotriz - Central hidroelétrica que utiliza o desnível entre o mar e uma bacia do qual está separado, criado pelo efeito das marés. 2. Termos Relativos a Localização e Desníveis 2.1 - Bacia Hidrográfica - Superfície do terreno, medida em projeção horizontal, da qual provém efetivamente a água de um curso de água até ao ponto considerado.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Humanidade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "século XIX",
+    "label": "TEMPO",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Energia Hidráulica",
+    "label": "COISA",
+    "token_indices": [
+      88,
+      89
+    ]
+  },
+  {
+    "text": "Central Hidroelétrica",
+    "label": "COISA",
+    "token_indices": [
+      146,
+      147
+    ]
+  },
+  {
+    "text": "Central Hidroelétrica a Fio de Água",
+    "label": "COISA",
+    "token_indices": [
+      166,
+      167,
+      168,
+      169,
+      170,
+      171
+    ]
+  },
+  {
+    "text": "Central Hidroelétrica de Represa",
+    "label": "COISA",
+    "token_indices": [
+      187,
+      188,
+      189,
+      190
+    ]
+  },
+  {
+    "text": "Central Maremotriz",
+    "label": "COISA",
+    "token_indices": [
+      264,
+      265
+    ]
+  },
+  {
+    "text": "Bacia Hidrográfica",
+    "label": "COISA",
+    "token_indices": [
+      297,
+      298
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Humanidade', 'ABSTRACCAO'), ('século XIX', 'TEMPO'), ('Energia Hidráulica', 'COISA'), ('Central Hidroelétrica', 'COISA'), ('Central Hidroelétrica a Fio de Água', 'COISA'), ('Central Hidroelétrica de Represa', 'COISA'), ('Central Maremotriz', 'COISA'), ('Bacia Hidrográfica', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+2.2 - Nível Máximo de Exploração - É o nível mais alto permitido normalmente numa represa (sem ter em conta as sobreelevações devidas a cheias). Corresponde ao nível de pleno armazenamento da represa. Nota: O nível máximo da represa corresponde ao maior nível admissível em caso de cheias. 2.3 - Nível Mínimo de Exploração - É o nível mínimo admitido para a exploração de uma represa, medido num local determinado. Nota: Abaixo do nível mínimo de exploração pode fazer-se o esvaziamento da represa até ao nível da descarga de fundo. 2.4 - Folga - Distância vertical entre o coroamento da barragem e a cota máxima que atinge a água na represa. 2.5 - Perda de Carga - Redução da energia útil provocada pelo escoamento da água num circuito hidráulico. 3. Armazenamento 3.1 - Armazenamento Diário - Armazenamento para o qual a represa tem um ciclo diário de enchimento e esvaziamento. 3.2 - Armazenamento Semanal - Armazenamento para o qual a represa tem um ciclo de enchimento e esvaziamento semanal. 3.3 - Armazenamento Sazonal - Armazenamento em que a represa tem um ciclo de enchimento e esvaziamento sazonal. 3.4 - Armazenamento Anual - Armazenamento em que a represa tem um ciclo de enchimento e esvaziamento anual. 3.5 - ArmazenamentolnteranualArmazenamento em que a represa permite uma compensação das variações de hidraulicidade em ciclos de mais de um ano de duração. 3.6 - Capacidade Útil - Volume de água disponível numa represa entre o nível de pleno armazenamento e o nível mínimo de exploração normal. 3.7 - Zona lnundável - Zona de uma represa compreendida entre o mais alto nível admitido pela sua exploração normal e o nível de água máximo possível (nível de máxima cheia). 3.8 - Armazenamento Inativo (Volume Morto) - Volume retido na represa abaixo do nível mínimo de exploração. 4.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nível Máximo de Exploração",
+    "label": "COISA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Nível Mínimo de Exploração",
+    "label": "COISA",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Armazenamento",
+    "label": "COISA",
+    "token_indices": [
+      130
+    ]
+  },
+  {
+    "text": "Armazenamento Diário",
+    "label": "COISA",
+    "token_indices": [
+      133,
+      134
+    ]
+  },
+  {
+    "text": "Armazenamento Semanal",
+    "label": "COISA",
+    "token_indices": [
+      152,
+      153
+    ]
+  },
+  {
+    "text": "Armazenamento Sazonal",
+    "label": "COISA",
+    "token_indices": [
+      171,
+      172
+    ]
+  },
+  {
+    "text": "Armazenamento Anual",
+    "label": "COISA",
+    "token_indices": [
+      189,
+      190
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Nível Máximo de Exploração', 'COISA'), ('Nível Mínimo de Exploração', 'COISA'), ('Armazenamento', 'COISA'), ('Armazenamento Diário', 'COISA'), ('Armazenamento Semanal', 'COISA'), ('Armazenamento Sazonal', 'COISA'), ('Armazenamento Anual', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Termos Relativos ao Tempo 4.1 - Ano Hidrológico - Período de um ano (doze meses) baseado em critérios de hidraulicidade. 4.2 - Ano Médio - Ano (fictício) cujas características hidráulicas correspondem à média de uma série coerente do maior número de anos possível. A série em que se baseia o ano médio ou normal deve ser especificada em cada caso. 4.3 - Ano Úmido - Ano baseado em critérios estatísticos, em que o curso de água tem afluências superiores à média. 4.4 - Ano Seco - Ano baseado em critérios estatísticos, em que o curso de água tem afluências inferiores à média. 4.5 - Tempo de Exploração - Número de dias, num ano médio, durante os quais o caudal é superior ao caudal de exploração. 5. Caudais (Vazão) 5.l - Caudal - Volume de água escoado através de uma seção, na unidade de tempo. 5.2 - Caudal Utilizável - Parte do caudal total que, após as deduções de água obrigatórias previstas no caderno de encargos e das perdas inevitáveis, fica disponível para as finalidades do aproveitamento. 5.3 - Caudal Nominal (Turbina) - Caudal para o qual a turbina é dimensionada. 5.4 - Caudal Nominal (Bombas) - Caudal para o qual a bomba é dimensionada. 5.5 - Afluências - Volumes de água que passam numa dada seção durante um período de tempo determinado. 5.6 - Hidraulicidade - Relação entre as afluências no período observado e as afluências correspondentes a um mesmo período no ano médio. 6. Termos Relativos ao Potencial Hidráulico Brasileiro 6.1 Potencial Teórico Hidráulico Bruto - Quantidade máxima de energia elétrica que pode obter-se numa região determinada ou numa bacia hidrográfica durante um ano médio, tendo em conta os desníveis correspondentes referidos a um dado ponto dessa região ou bacia. 6.2 - Definição dos Estágios de Desenvolvimento do Potencial Hidráulico 6.2.1 - Remanescente - resultado de estimativa realizada em escritório, a partir de dados existentes, sem qualquer levantamento complementar, considerando um trecho do curso d'água, via de regra situado na cabeceira, sem determinar o local de implantação do aproveitamento; 6.2.2 - Individualizado - resultado de estimativa realizada em escritório para um determinado local, a partir de dados existentes ou levantamentos expeditos, sem qualquer levantamento detalhado; 6.2.3 - Inventário - resultado de estudo da bacia hidrográfica, realizado para a determinação do seu potencial hidrelétrico através da escolha da melhor alternativa de divisão de queda, caracterizada pelo conjunto de aproveitamentos compatíveis entre si e com projetos desenvolvidos de forma a obter uma avaliação da energia disponível, dos impactos ambientais e dos custos de implantação dos empreendimentos; 6.2.4 - Viabilidade - resultado da concepção global do aproveitamento, considerando sua otimização técnico-econômica, compreendendo o dimensionamento das estruturas principais e das obras de infra-estrutura local, a definição da respectiva área de influência, do uso múltiplo da água e dos efeitos sobre o meio ambiente; 6.2.5 - Projeto Básico - aproveitamento detalhado, com orçamento definido, em profundidade que permita a elaboração dos documentos de licitação das obras civis e do fornecimento dos equipamentos eletro-mecânicos; 6.2.6 - Construção - aproveitamento que teve suas obras iniciadas, sem nenhuma unidade geradora em operação; 6.2.7 - Operação - aproveitamento que dispõe de pelo menos uma unidade geradora em o operação.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ano Hidrológico",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Ano Médio",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Ano Úmido",
+    "label": "TEMPO",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Ano Seco",
+    "label": "TEMPO",
+    "token_indices": [
+      83,
+      84
+    ]
+  },
+  {
+    "text": "Tempo de Exploração",
+    "label": "TEMPO",
+    "token_indices": [
+      104,
+      105,
+      106
+    ]
+  },
+  {
+    "text": "Caudal Utilizável",
+    "label": "COISA",
+    "token_indices": [
+      146,
+      147
+    ]
+  },
+  {
+    "text": "Caudal Nominal",
+    "label": "COISA",
+    "token_indices": [
+      178,
+      179
+    ]
+  },
+  {
+    "text": "Caudal Nominal",
+    "label": "COISA",
+    "token_indices": [
+      192,
+      193
+    ]
+  },
+  {
+    "text": "Potencial Teórico Hidráulico Bruto",
+    "label": "COISA",
+    "token_indices": [
+      252,
+      253,
+      254,
+      255
+    ]
+  },
+  {
+    "text": "Potencial Hidráulico",
+    "label": "COISA",
+    "token_indices": [
+      299,
+      300
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ano Hidrológico', 'TEMPO'), ('Ano Médio', 'TEMPO'), ('Ano Úmido', 'TEMPO'), ('Ano Seco', 'TEMPO'), ('Tempo de Exploração', 'TEMPO'), ('Caudal Utilizável', 'COISA'), ('Caudal Nominal', 'COISA'), ('Caudal Nominal', 'COISA'), ('Potencial Teórico Hidráulico Bruto', 'COISA'), ('Potencial Hidráulico', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No entanto, alguns dos analistas contactados pelo PÚBLICO , consideram que a Sumolis tem sido «esquecida» pelo mercado e que existem boas perspectivas quanto aos resultados de 1997 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PÚBLICO",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Sumolis",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "1997",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PÚBLICO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sumolis",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1997",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('PÚBLICO', 'PESSOA')]
+Espúrias  (FP): [('PÚBLICO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+«É totalmente falso que a Jerónimo Martins esteja interessada na compra da Sumolis », garantiu ao PÚBLICO um porta-voz da empresa. No lado das subidas, destaca-se ainda o comportamento do Banco Totta & Açores que, ao contrário dos restantes títulos do sector bancário, encerrou a ganhar 3,41 por cento .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jerónimo Martins",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Sumolis",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Banco Totta & Açores",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "3,41 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jerónimo Martins",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sumolis",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Banco Totta & Açores",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "3,41 por cento",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('PÚBLICO', 'PESSOA')]
+Espúrias  (FP): [('PÚBLICO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Movimentaram-se cerca de 285 mil títulos, com a cotação de fecho a situar-se nos 4359 escudos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "cerca de 285 mil",
+    "label": "VALOR",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "4359 escudos",
+    "label": "VALOR",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "285 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "4359 escudos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('cerca de 285 mil', 'VALOR')]
+Espúrias  (FP): [('285 mil', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na mesma ocasião iniciaram-se investigações que incidiram sobre o árbitro madeirense Marques da Silva , também ele suspeito de se ter deixado corromper. A Judiciária aproveitou ainda o balanço para passar buscas às casas de Reinaldo Teles (dirigente), Jorge Gomes (funcionário) e António Garrido (colaborador), todos ligados ao FC Porto , com a curiosidade de o último ser um ex-árbitro de futebol. Quando Guímaro foi detido, na sequência de um processo desencadeado com base em denúncias anónimas feitas para a Federação Portuguesa de Futebol e Polícia Judiciária , desde logo se levantou uma questão: se Guímaro era corrupto, quem eram os corruptores e porque motivo não foram igualmente presentes ao juiz do Tribunal de Instrução Criminal ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Marques da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Judiciária",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Reinaldo Teles",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Jorge Gomes",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "António Garrido",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Guímaro",
+    "label": "PESSOA",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "Federação Portuguesa de Futebol",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      80,
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "Polícia Judiciária",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      85,
+      86
+    ]
+  },
+  {
+    "text": "Guímaro",
+    "label": "PESSOA",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "Tribunal de Instrução Criminal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      112,
+      113,
+      114,
+      115
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Marques da Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Judiciária",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Reinaldo Teles",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jorge Gomes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "António Garrido",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Guímaro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Federação Portuguesa de Futebol",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Polícia Judiciária",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tribunal de Instrução Criminal de Lisboa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Guímaro', 'PESSOA'), ('Tribunal de Instrução Criminal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Tribunal de Instrução Criminal de Lisboa', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Essa é uma pergunta que ainda hoje permanece sem resposta. É que, apesar de todas as tentativas feitas pelos agentes da Direcção Central de Investigação de Corrupção, Fraudes e Infracções Económico-Financeiras , o árbitro, sujeito a diversos interrogatórios, nunca fez qualquer revelação que pudesse incriminar outras pessoas. Por outras palavras: nunca quis beneficiar do estatuto de «arrependido».
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Direcção Central de Investigação de Corrupção, Fraudes e Infracções Económico-Financeiras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Directora Central de Investigação de Corrupção, Fraudes e Infracções Económico-Financeiras",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "árbitro",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Direcção Central de Investigação de Corrupção, Fraudes e Infracções Económico-Financeiras', 'ORGANIZACAO')]
+Espúrias  (FP): [('Directora Central de Investigação de Corrupção, Fraudes e Infracções Económico-Financeiras', 'ORGANIZACAO'), ('árbitro', 'PESSOA')]
+

@@ -1,0 +1,5593 @@
+--------------------------------------------------------------------------------
+Texto:
+Uma vila no Interior Um simbolo de grande beleza As terras de S. Martinho foram povoadas desde remotas eras, graças à fertilidade do rio Bestança e à facilidade de defesas naturais e pontos estratégicos como a Pena ou Pedra Sobreposta , em Paus , e a Mogueira , perto de S. Martinho .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Interior",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "S. Martinho",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Bestança",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Pena",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Pedra Sobreposta",
+    "label": "LOCAL",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Paus",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Mogueira",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "S. Martinho",
+    "label": "LOCAL",
+    "token_indices": [
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Interior",
+    "label": "LOCAL"
+  },
+  {
+    "text": "S. Martinho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "S. Martinho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bestança",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pena",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pedra Sobreposta",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Paus",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mogueira",
+    "label": "LOCAL"
+  },
+  {
+    "text": "S. Martinho",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('S. Martinho', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Trata-se de um castro romanizado. A estes povos seguiram-se os Suevos , os Visigodos , depois os Mouros que lhe deram o nome, e por fim, os povoadores cristãos da Reconquista .Atendendo ao nome « S. Martinho », pode concluir-se que deve ter sido paróquia desde os primórdios da cristianização destas paragens. Paus , S. João e Gosende eram, nessa época, simples povoados desta freguesia. Dada a sua fertilidade, os Mouros com todas as suas forças a reconquista cristã, motivo pelo qual, sendo já cristão todo o noroeste(de Resende ao Porto ) e estando ainda S. Martinho nas mãos dos Mouros , os cristãos de Resende , falando de S. Martinho , lhe chamavam de « Mouros ».
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Suevos",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Visigodos",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Mouros",
+    "label": "PESSOA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Reconquista",
+    "label": "TEMPO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "S. Martinho",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Paus",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "S. João",
+    "label": "LOCAL",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Gosende",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Mouros",
+    "label": "PESSOA",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Resende",
+    "label": "LOCAL",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "S. Martinho",
+    "label": "LOCAL",
+    "token_indices": [
+      95,
+      96
+    ]
+  },
+  {
+    "text": "Mouros",
+    "label": "PESSOA",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "Resende",
+    "label": "LOCAL",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "S. Martinho",
+    "label": "LOCAL",
+    "token_indices": [
+      109,
+      110
+    ]
+  },
+  {
+    "text": "Mouros",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      116
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Suevos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Visigodos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mouros",
+    "label": "PESSOA"
+  },
+  {
+    "text": "S. Martinho",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Paus",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "S. João",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Gosende",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Mouros",
+    "label": "PESSOA"
+  },
+  {
+    "text": "S. Martinho",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Resende",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "S. Martinho",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Reconquista', 'TEMPO'), ('Paus', 'LOCAL'), ('S. João', 'LOCAL'), ('Gosende', 'LOCAL'), ('S. Martinho', 'LOCAL'), ('Mouros', 'PESSOA'), ('Resende', 'LOCAL'), ('S. Martinho', 'LOCAL'), ('Mouros', 'ABSTRACCAO')]
+Espúrias  (FP): [('Paus', 'ABSTRACCAO'), ('S. João', 'ABSTRACCAO'), ('Gosende', 'ABSTRACCAO'), ('S. Martinho', 'ABSTRACCAO'), ('S. Martinho', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Após a reconquista, em 1058 , tentou-se o repovoamento com a doação de terras a senhores da nobreza, concretamente com as Honras de Cardoso , de Cantim , de Fonseca , de Paredes e de Temonde | Honras de Cardoso, de Cantim, de Fonseca, de Paredes e de Temonde .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1058",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Honras",
+    "label": "OUTRO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Cardoso",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Cantim",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Fonseca",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Paredes",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Temonde",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Honras de Cardoso, de Cantim, de Fonseca, de Paredes e de Temonde",
+    "label": "OUTRO",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1058",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Honras de Cardoso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cantim",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fonseca",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Paredes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Temonde",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Honras de Cardoso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cantim",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fonseca",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Paredes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Temonde",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Honras', 'OUTRO'), ('Cardoso', 'LOCAL'), ('Cantim', 'LOCAL'), ('Fonseca', 'LOCAL'), ('Paredes', 'LOCAL'), ('Temonde', 'LOCAL'), ('Honras de Cardoso, de Cantim, de Fonseca, de Paredes e de Temonde', 'OUTRO')]
+Espúrias  (FP): [('Honras de Cardoso', 'PESSOA'), ('Cantim', 'PESSOA'), ('Fonseca', 'PESSOA'), ('Paredes', 'PESSOA'), ('Temonde', 'PESSOA'), ('Honras de Cardoso', 'PESSOA'), ('Cantim', 'PESSOA'), ('Fonseca', 'PESSOA'), ('Paredes', 'PESSOA'), ('Temonde', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foi também julgado medieval, abrangendo uma longa faixa de território, desde o Douro à cruz do Rossão no montemuro, e desde a serra das Meadas a terras do concelho de Aregos e da honra de Resende .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Douro",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Rossão",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Meadas",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Aregos",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Resende",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Douro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rossão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "montemuro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "serra das Meadas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Aregos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Resende",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Meadas', 'LOCAL')]
+Espúrias  (FP): [('montemuro', 'LOCAL'), ('serra das Meadas', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Kusturica « Underground » O público e a imprensa que viram « Underground », de Emir Kusturica , no último Festival de Cannes , verão de certa forma um outro filme quando a obra de Kusturica estrear comercialmente. Confirmando o que já corria quando o filme foi exibido em Cannes , o cineasta vai regressar à sala de montagem para cortar cerca de 20 minutos a essa obra demencial que recebeu a Palma de Ouro de Cannes , ex-aequo com « O Olhar de Ulisses », de Theo Angelopoulos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kusturica",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Underground",
+    "label": "OBRA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Underground",
+    "label": "OBRA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Emir Kusturica",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Festival de Cannes",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Kusturica",
+    "label": "PESSOA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Cannes",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "cerca de 20 minutos",
+    "label": "VALOR",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Palma de Ouro de Cannes",
+    "label": "OUTRO",
+    "token_indices": [
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "O Olhar de Ulisses",
+    "label": "OBRA",
+    "token_indices": [
+      81,
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "text": "Theo Angelopoulos",
+    "label": "PESSOA",
+    "token_indices": [
+      87,
+      88
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kusturica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Underground",
+    "label": "OBRA"
+  },
+  {
+    "text": "Emir Kusturica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Kusturica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "20 minutos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Palma de Ouro de Cannes",
+    "label": "OBRA"
+  },
+  {
+    "text": "O Olhar de Ulisses",
+    "label": "OBRA"
+  },
+  {
+    "text": "Theo Angelopoulos",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Underground', 'OBRA'), ('cerca de 20 minutos', 'VALOR'), ('Palma de Ouro de Cannes', 'OUTRO')]
+Espúrias  (FP): [('20 minutos', 'VALOR'), ('Palma de Ouro de Cannes', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os 192 minutos de « Underground » -- mais de três horas -- deverão ser reduzidos a cerca de 170 minutos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "192 minutos",
+    "label": "VALOR",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Underground",
+    "label": "OBRA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "cerca de 170 minutos",
+    "label": "VALOR",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "192 minutos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Underground",
+    "label": "OBRA"
+  },
+  {
+    "text": "mais de três horas",
+    "label": "VALOR"
+  },
+  {
+    "text": "170 minutos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('cerca de 170 minutos', 'VALOR')]
+Espúrias  (FP): [('mais de três horas', 'VALOR'), ('170 minutos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+O lançamento comercial do filme do realizador da ex-Jugoslávia está agora previsto para Outubro ou Novembro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ex-Jugoslávia",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Outubro",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Novembro",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Outubro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Novembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('ex-Jugoslávia', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cansei-me, todavia, de ser cossaco e de esperar por Lu , que não chegava nunca. Talvez ignorasse a existência daquela boate; resolvi transferir-me para outra, não muito distante, tipicamente nordestina, necessitada de um cangaceiro na porta. Gostaram de minha cara e deram-me o uniforme de Lampião , com a exigência de que eu dissesse "óxente" pelo menos três vezes por noite. A mudança de cossaco para cangaceiro provocou-me alterações psicológicas. Passei a ter algum medo da polícia e pesadelos nos quais o Valete de Espadas era o personagem central. Sonhei que estava cercado numa gruta: eu, o Valete e Lu , vestida de Maria Bonita .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lu",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Lampião",
+    "label": "OUTRO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Valete de Espadas",
+    "label": "PESSOA",
+    "token_indices": [
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "text": "Valete",
+    "label": "PESSOA",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "Lu",
+    "label": "PESSOA",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Maria Bonita",
+    "label": "PESSOA",
+    "token_indices": [
+      103,
+      104
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lampião",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Valete de Espadas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Valete",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Maria Bonita",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Lampião', 'OUTRO'), ('Lu', 'PESSOA')]
+Espúrias  (FP): [('Lampião', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O pessoal da volante disparava. No fotograma seguinte, minha cabeça estava exposta no Museu Nina Rodrigues , na Bahia , reduzida e escurecida, sob a observação curiosa de estudantes. Na mesma prateleira, Lu e o Valete .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Museu Nina Rodrigues",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Lu",
+    "label": "PESSOA",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Valete",
+    "label": "PESSOA",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Museu Nina Rodrigues",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lu",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Vale",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Museu Nina Rodrigues', 'ORGANIZACAO'), ('Lu', 'PESSOA'), ('Valete', 'PESSOA')]
+Espúrias  (FP): [('Museu Nina Rodrigues', 'LOCAL'), ('Lu', 'ABSTRACCAO'), ('Vale', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que sonho horrível, meu Deus! Fiquei tão impressionado que resolvi não mais voltar àquela boate.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "meu Deus",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('meu Deus', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fui ser porteiro de uma boate decorada com motivos africanos. Pintaram-me de preto, pele de onça, turbante e um enorme facão à cintura. É muito divertido vestir-se assim, uma vez ou talvez duas, mas, ao transformar-me pela centésima vez em congolês, comecei a sofrer terrível complexo de inferioridade e um medo de levar uma flechada nas costas. Foi uma insignificante mariposa, que batia as asas perto da boate, a pessoa que informou: Lu fora vista em Santos , devia estar em Santos , morar lá. Imediatamente fui à pensão, dei adeus à mulata, porém deixei com ela algumas roupas, prometendo voltar outro dia para apanhá-las. No dia seguinte, tomei um ônibus rumo ao litoral. Foi o sol, suponho, com seus estímulos, que me projetou aos braços de uma loira sardenta, pesada e imbecil, proprietária de uma espelunca chamada O Farol .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lu",
+    "label": "PESSOA",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Santos",
+    "label": "LOCAL",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Santos",
+    "label": "LOCAL",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "O Farol",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      138,
+      139
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Santos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Santos",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('O Farol', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ela, com um sorriso monstruoso, ficava na caixa, contando o dinheiro que entrava. Três ou quatro zabaneiras paravam nesse corredor, sentadas em mesinhas de ferro, à espera de fregueses incautos. Felizmente, Érika deu-me a mão e mostrou-me um quarto dos fundos onde eu e ela nos amaríamos. Minha situação não favorecia escolhas. Iniciei um romance hipócrita e dramático que convenceu a rotunda teutônica da sinceridade em que me imbuía. Assim, passei de servidor a patrão, o que me permitiu mais horas de vagabundagem pelas ruas imprevistas do cais. Tudo é uma questão de ambiente e atmosfera. Creio que minha personalidade alterou-se: perdi muito da velha classe, sempre em companhia de negrinhas que falavam inglês, marinheiros bêbedos, vendedores de tóxicos, vagabundos sem eira nem beira, valentões praianos e habitantes de muquifos e favelas. Sabia que tinha cama e comida garantidas. Aliás, Érika possuía admirável resistência no trabalho. Permanecia no seu posto durante as dezesseis horas em que o bar ficava aberto.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Érika",
+    "label": "PESSOA",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Érika",
+    "label": "PESSOA",
+    "token_indices": [
+      140
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Érika",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Érika', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Concelho de Moura - Alentejo Digital [ Home ]. Bem Vindos ao Concelho de Moura , terra do bom azeite Utilidades História Turismo Concelho Câmara Municipal Freguesias St Agostinho e S. João Amareleja Póvoa de S. Miguel St Amador Safara Sobral da Adiça St Aleixo Restauração Fotografias Termas Educação Hotelaria Farmácias Telefones Úteis Serviços Públicos Eventos ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Concelho de Moura",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Alentejo Digital",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Concelho de Moura",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Câmara Municipal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Freguesias",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "St Agostinho",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "S. João",
+    "label": "LOCAL",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Amareleja",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Póvoa de S. Miguel",
+    "label": "LOCAL",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "St Amador",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Safara",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Sobral da Adiça",
+    "label": "LOCAL",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "St Aleixo",
+    "label": "LOCAL",
+    "token_indices": [
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Concelho de Moura', 'LOCAL'), ('Alentejo Digital', 'LOCAL'), ('Concelho de Moura', 'LOCAL'), ('Câmara Municipal', 'ORGANIZACAO'), ('Freguesias', 'ORGANIZACAO'), ('St Agostinho', 'LOCAL'), ('S. João', 'LOCAL'), ('Amareleja', 'LOCAL'), ('Póvoa de S. Miguel', 'LOCAL'), ('St Amador', 'LOCAL'), ('Safara', 'LOCAL'), ('Sobral da Adiça', 'LOCAL'), ('St Aleixo', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cinema para o Mês de Maio ? Jogos Desportivos Municipais Informação A Mulher no Inicio do Novo Século Dia 15 de Maio , pelas 9.30H , no Cine-Teatro Caridade , em Moura irá realizar-se um Fórum intitulado A Mulher no Inicio do Novo Século , tendo como organização a Câmara Municipal de Moura e a colaboração da Associação de Mulheres do Concelho de Moura .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Maio",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Jogos Desportivos Municipais",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "A Mulher no Inicio do Novo Século",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "15 de Maio",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "9.30H",
+    "label": "TEMPO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Cine-Teatro Caridade",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Moura",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "A Mulher no Inicio do Novo Século",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Câmara Municipal de Moura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Associação de Mulheres do Concelho de Moura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mês de Maio",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Jogos Desportivos Municipais",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "A Mulher no Inicio do Novo Século",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "15 de Maio",
+    "label": "TEMPO"
+  },
+  {
+    "text": "9.30H",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Cine-Teatro Caridade",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Moura",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fórum",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "A Mulher no Inicio do Novo Século",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Câmara Municipal de Moura",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação de Mulheres do Concelho de Moura",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Maio', 'TEMPO'), ('A Mulher no Inicio do Novo Século', 'ABSTRACCAO')]
+Espúrias  (FP): [('Mês de Maio', 'TEMPO'), ('Fórum', 'ACONTECIMENTO'), ('A Mulher no Inicio do Novo Século', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este Fórum será divido em vários painéis onde serão discutidos os mais variados temas tais como os Direitos Sexuais e Reprodutivos , a Participação da Mulher no Poder Local e ainda Direitos da Maternidade e Paternidade e a Política de Emprego e Inserção .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Direitos Sexuais e Reprodutivos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Participação da Mulher no Poder Local",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Direitos da Maternidade e Paternidade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Política de Emprego e Inserção",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fórum",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Direitos Sexuais e Reprodutivos",
+    "label": "OUTRO"
+  },
+  {
+    "text": "Mulher",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Direitos da Maternidade e Paternidade",
+    "label": "OUTRO"
+  },
+  {
+    "text": "Política de Emprego e Inserção",
+    "label": "OUTRO"
+  }
+]
+
+Perdidas  (FN): [('Direitos Sexuais e Reprodutivos', 'ABSTRACCAO'), ('Participação da Mulher no Poder Local', 'ABSTRACCAO'), ('Direitos da Maternidade e Paternidade', 'ABSTRACCAO'), ('Política de Emprego e Inserção', 'ABSTRACCAO')]
+Espúrias  (FP): [('Fórum', 'ACONTECIMENTO'), ('Direitos Sexuais e Reprodutivos', 'OUTRO'), ('Mulher', 'PESSOA'), ('Direitos da Maternidade e Paternidade', 'OUTRO'), ('Política de Emprego e Inserção', 'OUTRO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um Brinquedo por uma Causa O Grupo 28 da Associação dos Escuteiros de Portugal , com colaboração da Câmara Municipal de Moura , e o Rádio e Jornal «A Planície» , apelam a todos os munícipes da cidade de Moura , para procurar entre os brinquedos que já estão encostados a um canto e que podem vir a fazer muitas crianças felizes para os entregar na recepção da Câmara , para no dia 1 de Junho se poder ver um sorriso nos rosto de muitas crianças. Desporto ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo 28 da Associação dos Escuteiros de Portugal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Câmara Municipal de Moura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Rádio e Jornal «A Planície»",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Moura",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "1 de Junho",
+    "label": "TEMPO",
+    "token_indices": [
+      73,
+      74,
+      75
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grupo 28",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação dos Escuteiros de Portugal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Câmara Municipal de Moura",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rádio e Jornal «A Planície»",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Moura",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1 de Junho",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Grupo 28 da Associação dos Escuteiros de Portugal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Grupo 28', 'ORGANIZACAO'), ('Associação dos Escuteiros de Portugal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pesca Desportiva (inserido nos Jogos Municipais ) ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pesca Desportiva",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Jogos Municipais",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pesca Desportiva",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Jogos Municipais",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Pesca Desportiva', 'ABSTRACCAO')]
+Espúrias  (FP): [('Pesca Desportiva', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cinema Exorcista Destaque JOGOS DESPORTIVOS MUNICIPAISServiços Agenda Regional Compadre Revista de Imprensa Classificados Anedotas Tempo Webmail SMS Alentejo Digital ©. Todos os Direitos Reservados Resolução aconselhada 800x600
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alentejo Digital",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "800x600",
+    "label": "VALOR",
+    "token_indices": [
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Exorcista",
+    "label": "OBRA"
+  },
+  {
+    "text": "JOGOS DESPORTIVOS MUNICIPAISServiços",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Agenda",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Regional",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Compadre",
+    "label": "OBRA"
+  },
+  {
+    "text": "Imprensa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Classificados",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Alentejo Digital",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('800x600', 'VALOR')]
+Espúrias  (FP): [('Exorcista', 'OBRA'), ('JOGOS DESPORTIVOS MUNICIPAISServiços', 'ACONTECIMENTO'), ('Agenda', 'ACONTECIMENTO'), ('Regional', 'LOCAL'), ('Compadre', 'OBRA'), ('Imprensa', 'OBRA'), ('Classificados', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Você sabia... Véu da Noiva [ veudanoiva@veudanoiva.com.br ] Véu da Noiva Noiva, Festa, Masculino, Infantil e Acessórios Você sabia...que na Copa do Mundo da França | Copa do Mundo da França , em 1998 , uma Brasileira e um Norueguês se casaram bem no centro do gramado do estádio Vélodrome , em Marselha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Véu da Noiva",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Véu da Noiva",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Copa do Mundo",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Copa do Mundo da França",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Vélodrome",
+    "label": "LOCAL",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Marselha",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Véu da Noiva",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Véu da Noiva",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Copa do Mundo da França",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Vélodrome",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marselha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Véu da Noiva', 'ORGANIZACAO'), ('Véu da Noiva', 'ORGANIZACAO'), ('Copa do Mundo', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Véu da Noiva', 'LOCAL'), ('Véu da Noiva', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A cerimônia aconteceu antes da partida Brasil X Noruega | Brasil X Noruega .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil X Noruega",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Noruega",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Noruega",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Brasil",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Noruega",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Brasil X Noruega', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Brasil', 'PESSOA'), ('Noruega', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Véu da Noiva , desde 1992 festejando com você! Av. do Contorno 6888 lj 101 - Lourdes - Belo Horizonte / MG - Tel.: ( 31) 3225-5545 Estacionamento conveniado na Rua Barão de Macaúbas 48 veudanoiva@veudanoiva.com.br
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Véu da Noiva",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Av. do Contorno",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Lourdes",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Belo Horizonte",
+    "label": "LOCAL",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "MG",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Rua Barão de Macaúbas",
+    "label": "LOCAL",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Véu da Noiva",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Av. do Contorno 6888 lj 101",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lourdes",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Belo Horizonte / MG",
+    "label": "LOCAL"
+  },
+  {
+    "text": "( 31) 3225-5545",
+    "label": "VALOR"
+  },
+  {
+    "text": "Rua Barão de Macaúbas 48",
+    "label": "LOCAL"
+  },
+  {
+    "text": "veudanoiva@veudanoiva.com.br",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Av. do Contorno', 'LOCAL'), ('Belo Horizonte', 'LOCAL'), ('MG', 'LOCAL'), ('Rua Barão de Macaúbas', 'LOCAL')]
+Espúrias  (FP): [('Av. do Contorno 6888 lj 101', 'LOCAL'), ('Belo Horizonte / MG', 'LOCAL'), ('( 31) 3225-5545', 'VALOR'), ('Rua Barão de Macaúbas 48', 'LOCAL'), ('veudanoiva@veudanoiva.com.br', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+INGRESSO NO BNDES Eu entrei no BNDES , através de concurso público. Eu já tinha uma noção, já sabia o que o BNDES fazia. Eu tinha interesse de vir trabalhar no Banco , em função da atividade dinâmica de visitar empresas, de apoiar novos empreendimentos, de conhecer o Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('BNDES', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Vemos se a empresa tem capacidade de pagamento, analisamos se o projeto é meritório dentro da política de desenvolvimento do Banco e, no final, nós montamos um relatório. Esse relatório é encaminhado à diretoria do Banco para aprovação e concessão do financiamento posteriormente. AVALIAÇÃO DE PROJETOS/ Mina do Pico >, Mina de Águas Claras , Mina da Mutuca , Alunorte , Albrás , Latasa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Mina do Pico",
+    "label": "LOCAL",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Mina de Águas Claras",
+    "label": "LOCAL",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Mina da Mutuca",
+    "label": "LOCAL",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Alunorte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Albrás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Latasa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mina do Pico",
+    "label": "COISA"
+  },
+  {
+    "text": "Mina de Águas Claras",
+    "label": "COISA"
+  },
+  {
+    "text": "Mina da Mutuca",
+    "label": "COISA"
+  },
+  {
+    "text": "Alunorte",
+    "label": "COISA"
+  },
+  {
+    "text": "Albrás",
+    "label": "COISA"
+  },
+  {
+    "text": "Latasa",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Banco', 'ORGANIZACAO'), ('Mina do Pico', 'LOCAL'), ('Mina de Águas Claras', 'LOCAL'), ('Mina da Mutuca', 'LOCAL'), ('Alunorte', 'ORGANIZACAO'), ('Albrás', 'ORGANIZACAO'), ('Latasa', 'ORGANIZACAO')]
+Espúrias  (FP): [('Mina do Pico', 'COISA'), ('Mina de Águas Claras', 'COISA'), ('Mina da Mutuca', 'COISA'), ('Alunorte', 'COISA'), ('Albrás', 'COISA'), ('Latasa', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nós financiamos a expansão da Mina do Pico , a Mina de Águas Claras e a Mina da Mutuca também. Eles têm um terminal aqui, próximo a Sepetiba , e nós financiamos toda essa expansão. Tem um projeto da Albrás , uma das maiores produtoras de alumínio do Brasil , nós financiamos a expansão dela. Tem a fábrica de alumina, a Alunorte , também no Pará , que é um insumo muito importante para o Brasil e o Brasil importava esse insumo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mina do Pico",
+    "label": "LOCAL",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Mina de Águas Claras",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Mina da Mutuca",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Sepetiba",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Albrás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Alunorte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Pará",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mina do Pico",
+    "label": "COISA"
+  },
+  {
+    "text": "Mina de Águas Claras",
+    "label": "COISA"
+  },
+  {
+    "text": "Mina da Mutuca",
+    "label": "COISA"
+  },
+  {
+    "text": "Sepetiba",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Albrás",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alunorte",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Pará",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Mina do Pico', 'LOCAL'), ('Mina de Águas Claras', 'LOCAL'), ('Mina da Mutuca', 'LOCAL'), ('Brasil', 'ORGANIZACAO')]
+Espúrias  (FP): [('Mina do Pico', 'COISA'), ('Mina de Águas Claras', 'COISA'), ('Mina da Mutuca', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nós financiamos, desde a primeira expansão da empresa em Pouso Alegre , financiamos a fábrica de São Paulo , a fábrica do Rio de Janeiro , a fábrica de Recife e acabamos de financiar recentemente a nova unidade deles, no Rio Grande do Sul . E uma coisa que é fundamental no nosso processo de análise é conhecer, in loco, o processo operacional, o que a empresa faz, como ela está organizada, como é o ambiente organizacional dessa empresa e o processo produtivo. Então, nós sempre visitamos as empresas. VIVENCIAS NO BNDES Viagens Eu tenho uma história bastante interessante, principalmente para aqueles que imaginam que a vida de um técnico do BNDES consiste em pegar avião, na ponte Rio - São Paulo | Rio-São Paulo , ficar em escritórios com ar condicionado das empresas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pouso Alegre",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Recife",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      111
+    ]
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      120,
+      121
+    ]
+  },
+  {
+    "text": "Rio-São Paulo",
+    "label": "COISA",
+    "token_indices": [
+      123,
+      124
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pouso Alegre",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Recife",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rio - São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('BNDES', 'ORGANIZACAO'), ('Rio-São Paulo', 'COISA')]
+Espúrias  (FP): [('Rio - São Paulo', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não é assim. A área que eu trabalhei durante 16 anos , que foi a área de Mineração e Metalurgia e Siderurgia , nós tínhamos freqüentemente viagens ao interior do Brasil , interior da Selva Amazônica , interior do Pará , do Amapá .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "16 anos",
+    "label": "VALOR",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Mineração",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Metalurgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Siderurgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Selva Amazônica",
+    "label": "LOCAL",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Pará",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Amapá",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Mineração e Metalurgia e Siderurgia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Selva Amazônica",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pará",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Amapá",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Mineração', 'ABSTRACCAO'), ('Metalurgia', 'ABSTRACCAO'), ('Siderurgia', 'ABSTRACCAO')]
+Espúrias  (FP): [('Mineração e Metalurgia e Siderurgia', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em uma dessas viagens, nós estávamos visitando um projeto de uma empresa de mineração, que queria desenvolver uma lavra de ouro, em processo industrial. E o que aconteceu de interessante nesse processo é que eu, o nosso chefe na época, o Wagner Bittencourt e mais dois técnicos, Mário Miceli , Eduardo Cestari , fizemos a viagem do Rio até Itaituba , no Pará . Essa viagem foi feita num Lear Jet da empresa, no maior conforto, digamos, na maior mordomia. Quando chegamos em Itaituba , o deslocamento de Itaituba até onde tinha essa ocorrência mineral, que se encontrava no Rio Tapajós , só podia ser feita de barco.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Wagner Bittencourt",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Mário Miceli",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Eduardo Cestari",
+    "label": "PESSOA",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Pará",
+    "label": "LOCAL",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Lear Jet",
+    "label": "COISA",
+    "token_indices": [
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "Rio Tapajós",
+    "label": "LOCAL",
+    "token_indices": [
+      99,
+      100
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Wagner Bittencourt",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mário Miceli",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Eduardo Cestari",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pará",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio Tapajós",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Lear Jet', 'COISA'), ('Itaituba', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E nós entramos no barco da empresa, não era um grande barco, o que eles chamam de "voadeira". " Voadeira " é uma lancha de metal, é um barco de metal de 10 metros de comprimento, mais ou menos. Além de nós quatro do BNDES , havia dois diretores da empresa e o barqueiro. E esse barco estava carregando muito material para a empresa. Por problemas de navegação naquele trecho, não havia uma navegação regular, então procurava-se maximizar qualquer viagem que fizesse para aquela região, levar o máximo possível de material. E a empresa, além de nós, estava levando combustível, bombas, equipamentos. O barco estava muito pesado. Naquela época, o rio Tapajós estava num período de pouca chuva, então as pedras estavam muito aflorando na superfície. Nós ficamos um pouco preocupados porque da margem, do ponto que nós estávamos sentados no barco, da quilha até o nível de água, dava um palmo de diferença.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Voadeira",
+    "label": "COISA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "10 metros",
+    "label": "VALOR",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Tapajós",
+    "label": "LOCAL",
+    "token_indices": [
+      111
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tapajós",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Voadeira', 'COISA'), ('10 metros', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Então, qualquer oscilação faria com que entrasse água. E realmente isso aconteceu. À medida que nós fomos nos deslocando pelo rio Tapajós , no sentido montante, começou entrar água dentro do barco. Como se não bastasse, o motor falhou. O motor falhou, nós ficamos à deriva e foi entrando água, foi entrando água. De repente, todo mundo se apavorou e, no momento que levantou todo mundo, o barco perdeu o equilíbrio, ele virou, literalmente virou. Todos nós caímos dentro do rio, o equipamento foi todo perdido e nós ficamos cerca de uma hora à deriva. Para se ter uma idéia do rio Tapajós , ele tem, mais ou menos, uns 900 metros de largura. Nós ficamos exatamente no meio e a correnteza puxava muito, então nós ficamos à deriva, nos dispersamos, mas, graças a Deus , conseguimos parar num banco de areia no meio do rio. E mais tarde, umas duas horas depois, uma outra "voadeira" que passava no local, nos socorreu.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tapajós",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Tapajós",
+    "label": "LOCAL",
+    "token_indices": [
+      102
+    ]
+  },
+  {
+    "text": "900 metros",
+    "label": "VALOR",
+    "token_indices": [
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      134
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "rio Tapajós",
+    "label": "LOCAL"
+  },
+  {
+    "text": "rio Tapajós",
+    "label": "LOCAL"
+  },
+  {
+    "text": "900 metros",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Tapajós', 'LOCAL'), ('Tapajós', 'LOCAL'), ('Deus', 'PESSOA')]
+Espúrias  (FP): [('rio Tapajós', 'LOCAL'), ('rio Tapajós', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Aí, pode ser perguntado: "Bom, a viagem de vocês terminou aí. Vocês voltaram para Itaituba para o Rio de Janeiro ?" Não. Aproveitamos que nós estávamos, mais ou menos perto, umas três horas do ponto que a gente ia visitar, continuamos a viagem, visitamos o projeto, fizemos todo contato necessário. Apesar desse imprevisto, desse incidente, graças a Deus ninguém morreu, mas nós fomos lá no local, cumprimos a nossa missão. Conseguimos coletar material para fazer análise do projeto, que infelizmente, não foi aprovado, porque a questão da segurança foi um aspecto que pesou muito na análise da empresa, e por essa falha, na segurança, no deslocamento, nós olhamos com mais atenção à segurança do empreendimento, que era muito falha. A mina que estavam perfurando, parecia uma mina daquela época do Velho Oeste , aquelas galerias muito mal estruturadas. Então, o Banco realmente não concedeu financiamento para essa empresa. Isso foi em julho de 1988 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Itaituba",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Velho Oeste",
+    "label": "TEMPO",
+    "token_indices": [
+      130,
+      131
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      140
+    ]
+  },
+  {
+    "text": "julho de 1988",
+    "label": "TEMPO",
+    "token_indices": [
+      151,
+      152,
+      153
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Itaituba",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Deus', 'PESSOA'), ('Velho Oeste', 'TEMPO'), ('Banco', 'ORGANIZACAO'), ('julho de 1988', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+AVALIAÇÃO PESSOAL Significado do BNDES Para mim o BNDES , em primeiro lugar, ele é uma grande escola. É um local que se você quiser conhecer o que é o Brasil , como funciona o Brasil , como se dá o processo de desenvolvimento, não existe melhor local. Porque aqui nós lidamos com toda a economia. Toda a economia do Brasil , todo tipo de atividade, é estudada, é analisada, é conhecida aqui dentro. Segundo lugar, o Banco é uma grande família, um ambiente de trabalho excelente, até hoje, eu só fiz amigos aqui no Banco .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      95
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('BNDES', 'ORGANIZACAO'), ('Brasil', 'ABSTRACCAO'), ('Banco', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Projeto Memória Sobre o Projeto Memória dos 50 anos do Banco eu agradeço essa oportunidade de poder deixar um registro para gerações futuras, e quero parabenizar a diretoria do Banco e a equipe pelo brilhante trabalho de registrar essa memória do Banco , porque uma das falhas que a gente percebe no Brasil , é a escassez do registro do passado. À despeito de outros países que sabem cuidar muito bem do seu passado, cultuam, reverenciam o passado como uma forma de levar para o presente os valores importantes do passado. No Brasil até então, isso não vinha sido tratado com cuidado. Nós podemos citar um exemplo que é comum de todo mundo, a questão da ferrovia no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Projeto Memória",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Projeto Memória dos 50 anos do Banco",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      92
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      118
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Projeto Memória",
+    "label": "OBRA"
+  },
+  {
+    "text": "Projeto Memória dos 50 anos do Banco",
+    "label": "OBRA"
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Projeto Memória', 'ACONTECIMENTO'), ('Projeto Memória dos 50 anos do Banco', 'ACONTECIMENTO'), ('Banco', 'ORGANIZACAO'), ('Brasil', 'LOCAL')]
+Espúrias  (FP): [('Projeto Memória', 'OBRA'), ('Projeto Memória dos 50 anos do Banco', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ela teve uma importância fundamental no desenvolvimento do país, o próprio BNDES apoiou as ferrovias, ou a expansão da Central do Brasil e outros. Mas hoje, não existe uma memória ferroviária para se contar a história desse meio de transporte pioneiro, que vai comemorar 150 anos agora, em 2004 , e foi um dos vetores mais importantes para o desenvolvimento do Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Central do Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "150 anos",
+    "label": "VALOR",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "2004",
+    "label": "TEMPO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Central do Brasil",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "150 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Central do Brasil', 'LOCAL'), ('Brasil', 'ORGANIZACAO')]
+Espúrias  (FP): [('Central do Brasil', 'ORGANIZACAO'), ('Brasil', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eu diria, para finalizar, que a importância do desenvolvimento do Brasil se deve, em primeiro lugar, às ferrovias, ao seu pioneirismo há 150 anos atrás. Em segundo lugar, o BNDES que está alavancando tudo isso aí.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "150 anos",
+    "label": "VALOR",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "150 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'ORGANIZACAO')]
+Espúrias  (FP): [('Brasil', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Lembro-me que foi a trinta e um de Janeiro , pois o levámos para casa do capitão Galho (era a mais próxima) e o jovem degredado recebeu-nos à porta, num sólido e frio mutismo de mármore. Como sempre, no aniversário da sua desgraça, trazia vestido o uniforme de gala e o peito refulgia com o esplendor das medalhas. Após uma larga hesitação fez sinal para que entrássemos e ele próprio tratou de ir buscar uma esteira onde estendemos o morto. O padre chegou nessa altura, ainda compondo a batina e resfolegando como um cavalo marinho; vinha afogado em suor, vacilante e desgrenhado, maldizendo alto a inclemência do Sol . Ao ver o capitão deteve-se com uma expressão de sincero desgosto: Merda! -- exclamou -- tinha-me esquecido que hoje é trinta e um de Janeiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "capitão Galho",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Sol",
+    "label": "COISA",
+    "token_indices": [
+      107
+    ]
+  },
+  {
+    "text": "Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      133
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "trinta e um de Janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "capitão Galho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sol",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Janeiro', 'TEMPO'), ('Janeiro', 'TEMPO')]
+Espúrias  (FP): [('trinta e um de Janeiro', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Só nos atrevemos a sair com o nosso morto, para o levar à igreja, depois que o Sol começou a enfraquecer e o ar se encheu do canto ansioso das cigarras.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sol",
+    "label": "COISA",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Sol', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cá fora aguardava-nos o inevitável cortejo de carpideiras, "velhas senhoras industriadas", como gostava de repetir Quipangala , "no muito antigo e piedoso ofício de prantear a dor alheia". Nessa mesma noite baptizámos o estranho com o nome de Lázaro , rezámos por sua alma uma missa breve e ao entardecer do dia seguinte levámo-lo a enterrar com festiva pompa e circunstância. A banda do carpinteiro Brito acompanhou o féretro à frente de toda a população da vila, tocando para conforto geral as severas mas gradáveis marchas do costume. Fez o elogio do morto o velho Quipangala , conhecido aquém e além matos pelo fulgor do seu verbo, pela côncava voz de catástrofe e pela solenidade que pesa em tudo quanto dizia, ainda que nada de extraordinário tivesse para dizer. Para agrado de Deus Nosso Senhor e perpétuo logro de Satanás, o Maldito , criou para Lázaro uma vida novinha em folha, pródiga em devoções e em virtudes.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Quipangala",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Lázaro",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Brito",
+    "label": "PESSOA",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Quipangala",
+    "label": "PESSOA",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "Deus Nosso Senhor",
+    "label": "PESSOA",
+    "token_indices": [
+      132,
+      133,
+      134
+    ]
+  },
+  {
+    "text": "Satanás, o Maldito",
+    "label": "PESSOA",
+    "token_indices": [
+      139,
+      140,
+      141
+    ]
+  },
+  {
+    "text": "Lázaro",
+    "label": "PESSOA",
+    "token_indices": [
+      145
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Quipangala",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lázaro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Brito",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Quipangala",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lázaro",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Deus Nosso Senhor', 'PESSOA'), ('Satanás, o Maldito', 'PESSOA'), ('Lázaro', 'PESSOA')]
+Espúrias  (FP): [('Lázaro', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mesmo assim demos-lhe o nome de Ofélia e repetimos com ela o que fizéramos a Lázaro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ofélia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Lázaro",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ofélia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Lázaro",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Lázaro', 'PESSOA')]
+Espúrias  (FP): [('Lázaro', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Todavia a missa foi pobre e às exéquias faltou o lustro habitual. Quipangala tinha bebido em excesso e parecia um funâmbulo tentando a custo equilibrar-se nas altas pernas de garça. Ao invés do esperado elogio da morta quis produzir uma espécie de longa alegoria sobre a beleza da Mulher , mas depressa se tornou evidente que falava não da infeliz Ofélia , triste e desconjuntada na sua gaiola de tábuas, e sim da jovem e exuberante esposa do chefe do concelho, Angelina Santoni , por quem alimentava desde há anos uma pública paixão de adolescente.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Quipangala",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Mulher",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Ofélia",
+    "label": "PESSOA",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Angelina Santoni",
+    "label": "PESSOA",
+    "token_indices": [
+      81,
+      82
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Quipangala",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ofélia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Angelina Santoni",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Mulher', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Eu estava achando meio difícil aceitar o fato de colocar esta minha dor, uma dor misteriosa no joelho, no topo de todos os meus problemas. Devo admitir, claro, que existem coisas muito piores que podem acontecer com você, fisicamente. Por exemplo: câncer, esclerose múltipla, disfunção neuromotora, enfisema, mal de Alzheimer e AIDS . Sem falar nas coisas com que você pode nascer, como distrofia muscular, paralisia cerebral, hemofilia e epilepsia. Sem falar ainda em guerra, peste e fome. 0 engraçado é que saber disso não faz a dor no joelho da gente mais fácil de suportar. Talvez isso seja o que eles chamam de "fadiga de compaixão, a idéia de que, de tanto ver sofrimento humano na mídia, nos tornamos meio entorpecidos, como se tivéssemos usado todas as reservas de piedade, raiva, ultraje, e só conseguíssemos pensar na dor nosso próprio joelho. Ainda não cheguei a esse ponto, pelo menos não tanto, mas sei o que eles querem dizer com isso.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "mal de Alzheimer",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "AIDS",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "AIDS",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('mal de Alzheimer', 'ABSTRACCAO'), ('AIDS', 'ABSTRACCAO')]
+Espúrias  (FP): [('AIDS', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Recebo um monte de pedidos de organizações de caridade pelo correio. Acho que trocam nomes e endereços entre elas: basta você fazer uma doação para uma entidade e, de repente, os envelopes começam chegar à porta mais rápido do que você pode apanhá-los. OXFAM , CAFOD , UNICEF , Salvem as Crianças , Instituto Real do Cego , Cruz Vermelha , associaçõe de combate ao câncer, à distrofia muscular, etc. etc., todos contendo cartas-respostas e folhetos impressos em papel reciclado com fotos em preto e branco, borradas, mostrando bebês pretos famintos com os braços e pernas como galhos e cabeças como as de gente velha, ou adolescentes em cadeira de rodas, ou refugiados com expressões de horror no rosto, ou gente com membros amputados ou de muletas. Como é que a gente pode pôr um fim a essa maré de miséria humana? Bem, vou contar o que faço. Mando 1.000 libras por ano para uma organização que me envia um talão de cheque especial para fazer doações às entidades que escolher.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OXFAM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "CAFOD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "UNICEF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Salvem as Crianças",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Instituto Real do Cego",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Cruz Vermelha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "1.000 libras",
+    "label": "VALOR",
+    "token_indices": [
+      149,
+      150
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('OXFAM', 'ORGANIZACAO'), ('CAFOD', 'ORGANIZACAO'), ('UNICEF', 'ORGANIZACAO'), ('Salvem as Crianças', 'ORGANIZACAO'), ('Instituto Real do Cego', 'ORGANIZACAO'), ('Cruz Vermelha', 'ORGANIZACAO'), ('1.000 libras', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Eles também restituem o imposto de renda que se recolhe sobre aquela quantia, o que faz as 1.000 libras subirem para 1.400 , no meu caso. Assim, todo ano, eu distribuo 1.400 libras em pequenas parcelas: 50 libras para os bebês esfomeados na Somália , 30 para as vítimas de estupro na Bósnia , 45 para a instalação de uma bomba-d'água em Bangladesh , 25 para uma unidade de reabilitação de drogados em Basildon , 30 para a pesquisa sobre a AIDS e assim por diante, até a conta zerar. É quase como tentar enxugar o oceano com uma caixa de lenços Kleenex , mas pelo menos tenho a minha fadiga de compaixão sob controle. É claro que eu poderia dar muito mais. Poderia doar 10 mil libras por ano com a minha renda atual, sem muito sacrifício. E mesmo se doasse tudo isso, ainda não seria mais do que uma caixa de lenços Kleenex .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1.000 libras",
+    "label": "VALOR",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "1.400",
+    "label": "VALOR",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "1.400 libras",
+    "label": "VALOR",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "50 libras",
+    "label": "VALOR",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Somália",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "30",
+    "label": "VALOR",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Bósnia",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "45",
+    "label": "VALOR",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Bangladesh",
+    "label": "LOCAL",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "25",
+    "label": "VALOR",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Basildon",
+    "label": "LOCAL",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "30",
+    "label": "VALOR",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "AIDS",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Kleenex",
+    "label": "COISA",
+    "token_indices": [
+      102
+    ]
+  },
+  {
+    "text": "10 mil libras",
+    "label": "VALOR",
+    "token_indices": [
+      125,
+      126,
+      127
+    ]
+  },
+  {
+    "text": "Kleenex",
+    "label": "COISA",
+    "token_indices": [
+      154
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1.000 libras",
+    "label": "VALOR"
+  },
+  {
+    "text": "1.400",
+    "label": "VALOR"
+  },
+  {
+    "text": "1.400 libras",
+    "label": "VALOR"
+  },
+  {
+    "text": "50 libras",
+    "label": "VALOR"
+  },
+  {
+    "text": "Somália",
+    "label": "LOCAL"
+  },
+  {
+    "text": "30",
+    "label": "VALOR"
+  },
+  {
+    "text": "Bósnia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "45",
+    "label": "VALOR"
+  },
+  {
+    "text": "Bangladesh",
+    "label": "LOCAL"
+  },
+  {
+    "text": "25",
+    "label": "VALOR"
+  },
+  {
+    "text": "Basildon",
+    "label": "LOCAL"
+  },
+  {
+    "text": "30",
+    "label": "VALOR"
+  },
+  {
+    "text": "AIDS",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Kleenex', 'COISA'), ('10 mil libras', 'VALOR'), ('Kleenex', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ouvi dizer que alguns pacientes tomam apenas uma anestesia local e assistem à operação toda no monitor, mas não gostei da idéia e disse que não queria. Nizar me deu um sorriso tranqüilizador. (Esse é o nome do ortopedista, Dr. Nizar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nizar",
+    "label": "PESSOA",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Dr. Nizar",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      39,
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Nizar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dr. Nizar",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Dr. Nizar', 'ABSTRACCAO')]
+Espúrias  (FP): [('Dr. Nizar', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Chamo-o de Knees 'R Us . Claro que na sua frente, não. Ele vem do Oriente Médio , Líbano ou Síria ou um desses países, e escapou bem de lá pelo que ouvi.) Ele disse que eu teria uma anestesia geral, mas ele me daria o videoteipe da operação para levar para casa. E não estava brincando. Eu já sabia de gente que filmava casamentos e batizados e férias, mas não sabia que a coisa tinha chegado às cirurgias. Acho que você pode fazer uma coleçãozinha e convidar os amigos para uma sessão, servindo vinhos e queijos. "E essa é a minha operação da apendicite, operei em 1984 , ou foi 85 ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Knees 'R Us",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Oriente Médio",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Líbano",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Síria",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "1984",
+    "label": "TEMPO",
+    "token_indices": [
+      107
+    ]
+  },
+  {
+    "text": "85",
+    "label": "TEMPO",
+    "token_indices": [
+      111
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Knees 'R Us",
+    "label": "COISA"
+  },
+  {
+    "text": "Oriente Médio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Líbano",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Síria",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1984",
+    "label": "TEMPO"
+  },
+  {
+    "text": "85",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [("Knees 'R Us", 'ABSTRACCAO')]
+Espúrias  (FP): [("Knees 'R Us", 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sua Excelência Senhor Presidente da República Sua Excelência Senhor Presidente do Parlamento Nacional Senhor Representante Especial do Secretário-Geral da ONU Caros Colegas Membros do Governo Senhor Vice-Representante Especial do Secretário-Geral da ONU e Representante Residente do Programa de Desenvolvimento das Nações Unidas Senhores Comandantes das F-FDTL e da PNTL Senhores Representantes do Corpo Diplomático Senhoras e Senhores |Senhoras e Senhores Uma vez mais celebramos o dia dos Direitos Humanos proclamado há cinquenta anos atrás. Este ano assinala-se o quinquagésimo quinto aniversário da Declaração Universal dos Direitos Humanos adoptado pela Assembleia Geral das Nações Unidas em 10 de Dezembro de 1948 que se tornou o padrão universal para a defesa e promoção dos direitos humanos em todo o mundo. Durante os 25 anos de ocupação estrangeira de Timor-Leste o desrespeito pelos direitos humanos foi uma constante na vida dos timorenses. Por isso, o respeito e a promoção dos direitos humanos têm sido sempre uma preocupação para os timorenses.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sua Excelência Senhor Presidente da República",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Sua Excelência Senhor Presidente do Parlamento Nacional",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Senhor Representante Especial do Secretário-Geral da ONU",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "PESSOA",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Senhor Vice-Representante Especial do Secretário-Geral da ONU",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Representante Residente do Programa de Desenvolvimento das Nações Unidas",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Senhores Comandantes das F-FDTL e da PNTL",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Senhores Representantes do Corpo Diplomático",
+    "label": "PESSOA",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Senhoras",
+    "label": "PESSOA",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Senhores",
+    "label": "PESSOA",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Direitos Humanos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Declaração Universal dos Direitos Humanos",
+    "label": "OBRA",
+    "token_indices": [
+      82,
+      83,
+      84,
+      85,
+      86
+    ]
+  },
+  {
+    "text": "Assembleia Geral das Nações Unidas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      89,
+      90,
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "text": "10 de Dezembro de 1948",
+    "label": "TEMPO",
+    "token_indices": [
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
+  },
+  {
+    "text": "25 anos",
+    "label": "VALOR",
+    "token_indices": [
+      120,
+      121
+    ]
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      126
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Sua Excelência Senhor Presidente da República', 'PESSOA'), ('Sua Excelência Senhor Presidente do Parlamento Nacional', 'PESSOA'), ('Senhor Representante Especial do Secretário-Geral da ONU', 'PESSOA'), ('Governo', 'PESSOA'), ('Senhor Vice-Representante Especial do Secretário-Geral da ONU', 'PESSOA'), ('Representante Residente do Programa de Desenvolvimento das Nações Unidas', 'PESSOA'), ('Senhores Comandantes das F-FDTL e da PNTL', 'PESSOA'), ('Senhores Representantes do Corpo Diplomático', 'PESSOA'), ('Senhoras', 'PESSOA'), ('Senhores', 'PESSOA'), ('Direitos Humanos', 'ABSTRACCAO'), ('Declaração Universal dos Direitos Humanos', 'OBRA'), ('Assembleia Geral das Nações Unidas', 'ORGANIZACAO'), ('10 de Dezembro de 1948', 'TEMPO'), ('25 anos', 'VALOR'), ('Timor-Leste', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Aliás foram no passado recente motivos da nossa luta de libertação. O povo de Timor-Leste entende as ideias básicas de direitos humanos quando pedem mais segurança, liberdade, igualdade e justiça bem como desenvolvimento económico para cada um deles e as suas famílias. Timor-Leste como país independente está empenhado no respeito, na defesa e na promoção dos direitos humanos. No preâmbulo e nos 16.o a 73.o da nossa Constituição é explícito e inequívoco o apoio aos direitos, deveres, liberdades e garantias fundamentais e de outros direitos análogos. O Governo da República Democrática de Timor-Leste tem reiterado e demonstrado o seu empenho em criar e manter um ambiente seguro onde haja o respeito pelos direitos humanos, considerando e incluindo estes como aspectos nucleares na política do desenvolvimento. Por exemplo, o Plano Nacional de Desenvolvimento elaborado entre Setembro de 2001 e Maio de 2002 através de um processo participativo no qual se destaca o " Road Map " para o desenvolvimento do país nos próximos vinte anos, baseia-se em princípios fundamentais dos direitos humanos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Timor-Leste",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "16.o a 73.o",
+    "label": "LOCAL",
+    "token_indices": [
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Constituição",
+    "label": "OBRA",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Governo da República Democrática de Timor-Leste",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "text": "Plano Nacional de Desenvolvimento",
+    "label": "OBRA",
+    "token_indices": [
+      128,
+      129,
+      130,
+      131
+    ]
+  },
+  {
+    "text": "Setembro de 2001",
+    "label": "TEMPO",
+    "token_indices": [
+      134,
+      135,
+      136
+    ]
+  },
+  {
+    "text": "Maio de 2002",
+    "label": "TEMPO",
+    "token_indices": [
+      138,
+      139,
+      140
+    ]
+  },
+  {
+    "text": "Road Map",
+    "label": "OBRA",
+    "token_indices": [
+      152,
+      153
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Timor-Leste', 'LOCAL'), ('Timor-Leste', 'ORGANIZACAO'), ('16.o a 73.o', 'LOCAL'), ('Constituição', 'OBRA'), ('Governo da República Democrática de Timor-Leste', 'ORGANIZACAO'), ('Plano Nacional de Desenvolvimento', 'OBRA'), ('Setembro de 2001', 'TEMPO'), ('Maio de 2002', 'TEMPO'), ('Road Map', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Na área da educação o Estado reconhece e garante ao cidadão o direito à educação criando um sistema público de ensino básico universal. O Estado promove a literacia, aquisição de conhecimentos e capacitação aos cidadãos de forma a que possam participar activamente no desenvolvimento económico, social e político; Promove também a igualdade social e a unidade nacional, factores pertinentes a estabilidade do país e de cada um dos cidadãos. Promove a igualdade do género, o acesso as oportunidades, serviços, bens e privilégios, a não-discriminação no trabalho e noutras oportunidades. Defende e impulsiona o tratamento igual aos diversos grupos das populações de áreas diferentes; Tem feito esforços no sentido de impregnar a honestidade, imparcialidade, professionalismo, integridade, empenho, dedicação ao trabalho, eficiência, transparência e responsabilidade nos serviços públicos; Tem promovido o respeito e preservação dos valores e culturas dos vários grupos que constituem a sociedade timorense; A democracia, soberania, respeito dos direitos humanos e o princípio da legalidade, igualdade perante a lei, etc.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Estado', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como devem recordar-se reunimo-nos em 10 de Dezembro do ano passado para celebrarmos a assinatura de Timor-Leste dos tratados e convenções aos quais se obrigou. Hoje, temos razões para celebrar este dia aquí em Timor-Leste .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "10 de Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "10 de Dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Timor-Leste', 'ORGANIZACAO'), ('Timor-Leste', 'ORGANIZACAO')]
+Espúrias  (FP): [('Timor-Leste', 'LOCAL'), ('Timor-Leste', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O direito à igualdade, o direito à vida, a liberdade e segurança e integridade pessoal, a proibição da tortura, da discriminação e de tratamentos degradantes, o direito à justiça, a privacidade, a crença, a liberdade de opinião, de associação, a segurança social, o direito ao trabalho e a educação, estão entre outros consagrados na lei fundamental de Timor-Leste .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Timor-Leste",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Timor-Leste",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Timor-Leste', 'ORGANIZACAO')]
+Espúrias  (FP): [('Timor-Leste', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+É preocupação do Governo promover a boa governação. A formação e o treino das Falintil - Forças de Defesa de Timor-Leste , da Polícia Nacional de Timor-Leste e dos guardas prisionais são orientados pelos princípios dos direitos humanos. O mesmo acontece com o desenvolvimento e a implementação dos programas para os direitos das mulheres e das crianças. É do interesse do Governo que haja melhor aproximação entre as instituições do Governo e as ONGs bem como com outras organizações. Contudo, existe um certo número de áreas que necessitam de atenção urgente. Como por exemplo, a adaptação do direito interno aos tratados e convenções de que Timor-Leste é parte e o reforço do sistema judiciário e prisional. O Governo está ciente e entende que ao melhorar a opinião pública e da aceitação dos seus direitos e obrigações contribuirá ao fortalecimento e a defesa contra os abusos e violações dos direitos humanos. Esta é a razão da criação e do desenvolvimento de mecanismos de forma a assegurar a primazia dos direitos humanos em Timor-Leste e também de combater violações de direitos humanos onde quer que aconteçam.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Falintil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Forças de Defesa de Timor-Leste",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Polícia Nacional de Timor-Leste",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "ONGs",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      117
+    ]
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "LOCAL",
+    "token_indices": [
+      171
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Governo', 'ORGANIZACAO'), ('Falintil', 'ORGANIZACAO'), ('Forças de Defesa de Timor-Leste', 'ORGANIZACAO'), ('Polícia Nacional de Timor-Leste', 'ORGANIZACAO'), ('Governo', 'ORGANIZACAO'), ('Governo', 'ORGANIZACAO'), ('ONGs', 'ORGANIZACAO'), ('Timor-Leste', 'ORGANIZACAO'), ('Governo', 'ORGANIZACAO'), ('Timor-Leste', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Este Plano criará estruturas apropriadas de forma a promover e tutelar efectivamente os direitos humanos em Timor-Leste identificando também as prioridades, criando programas e fiscalizando os mecanismos de forma consistente e de harmonia com os propósitos políticos, culturais, legais, sociais e económicos. O Governo pretende incentivar, no próximo ano, diversidades sociais, económicas e culturais de acordo com as Convenções das Nações Unidas sobre os direitos económicos, sociais e culturais. No entanto, para que se possa realizar é necessário que haja contribuição de todos. O respeito pelos direitos humanos depende de cada um de nós, como indivíduos, organizações e instituições. Para que se torne realidade em Timor-Leste é necessário que cada um de nós seja um verdadeiro actor no processo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Plano",
+    "label": "OBRA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Convenções das Nações Unidas",
+    "label": "OBRA",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "LOCAL",
+    "token_indices": [
+      105
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Timor-Leste",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Convenções das Nações Unidas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Timor-Leste",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Plano', 'OBRA'), ('Timor-Leste', 'ORGANIZACAO'), ('Convenções das Nações Unidas', 'OBRA')]
+Espúrias  (FP): [('Convenções das Nações Unidas', 'ORGANIZACAO'), ('Timor-Leste', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+À menção do nome de Gates , Mindlin recorda uma história recente: - Outro dia uma revista de informática quis me fotografar segurando um e-book. Eu disse que só aceitaria se, na outra mão, houvesse um livro convencional. No dia marcado, o repórter disse: agora o senhor vai ver uma coisa maravilhosa. Mas na hora de ligar, o e-book não funcionou! Então eu disse: isso nunca aconteceria com um livro.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gates",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Mindlin",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gates",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mindlin",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Gates",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mindlin",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Gates', 'PESSOA'), ('Mindlin', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por outro lado, o uso do computador permite outras possibilidades no processo de criação e a internet garante acesso rápido a documentos e imagens. Por isso eu digo que é um falso dilema. Uma coisa eu digo: os livros vão sobreviver a nós e a várias e várias gerações... Matthew , por sua vez, vê certa negligência com os manuscritos de hoje, ao mesmo tempo que com aquilo que se perde no universo eletrônico: - Da mesma forma como os documentos pessais, notas fiscais, bilhetes de nosso tempo terão valor de raridade, a enorme quantidade de e-mails, textos de blogs e outros processos transitórios e efêmeros da internet podem estar escondendo preciosidades que a qualquer momento serão deletadas da História. Presente à conversa, que se deu na Biblioteca Nacional , o presidente da instituição, Pedro Corrêa do Lago , ilustra o paradoxo: - Imaginem se Shakespeare tivesse um blog e este fosse deletado...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Matthew",
+    "label": "PESSOA",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Biblioteca Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      127,
+      128
+    ]
+  },
+  {
+    "text": "Pedro Corrêa do Lago",
+    "label": "PESSOA",
+    "token_indices": [
+      134,
+      135,
+      136,
+      137
+    ]
+  },
+  {
+    "text": "Shakespeare",
+    "label": "PESSOA",
+    "token_indices": [
+      145
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Matthew",
+    "label": "PESSOA"
+  },
+  {
+    "text": "História",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Biblioteca Nacional",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Associação Brasileira de Bibliotecas Públicas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Abib",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carlos Alberto de Souza",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Biblioteca Nacional', 'ORGANIZACAO'), ('Pedro Corrêa do Lago', 'PESSOA'), ('Shakespeare', 'PESSOA')]
+Espúrias  (FP): [('História', 'ABSTRACCAO'), ('Biblioteca Nacional', 'LOCAL'), ('Associação Brasileira de Bibliotecas Públicas', 'ORGANIZACAO'), ('Abib', 'ORGANIZACAO'), ('Carlos Alberto de Souza', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Imaginem se os esboços, as anotações, os cadernos, aquilo que os grandes mestres deixaram de lado, não pudessem ser estudados pelas geraçoes futuras? " Farenheit 451 não é fantasia" A discussão segue num tour pelos corredores da BN em que se passou pelas seções de obras raras, iconografia e restauração, e ruma para o principal foco de interesse de Matthew : a destruição de bibliotecas, de Alexandria até o conflagrado século XX , que assistiu a queimas de livros em plena alvorada da modernidade. - Na verdade, o que se precisa evitar é a destruição. A terrível realidade descrita no filme " Farenheit 451 ", de Truffaut , em que o Corpo de Bombeiros tem a função de queimar livros, não é assim tão fantasiosa. À compulsão de ler contrapõe-se, historicamente, a tentação de destruir. - A pior tragédia que pode acontecer à Humanidade é a morte de seus livros - complementa Mindlin .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Farenheit 451",
+    "label": "OBRA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "BN",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Matthew",
+    "label": "PESSOA",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Alexandria",
+    "label": "LOCAL",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "século XX",
+    "label": "TEMPO",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Farenheit 451",
+    "label": "OBRA",
+    "token_indices": [
+      102,
+      103
+    ]
+  },
+  {
+    "text": "Truffaut",
+    "label": "PESSOA",
+    "token_indices": [
+      106
+    ]
+  },
+  {
+    "text": "Corpo de Bombeiros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      111,
+      112,
+      113
+    ]
+  },
+  {
+    "text": "Humanidade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      143
+    ]
+  },
+  {
+    "text": "Mindlin",
+    "label": "PESSOA",
+    "token_indices": [
+      152
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Farenheit 451",
+    "label": "OBRA"
+  },
+  {
+    "text": "BN",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Matthew",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alexandria",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Farenheit 451",
+    "label": "OBRA"
+  },
+  {
+    "text": "Truffaut",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('século XX', 'TEMPO'), ('Corpo de Bombeiros', 'ORGANIZACAO'), ('Humanidade', 'ABSTRACCAO'), ('Mindlin', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quem produziu a crise Três presidentes seguidos José Sarney , Fernando Collor e Itamar Franco incluiram por diversas vezes entre seus presumíveis feitos, a manutenção da democracia e das liberdades. Nada mais falso. Em alguns momentos de seu governo, os três comportaram-se como incendiários. Não conseguiram colocar a democracia em xeque, mais pelo amadurecimento da sociedade civil e militar, do que por convicção democrática propriamente dita. Desde o início de seu governo, Itamar foi estimulado por seus auxiliares menos escrupulosos a criar situações de confronto, que permitissem ao grupo ganhar espaço de manobra, ainda que às custas de crises políticas. José de Castro Agora, há indícios consistentes de que o principal estimulador dessa atitude de Itamar foi o presidente da Telerj , José de Castro , para recuperar a influência que tinha sobre o governo. Desde que Itamar assumiu o governo, depois de denúncias da imprensa José de Castro foi obrigado a voltar atrás em diversas operações pouco claras, articuladas tanto na Consultoria Geral da República quanto na presidência da Telerj .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José Sarney",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Fernando Collor",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Itamar Franco",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Itamar",
+    "label": "PESSOA",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "José de Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "text": "Itamar",
+    "label": "PESSOA",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Telerj",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      120
+    ]
+  },
+  {
+    "text": "José de Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      122,
+      123,
+      124
+    ]
+  },
+  {
+    "text": "Itamar",
+    "label": "PESSOA",
+    "token_indices": [
+      137
+    ]
+  },
+  {
+    "text": "José de Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      146,
+      147,
+      148
+    ]
+  },
+  {
+    "text": "Consultoria Geral da República",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      162,
+      163,
+      164,
+      165
+    ]
+  },
+  {
+    "text": "Telerj",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      170
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "José Sarney",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fernando Collor",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Itamar Franco",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Itamar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José de Castro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José de Castro",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Itamar', 'PESSOA'), ('Telerj', 'ORGANIZACAO'), ('Itamar', 'PESSOA'), ('José de Castro', 'PESSOA'), ('Consultoria Geral da República', 'ORGANIZACAO'), ('Telerj', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+De lá para cá, José de Castro limitou-se a sobreviver politicamente alimentando algumas colunas com notas pouco convincentes, a respeito de uma suposta influência que ainda mantinha sobre Itamar só divulgadas devido ao fato de ter a Telerj sob seu controle. A crise já tinha sido solucionada, após uma reunião na casa do procurador geral Aristides Junqueira , que juntou as principais lideranças do Congresso , membros do Supremo Tribunal Federal e FHC . Lideranças do Congresso , empenhadas em resolver a atual crise institucional, suspeitam que José de Castro tenha se valido de duas circunstancias para influenciar o presidente a criar o impasse atual. De um lado, sentimentos menores de Itamar , com ciúmes da popularidade conquistada por FHC , em contraste com sua própria imagem, arruinada após os episódios do sambódromo. "Alma árida" Este papel de José de Castro teria ficado claro segundo fontes parlamentares quando procurou FHC , com um comportamento classificado de autoritário e arrogante por estas fontes, dizendo-lhe que Itamar "proibira" qualquer alteração na MP da URV |MP da URV .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José de Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Itamar",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Telerj",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Aristides Junqueira",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Congresso",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Congresso",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "José de Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      87,
+      88,
+      89
+    ]
+  },
+  {
+    "text": "Itamar",
+    "label": "PESSOA",
+    "token_indices": [
+      111
+    ]
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA",
+    "token_indices": [
+      119
+    ]
+  },
+  {
+    "text": "José de Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      138,
+      139,
+      140
+    ]
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA",
+    "token_indices": [
+      149
+    ]
+  },
+  {
+    "text": "Itamar",
+    "label": "PESSOA",
+    "token_indices": [
+      164
+    ]
+  },
+  {
+    "text": "MP",
+    "label": "OBRA",
+    "token_indices": [
+      169
+    ]
+  },
+  {
+    "text": "URV",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      171
+    ]
+  },
+  {
+    "text": "URV",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      174
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "José de Castro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Itamar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Telerj",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Congresso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Congresso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Aristides Junqueira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Congresso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Itamar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('José de Castro', 'PESSOA'), ('José de Castro', 'PESSOA'), ('Itamar', 'PESSOA'), ('MP', 'OBRA'), ('URV', 'ABSTRACCAO'), ('URV', 'ABSTRACCAO')]
+Espúrias  (FP): [('Congresso', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No fim da tarde, as declarações do diretor da Polícia Federal , Wilson Romão , demonstram que o presidente está apostando em um endurecimento político. Só um impasse grave conseguirá mudar o atual sistema institucional e convencer os donos do Estado a permitirem sua reforma por uma constituinte exclusiva, composta por representantes da sociedade civil. Mas o impasse atual não tem grandeza. É hora de se encarar seriamente a hipótese de processar o presidente da República por crime de responsabilidade.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Polícia Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Wilson Romão",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "presidente da República",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74,
+      75
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Polícia Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Wilson Romão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('presidente da República', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sunab autua empresas por alta abusiva dos preços Da Sucursal de Brasília e da Reportagem Local A Sunab ( Superintendência Nacional de Abastecimento ) autuou 62 estabelecimentos comerciais em 16 Estados entre 27 de junho e 8 de julho último. O motivo da autuação foi a prática de aumento abusivo de preços acima da variação dos custos de acordo com a nova Lei Antitruste (nº 8.884/94) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sunab",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Sucursal de Brasília",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Reportagem Local",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Sunab",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Superintendência Nacional de Abastecimento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "62",
+    "label": "VALOR",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "16",
+    "label": "VALOR",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "27 de junho",
+    "label": "TEMPO",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "8 de julho",
+    "label": "TEMPO",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Lei Antitruste (nº 8.884/94)",
+    "label": "OBRA",
+    "token_indices": [
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sunab",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sucursal de Brasília",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei Antitruste",
+    "label": "OBRA"
+  },
+  {
+    "text": "nº 8.884/94",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Reportagem Local', 'ORGANIZACAO'), ('Sunab', 'ORGANIZACAO'), ('Superintendência Nacional de Abastecimento', 'ORGANIZACAO'), ('62', 'VALOR'), ('16', 'VALOR'), ('27 de junho', 'TEMPO'), ('8 de julho', 'TEMPO'), ('Lei Antitruste (nº 8.884/94)', 'OBRA')]
+Espúrias  (FP): [('Lei Antitruste', 'OBRA'), ('nº 8.884/94', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A fiscalização também foi motivada pelo descumprimento de normas de comercialização. Entre os autuados, estão seis supermercados e oito indústrias. A Sunab também constatou a prática de aumento abusivo de preços em outros 23 estabelecimentos comerciais. Supermercados A Procuradoria do Estado de São Paulo deve finalizar os pareceres sobre os sete supermercados autuados pelo Procon dentro de uma semana .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sunab",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "23",
+    "label": "VALOR",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Procuradoria do Estado de São Paulo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Procon",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sunab",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Procon",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sunab",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Procuradoria do Estado de São Paulo",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('23', 'VALOR')]
+Espúrias  (FP): [('Sunab', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eles teriam vendido em março acima da média dos últimos quatro meses de 93 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "março",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "93",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "março",
+    "label": "TEMPO"
+  },
+  {
+    "text": "93",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('93', 'TEMPO')]
+Espúrias  (FP): [('93', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os supermercadistas apresentaram defesa. Averiguação As empresas de vale-refeição deverão ser alvo de um processo de averiguação preliminar feito pelo governo. Em representação entregue ontem ao Ministério da Justiça , elas foram acusadas de terem formado cartel para aumentar em até 200% a taxa cobrada pelos seus serviços. A representação foi encaminhada pelo comerciante paulista Ronaldo Cheguri de Almeida , em nome de cerca de 300 donos de bares e restaurantes de São Paulo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério da Justiça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "200%",
+    "label": "VALOR",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Ronaldo Cheguri de Almeida",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "cerca de 300",
+    "label": "VALOR",
+    "token_indices": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      72,
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ministério da Justiça",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('200%', 'VALOR'), ('Ronaldo Cheguri de Almeida', 'PESSOA'), ('cerca de 300', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A cerimónia da entrega dos prémios será feita dia 10 de Setembro , às 17 horas , na sede da APSS . Com este concurso, a APSS teve como objectivo conseguir um logotipo para promoção da imagem comercial do porto de Setúbal , mantendo-se o logotipo institucional da APSS . O júri do concurso foi constituído pelo presidente do conselho de administração da APSS , Coelho da Mota , pelo arquitecto Eduardo Carqueijeiro e pelo artista plástico Rogério Chora .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "10 de Setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "17 horas",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Setúbal",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "Coelho da Mota",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Eduardo Carqueijeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Rogério Chora",
+    "label": "PESSOA",
+    "token_indices": [
+      77,
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "10 de Setembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "17 horas",
+    "label": "TEMPO"
+  },
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Coelho da Mota",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Eduardo Carqueijeiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rogério Chora",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Setúbal', 'LOCAL'), ('APSS', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Recorde-se que com este concurso, a APSS também procurou envolver os estabelecimentos de ensino da região de Setúbal , dentro da sua perspectiva de abertura do porto às escolas, já iniciada com a visita de várias turmas às instalações portuárias. Nos termos do concurso, o logotipo terá a frase « Porto de Setúbal » e/ou « Port of Setubal », só podendo incluir três cores e os trabalhos foram apresentados como anónimos. Todos os desenhos premiados são pertença da APSS e qualquer um poderá ser adoptado como logotipo do porto de Setúbal , por decisão do Conselho de Administração , depois de ouvido o Júri , estipula ainda o regulamento do concurso, pelo que se mantém a curiosidade de saber qual e de quem é o logotipo a ser utilizado pelo porto de Setúbal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Setúbal",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Porto de Setúbal",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Port of Setubal",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Setúbal",
+    "label": "LOCAL",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "Conselho de Administração",
+    "label": "PESSOA",
+    "token_indices": [
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "text": "Júri",
+    "label": "PESSOA",
+    "token_indices": [
+      104
+    ]
+  },
+  {
+    "text": "Setúbal",
+    "label": "LOCAL",
+    "token_indices": [
+      133
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "APSS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Porto de Setúbal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Porto de Setúbal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho de Administração",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Setúbal', 'LOCAL'), ('Porto de Setúbal', 'ABSTRACCAO'), ('Port of Setubal', 'ABSTRACCAO'), ('Setúbal', 'LOCAL'), ('Conselho de Administração', 'PESSOA'), ('Júri', 'PESSOA'), ('Setúbal', 'LOCAL')]
+Espúrias  (FP): [('Porto de Setúbal', 'ORGANIZACAO'), ('Porto de Setúbal', 'ORGANIZACAO'), ('Conselho de Administração', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com esta aposta na imagem, os portos de Setúbal e Sesimbra preparam-se para o fim da década, quando tiverem como grande cliente a fábrica da Ford/Volkswagen .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Setúbal",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Sesimbra",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Ford/Volkswagen",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Setúbal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sesimbra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ford",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Volkswagen",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Ford/Volkswagen', 'ORGANIZACAO')]
+Espúrias  (FP): [('Ford', 'ORGANIZACAO'), ('Volkswagen', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Escutismo distingue Câmara de Santo Tirso O Corpo Nacional de Escutas ( CNE ) atribuiu ontem à Câmara de Santo Tirso o diploma de Mérito Nacional , a sua mais alta distinção, pelo «apoio incondicional da autarquia ao escutismo no concelho». A atribuição desta distinção surge no âmbito das comemorações dos 75 anos de existência do Movimento Escuteiro de Portugal , cujas festividades decorreram durante o mês de Dezembro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Câmara de Santo Tirso",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Corpo Nacional de Escutas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "CNE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Câmara de Santo Tirso",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Mérito Nacional",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "75 anos",
+    "label": "VALOR",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Movimento Escuteiro de Portugal",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara de Santo Tirso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Corpo Nacional de Escutas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CNE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Câmara de Santo Tirso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mérito Nacional",
+    "label": "OUTRO"
+  },
+  {
+    "text": "75 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Movimento Escuteiro de Portugal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Dezembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Mérito Nacional', 'ABSTRACCAO'), ('Movimento Escuteiro de Portugal', 'ABSTRACCAO')]
+Espúrias  (FP): [('Mérito Nacional', 'OUTRO'), ('Movimento Escuteiro de Portugal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+«A Câmara de Santo Tirso tem apoiado, incondicionalmente e desde sempre, o escutismo no concelho, criando melhores condições para que os Agrupamentos de Escuteiros |Agrupamentos de Escuteiros |Agrupamentos de Escuteiros existentes no município façam chegar às escolas e aos jovens locais os seus inúmeros projectos educativos», sublinhou fonte da CNE .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Câmara de Santo Tirso",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Agrupamentos de Escuteiros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Escuteiros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "CNE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara de Santo Tirso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Agrupamentos de Escuteiros",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Agrupamentos de Escuteiros",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CNE",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Escuteiros', 'ORGANIZACAO')]
+Espúrias  (FP): [('Agrupamentos de Escuteiros', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+ORGANIZAÇÃO ESTRUTURAL DA MEMBRANA A membrana celular é uma camada com apenas 7,5 a 10 nm de espessura, constituída por lípidos intercalados com proteínas que define os limites de cada célula. Funciona como uma barreira de permeabilidade que permite à célula manter um meio químico apropriado para os seus processos metabólicos, regular o volume citoplasmático e transferir informação sob a forma de sinais químicos e eléctricos. As membranas que revestem os vários organelos (núcleo, mitocôndria, retículo endoplasmático, lisossomas e aparelho de Golgi) permitem a compartimentalização funcional da célula, com possibilidade de limitar processos bioquímicas a certos locais. Apesar das particularidades individuais, todas as membranas biológicas são formadas por uma dupla camada fosfolípidica e por proteínas unidas por ligações covalentes e que se comportam segundo o Modelo Mosaico Fluído .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "7,5 a 10 nm",
+    "label": "VALOR",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Modelo Mosaico Fluído",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      125,
+      126,
+      127
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('7,5 a 10 nm', 'VALOR'), ('Modelo Mosaico Fluído', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+VEJA NA TV e COMPRE AQUI PELA METADE DO PREÇO Detalhes Na TV por R$ 399,00 Aqui por 6 de R$ 33,00 clique aqui e veja mais Para se descadastrar de nosso mailing, clique aqui. Todos nossas campanhas de E-Mail Marketing contam com sistema automático de descadastramento de e-mails. Esta promoção tem válidade de uma semana ou até acabarem os estoques.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "R$ 399,00",
+    "label": "VALOR",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "6",
+    "label": "VALOR",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "R$ 33,00",
+    "label": "VALOR",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "E-Mail Marketing",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      39,
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "R$ 399,00",
+    "label": "VALOR"
+  },
+  {
+    "text": "6",
+    "label": "VALOR"
+  },
+  {
+    "text": "R$ 33,00",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('E-Mail Marketing', 'ABSTRACCAO')]
+Espúrias  (FP): []
+

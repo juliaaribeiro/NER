@@ -1,0 +1,3225 @@
+--------------------------------------------------------------------------------
+Texto:
+Camilo Castelo Branco Na última noite do Carnaval , que foi justamente aos 8 dias do mês de Fevereiro , do corrente ano, pelas 9 horas e meia da noite entrava no Teatro de S. João , desta heróica e muito nobre e sempre leal cidade, um dominó de cetim. Dera ele os dois primeiros passos no pavimento da plateia, quando um outro dominó de veludo preto veio colocar-se-lhe frente a frente, numa contemplação imóvel. O primeiro demorou-se um pouco a medir as alturas do seu admirador, e virou-lhe as costas com indiferença natural. O segundo, momentos depois, aparecia ao lado do primeiro, com a mesma atenção, com a mesma penetração de vista. Desta vez o dominó-cetim aventurou uma pergunta naquele desgracioso falsete, que todos nós conhecemos : - « Não quer mais do que isso ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Camilo Castelo Branco",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Carnaval",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "8 dias",
+    "label": "VALOR",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Fevereiro",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "9 horas e meia da noite",
+    "label": "TEMPO",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Teatro de S. João",
+    "label": "LOCAL",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Camilo Castelo Branco', 'PESSOA'), ('Carnaval', 'TEMPO'), ('8 dias', 'VALOR'), ('Fevereiro', 'TEMPO'), ('9 horas e meia da noite', 'TEMPO'), ('Teatro de S. João', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+disse o cetim ?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "cetim",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('cetim', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+respondeu o veludo. - « Então, deixa-me, ou diz-me alguma coisa ainda que seja uma sensaboria, mais eloquente que o teu silêncio. » - « Não te quero embrutecer. Sei que tens muito espírito, e seria um crime de lesa-Carnaval se te dissesse alguma dessas graças salobras, capazes de fazer calar para todo o sempre um Demóstenes de dominó. O cetim mudou de opinião a respeito do seu perseguidor. E não admira que o recebesse com rudeza no princípio, porque, em Portugal , um dominó em corpo de mulher, que passeia « sozinha » num teatro, permite umas suspeitas que não abonam as virtudes do dominó, nem lisonjeiam a vaidade de quem lhe recebe o conhecimento. Mas a mulher em quem recai semelhante hipótese não conhece Demóstenes , nem diz lesa-Carnaval , nem aguça a frase com o adjectivo salobras. O cetim arrependeu-se da aspereza com que recebera os atenciosos olhares daquela incógnita, que principiava a fazer-se valer como tudo aquilo que apenas se conhece por uma face boa. O cetim juraria, pelo menos, que aquela mulher não era estúpida. E, seja dito sem tenção ofensiva, já não era insignificante a descoberta, porque é mais fácil descobrir um mundo novo que uma mulher ilustrada. É mais fácil ser Cristóvão Colombo que Emílio Girardin .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "lesa-Carnaval",
+    "label": "OUTRO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Demóstenes",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Demóstenes",
+    "label": "PESSOA",
+    "token_indices": [
+      126
+    ]
+  },
+  {
+    "text": "lesa-Carnaval",
+    "label": "OUTRO",
+    "token_indices": [
+      130
+    ]
+  },
+  {
+    "text": "Cristóvão Colombo",
+    "label": "PESSOA",
+    "token_indices": [
+      208,
+      209
+    ]
+  },
+  {
+    "text": "Emílio Girardin",
+    "label": "PESSOA",
+    "token_indices": [
+      211,
+      212
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Carnaval",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Demóstenes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('lesa-Carnaval', 'OUTRO'), ('Demóstenes', 'ABSTRACCAO'), ('lesa-Carnaval', 'OUTRO'), ('Cristóvão Colombo', 'PESSOA'), ('Emílio Girardin', 'PESSOA')]
+Espúrias  (FP): [('Carnaval', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+« que o teu contacto me espiritualiza, belo dominó! » - « Belo, me chamas tu !! É realmente uma leviandade que te não faz honra !! Se eu levantasse esta sanefa de seda, que me faz bonita, ficavas como aquele poeta espanhol que soltou uma exclamação de terror na presença de um nariz! que nariz não seria, santo Deus !! Não sabes essa história ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "espanhol",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('espanhol', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+» - «Não, meu anjo !
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Não",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Não', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Imagina que o tédio desta vida chilra que se vive no Porto te obrigou a deixar no teu quarto a pitonissa descabelada das tuas inspirações, e vieste por aqui dentro a procurar um passatempo nestes passatempos alvares de um baile de Carnaval .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Carnaval",
+    "label": "TEMPO",
+    "token_indices": [
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Carnaval",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Carnaval', 'TEMPO')]
+Espúrias  (FP): [('Carnaval', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+» - « Conheces-me ?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Conheces-me",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Conheces-me', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+(todos) Ação/Aventura Cinema Brasileiro Comédia Desenho Documentário Drama Ficção Científica Filme de Arte Guerra Infantil Musical Romance Show/Espetáculo Suspense Terror Western título diretor ator/atriz ano País Distribuidora DVD Pânico 2 PRÉ-VENDA R$35,90 MIB Homens de Preto - Grátis Camiseta R$37,90 DVD O Exterminador do Futuro R$29,90 DVD News Jimi Hendrix em dose dupla por Marina Person Os títulos musicais sempre são os prediletos na maioria das DVDtecas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação/Aventura",
+    "label": "COISA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Cinema Brasileiro",
+    "label": "COISA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Comédia",
+    "label": "COISA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Desenho",
+    "label": "COISA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Documentário",
+    "label": "COISA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Drama",
+    "label": "COISA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Ficção Científica",
+    "label": "COISA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Filme de Arte",
+    "label": "COISA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Guerra",
+    "label": "COISA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Infantil",
+    "label": "COISA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Musical",
+    "label": "COISA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Romance",
+    "label": "COISA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Show/Espetáculo",
+    "label": "COISA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Suspense",
+    "label": "COISA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Terror",
+    "label": "COISA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Western",
+    "label": "COISA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "País",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Distribuidora",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Pânico 2",
+    "label": "OBRA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "R$35,90",
+    "label": "VALOR",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "MIB Homens de Preto",
+    "label": "OBRA",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "R$37,90",
+    "label": "VALOR",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "O Exterminador do Futuro",
+    "label": "OBRA",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "R$29,90",
+    "label": "VALOR",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Jimi Hendrix",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Marina Person",
+    "label": "PESSOA",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "DVDtecas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ação/Aventura', 'COISA'), ('Cinema Brasileiro', 'COISA'), ('Comédia', 'COISA'), ('Desenho', 'COISA'), ('Documentário', 'COISA'), ('Drama', 'COISA'), ('Ficção Científica', 'COISA'), ('Filme de Arte', 'COISA'), ('Guerra', 'COISA'), ('Infantil', 'COISA'), ('Musical', 'COISA'), ('Romance', 'COISA'), ('Show/Espetáculo', 'COISA'), ('Suspense', 'COISA'), ('Terror', 'COISA'), ('Western', 'COISA'), ('País', 'LOCAL'), ('Distribuidora', 'ORGANIZACAO'), ('Pânico 2', 'OBRA'), ('R$35,90', 'VALOR'), ('MIB Homens de Preto', 'OBRA'), ('R$37,90', 'VALOR'), ('O Exterminador do Futuro', 'OBRA'), ('R$29,90', 'VALOR'), ('Jimi Hendrix', 'ABSTRACCAO'), ('Marina Person', 'PESSOA'), ('DVDtecas', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O segundo título, Band of Gypsys , é um documentário que procura ir além do mito Jimi Hendrix .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Band of Gypsys",
+    "label": "OBRA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Jimi Hendrix",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Band of Gypsys",
+    "label": "OBRA"
+  },
+  {
+    "text": "Jimi Hendrix",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Jimi Hendrix', 'ABSTRACCAO')]
+Espúrias  (FP): [('Jimi Hendrix', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Trinta anos depois da sua morte, ele ainda é considerado o pai de todos os guitarristas. O documentário inclui entrevistas com músicos de hoje, que foram influenciados pelo seu estilo e originalidade. Os depoimentos de Lenny Kravitz , Vernon Reid do Living Colour e Slash do Guns 'n Roses dão a dimensão do fenômeno Hendrix , o porquê dele ser único, incomparável. Algumas boas histórias também são contadas pelo engenheiro de som Eddie Kramer , e, claro, pelos seus companheiros de banda: Buddy Miles e Billy Cox , respectivamente o baterista e baixista da Band of Gypsys , e mais os parceiros na outra banda, Experience , Mitch Mitchell e Noel Redding .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Trinta anos",
+    "label": "VALOR",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Lenny Kravitz",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Vernon Reid",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Living Colour",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Slash",
+    "label": "PESSOA",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Guns 'n Roses",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Hendrix",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Eddie Kramer",
+    "label": "PESSOA",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Buddy Miles",
+    "label": "PESSOA",
+    "token_indices": [
+      82,
+      83
+    ]
+  },
+  {
+    "text": "Billy Cox",
+    "label": "PESSOA",
+    "token_indices": [
+      85,
+      86
+    ]
+  },
+  {
+    "text": "Band of Gypsys",
+    "label": "PESSOA",
+    "token_indices": [
+      94,
+      95,
+      96
+    ]
+  },
+  {
+    "text": "Experience",
+    "label": "PESSOA",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "Mitch Mitchell",
+    "label": "PESSOA",
+    "token_indices": [
+      107,
+      108
+    ]
+  },
+  {
+    "text": "Noel Redding",
+    "label": "PESSOA",
+    "token_indices": [
+      110,
+      111
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Trinta",
+    "label": "VALOR"
+  },
+  {
+    "text": "Hendrix",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lenny Kravitz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Vernon Reid",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Living Colour",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Slash",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Guns 'n Roses",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Eddie Kramer",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Band of Gypsys",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Buddy Miles",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Billy Cox",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Experience",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mitch Mitchell",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Noel Redding",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Trinta anos', 'VALOR'), ('Living Colour', 'PESSOA'), ("Guns 'n Roses", 'PESSOA'), ('Hendrix', 'ABSTRACCAO'), ('Band of Gypsys', 'PESSOA'), ('Experience', 'PESSOA')]
+Espúrias  (FP): [('Trinta', 'VALOR'), ('Hendrix', 'PESSOA'), ('Living Colour', 'ORGANIZACAO'), ("Guns 'n Roses", 'ORGANIZACAO'), ('Band of Gypsys', 'ORGANIZACAO'), ('Experience', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O DVD |DVD também inclui imagens raras e inéditas em vídeo ou TV e fotos do histórico show em Fillmore East .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DVD",
+    "label": "OBRA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Fillmore East",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DVD",
+    "label": "COISA"
+  },
+  {
+    "text": "DVD",
+    "label": "COISA"
+  },
+  {
+    "text": "Fillmore East",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('DVD', 'OBRA')]
+Espúrias  (FP): [('DVD', 'COISA'), ('DVD', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Imperdível! Leia também outras matérias assinadas por Marina Person : Capital Inicial O melhor do DVD para suas férias Tubarão em DVD Marina Person comenta o MTV Movie Awards DVD Castelo Rá-Tim-Bum: repleto de extras Boas surpresas DVDs para o Dia das Mães Marina Person é colunista do site Guia DVD e VJ da MTV . Atualmente, ela apresenta o programa Contato MTV , produz uma coluna na revista Isto É Gente e outra - sobre cinema - para o site da MTV . Marina dirigiu, ao lado de Jorge Espírito-Santo o curta-metragem " Almoço Executivo ", que recebeu os prêmios de melhor direção nos Festivais de Gramado e Riocine .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Marina Person",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Tubarão",
+    "label": "OBRA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Marina Person",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "MTV Movie Awards",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Dia das Mães",
+    "label": "TEMPO",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Marina Person",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Guia DVD",
+    "label": "LOCAL",
+    "token_indices": [
+      49,
+      50
+    ]
+  },
+  {
+    "text": "VJ da MTV",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Contato MTV",
+    "label": "LOCAL",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Isto É Gente",
+    "label": "LOCAL",
+    "token_indices": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "MTV",
+    "label": "LOCAL",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "Marina",
+    "label": "PESSOA",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "Jorge Espírito-Santo",
+    "label": "PESSOA",
+    "token_indices": [
+      89,
+      90
+    ]
+  },
+  {
+    "text": "Almoço Executivo",
+    "label": "OBRA",
+    "token_indices": [
+      94,
+      95
+    ]
+  },
+  {
+    "text": "Festivais de Gramado",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      105,
+      106,
+      107
+    ]
+  },
+  {
+    "text": "Riocine",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      109
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Marina Person', 'PESSOA'), ('Tubarão', 'OBRA'), ('Marina Person', 'PESSOA'), ('MTV Movie Awards', 'ACONTECIMENTO'), ('Dia das Mães', 'TEMPO'), ('Marina Person', 'PESSOA'), ('Guia DVD', 'LOCAL'), ('VJ da MTV', 'PESSOA'), ('Contato MTV', 'LOCAL'), ('Isto É Gente', 'LOCAL'), ('MTV', 'LOCAL'), ('Marina', 'PESSOA'), ('Jorge Espírito-Santo', 'PESSOA'), ('Almoço Executivo', 'OBRA'), ('Festivais de Gramado', 'ACONTECIMENTO'), ('Riocine', 'ACONTECIMENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A primeira fase, estendendo-se, em Angola , até 1881 , antecedendo, portanto, a saída da noveleta Nga mutúri ( 1882 ), de Alfredo Troni , caracteriza-se pelo Baixo-romantismo (aplicamos aqui, para uso generalizado, a expressão de Fátima Mendonça relativa a Moçambique ), de clara adopção portuguesa, embora também com contributos franceses e ingleses. O seu populismo cultural pode chamar-se exógeno, na medida em que as apetências populares, em formas e temas, dizem respeito à herança cultural lusíada, apresentada como paradigma a seguir com inequívoco deslumbramento, cedendo o passo às coisas angolanas somente em termos de encomiástica referencialidade espacial ou onomástica, não propriamente social, histórica ou política, o que apenas aconteceria mais tarde, por exemplo, com a Mensagem .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "1881",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Nga mutúri",
+    "label": "OBRA",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "1882",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Alfredo Troni",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Baixo-romantismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Fátima Mendonça",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Moçambique",
+    "label": "LOCAL",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Mensagem",
+    "label": "OBRA",
+    "token_indices": [
+      116
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Angola",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1881",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Nga mutúri",
+    "label": "OBRA"
+  },
+  {
+    "text": "1882",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Alfredo Troni",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Baixo-romantismo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Fátima Mendonça",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Moçambique",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Mensagem', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Tendo em atenção que o negro surge tratado nos textos, se bem que do ponto de vista de um complexo de inferioridade, enquanto indivíduo com possibilidades de ascensão social, com frequência como figura central (em poemas ou na noveleta Nga mutúri ), chamamos a esta fase a do Negro-realismo (termo criado para indicar uma realidade literária específica de África , bastante aproximada dos Negrismos americanos). Sob o signo da Conferência de Berlim , estigma colonial que marcará, a ferro e fogo, o continente africano até depois da Primeira Guerra Mundial , esta fase, que vai sensivelmente até 1900 , é co-natural à "imprensa livre" e assume o negro (mais particularmente, a negra) como personagem ou figura que aspira à integração na sociedade (não o conseguindo integralmente, por preconceito ou inacabamento do processo).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nga mutúri",
+    "label": "OBRA",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Negro-realismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "África",
+    "label": "LOCAL",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Negrismos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "Conferência de Berlim",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Primeira Guerra Mundial",
+    "label": "TEMPO",
+    "token_indices": [
+      87,
+      88,
+      89
+    ]
+  },
+  {
+    "text": "1900",
+    "label": "TEMPO",
+    "token_indices": [
+      97
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Nga mutúri",
+    "label": "OBRA"
+  },
+  {
+    "text": "África",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Negro-realismo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Negrismos",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Conferência de Berlim",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Primeira Guerra Mundial",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "1900",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Primeira Guerra Mundial', 'TEMPO')]
+Espúrias  (FP): [('Primeira Guerra Mundial', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Alfredo Troni e Cordeiro da Matta , em Angola , Costa Alegre , em São Tomé e Príncipe , ou Campos Oliveira , em Moçambique , representam essa faceta de referir a cor da pele com preconceito, ou, então, sem a assumir descomplexadamente, mesmo que se verifique uma aculturação que, em princípio, conduziria a uma hipotética integração plena. Numa concepção irrestrita, mas não ecléctica, de Realismo oitocentista aplicado às colónias, o Negro-realismo abrange efeitos estilísticos e imagéticos pertencentes ao território do parnasianismo, do simbolismo e do decadentismo, entendidos estes como meros epifenómenos na continuação do predomínio daquele. Segue-se a terceira fase, do Regionalismo Africano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alfredo Troni",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Cordeiro da Matta",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Costa Alegre",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "São Tomé e Príncipe",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Campos Oliveira",
+    "label": "LOCAL",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Moçambique",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Realismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Negro-realismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "Regionalismo Africano",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      102,
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Alfredo Troni', 'PESSOA'), ('Cordeiro da Matta', 'PESSOA'), ('Angola', 'LOCAL'), ('Costa Alegre', 'LOCAL'), ('São Tomé e Príncipe', 'LOCAL'), ('Campos Oliveira', 'LOCAL'), ('Moçambique', 'LOCAL'), ('Realismo', 'ABSTRACCAO'), ('Negro-realismo', 'ABSTRACCAO'), ('Regionalismo Africano', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No início do século XX , em 1901 , em Angola , a intervenção colectiva de um grupo de intelectuais que se manifestou contra um artigo colonialista de jornal, reunindo colaborações sob o título de Voz d’Angola - clamando no deserto ( 1901 ), abriu uma frente de reivindicação da igualdade e fraternidade, precursora dos direitos humanos, definível como nativismo (início do Regionalismo ), quer dizer, de uma postura decisivamente consciente de anseios autonomistas, reagindo às guerras de ocupação movidas pela potência colonizadora. Qualquer modo de Regionalismo Africano ( 1901-194l ), seja o nativismo ou o tipicismo, é também um modo de africanidade dos primeiros momentos (por localista que seja), antecedendo a decisiva assunção da africanidade negritudinista, esta muito mais radical segundo a prática pan-africanista de Césaire , Du Bois e Padmore .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "século XX",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "1901",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Voz d’Angola",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "1901",
+    "label": "TEMPO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Regionalismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Regionalismo Africano",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      86,
+      87
+    ]
+  },
+  {
+    "text": "1901-194l",
+    "label": "TEMPO",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "Césaire",
+    "label": "PESSOA",
+    "token_indices": [
+      126
+    ]
+  },
+  {
+    "text": "Du Bois",
+    "label": "PESSOA",
+    "token_indices": [
+      128,
+      129
+    ]
+  },
+  {
+    "text": "Padmore",
+    "label": "PESSOA",
+    "token_indices": [
+      131
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('século XX', 'TEMPO'), ('1901', 'TEMPO'), ('Angola', 'LOCAL'), ('Voz d’Angola', 'ABSTRACCAO'), ('1901', 'TEMPO'), ('Regionalismo', 'ABSTRACCAO'), ('Regionalismo Africano', 'ABSTRACCAO'), ('1901-194l', 'TEMPO'), ('Césaire', 'PESSOA'), ('Du Bois', 'PESSOA'), ('Padmore', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O primeiro Regionalismo Africano , o do nativismo, visível na " Ode a África " e na actividade jornalística do Manduco de Pedro Cardoso ( Cabo Verde ), em " Surge et ambula " e outros poemas de Rui de Noronha ( Moçambique ), em poemas vários de Marcelo da Veiga ( São Tomé e Príncipe ), ou em António de Assis Júnior ( Angola ), transforma-se numa subtil, mas decidida, primeira "insurgência" anti-metropolitana.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Regionalismo Africano",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Ode a África",
+    "label": "OBRA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Manduco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Pedro Cardoso",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Cabo Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Surge et ambula",
+    "label": "OBRA",
+    "token_indices": [
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Rui de Noronha",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Moçambique",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Marcelo da Veiga",
+    "label": "PESSOA",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "São Tomé e Príncipe",
+    "label": "LOCAL",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "António de Assis Júnior",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      59,
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Regionalismo Africano",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Ode a África",
+    "label": "OBRA"
+  },
+  {
+    "text": "Manduco de Pedro Cardoso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cabo Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Surge et ambula",
+    "label": "OBRA"
+  },
+  {
+    "text": "Rui de Noronha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Moçambique",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marcelo da Veiga",
+    "label": "PESSOA"
+  },
+  {
+    "text": "São Tomé e Príncipe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "António de Assis Júnior",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Manduco', 'ORGANIZACAO'), ('Pedro Cardoso', 'PESSOA'), ('António de Assis Júnior', 'ABSTRACCAO')]
+Espúrias  (FP): [('Manduco de Pedro Cardoso', 'PESSOA'), ('António de Assis Júnior', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Andradas Hoje Online Ano III - Número 118 Edição Digital nº 40 Andradas , 07 de Maio de 2000 Esportes Futebol - Estádio em Reforma - Perfil Rio Branco enfrenta América em BH O time de Andradas treinou toda a semana para o difícil compromisso deste domingo, às 17 horas , no Estádio Independência América Mineiro está em 3º lugar e ainda briga por uma das vagas na final do Campeonato Mineiro , sendo que uma vaga já é do Atlético Mineiro , que soma 25 pontos. O Cruzeiro vem a seguir, com 15 e o próprio América em seguida, com 13 pontos. Sendo assim, o jogo é de suma importância para o time da Capital e, por outro lado, o time de Andradas também, briga para ser o melhor do interior, onde muitas emoções com certeza estarão reservadas para esta partida. Até o fechamento desta edição, o técnico Ivan Silva ainda não tinha definido a equipe considerada titular. Nos trabalhos realizados durante a semana aconteceram diversas mudanças no time titular: saíram Celson (goleiro), Samis (lateral), Arilson (volante) e Washington (atacante); foram aproveitados Vítor , Celinho , Rafael e Kelinho .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Andradas",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Ano III - Número 118 Edição Digital nº 40",
+    "label": "OBRA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Andradas",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "07 de Maio de 2000",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Rio Branco",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "América",
+    "label": "PESSOA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "BH",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Andradas",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "17 horas",
+    "label": "TEMPO",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Estádio Independência América",
+    "label": "LOCAL",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Mineiro",
+    "label": "PESSOA",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "3º",
+    "label": "VALOR",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Campeonato Mineiro",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Atlético Mineiro",
+    "label": "PESSOA",
+    "token_indices": [
+      80,
+      81
+    ]
+  },
+  {
+    "text": "25",
+    "label": "VALOR",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Cruzeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "15",
+    "label": "VALOR",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "América",
+    "label": "PESSOA",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "13",
+    "label": "VALOR",
+    "token_indices": [
+      101
+    ]
+  },
+  {
+    "text": "Capital",
+    "label": "LOCAL",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Andradas",
+    "label": "LOCAL",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "Ivan Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      149,
+      150
+    ]
+  },
+  {
+    "text": "Celson",
+    "label": "PESSOA",
+    "token_indices": [
+      172
+    ]
+  },
+  {
+    "text": "Samis",
+    "label": "PESSOA",
+    "token_indices": [
+      174
+    ]
+  },
+  {
+    "text": "Arilson",
+    "label": "PESSOA",
+    "token_indices": [
+      176
+    ]
+  },
+  {
+    "text": "Washington",
+    "label": "PESSOA",
+    "token_indices": [
+      179
+    ]
+  },
+  {
+    "text": "Vítor",
+    "label": "PESSOA",
+    "token_indices": [
+      183
+    ]
+  },
+  {
+    "text": "Celinho",
+    "label": "PESSOA",
+    "token_indices": [
+      185
+    ]
+  },
+  {
+    "text": "Rafael",
+    "label": "PESSOA",
+    "token_indices": [
+      187
+    ]
+  },
+  {
+    "text": "Kelinho",
+    "label": "PESSOA",
+    "token_indices": [
+      189
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Andradas', 'LOCAL'), ('Ano III - Número 118 Edição Digital nº 40', 'OBRA'), ('Andradas', 'LOCAL'), ('07 de Maio de 2000', 'TEMPO'), ('Rio Branco', 'PESSOA'), ('América', 'PESSOA'), ('BH', 'LOCAL'), ('Andradas', 'LOCAL'), ('17 horas', 'TEMPO'), ('Estádio Independência América', 'LOCAL'), ('Mineiro', 'PESSOA'), ('3º', 'VALOR'), ('Campeonato Mineiro', 'ACONTECIMENTO'), ('Atlético Mineiro', 'PESSOA'), ('25', 'VALOR'), ('Cruzeiro', 'PESSOA'), ('15', 'VALOR'), ('América', 'PESSOA'), ('13', 'VALOR'), ('Capital', 'LOCAL'), ('Andradas', 'LOCAL'), ('Ivan Silva', 'PESSOA'), ('Celson', 'PESSOA'), ('Samis', 'PESSOA'), ('Arilson', 'PESSOA'), ('Washington', 'PESSOA'), ('Vítor', 'PESSOA'), ('Celinho', 'PESSOA'), ('Rafael', 'PESSOA'), ('Kelinho', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em outros trabalhos da semana, houve novas mexidas no time e a confirmação só vai acontecer no dia do jogo. Quarta- feira tem Cruzeiro em BH O time deverá permanecer na capital mineira até a próxima Quarta-feira , quando enfrentará o Cruzeiro no Mineirão , em partida válida pela 3ª rodada do 2º turno. Sem dúvida, serão dois jogos dificílimos e, ao mesmo tempo, de grande importância em termos de classificação. A exemplo do que aconteceu no 1º turno, onde o Rio Branco enfrenta os três times da capital em jogos seguidos. Derrota para o Atlético Mineiro A partida disputada no último sábado em Andradas contra o Atlético Mineiro teve dois tempos distintos, onde o Atlético aproveitou a apatia do Rio Branco e fez 3 X 0 no 1º tempo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Quarta- feira",
+    "label": "TEMPO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Cruzeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "BH",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Quarta-feira",
+    "label": "TEMPO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Cruzeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Mineirão",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "3ª",
+    "label": "VALOR",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "2º",
+    "label": "VALOR",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "1º",
+    "label": "VALOR",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Rio Branco",
+    "label": "PESSOA",
+    "token_indices": [
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Atlético Mineiro",
+    "label": "PESSOA",
+    "token_indices": [
+      95,
+      96
+    ]
+  },
+  {
+    "text": "Andradas",
+    "label": "LOCAL",
+    "token_indices": [
+      104
+    ]
+  },
+  {
+    "text": "Atlético Mineiro",
+    "label": "PESSOA",
+    "token_indices": [
+      107,
+      108
+    ]
+  },
+  {
+    "text": "Atlético",
+    "label": "PESSOA",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Rio Branco",
+    "label": "PESSOA",
+    "token_indices": [
+      120,
+      121
+    ]
+  },
+  {
+    "text": "3 X 0",
+    "label": "VALOR",
+    "token_indices": [
+      124,
+      125,
+      126
+    ]
+  },
+  {
+    "text": "1º",
+    "label": "VALOR",
+    "token_indices": [
+      128
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Quarta- feira', 'TEMPO'), ('Cruzeiro', 'PESSOA'), ('BH', 'LOCAL'), ('Quarta-feira', 'TEMPO'), ('Cruzeiro', 'PESSOA'), ('Mineirão', 'LOCAL'), ('3ª', 'VALOR'), ('2º', 'VALOR'), ('1º', 'VALOR'), ('Rio Branco', 'PESSOA'), ('Atlético Mineiro', 'PESSOA'), ('Andradas', 'LOCAL'), ('Atlético Mineiro', 'PESSOA'), ('Atlético', 'PESSOA'), ('Rio Branco', 'PESSOA'), ('3 X 0', 'VALOR'), ('1º', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Após algumas mudanças e muita conversa no intervalo, o Azulão voltou disposto a apagar a má impressão dos 45 minutos iniciais e conseguiu. Mostrar um bom futebol, fazendo dois gols, que, se não foram suficientes para empatar a partida, serviu para resgatar o bom desempenho que o RB vem apresentando nos últimos tempos. Aos 27 minutos do 1º tempo, aconteceu um fato curioso: com, a queda de energia em duas torres de iluminação, causada por um curto em um dos cabos de energia, o jogo ficou parado por quase 1 hora .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Azulão",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "45 minutos",
+    "label": "VALOR",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "RB",
+    "label": "PESSOA",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "27 minutos",
+    "label": "VALOR",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "1º",
+    "label": "VALOR",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "quase 1 hora",
+    "label": "VALOR",
+    "token_indices": [
+      88,
+      89,
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Azulão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "45 minutos",
+    "label": "VALOR"
+  },
+  {
+    "text": "RB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "27 minutos",
+    "label": "VALOR"
+  },
+  {
+    "text": "1º tempo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1 hora",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('RB', 'PESSOA'), ('1º', 'VALOR'), ('quase 1 hora', 'VALOR')]
+Espúrias  (FP): [('RB', 'ORGANIZACAO'), ('1º tempo', 'TEMPO'), ('1 hora', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Depois de muito corre-corre, tudo voltou ao normal e, pela movimentação e pelos gols, a partida agradou aos torcedores! Voltar Página Principal Direitos Reservados © Dinamica Internet
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dinamica Internet",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Dinamica Internet', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Aspectos naturais Generalidades Criado em 1971 , o Parque Nacional da Peneda-Gerês localiza-se no Alto Noroeste de Portugal , com uma área que se alonga em ferradura por cerca de 72000 hectares .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1971",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Parque Nacional da Peneda-Gerês",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Alto Noroeste de Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "cerca de 72000 hectares",
+    "label": "VALOR",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Parque Nacional da Peneda-Gerês",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alto Noroeste de Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "72000 hectares",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('1971', 'TEMPO'), ('cerca de 72000 hectares', 'VALOR')]
+Espúrias  (FP): [('72000 hectares', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+As bacias hidrográficas dos rios Lima , Homem e Cávado , que atravessam e retalham este território, condicionaram a ocupação humana desta região de chuvas abundantes e regulares e de elevados índices de humidade do ar. A elevada pluviosidade conduz, por vezes, àformção de lagoas em zonas elevadas, como éo caso da Lagoa do Marinho ( vista panorâmica em 270º ). O Parque engloba as Serras do Gerês , Peneda e Amarela , com cotas que ultrapassam os 1500 metros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lima",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Homem",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Cávado",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Lagoa do Marinho",
+    "label": "LOCAL",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "270º",
+    "label": "VALOR",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Parque",
+    "label": "LOCAL",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Serras do Gerês",
+    "label": "LOCAL",
+    "token_indices": [
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Peneda",
+    "label": "LOCAL",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "Amarela",
+    "label": "LOCAL",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "1500 metros",
+    "label": "VALOR",
+    "token_indices": [
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lima",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Homem",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cávado",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lagoa do Marinho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "270º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Parque",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Serras do Gerês",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Peneda",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Amarela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1500 metros",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Parque', 'LOCAL')]
+Espúrias  (FP): [('Parque', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A região éessencialmente constituída por rochas graníticas, podendo ocorrer ainda xistos e depósitos sedimentares. Em alguns locais épossível observar magníficas paisagens que englobam aspectos naturais e humanos, como éo caso do miradouro da Pedra Bela ( vista panorâmica em 360º ). Grande parte destas serras foram humanizadas em continuidade, pelo menos desde o Neolítico e da invenção da agricultura e da pastorícia. Um destes exemplos éo Mosteiro de Pitões da Júnias ( vista panorâmica em 360º ). Actualmente, o território do Parque comporta 114 aldeamentos, onde vivem em permanência cerca de 10000 residentes. Esta população tem como actividades principais a agricultura, a pastorícia e a pecuária. Envelhecida e maioritariamente feminina, tem sofrido um decréscimo populacional acentuado nas últimas décadas. Aspectos Geológicos e Geomorfológicos Generalidades Aspectos Biológicos Patrocínio:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pedra Bela",
+    "label": "LOCAL",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "360º",
+    "label": "VALOR",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Neolítico",
+    "label": "TEMPO",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Mosteiro de Pitões da Júnias",
+    "label": "OBRA",
+    "token_indices": [
+      66,
+      67,
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "360º",
+    "label": "VALOR",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "Parque",
+    "label": "LOCAL",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "114",
+    "label": "VALOR",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "cerca de 10000",
+    "label": "VALOR",
+    "token_indices": [
+      89,
+      90,
+      91
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Pedra Bela', 'LOCAL'), ('360º', 'VALOR'), ('Neolítico', 'TEMPO'), ('Mosteiro de Pitões da Júnias', 'OBRA'), ('360º', 'VALOR'), ('Parque', 'LOCAL'), ('114', 'VALOR'), ('cerca de 10000', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Forte de Tiracol O forte de Tiracol está situado num enclave, no ponto mais nortenho do estado de Goa , separada do resto do território pelo Rio Tiracol .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Forte de Tiracol",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Tiracol",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Rio Tiracol",
+    "label": "LOCAL",
+    "token_indices": [
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Forte de Tiracol",
+    "label": "OBRA"
+  },
+  {
+    "text": "Tiracol",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio Tiracol",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Forte de Tiracol', 'LOCAL')]
+Espúrias  (FP): [('Forte de Tiracol', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O forte fica numa pequena colina e ao sopé desta situa-se a pequena aldeia piscatória de Tiracol com a sua população totalmente cristã. O forte foi recentemente renovado e aloja o Hotel Tiracol Fort Heritage com 10 quartos e um restaurante. De tamanho muito reduzido, este forte é contudo de longe o mais bem conservado de Goa , e dali se tem magníficas vistas sobre o Mar Árabe , o rio e a praia de Querim .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tiracol",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Hotel Tiracol Fort Heritage",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "10",
+    "label": "VALOR",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Mar Árabe",
+    "label": "LOCAL",
+    "token_indices": [
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Querim",
+    "label": "LOCAL",
+    "token_indices": [
+      75
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tiracol",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hotel Tiracol Fort Heritage",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mar Árabe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Querim",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('10', 'VALOR')]
+Espúrias  (FP): [('rio', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+História |História Construída originalmente pelos Bhounsolos , foi conquistada pelos portugueses em 23 de Novembro de 1746 , pelo vice-rei D. Pedro Miguel de Almeida e Portugal , marquez de Castello Novo . Este mandou construir no seu interior uma capela que no século XIX foi elevada a igreja e dedicada a St.º António .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "História",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Bhounsolos",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "23 de Novembro de 1746",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "D. Pedro Miguel de Almeida e Portugal",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Castello Novo",
+    "label": "LOCAL",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "século XIX",
+    "label": "TEMPO",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "St.º António",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bhounsolos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "23 de Novembro de 1746",
+    "label": "TEMPO"
+  },
+  {
+    "text": "D. Pedro Miguel de Almeida e Portugal",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Castello Novo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "século XIX",
+    "label": "TEMPO"
+  },
+  {
+    "text": "St.º António",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('História', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A RÚSSIA anunciou ontem ter assinado um contrato para o fornecimento de mais dois reactores nucleares ao Irão , mas negou ter recebido uma encomenda para vender 4000 blindados ao Iraque .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RÚSSIA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Irão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "4000",
+    "label": "VALOR",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Iraque",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "RÚSSIA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Irão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Iraque",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Irão', 'ORGANIZACAO'), ('4000', 'VALOR'), ('Iraque', 'ORGANIZACAO')]
+Espúrias  (FP): [('Irão', 'LOCAL'), ('Iraque', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quanto ao contrato com Teerão , cujo montante não foi especificado, o ministro russo da Energia Atómica explicou que ele inclui a venda de dois reactores de tipo VVER-440 , com uma potência de 440 megawatts , para serem instalados em Bouchehr , no sul do Irão . A Rússia , insensível aos protestos dos EUA e de Israel , já se tinha comprometido, no início do ano, a instalar naquele mesmo local um reactor de 1000 megawattsz , num negócio avaliado em mil milhões de dólares. Em relação ao Iraque , Valeri Progrebenkov , porta-voz da sociedade de Estado Rosvooroujenie |Estado Rosvooroujenie , responsável pelas exportações militares, desmentiu a existência de uma encomenda de 4000 carros de combate russos, como afirmara o genro de Saddam Hussein que desertou para a Jordânia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Teerão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Energia Atómica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "VVER-440",
+    "label": "COISA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "440 megawatts",
+    "label": "VALOR",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Bouchehr",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Irão",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Rússia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Israel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "1000 megawattsz",
+    "label": "VALOR",
+    "token_indices": [
+      76,
+      77
+    ]
+  },
+  {
+    "text": "Iraque",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Valeri Progrebenkov",
+    "label": "PESSOA",
+    "token_indices": [
+      92,
+      93
+    ]
+  },
+  {
+    "text": "Estado Rosvooroujenie",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      99,
+      100
+    ]
+  },
+  {
+    "text": "Rosvooroujenie",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      102
+    ]
+  },
+  {
+    "text": "4000",
+    "label": "VALOR",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Saddam Hussein",
+    "label": "PESSOA",
+    "token_indices": [
+      125,
+      126
+    ]
+  },
+  {
+    "text": "Jordânia",
+    "label": "LOCAL",
+    "token_indices": [
+      131
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Teerão', 'ORGANIZACAO'), ('Energia Atómica', 'ABSTRACCAO'), ('VVER-440', 'COISA'), ('440 megawatts', 'VALOR'), ('Bouchehr', 'LOCAL'), ('Irão', 'LOCAL'), ('Rússia', 'ORGANIZACAO'), ('EUA', 'ORGANIZACAO'), ('Israel', 'ORGANIZACAO'), ('1000 megawattsz', 'VALOR'), ('Iraque', 'ORGANIZACAO'), ('Valeri Progrebenkov', 'PESSOA'), ('Estado Rosvooroujenie', 'ORGANIZACAO'), ('Rosvooroujenie', 'ORGANIZACAO'), ('4000', 'VALOR'), ('Saddam Hussein', 'PESSOA'), ('Jordânia', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo este, os blindados seriam entregues ao longo de vários anos e pagos em petróleo, depois do levantamento das sanções impostas ao Iraque .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Iraque",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Iraque",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Iraque', 'ORGANIZACAO')]
+Espúrias  (FP): [('Iraque', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+R - O modo de vida é quase igual com o tempo de antes desse movimento nacionalista. Que todos os europeus, os egípcios era tudo uma coisa comum, como uma comunidade, uma irmandade unida, apesar das diferenças de opiniões mas todo mundo vivia em paz. Então, o Brasil é mais ou menos como os bons tempos do Egito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Egito', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+P - O que o senhor gosta mais do Brasil ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasil', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+R - Do Brasil ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasil', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Gosto do Brasil , que eu considero um paraíso. Gosto do povo que apesar de ser sofredor ainda pode sorrir. Tem gente que sorri apesar da situação. Agora, mais do que isso? Não sei. Se gosto do país e do povo apesar de ser sofredor? Agora, é um país que infelizmente foi mal administrado. Isso não é de ontem é uma série de governos. Não sei, incapacitados ou, bom, como disse ( Stephan ______?) "Terra do futuro." P - O que o senhor faz atualmente? R - Atualmente? Estou aposentado. P - O seu cotidiano como é? O que o senhor faz diariamente? R - Diariamente estou tentando dar umas aulas de italiano, de inglês, de francês. É um pouco difícil porque a situação está difícil para todo mundo. P - Seu Adolfo |Seu Adolfo , quais são as suas perspectivas de futuro? O que o senhor ainda gostaria de fazer, seus sonhos, o que o senhor sonha ainda fazer? R - Meu sonho é que a situação do Brasil melhore para os brasileiros e para todo mundo. Porque aqui tem dificuldade mas tem muito mais liberdade, tem menos ódio e menos preconceitos que outras cidades e que outros países. P - O senhor gostaria de voltar para Itália ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Stephan",
+    "label": "PESSOA",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Seu Adolfo",
+    "label": "PESSOA",
+    "token_indices": [
+      131,
+      132
+    ]
+  },
+  {
+    "text": "Adolfo",
+    "label": "PESSOA",
+    "token_indices": [
+      134
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      169
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      208
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Stephan ______?",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Stephan', 'PESSOA'), ('Seu Adolfo', 'PESSOA'), ('Adolfo', 'PESSOA'), ('Brasil', 'LOCAL'), ('Itália', 'LOCAL')]
+Espúrias  (FP): [('Stephan ______?', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não porque seria começar tudo de zero e já me acostumei aqui. Estava no Egito , estava contente. Veio aquele negócio do nacionalismo, que não tenho nada contra porque os coitados: séculos e séculos uma invasão atrás da outra. A posição deles lá, cada um queria ocupar. Agora aqui não tem outro jeito, para onde ir melhor que aqui? Aqui tem uma crise mas vai olhar em volta. P - O senhor acha importante deixar gravado em vídeo a sua história de vida? R - Também seria importante para outras pessoas fazer uma opinião. A minha, aquela de outros, que não seria a opinião de jornais ou opinião de pessoas jornalistas. Serviria para outras pessoas para ter opiniões de pessoas, italianos, grego, armênio, árabe, israelita. Porque aqui não tem os conflitos que têm fora e vamos esperar que continue assim. P - Queria que senhor desse uma mensagem para as gerações futuras, para as gerações mais jovens, as crianças, os adolescentes que estão por aí. O que o senhor diria para eles? Desejaria para eles? R - Eu desejaria que o povo tivesse mais instrução e mais oportunidades de Ter boa saúde e não depender de promessa de políticos. Que tivesse verdadeiramente uma boa situação para todo mundo. Então seria o paraíso terrestre de verdade. P - O senhor estava contando a viagem para os Estados Unidos , gostaria que o senhor contasse um pouco dessa coisa que o senhor disse, que agora quer continuar viajando. Como é essa história? R - Eu tive a oportunidade de ganhar essa viagem. Eu vi o interior dos Estados Unidos , é muito bom. Fui em ___________, fui no Canadá , em ( Windsor ?), são cidades maravilhosas, têm um modo de vida muito mais elevado. Desejaria que esse modo, esse estado de vida fosse também o estado de vida do povo brasileiro, que sofreu muito e está sofrendo muito.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      225,
+      226
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      265,
+      266
+    ]
+  },
+  {
+    "text": "Canadá",
+    "label": "LOCAL",
+    "token_indices": [
+      276
+    ]
+  },
+  {
+    "text": "Windsor",
+    "label": "LOCAL",
+    "token_indices": [
+      280
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Egito",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Estados Unidos', 'LOCAL'), ('Estados Unidos', 'LOCAL'), ('Canadá', 'LOCAL'), ('Windsor', 'LOCAL')]
+Espúrias  (FP): [('Itália', 'LOCAL'), ('Egito', 'LOCAL'), ('Itália', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tive oportunidade de ir para o Paraguai , ganhei uma viagem prêmio para os Estados Unidos e São Domingos , fui para Brasília quando o chegou o General _______, fui para o Paraguai também. Não tenho do que me queixar, trabalhei, fui útil para alguém e aproveitei das oportunidades da vida, não é só do trabalho. P - Obrigada seu Adolfo |seu Adolfo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paraguai",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "São Domingos",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "General",
+    "label": "PESSOA",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Paraguai",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "seu Adolfo",
+    "label": "PESSOA",
+    "token_indices": [
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Adolfo",
+    "label": "PESSOA",
+    "token_indices": [
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Paraguai",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Domingos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCAL"
+  },
+  {
+    "text": "General",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Paraguai",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Adolfo",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('seu Adolfo', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As primeiras semanas foram dedicadas ao estudo dos textos propostos pelos EUA . Nos últimos dias o ritmo tornou-se frenético, «manipularam-se mais de uma centena de documentos e mapas», garante de la Peña . Segundo a « Newsweek », as duas salas dos mapas foram o palco principal das negociações. Estavam repletas de lixo, copos de plástico sujos de café. Os negociadores usaram canetas de ponta de feltro para traçar linhas de fronteira nos cartões plastificados com o território da ex-Jugoslávia impresso. Bastava um pano húmido para fazer desaparecer as linhas, e recomeçar tudo de novo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EUA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "de la Peña",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Newsweek",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "ex-Jugoslávia",
+    "label": "LOCAL",
+    "token_indices": [
+      80
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EUA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "de la Peña",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Newsweek",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Jugoslávia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('ex-Jugoslávia', 'LOCAL')]
+Espúrias  (FP): [('Jugoslávia', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Düsseldorf (também aportuguesada na forma de Dusseldórfia ) é uma cidade da Alemanha , capital do Estado ( Bundesland ) da Renânia do Norte - Vestfália .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Düsseldorf",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Dusseldórfia",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Bundesland",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Renânia do Norte",
+    "label": "LOCAL",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Vestfália",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Düsseldorf",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Dusseldórfia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Renânia do Norte - Vestfália",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Estado', 'ORGANIZACAO'), ('Bundesland', 'ORGANIZACAO'), ('Renânia do Norte', 'LOCAL'), ('Vestfália', 'LOCAL')]
+Espúrias  (FP): [('Renânia do Norte - Vestfália', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Há muito tempo que tenho uma estranha relação afectuosa com esta ilha. No quiosque vendem-se dessas revistas de viagens que agora proliferam e que perpetuam as fantasias sobre ilhas exóticas. Sempre me pareceu estranho nunca ter lido um artigo sobre a «ilha de Santos ». Estava convencido que só eu a via, só eu a imaginava vista de cima naufragando no meio dos horríveis autocarros lisboetas. Protegida pelas correntes anti-estacionamento selvagem, todos os dias suspirava de alívio por ainda ver a ilha no seu sítio, com as fronteiras bem definidas -- o que em si é uma das razões que faz das ilhas um dos nossos arquétipos mais resistentes. Outro dia reparei numa bandeira hasteada no passeio em frente. Era a bandeira duma organização que eu desconhecia: « Amigos da Ilha de Santos ». Como alguém que descobre não estar só no mundo, aquela bandeira foi alimento espiritual. Eis que a minha ilha tinha bandeira e tudo. Eis que, afinal, existem mais habitantes virtuais daquele país que me dá gosto imaginar como um principado independente. Sobretudo foi bom descobrir que há mais gente a fazer parte do equipamento «imaginário» da ilha. Isolada dos passeios que bordejam os quarteirões, frequentada por uma «população» móvel, provisória e em constante renovação, a ilha serve de plataforma de comunicações: apanhar um transporte, comprar um jornal com notícias, enviar uma carta, fazer um telefonema. Os seus habitantes são do mais cosmopolita que há.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Santos",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Amigos da Ilha de Santos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      128,
+      129,
+      130,
+      131,
+      132
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ilha de Santos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Santos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ilha de Santos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rua da Conceição",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Amigos da Ilha de Santos', 'ORGANIZACAO')]
+Espúrias  (FP): [('ilha de Santos', 'LOCAL'), ('ilha de Santos', 'LOCAL'), ('Rua da Conceição', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+V.C. -- Mas é quase disco de prata [ faltam seis mil, segundo a editora, a BMG ]! Comprar um CD não está ao alcance de todas as pessoas que compravam os nossos discos, mas acreditamos nos jovens, porque temos a certeza que aderem a isto. É lógico que estamos a aproveitar o facto de os portugueses aderirem outra vez à música popular. P. -- E qual é a vossa opinião sobre a música portuguesa actual? O que é que acham que mudou desde os anos de apogeu do conjunto?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BMG",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "seis mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "CD",
+    "label": "COISA"
+  },
+  {
+    "text": "BMG",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "anos",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('seis mil', 'VALOR'), ('CD', 'COISA'), ('anos', 'TEMPO')]
+

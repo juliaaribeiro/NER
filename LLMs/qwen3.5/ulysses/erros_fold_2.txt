@@ -1,0 +1,3903 @@
+--------------------------------------------------------------------------------
+Texto:
+Sandra Rosado ) Altera a Lei nº 6.815 , de 19 de agosto de 1980 , que “ Define a situação jurídica do estrangeiro no Brasil , cria o Conselho Nacional de Imigração ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sandra Rosado",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Lei nº 6.815 , de 19 de agosto de 1980",
+    "label": "FUNDlei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Conselho Nacional de Imigração",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sandra Rosado",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 6.815 , de 19 de agosto de 1980",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Conselho Nacional de Imigração",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO Sabemos que o vigente Estatuto do Estrangeiro – Lei nº 6.815 , de 1980 – encontra-se defasado e não se coaduna com os princípios do direito dos estrangeiros universalmente aceitos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estatuto do Estrangeiro",
+    "label": "FUNDapelido",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Lei nº 6.815 , de 1980",
+    "label": "FUNDlei",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto do Estrangeiro – Lei nº 6.815 , de 1980",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Estatuto do Estrangeiro', 'FUNDapelido'), ('Lei nº 6.815 , de 1980', 'FUNDlei')]
+Espúrias  (FP): [('Estatuto do Estrangeiro – Lei nº 6.815 , de 1980', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Dessa forma , retomando iniciativa do então Senador Antero Paes de Barros , nos termos do seu Projeto de Lei do Senado Federal nº 122 , de 200 , apresentamos o presente projeto de lei .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senador",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Antero Paes de Barros",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Projeto de Lei do Senado Federal nº 122 , de 200",
+    "label": "FUNDprojetodelei",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senador Antero Paes de Barros",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Projeto de Lei do Senado Federal nº 122 , de 200",
+    "label": "FUNDprojetodelei"
+  }
+]
+
+Perdidas  (FN): [('Senador', 'PESSOAcargo'), ('Antero Paes de Barros', 'PESSOAindividual')]
+Espúrias  (FP): [('Senador Antero Paes de Barros', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+após decisão transitada em julgado no Supremo Tribunal ” , condicionando a alegada “ inconveniência ” à prévia apreciação do Poder Judiciário .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Poder Judiciário",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Poder Judiciário', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+MARCELO MATOS ) Altera a Lei nº 9.433 , de 8 de janeiro de 1997 , que institui a Política Nacional de Recursos Hídricos , para destinar parcela da cobrança do uso de recursos hídricos aos municípios formadores da respectiva bacia hidrográfica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MARCELO MATOS",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Lei nº 9.433 , de 8 de janeiro de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Política Nacional de Recursos Hídricos",
+    "label": "FUNDapelido",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MARCELO MATOS",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 9.433 , de 8 de janeiro de 1997",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Política Nacional de Recursos Hídricos",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Política Nacional de Recursos Hídricos', 'FUNDapelido')]
+Espúrias  (FP): [('Política Nacional de Recursos Hídricos', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta Lei altera dispositivos da Lei nº 9.433 , de 8 de janeiro de 1997 , que institui a Política Nacional de Recursos Hídricos , para destinar parcela da cobrança do uso de recursos hídricos para municípios cujos territórios contribuem para a formação da respectiva bacia hidrográfica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 9.433 , de 8 de janeiro de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Política Nacional de Recursos Hídricos",
+    "label": "FUNDapelido",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 9.433 , de 8 de janeiro de 1997",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Política Nacional de Recursos Hídricos",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Política Nacional de Recursos Hídricos', 'FUNDapelido')]
+Espúrias  (FP): [('Política Nacional de Recursos Hídricos', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+II - no pagamento de despesas de implantação e custeio administrativo dos órgãos e entidades integrantes do Sistema Nacional de Gerenciamento de Recursos Hídricos e no aumento do Índice de Desenvolvimento Humano – IDH dos municípios formadores da bacia hidrográfica , priorizando-se os municípios com IDH mais baixo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sistema Nacional de Gerenciamento de Recursos Hídricos",
+    "label": "PRODUTOsistema",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Índice de Desenvolvimento Humano – IDH",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Sistema Nacional de Gerenciamento de Recursos Hídricos', 'PRODUTOsistema')]
+Espúrias  (FP): [('Índice de Desenvolvimento Humano – IDH', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO Os grandes rios do Brasil e as grandes bacias hidrográficas são formados a partir da contribuição de pequenas nascentes e riachos localizadas em pequenos municípios , muitas vezes muito pobres .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+ANGELA AMIN ) Altera a Lei nº 10.292 , de 2001 , para denominar “ Rodovia Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ANGELA AMIN",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Lei nº 10.292 , de 2001",
+    "label": "FUNDlei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ANGELA AMIN",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 10.292 , de 2001",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Rodovia Dra.",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Rodovia Dra.', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Zilda Arns ” , o trecho da rodovia BR - 101 no Estado de Santa Catarina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "BR - 101",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('BR - 101', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Altera a Lei nº 10.292 , de 27 de setembro de 2001 , para denominar “ Rodovia Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 10.292 , de 27 de setembro de 2001",
+    "label": "FUNDlei",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 10.292 , de 27 de setembro de 2001",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Rodovia Dra.",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Rodovia Dra.', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Zilda Arns ” , o trecho da rodovia BR - 101 no Estado de Santa Catarina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "BR - 101",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('BR - 101', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2º O art . 1º da Lei nº 10.292 , de 2001 , para a vigorar com a seguinte redação : “ Art . 1º Fica denominada " Rodovia Governador Mário Covas " a Rodovia BR - 101 , em toda sua extensão , exceto no trecho que cruza o Estado de Santa Catarina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 1º da Lei nº 10.292 , de 2001",
+    "label": "FUNDlei",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Rodovia Governador Mário Covas",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 1º da Lei nº 10.292 , de 2001",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Rodovia Governador Mário Covas",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Rodovia Governador Mário Covas', 'PRODUTOoutros'), ('Santa Catarina', 'LOCALconcreto')]
+Espúrias  (FP): [('Rodovia Governador Mário Covas', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+O trecho da rodovia BR - 101 no Estado de Santa Catarina passa a se denominar “ Rodovia Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BR - 101",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Rodovia Dra",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('BR - 101', 'LOCALconcreto'), ('Rodovia Dra', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Zilda Arns Neumann nasceu em Forquilhinha , Estado de Santa Catarina , no dia 25 de agosto de 1934 , e foi médica pediatra e sanitarista formada pela Universidade Federal do Paraná , em 1959 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Zilda Arns Neumann",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Forquilhinha",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "25 de agosto de 1934",
+    "label": "DATA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "médica",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "pediatra",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "sanitarista",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Universidade Federal do Paraná",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "1959",
+    "label": "DATA",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Zilda Arns Neumann",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Forquilhinha",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "25 de agosto de 1934",
+    "label": "DATA"
+  },
+  {
+    "text": "médica pediatra",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "sanitarista",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Universidade Federal do Paraná",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "1959",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('médica', 'PESSOAcargo'), ('pediatra', 'PESSOAcargo')]
+Espúrias  (FP): [('médica pediatra', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Filha de descendentes de alemães e irmã de Dom Paulo Evaristo Arns , arcebispo emérito da cidade de São Paulo , Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dom Paulo Evaristo Arns",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "arcebispo",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Dra .",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "alemães",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Dom Paulo Evaristo Arns",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "arcebispo emérito da cidade de São Paulo",
+    "label": "PESSOAcargo"
+  }
+]
+
+Perdidas  (FN): [('arcebispo', 'PESSOAcargo'), ('São Paulo', 'LOCALconcreto'), ('Dra .', 'PESSOAcargo')]
+Espúrias  (FP): [('alemães', 'LOCALconcreto'), ('arcebispo emérito da cidade de São Paulo', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Zilda Arns casou-se aos 21 anos de idade com o marceneiro Aloysio Neumann , com quem teve seis filhos , e ficou viúva em 1978 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "marceneiro",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Aloysio Neumann",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "1978",
+    "label": "DATA",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Aloysio Neumann",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('marceneiro', 'PESSOAcargo'), ('1978', 'DATA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Fundou , em 1983 , a pedido da Conferência Nacional dos Bispos do Brasil ( CNBB ) , a Pastoral da Criança , formada inicialmente por um grupo de voluntários na pequena cidade paranaense de Florestópolis , para ajudar essas famílias necessitadas com a disseminação do uso do soro caseiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1983",
+    "label": "DATA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Conferência Nacional dos Bispos do Brasil ( CNBB )",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Pastoral da Criança",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Florestópolis",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1983",
+    "label": "DATA"
+  },
+  {
+    "text": "Conferência Nacional dos Bispos do Brasil ( CNBB )",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Pastoral da Criança",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Florestópolis",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Conferência Nacional dos Bispos do Brasil ( CNBB )', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Conferência Nacional dos Bispos do Brasil ( CNBB )', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Zilda Arns , à frente da Pastoral , ao longo de 25 anos , expandiu o programa que chegou a alcançar 72% do território nacional , além de vinte países na América do Sul , Ásia e África .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "América do Sul",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Ásia",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "África",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Pastoral",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "América do Sul",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Ásia', 'LOCALconcreto'), ('África', 'LOCALconcreto')]
+Espúrias  (FP): [('Pastoral', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Pastoral acompanhou mais de 1,9 milhão de gestantes e crianças menores de seis anos de idade e 1,4 milhão de famílias pobres , em mais de quatro mil municípios brasileiros , contando com mais de 260 mil voluntários , que levaram fé e vida em forma de solidariedade , conhecimento sobre saúde , nutrição , educação e cidadania para essas comunidades .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Pastoral",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Pastoral', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+O seu trabalho a fez receber , em abril de 2001 , a mais alta comenda de seu Estado natal , a MEDALHA ANITA GARIBALDI , e a indicação ao Prêmio Nobel da Paz , em 2006 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "abril de 2001",
+    "label": "DATA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "MEDALHA ANITA GARIBALDI",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Prêmio Nobel",
+    "label": "EVENTO",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "2006",
+    "label": "DATA",
+    "token_indices": [
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "abril de 2001",
+    "label": "DATA"
+  },
+  {
+    "text": "MEDALHA ANITA GARIBALDI",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "2006",
+    "label": "DATA"
+  },
+  {
+    "text": "Prêmio Nobel da Paz",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Prêmio Nobel', 'EVENTO')]
+Espúrias  (FP): [('Prêmio Nobel da Paz', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 2004 , Zilda Arns recebeu da CNBB outra missão semelhante : fundar e coordenar a Pastoral da Pessoa Idosa , hoje com mais de cem mil idosos acompanhados mensalmente por milhares de voluntários , em quase 600 municípios de 25 estados brasileiros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2004",
+    "label": "DATA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "CNBB",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Pastoral da Pessoa Idosa",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2004",
+    "label": "DATA"
+  },
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "CNBB",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Pastoral da Pessoa Idosa",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('CNBB', 'ORGnaogovernamental')]
+Espúrias  (FP): [('CNBB', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em janeiro de 2010 , ela saiu de Curitiba para Miami e , de lá , outro avião a levou até Porto Príncipe , capital do Haiti , onde faria uma palestra sobre seu trabalho na Pastoral , para um grupo de religiosos haitianos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "janeiro de 2010",
+    "label": "DATA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Curitiba",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Miami",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Porto Príncipe",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Haiti",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "religiosos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "janeiro de 2010",
+    "label": "DATA"
+  },
+  {
+    "text": "Curitiba",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Miami",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Porto Príncipe",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Haiti",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('religiosos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Era o dia 12 de janeiro , quando terminou a palestra e permaneceu no prédio da Igreja Sacré Coeur , respondendo algumas perguntas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12 de janeiro",
+    "label": "DATA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Igreja Sacré Coeur",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "12 de janeiro",
+    "label": "DATA"
+  },
+  {
+    "text": "Igreja Sacré Coeur",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('Igreja Sacré Coeur', 'LOCALconcreto')]
+Espúrias  (FP): [('Igreja Sacré Coeur', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Zilda Arns faleceu sob os escombros , junto com outros religiosos que estavam na sala .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "religiosos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Zilda Arns",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('religiosos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Embora a rodovia longitudinal BR - 101 já tenha o nome de Rodovia Mário Covas , em homenagem ao grande político paulista e cuja lembrança permanecerá sedimentada em toda a história do Brasil , entendemos ser legítima a pretensão de dar ao trecho catarinense dessa rodovia o nome de P L n .4 6 3 3 / 2 0 1 9 A p re s e n ta ç ã o : 2 1 / 0 8 / 2 0 1 9 1 6 : 2 8 3 “ Rodovia Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BR - 101",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Rodovia Mário Covas",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "político",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Dra .",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      90,
+      91
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BR - 101",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Rodovia Mário Covas",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Carlos Lacerda",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Rodovia Carlos Lacerda",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Rodovia Mário Covas', 'PRODUTOoutros'), ('político', 'PESSOAcargo'), ('Brasil', 'LOCALconcreto'), ('Dra .', 'PESSOAcargo')]
+Espúrias  (FP): [('Rodovia Mário Covas', 'LOCALconcreto'), ('Carlos Lacerda', 'PESSOAindividual'), ('Rodovia Carlos Lacerda', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Aliás , o traçado da BR 101 / SC , praticamente coincide com o itinerário cumprido pela Dra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SC",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BR 101 / SC",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('SC', 'LOCALconcreto')]
+Espúrias  (FP): [('BR 101 / SC', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI Nº , DE 2019 ( Da Sra. IRACEMA PORTELLA ) Cria o Banco Nacional de Boas Práticas na Prevenção e no Combate da Violência Contra a Mulher O Congresso Nacional decreta : Art . 1 o Fica criado o Banco Nacional de Boas Práticas na Prevenção e no Combate da Violência Contra a Mulher : § 1º O Banco de Boas Práticas será organizado e gerido pelo poder executivo federal § 2º Para levantar as informações necessárias para o Banco de Boas Práticas poderão ser realizadas , entre outras , as seguintes atividades : I - Seminários ; II - Encontros ; e III - Reuniões técnicas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "IRACEMA PORTELLA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Banco Nacional de Boas Práticas na Prevenção e no Combate da Violência Contra a Mulher",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Banco Nacional de Boas Práticas na Prevenção e no Combate da Violência Contra a Mulher",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "poder executivo federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "IRACEMA PORTELLA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Banco Nacional de Boas Práticas na Prevenção e no Combate da Violência Contra a Mulher",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "poder executivo federal",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Banco Nacional de Boas Práticas na Prevenção e no Combate da Violência Contra a Mulher', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Entre 1980 e 2013 , 106.093 pessoas morreram por sua condição de ser mulher , de acordo com o Mapa da Violência de 2015 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1980",
+    "label": "DATA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "2013",
+    "label": "DATA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "2015",
+    "label": "DATA",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1980",
+    "label": "DATA"
+  },
+  {
+    "text": "2013",
+    "label": "DATA"
+  },
+  {
+    "text": "Mapa da Violência de 2015",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('2015', 'DATA')]
+Espúrias  (FP): [('Mapa da Violência de 2015', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+O referido Banco deverá ser alimentado com informações bem sucedidas na pratica do enfrentamento desse problema multifacetado , que demanda políticas públicas efetivas e inovadoras .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Banco",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Banco', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Outra ação exitosa é o Projeto Basta , de Foz de Iguaçu , que visa encerrar as agressões e ameaças recorrentes feitas pelos agressores , combatendo a reincidência .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Projeto Basta",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Foz de Iguaçu",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Foz de Iguaçu",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Projeto Basta', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 7 4 8 / 2 0 1 9 A p re s e n ta ç ã o : 2 8 / 0 8 / 2 0 1 9 1 6 : 0 1 3 Também na linha de combater a reincidência , o Núcleo Judiciário da Mulher , no Distrito Federal , tem estabelecido conversas reflexivas com condenados pela Lei Maria da Penha , que abordam sistema de crenças , dependência afetiva , e auto responsabilidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Núcleo Judiciário da Mulher",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Lei Maria da Penha",
+    "label": "FUNDapelido",
+    "token_indices": [
+      64,
+      65,
+      66,
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Núcleo Judiciário da Mulher",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Lei Maria da Penha",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Núcleo Judiciário da Mulher', 'PRODUTOoutros')]
+Espúrias  (FP): [('Núcleo Judiciário da Mulher', 'ORGgovernamental'), ('Distrito Federal', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS PROJETO DE LEI Nº , DE 2011 ( Do Sr. Alfredo Kaefer ) Modifica o inciso VII do art . 12 da Lei nº 9.250 , de 26 de dezembro de 1995 , que " altera a legislação do imposto de renda das pessoas físicas e dá outras providências " , para prorrogar a dedução da contribuição patronal do imposto de renda apurado na declaração de ajuste anual .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2011",
+    "label": "DATA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Alfredo Kaefer",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "inciso VII do art . 12 da Lei nº 9.250 , de 26 de dezembro de 1995",
+    "label": "FUNDlei",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "imposto de renda das pessoas físicas",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "2011",
+    "label": "DATA"
+  },
+  {
+    "text": "Alfredo Kaefer",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "inciso VII do art . 12 da Lei nº 9.250 , de 26 de dezembro de 1995",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('imposto de renda das pessoas físicas', 'PRODUTOoutros')]
+Espúrias  (FP): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta Lei prorroga por 4 ( quatro ) anos a dedução da contribuição patronal do imposto de renda apurado pela pessoa física na declaração de ajuste anual .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "imposto de renda apurado pela pessoa física",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('imposto de renda apurado pela pessoa física', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+VII – até o exercício de 2016 , ano-calendário de 2015 , a contribuição patronal paga à Previdência Social pelo empregador doméstico incidente sobre o valor da remuneração do empregado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2016",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "2015",
+    "label": "DATA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Previdência Social",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Previdência Social",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('2016', 'DATA'), ('2015', 'DATA'), ('Previdência Social', 'PRODUTOprograma')]
+Espúrias  (FP): [('Previdência Social', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+2 JUSTIFICAÇÃO O art . 12 da Lei nº 9.250 , de 1995 , elenca as deduções do imposto de renda apurado pela pessoa física na declaração de ajuste anual .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 12 da Lei nº 9.250 , de 1995",
+    "label": "FUNDlei",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "imposto de renda apurado pela pessoa física",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 12 da Lei nº 9.250 , de 1995",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('imposto de renda apurado pela pessoa física', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dentre elas , a Lei nº 11.324 , de 2006 , incluiu a contribuição patronal paga à Previdência Social pelo empregador doméstico incidente sobre o valor da remuneração do empregado , observados alguns critérios .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 11.324 , de 2006",
+    "label": "FUNDlei",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Previdência Social",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 11.324 , de 2006",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Previdência Social",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Previdência Social', 'PRODUTOprograma')]
+Espúrias  (FP): [('Previdência Social', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+A dedução em epígrafe limita-se a um empregado doméstico por declaração , ao valor recolhido no ano-calendário a que se referir a declaração ; aplica-se somente ao modelo completo de declaração de ajuste anual ; não pode exceder ao valor da contribuição patronal calculada sobre um salário mínimo mensal , sobre o décimo-terceiro salário e sobre a remuneração adicional de férias , referidos também a um salário-mínimo , nem ao valor do imposto apurado , deduzidos os valores das deduções referentes às contribuições feitas aos Fundos controlados pelos Conselhos Municipais , Estaduais e Nacional dos Direitos da Criança e do Adolescente e pelos Conselhos Municipais , Estaduais e Nacional do Idoso , às contribuições realizadas em favor de projetos culturais e aos investimentos feitos a título de incentivo às atividades audiovisuais ; e condiciona-se à comprovação da regularidade do empregador doméstico perante o regime de geral de previdência social quando se tratar de contribuinte individual .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "salário mínimo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "décimo-terceiro salário",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "salário-mínimo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Conselhos Municipais , Estaduais e Nacional dos Direitos da Criança e do Adolescente",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ]
+  },
+  {
+    "text": "Conselhos Municipais , Estaduais e Nacional do Idoso",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselhos Municipais de Assistência Social e de Direitos Humanos",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('salário mínimo', 'PRODUTOoutros'), ('décimo-terceiro salário', 'PRODUTOoutros'), ('salário-mínimo', 'PRODUTOoutros'), ('Conselhos Municipais , Estaduais e Nacional dos Direitos da Criança e do Adolescente', 'ORGgovernamental'), ('Conselhos Municipais , Estaduais e Nacional do Idoso', 'ORGgovernamental')]
+Espúrias  (FP): [('Conselhos Municipais de Assistência Social e de Direitos Humanos', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tal benefício foi instituído com a finalidade de incentivar a formalização das relações de trabalho entre empregador e empregado doméstico .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "empregado doméstico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('empregado doméstico', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Contudo , a Lei nº 11.324 , de 2006 , também fixou prazo para a vigência da regra , qual seja “ até o exercício de 2012 , ano-calendário de 2011 ” , de maneira que , ao longo do tempo , se pudesse avaliar o efeito da medida no mercado de trabalho formal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 11.324 , de 2006",
+    "label": "FUNDlei",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "2012",
+    "label": "DATA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "2011",
+    "label": "DATA",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 11.324 , de 2006",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "2006",
+    "label": "DATA"
+  },
+  {
+    "text": "2012",
+    "label": "DATA"
+  },
+  {
+    "text": "2011",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('2006', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+3 De acordo com estimativa da Receita Federal , entre 2006 e 2010 , 700 mil empregados domésticos saíram da informalidade em decorrência da iniciativa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Receita Federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "2006",
+    "label": "DATA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "2010",
+    "label": "DATA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "empregados domésticos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Receita Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "2006",
+    "label": "DATA"
+  },
+  {
+    "text": "2010",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('empregados domésticos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , com o objetivo seguir incentivando a formalização de trabalhadores domésticos que não podem gozar de seus legítimos direitos trabalhistas e previdenciários , por não terem carteira assinada e por seus empregadores não recolherem as contribuições previdenciárias devidas , apresentamos projeto de lei que estende por mais quatro anos o prazo previsto na legislação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "trabalhadores domésticos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('trabalhadores domésticos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pelo amplo alcance social da iniciativa , esperamos contar com o apoio dos ilustres pares do Congresso Nacional para a sua aprovação .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Congresso Nacional",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Congresso Nacional', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS PROJETO DE LEI Nº , DE 2019 ( Do Sr .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os estados , o Distrito Federal e os municípios estabelecerão normas complementares , elaboradas de forma democrática com suas escolas e docentes , de forma que sejam atendidos o disposto : I - no art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "docentes",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('docentes', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Entre as estratégias referidas no inciso II , será adotado o reforço escolar , ministrado : I - por docentes , respeitada sua jornada e condições de trabalho ; II - por alunos mais graduados que tenham demonstrado proficiência no conteúdo objeto do reforço .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "docentes",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('docentes', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As normas de cada sistema disporão sobre eventuais gratificações para os docentes e bolsas para os alunos que ministrarem o reforço escolar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "docentes",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('docentes', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Estudos do Inep ( Simões , 2016 ) indicam que a evasão escolar , em particular dos jovens de famílias de baixa renda aumenta – e com ela o fosso entre os alunos dos quintis de renda extremos – a partir do quinto ano do ensino fundamental .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Inep",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Simões",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "2016",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Inep",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Simões , 2016",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('Simões', 'PESSOAindividual'), ('2016', 'DATA')]
+Espúrias  (FP): [('Simões , 2016', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+13 , IV dispõe que aos docentes compete “ estabelecer estratégias de recuperação para os alunos de menor rendimento ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "docentes",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('docentes', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os professores da escola são os mais indicados para ministrar as aulas extras , podendo também alunos de maior graduação , que em colégios que tem o ensino médio , por exemplo , participar das aulas como bolsistas ou como voluntários que , nesse caso poderiam ter as atividades consideradas como cumprimento de parte de sua carga horária nas disciplinas em que ministrassem as aulas ou sob outra forma estabelecida pelos sistemas de ensino .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "professores",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('professores', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º É o Poder Executivo autorizado a disponibilizar , em âmbito nacional , número telefônico ( Disque-Inclusão ) destinado a informar sobre os direitos da pessoa com deficiência garantidos na legislação vigente , assim como orientar sobre os procedimentos necessários ao seu usufruto nos âmbitos federal , estadual , distrital e municipal
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Disque-Inclusão",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Disque-Inclusão', 'LOCALvirtual')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+§ 1º O Disque-Inclusão também poderá receber denúncias sobre o descumprimento da legislação relacionada à pessoa com deficiência , que serão encaminhadas aos órgãos competentes
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Disque-Inclusão",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Disque-Inclusão",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Disque-Inclusão', 'LOCALvirtual')]
+Espúrias  (FP): [('Disque-Inclusão', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 3º O serviço objeto deste artigo deverá ser operado por Central de Atendimento à Pessoa com Deficiência , sob a organização e coordenação do Poder Executivo
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Central de Atendimento à Pessoa com Deficiência",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Central de Atendimento à Pessoa com Deficiência', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Fundamentada na visão social da deficiência , que considera que são as barreiras socioambientais e atitudinais que impedem e restringem a plena inclusão das pessoas com impedimentos corporais na nossa sociedade , em igualdade de condições com as demais pessoas , a Convenção sobre os Direitos da Pessoa com Deficiência , ratificada com status equivalente à emenda constitucional , nos termos do § 3º do art . 5º da Lei Maior , e incorporada ao ordenamento jurídico pátrio por meio do Decreto nº 6.949 , de 2009 , promove , protege e assegura o exercício pleno e equitativo de todos os direitos humanos e liberdades fundamentais por todas as pessoas com deficiência , assim como o respeito pela sua dignidade inerente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Convenção sobre os Direitos da Pessoa com Deficiência",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "§ 3º do art . 5º da Lei Maior",
+    "label": "FUNDlei",
+    "token_indices": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Decreto nº 6.949 , de 2009",
+    "label": "FUNDlei",
+    "token_indices": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Convenção sobre os Direitos da Pessoa com Deficiência",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "§ 3º do art . 5º da Lei Maior",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Decreto nº 6.949 , de 2009",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Convenção sobre os Direitos da Pessoa com Deficiência', 'PRODUTOoutros')]
+Espúrias  (FP): [('Convenção sobre os Direitos da Pessoa com Deficiência', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+Atualmente , existem mais de quarenta leis que tratam de direitos relacionados à pessoa com deficiência , entre as quais cabe destacar a Lei nº 13.146 , de 6 de julho de 2015 , que regulamenta diversos dispositivos da Convenção e altera algumas leis para deixá-las consonantes com a referida Carta de direitos humanos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 13.146 , de 6 de julho de 2015",
+    "label": "FUNDlei",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 13.146 , de 6 de julho de 2015",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Convenção",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Convenção', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+Outrossim , importa registrar que a Lei Maior estabelece competência concorrente da União , estados , Distrito Federal e municípios para a elaboração de normas referentes à proteção e inclusão social da pessoa com deficiência ( art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Maior",
+    "label": "FUNDapelido",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Maior",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "União",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('União', 'LOCALconcreto'), ('Distrito Federal', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Essa efervescência legislativa deve ser considerada positivamente , pois indica que o Estado brasileiro tem se preocupado em garantir a participação social plena da pessoa com deficiência .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Estado brasileiro",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Estado brasileiro', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para sanar esta lacuna e permitir que a pessoa com deficiência possa efetivamente exercer seus direitos garantidos pela Constituição de 1988 e pela legislação infraconstitucional , apresentamos Projeto de Lei que cria o Disque-Inclusão , número telefônico único , composto de apenas três dígitos e de acesso gratuito aos usuários , de âmbito nacional , destinado a informar sobre os direitos da pessoa com deficiência garantidos na legislação vigente , assim como orientar sobre os procedimentos necessários ao seu usufruto nos âmbitos federal , estadual , distrital e municipal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Constituição de 1988",
+    "label": "FUNDlei",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Disque-Inclusão",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Constituição de 1988",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Disque-Inclusão', 'LOCALvirtual')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nossa inspiração para essa proposta advém do sucesso obtido pelo poder público com iniciativas similares como Disque Denúncia , Disque 100 , Disque 180 , canais de atendimento rápidos e de fácil acesso , já consolidados na sociedade brasileira .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "poder público",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Disque Denúncia",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Disque 100",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Disque 180",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "poder público",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Disque Denúncia",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Disque 100",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Disque 180",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Disque Denúncia', 'LOCALvirtual'), ('Disque 100', 'LOCALvirtual'), ('Disque 180', 'LOCALvirtual')]
+Espúrias  (FP): [('Disque Denúncia', 'PRODUTOoutros'), ('Disque 100', 'PRODUTOoutros'), ('Disque 180', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Importa destacar que , no disque - inclusão , abrimos a possibilidade de o número receber denúncias sobre o descumprimento da legislação relacionada à pessoa com deficiência , que serão encaminhadas aos órgãos competentes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "disque - inclusão",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('disque - inclusão', 'LOCALvirtual')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+4 Caberá ao Poder Executivo a organização e coordenação de Central de Atendimento à Pessoa com Deficiência , que será responsável pela operação do serviço .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Central de Atendimento à Pessoa com Deficiência",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Central de Atendimento à Pessoa com Deficiência', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Arnaldo Faria de Sá ) Institui o Dia da Tolerância e Respeito entre os Povos , em reconhecimento ao genocídio praticado contra o povo armênio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Arnaldo Faria de Sá",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Dia da Tolerância e Respeito entre os Povos",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Arnaldo Faria de Sá",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Dia da Tolerância e Respeito entre os Povos",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "armênio",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('armênio', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1 o Fica instituído o dia 24 de abril como o Dia da Tolerância e Respeito entre os Povos , em reconhecimento ao genocídio praticado contra o povo armênio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "24 de abril",
+    "label": "DATA",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "24 de abril",
+    "label": "DATA"
+  },
+  {
+    "text": "Dia da Tolerância e Respeito entre os Povos",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "armênio",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Dia da Tolerância e Respeito entre os Povos', 'PRODUTOoutros'), ('armênio', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2º Os atos promovidos pela comunidade armênia no Brasil na data indicada no artigo 1º serão apoiados pela República Federativa do Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "República Federativa do Brasil",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "comunidade armênia",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "República Federativa do Brasil",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('comunidade armênia', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foram freqüentes e sistemáticas ações como a promoção maciça de deportações , expropriações , massacres , tortura e outras atrocidades que levaram à morte cerca de um milhão e quinhentos mil armênios .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "armênios",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('armênios', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Condutas como as relatadas , são condenadas pela Convenção sobre a Prevenção do Crime de Genocídio , adotada pelas Nações Unidas em 1948 , que considera genocídio todo ato cometido com o propósito de destruir , em parte ou em sua totalidade , uma nação , etnia , raça , ou grupo religioso .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Convenção sobre a Prevenção do Crime de Genocídio",
+    "label": "FUNDlei",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Nações Unidas",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "1948",
+    "label": "DATA",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Convenção sobre a Prevenção do Crime de Genocídio",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "Nações Unidas",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "1948",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('Convenção sobre a Prevenção do Crime de Genocídio', 'FUNDlei'), ('Nações Unidas', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Convenção sobre a Prevenção do Crime de Genocídio', 'FUNDapelido'), ('Nações Unidas', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1987 , o Parlamento europeu adotou uma Resolução estabelecendo como condição para que a Turquia possa ser membro da Comunidade o prévio reconhecimento do genocídio armênio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1987",
+    "label": "DATA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Parlamento europeu",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Turquia",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1987",
+    "label": "DATA"
+  },
+  {
+    "text": "Parlamento europeu",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Turquia",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Comunidade",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Parlamento europeu', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Parlamento europeu', 'ORGgovernamental'), ('Comunidade', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Senador Democrata ROBERT MENENDEZ em pronunciamento na recente introdução de um movimento no Congresso dos EUA , para reconhecer o genocídio perpetrado pelos turcos contra o povo armênio , assim se expressou : “ O genocídio armênio é um fato histórico e foi um dos incidentes subjacentes à Convenção sobre o Genocídio da ONU .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senador Democrata",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "ROBERT MENENDEZ",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Congresso dos EUA",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "ONU",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senador",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Democrata",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "ROBERT MENENDEZ",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Congresso dos EUA",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Convenção sobre o Genocídio da ONU",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Senador Democrata', 'PESSOAcargo'), ('Congresso dos EUA', 'ORGnaogovernamental'), ('ONU', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Senador', 'PESSOAcargo'), ('Democrata', 'ORGpartido'), ('Congresso dos EUA', 'ORGgovernamental'), ('Convenção sobre o Genocídio da ONU', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Brasil não pode continuar a omitir-se perante tão grave acontecimento que , embora afastado no tempo , ainda hoje produz efeitos em vários países .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Brasil', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por todo o exposto , cumpre-nos acrescentar que o presente Projeto de Lei nos foi sugerido pelo conceituado Conselho Nacional Armênio da América do Sul – Representação do Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho Nacional Armênio da América do Sul",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselho Nacional Armênio da América do Sul",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Representação do Brasil",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): [('Representação do Brasil', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+O próprio Supremo Tribunal Federal , aliás , já reconheceu que “ a Constituição Federal se limita , no art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Constituição Federal",
+    "label": "FUNDapelido",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Constituição Federal",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "art .",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('art .', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+5º , XLII e XLIV , a excluir os crimes que enumera da incidência material das regras da prescrição , sem proibir , em tese , que a legislação ordinária crie outras hipóteses ” ( RE 460971 , Relator Ministro SEPÚLVEDA PERTENCE , Primeira Turma , julgado em 13 / 02 / 2007 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RE 460971",
+    "label": "FUNDlei",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Relator",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Ministro",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "SEPÚLVEDA PERTENCE",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "13 / 02 / 2007",
+    "label": "DATA",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "RE 460971",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Relator Ministro SEPÚLVEDA PERTENCE",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Primeira Turma",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Relator', 'PESSOAcargo'), ('Ministro', 'PESSOAcargo'), ('SEPÚLVEDA PERTENCE', 'PESSOAindividual'), ('13 / 02 / 2007', 'DATA')]
+Espúrias  (FP): [('Relator Ministro SEPÚLVEDA PERTENCE', 'PESSOAcargo'), ('Primeira Turma', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado RUBENS BUENO 2019 - 14464 1 PACELLI , Eugênio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "RUBENS BUENO",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "PACELLI , Eugênio",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "RUBENS BUENO",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('PACELLI , Eugênio', 'PESSOAindividual')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO Muitos motoristas , em especial , os jovens sempre pensam que , mesmo tomando algumas doses de bebida alcoólica , não terão problemas em dirigir seu automóvel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "motoristas",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('motoristas', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Todos sabemos das tristes estatísticas sobre acidentes de trânsito envolvendo motoristas alcoolizados e , mais , sobre as relações do álcool com todos os tipos de violência social .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "motoristas",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('motoristas', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Pode Executivo federal estipulará a equivalência entre distintos testes de alcoolemia , para efeito de caracterização do crime tipificado neste artigo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pode Executivo federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Pode Executivo federal', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cremos que estes avisos , afixados em qualquer estabelecimento podem servir para a formação da consciência sanitária dos motoristas e inibir comportamentos de risco à saúde de todos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "motoristas",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('motoristas', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+§ 2 o A cada intervalo de quinze minutos será veiculada , sobreposta à respectiva transmissão , mensagem de advertência escrita e falada sobre os malefícios do álcool com duração não inferior a quinze segundos em cada inserção , por intermédio das seguintes frases e de outras a serem definidas na regulamentação , usadas seqüencialmente , todas precedidas da afirmação " O Ministério da Saúde adverte " : I – " Beber e dirigir é crime ” ; II – “ Beber e dirigir pode dar cadeia ” ; III – “ Mistura perigosa : bebida e automóvel IV - ” Mistura criminosa : bebida e direção ”
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério da Saúde",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      62,
+      63,
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ministério da Saúde', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deputada LAURIETE PSC-ES 2011 _ 862
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputada",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "LAURIETE",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "2011",
+    "label": "DATA",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputada",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "LAURIETE",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PSC",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "ES",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "2011",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('PSC', 'ORGpartido'), ('ES', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo o 8º Anuário Brasileiro de Segurança Pública , publicado em 2014 , por exemplo , nos anos de 2012 e 2013 foram praticados , respectivamente 1829 ( mil oitocentos e vinte e nove ) e 1871 ( mil oitocentos e setenta e um ) crimes de latrocínio no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2014",
+    "label": "DATA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "2012",
+    "label": "DATA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "2013",
+    "label": "DATA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "8º Anuário Brasileiro de Segurança Pública",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "2014",
+    "label": "DATA"
+  },
+  {
+    "text": "2012",
+    "label": "DATA"
+  },
+  {
+    "text": "2013",
+    "label": "DATA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('8º Anuário Brasileiro de Segurança Pública', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2º Os diversos órgãos da Administração Pública Federal , nos Poderes Executivo , Legislativo e Judiciário , são obrigados a manterem , na Internet , para acesso do público em geral , portais de transparência contendo a divulgação de todos os gastos e repasses de sua alçada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Administração Pública Federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Poderes Executivo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Legislativo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Judiciário",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Administração Pública Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Poderes Executivo , Legislativo e Judiciário",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Poderes Executivo', 'ORGgovernamental'), ('Legislativo', 'ORGgovernamental'), ('Judiciário', 'ORGgovernamental')]
+Espúrias  (FP): [('Poderes Executivo , Legislativo e Judiciário', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que pese os inúmeros instrumentos de controle , desde as diversas instâncias do Poder Legislativo até as Cortes de Contas espalhadas por todo o País , verificamos que o simples controle a posteriori não tem resolvido a contento a questão da correta aplicação dos recursos públicos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Legislativo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Legislativo",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Cortes de Contas",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Cortes de Contas', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não nos cabe nesta Câmara dos Deputados alcançar todas as esferas de Poder da República , deixando desde já a sugestão para que tal iniciativa possa ser replicada nas diversas Assembleias Estaduais e nas diversas Câmaras de Vereadores presentes em todo o Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Assembleias Estaduais",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Câmaras de Vereadores",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "República",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Assembleias Estaduais",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Câmaras de Vereadores",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('República', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+3 Para que a aplicação seja fiel , caracterizamos como crime de responsabilidade o não cumprimento dos dispositivos da Lei .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Lei', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+Certos de que com a presente iniciativa contribuímos para uma solução simples , mas muito eficaz da melhor aplicação dos recursos públicos , encarecemos a todos o necessário apoio para a célere tramitação e aprovação do Projeto de Lei que ora submetemos a esta Casa Legislativa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Casa Legislativa",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Casa Legislativa', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI Nº , DE 2019 ( Do Sr. LEUR LOMANTO JUNIOR ) Dispõe sobre a isenção do Imposto sobre a Propriedade Territorial Rural ( ITR ) dos imóveis rurais que se destinem à produção de alimentos orgânicos e sobre a isenção do Imposto sobre Produtos Industrializados ( IPI ) incidente sobre a industrialização de produtos biodegradáveis .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "LEUR LOMANTO JUNIOR",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Propriedade Territorial Rural ( ITR )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Imposto sobre Produtos Industrializados ( IPI )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "LEUR LOMANTO JUNIOR",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Imposto sobre a Propriedade Territorial Rural ( ITR )",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Imposto sobre Produtos Industrializados ( IPI )",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Propriedade Territorial Rural ( ITR )', 'PRODUTOoutros')]
+Espúrias  (FP): [('Imposto sobre a Propriedade Territorial Rural ( ITR )', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+III – o imóvel rural de até 2 ( dois ) módulos fiscais , nos termos do art . 50 da Lei nº 4.504 , de 30 de novembro de 1964 , que se destine exclusivamente à produção de alimentos orgânicos , assim considerados pelos Ministérios do Meio Ambiente e da Agricultura .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 50 da Lei nº 4.504 , de 30 de novembro de 1964",
+    "label": "FUNDlei",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Ministérios do Meio Ambiente",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Agricultura",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 50 da Lei nº 4.504 , de 30 de novembro de 1964",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Ministérios do Meio Ambiente e da Agricultura",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Ministérios do Meio Ambiente', 'ORGgovernamental'), ('Agricultura', 'ORGgovernamental')]
+Espúrias  (FP): [('Ministérios do Meio Ambiente e da Agricultura', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+( NR ) Art . 2º Ficam isentos do Imposto sobre Produtos Industrializados ( IPI ) os produtos biodegradáveis , assim considerados pelos Ministérios do Meio Ambiente e da Agricultura .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Imposto sobre Produtos Industrializados ( IPI )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Ministérios do Meio Ambiente",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Agricultura",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Imposto sobre Produtos Industrializados ( IPI )",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Ministérios do Meio Ambiente e da Agricultura",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Ministérios do Meio Ambiente', 'ORGgovernamental'), ('Agricultura', 'ORGgovernamental')]
+Espúrias  (FP): [('Ministérios do Meio Ambiente e da Agricultura', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 8 3 8 / 2 0 1 9 A p re s e n ta ç ã o : 0 3 / 0 9 / 2 0 1 9 1 8 : 1 1 2 JUSTIFICAÇÃO O objetivo deste Projeto de Lei é conceder um incentivo fiscal para os pequenos produtores rurais que se dediquem à produção de alimentos orgânicos , estimulando a agricultura orgânica e familiar .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "pequenos produtores rurais",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('pequenos produtores rurais', 'PESSOAgrupocargo')]
+

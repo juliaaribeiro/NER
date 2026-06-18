@@ -1,0 +1,6090 @@
+--------------------------------------------------------------------------------
+Texto:
+E M E N T A Poder Judiciário da União TRIBUNAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS Fls . _____ Órgão : CONSELHO ESPECIAL Classe : AÇÃO DIRETA DE INCONSTITUCIONALIDADE N . Processo : 20170020161362ADI ( 0016947-70.2017.8.07.0000 ) Curador ( s ) : PROCURADORA-GERAL DO DISTRITO FEDERAL E OUTROS Requerido ( s ) : GOVERNADOR DO DISTRITO FEDERAL E OUTROS Relator : Desembargador SILVANIO BARBOSA DOS SANTOS Acórdão N. : 1085399 AÇÃO DIRETA DE INCONSTITUCIONALIDADE .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TRIBUNAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "0016947-70.2017.8.07.0000",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Acórdão N. : 1085399",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      68,
+      69,
+      70,
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TRIBUNAL DE JUSTIÇA DO DISTRITO FEDERAL E TERRITÓRIOS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0016947-70.2017.8.07.0000",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1085399",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "GOVERNADOR DO DISTRITO FEDERAL",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('CONSELHO ESPECIAL', 'ORGANIZACAO'), ('DISTRITO FEDERAL', 'LOCAL'), ('DISTRITO FEDERAL', 'LOCAL'), ('Acórdão N. : 1085399', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('1085399', 'JURISPRUDENCIA'), ('GOVERNADOR DO DISTRITO FEDERAL', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Precedente TJDFT .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TJDFT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TJDFT', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Lei Distrital n.º 5.815/2017 , de iniciativa parlamentar , ostenta vício formal de iniciativa , ao autorizar o Distrito Federal a celebrar convênios acerca de processos sob responsabilidade das Administrações Regionais de concessão de Alvarás de Construção e Cartas de Habite-se , pois é competência privativa do Chefe do Poder Executivo exercer a direção superior da administração pública distrital ( art . 100 , inciso IV , e art . 71 , §1º , IV , LODF ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Distrital n.º 5.815/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "art . 100 , inciso IV , e art . 71 , §1º , IV , LODF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Distrital n.º 5.815/2017",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "LODF",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('art . 100 , inciso IV , e art . 71 , §1º , IV , LODF', 'LEGISLACAO')]
+Espúrias  (FP): [('LODF', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A usurpação da competência privativa do Governador enseja a violação ao princípio da independência e harmonia dos Poderes , corolário do Estado Federativo e , por consequência , ao princípio constitucional da reserva de administração , Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 1 Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI tratando-se de vício que não é afastado por se tratar de norma meramente autorizativa nem pela ulterior sanção do Governador .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pedido julgado procedente para declarar , com efeitos `` ex tunc '' e eficácia `` erga omnes '' , a inconstitucionalidade formal da Lei nº 5.815/2017 , por violação ao disposto noartigo 53 , `` caput '' e § 1º , artigo 71 , §1º , IV , artigo 100 , incisos IV , VI , X e XXIII , todos da Lei Orgânica do Distrito Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 5.815/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "noartigo 53 , `` caput '' e § 1º , artigo 71 , §1º , IV , artigo 100 , incisos IV , VI , X e XXIII , todos da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 5.815/2017",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "artigo 53 , `` caput '' e § 1º , artigo 71 , §1º , IV , artigo 100 , incisos IV , VI , X e XXIII , todos da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [("noartigo 53 , `` caput '' e § 1º , artigo 71 , §1º , IV , artigo 100 , incisos IV , VI , X e XXIII , todos da Lei Orgânica do Distrito Federal", 'LEGISLACAO')]
+Espúrias  (FP): [("artigo 53 , `` caput '' e § 1º , artigo 71 , §1º , IV , artigo 100 , incisos IV , VI , X e XXIII , todos da Lei Orgânica do Distrito Federal", 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 2 Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI A C Ó R D Ã O Acordam os Senhores Desembargadores do CONSELHO ESPECIAL do Tribunal de Justiça do Distrito Federal e Territórios , SILVANIO BARBOSA DOS SANTOS - Relator , SIMONE LUCINDO - 1º Vogal , JOÃO TIMÓTEO DE OLIVEIRA - 2º Vogal , JOÃO EGMONT - 3º Vogal , TEÓFILO CAETANO - 4º Vogal , JAIR SOARES - 5º Vogal , GETÚLIO DE MORAES OLIVEIRA - 6º Vogal , ROMÃO C. OLIVEIRA - 7º Vogal , ROMEU GONZAGA NEIVA - 8º Vogal , CARMELITA BRASIL - 9º Vogal , CRUZ MACEDO - 10º Vogal , HUMBERTO ULHÔA - 11º Vogal , J.J. COSTA CARVALHO - 12º Vogal , ANA MARIA AMARANTE - 13º Vogal , JOSÉ DIVINO - 14º Vogal , ROBERVAL CASEMIRO BELINATI - 15º Vogal , ARNOLDO CAMANHO - 16º Vogal , MARIO MACHADO - 17º Vogal , sob a presidência do Senhor Desembargador MARIO MACHADO , em proferir a seguinte decisão : JULGAR PROCEDENTE O PEDIDO E DECLARAR A INCONSTITUCIONALIDADE FORMAL DA LEI DISTRITAL N . 5.815 , DE 3 DE ABRIL DE 2017 , COM EFEITOS `` EX TUNC '' E EFICÁCIA `` ERGA OMNES '' .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Tribunal de Justiça do Distrito Federal e Territórios",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "SIMONE LUCINDO",
+    "label": "PESSOA",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "JOÃO TIMÓTEO DE OLIVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "JOÃO EGMONT",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66
+    ]
+  },
+  {
+    "text": "TEÓFILO CAETANO",
+    "label": "PESSOA",
+    "token_indices": [
+      71,
+      72
+    ]
+  },
+  {
+    "text": "JAIR SOARES",
+    "label": "PESSOA",
+    "token_indices": [
+      77,
+      78
+    ]
+  },
+  {
+    "text": "GETÚLIO DE MORAES OLIVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      83,
+      84,
+      85,
+      86
+    ]
+  },
+  {
+    "text": "ROMÃO C. OLIVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "text": "ROMEU GONZAGA NEIVA",
+    "label": "PESSOA",
+    "token_indices": [
+      98,
+      99,
+      100
+    ]
+  },
+  {
+    "text": "CARMELITA BRASIL",
+    "label": "PESSOA",
+    "token_indices": [
+      105,
+      106
+    ]
+  },
+  {
+    "text": "CRUZ MACEDO",
+    "label": "PESSOA",
+    "token_indices": [
+      111,
+      112
+    ]
+  },
+  {
+    "text": "HUMBERTO ULHÔA",
+    "label": "PESSOA",
+    "token_indices": [
+      117,
+      118
+    ]
+  },
+  {
+    "text": "J.J. COSTA CARVALHO",
+    "label": "PESSOA",
+    "token_indices": [
+      123,
+      124,
+      125
+    ]
+  },
+  {
+    "text": "ANA MARIA AMARANTE",
+    "label": "PESSOA",
+    "token_indices": [
+      130,
+      131,
+      132
+    ]
+  },
+  {
+    "text": "JOSÉ DIVINO",
+    "label": "PESSOA",
+    "token_indices": [
+      137,
+      138
+    ]
+  },
+  {
+    "text": "ROBERVAL CASEMIRO BELINATI",
+    "label": "PESSOA",
+    "token_indices": [
+      143,
+      144,
+      145
+    ]
+  },
+  {
+    "text": "ARNOLDO CAMANHO",
+    "label": "PESSOA",
+    "token_indices": [
+      150,
+      151
+    ]
+  },
+  {
+    "text": "MARIO MACHADO",
+    "label": "PESSOA",
+    "token_indices": [
+      156,
+      157
+    ]
+  },
+  {
+    "text": "MARIO MACHADO",
+    "label": "PESSOA",
+    "token_indices": [
+      168,
+      169
+    ]
+  },
+  {
+    "text": "LEI DISTRITAL N . 5.815",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      187,
+      188,
+      189,
+      190,
+      191
+    ]
+  },
+  {
+    "text": "3 DE ABRIL DE 2017",
+    "label": "TEMPO",
+    "token_indices": [
+      194,
+      195,
+      196,
+      197,
+      198
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('SILVANIO BARBOSA DOS SANTOS', 'PESSOA'), ('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA'), ('CONSELHO ESPECIAL', 'ORGANIZACAO'), ('Tribunal de Justiça do Distrito Federal e Territórios', 'ORGANIZACAO'), ('SILVANIO BARBOSA DOS SANTOS', 'PESSOA'), ('SIMONE LUCINDO', 'PESSOA'), ('JOÃO TIMÓTEO DE OLIVEIRA', 'PESSOA'), ('JOÃO EGMONT', 'PESSOA'), ('TEÓFILO CAETANO', 'PESSOA'), ('JAIR SOARES', 'PESSOA'), ('GETÚLIO DE MORAES OLIVEIRA', 'PESSOA'), ('ROMÃO C. OLIVEIRA', 'PESSOA'), ('ROMEU GONZAGA NEIVA', 'PESSOA'), ('CARMELITA BRASIL', 'PESSOA'), ('CRUZ MACEDO', 'PESSOA'), ('HUMBERTO ULHÔA', 'PESSOA'), ('J.J. COSTA CARVALHO', 'PESSOA'), ('ANA MARIA AMARANTE', 'PESSOA'), ('JOSÉ DIVINO', 'PESSOA'), ('ROBERVAL CASEMIRO BELINATI', 'PESSOA'), ('ARNOLDO CAMANHO', 'PESSOA'), ('MARIO MACHADO', 'PESSOA'), ('MARIO MACHADO', 'PESSOA'), ('LEI DISTRITAL N . 5.815', 'LEGISLACAO'), ('3 DE ABRIL DE 2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Documento Assinado Eletronicamente SILVANIO BARBOSA DOS SANTOS Relator Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 3 A norma impugnada possui a seguinte redação : LEI Nº 5.815 , DE 03 DE ABRIL DE 2017 ( Autoria do Projeto : Deputado Rafael Prudente ) Dispõe sobre convênio do Distrito Federal com o CREADF e o CAU-DF e dá outras providências .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "LEI Nº 5.815",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "03 DE ABRIL DE 2017",
+    "label": "TEMPO",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Rafael Prudente",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "CREADF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LEI Nº 5.815",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "03 DE ABRIL DE 2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Rafael Prudente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "CREADF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('SILVANIO BARBOSA DOS SANTOS', 'PESSOA'), ('Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O GOVERNADOR DO DISTRITO FEDERAL , FAÇO SABER QUE A CÂMARA LEGISLATIVA DO DISTRITO FEDERAL DECRETA E EU SANCIONO A SEGUINTE LEI : Art . 1º O Distrito Federal pode firmar convênios com o Conselho Regional de Engenharia e Agronomia do Distrito Federal - CREA-DF e com o Conselho de Arquitetura e Urbanismo do Distrito Federal - CAU-DF para , por meio do seu corpo técnico e credenciados , analisar os processos de responsabilidade das administrações regionais de que trata a Lei nº 1.172 , de 24 de julho de 1996 , proferindo parecer por concessão ou negativa de pedido , ressalvadas as análises realizadas pelas concessionárias de serviço público e pelos órgãos públicos competentes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "CÂMARA LEGISLATIVA DO DISTRITO FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Lei nº 1.172",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "24 de julho de 1996",
+    "label": "TEMPO",
+    "token_indices": [
+      86,
+      87,
+      88,
+      89,
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL"
+  },
+  {
+    "text": "CÂMARA LEGISLATIVA DO DISTRITO FEDERAL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei nº 1.172",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "24 de julho de 1996",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Distrito Federal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+1º pode ser rejeitado pela Administração Pública , fundamentadamente , por comprovada inobservância de norma legal em vigor ou Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI R E L A T Ó R I O Trata-se de ação direta de inconstitucionalidade proposta pela PROCURADORIA GERAL DE JUSTIÇA DO DISTRITO FEDERAL em face do inteiro teor da Lei Distrital nº 5.815 , de 3 de abril de 2017 , aqual permite ao Distrito Federal firmar convênios com o Conselho Regional de Engenharia e Agronomia do Distrito Federal CREA/DF e com o Conselho de Arquitetura e Urbanismo do Distrito Federal CAU/DF para analisarem processos de responsabilidade das Administrações Regionais , proferindo parecer por concessão ou negativa de pedido de Alvará de Construção e de Carta de Habite-se de edificações .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "PROCURADORIA GERAL DE JUSTIÇA DO DISTRITO FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Lei Distrital nº 5.815",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "3 de abril de 2017",
+    "label": "TEMPO",
+    "token_indices": [
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
+    ]
+  },
+  {
+    "text": "CREA/DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "text": "CAU/DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      99
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "PROCURADORIA GERAL DE JUSTIÇA DO DISTRITO FEDERAL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei Distrital nº 5.815",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "3 de abril de 2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "CREA/DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CAU/DF",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA'), ('Distrito Federal', 'ORGANIZACAO'), ('Conselho Regional de Engenharia e Agronomia do Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('20170020161362ADI', 'JURISPRUDENCIA'), ('Distrito Federal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quanto ao vício formal , aduziu que o diploma legal atacado é de iniciativa de Deputado Distrital , todavia , trata-se de matéria afeta à administração e ao funcionamento de órgãos da Administração Pública do Distrito Federal , tema de competência privativa do Chefe do Poder Executivo Governador do Distrito Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'LOCAL')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+) XIV - exercer o poder de polícia administrativa ; XV - licenciar estabelecimento industrial , comercial , prestador de serviços e similar ou cassar o alvará de licença dos que se tornarem danosos ao meio ambiente , à Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 5 saúde , ao bem-estar da população ou que infringirem dispositivos legais ; Art . 19 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('20170020161362ADI', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A administração pública direta , indireta ou fundacional , de qualquer dos Poderes do Distrito Federal , obedecerá aos princípios de legalidade , impessoalidade , moralidade , publicidade , razoabilidade , motivação e interesse público , e também ao seguinte : Art . 53 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Distrito Federal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+) X - dispor sobre a organização e o funcionamento da Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 6 administração do Distrito Federal , na forma desta Lei Orgânica ; A Mesa Diretora da Câmara Legislativa do Distrito Federal prestou informações às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA'), ('Distrito Federal', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Procuradoria-Geral do Distrito Federal manifestou-se às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Procuradoria-Geral do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Procuradoria-Geral do Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Saliente-se , ademais , que o Conselho Especial deste Tribunal de Justiça ostenta precedente no sentido de ser admissível o ajuizamento de Ação Direta de Inconstitucionalidade em face de lei autorizativa , senão vejamos : CONSTITUCIONAL - AÇÃO DIRETA DE INCONSTITUCIONALIDADE - LEI/DF Nº 2.872/2002 QUE DISPÕE SOBRE ALIENAÇÃO DE IMÓVEIS DESTINADOS A ESCOLAS - VÍCIO ( FORMAL E MATERIAL ) - CABIMENTO DA ADI - LIMINAR ACOLHIDA - PRELIMINAR DE INÉPCIA DA INICIAL REJEITADA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho Especial",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "LEI/DF Nº 2.872/2002",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselho Especial deste Tribunal de Justiça",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "LEI/DF Nº 2.872/2002",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Conselho Especial', 'ORGANIZACAO')]
+Espúrias  (FP): [('Conselho Especial deste Tribunal de Justiça', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+( Acórdão n.187778 , 20030020042411ADI , Relator : EDUARDO DE MORAES OLIVEIRA CONSELHO ESPECIAL , Data de Julgamento : 23/09/2003 , Publicado no DJU SEÇÃO 3 : 23/03/2004 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n.187778",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "20030020042411ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "EDUARDO DE MORAES OLIVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "23/09/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "23/03/2004",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão n.187778",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "20030020042411ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "EDUARDO DE MORAES OLIVEIRA CONSELHO ESPECIAL",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "23/09/2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "23/03/2004",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('EDUARDO DE MORAES OLIVEIRA', 'PESSOA'), ('CONSELHO ESPECIAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('EDUARDO DE MORAES OLIVEIRA CONSELHO ESPECIAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pág. : 82 ) Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI V O T O S O Senhor Desembargador SILVANIO BARBOSA DOS SANTOS - Relator Admissibilidade Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 9 Dessa forma , conheço da Ação Direta de Inconstitucionalidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA'), ('SILVANIO BARBOSA DOS SANTOS', 'PESSOA')]
+Espúrias  (FP): [('20170020161362ADI', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Inconstitucionalidade formal Quanto ao vício formal , aduziu o Requerente que o diploma legal atacado é de iniciativa de Deputado Distrital ; todavia , trata-se de matéria afeta à administração e ao funcionamento de órgãos da Administração Pública do Distrito Federal , tema de competência privativa do Chefe do Poder Executivo - Governador do Distrito Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'LOCAL')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O artigo 1º da Lei Distrital nº 5.815/2017 contém comando autorizativo , permitindo ao Distrito Federal firmar convênios com oConselho Regional de Engenharia e Agronomia do Distrito Federal - CREA-DF e com o Conselho de Arquitetura e Urbanismo do Distrito Federal - CAU-DF para , por meio do seu corpo técnico e credenciados , analisarem os processos de responsabilidade das Administrações Regionais de que trata a Lei nº 1.172/1996 , proferindo parecer por concessão ou negativa de pedido , ressalvadas as análises realizadas pelas concessionárias de serviço público e pelos órgãos públicos competentes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 1º da Lei Distrital nº 5.815/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "oConselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Lei nº 1.172/1996",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "artigo 1º da Lei Distrital nº 5.815/2017",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei nº 1.172/1996",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('oConselho Regional de Engenharia e Agronomia do Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Conselho Regional de Engenharia e Agronomia do Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Desta feita , a primeira mácula que recai sobre a Lei Distrital n.º 5.815/2017 é a de ofensa aos princípios de independência e harmonia dos Poderes , preconizados no artigo 53 da Lei Orgânica do Distrito Federal - frise-se : Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 10 único instrumento legítimo para estabelecer as atribuições dos Poderes Legislativo e Executivo distritais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Distrital n.º 5.815/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "artigo 53 da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Distrital n.º 5.815/2017",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "artigo 53 da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A iniciativa das leis complementares e ordinárias , observada a forma e os casos previstos nesta Lei Orgânica , cabe : I - a qualquer membro ou comissão da Câmara Legislativa ; II - ao Governador ; III - aos cidadãos ; IV - ao Tribunal de Contas , nas matérias do art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Câmara Legislativa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Tribunal de Contas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara Legislativa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Tribunal de Contas', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+44-48 , salientou que o objetivo da Lei Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 12 Distrital nº 5.815/2017 é aumentar a eficiência na atuação estatal nos processos administrativos de Alvarás de Construção e Cartas de Habite-se , nos seguintes termos : `` Efetivamente , o que se busca é aumentar a eficiência na atuação estatal ao se incorporar a valiosa contribuição de engenheiros e arquitetos no exame de processos referentes a CARTA DE HABITE-SE e ALVARÁS DE CONSTRUÇÃO '' ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Distrital nº 5.815/2017",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Lei Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA'), ('GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS', 'ORGANIZACAO'), ('Distrital nº 5.815/2017', 'LEGISLACAO'), ('Distrito Federal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nas mesmas informações , a Mesa Diretora da Câmara Legislativa do Distrito Federal ainda destacou excerto da manifestação da Comissão de Constituição de Justiça - CCJ acerca da Lei Distrital nº 5.815/2017 , e novamente se depreende a finalidade precípua da lei de atribuir eficiência aos serviços e atribuições da Administração , mediante a celebração de convênios .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Comissão de Constituição de Justiça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "CCJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Lei Distrital nº 5.815/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei Distrital nº 5.815/2017",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "CCJ",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Comissão de Constituição de Justiça', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Cita-se , por oportuno , trecho das informações da Mesa Diretora , no qual há remição à manifestação da CCJ ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mesa Diretora",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "CCJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CCJ",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Mesa Diretora', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+47 ) O Excelentíssimo Senhor GOVERNADOR , nas informações , Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 13 propugnou pela constitucionalidade da norma , asseverando , dentre outros argumentos , que : `` A busca por parcerias , desde que preservados todos os interesses públicos em jogo , é uma tendência da moderna administração pública , de modo a tornar os serviços mais céleres e eficientes ao cidadão '' .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('20170020161362ADI', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ora , as Administrações Regionais compõem a Administração Pública Distrital e , portanto , estão sujeitas à direção superior do Governador .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Administrações Regionais",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Administração Pública Distrital",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Governador",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Administrações Regionais', 'ORGANIZACAO'), ('Administração Pública Distrital', 'ORGANIZACAO'), ('Governador', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sobressai claro , portanto , que a Lei Distrital n.º 5.815/2017 , de iniciativa parlamentar , ao autorizar o Distrito Federal a celebrar convênios acerca de processos sob responsabilidade das Administrações Regionais se imiscuiu na competência privativa do Chefe do Poder Executivo de exercer a direção superior da administração pública distrital ( art . 100 , inciso IV , LODF ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Distrital n.º 5.815/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "art . 100 , inciso IV , LODF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Distrital n.º 5.815/2017",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "LODF",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('art . 100 , inciso IV , LODF', 'LEGISLACAO')]
+Espúrias  (FP): [('LODF', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ajurisprudência do Supremo Tribunal Federal é firme no sentido de que a regra que subordina a celebração de acordos ou convênios firmados por órgãos do Poder Executivo à autorização prévia ou ratificação da Assembléia Legislativa , fere o princípio da independência e harmonia dos poderes ( art . 2º , da C.F .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "art . 2º , da C.F",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "art . 2º , da C.F",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('art . 2º , da C.F', 'ORGANIZACAO')]
+Espúrias  (FP): [('art . 2º , da C.F', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+( ADI 342 , Relator ( a ) : Min . SYDNEY SANCHES , Tribunal Pleno , julgado em 06/02/2003 , DJ 11-04-2003 PP-00025 EMENT VOL-02106- 01 PP-00001 ) ( grifo nosso ) Note-se que a Lei Orgânica Distrital delimitou que a celebração e a autorização para a celebração de convênios por parte do Chefe do Poder Executivo local se darão `` na forma da legislação em vigor '' - o que não significa competir à lei autorizara celebração de convênios , mas sim regulamentar os moldes de sua celebração .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ADI 342",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "SYDNEY SANCHES",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "06/02/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "11-04-2003",
+    "label": "TEMPO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Lei Orgânica Distrital",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ADI 342",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SYDNEY SANCHES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "06/02/2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "11-04-2003",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Lei Orgânica Distrital', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ademais , quando a Lei Orgânica do Distrito Federal atribuiu ao GOVERNADOR a iniciativa privativa das leis que disponham acerca das atribuições das entidades que compõem a administração pública direta e indireta ( art . 71 , § 1º , inciso IV ) , não limitou a competência à criação de novas atribuições , abarcando também a forma de exercício de tais atribuições .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "art . 71 , § 1º , inciso IV",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('art . 71 , § 1º , inciso IV', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Neste sentido têm decidido demais Tribunais Estaduais pátrios : Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 16 3 - Segundo precedentes do STF , o fato de a lei impugnada ser meramente autorizativa não lhe retira a característica de inconstitucionalidade , que a desqualifica pela raiz quando invade a esfera a administrativa alcançando atos ligados à atividade típica da Administração Pública .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "STF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "STF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('20170020161362ADI', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( Processo : 100010012076 ES 100010012076 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "100010012076 ES",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "100010012076",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Processo : 100010012076 ES",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('100010012076 ES', 'JURISPRUDENCIA'), ('100010012076', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Processo : 100010012076 ES', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( Processo : ADI 01987668220128260000 SP 0198766- 82.2012.8.26.0000 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ADI 01987668220128260000 SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "0198766- 82.2012.8.26.0000",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ADI 01988768220128260000 SP",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0198766- 82.2012.8.26.0000",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ADI 01987668220128260000 SP', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('ADI 01988768220128260000 SP', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( Acórdão n.1049279 , 20160020153586ADI , Relator : MARIOZAM BELMIRO CONSELHO ESPECIAL , Data de Julgamento : 19/09/2017 , Publicado no DJE : 28/09/2017 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n.1049279",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "20160020153586ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "MARIOZAM BELMIRO",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "19/09/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "28/09/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão n.1049279",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "20160020153586ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARIOZAM BELMIRO CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "19/09/2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "28/09/2017",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('MARIOZAM BELMIRO', 'PESSOA'), ('CONSELHO ESPECIAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('MARIOZAM BELMIRO CONSELHO ESPECIAL', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+ALei distrital 1.271 , de 27 de novembro de 1996 , padece de inconstitucionalidade formal , pois fruto de emenda parlamentar que enseja inadmissível aumento de despesa , afrontando reserva à iniciativa do Governador do DF , em ofensa à LODF .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ALei distrital 1.271",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "27 de novembro de 1996",
+    "label": "TEMPO",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "DF",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "LODF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei distrital 1.271",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "27 de novembro de 1996",
+    "label": "TEMPO"
+  },
+  {
+    "text": "LODF",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('ALei distrital 1.271', 'LEGISLACAO'), ('DF', 'LOCAL')]
+Espúrias  (FP): [('Lei distrital 1.271', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+( Acórdão n.987488 , 20160020314727ADI , Relator : ROMEU GONZAGA NEIVA CONSELHO ESPECIAL , Data de Julgamento : 06/12/2016 , Publicado no DJE : 19/12/2016 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n.987488",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "20160020314727ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "ROMEU GONZAGA NEIVA",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "06/12/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "19/12/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão n.987488",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "20160020314727ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ROMEU GONZAGA NEIVA CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "06/12/2016",
+    "label": "TEMPO"
+  },
+  {
+    "text": "19/12/2016",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('ROMEU GONZAGA NEIVA', 'PESSOA'), ('CONSELHO ESPECIAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('ROMEU GONZAGA NEIVA CONSELHO ESPECIAL', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Situação ocorrente na espécie , em que diploma legislativo estadual , de iniciativa parlamentar , institui vale-transporte em favor de servidores públicos , independentemente da distância do seu deslocamento : concessão de vantagem que , além de interferir no regime jurídico dos servidores públicos locais , também importa em aumento da despesa pública ( RTJ 101/929 - RTJ 132/1059 - RTJ 170/383 , v.g .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "RTJ 101/929",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "RTJ 132/1059",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "RTJ 170/383",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('RTJ 101/929', 'JURISPRUDENCIA'), ('RTJ 132/1059', 'JURISPRUDENCIA'), ('RTJ 170/383', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+) ( ADI 2867 , Relator ( a ) : Min . CELSO DE MELLO , Tribunal Pleno , julgado em 03/12/2003 , DJ 09-02-2007 PP-00016 EMENT VOL-02263- 01 PP-00067 RTJ VOL-00202-01 PP-00078 ) ( grifo nosso ) Na mesma linha , vejamos os precedentes já exarados por este egrégio Conselho Especial do Tribunal de Justiça do Distrito Federal e dos Territórios : 1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ADI 2867",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "CELSO DE MELLO",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "03/12/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "09-02-2007",
+    "label": "TEMPO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Conselho Especial do Tribunal de Justiça do Distrito Federal e dos Territórios",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ADI 2867",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "CELSO DE MELLO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "03/12/2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "09-02-2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Conselho Especial do Tribunal de Justiça do Distrito Federal e dos Territórios', 'ORGANIZACAO')]
+Espúrias  (FP): [('Tribunal de Justiça do Distrito Federal e dos Territórios', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+ALei 5.764/2016 , ao dispor critérios para exploração e uso de bem público distrital ( águas subterrâneas ) , invadiu competência do Poder Executivo , nos termos do art . 52 da LODF .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ALei 5.764/2016",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "art . 52 da LODF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ALei 5.764/2016', 'LEGISLACAO'), ('art . 52 da LODF', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Acórdão n.1040052 , 20170020089707ADI , Relator : ARNOLDO CAMANHO CONSELHO ESPECIAL , Data de Julgamento : 08/08/2017 , Publicado no DJE : 23/08/2017 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n.1040052",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "20170020089707ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "ARNOLDO CAMANHO",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "08/08/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "23/08/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão n.1040052",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "20170020089707ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ARNOLDO CAMANHO CONSELHO ESPECIAL",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "08/08/2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "23/08/2017",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('ARNOLDO CAMANHO', 'PESSOA'), ('CONSELHO ESPECIAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('ARNOLDO CAMANHO CONSELHO ESPECIAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Extensão da declaração de inconstitucionalidade Tendo em vista a nítida interdependência entre os artigos da Lei nº 5.815/2017 , impõe-se a declaração de inconstitucionalidade formal da norma como um todo , e não de qualquer dispositivo isoladamente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 5.815/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "artigos da Lei nº 5.815/2017",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Lei nº 5.815/2017', 'LEGISLACAO')]
+Espúrias  (FP): [('artigos da Lei nº 5.815/2017', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nessa esteira , cumpre reconhecer a inconstitucionalidade formal da Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 22 Lei nº 5.815/2017 , por violação ao disposto noartigo 53 , `` caput '' e § 1º , e artigo 100 , incisos IV , VI , X e XXIII todos da Lei Orgânica do Distrito Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Lei nº 5.815/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "noartigo 53 , `` caput '' e § 1º , e artigo 100 , incisos IV , VI , X e XXIII todos da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "LEI Nº 5.815/2017",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "artigo 53 , `` caput '' e § 1º , e artigo 100 , incisos IV , VI , X e XXIII todos da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Lei nº 5.815/2017', 'LEGISLACAO'), ("noartigo 53 , `` caput '' e § 1º , e artigo 100 , incisos IV , VI , X e XXIII todos da Lei Orgânica do Distrito Federal", 'LEGISLACAO')]
+Espúrias  (FP): [('LEI Nº 5.815/2017', 'LEGISLACAO'), ("artigo 53 , `` caput '' e § 1º , e artigo 100 , incisos IV , VI , X e XXIII todos da Lei Orgânica do Distrito Federal", 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+ISTO POSTO , julgo procedente o pedido para declarar , com efeitos '' ex tunc '' e eficácia `` erga omnes '' , a inconstitucionalidade formal da Lei nº 5.815 , de 3 de abril de 2017 , por violação ao disposto no artigo53 , `` caput '' e § 1º , artigo 71 , § 1º , IVe artigo100 , incisos IV , VI , X e XXIII , todos da Lei Orgânica do Distrito Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 5.815 , de 3 de abril de 2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "artigo53 , `` caput '' e § 1º , artigo 71 , § 1º , IVe artigo100 , incisos IV , VI , X e XXIII , todos da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 5.815",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "3 de abril de 2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "artigo53 , `` caput '' e § 1º , artigo 71 , § 1º , IVe artigo100 , incisos IV , VI , X e XXIII , todos da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Lei nº 5.815 , de 3 de abril de 2017', 'LEGISLACAO')]
+Espúrias  (FP): [('Lei nº 5.815', 'LEGISLACAO'), ('3 de abril de 2017', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ao contrário do que argumenta a Procuradoria-Geral , a lei apenas autorizou o Governador , segundo sua conveniência , a celebrar convênios com os Conselhos Profissionais que menciona , para a elaboração de parecer opinativo não Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI A Senhora Desembargadora SIMONE LUCINDO - Vogal Acompanho o eminente Relator com relação à inconstitucionalidade formal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Procuradoria-Geral",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "SIMONE LUCINDO",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Procuradoria-Geral",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SIMONE LUCINDO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('20170020161362ADI', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+E , sobre a inconstitucionalidade formal por vício de iniciativa , não vejo , com muito respeito , qualquer afronta aos arts . 71 e 100 da Lei Orgânica , conforme as razões da Procuradoria-Geral do Distrito Federal , razão de julgar improcedente a presente ação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "arts . 71 e 100 da Lei Orgânica",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Procuradoria-Geral do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "arts . 71 e 100 da Lei Orgânica",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Procuradoria-Geral do Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Senhor Desembargador JAIR SOARES - Vogal Uma das críticas , creio que pertinente , ao Estado brasileiro é o seu gigantismo nas três esferas - União , estados propriamente ditos , que inclui o Distrito Federal , e municípios , que não é acompanhado de uma prestação de serviço compatível com o tamanho e custo para se manter esse Estado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "JAIR SOARES",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Estado brasileiro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "JAIR SOARES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estado brasileiro', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Desembargador Silvânio Barbosa dos Santos , a Procuradoria Geral de Justiça do Distrito Federal e Territórios propôs a presente Ação Direta com o objetivo de ver declarada a inconstitucionalidade da Lei nº 5.815 , de 03 de abril de 2017 , oriunda de projeto de lei de iniciativa parlamentar , por suposta violação aos artigos 15 , incisos XIV e XV , 19 , caput , 53 , 71 , §1º , inciso IV e 100 , incisos VI e X , todos da Lei Orgânica do Distrito Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Silvânio Barbosa dos Santos",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Procuradoria Geral de Justiça do Distrito Federal e Territórios",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Lei nº 5.815 , de 03 de abril de 2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "artigos 15 , incisos XIV e XV , 19 , caput , 53 , 71 , §1º , inciso IV e 100 , incisos VI e X , todos da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Silvânio Barbosa dos Santos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Procuradoria Geral de Justiça do Distrito Federal e Territórios",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei nº 5.815",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "03 de abril de 2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "artigos 15 , incisos XIV e XV , 19 , caput , 53 , §1º , inciso IV e 100 , incisos VI e X , todos da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Lei nº 5.815 , de 03 de abril de 2017', 'LEGISLACAO'), ('artigos 15 , incisos XIV e XV , 19 , caput , 53 , 71 , §1º , inciso IV e 100 , incisos VI e X , todos da Lei Orgânica do Distrito Federal', 'LEGISLACAO')]
+Espúrias  (FP): [('Lei nº 5.815', 'LEGISLACAO'), ('03 de abril de 2017', 'TEMPO'), ('artigos 15 , incisos XIV e XV , 19 , caput , 53 , §1º , inciso IV e 100 , incisos VI e X , todos da Lei Orgânica do Distrito Federal', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O GOVERNADOR DO DISTRITO FEDERAL , Faço saber que a Câmara Legislativa do Distrito Federal decreta e eu sanciono a seguinte Lei : Art . 1º O Distrito Federal pode firmar convênios com o Conselho Regional de Engenharia e Agronomia do Distrito Federal - CREA-DF e com o Conselho de Arquitetura e Urbanismo do Distrito Federal - CAU-DF para , por meio do seu corpo técnico e credenciados , analisar os processos de responsabilidade das administrações regionais de que trata a Lei nº 1.172 , de 24 de julho de 1996 , proferindo parecer por concessão ou negativa de pedido , ressalvadas as análises realizadas pelas concessionárias de serviço público e pelos órgãos públicos competentes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Lei nº 1.172",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "24 de julho de 1996",
+    "label": "TEMPO",
+    "token_indices": [
+      86,
+      87,
+      88,
+      89,
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei nº 1.172",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "24 de julho de 1996",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Distrito Federal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Brasília , 3 de abril de 2017 129º da República e 57º de Brasília RODRIGO ROLLEMBERG A Requerente defende a inconstitucionalidade formal da referida lei , porque , oriunda de projeto de iniciativa parlamentar , a norma , ao possibilitar a delegação de atribuições próprias do poder de polícia , e exclusivas do Estado , interfere em matéria afeta à administração e ao funcionamento de órgãos da Administração Pública , cuja competência legislativa é privativa do Chefe do Poder Executivo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasília",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "3 de abril de 2017",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "RODRIGO ROLLEMBERG",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasília",
+    "label": "LOCAL"
+  },
+  {
+    "text": "3 de abril de 2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "REPÚBLICA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "RODRIGO ROLLEMBERG",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Brasília', 'LOCAL')]
+Espúrias  (FP): [('REPÚBLICA', 'ORGANIZACAO'), ('Estado', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Governador do Distrito Federal , defende a constitucionalidade da Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 28 lei , porque não haveria qualquer afronta à titularidade de atribuições do poder público , apenas a permissão para a realização de convênios para elaboraçaõ de estudos técnicos atinentes à concessão de alvarás , e que a decisão caberá sempre à Administração Pública .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('SILVANIO BARBOSA DOS SANTOS', 'PESSOA')]
+Espúrias  (FP): [('GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Procuradoria-Geral do Distrito Federal também manifesta-se pela improcedência da ação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Procuradoria-Geral do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Procuradoria-Geral do Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ocorre que a Lei Orgânica do Distrito Federal estabeleceu as competências de cada um dos poderes , respeitando a independência e harmonia entre eles , de modo que um não pode conferir atribuições ou autorizações ao outro , conforme consta expressamente em seu art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Orgânica do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Lei Orgânica do Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Lei Orgânica do Distrito Federal', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para a análise da questão , transcrevo a Lei n° 5.815/2017 , verbis : LEI Nº 5.815 , DE 3 DE ABRIL DE 2017 ( Autoria do Projeto : Deputado Rafael Prudente ) Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI O Senhor Desembargador HUMBERTO ULHÔA - Vogal Cuida-se de ação direta de inconstitucionalidade , ajuizada pela Procuradoria-Geral de Justiça do Distrito Federal e Territórios , cujo objeto é a impugnação da Lei Distrital n° 5.815 , de 3 de abril de 2017 , em face dos arts . 15 , incisos XIV e XV , 19 , caput , 53 , 71 , § 1° , inciso IV e 100 , incisos VI e X , todos da Lei Orgânica do Distrito Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei n° 5.815/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "LEI Nº 5.815",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "3 DE ABRIL DE 2017",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Rafael Prudente",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "HUMBERTO ULHÔA",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Procuradoria-Geral de Justiça do Distrito Federal e Territórios",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Lei Distrital n° 5.815",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      72,
+      73,
+      74,
+      75
+    ]
+  },
+  {
+    "text": "3 de abril de 2017",
+    "label": "TEMPO",
+    "token_indices": [
+      78,
+      79,
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "arts . 15 , incisos XIV e XV , 19 , caput , 53 , 71 , § 1° , inciso IV e 100 , incisos VI e X , todos da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei n° 5.815/2017",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "LEI Nº 5.815",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "3 DE ABRIL DE 2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Rafael Prudente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Procuradoria-Geral de Justiça do Distrito Federal e Territórios",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "arts . 195 e 202 da Constituição do Distrito Federal",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "HUMBERTO ULHÔA",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Lei Distrital n° 5.815', 'LEGISLACAO'), ('3 de abril de 2017', 'TEMPO'), ('arts . 15 , incisos XIV e XV , 19 , caput , 53 , 71 , § 1° , inciso IV e 100 , incisos VI e X , todos da Lei Orgânica do Distrito Federal', 'LEGISLACAO')]
+Espúrias  (FP): [('arts . 195 e 202 da Constituição do Distrito Federal', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 31 Dispõe sobre convênio do Distrito Federal com o CREA-DF e o CAU-DF e dá outras providências .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SILVANIO BARBOSA",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('SILVANIO BARBOSA', 'PESSOA'), ('Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Distrito Federal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O GOVERNADOR DO DISTRITO FEDERAL , Faço saber que a Câmara Legislativa do Distrito Federal decreta e eu sanciono a seguinte Lei : Art . 1º O Distrito Federal pode firmar convênios com o Conselho Regional de Engenharia e Agronomia do Distrito Federal - CREA-DF e com o Conselho de Arquitetura e Urbanismo do Distrito Federal - CAU-DF para , por meio do seu corpo técnico e credenciados , analisar os processos de responsabilidade das administrações regionais de que trata a Lei nº 1.172 , de 24 de julho de 1996 , proferindo parecer por concessão ou negativa de pedido , ressalvadas as análises realizadas pelas concessionárias de serviço público e pelos órgãos públicos competentes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Lei nº 1.172",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "24 de julho de 1996",
+    "label": "TEMPO",
+    "token_indices": [
+      86,
+      87,
+      88,
+      89,
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei nº 1.172",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "24 de julho de 1996",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Distrito Federal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A iniciativa das leis complementares e ordinárias , observada a forma e os casos previstos na Lei Orgânica , cabe : Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 32 ( ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Orgânica",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Lei Orgânica', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+TRANSFERÊNCIA DE ATRIBUIÇÕES DA ADASA PARA A SECRETARIA DE ESTADO DE MEIO AMBIENTE .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ADASA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "SECRETARIA DE ESTADO DE MEIO AMBIENTE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ADASA",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('SECRETARIA DE ESTADO DE MEIO AMBIENTE', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+ALei 5.764/2016 , ao dispor critérios para exploração e uso de bem público distrital ( águas subterrâneas ) , invadiu competência do Poder Executivo , nos termos do art . 52 da LODF .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ALei 5.764/2016",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "art . 52 da LODF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ALei 5.764/2016', 'LEGISLACAO'), ('art . 52 da LODF', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Acórdão n° 1014463 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n° 1014463",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Acórdão n° 1014463', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Neste tema é exclusiva a iniciativa do Executivo , de forma que , ao votar a Lei Distrital nº 3.220 , de 05/11/2003 , nesta ação impugnada , a Câmara Legislativa do Distrito Federal foi além de sua competência , invadindo aquela que a Constituição local outorga ao Governador do Distrito Federal , com absoluta Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 34 exclusividade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Distrital nº 3.220",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "05/11/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71,
+      72,
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Distrital nº 3.220",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "05/11/2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Silvanio Barbosa dos Santos",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'LOCAL'), ('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA'), ('SILVANIO BARBOSA DOS SANTOS', 'PESSOA')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO'), ('Silvanio Barbosa dos Santos', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+CONSELHO ESPECIAL .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CONSELHO ESPECIAL', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Acórdão n.267633 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n.267633",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Acórdão n.267633', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dessa feita , possibilitar que entes com o objeto social delimitado legal e constitucionalmente à fiscalização do exercício profissional possam exercer análise necessária , nos termos da Lei 1.172/96 , para a concessão de Alvará de Construção ou Carta de Habite-se de empreendimentos no Distrito Federal , implica em chancelar violação severa às normas constitucionais , nos termos já explicitados , o que não pode ser tolerado pelo Poder Judiciário do Distrito Federal e Territórios '' .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei 1.172/96",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei 1.172/96",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Distrito Federal e Territórios",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'LOCAL')]
+Espúrias  (FP): [('Distrito Federal e Territórios', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+`` LEI Nº 5.815 , DE 3 DE ABRIL DE 2017 ( Autoria do Projeto : Deputado Rafael Prudente ) O GOVERNADOR DO DISTRITO FEDERAL , Faço saber que a Câmara Legislativa do Distrito Federal Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI O Senhor Desembargador J.J. COSTA CARVALHO - Vogal O objeto da ação é a Lei 5.815/2017 , que dispõesobre convênio do Distrito Federal com o CREA-DF e o CAU-DF e dá outras providências : Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 36 decreta e eu sanciono a seguinte Lei : Art . 1º O Distrito Federal pode firmar convênios com o Conselho Regional de Engenharia e Agronomia do Distrito Federal - CREA-DF e com o Conselho de Arquitetura e Urbanismo do Distrito Federal - CAU-DF para , por meio do seu corpo técnico e credenciados , analisar os processos de responsabilidade das administrações regionais de que trata a Lei nº 1.172 , de 24 de julho de 1996 , proferindo parecer por concessão ou negativa de pedido , ressalvadas as análises realizadas pelas concessionárias de serviço público e pelos órgãos públicos competentes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LEI Nº 5.815",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "3 DE ABRIL DE 2017",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Rafael Prudente",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "J.J. COSTA CARVALHO",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Lei 5.815/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      64,
+      65
+    ]
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      84,
+      85,
+      86,
+      87
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      101,
+      102
+    ]
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116
+    ]
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      131
+    ]
+  },
+  {
+    "text": "Lei nº 1.172",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      155,
+      156,
+      157
+    ]
+  },
+  {
+    "text": "24 de julho de 1996",
+    "label": "TEMPO",
+    "token_indices": [
+      160,
+      161,
+      162,
+      163,
+      164
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('LEI Nº 5.815', 'LEGISLACAO'), ('3 DE ABRIL DE 2017', 'TEMPO'), ('Rafael Prudente', 'PESSOA'), ('DISTRITO FEDERAL', 'LOCAL'), ('Câmara Legislativa do Distrito Federal', 'ORGANIZACAO'), ('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA'), ('J.J. COSTA CARVALHO', 'PESSOA'), ('Lei 5.815/2017', 'LEGISLACAO'), ('Distrito Federal', 'ORGANIZACAO'), ('CREA-DF', 'ORGANIZACAO'), ('CAU-DF', 'ORGANIZACAO'), ('SILVANIO BARBOSA DOS SANTOS', 'PESSOA'), ('Distrito Federal', 'ORGANIZACAO'), ('Conselho Regional de Engenharia e Agronomia do Distrito Federal', 'ORGANIZACAO'), ('CREA-DF', 'ORGANIZACAO'), ('Conselho de Arquitetura e Urbanismo do Distrito Federal', 'ORGANIZACAO'), ('CAU-DF', 'ORGANIZACAO'), ('Lei nº 1.172', 'LEGISLACAO'), ('24 de julho de 1996', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O autor sustenta que a lei é formal e materialmente inconstitucional , em violação aos arts . 15 , XIV e XV , 19 , caput , 53 , 71 , § 1º , IV , e 100 , VI e X , da Lei Orgânica do DF , uma vez que , ( i ) originou-se de iniciativa parlamentar quando necessáriainiciativa privativa do Chefe do Poder Executivo , suscitando , inclusive , violação ao postulado constitucional da `` reserva de administração '' , a qual impede a ingerência normativa do Poder Legislativo em matérias de competência executiva ; ( ii ) autoriza a delegação de poder de polícia , atividade típica e exclusiva de Estado , na medida em que permite ao Distrito Federal firmar convênios com o Conselho Regional de Engenharia e Agronomia do Distrito Federal - CREA-DF e com o Conselho de Arquitetura e Urbanismo do Distrito Federal - CAU-DF para , por meio do seu corpo técnico e credenciados , atuarem na análise de processos de concessão de Alvará de Construção e de Carta de Habite-se .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "arts . 15 , XIV e XV , 19 , caput , 53 , 71 , § 1º , IV , e 100 , VI e X , da Lei Orgânica do DF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      123,
+      124
+    ]
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ]
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      139
+    ]
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      152
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('arts . 15 , XIV e XV , 19 , caput , 53 , 71 , § 1º , IV , e 100 , VI e X , da Lei Orgânica do DF', 'LEGISLACAO'), ('Distrito Federal', 'ORGANIZACAO'), ('Conselho Regional de Engenharia e Agronomia do Distrito Federal', 'ORGANIZACAO'), ('CREA-DF', 'ORGANIZACAO'), ('Conselho de Arquitetura e Urbanismo do Distrito Federal', 'ORGANIZACAO'), ('CAU-DF', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Mesa Diretora da Câmara Legislativa do Distrito Federal prestou informações , aduzindo a inexistência de afronta a qualquer dos dispositivos da Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 37 LODF , já que ausente delegação ou transferência às entidades autárquicas ( CREADF e CAU-DF ) de atribuições próprias do poder de polícia administrativa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "LODF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "CREADF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "CREADF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('LODF', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Procuradoria-Geral do Distrito Federal , na qualidade de curadora da norma impugnada , defende a inexistência de vício formal e material da lei refutada , pugnando pela improcedência do pleito inaugural .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Procuradoria-Geral do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Procuradoria-Geral do Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+) Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 38 X - dispor sobre a organização e o funcionamento da administração do Distrito Federal , na forma desta Lei Orgânica ; '' Existe , portanto , vício formal de iniciativa , pois a norma , por repercutir diretamente na organização e no funcionamento da Administração , já que interfere e inova nos procedimentos para a obtenção do alvará de construção e da carta de habite-se de edificações no DF , e assim abarca a competência privativa do Governador do Distrito Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "DF",
+    "label": "LOCAL",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      100,
+      101
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('DF', 'LOCAL'), ('Distrito Federal', 'LOCAL')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Dessa forma , independentemente de previsão na lei orgânica ou nas constituições federais , os entes federativos devem seguir o parâmetro da Constituição Federal no estabelecimento de suas competências , incluindo , por certo , a iniciativa de projetos de leis .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Constituição Federal",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Constituição Federal",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Constituição Federal', 'LEGISLACAO'), ('Constituição Federal', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+São Poderes do Distrito Federal , independentes e harmônicos entre si , o Executivo e o Legislativo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'LOCAL')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+( Acórdão n.1049279 , 20160020153586ADI , Relator : MARIOZAM BELMIRO CONSELHO ESPECIAL , Data de Julgamento : 19/09/2017 , Publicado no DJE : 28/09/2017 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n.1049279",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "20160020153586ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "MARIOZAM BELMIRO",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "19/09/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "28/09/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão n.1049279",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "20160020153586ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARIOZAM BELMIRO CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "19/09/2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "28/09/2017",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('MARIOZAM BELMIRO', 'PESSOA'), ('CONSELHO ESPECIAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('MARIOZAM BELMIRO CONSELHO ESPECIAL', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Portanto , a norma em questão é formalmente inconstitucional , por vício de iniciativa , em razão de violação aos seguintes artigos da Lei Orgânica : 71 , § Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 40 1º , IV ; 100 , X ; 53 , §§ 1º e 2º .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Artigos da Lei Orgânica : 71 , § Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Artigos da Lei Orgânica : 71 , § Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( Acórdão n.1078980 , 20170020135916ADI , Relator : JOSÉ DIVINO CONSELHO ESPECIAL , Data de Julgamento : 20/02/2018 , Publicado no DJE : 05/03/2018 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n.1078980",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "20170020135916ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "JOSÉ DIVINO",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "20/02/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "05/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão n.1078980",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "20170020135916ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "JOSÉ DIVINO CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "20/02/2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "05/03/2018",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('JOSÉ DIVINO', 'PESSOA')]
+Espúrias  (FP): [('JOSÉ DIVINO CONSELHO ESPECIAL', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 41 Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI A Senhora Desembargadora ANA MARIA DUARTE AMARANTE - Vogal Senhor Presidente , não obstante o conteúdo da norma impugnada seja mais do que atualizado e coerente com as necessidades atuais da Administração - que o diga quem precisa obter um habite-se ou um alvará com as delongas terríveis , falta de orientação existente - o fato é que realmente o vício de iniciativa é incontornável .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "ANA MARIA DUARTE AMARANTE",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ANA MARIA DUARTE AMARANTE",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A matéria encontra-se regulamentada pela Constituição Federal em seus artigos 48 , inciso X , e 61 , II , alínea `` a '' , que são normas de repetição obrigatórias .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Constituição Federal em seus artigos 48 , inciso X , e 61 , II , alínea `` a ''",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Constituição Federal",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [("Constituição Federal em seus artigos 48 , inciso X , e 61 , II , alínea `` a ''", 'LEGISLACAO')]
+Espúrias  (FP): [('Constituição Federal', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O GOVERNADOR DO DISTRITO FEDERAL , Faço saber que a Câmara Legislativa do Distrito Federal decreta e eu sanciono a seguinte Lei : Art . 1º O Distrito Federal pode firmar convênios com o Conselho Regional de Engenharia e Agronomia do Distrito Federal - CREA-DF e com o Conselho de Arquitetura e Urbanismo do Distrito Federal - CAU-DF para , por meio do seu corpo técnico e credenciados , analisar os processos de responsabilidade das administrações regionais de que trata a Lei nº 1.172 , de 24 de julho de 1996 , proferindo parecer por concessão ou negativa de pedido , ressalvadas as análises realizadas pelas concessionárias de serviço público e pelos órgãos públicos competentes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Lei nº 1.172",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "24 de julho de 1996",
+    "label": "TEMPO",
+    "token_indices": [
+      86,
+      87,
+      88,
+      89,
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Câmara Legislativa do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CREA-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho de Arquitetura e Urbanismo do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CAU-DF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei nº 1.172",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "24 de julho de 1996",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Distrito Federal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nos termos dos artigos 53 , caput , 71 , § 1º , I , II e IV e 100 , VI e X , da Lei Orgânica do Distrito Federal , os poderes Legislativo e Executivo do Distrito Federal são independentes e harmônicos entre si e compete privativamente ao Governador a iniciativa das leis que disponham sobre servidores públicos do Distrito Federal , seu regime jurídico , provimento de cargos , estabilidade e aposentadoria e criação , estruturação , reestruturação , desmembramento , extinção , incorporação , fusão e atribuições das Secretarias de Governo , Órgãos e entidades da administração pública .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigos 53 , caput , 71 , § 1º , I , II e IV e 100 , VI e X , da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "artigos 53 , caput , 71 , § 1º , I , II e IV e 100 , VI e X , da Lei Orgânica do Distrito Federal",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'LOCAL')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Amatéria veiculada no diploma legal objeto do presente controle abstrato de constitucionalidade relaciona-se diretamente à atividade administrativa do Chefe do Executivo do Distrito Federal , o qual é o único autorizado a dispor sobre normas que regulamentem e restrinjam a forma de Fls . _____ Ação Direta de Inconstitucionalidade 20170020161362ADI Código de Verificação :2018ACONT2JYXTK52JCSL251NVQ GABINETE DO DESEMBARGADOR SILVANIO BARBOSA DOS SANTOS 44 contratação de pessoal ( art . 71 , § 1º , I , da LODF ) - como a imposição de reserva de percentual de vagas de estagiários - ; sobre atribuições dos órgãos e entidades da administração pública ( art . 71 , § 1º , IV , da LODF ) - tal qual as dos arts .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Ação Direta de Inconstitucionalidade 20170020161362ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "SILVANIO BARBOSA DOS SANTOS",
+    "label": "PESSOA",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "art . 71 , § 1º , I , da LODF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "art . 71 , § 1º , IV , da LODF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Distrito Federal', 'LOCAL'), ('Ação Direta de Inconstitucionalidade 20170020161362ADI', 'JURISPRUDENCIA'), ('SILVANIO BARBOSA DOS SANTOS', 'PESSOA'), ('art . 71 , § 1º , I , da LODF', 'LEGISLACAO'), ('art . 71 , § 1º , IV , da LODF', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É inconstitucional disposição legal que versa sobre organização , funcionamento da administração do Distrito Federal e seus servidores públicos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'LOCAL')]
+Espúrias  (FP): [('Distrito Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+( Acórdão n.930659 , 20150020207206ADI , Relator : MARIO MACHADO CONSELHO ESPECIAL , Data de Julgamento : 02/02/2016 , Publicado no DJE : 05/04/2016 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n.930659",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "20150020207206ADI",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "MARIO MACHADO",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "02/02/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "05/04/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão n.930659",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "20150020207206ADI",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARIO MACHADO CONSELHO ESPECIAL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "02/02/2016",
+    "label": "TEMPO"
+  },
+  {
+    "text": "05/04/2016",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('MARIO MACHADO', 'PESSOA'), ('CONSELHO ESPECIAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('MARIO MACHADO CONSELHO ESPECIAL', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Número do Acórdão ACÓRDÃO 2505/2016 - PLENÁRIO Relator AUGUSTO SHERMAN Processo 006.010/2000-4 Tipo de processo TOMADA DE CONTAS SIMPLIFICADA ( TCSP ) Data da sessão 28/09/2016 Número da ata 37/2016 Relator da deliberação recorrida Ministro Augusto Nardes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ACÓRDÃO 2505/2016",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "AUGUSTO SHERMAN",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Processo 006.010/2000-4",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "28/09/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Augusto Nardes",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ACÓRDÃO 2505/2016",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AUGUSTO SHERMAN",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Processo 006.010/2000-4",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "28/09/2016",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Augusto Nardes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('PLENÁRIO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Responsáveis : Aldo da Silva Fagundes ( 000.212.881-00 ) ; Antonio Carlos de Nogueira ( 002.094.571-04 ) ; Carlos Aureliano Motta de Souza ( 090.118.467-53 ) ; Carlos de Almeida Baptista ( 005.128.930-04 ) ; Edson Alves Mey ( 025.120.847-87 ) ; Grupo Ok Construções e Empreendimentos Ltda. ( 24.934.309/0001-17 ) ; Luiz de Oliveira Alves ( 182.583.101-78 ) ; Raul Lopes Biangolino ( 290.244.477-04 ) 3.3 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aldo da Silva Fagundes",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Antonio Carlos de Nogueira",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Carlos de Almeida Baptista",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Edson Alves Mey",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Grupo Ok Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Luiz de Oliveira Alves",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Raul Lopes Biangolino",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Aldo da Silva Fagundes', 'PESSOA'), ('Antonio Carlos de Nogueira', 'PESSOA'), ('Carlos Aureliano Motta de Souza', 'PESSOA'), ('Carlos de Almeida Baptista', 'PESSOA'), ('Edson Alves Mey', 'PESSOA'), ('Grupo Ok Construções e Empreendimentos Ltda.', 'ORGANIZACAO'), ('Luiz de Oliveira Alves', 'PESSOA'), ('Raul Lopes Biangolino', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Acórdão VISTOS , relatados e discutidos estes embargos de declaração opostos pelo Grupo OK Construções e Empreendimentos Ltda. contra o Acórdão nº 1.160/2016-TCU-Plenário , ACORDAM os ministros do Tribunal de Contas da União , reunidos em sessão do Plenário , ante as razões expostas pelo relator e com fundamento no art . 34 da Lei nº 8.443/1992 , em : 9.1. conhecer dos presentes embargos de declaração e , no mérito , rejeitá-los ; 9.2. dar ciência deste acórdão , bem como do relatório e do voto que o fundamentam , ao embargante .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Acórdão nº 1.160/2016-TCU-Plenário",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "art . 34 da Lei nº 8.443/1992",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão nº 1.160/2016-TCU-Plenário",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "art . 34 da Lei nº 8.443/1992",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Tribunal de Contas da União', 'ORGANIZACAO'), ('Plenário', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Relatório Trata-se de embargos de declaração opostos pelo Grupo OK Construções e Empreendimentos Ltda. contra o Acórdão nº 1.160/2016-TCU-Plenário , proferido em sede de recurso de reconsideração interposto pelo Sr. Carlos Aureliano Motta de Souza , que conheceu do apelo manejado pelo responsável para no mérito dar-lhe provimento , a fim de julgar regulares com ressalva as contas do então recorrente e afastar o débito lhe atribuído mediante o item 9.2 do Acórdão n.º 1.466/2013 – Plenário , tornando insubsistente , outrossim , a multa aplicada , mantendo-se o débito e a multa para o Grupo OK Construções e Empreendimentos Ltda. 2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Acórdão nº 1.160/2016-TCU-Plenário",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Acórdão n.º 1.466/2013",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Acórdão nº 1.160/2016-TCU-Plenário",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Acórdão n.º 1.466/2013 – Plenário",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Acórdão n.º 1.466/2013 – Plenário",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Acórdão n.º 1.466/2013', 'JURISPRUDENCIA'), ('Plenário', 'ORGANIZACAO')]
+Espúrias  (FP): [('Acórdão n.º 1.466/2013 – Plenário', 'JURISPRUDENCIA'), ('Acórdão n.º 1.466/2013 – Plenário', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DO BREVE RELATO DOS FATOS Na origem , cuida-se de recurso de revisão interposto pelo Ministério Público junto ao TCU — IVIP/TCU contra acórdão que julgou regulares com ressalva as contas do STM de 1999 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "IVIP/TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('IVIP/TCU', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pretendeu o MP/TCU que as contas fossem reabertas para apurar as irregularidades nas obras de construção do prédio da ia Circunscrição Judiciária Militar no Rio de Janeiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MP/TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "ia Circunscrição Judiciária Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MP/TCU",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('ia Circunscrição Judiciária Militar', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por meio do Acórdão n° 1.160/2016 - TCU — Plenário , o Tribunal Acolhido o recurso do MP/TCU foi interposto recurso de reconsideração por Carlos Aureliano Motta de Souza ( ex-Diretor-Geral do Superior Tribunal Militar ) contra decisão que julgou suas contas irregulares , condenando-o em débito solidário com o Grupo OK Construções e Empreendimentos Ltda. , bem como aplicando-lhes multa individual .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n° 1.160/2016",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "MP/TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão n° 1.160/2016 - TCU",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MP/TCU",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Superior Tribunal Militar",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Acórdão n° 1.160/2016', 'JURISPRUDENCIA'), ('TCU', 'ORGANIZACAO'), ('Plenário', 'ORGANIZACAO')]
+Espúrias  (FP): [('Acórdão n° 1.160/2016 - TCU', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por meio do Acórdão n° 1.160/2016 - TCU — Plenário , o Tribunal de Contas da União afastou a responsabilidade do Senhor Carlos Aureliano Motta de Souza , afastando o débito que lhe foi atribuído , tornando insubsistente , outrossim , a multa que lhe foi aplicada , mantendo-se o débito apenas para o Grupo OK Construções e Empreendimentos Ltda. bem como a respectiva multa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Acórdão n° 1.160/2016",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Tribunal de Contas da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Grupo OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Acórdão n° 1.160/2016",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "TCU",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carlos Aureliano Motta de Souza",
+    "label": "PESSOA"
+  },
+  {
+    "text": "OK Construções e Empreendimentos Ltda.",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Tribunal de Contas da União', 'ORGANIZACAO'), ('Grupo OK Construções e Empreendimentos Ltda.', 'ORGANIZACAO')]
+Espúrias  (FP): [('OK Construções e Empreendimentos Ltda.', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Há , porém , contradição no seu âmago irredutível : ao exonerar a responsabilidade do servidor , o Tribunal de Contas — TC deixa de ter competência para julgar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal de Contas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "TC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TC",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Tribunal de Contas', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+

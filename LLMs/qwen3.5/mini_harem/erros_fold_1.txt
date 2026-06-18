@@ -1,0 +1,3636 @@
+--------------------------------------------------------------------------------
+Texto:
+Vontade de ser feliz RIO DE JANEIRO Aos trancos e barrancos, eis que mais uma vez o país tenta dar um passo em direção a um futuro mais feliz. O panorama é assustador: ameaça de greve, possibilidade de hiperinflação e descontrole de preços, perda salarial, nuvens negras para todos os lados. Exercendo o direito de não estar a favor ou contra ninguém, gostaria aqui de remar contra a maré e pasmem manifestar meu otimismo. Por que não? Se há um artigo em falta no mercado hoje todo tipo de mercado, diga-se é o otimismo. Por que não ousar ainda que ingenuamente esperar que as coisas desta vez se ajeitem? Da Equipe de Articulistas Olha o Carnaval de salão! Sê bela! Sê piranha! Sê lulite! Ou como diz uma amiga minha: «Eu não sô lulite, sô gostosa». Rarará! E bomba! Bomba! Simão Emergência! Um camelô cearense inventou o kit Aids : um par de joelheiras e 45 camisinhas! Rarará! Começou a esculhambação?! É Carnaval !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RIO DE JANEIRO",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Equipe de Articulistas",
+    "label": "PESSOA",
+    "token_indices": [
+      110,
+      111,
+      112
+    ]
+  },
+  {
+    "text": "Carnaval",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Aids",
+    "label": "COISA",
+    "token_indices": [
+      148
+    ]
+  },
+  {
+    "text": "45",
+    "label": "VALOR",
+    "token_indices": [
+      155
+    ]
+  },
+  {
+    "text": "Carnaval",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      162
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "RIO DE JANEIRO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Equipe de Articulistas",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Equipe de Articulistas', 'PESSOA'), ('Carnaval', 'ACONTECIMENTO'), ('Aids', 'COISA'), ('45', 'VALOR'), ('Carnaval', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Equipe de Articulistas', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+E os nomes dos blocos? Balança Rolha , Sacode a Rosquinha e Peru Esperto !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Balança Rolha",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Sacode a Rosquinha",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Peru Esperto",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Balança Rolha",
+    "label": "OBRA"
+  },
+  {
+    "text": "Sacode a Rosquinha",
+    "label": "OBRA"
+  },
+  {
+    "text": "Peru Esperto",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Balança Rolha', 'ABSTRACCAO'), ('Sacode a Rosquinha', 'ABSTRACCAO'), ('Peru Esperto', 'ABSTRACCAO')]
+Espúrias  (FP): [('Balança Rolha', 'OBRA'), ('Sacode a Rosquinha', 'OBRA'), ('Peru Esperto', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+E as manchetes: « Bloco da Galinha Azul Solta a Franga ». « Alpinista Sexual só Scala Monte Líbano ». E entrevista em baile de Carnaval parece diálogo de surdo: «Você vai pescar?» «Hein?» «Você vai pescar?» «Não, eu vou pescar». «Ah bem, pensei que voce ia pescar». É mole? É mole mas sobe! Principalmente no Carnaval !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bloco da Galinha Azul Solta a Franga",
+    "label": "OUTRO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Alpinista Sexual só Scala Monte Líbano",
+    "label": "OUTRO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Carnaval",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Carnaval",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bloco da Galinha Azul",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Solta a Franga",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Alpinista Sexual",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Monte Líbano",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Carnaval",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Bloco da Galinha Azul Solta a Franga', 'OUTRO'), ('Alpinista Sexual só Scala Monte Líbano', 'OUTRO'), ('Carnaval', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Bloco da Galinha Azul', 'PESSOA'), ('Solta a Franga', 'ACONTECIMENTO'), ('Alpinista Sexual', 'PESSOA'), ('Monte Líbano', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pior é o Itamar que ficou intoxicado com o próprio pastelão! Nervosas! Atacadas! Inadimplentes do sexo em geral! Tem peladão no salão! Os Piranhos do Kung Fu invadem o salão! Essa é a grande novidade do Carnaval 94 : os peladões. Antes o Scala e o Monte Líbano só contratavam peladas. Depois do Clube das Mulheres (em Portugal , Clube das Bigodudas ) os peladões invadem os salões.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Itamar",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Piranhos do Kung Fu",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Carnaval 94",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Scala",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Monte Líbano",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Clube das Mulheres",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Clube das Bigodudas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      59,
+      60,
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Itamar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carnaval 94",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "94",
+    "label": "VALOR"
+  },
+  {
+    "text": "Scala",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Monte Líbano",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Clube das Mulheres",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Clube das Bigodudas",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Kung Fu",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Piranhos do Kung Fu', 'PESSOA'), ('Clube das Mulheres', 'ACONTECIMENTO'), ('Clube das Bigodudas', 'ACONTECIMENTO')]
+Espúrias  (FP): [('94', 'VALOR'), ('Clube das Mulheres', 'ORGANIZACAO'), ('Clube das Bigodudas', 'ORGANIZACAO'), ('Kung Fu', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Gente, é cada piranhão! Parece remador de porta avião! E bem Clube das Mulheres : sunga, punho e gravatinha. E eu sei que é tudo bofe mas parece tudo gay. Capa da revista « Honcho ». Estética gay! Um rinoceronte de sunga é mais sexy! Pelo menos agora na televisão tem pra todo mundo. No Brasil nós já estamos com oito tipos de opção sexual: perua, bofe, bofeca, boneca, traveca, hermafrodita, drag queen e drag king. E tem gente que ainda fica na mão? Rarará! Carnaval devia ser o ano todo. Cinco dias |Cinco dias é pra amador!
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Clube das Mulheres",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Honcho",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Carnaval",
+    "label": "TEMPO",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Cinco dias",
+    "label": "VALOR",
+    "token_indices": [
+      91,
+      92
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Clube das Mulheres",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Honcho",
+    "label": "OBRA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cinco dias",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Clube das Mulheres', 'ACONTECIMENTO'), ('Honcho', 'LOCAL'), ('Carnaval', 'TEMPO')]
+Espúrias  (FP): [('Clube das Mulheres', 'ORGANIZACAO'), ('Honcho', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Noticiado no - O Estado de Sao Paulo e no Boletim Eletronico da SBPC ; deve ser refletido por todos os que trabalham com a imformacao e com a Sociedade da Informacao no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "O Estado de Sao Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Boletim Eletronico da SBPC",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Sociedade da Informacao",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "O Estado de Sao Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "SBPC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Boletim Eletronico da SBPC', 'LOCAL'), ('Sociedade da Informacao', 'ABSTRACCAO')]
+Espúrias  (FP): [('SBPC', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+BRASIL É EFICIENTE NO USO DA INFORMACAO Pais está entre as 55 nacoes que tem boas possibilidades de usar a tecnologia e o conhecimento para acelerar o desenvolvimento economico O Brasil está entre os 55 paises do mundo que tem boas chances de usar as tecnologias da informacao para acelerar seu desenvolvimento. Essa é a boa noticia do relatorio Information Society Index ( ISS ) de 99 , produzido há tres anos pela World Times e pela International Data Corporation ( IDC ), para reunir dados de todos os paises do mundo sobre suas habilidades para eficientemente acessar, absorver e usar a informacao e as tecnologias da informacao. Paises como o Vietna ou Myanmar , por exemplo, foram excluidos porque seus dados nao sao considerados confiaveis. O estudo deste ano, que, como o dos anos anteriores, tambem classifica os 55 paises com melhores resultados, foi anunciado na quinta-feira em Mountain View , na area da baia de Sao Francisco , na California , na sede da Netscape Communications , que patrocinou a pesquisa. A má noticia é que, no ranking do ISS , onde os EUA aparecem em primeiro lugar, o Brasil está na posicao numero 41 , muito depois da Polonia , da Bulgaria e da Russia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BRASIL",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "55",
+    "label": "VALOR",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "55",
+    "label": "VALOR",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Information Society Index",
+    "label": "OBRA",
+    "token_indices": [
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "ISS",
+    "label": "OBRA",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "99",
+    "label": "TEMPO",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "World Times",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "International Data Corporation",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77,
+      78,
+      79
+    ]
+  },
+  {
+    "text": "IDC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Vietna",
+    "label": "LOCAL",
+    "token_indices": [
+      111
+    ]
+  },
+  {
+    "text": "Myanmar",
+    "label": "LOCAL",
+    "token_indices": [
+      113
+    ]
+  },
+  {
+    "text": "55",
+    "label": "VALOR",
+    "token_indices": [
+      139
+    ]
+  },
+  {
+    "text": "Mountain View",
+    "label": "LOCAL",
+    "token_indices": [
+      149,
+      150
+    ]
+  },
+  {
+    "text": "Sao Francisco",
+    "label": "LOCAL",
+    "token_indices": [
+      157,
+      158
+    ]
+  },
+  {
+    "text": "California",
+    "label": "LOCAL",
+    "token_indices": [
+      161
+    ]
+  },
+  {
+    "text": "Netscape Communications",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      166,
+      167
+    ]
+  },
+  {
+    "text": "ISS",
+    "label": "OBRA",
+    "token_indices": [
+      181
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      185
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      191
+    ]
+  },
+  {
+    "text": "41",
+    "label": "VALOR",
+    "token_indices": [
+      196
+    ]
+  },
+  {
+    "text": "Polonia",
+    "label": "LOCAL",
+    "token_indices": [
+      201
+    ]
+  },
+  {
+    "text": "Bulgaria",
+    "label": "LOCAL",
+    "token_indices": [
+      204
+    ]
+  },
+  {
+    "text": "Russia",
+    "label": "LOCAL",
+    "token_indices": [
+      207
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BRASIL",
+    "label": "PESSOA"
+  },
+  {
+    "text": "55",
+    "label": "VALOR"
+  },
+  {
+    "text": "Information Society Index",
+    "label": "OBRA"
+  },
+  {
+    "text": "ISS",
+    "label": "OBRA"
+  },
+  {
+    "text": "99",
+    "label": "TEMPO"
+  },
+  {
+    "text": "World Times",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "International Data Corporation",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IDC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Vietna",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Myanmar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "100",
+    "label": "VALOR"
+  },
+  {
+    "text": "1997",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('BRASIL', 'LOCAL'), ('Brasil', 'LOCAL'), ('55', 'VALOR'), ('Vietna', 'LOCAL'), ('Myanmar', 'LOCAL'), ('55', 'VALOR'), ('Mountain View', 'LOCAL'), ('Sao Francisco', 'LOCAL'), ('California', 'LOCAL'), ('Netscape Communications', 'ORGANIZACAO'), ('ISS', 'OBRA'), ('EUA', 'LOCAL'), ('Brasil', 'LOCAL'), ('41', 'VALOR'), ('Polonia', 'LOCAL'), ('Bulgaria', 'LOCAL'), ('Russia', 'LOCAL')]
+Espúrias  (FP): [('BRASIL', 'PESSOA'), ('Vietna', 'PESSOA'), ('Myanmar', 'PESSOA'), ('100', 'VALOR'), ('1997', 'TEMPO'), ('1998', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pior: mesmo no ranking latino-americano, o Brasil aparece em sexto lugar, depois de Argentina , Chile , Costa Rica , Venezuela e Panamá , nessa ordem. O Brasil está na frente apenas de Equador , Mexico , Colombia e Peru , tambem incluidos na lista dos 55. Embora tenha, de longe, a economia mais solida e prospera da America Latina , a pontuacao brasileira foi empurrada para baixo por seus pessimos indicadores sociais.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Chile",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Costa Rica",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Venezuela",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Panamá",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Equador",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Mexico",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Colombia",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Peru",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "America Latina",
+    "label": "LOCAL",
+    "token_indices": [
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Chile",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Costa Rica",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Venezuela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Panamá",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Equador",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mexico",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Colombia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Peru",
+    "label": "LOCAL"
+  },
+  {
+    "text": "America Latina",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sinal de que a presenca da tecnologia por si só nao basta para promover o desenvolvimento. "A melhor infra-estrutura de informatica e telecomunicacoes é inutil se nao há pessoas educadas para usa-la", explicou ao Estado Wilford Welch , diretor da World Times .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Wilford Welch",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "World Times",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Wilford Welch",
+    "label": "PESSOA"
+  },
+  {
+    "text": "World Times",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estado', 'ORGANIZACAO')]
+Espúrias  (FP): [('Estado', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A vasta pesquisa é baseada em quatro conjuntos de criterios: infra-estrutura de computadores (numero de PCs instalados per capita, numero de PCs instalados nas residencias, numero de PCs vendidos à industria, comercio e governo, numero de PCs instalados em escolas e Universidades , porcentual de PCs em rede, gastos em software e hardware); infra-estrutura de informacao (numero de linhas telefonicas por residencia, numero de troncos telefonicos, numero de televisores per capita, numero de aparelhos de radio per capita, numero de aparelhos de fax per capita, numero de telefones celulares per capita, cobertura de TV por cabo e ou satelite); infra-estrutura de Internet , um conjunto de criterios isolado pela primeira vez este ano (volume de faturamento do comercio eletronico, numero de usuarios domesticos de Internet , numero de usuarios corporativos de Internet , numero de usuarios de Internet no setor de educacao); e, finalmente, a infra-estrutura social (porcentual da populacao entre 10 e 16 anos que está efetivamente matriculada na escola secundaria, mesmo tipo de porcentual para a escola superior, numero de leitores de jornais diarios, liberdade de imprensa e liberdades civis). A decisao de separar do resto dos dados aqueles referentes à infra-estrutura de Internet adveio dos resultados encontrados nos ultimos tres anos. "Os resultados do ano passado mostraram um crescimento de 166% da infra-estrutura de Internet , diante de apenas 4% dos outros conjuntos de criterios", explicou Welch .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Universidades",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      101
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      124
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      131
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      137
+    ]
+  },
+  {
+    "text": "entre 10 e 16 anos",
+    "label": "VALOR",
+    "token_indices": [
+      150,
+      151,
+      152,
+      153,
+      154
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      195
+    ]
+  },
+  {
+    "text": "166%",
+    "label": "VALOR",
+    "token_indices": [
+      213
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      217
+    ]
+  },
+  {
+    "text": "4%",
+    "label": "VALOR",
+    "token_indices": [
+      222
+    ]
+  },
+  {
+    "text": "Welch",
+    "label": "PESSOA",
+    "token_indices": [
+      229
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Universidades', 'ORGANIZACAO'), ('Internet', 'LOCAL'), ('Internet', 'LOCAL'), ('Internet', 'LOCAL'), ('Internet', 'LOCAL'), ('entre 10 e 16 anos', 'VALOR'), ('Internet', 'LOCAL'), ('166%', 'VALOR'), ('Internet', 'LOCAL'), ('4%', 'VALOR'), ('Welch', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+"Isso nao significa, por exemplo, que a China nao seja um grande mercado", explicou. "Apenas indica a dificuldade que governos como o chines tem para servir adequadamente populacoes enormes; significa, tambem, que a sociedade da informacao está florescendo em Xangai , mas dificilmente chegará ao Tibete na mesma velocidade." Welch acredita que paises como a China - ou o Brasil - acabaram criando grandes centros de excelencia, como Xangai é para a China , por exemplo. Os dez primeiros paises do ranking sao EUA , Suecia , Finlandia , Cingapura , Noruega , Dinamarca , Holanda , Australia , Japao e Canadá , nessa ordem. Welch observou que os EUA tem apenas 4% de vantagem sobre a Suecia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "China",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Xangai",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Tibete",
+    "label": "LOCAL",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Welch",
+    "label": "PESSOA",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "China",
+    "label": "LOCAL",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Xangai",
+    "label": "LOCAL",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "China",
+    "label": "LOCAL",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Suecia",
+    "label": "LOCAL",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Finlandia",
+    "label": "LOCAL",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "Cingapura",
+    "label": "LOCAL",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "Noruega",
+    "label": "LOCAL",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "Dinamarca",
+    "label": "LOCAL",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "Holanda",
+    "label": "LOCAL",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "Australia",
+    "label": "LOCAL",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "Japao",
+    "label": "LOCAL",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Canadá",
+    "label": "LOCAL",
+    "token_indices": [
+      101
+    ]
+  },
+  {
+    "text": "Welch",
+    "label": "PESSOA",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      109
+    ]
+  },
+  {
+    "text": "4%",
+    "label": "VALOR",
+    "token_indices": [
+      112
+    ]
+  },
+  {
+    "text": "Suecia",
+    "label": "LOCAL",
+    "token_indices": [
+      117
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('China', 'LOCAL'), ('Xangai', 'LOCAL'), ('Tibete', 'LOCAL'), ('Welch', 'PESSOA'), ('China', 'LOCAL'), ('Brasil', 'LOCAL'), ('Xangai', 'LOCAL'), ('China', 'LOCAL'), ('EUA', 'LOCAL'), ('Suecia', 'LOCAL'), ('Finlandia', 'LOCAL'), ('Cingapura', 'LOCAL'), ('Noruega', 'LOCAL'), ('Dinamarca', 'LOCAL'), ('Holanda', 'LOCAL'), ('Australia', 'LOCAL'), ('Japao', 'LOCAL'), ('Canadá', 'LOCAL'), ('Welch', 'PESSOA'), ('EUA', 'LOCAL'), ('4%', 'VALOR'), ('Suecia', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mas a grande surpresa do relatorio de 99 , quando comparado com o de 98 , foi Cingapura , que saltou do 11º para o quarto lugar, passando à frente até do Japao -- que, por sua vez, cresceu 7% , mas caiu tres posicoes no ranking. "E olhe que só o relatorio do ano que vem será impactado pela crise asiatica", comentou Welch .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "99",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "98",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Cingapura",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "11º",
+    "label": "VALOR",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Japao",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "7%",
+    "label": "VALOR",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Welch",
+    "label": "PESSOA",
+    "token_indices": [
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "99",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Cingapura",
+    "label": "LOCAL"
+  },
+  {
+    "text": "11º",
+    "label": "VALOR"
+  },
+  {
+    "text": "quarto lugar",
+    "label": "VALOR"
+  },
+  {
+    "text": "Japao",
+    "label": "LOCAL"
+  },
+  {
+    "text": "7%",
+    "label": "VALOR"
+  },
+  {
+    "text": "tres posicoes",
+    "label": "VALOR"
+  },
+  {
+    "text": "Welch",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('98', 'TEMPO')]
+Espúrias  (FP): [('quarto lugar', 'VALOR'), ('tres posicoes', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Apenas tres paises, entre os dez mais, tem uma lista nos indicadores sociais que nao está entre os dez mais: Cingapura , cuja infra-estrutura social a coloca em 34º ; EUA , em 14º ; e Canadá , em 11.º .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cingapura",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "34º",
+    "label": "VALOR",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "14º",
+    "label": "VALOR",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Canadá",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "11.º",
+    "label": "VALOR",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cingapura",
+    "label": "LOCAL"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Canadá",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('34º', 'VALOR'), ('14º', 'VALOR'), ('11.º', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( O Estado de SP , 13/12 ) == A ANCIB DESEJA AOS SEUS ASSOCIADOS E AMIGOS UM UM FELIZ NATAL E UM OTIMO 1999 Lista de discussao e divulgacao da ancib : ancib-l@alternex.com.br Va ate o site da ANCIB ICQ , 25328270
+
+Entidades verdadeiras:
+[
+  {
+    "text": "O Estado de SP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "13/12",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "ANCIB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "NATAL",
+    "label": "TEMPO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "ANCIB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estado de SP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ANCIB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ancib-l@alternex.com.br",
+    "label": "COISA"
+  },
+  {
+    "text": "ANCIB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ICQ",
+    "label": "COISA"
+  },
+  {
+    "text": "25328270",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('O Estado de SP', 'ORGANIZACAO'), ('13/12', 'TEMPO'), ('NATAL', 'TEMPO'), ('1999', 'TEMPO')]
+Espúrias  (FP): [('Estado de SP', 'ORGANIZACAO'), ('ancib-l@alternex.com.br', 'COISA'), ('ICQ', 'COISA'), ('25328270', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+( Lei Complementar nº 116/2003 ) Programa: I - Introdução a) Natureza da norma b) Características fundamentais c) Eficácia d) Leis municipais compatíveis II - Pontos Relevantes a) Fato Gerador: habitualidade irrelevante b) Serviços provenientes do exterior - incidência c) Serviços públicos autorizados - cobrança do imposto d) Denominação do serviço - irrelevância para fins de incidência e) Situações não sujeitas ao imposto: hipóteses descritas em lei f) Tomador residente no exterior - exigência do imposto g) Local da prestação para fins de cobrança - regra geral h) Atividades sujeitas ao pagamento no local da prestação - exceções i) Serviços contínuos (ferrovia, rodovia, dutos, etc.) - cobrança por território j) Exploração de rodovias - base de cálculo proporcional k) Conceito de estabelecimento para cobrança do imposto l) Retenção na fonte - prestador situado fora do município do tomador m) CONSTRUÇÃO CIVIL - dedução da base de cálculo só de materiais fornecidos n) Alíquotas mínima e máxima o) Nova Lista de Serviços - ampliação p) ATOS REVOGADOS «Nota: a abordagem levará em conta a análise comparativa entre o DL-406/69 e a LC 116/03 » Palestrante: Sidney D' Agázio - bacharel em direito, contabilista, consultor tributário, pós-graduando em direito tributário- IBET / USP e sócio da Oliveira Neves e Associados Informações Gerais Data: 01 de setembro de 2003 Horário: das 13h30 às 17h30 Local: Auditório Pontes de Miranda Al . Santos , 2.400 - térreo - Santos São Paulo - SP Incluso: material didático, coffee-break, certificado e estacionamento Inscrições e Investimento Toll Free: 0800 14 30 40 - ou se preferir (11) 3067.6700 email: telemarketing@mission.com.br Para mais informações sobre esse e outros temas acesse nosso site: www.mission.com.br «A Mission reserva-se o direito de alterar o programa sem aviso prévio e de não entregar parte da documentação por motivos alheios a sua vontade.» Caso não queira receber mais e-mails, clique em Clique para excluir e seu endereço será removido automaticamente.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Complementar nº 116/2003",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "CONSTRUÇÃO CIVIL",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      139,
+      140
+    ]
+  },
+  {
+    "text": "DL-406/69",
+    "label": "OBRA",
+    "token_indices": [
+      177
+    ]
+  },
+  {
+    "text": "LC 116/03",
+    "label": "OBRA",
+    "token_indices": [
+      180,
+      181
+    ]
+  },
+  {
+    "text": "Sidney D' Agázio",
+    "label": "PESSOA",
+    "token_indices": [
+      184,
+      185,
+      186
+    ]
+  },
+  {
+    "text": "IBET",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      198
+    ]
+  },
+  {
+    "text": "USP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      200
+    ]
+  },
+  {
+    "text": "Oliveira Neves e Associados",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      204,
+      205,
+      206,
+      207
+    ]
+  },
+  {
+    "text": "01 de setembro de 2003",
+    "label": "TEMPO",
+    "token_indices": [
+      211,
+      212,
+      213,
+      214,
+      215
+    ]
+  },
+  {
+    "text": "13h30",
+    "label": "TEMPO",
+    "token_indices": [
+      218
+    ]
+  },
+  {
+    "text": "17h30",
+    "label": "TEMPO",
+    "token_indices": [
+      220
+    ]
+  },
+  {
+    "text": "Auditório Pontes de Miranda",
+    "label": "LOCAL",
+    "token_indices": [
+      222,
+      223,
+      224,
+      225
+    ]
+  },
+  {
+    "text": "Al",
+    "label": "LOCAL",
+    "token_indices": [
+      226
+    ]
+  },
+  {
+    "text": "Santos",
+    "label": "LOCAL",
+    "token_indices": [
+      228
+    ]
+  },
+  {
+    "text": "Santos",
+    "label": "LOCAL",
+    "token_indices": [
+      234
+    ]
+  },
+  {
+    "text": "São Paulo - SP",
+    "label": "LOCAL",
+    "token_indices": [
+      235,
+      236,
+      237,
+      238
+    ]
+  },
+  {
+    "text": "Mission",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      276
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei Complementar nº 116/2003', 'OBRA'), ('CONSTRUÇÃO CIVIL', 'ABSTRACCAO'), ('DL-406/69', 'OBRA'), ('LC 116/03', 'OBRA'), ("Sidney D' Agázio", 'PESSOA'), ('IBET', 'ORGANIZACAO'), ('USP', 'ORGANIZACAO'), ('Oliveira Neves e Associados', 'ORGANIZACAO'), ('01 de setembro de 2003', 'TEMPO'), ('13h30', 'TEMPO'), ('17h30', 'TEMPO'), ('Auditório Pontes de Miranda', 'LOCAL'), ('Al', 'LOCAL'), ('Santos', 'LOCAL'), ('Santos', 'LOCAL'), ('São Paulo - SP', 'LOCAL'), ('Mission', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Infante -- E pagaram as passagens. Me deram uma licença de dois anos, acreditavam que o exílio ia me neutralizar. Tinha uma família para sustentar, e pensavam que isso me impediria de fazer qualquer coisa. Pensavam que meu livro « Três Tristes Tigres » seria recebido sem grande estardalhaço. Outro lado de Lara : ela estudou canto lírico, adora música e costuma cantar em shows e jam sessions com amigos. Como fazia em Madri .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Três Tristes Tigres",
+    "label": "OBRA",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Lara",
+    "label": "PESSOA",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Madri",
+    "label": "LOCAL",
+    "token_indices": [
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Infante",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Três Tristes Tigres",
+    "label": "OBRA"
+  },
+  {
+    "text": "Lara",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Madri",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Infante', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A idéia para o livro surgiu após uma entrevista que Andréa fez em meados de 93 para o « Tokyo Journal » com o jogador Zico , à época atuando no Kashima .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Andréa",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "93",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Tokyo Journal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Zico",
+    "label": "PESSOA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Kashima",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Andréa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "93",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Tokyo Journal",
+    "label": "OBRA"
+  },
+  {
+    "text": "Zico",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Kashima",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Tokyo Journal', 'ORGANIZACAO')]
+Espúrias  (FP): [('Tokyo Journal', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na transição para o real, são mais recomendados os fundos de renda fixa DI ( Depósito Interfinanceiro ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DI",
+    "label": "COISA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Depósito Interfinanceiro",
+    "label": "COISA",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DI",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('DI', 'COISA'), ('Depósito Interfinanceiro', 'COISA')]
+Espúrias  (FP): [('DI', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Associação Nacional de Transportadores Rodoviários de Pesados de Passageiros Press Release O ESTADO CONTINUA A AUTO-COMPENSAR A SUA INEFICIÊNCIA NO SECTOR DOS TRANSPORTES QUE DETÉM, RECORRENDO AO ERÁRIO PÚBLICO, USANDO ARGUMENTOS EM TUDO APLICÁVEIS ÀS EMPRESAS PRIVADAS |EMPRESAS PRIVADAS, QUE NADA OBTÊM. Com o argumento de que as empresas de capitais públicos de transporte rodoviário de passageiros são obrigadas a explorar a rede concessionada sob tarifas impostas pela Administração Central , o Estado compensa essas empresas anualmente com milhões de contos. Mais uma vez o Conselho de Ministros , pela sua Resolução nº. 160-A/99 publicada na 2ª. Série do Diário da República nº. 302 de 30-12-99 | 2ª. Série do Diário da República nº. 302 de 30-12-99 , aprovou a distribuição das indemnizações compensatórias que o quadro seguinte elucida. Empresa Unidade: Milhares de Contos R.T.P. - Radiotelevisão Portuguesa 20.800 CARRIS 2.416 STCP 1.000 CP 1.750 Metropolitano de Lisboa 1.000 REFER - Rede Ferroviária 1.750 ATA - Aerocondor Transportes Aéreos 170 SATA 450 SOFLUSA 250 TRANSTEJO 350 TOTAL 29.936 O leitor menos atento pode depreender que a especificidade das empresas de capitais públicos justificaria tal medida, havendo um beneficio no custo do transporte para os utentes quando exercido por estes operadores. Mas se o leitor assim concluir, conclui mal! As regras tarifárias que o Estado impõe são exactamente as mesmas que se aplicam às empresas privadas que estão sujeitas ao mesmo tarifário, porém... sem indemnizações compensatórias. O Estado , como entidade de bem ou se liberta rapidamente deste sorvedouro de recursos obtidos pelos impostos que pagamos ou indemniza todas as empresas, privadas ou públicas que exercem o transporte rodoviário de natureza social.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação Nacional de Transportadores Rodoviários de Pesados de Passageiros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "ESTADO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "EMPRESAS PRIVADAS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Administração Central",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Conselho de Ministros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      85,
+      86,
+      87
+    ]
+  },
+  {
+    "text": "Resolução nº. 160-A/99",
+    "label": "OBRA",
+    "token_indices": [
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "text": "2ª. Série do Diário da República nº. 302",
+    "label": "LOCAL",
+    "token_indices": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103
+    ]
+  },
+  {
+    "text": "30-12-99",
+    "label": "TEMPO",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "2ª. Série do Diário da República nº. 302 de 30-12-99",
+    "label": "LOCAL",
+    "token_indices": [
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116
+    ]
+  },
+  {
+    "text": "R.T.P. - Radiotelevisão Portuguesa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      134,
+      135,
+      136,
+      137
+    ]
+  },
+  {
+    "text": "20.800",
+    "label": "VALOR",
+    "token_indices": [
+      138
+    ]
+  },
+  {
+    "text": "CARRIS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      139
+    ]
+  },
+  {
+    "text": "2.416",
+    "label": "VALOR",
+    "token_indices": [
+      140
+    ]
+  },
+  {
+    "text": "STCP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      141
+    ]
+  },
+  {
+    "text": "1.000",
+    "label": "VALOR",
+    "token_indices": [
+      142
+    ]
+  },
+  {
+    "text": "CP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      143
+    ]
+  },
+  {
+    "text": "1.750",
+    "label": "VALOR",
+    "token_indices": [
+      144
+    ]
+  },
+  {
+    "text": "Metropolitano de Lisboa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      145,
+      146,
+      147
+    ]
+  },
+  {
+    "text": "1.000",
+    "label": "VALOR",
+    "token_indices": [
+      148
+    ]
+  },
+  {
+    "text": "REFER - Rede Ferroviária",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      149,
+      150,
+      151,
+      152
+    ]
+  },
+  {
+    "text": "1.750",
+    "label": "VALOR",
+    "token_indices": [
+      153
+    ]
+  },
+  {
+    "text": "ATA - Aerocondor Transportes Aéreos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      154,
+      155,
+      156,
+      157,
+      158
+    ]
+  },
+  {
+    "text": "170",
+    "label": "VALOR",
+    "token_indices": [
+      159
+    ]
+  },
+  {
+    "text": "SATA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      160
+    ]
+  },
+  {
+    "text": "450",
+    "label": "VALOR",
+    "token_indices": [
+      161
+    ]
+  },
+  {
+    "text": "SOFLUSA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      162
+    ]
+  },
+  {
+    "text": "250",
+    "label": "VALOR",
+    "token_indices": [
+      163
+    ]
+  },
+  {
+    "text": "TRANSTEJO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      164
+    ]
+  },
+  {
+    "text": "350",
+    "label": "VALOR",
+    "token_indices": [
+      165
+    ]
+  },
+  {
+    "text": "29.936",
+    "label": "VALOR",
+    "token_indices": [
+      167
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      213
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      236
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Associação Nacional de Transportadores Rodoviários de Pesados de Passageiros', 'ORGANIZACAO'), ('ESTADO', 'ORGANIZACAO'), ('EMPRESAS PRIVADAS', 'ORGANIZACAO'), ('Administração Central', 'ORGANIZACAO'), ('Estado', 'ORGANIZACAO'), ('Conselho de Ministros', 'ORGANIZACAO'), ('Resolução nº. 160-A/99', 'OBRA'), ('2ª. Série do Diário da República nº. 302', 'LOCAL'), ('30-12-99', 'TEMPO'), ('2ª. Série do Diário da República nº. 302 de 30-12-99', 'LOCAL'), ('R.T.P. - Radiotelevisão Portuguesa', 'ORGANIZACAO'), ('20.800', 'VALOR'), ('CARRIS', 'ORGANIZACAO'), ('2.416', 'VALOR'), ('STCP', 'ORGANIZACAO'), ('1.000', 'VALOR'), ('CP', 'ORGANIZACAO'), ('1.750', 'VALOR'), ('Metropolitano de Lisboa', 'ORGANIZACAO'), ('1.000', 'VALOR'), ('REFER - Rede Ferroviária', 'ORGANIZACAO'), ('1.750', 'VALOR'), ('ATA - Aerocondor Transportes Aéreos', 'ORGANIZACAO'), ('170', 'VALOR'), ('SATA', 'ORGANIZACAO'), ('450', 'VALOR'), ('SOFLUSA', 'ORGANIZACAO'), ('250', 'VALOR'), ('TRANSTEJO', 'ORGANIZACAO'), ('350', 'VALOR'), ('29.936', 'VALOR'), ('Estado', 'ORGANIZACAO'), ('Estado', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Programa Anti-Celulite Intensivo Este programa é constituído por dois cremes Adelgaçante |Adelgaçante, Esfoliante |Esfoliante e um produto nutricional. Creme Adelgaçante |Creme Adelgaçante ajuda a dar às areas com aspecto de "casca de laranja" uma aparência suave. Contém Multi-ácidos que ajudam a melhorar a textura e tonicidade da pele, Centelha Asiática que melhora a firmeza da pele, Fosfolípidos que melhoram a circulação. O Creme Esfoliante |Creme Esfoliante ajuda a suavizar e a limpar a pele. Acelera o processo natural de esfoliação da pele. Remove as células velhas permitindo a renovação da pele. Contém Glicerina que hidrata e Óleo de Jojoba .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa Anti-Celulite Intensivo",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Adelgaçante",
+    "label": "COISA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Esfoliante",
+    "label": "COISA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Creme Adelgaçante",
+    "label": "COISA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Multi-ácidos",
+    "label": "COISA",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Centelha Asiática",
+    "label": "COISA",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Fosfolípidos",
+    "label": "COISA",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Creme Esfoliante",
+    "label": "COISA",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Glicerina",
+    "label": "COISA",
+    "token_indices": [
+      92
+    ]
+  },
+  {
+    "text": "Óleo de Jojoba",
+    "label": "COISA",
+    "token_indices": [
+      96,
+      97,
+      98
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Programa Anti-Celulite Intensivo', 'OBRA'), ('Adelgaçante', 'COISA'), ('Esfoliante', 'COISA'), ('Creme Adelgaçante', 'COISA'), ('Multi-ácidos', 'COISA'), ('Centelha Asiática', 'COISA'), ('Fosfolípidos', 'COISA'), ('Creme Esfoliante', 'COISA'), ('Glicerina', 'COISA'), ('Óleo de Jojoba', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As pastilhas ajudam a combater a celulite e gorduras localizadas. Contém vitaminas, minerais e ervas com funções desintoxicantes. Tomar 3 pastilhas por dia antes das refeições Como usar : Aplique o Creme Esfoliante |Creme Esfoliante com uma massagem suave até sentir a pele limpa e macia. Aplique o Creme Adelgaçante |Creme Adelgaçante com as pontas dos dedos em todas as zonas problemáticas em movimentos suaves de baixo para cima. Recomenda-se uma aplicação de manhã e outra à noite diariamente. Resultados : O uso consistente destes produtos permite á sua pele adquirir uma sensação mais firme e mais sedosa e obterá uma melhor forma e silhueta. A rapidez de obtenção de resultados varia de pessoa para pessoa. Se combinar este programa com uma dieta equilibrada, com baixo índice de gorduras e alto teor de fibras, e fizer exercício regularmente, obterá óptimos resultados mais rapidamente. Voltar á loja
+
+Entidades verdadeiras:
+[
+  {
+    "text": "3",
+    "label": "VALOR",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Creme Esfoliante",
+    "label": "COISA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Creme Adelgaçante",
+    "label": "COISA",
+    "token_indices": [
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Creme Esfoliante",
+    "label": "OBRA"
+  },
+  {
+    "text": "Creme Adelgaçante",
+    "label": "OBRA"
+  },
+  {
+    "text": "2 a 4 semanas",
+    "label": "VALOR"
+  },
+  {
+    "text": "2 a 4 semanas",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('3', 'VALOR'), ('Creme Esfoliante', 'COISA'), ('Creme Adelgaçante', 'COISA')]
+Espúrias  (FP): [('Creme Esfoliante', 'OBRA'), ('Creme Adelgaçante', 'OBRA'), ('2 a 4 semanas', 'VALOR'), ('2 a 4 semanas', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cimeira sindical ibérica talvez só em Janeiro de 92 A cimeira sindical ibérica já não deverá realizar-se este ano, segundo apurou o PÚBLICO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Janeiro de 92",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Janeiro de 92",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PÚBLICO', 'ORGANIZACAO')]
+Espúrias  (FP): [('PÚBLICO', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quer isto dizer que a percentagem da população nacional que, em determinado período, procriou baixou para metade em quatro décadas. « Os Padrões Recentes da Fecundidade em Portugal », estudo que será lançado na próxima semana, foi elaborado pelas sociólogas Ana Nunes de Almeida e Cristina Ferreira e pelas geógrafas Filipa Ferrão e Isabel Margarida André .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Os Padrões Recentes da Fecundidade em Portugal",
+    "label": "OBRA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Ana Nunes de Almeida",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Cristina Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Filipa Ferrão",
+    "label": "PESSOA",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Isabel Margarida André",
+    "label": "PESSOA",
+    "token_indices": [
+      53,
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Quer isto dizer que a percentagem da população nacional que, em determinado período, procriou baixou para metade em quatro décadas.",
+    "label": "COISA"
+  },
+  {
+    "text": "Os Padrões Recentes da Fecundidade em Portugal",
+    "label": "OBRA"
+  },
+  {
+    "text": "Ana Nunes de Almeida",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cristina Ferreira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Filipa Ferrão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Isabel Margarida André",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Quer isto dizer que a percentagem da população nacional que, em determinado período, procriou baixou para metade em quatro décadas.', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A fazenda de renas Napapiiri , nas proximidades (tel. 38-4048) promove jantares com carne de rena e faz exibições folclóricas. Preço: cerca de US$ 43 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Napapiiri",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "cerca de US$ 43",
+    "label": "VALOR",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Napapiiri",
+    "label": "LOCAL"
+  },
+  {
+    "text": "38-4048",
+    "label": "VALOR"
+  },
+  {
+    "text": "US$ 43",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('cerca de US$ 43', 'VALOR')]
+Espúrias  (FP): [('38-4048', 'VALOR'), ('US$ 43', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Dos museus, o melhor é o Arktikum (leia reportagem ao lado). Mas há dois muito instrutivos, a céu aberto por isso, as visitas vão só de junho a setembro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Arktikum",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "junho",
+    "label": "TEMPO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Arktikum",
+    "label": "LOCAL"
+  },
+  {
+    "text": "junho",
+    "label": "TEMPO"
+  },
+  {
+    "text": "setembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Arktikum', 'ORGANIZACAO')]
+Espúrias  (FP): [('Arktikum', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+«Achei a idéia muito interessante e educativa. A gente precisa de reciclagem em geografia, pois tudo muda muito rápido. Lá em Portugal , eu costumo comprar a Folha », afirma Barra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Folha",
+    "label": "COISA",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Barra",
+    "label": "PESSOA",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Folha",
+    "label": "OBRA"
+  },
+  {
+    "text": "Barra",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Folha', 'COISA')]
+Espúrias  (FP): [('Folha', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Outras cidades Em São José do Rio Preto , as duas bancas mais tradicionais da cidade tiveram filas na distribuição do terceiro fascículo do Atlas Folha/«The New York Times» .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São José do Rio Preto",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Atlas Folha/«The New York Times»",
+    "label": "OBRA",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "São José do Rio Preto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Atlas Folha",
+    "label": "OBRA"
+  },
+  {
+    "text": "The New York Times",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Atlas Folha/«The New York Times»', 'OBRA')]
+Espúrias  (FP): [('Atlas Folha', 'OBRA'), ('The New York Times', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esses núcleos coloniais, entre eles o do Vale do Ribeira , foram ocupados a partir de terras vendidas pelo governo. Para quem vai fazer a pesquisa no computador a separação de dados não faz nenhuma diferença: tudo funciona como se fizesse parte de um só arquivo. Segundo Milton Julio Zanluqui , da Paraklin Pára-raios , entre os tipos mais comuns (veja exemplos ao lado) estão o sistema de gaiola ( Gaiola de Faraday ), composto de seis partes principais: captador do tipo terminal aéreo, cabo de cobre, suportes isoladores, tubo de proteção, malha de aterramento e conector de medição. Esse equipamento «envolve» o prédio e é indicado para construções que ocupem áreas horizontais, como galpões e indústrias. É preciso que tenhamos a consciência de que os nossos tratados, que envolvem questões transcendentais que buscam uma circulação de bens e serviços sem barreiras entre nossos países, exigem uma visão da história. Não podemos deixar morrer o espírito de Iguaçu .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vale do Ribeira",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Milton Julio Zanluqui",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Paraklin Pára-raios",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Gaiola de Faraday",
+    "label": "COISA",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Iguaçu",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      157
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vale do Ribeira",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Milton Julio Zanluqui",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Paraklin Pára-raios",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gaiola de Faraday",
+    "label": "COISA"
+  },
+  {
+    "text": "15 metros",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Iguaçu', 'ABSTRACCAO')]
+Espúrias  (FP): [('15 metros', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Climepsi Editores Autor Descritor A CLIMEPSI Editores éuma editora especializada que ocupa um lugar cimeiro num espaço lusófono vocacionado para as áreas das ciências e técnica. Assume uma posição junto dos leitores, na sua maioria técnicos, estudantes das áreas de Saúde , Psicologia e Medicina e Enfermagem integradas na grande área das Ciências da Saúde , de suporte em termos de informação especializada, de formação e de desenvolvimento nas respectivas áreas. A actividade editorial desenvolvida contribui, de forma significativa, para a veiculação da comunicação de teor técnico e científico em língua portuguesa. Até ao presente momento, estão editados cerca de sessenta títulos traduzidos e alguns títulos de autores portugueses. A linha editorial está marcadamente direccionada para o preenchimento de lacunas e a satisfação das necessidades mais prementes sentidas a nível científico e técnico e para o acompanhamento dos curricula universitários, sobretudo através da colecção « Manuais Universitários ». Sedeada em Lisboa e alicerçada numa aposta séria no aumento e difusão da produção técnica com qualidade e rigor em língua portuguesa, Climepsi Editores desenvolve a sua actividade editorial desde Outubro de 1996 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Climepsi Editores",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "CLIMEPSI Editores",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Saúde",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Psicologia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Medicina",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Enfermagem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Ciências da Saúde",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Manuais Universitários",
+    "label": "OBRA",
+    "token_indices": [
+      145,
+      146
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      150
+    ]
+  },
+  {
+    "text": "Climepsi Editores",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      170,
+      171
+    ]
+  },
+  {
+    "text": "Outubro de 1996",
+    "label": "TEMPO",
+    "token_indices": [
+      178,
+      179,
+      180
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Climepsi Editores', 'ORGANIZACAO'), ('CLIMEPSI Editores', 'ORGANIZACAO'), ('Saúde', 'ABSTRACCAO'), ('Psicologia', 'ABSTRACCAO'), ('Medicina', 'ABSTRACCAO'), ('Enfermagem', 'ABSTRACCAO'), ('Ciências da Saúde', 'ABSTRACCAO'), ('Manuais Universitários', 'OBRA'), ('Lisboa', 'LOCAL'), ('Climepsi Editores', 'ORGANIZACAO'), ('Outubro de 1996', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Se desejar mais informações sobre a editora e a sua actividade, contacte-nos através dos endereços: Rua Pinheiro Chagas , 38, 1.º Esq., 1150-179 LISBOA , PORTUGAL Linha directa do leitor +351 213174711 Fax +351 213528574 informações várias: info@climepsi.pt vendas: vendas@climepsi.pt departamento editorial: editorial@climepsi.pt internet: webmaster@climepsi.pt [home] [novidades] [próximas edições] [catálogo] [promoções] [apresentação da editora] [comentários] [contacte-nos] [links] [eventos]
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rua Pinheiro Chagas",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "LISBOA",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "PORTUGAL",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Rua Pinheiro Chagas', 'LOCAL'), ('LISBOA', 'LOCAL'), ('PORTUGAL', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+SISTEMA NERVOSO Neurologia _ 1 O Sistema Nervoso tem a capacidade de receber, transmitir, elaborar e armazenar informações. Recebe informações sobre mudanças que ocorrem no meio externo, isto é, relaciona o indivíduo com seu ambiente e inicia e regula as respostas adequadas. Não somente é afetado pelo meio externo, mas também pelo meio interno, isto é, tudo que ocorre nas diversas regiões do corpo.As mudanças no meio externo são apreciadas de forma consciente, enquanto as mudanças no meio interno não tendem a ser percebidas conscientemente. Quando ocorrem mudanças no meio, e estas afetam o sistema nervoso, são chamadas de estímulos. O sistema nervoso, junto com o endócrino, desempenha a maioria das funções da regulação do organismo. O sistema endócrino regula principalmente as funções metabólicas do organismo. Com a denominação de sistema nervoso compreendemos aquele conjunto de órgãos que transmitem a todo o organismo os impulsos necessários aos movimentos e às diversas funções, e recebem do próprio organismo e do mundo externo as sensações. No sistema nervoso distingue-se uma parte nervosa central, formada pelo eixo cérebro-espinhal, da qual partem os estímulos e à qual chegam as sensações, e uma parte nervosa periférica, formada pelos nervos, os quais servem para "conduzir" a corrente nervosa. Os nervos transportam à periferia os estímulos e dela recebem as diversas sensações que, com percurso inverso, são conduzidas ao sistema nervoso central. O sistema nervoso central é a parte nobre do nosso organismo: por presunção é a sede da inteligência, o lugar onde se formam as idéias e o lugar do qual partem as ordens para a execução dos movimentos, para a regulação de todas as funções; é o anteparo ao qual chegam as impressões da vista, do ouvido, do tacto, do olfato, dos sabores. No sistema nervoso central fica, em suma, o comando de todo o organismo, seja entendido no sentido físico, seja no sentido psíquico.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SISTEMA NERVOSO Neurologia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Sistema Nervoso",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('SISTEMA NERVOSO Neurologia', 'ABSTRACCAO'), ('Sistema Nervoso', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Movimento de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais do Concelho da Moita Movimento de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais do Concelho da Moita Por uma melhor integração das crianças com necessidades educativas especiais Benvindo à página do Movimento de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais do Concelho da Moita .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Movimento de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais do Concelho da Moita",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Movimento de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais do Concelho da Moita",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Movimento de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais do Concelho da Moita",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Movimento de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais do Concelho da Moita",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Movimento de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais do Concelho da Moita",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Moita",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Movimento de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais do Concelho da Moita', 'ORGANIZACAO')]
+Espúrias  (FP): [('Moita', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Resultado da vontade de um conjunto de pais deste concelho, este movimento foi iniciado no passado dia 14 de Julho , como consequência da informação vinda a público de um conjunto de cortes muito significativos na quantidade e qualidade dos apoios educativos a crianças com NEE para o ano lectivo de 2001/2002 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "14 de Julho",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "NEE",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "2001/2002",
+    "label": "TEMPO",
+    "token_indices": [
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "14 de Julho",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2001/2002",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('NEE', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não obstante a motivação primeira de procurar salvaguardar a manutenção e melhoria dos apoios educativos, através do diálogo e colaboração com as entidades competentes, este movimento pretende igualmente constituir-se como um espaço de troca de experiências e de intervenção local, de uma forma independente, e sempre com o objectivo de contribuir para uma melhor integração destas crianças na sociedade. Comunicado / Alerta de divulgação deste movimento Notícias na imprensa As razões da nossa preocupação Por forma a melhor salvaguardar os direitos das crianças com NEE , este movimento foi integrado na APCNEES , Associação de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais da Península de Setúbal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "NEE",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "APCNEES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "Associação de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais da Península de Setúbal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "APCNEES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação de Pais e Encarregados de Educação de Crianças com Necessidades Educativas Especiais da Península de Setúbal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('NEE', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em função disso, esta página irá brevemente ser descontinuada em benefício de uma página da Associação em: http://apcnees.no.sapo.pt A P C N E E S A sua participação e contributos são muito importantes contacte-nos
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "A P C N E E S",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "http://apcnees.no.sapo.pt",
+    "label": "LOCAL"
+  },
+  {
+    "text": "P C N E E S",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('A P C N E E S', 'ORGANIZACAO')]
+Espúrias  (FP): [('http://apcnees.no.sapo.pt', 'LOCAL'), ('P C N E E S', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+CAPÍTULO III / A DENÚNCIA Ia entrar na sala de visitas, quando ouvi proferir o meu nome e escondi-me atrás da porta. A casa era a da Rua de Mata-cavalos , o mês novembro , o ano é que é um tanto remoto, mas eu não hei de trocar as datas à minha vida só para agradar às pessoas que não amam histórias velhas; o ano era de 1857 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "III",
+    "label": "VALOR",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Rua de Mata-cavalos",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "novembro",
+    "label": "TEMPO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "1857",
+    "label": "TEMPO",
+    "token_indices": [
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rua de Mata-cavalos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "novembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1857",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('III', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+--Há algum tempo estou para lhe dizer isto, mas não me atrevia. Não me parece bonito que o nosso Bentinho ande metido nos cantos com a filha do Tartaruga , e esta é a dificuldade, porque se eles pegam de namoro, a senhora terá muito que lutar para separá-los. --Não acho. Metidos nos cantos? --É um modo de falar. Em segredinhos, sempre juntos. Bentinho quase que não sai de lá. A pequena é uma desmiolada; o pai faz que não vê; tomara ele que as cousas corressem de maneira, que... Compreendo o seu gesto; a senhora não crê em tais cálculos, parece-lhe que todos têm a alma candida... --Mas, Sr. José Dias , tenho visto os pequenos brincando, e nunca vi nada que faça desconfiar. Basta a idade; Bentinho mal tem quinze anos. Capitu fez quatorze à semana passada; são dous criançolas. Não se esqueça que foram criados juntos, desde aquela grande enchente, há dez anos, em que a família Pádua perdeu tanta cousa; daí vieram as nossas relações.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bentinho",
+    "label": "PESSOA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Tartaruga",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Bentinho",
+    "label": "PESSOA",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "Sr. José Dias",
+    "label": "PESSOA",
+    "token_indices": [
+      109,
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Bentinho",
+    "label": "PESSOA",
+    "token_indices": [
+      128
+    ]
+  },
+  {
+    "text": "Capitu",
+    "label": "PESSOA",
+    "token_indices": [
+      133
+    ]
+  },
+  {
+    "text": "Pádua",
+    "label": "PESSOA",
+    "token_indices": [
+      160
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Bentinho', 'PESSOA'), ('Tartaruga', 'PESSOA'), ('Bentinho', 'PESSOA'), ('Sr. José Dias', 'PESSOA'), ('Bentinho', 'PESSOA'), ('Capitu', 'PESSOA'), ('Pádua', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mano Cosme , você que acha? Tio Cosme respondeu com um "Ora!" que, traduzido em vulgar, queria dizer: "São imaginações do José Dias os pequenos divertem-se, eu divirto-me; onde está o gamão?" --Sim, creio que o senhor está enganado. --Pode ser minha senhora. Oxalá tenham razão; mas creia que não falei senão depois de muito examinar... --Em todo caso, vai sendo tempo, interrompeu minha mãe; vou tratar de metê-lo no seminário quanto antes. --Bem, uma vez que não perdeu a idéia de o fazer padre, tem-se ganho o principal. Bentinho há de satisfazer os desejos de sua mãe e depois a igreja brasileira tem altos destinos. Não esqueçamos que um bispo presidiu a Constituinte , e que o Padre Feijó governou o Império ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mano Cosme",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Tio Cosme",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "José Dias",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Bentinho",
+    "label": "PESSOA",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "Constituinte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      113
+    ]
+  },
+  {
+    "text": "Padre Feijó",
+    "label": "PESSOA",
+    "token_indices": [
+      118,
+      119
+    ]
+  },
+  {
+    "text": "Império",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      122
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mano Cosme",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cosme",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José Dias",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bentinho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bentinho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bentinho",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Tio Cosme', 'PESSOA'), ('Constituinte', 'ORGANIZACAO'), ('Padre Feijó', 'PESSOA'), ('Império', 'ORGANIZACAO')]
+Espúrias  (FP): [('Cosme', 'PESSOA'), ('Bentinho', 'PESSOA'), ('Bentinho', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+-- Governo como a cara dele! atalhou tio Cosme , cedendo a antigos rancores políticos. --Perdão, doutor, não estou defendendo ninguém, estou citando O que eu quero é dizer que o clero ainda tem grande papel no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Governo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "tio Cosme",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Governo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Cosme",
+    "label": "PESSOA"
+  },
+  {
+    "text": "O",
+    "label": "OBRA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('tio Cosme', 'PESSOA')]
+Espúrias  (FP): [('Cosme', 'PESSOA'), ('O', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+-- Eu? --Verdade é que cada um sabe melhor de si, continuou tio Cosme - Deus é que sabe de todos. Contudo, uma promessa de tantos anos... Mas, que é isso, mana Glória ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tio Cosme",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "mana Glória",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cosme",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "mana Glória",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('tio Cosme', 'PESSOA')]
+Espúrias  (FP): [('Cosme', 'PESSOA'), ('Deus', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Está chorando? Ora esta pois isto é cousa de lágrimas? Minha mãe assoou-se sem responder. Prima Justina creio que se levantou e foi ter com ela.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prima Justina",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Justina",
+    "label": "PESSOA"
+  },
+  {
+    "text": "minha mãe",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Prima Justina', 'PESSOA')]
+Espúrias  (FP): [('Justina', 'PESSOA'), ('minha mãe', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Seguiu-se um alto silêncio, durante o qual estive a pique de entrar na sala, mas outra força maior, outra emoção... Não pude ouvir as palavras que tio Cosme entrou a dizer. Prima Justina exortava: " Prima Glória !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tio Cosme",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Prima Justina",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Prima Glória",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cosme",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Prima Justina",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Prima Glória",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('tio Cosme', 'PESSOA')]
+Espúrias  (FP): [('Cosme', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Exmo(a) Sr.(a), O mês de Outubro é marcado pela passagem para o euro de alguns produtos e serviços BPI . Assim e no que diz respeito ao BPI Net , todas as operações, são agora, por defeito apresentadas em euros. Para seu auxílio, nos ecrãs de confirmação são apresentados os valores em euros e em escudos, pelo que aconselhamos que verifique sempre ambos os valores. Para mais informações, poderá utilizar a Linha BPI Internet 808 289 289 ou enviar um email para o endereço bpinet@bancobpi.pt. Com os melhores cumprimentos, BPI Net Se não desejar receber informações do BPI por este meio, envie-nos o seguinte email: mailto:bpinet@bancobpi.pt?subject=Rejeitar.E-mails
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Outubro",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "BPI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "BPI Net",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Linha BPI Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      71,
+      72,
+      73
+    ]
+  },
+  {
+    "text": "BPI Net",
+    "label": "PESSOA",
+    "token_indices": [
+      89,
+      90
+    ]
+  },
+  {
+    "text": "BPI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      97
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Outubro', 'TEMPO'), ('BPI', 'ORGANIZACAO'), ('BPI Net', 'LOCAL'), ('Linha BPI Internet', 'LOCAL'), ('BPI Net', 'PESSOA'), ('BPI', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com a acareação entre Paradela de Abreu e o cónego Melo , terminaram anteontem as diligências previstas no acordão que determinou a reabertura do processo do padre Max . Para a acusação, o balanço é positivo, mas para a defesa um novo arquivamento do caso está mais próximo. Até porque o juiz acaba de indeferir uma acareação entre os sete suspeitos. 0 juiz titular do processo do padre Max , Artur Oliveira , indeferiu um pedido do procurador-geral adjunto nomeado pela Procuradoria-Geral da República para acompanhar a investigação deste caso, no sentido de promover uma acareação entre os sete indivíduos indiciados na acusação provisória como responsáveis pelo crime-- três como autores morais e os restantes como autores materiais. Paulo Sá pedia ainda uma acareação entre o industrial portuense Manuel Macedo , Ramiro Moreira e o tenente da Marinha Pedro Menezes , todos testemunhas neste caso.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paradela de Abreu",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "cónego Melo",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "padre Max",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "padre Max",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Artur Oliveira",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Procuradoria-Geral da República",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "Paulo Sá",
+    "label": "PESSOA",
+    "token_indices": [
+      118,
+      119
+    ]
+  },
+  {
+    "text": "Manuel Macedo",
+    "label": "PESSOA",
+    "token_indices": [
+      128,
+      129
+    ]
+  },
+  {
+    "text": "Ramiro Moreira",
+    "label": "PESSOA",
+    "token_indices": [
+      131,
+      132
+    ]
+  },
+  {
+    "text": "Marinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      137
+    ]
+  },
+  {
+    "text": "Pedro Menezes",
+    "label": "PESSOA",
+    "token_indices": [
+      138,
+      139
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Paradela de Abreu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Melo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "padre Max",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Artur Oliveira",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('cónego Melo', 'PESSOA'), ('padre Max', 'PESSOA'), ('Procuradoria-Geral da República', 'ORGANIZACAO'), ('Paulo Sá', 'PESSOA'), ('Manuel Macedo', 'PESSOA'), ('Ramiro Moreira', 'PESSOA'), ('Marinha', 'ORGANIZACAO'), ('Pedro Menezes', 'PESSOA')]
+Espúrias  (FP): [('Melo', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Depois da morte da madrasta, a sorte de Margarida tomou uma feição mais favorável. Vivendo na companhia da irmã, nunca mais teve que suportar aquelas humilhações continuadas que a faziam corar. Antes, no modo porque era tratada em casa, parecia ser ela a senhora de tudo, e Clara a que recebia o benefício; contra estas aparências só a sua modéstia protestava. Clara possuía um coração excelente, mas faltava-lhe cabeça para superintender nos negócios da casa; por isso pedira a Margarida que os gerisse ela e lhe deixasse ir gozando a apetecida liberdade dos seus dezoitos anos. O pároco, por tutor das duas órfãs, sancionou e dirigiu com seus conselhos esta disposição de coisas. Mas um tal sistema de viver não podia bastar por muito tempo a Margarida .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Margarida",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Clara",
+    "label": "PESSOA",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Clara",
+    "label": "PESSOA",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Margarida",
+    "label": "PESSOA",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Margarida",
+    "label": "PESSOA",
+    "token_indices": [
+      126
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Margarida', 'PESSOA'), ('Clara', 'PESSOA'), ('Clara', 'PESSOA'), ('Margarida', 'PESSOA'), ('Margarida', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Havia no caráter desta rapariga um fundo de dignidade pessoal que lhe não deixava aceitar a vida plácida, que cordialmente a irmã lhe talhara. Habituara-se muito cedo ao trabalho e como ele contava. - Se o desprezo agora - dizia ela a si mesma, pensando nisto, - quem sabe se um dia, ao procurá-lo, ele fugirá? Sentia-se jovem, com forças e coragem; envergonhava-se da ociosidade. Entre os projetos, que formou então, um lhe sorriu sempre mais que todos. Margarida tinha uma educação pouco vulgar para a sua condição. Várias circunstâncias haviam gradualmente concorrido para lhe aperfeiçoar. Daniel fora, como sabemos, o seu primeiro mestre, e quando outra razão não houvesse, as saudades que a vista e a leitura dos livros ainda lhe causavam, lembrando-lhe aquele tempo, levá-la-iam a procurá-los com prazer. Seguira-se a Daniel o reitor, conforme ao que prometera ao discípulo. Vendo o padre a inclinação da sua pupila para a leitura, fazia-lhe, de quando em quando, alguns presentes de livros, depois de os passar pela crítica dos seus rígidos princípios morais, e julgá-los salutares.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Margarida",
+    "label": "PESSOA",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "Daniel",
+    "label": "PESSOA",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "Daniel",
+    "label": "PESSOA",
+    "token_indices": [
+      133
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Margarida', 'PESSOA'), ('Daniel', 'PESSOA'), ('Daniel', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O hábito da meditação, que adquirira, permitia à sua inteligência tirar grandes riquezas da pequena mina em que trabalhava. Um acontecimento favoreceu ainda estas tendências. Um dia, acolheu-se à aldeia, a viver vida e privações de miséria, um destes desgraçados, a quem as ondas do mundo arrojam, náufragos e quebrantados, à praia. Era um homem, que, saindo em criança ainda, daquela mesma aldeia, entrara, sob os sorrisos da sorte, na vida das cidades. A instrução, a riqueza, as honras, tudo o rodeara do prestígio que parece assegurar a felicidade. Se ele a sentiu então, não o sei eu; - um dia, porém, como o Jó da Escritura , viu as mão da desgraça baixar sobre sua cabeça, privá-lo das riquezas, das dignidades e da família, e deixá-lo só; só ao declinar a vida, só quando já não há no coração fogo para alimentar esperanças, vigor no braço para arrotear caminhos novos!
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jó da Escritura",
+    "label": "PESSOA",
+    "token_indices": [
+      104,
+      105,
+      106
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Jó da Escritura', 'PESSOA')]
+Espúrias  (FP): []
+

@@ -1,0 +1,7298 @@
+--------------------------------------------------------------------------------
+Texto:
+Questões Frequentemente Perguntadas - Frequently Asked Questions (FAQ)
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Frequentemente",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Frequentemente', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Questões frequentemente perguntadas (FAQ)
+
+Entidades verdadeiras:
+[
+  {
+    "text": "frequentemente",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('frequentemente', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Algumas respostas ainda não foram redigidas. Participe desta construção, enviando outras perguntas que ache pertinentes, via e-mail - ibap@ibap.org ).
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "ibap@ibap.org",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('ibap@ibap.org', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+5 - ATIVIDADES DO IBAP VIA INTERNET | INTERNET
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "INTERNET",
+    "label": "OUTRO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "INTERNET",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('INTERNET', 'OUTRO')]
+Espúrias  (FP): [('INTERNET', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sim, desde que tenha se aposentado na condição de Advogado/a Público/a | Advogado/a Público/a .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Advogado/a Público/a",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Advogado/a Público/a",
+    "label": "COISA"
+  },
+  {
+    "text": "Advogado/a",
+    "label": "COISA"
+  },
+  {
+    "text": "Público/a",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Advogado/a Público/a', 'PESSOA')]
+Espúrias  (FP): [('Advogado/a Público/a', 'COISA'), ('Advogado/a', 'COISA'), ('Público/a', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sim. A situação do associado aposentado não difere em nada da situação do associado em exercício. Pode ele candidatar-se a cargo de diretor, participar de todos os eventos, escrever nas publicações do IBAP , participar da Lista de Debates da Internet , enfim, exercer plenamente os seus direitos associativos. Eventualmente, se o associado aposentado estiver enfrentando dificuldades financeiras, poderá requerer a isenção temporária do pagamento de mensalidades à Coordenadoria Financeira do IBAP | Coordenadoria Financeira do IBAP .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Lista de Debates da Internet",
+    "label": "OUTRO",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Coordenadoria Financeira do IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Coordenadoria Financeira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lista de Debates da Internet",
+    "label": "OBRA"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Coordenadoria Financeira do IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Coordenadoria Financeira",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lista de Debates da Internet', 'OUTRO')]
+Espúrias  (FP): [('Lista de Debates da Internet', 'OBRA'), ('IBAP', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+2.1. Estagiário/a de Direito pode associar-se?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Direito",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Direito', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sim. O art. 3, inciso II, letra "b", do Estatuto Social do IBAP | Estatuto Social do IBAP , estabelece que os acadêmicos de Direito em estágio nos órgãos de Advocacia Pública , enquanto perdurar tal situação, podem integrar o IBAP , na qualidade de associados estagiários.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estatuto Social do IBAP",
+    "label": "OBRA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Estatuto Social",
+    "label": "OBRA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Direito",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Advocacia Pública",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto Social do IBAP",
+    "label": "OBRA"
+  },
+  {
+    "text": "Estatuto Social",
+    "label": "OBRA"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Advocacia Pública",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Direito', 'ABSTRACCAO'), ('Advocacia Pública', 'ABSTRACCAO')]
+Espúrias  (FP): [('Advocacia Pública', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não. Não obstante inexista a previsão de isenção no Estatuto Social do IBAP | Estatuto Social do IBAP , a Coordenadoria Geral do IBAP | Coordenadoria Geral do IBAP , acolhendo a parecer de sua Coordenadoria Financeira , tem adotado desde agosto de 1996 o entendimento de que os acadêmicos de Direito não devem pagar mensalidades, visto que não podem votar ou se candidatar a cargo de membro da Coordenadoria Geral ou do Conselho Assessor (art. 11 do Estatuto Social ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estatuto Social do IBAP",
+    "label": "OBRA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Estatuto Social",
+    "label": "OBRA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Coordenadoria Geral do IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Coordenadoria Geral",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Coordenadoria Financeira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "desde agosto de 1996",
+    "label": "TEMPO",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Direito",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Coordenadoria Geral",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Conselho Assessor",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Estatuto Social",
+    "label": "OBRA",
+    "token_indices": [
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto Social do IBAP",
+    "label": "OBRA"
+  },
+  {
+    "text": "Estatuto Social",
+    "label": "OBRA"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Coordenadoria Geral do IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Coordenadoria Geral",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Coordenadoria Financeira",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "desde agosto de 1996",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Direito",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Coordenadoria Geral",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conselho Assessor",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "art. 11",
+    "label": "OBRA"
+  },
+  {
+    "text": "Estatuto Social",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('IBAP', 'ORGANIZACAO')]
+Espúrias  (FP): [('art. 11', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Atualmente, não ( abril/2000 ). Todavia, nada impede a alteração deste quadro, na hipótese do crescimento da atuação do IBAP em juízo justificar a contratação de um corpo de estagiários.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "abril/2000",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Atualmente",
+    "label": "TEMPO"
+  },
+  {
+    "text": "abril/2000",
+    "label": "TEMPO"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Atualmente', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+3.1. Qual é o conceito de " Advogado Público " adotado pelo IBAP ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Advogado Público",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Advogado Público",
+    "label": "COISA"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Advogado Público', 'ABSTRACCAO')]
+Espúrias  (FP): [('Advogado Público', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+São Advogados Públicos , para efeito de inscrição nos quadros do IBAP os integrantes da Advocacia-Geral da União , da Procuradoria da Fazenda Nacional , da Defensoria Pública e das Procuradorias e Consultorias Jurídicas | Procuradorias e Consultorias Jurídicas dos Estados , do Distrito Federal , dos Municípios e das respectivas entidades da administração indireta (autarquias, sociedades de economia mista e empresas públicas) e fundacional (Art. 3°, § 1°, da Lei Federal 8.906 , de 4 de julho de 1994 - Estatuto da Advocacia e a Ordem dos Advogados do Brasil | Ordem dos Advogados do Brasil ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Advogados Públicos",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Advocacia-Geral da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Procuradoria da Fazenda Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Defensoria Pública",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Procuradorias e Consultorias Jurídicas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Procuradorias",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Consultorias Jurídicas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Estados",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Municípios",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Lei Federal 8.906",
+    "label": "OBRA",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "4 de julho de 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      75,
+      76,
+      77,
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Estatuto da Advocacia",
+    "label": "OBRA",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "Ordem dos Advogados do Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      86,
+      87,
+      88,
+      89,
+      90
+    ]
+  },
+  {
+    "text": "Ordem dos Advogados",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      96
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Advogados Públicos', 'PESSOA'), ('IBAP', 'ORGANIZACAO'), ('Advocacia-Geral da União', 'ORGANIZACAO'), ('Procuradoria da Fazenda Nacional', 'ORGANIZACAO'), ('Defensoria Pública', 'ORGANIZACAO'), ('Procuradorias e Consultorias Jurídicas', 'ORGANIZACAO'), ('Procuradorias', 'ORGANIZACAO'), ('Consultorias Jurídicas', 'ORGANIZACAO'), ('Estados', 'ORGANIZACAO'), ('Distrito Federal', 'ORGANIZACAO'), ('Municípios', 'ORGANIZACAO'), ('Lei Federal 8.906', 'OBRA'), ('4 de julho de 1994', 'TEMPO'), ('Estatuto da Advocacia', 'OBRA'), ('Ordem dos Advogados do Brasil', 'ORGANIZACAO'), ('Ordem dos Advogados', 'ORGANIZACAO'), ('Brasil', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A sede do Instituto Brasileiro de Advocacia Pública é na Avenida da Liberdade , 21 - 10° Andar - Salas 1008 a 1012 - Bairro da Liberdade - CEP 01503-000 - São Paulo / SP .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Instituto Brasileiro de Advocacia Pública",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Avenida da Liberdade",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Bairro da Liberdade",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Instituto Brasileiro de Advocacia Pública",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Avenida da Liberdade",
+    "label": "LOCAL"
+  },
+  {
+    "text": "21",
+    "label": "VALOR"
+  },
+  {
+    "text": "10° Andar",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Salas 1008 a 1012",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bairro da Liberdade",
+    "label": "LOCAL"
+  },
+  {
+    "text": "CEP 01503-000",
+    "label": "VALOR"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('21', 'VALOR'), ('10° Andar', 'LOCAL'), ('Salas 1008 a 1012', 'LOCAL'), ('CEP 01503-000', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+4.2. Os diretores do IBAP | diretores do IBAP têm afastamento da carreira para o exercício de seu mandato?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "diretores do IBAP",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('diretores do IBAP', 'PESSOA')]
+Espúrias  (FP): [('IBAP', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Diretoria do IBAP | Diretoria do IBAP tem estrutura colegiada. A Diretoria Nacional é formada por oito coordenadores gerais e um conselho assessor formado por seis associados eleitos em Assembléia Geral .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Diretoria do IBAP",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Diretoria",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Diretoria Nacional",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Assembléia Geral",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Diretoria do IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Diretoria Nacional",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Assembléia Geral",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Diretoria do IBAP', 'PESSOA'), ('Diretoria', 'PESSOA'), ('IBAP', 'ORGANIZACAO'), ('Diretoria Nacional', 'PESSOA'), ('Assembléia Geral', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Diretoria do IBAP', 'ORGANIZACAO'), ('Diretoria Nacional', 'ORGANIZACAO'), ('Assembléia Geral', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os associados regulares do IBAP contribuem mensalmente com o pagamento de taxa de R$22,00 (vinte e dois reais). Desse total, R$2,00 (dois reais) constituem taxa bancária pelo serviço de confecção de boletos ou de débito automático em conta. A verba destina-se ao pagamento de locação da sede social do IBAP , salários de dois funcionários, despesas com telefone, hospedagem de home-page, acesso a provedor de Internet | Internet, impressão de livros, revistas e boletins, organização de congressos e outras despesas diretamente relacionadas com os objetivos estatutários.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "mensalmente",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "R$22,00",
+    "label": "VALOR",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "R$2,00",
+    "label": "VALOR",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "OUTRO",
+    "token_indices": [
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "R$22,00",
+    "label": "VALOR"
+  },
+  {
+    "text": "R$2,00",
+    "label": "VALOR"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Internet",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('mensalmente', 'TEMPO'), ('Internet', 'OUTRO')]
+Espúrias  (FP): [('Internet', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A íntegra do Estatuto Social do IBAP | Estatuto Social do IBAP encontra-se disponível nesta home-page: http://www.ibap.org/estatuto.htm
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estatuto Social do IBAP",
+    "label": "OBRA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Estatuto Social",
+    "label": "OBRA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto Social do IBAP",
+    "label": "OBRA"
+  },
+  {
+    "text": "Estatuto Social",
+    "label": "OBRA"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "nesta home-page",
+    "label": "LOCAL"
+  },
+  {
+    "text": "http://www.ibap.org/estatuto.htm",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('IBAP', 'ORGANIZACAO'), ('nesta home-page', 'LOCAL'), ('http://www.ibap.org/estatuto.htm', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+5.1. Preciso estar conectado/a à Internet | Internet para participar do IBAP ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Internet",
+    "label": "COISA"
+  },
+  {
+    "text": "IBAP",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Internet', 'LOCAL'), ('IBAP', 'ORGANIZACAO')]
+Espúrias  (FP): [('Internet', 'COISA'), ('IBAP', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não obstante seja intensa a atividade do IBAP desenvolvida no âmbito da Internet | Internet (home-page, conferência eletrônica e lista de debates), aproximadamente 50% dos associados não tem acesso a essa facilidade. Não há absolutamente nenhuma necessidade de conectar-se à Internet | Internet para participar das atividades desenvolvidas pelo IBAP .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "aproximadamente 50%",
+    "label": "VALOR",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Internet",
+    "label": "COISA"
+  },
+  {
+    "text": "Internet",
+    "label": "COISA"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Internet",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Internet', 'LOCAL'), ('aproximadamente 50%', 'VALOR'), ('Internet', 'LOCAL')]
+Espúrias  (FP): [('Internet', 'COISA'), ('Internet', 'COISA'), ('Internet', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+5.2. O que é a Lista de Debates do IBAP | Lista de Debates do IBAP ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lista de Debates do IBAP",
+    "label": "COISA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Lista de Debates",
+    "label": "COISA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lista de Debates do IBAP",
+    "label": "OBRA"
+  },
+  {
+    "text": "Lista de Debates",
+    "label": "OBRA"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lista de Debates do IBAP', 'COISA'), ('Lista de Debates', 'COISA')]
+Espúrias  (FP): [('Lista de Debates do IBAP', 'OBRA'), ('Lista de Debates', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+5.3. Como faço para participar da Lista de Debates do IBAP | Lista de Debates do IBAP ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lista de Debates do IBAP",
+    "label": "COISA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Lista de Debates",
+    "label": "COISA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lista de Debates do IBAP",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lista de Debates",
+    "label": "LOCAL"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lista de Debates do IBAP', 'COISA'), ('Lista de Debates', 'COISA')]
+Espúrias  (FP): [('Lista de Debates do IBAP', 'LOCAL'), ('Lista de Debates', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+As informações básicas para acesso às listas encontram-se em nossa home-page: http://www.ibap.org/listas/insc_listas.htm
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "http://www.ibap.org/listas/insc_listas.htm",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('http://www.ibap.org/listas/insc_listas.htm', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O IBAP já editou três volumes da Série Advocacia Pública e Sociedade : " Direitos da Pessoa Portadora de Deficiência ", " Primeiro Congresso Brasileiro de Advocacia Pública " e " Temas de Direito Ambiental e Urbanístico ", todos pela Editora Max Limonad e distribuídos gratuitamente aos associados regulares. No mês de maio de 2000 estará sendo lançado o livro " Temas de Direito Constitucional - Estudos em Homenagem ao Advogado Público André Franco Montoro ", pela Editora Esplanada , também com distribuição gratuita para associados regulares. Além de livros, o IBAP também publica trimestralmente a Revista Advocacia Pública que, no mês de abril de 2000 já se encontrava em sua nona edição. A partir de maio de 2000 estará sendo lançada a Revista de Direitos Difusos , com mais de 100 páginas e periodicidade bimestral, distribuída também gratuitamente aos associados regulares. O IBAP também publicou a Série Advocacia Pública em Debate , consiscia Internet .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Série Advocacia Pública e Sociedade",
+    "label": "COISA",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Direitos da Pessoa Portadora de Deficiência",
+    "label": "OBRA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Primeiro Congresso Brasileiro de Advocacia Pública",
+    "label": "OBRA",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Temas de Direito Ambiental e Urbanístico",
+    "label": "OBRA",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Editora Max Limonad",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "No mês de maio de 2000",
+    "label": "TEMPO",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Temas de Direito Constitucional - Estudos em Homenagem ao Advogado Público André Franco Montoro",
+    "label": "OBRA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Editora Esplanada",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77,
+      78
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "trimestralmente",
+    "label": "TEMPO",
+    "token_indices": [
+      94
+    ]
+  },
+  {
+    "text": "Revista Advocacia Pública",
+    "label": "OBRA",
+    "token_indices": [
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "text": "no mês de abril de 2000",
+    "label": "TEMPO",
+    "token_indices": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+    ]
+  },
+  {
+    "text": "A partir de maio de 2000",
+    "label": "TEMPO",
+    "token_indices": [
+      113,
+      114,
+      115,
+      116,
+      117,
+      118
+    ]
+  },
+  {
+    "text": "Revista de Direitos Difusos",
+    "label": "OBRA",
+    "token_indices": [
+      123,
+      124,
+      125,
+      126
+    ]
+  },
+  {
+    "text": "mais de 100",
+    "label": "VALOR",
+    "token_indices": [
+      129,
+      130,
+      131
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      143
+    ]
+  },
+  {
+    "text": "Série Advocacia Pública em Debate",
+    "label": "OBRA",
+    "token_indices": [
+      147,
+      148,
+      149,
+      150,
+      151
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "OUTRO",
+    "token_indices": [
+      154
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('IBAP', 'ORGANIZACAO'), ('Série Advocacia Pública e Sociedade', 'COISA'), ('Direitos da Pessoa Portadora de Deficiência', 'OBRA'), ('Primeiro Congresso Brasileiro de Advocacia Pública', 'OBRA'), ('Temas de Direito Ambiental e Urbanístico', 'OBRA'), ('Editora Max Limonad', 'ORGANIZACAO'), ('No mês de maio de 2000', 'TEMPO'), ('Temas de Direito Constitucional - Estudos em Homenagem ao Advogado Público André Franco Montoro', 'OBRA'), ('Editora Esplanada', 'ORGANIZACAO'), ('IBAP', 'ORGANIZACAO'), ('trimestralmente', 'TEMPO'), ('Revista Advocacia Pública', 'OBRA'), ('no mês de abril de 2000', 'TEMPO'), ('A partir de maio de 2000', 'TEMPO'), ('Revista de Direitos Difusos', 'OBRA'), ('mais de 100', 'VALOR'), ('IBAP', 'ORGANIZACAO'), ('Série Advocacia Pública em Debate', 'OBRA'), ('Internet', 'OUTRO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Todas as colaborações de associados são submetidas a exame prévio da Comissão Editorial .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Comissão Editorial",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comissão Editorial",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Comissão Editorial', 'PESSOA')]
+Espúrias  (FP): [('Comissão Editorial', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os associados poderão remeter sua colaboração, em arquivo word, via e-mail (ibap@ibap.org) ou diretamente, na sede do IBAP , em disquete.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('IBAP', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+7.1. Que eventos já realizou o IBAP até hoje ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "até hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('até hoje', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os eventos promovidos pelo IBAP são realizados em todo o território nacional e não apenas na cidade onde se localiza sua sede social. O I Congresso Brasileiro de Advocacia Pública foi promovido em 1997 na cidade de Campos do Jordão / SP . O II Congresso foi promovido em 1998 em São Lourenço / MG . O III Congresso foi promovido em junho de 1999 em Salvador / BA . O IV Congresso Brasileiro de Advocacia Pública será realizado em 2000 , em Teresópolis , no Estado do Rio de Janeiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "I Congresso Brasileiro de Advocacia Pública",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "em 1997",
+    "label": "TEMPO",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Campos do Jordão",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "II Congresso",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "em 1998",
+    "label": "TEMPO",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "São Lourenço",
+    "label": "LOCAL",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "MG",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "III Congresso",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "em junho de 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Salvador",
+    "label": "LOCAL",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "BA",
+    "label": "LOCAL",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "IV Congresso Brasileiro de Advocacia Pública",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "em 2000",
+    "label": "TEMPO",
+    "token_indices": [
+      79,
+      80
+    ]
+  },
+  {
+    "text": "Teresópolis",
+    "label": "LOCAL",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Estado do Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      86,
+      87,
+      88,
+      89,
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('IBAP', 'ORGANIZACAO'), ('I Congresso Brasileiro de Advocacia Pública', 'ACONTECIMENTO'), ('em 1997', 'TEMPO'), ('Campos do Jordão', 'LOCAL'), ('SP', 'LOCAL'), ('II Congresso', 'ACONTECIMENTO'), ('em 1998', 'TEMPO'), ('São Lourenço', 'LOCAL'), ('MG', 'LOCAL'), ('III Congresso', 'ACONTECIMENTO'), ('em junho de 1999', 'TEMPO'), ('Salvador', 'LOCAL'), ('BA', 'LOCAL'), ('IV Congresso Brasileiro de Advocacia Pública', 'ACONTECIMENTO'), ('em 2000', 'TEMPO'), ('Teresópolis', 'LOCAL'), ('Estado do Rio de Janeiro', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As atividades desenvolvidas nos diversos Estados Federados são organizadas pelos Coordenadores Regionais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estados Federados",
+    "label": "LOCAL",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Coordenadores Regionais",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Coordenadores Regionais",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Estados Federados', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+R: Não. O IBAP não tem vinculação partidária alguma. Não há, porém, que se confundir apartidarismo político com neutralidade política. Para a implementação dos princípios fundamentais e objetivos estatutários, o IBAP sempre haverá de manifestar-se publicamente em prol de um modelo de sociedade no qual prevaleça a valorização do ser humano e o repúdio a todas as formas de opressão ou aviltamento da dignidade humana; na defesa da manutenção da ordem constitucional dentro de um Estado Democrático de Direito cuja ordem social tenha como base o primado do trabalho e como objetivo o bem estar e a justiça sociais; na defesa intransigente dos princípios da moralidade, da impessoalidade, da publicidade, da indisponibilidade do interesse público e da legalidade no âmbito da Administração Pública .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Estado Democrático de Direito",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      75,
+      76,
+      77,
+      78
+    ]
+  },
+  {
+    "text": "Administração Pública",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      121,
+      122
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('IBAP', 'ORGANIZACAO'), ('Estado Democrático de Direito', 'ABSTRACCAO'), ('Administração Pública', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O IBAP atua concretamente, através de propostas ou denúncias, na defesa da consolidação democrática do Brasil e na defesa das prerrogativas do Advogado Público .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Advogado Público",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Advogado Público",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'ORGANIZACAO'), ('Advogado Público', 'ABSTRACCAO')]
+Espúrias  (FP): [('Brasil', 'LOCAL'), ('Advogado Público', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+R: Não, a despeito de atuar em harmonia com as diretrizes de determinadas Organizações Internacionais | Organizações Internacionais, como a Anistia Internacional , o IBAP não mantém nenhum vínculo com entidades internacionais.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Organizações Internacionais",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Anistia Internacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Organizações Internacionais",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Organizações Internacionais",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Anistia Internacional",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Organizações Internacionais', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+8.3. O que o IBAP fez e faz pela institucionalização dos órgãos de Advocacia Pública ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Advocacia Pública",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Advocacia Pública', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+R: A luta pela institucionalização dos órgãos de Advocacia Pública constitui uma das principais bandeiras do Instituto Brasileiro de Advocacia Pública e está, na realidade, presente em praticamente todas as manifestações públicas do Instituto Brasileiro de Advocacia Pública .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Advocacia Pública",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Instituto Brasileiro de Advocacia Pública",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Instituto Brasileiro de Advocacia Pública",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Instituto Brasileiro de Advocacia Pública",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Instituto Brasileiro de Advocacia Pública",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Advocacia Pública', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O editorial do Boletim Advocacia Pública n. 1 , intitulado " Institucionalização dos Órgãos de Advocacia Pública ", oferece as diretrizes básicas de nossa linha de atuação.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Boletim Advocacia Pública n. 1",
+    "label": "OBRA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Institucionalização dos Órgãos de Advocacia Pública",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Boletim Advocacia Pública n. 1",
+    "label": "OBRA"
+  },
+  {
+    "text": "Institucionalização dos Órgãos de Advocacia Pública",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Institucionalização dos Órgãos de Advocacia Pública', 'ABSTRACCAO')]
+Espúrias  (FP): [('Institucionalização dos Órgãos de Advocacia Pública', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esse tema abriu o primeiro evento cultural realizado pelo IBAP , o Primeiro Seminário Estadual "Advocacia Pública e Sociedade" , realizado em São Paulo / SP , no ano de 1995 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Primeiro Seminário Estadual \"Advocacia Pública e Sociedade\"",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "no ano de 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Primeiro Seminário Estadual",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Advocacia Pública e Sociedade",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL"
+  },
+  {
+    "text": "no ano de 1995",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Primeiro Seminário Estadual "Advocacia Pública e Sociedade"', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Primeiro Seminário Estadual', 'ACONTECIMENTO'), ('Advocacia Pública e Sociedade', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No dia 25 de outubro de 1995 , no Auditório Pedroso Horta , da Câmara Municipal de São Paulo | Câmara Municipal de São Paulo , aproximadamente 150 operadores do Direito assistiram as palestras de Cláudia Aparecida de Souza Trindade ( Procuradoria da Fazenda Nacional ), Márcio Cammarosano ( Procuradoria do Município de Santo André | Procuradoria do Município de Santo André ), Paulo Francisco Von Bruck Lacerda ( Procuradoria Geral do do Estado de São Paulo | Procuradoria Geral do do Estado de São Paulo ) e Walkure Lopes Ribeiro da Silva ( Professora da Faculdade de Direito da USP | Professora da Faculdade de Direito da USP | Professora da Faculdade de Direito da USP . O evento encontra-se disponível em fita cassete para os associados regulares do IBAP . A palestra da Professora Walkure Lopes Ribeiro da Silva encontra-se transcrita no volume 4 dos cadernos " Advocacia Pública em Debate ", também disponíveis para associados regulares.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "No dia 25 de outubro de 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Auditório Pedroso Horta",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Câmara Municipal de São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Câmara Municipal",
+    "label": "LOCAL",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "aproximadamente 150",
+    "label": "VALOR",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Direito",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Cláudia Aparecida de Souza Trindade",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Procuradoria da Fazenda Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Márcio Cammarosano",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Procuradoria do Município de Santo André",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Procuradoria",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Município de Santo André",
+    "label": "LOCAL",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Paulo Francisco Von Bruck Lacerda",
+    "label": "PESSOA",
+    "token_indices": [
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Procuradoria Geral do do Estado de São Paulo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Procuradoria Geral",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Estado de São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      82,
+      83,
+      84,
+      85
+    ]
+  },
+  {
+    "text": "Walkure Lopes Ribeiro da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "text": "Professora da Faculdade de Direito da USP",
+    "label": "PESSOA",
+    "token_indices": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ]
+  },
+  {
+    "text": "Professora",
+    "label": "PESSOA",
+    "token_indices": [
+      102
+    ]
+  },
+  {
+    "text": "Faculdade de Direito da USP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      104,
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  {
+    "text": "Professora",
+    "label": "PESSOA",
+    "token_indices": [
+      110
+    ]
+  },
+  {
+    "text": "Faculdade de Direito",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      112,
+      113,
+      114
+    ]
+  },
+  {
+    "text": "USP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      116
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      130
+    ]
+  },
+  {
+    "text": "Professora Walkure Lopes Ribeiro da Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      135,
+      136,
+      137,
+      138,
+      139,
+      140
+    ]
+  },
+  {
+    "text": "Advocacia Pública em Debate",
+    "label": "OBRA",
+    "token_indices": [
+      149,
+      150,
+      151,
+      152
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('No dia 25 de outubro de 1995', 'TEMPO'), ('Auditório Pedroso Horta', 'LOCAL'), ('Câmara Municipal de São Paulo', 'LOCAL'), ('Câmara Municipal', 'LOCAL'), ('São Paulo', 'LOCAL'), ('aproximadamente 150', 'VALOR'), ('Direito', 'ABSTRACCAO'), ('Cláudia Aparecida de Souza Trindade', 'PESSOA'), ('Procuradoria da Fazenda Nacional', 'ORGANIZACAO'), ('Márcio Cammarosano', 'PESSOA'), ('Procuradoria do Município de Santo André', 'ORGANIZACAO'), ('Procuradoria', 'ORGANIZACAO'), ('Município de Santo André', 'LOCAL'), ('Paulo Francisco Von Bruck Lacerda', 'PESSOA'), ('Procuradoria Geral do do Estado de São Paulo', 'ORGANIZACAO'), ('Procuradoria Geral', 'ORGANIZACAO'), ('Estado de São Paulo', 'LOCAL'), ('Walkure Lopes Ribeiro da Silva', 'PESSOA'), ('Professora da Faculdade de Direito da USP', 'PESSOA'), ('Professora', 'PESSOA'), ('Faculdade de Direito da USP', 'ORGANIZACAO'), ('Professora', 'PESSOA'), ('Faculdade de Direito', 'ORGANIZACAO'), ('USP', 'ORGANIZACAO'), ('IBAP', 'ORGANIZACAO'), ('Professora Walkure Lopes Ribeiro da Silva', 'PESSOA'), ('Advocacia Pública em Debate', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1997 , por ocasião do Primeiro Congresso Brasileiro de Advocacia Pública , realizado em Campos do Jordão / SP , a abertura do evento também privilegiou o debate sobre esse tema, ocasião em que Guilherme José Purvin de Figueiredo ( PGE/SP | PGE/ SP ) expôs sobre o tema " Advocacia Pública: Tendências e Desafios " e o Deputado Estadual José Eduardo Ferreira Neto , sobre o tema " Independência das Procuradorias dos Estados e Municípios frente ao Poder Público ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1997",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Primeiro Congresso Brasileiro de Advocacia Pública",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Campos do Jordão",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Guilherme José Purvin de Figueiredo",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "PGE/SP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Advocacia Pública: Tendências e Desafios",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Deputado Estadual José Eduardo Ferreira Neto",
+    "label": "PESSOA",
+    "token_indices": [
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Independência das Procuradorias dos Estados e Municípios frente ao Poder Público",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em 1997",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Primeiro Congresso Brasileiro de Advocacia Pública",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Campos do Jordão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Guilherme José Purvin de Figueiredo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PGE/SP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PGE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Advocacia Pública: Tendências e Desafios",
+    "label": "OBRA"
+  },
+  {
+    "text": "Deputado Estadual José Eduardo Ferreira Neto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Independência das Procuradorias dos Estados e Municípios frente ao Poder Público",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Advocacia Pública: Tendências e Desafios', 'ABSTRACCAO'), ('Independência das Procuradorias dos Estados e Municípios frente ao Poder Público', 'ABSTRACCAO')]
+Espúrias  (FP): [('PGE', 'ORGANIZACAO'), ('Advocacia Pública: Tendências e Desafios', 'OBRA'), ('Independência das Procuradorias dos Estados e Municípios frente ao Poder Público', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+No âmbito judicial, o IBAP requereu o seu ingresso na qualidade de assistente, em ação civil pública ajuizada pelo Ministério Público Federal , na Justiça Federal de São Paulo | Justiça Federal de São Paulo , na defesa das prerrogativas do Procurador da Fazenda Nacional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Ministério Público Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Justiça Federal de São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Justiça Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Procurador da Fazenda Nacional",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério Público Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Justiça Federal de São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Justiça Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Procurador da Fazenda Nacional",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Justiça Federal', 'LOCAL'), ('Procurador da Fazenda Nacional', 'PESSOA')]
+Espúrias  (FP): [('Justiça Federal', 'ORGANIZACAO'), ('Procurador da Fazenda Nacional', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+8.4. O IBAP na luta pela cidadania plena para a Pessoa Portadora de Deficiência .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Pessoa Portadora de Deficiência",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Pessoa Portadora de Deficiência",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Pessoa Portadora de Deficiência', 'ABSTRACCAO')]
+Espúrias  (FP): [('Pessoa Portadora de Deficiência', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além de publicar o livro " Direitos da Pessoa Portadora de Deficiência " e promover o Seminário " Ordem Constitucional e os Direitos da Pessoa Portadora de Deficiência ", o IBAP mantém uma página exclusivamente dedicada ao tema, onde se encontram veiculados cursos, publicações, links e legislação.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Direitos da Pessoa Portadora de Deficiência",
+    "label": "OBRA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Ordem Constitucional e os Direitos da Pessoa Portadora de Deficiência",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Direitos da Pessoa Portadora de Deficiência",
+    "label": "OBRA"
+  },
+  {
+    "text": "Seminário",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Ordem Constitucional e os Direitos da Pessoa Portadora de Deficiência",
+    "label": "OBRA"
+  },
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Ordem Constitucional e os Direitos da Pessoa Portadora de Deficiência', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Seminário', 'ACONTECIMENTO'), ('Ordem Constitucional e os Direitos da Pessoa Portadora de Deficiência', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+8.5. O IBAP na luta pela defesa do Meio Ambiente
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Meio Ambiente",
+    "label": "OUTRO",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IBAP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Meio Ambiente', 'OUTRO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+1. Hoje à noite o Benfica tem um teste elucidativo sobre o seu verdadeiro valor. Teve-o também antes contra o Manchester United , onde passou com distinção, é facto, mas o Manchester desta época e, sobretudo, o de Dezembro passado , é uma pálida imitação dos «red devils» de um passado recente , que tudo atemorizavam. O Liverpool , para além de campeão europeu em título, é melhor equipa e mais calculista. Contra ele, o Benfica tem de jogar o seu máximo e então se verá se o seu máximo está ou não ao mais alto nível europeu. Ao iniciar com uma derrota inapelável este terrível ciclo de nove dias em que tudo se pode sonhar e tudo se pode perder, o Benfica de Ronald Koeman | Benfica de Ronald Koeman parece ter lançado a descrença entre os seus --- adeptos e jornalistas. De repente, a tão louvada equipa de há três semanas atrás parece já não inspirar confiança a ninguém e o seu treinador virou um saco de pancada ao alcance de todas as frustrações. Acusa-se Koeman de mudar constantemente a equipa, como se ele fosse responsável pelas lesões e castigos ou pela chegada de uma mini-enxurrada de reforços em Dezembro , anunciados pela Direcção como o suplemento que faltava para a conquista da Liga dos Campeões e que ele, logicamente, tinha de experimentar e utilizar. E esquecendo-se até de que foi uma dessas inesperadas «revoluções» na formação da equipa que conduziu à também inesperada vitória contra o Manchester .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Hoje à noite",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "antes",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Manchester United",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Manchester",
+    "label": "PESSOA",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "desta época",
+    "label": "TEMPO",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "de Dezembro passado",
+    "label": "TEMPO",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Liverpool",
+    "label": "PESSOA",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "de nove dias",
+    "label": "TEMPO",
+    "token_indices": [
+      107,
+      108,
+      109
+    ]
+  },
+  {
+    "text": "Benfica de Ronald Koeman",
+    "label": "PESSOA",
+    "token_indices": [
+      122,
+      123,
+      124,
+      125
+    ]
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA",
+    "token_indices": [
+      127
+    ]
+  },
+  {
+    "text": "Ronald Koeman",
+    "label": "PESSOA",
+    "token_indices": [
+      129,
+      130
+    ]
+  },
+  {
+    "text": "de há três semanas atrás",
+    "label": "TEMPO",
+    "token_indices": [
+      149,
+      150,
+      151,
+      152,
+      153
+    ]
+  },
+  {
+    "text": "Koeman",
+    "label": "PESSOA",
+    "token_indices": [
+      177
+    ]
+  },
+  {
+    "text": "em Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      200,
+      201
+    ]
+  },
+  {
+    "text": "Direcção",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      205
+    ]
+  },
+  {
+    "text": "Liga dos Campeões",
+    "label": "OUTRO",
+    "token_indices": [
+      215,
+      216,
+      217
+    ]
+  },
+  {
+    "text": "Manchester",
+    "label": "PESSOA",
+    "token_indices": [
+      249
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Manchester United",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Manchester",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Liverpool",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ronald Koeman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ronald Koeman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Hoje à noite', 'TEMPO'), ('antes', 'TEMPO'), ('desta época', 'TEMPO'), ('de Dezembro passado', 'TEMPO'), ('de nove dias', 'TEMPO'), ('Benfica de Ronald Koeman', 'PESSOA'), ('de há três semanas atrás', 'TEMPO'), ('Koeman', 'PESSOA'), ('em Dezembro', 'TEMPO'), ('Direcção', 'ORGANIZACAO'), ('Liga dos Campeões', 'OUTRO'), ('Manchester', 'PESSOA')]
+Espúrias  (FP): [('Hoje', 'TEMPO'), ('Dezembro', 'TEMPO'), ('Ronald Koeman', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tudo começou na época passada, com um Campeonato e uma Taça ganhos de forma que foi tudo menos convincente mas que, por temor ou reverência, ninguém se atreveu a questionar. Por isso, quando Luís Filipe Vieira disse que esta era uma equipa de campeões, toda a gente fingiu que sim, e, quando, reforços acrescentados, ele passou a dizer que esta era uma equipa capaz de chegar à final e talvez ganhar a Champions , continuaram todos a fingir que acreditavam. Depois, houve a vitória sobre o Manchester e a série de sete triunfos consecutivos na Liga portuguesa e foi ver o José Veiga , de peito feito, a anunciar a inevitável revalidação do título e a Europa ao virar da esquina. Mas ninguém se deteve a pensar quantos, desses sete jogos, foram ganhos sem dúvidas de arbitragem e através de exibições convincentes, porque é um crime de lesa-majestade questionar o mérito dos triunfos benfiquistas. E assim se criou a verdade oficial de que estava aí um grande Benfica , que nada nem ninguém conseguiriam parar. Agora, três súbitas derrotas depois, cai-se no extremo oposto. E na pior altura, quando a equipa mais precisava da confiança dos seus. Mas, se entre hoje e domingo , tudo correr mal para os benfiquistas, é certo e sabido que quem semeou os ventos de ilusão não colherá as tempestades de desilusão. Isso está guardado para um bode expiatório mais conveniente.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Campeonato",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Taça",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Luís Filipe Vieira",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Champions",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Manchester",
+    "label": "PESSOA",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "Liga",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "José Veiga",
+    "label": "PESSOA",
+    "token_indices": [
+      101,
+      102
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      116
+    ]
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA",
+    "token_indices": [
+      167
+    ]
+  },
+  {
+    "text": "entre hoje e domingo",
+    "label": "TEMPO",
+    "token_indices": [
+      199,
+      200,
+      201,
+      202
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Campeonato",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Taça",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Luís Filipe Vieira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Champions",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Manchester",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Liga",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Champions",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "José Veiga",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Europa",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('entre hoje e domingo', 'TEMPO')]
+Espúrias  (FP): [('Champions', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+2. O Benfica jogava em Guimarães sob o peso de ter três jogadores ameaçados de não poderem defrontar o FC Porto caso vissem um cartão amarelo. Lucílio Baptista foi a escolha adequada para a ocasião (mas digo desde já que nenhum daqueles três mereceu um amarelo). Mas, no resto, Lucílio não deixou os seus predicados por mãos alheias: num jogo sem dureza nem indisciplina, com faltas distribuídas por igual por ambas as equipas, Lucílio Batista conseguiu marcar o dobro de faltas ao Vitória , deixando inúmeras por assinalar contra o Benfica , e mostrar sete cartões amarelos a jogadores do Guimarães contra apenas um aos benfiquistas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Benfica",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Guimarães",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Lucílio Baptista",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Lucílio",
+    "label": "PESSOA",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Lucílio Batista",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Vitória",
+    "label": "PESSOA",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Guimarães",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      100
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Benfica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Guimarães",
+    "label": "LOCAL"
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lucílio Baptista",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lucílio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Vitória",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lucílio Batista",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Guimarães",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Guimarães', 'ORGANIZACAO')]
+Espúrias  (FP): [('Guimarães', 'PESSOA'), ('Benfica', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+3. E, a propósito do « Apito Dourado », essa mega investigação judicial, que parece ter o condão de vir a arrastar-se durante anos , tornando alguns eternamente suspeitos (ou até mesmo já condenados, a quem isso convém) e outros estranhamente imunes às suspeitas, aguardei com alguma curiosidade o despacho de pronúncia, no que se refere ao presidente do FC Porto | presidente do FC Porto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Apito Dourado",
+    "label": "OBRA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "durante anos",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "presidente do FC Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Apito Dourado",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "durante anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "presidente",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Apito Dourado', 'OBRA'), ('presidente do FC Porto', 'PESSOA')]
+Espúrias  (FP): [('Apito Dourado', 'ACONTECIMENTO'), ('presidente', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas, afinal e como aqui antecipei desde o início, a montanha pariu um rato, ou pior ainda, pariu a insustentável continuação das suspeitas por confirmar. Mais de um ano de investigações decorrido, depois daquele imenso aparato policial-mediático para ouvir o «suspeitíssimo» Pinto da Costa , depois de dezenas ou centenas de milhares de contos gastos aos contribuintes, depois de não sei quantas prorrogações de prazo a favor do Ministério Público , depois do reforço extraordinário dos meios de investigação, a «task force » judicial de Gondomar conclui apenas em extrair certidões do processo para que outros continuem a investigar Pinto da Costa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mais de um ano",
+    "label": "TEMPO",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Pinto da Costa",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Gondomar",
+    "label": "LOCAL",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Pinto da Costa",
+    "label": "PESSOA",
+    "token_indices": [
+      99,
+      100,
+      101
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pinto da Costa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mais de um ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Pinto da Costa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ministério Público",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gondomar",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pinto da Costa",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Pinto da Costa', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+E, quanto a factos novos, indícios novos, provas recolhidas, nada. A suspeita «gravíssima» mantém-se rigorosamente a mesma de há um ano atrás : em 2004 , o FC Porto de José Mourinho | FC Porto de José Mourinho , já virtual campeão nacional, com alguns onze pontos de avanço sobre o segundo classificado, o Benfica , a semanas de se tornar campeão europeu, terá subornado, com recurso a «meninas» o árbitro do encontro no Dragão contra o E. Amadora , em vias de despromoção, como forma de garantir a vitória no jogo --- parece que, de outra maneira, não conseguiriam ganhar. E é nisto que se gasta o tempo e o dinheiro dos contribuintes: não fazendo justiça, mas mantendo eternas as suspeitas que a tantos convém. Mas também a verdade é que, à luz do que está em causa---e é apenas isto--- só acredita, ou finge acreditar, quem quer.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de há um ano atrás",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "em 2004",
+    "label": "TEMPO",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "FC Porto de José Mourinho",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "José Mourinho",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Benfica",
+    "label": "PESSOA",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "a semanas",
+    "label": "TEMPO",
+    "token_indices": [
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Dragão",
+    "label": "LOCAL",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "E. Amadora",
+    "label": "PESSOA",
+    "token_indices": [
+      77,
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "de há um ano atrás",
+    "label": "TEMPO"
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "FC Porto de José Mourinho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "FC Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José Mourinho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "a semanas",
+    "label": "TEMPO"
+  },
+  {
+    "text": "E. Amadora",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Dragão",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('em 2004', 'TEMPO'), ('FC Porto de José Mourinho', 'PESSOA'), ('FC Porto', 'PESSOA'), ('Benfica', 'PESSOA'), ('E. Amadora', 'PESSOA')]
+Espúrias  (FP): [('FC Porto', 'ORGANIZACAO'), ('FC Porto de José Mourinho', 'ORGANIZACAO'), ('FC Porto', 'ORGANIZACAO'), ('E. Amadora', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+4. E, pé ante pé, o Sporting está a cinco pontos do FC Porto e poderá ficar a dois se, domingo na Luz , a equipa de Adriaanse falhar mais uma vez num jogo decisivo. Dou-me conta, já há um tempo , que muito pouco ou quase nada tenho escrito sobre o Sporting esta época. A razão é simples e vai parecer escandalosa aos olhos dos indefectíveis sportinguistas, mas acarreto as consequências de porventura vir a ter de engolir o que vou escrever: não vejo que o Sporting tenha futebol para ser campeão nacional, esta época. Estão em segundo lugar, já só a cinco pontos e ainda vão receber o FC Porto em Alvalade ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sporting",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "domingo",
+    "label": "TEMPO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Luz",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Adriaanse",
+    "label": "PESSOA",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "há um tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Sporting",
+    "label": "PESSOA",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Sporting",
+    "label": "PESSOA",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA",
+    "token_indices": [
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Alvalade",
+    "label": "LOCAL",
+    "token_indices": [
+      113
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sporting",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "domingo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Luz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Adriaanse",
+    "label": "PESSOA"
+  },
+  {
+    "text": "há um tempo",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Sporting",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FC Porto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alvalade",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Sporting', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pois, é facto. Mas, mesmo assim, não me convencem. Ainda esta semana o que vi, contra o Paços de Ferreira e em Alvalade , foi uma equipa que chegou ao golo num penalty duvidoso e caído dos céus, que dele viveu toda a segunda parte, sem criar uma só oportunidade de golo e que, já próximo do final, marcou o segundo golo numa jogada precedida de falta e ainda um terceiro depois da hora .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "esta semana",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Paços de Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Alvalade",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "depois da hora",
+    "label": "TEMPO",
+    "token_indices": [
+      71,
+      72,
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "esta semana",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Paços de Ferreira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alvalade",
+    "label": "LOCAL"
+  },
+  {
+    "text": "toda a segunda parte",
+    "label": "TEMPO"
+  },
+  {
+    "text": "próximo do final",
+    "label": "TEMPO"
+  },
+  {
+    "text": "após a hora",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('depois da hora', 'TEMPO')]
+Espúrias  (FP): [('toda a segunda parte', 'TEMPO'), ('próximo do final', 'TEMPO'), ('após a hora', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+© Miguel Sousa Tavares - Jornal "A Bola" | Jornal " A Bola " - 21.02.2006
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Miguel Sousa Tavares",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Jornal \"A Bola\"",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "A Bola",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "21.02.2006",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Miguel Sousa Tavares",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jornal",
+    "label": "OBRA"
+  },
+  {
+    "text": "A Bola",
+    "label": "OBRA"
+  },
+  {
+    "text": "Jornal",
+    "label": "OBRA"
+  },
+  {
+    "text": "A Bola",
+    "label": "OBRA"
+  },
+  {
+    "text": "21.02.2006",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Jornal "A Bola"', 'ORGANIZACAO'), ('A Bola', 'ORGANIZACAO')]
+Espúrias  (FP): [('Jornal', 'OBRA'), ('A Bola', 'OBRA'), ('Jornal', 'OBRA'), ('A Bola', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foi desenvolvida em 1935 pelo médico neurologista português António Egas Moniz ( 1874-1955 ), em equipe com o cirurgião Almeida Lima , na Universidade de Lisboa | Universidade de Lisboa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em 1935",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "António Egas Moniz",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "1874-1955",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Almeida Lima",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Universidade de Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Universidade",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em 1935",
+    "label": "TEMPO"
+  },
+  {
+    "text": "António Egas Moniz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1874-1955",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Almeida Lima",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Universidade de Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Universidade', 'LOCAL')]
+Espúrias  (FP): [('Universidade', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Leucotomia foi a primeira técnica de Psicocirurgia ou seja, a utilização de manipulações orgânicas do cérebro para curar ou melhorar sintomas de uma patologia psiquiátrica (em contrapartida à neurocirurgia que se ocupa de doentes com patologia orgânica directa ou neurológica).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Leucotomia",
+    "label": "COISA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Psicocirurgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Leucotomia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Psicocirurgia",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Leucotomia', 'COISA')]
+Espúrias  (FP): [('Leucotomia', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com a ajuda destes abusos, a leucotomia foi abandonada quando surgiram os primeiros fármacos antipsicóticos. Durante muito tempo foi considerada algo injustamente como um episódio barbárico na história da Psiquiatria , sendo comum a comparação à técnica da flebotomia (ou sangria) na história da medicina interna.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Durante muito tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Psiquiatria",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Psiquiatria",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Durante muito tempo', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Firmem a vista e vejam o que se dança nestas esquinas. Andem para trás, um pouco mais, e vejam o som das plaquetas metálicas do sapateado ecoando no paralelepípedos das ruas. Isto mesmo! É aquele mesmo sapateado do Gregory Heynes , do Sammy Davis Junior , antes mal assimilado pelos Fred Astaires de ocasião, usufruidores dos lucros do mainstream, este ambiente insípido, onde tudo que uns criam os outros copiam.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gregory Heynes",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Sammy Davis Junior",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "antes",
+    "label": "TEMPO",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Fred Astaires",
+    "label": "OUTRO",
+    "token_indices": [
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gregory Heynes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sammy Davis Junior",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fred Astaires",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('antes', 'TEMPO'), ('Fred Astaires', 'OUTRO')]
+Espúrias  (FP): [('Fred Astaires', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Saiam da Broadway , rápido, e vejam mais longe ainda o som vibrante do bate-enxadas e do baticum ritmado das botas dos trabalhadores das estradas de ferro que cruzaram os States de leste á oeste, unificando as distancias, antes , sofridamente, percorridas à cavalo ou pelas empoeiradas diligências que conhecemos nos filmes de Far West (e bota Far nisto). Escutem o que eles cantam.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Broadway",
+    "label": "LOCAL",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "States",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "antes",
+    "label": "TEMPO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Far West",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      53,
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Broadway",
+    "label": "LOCAL"
+  },
+  {
+    "text": "States",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Far West",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('antes', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+GP Brasil : Raikkonen campeão do Mundo | Mundo
+
+Entidades verdadeiras:
+[
+  {
+    "text": "GP Brasil",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Raikkonen",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Mundo",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "GP Brasil",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Raikkonen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mundo",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Mundo', 'LOCAL')]
+Espúrias  (FP): [('Mundo', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+FINLANDÊS DA FERRARI ARREBATOU TÍTULO CONTRA FAVORITISMO DA MCLAREN
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FERRARI",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "MCLAREN",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FINLANDÊS",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FERRARI",
+    "label": "PESSOA"
+  },
+  {
+    "text": "MCLAREN",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('FINLANDÊS', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O finlandês Kimi Raikkonen sagrou-se campeão do Mundo | Mundo de F1 vencendo o GP do Brasil | GP do Brasil , à frente do companheiro de equipa na Ferrari Filipe Massa e do espanhol Fernando Alonso .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kimi Raikkonen",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Mundo",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "F1",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "GP do Brasil",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "GP",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Ferrari",
+    "label": "PESSOA",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Filipe Massa",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Fernando Alonso",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kimi Raikkonen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mundo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "F1",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "GP do Brasil",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Filipe Massa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fernando Alonso",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Mundo', 'LOCAL'), ('GP', 'ACONTECIMENTO'), ('Brasil', 'LOCAL'), ('Ferrari', 'PESSOA')]
+Espúrias  (FP): [('Mundo', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Lewis Hamilton , colega de Alonso na McLaren , não passou da 7.ª posição, depois de partir em vantagem pontual no Campeonato do Mundo , e teve de contentar-se com o segundo lugar, com 109 pontos, a apenas um do novo campeão, mas os mesmos que Alonso , embora com mais vitórias.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lewis Hamilton",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Alonso",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "McLaren",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "7.ª",
+    "label": "VALOR",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Campeonato do Mundo",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "109",
+    "label": "VALOR",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Alonso",
+    "label": "PESSOA",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lewis Hamilton",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "McLaren",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "7.ª",
+    "label": "VALOR"
+  },
+  {
+    "text": "Campeonato do Mundo",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "109",
+    "label": "VALOR"
+  },
+  {
+    "text": "Alonso",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('McLaren', 'PESSOA')]
+Espúrias  (FP): [('McLaren', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não faltou emoção em Interlagos no Circuito José Carlos Pace desde a primeira volta da corrida decisiva do Mundial , incluindo alguns acidentes entre actores secundários... e deslizes dos protagonistas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Interlagos",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Circuito José Carlos Pace",
+    "label": "LOCAL",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Mundial",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Interlagos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Circuito José Carlos Pace",
+    "label": "LOCAL"
+  },
+  {
+    "text": "desde a primeira volta",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Mundial",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('desde a primeira volta', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Ferrari de Raikkonnen partiu que nem um cavallino rampante e juntou-se ao companheiro de equipa tapando Alonso , que por sua vez ganhara uma posição colega Lewis Hamilton .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ferrari",
+    "label": "COISA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Raikkonnen",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Alonso",
+    "label": "PESSOA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Lewis Hamilton",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Raikkonnen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lewis Hamilton",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Ferrari', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O líder do campeonato, que podia muito bem esperar para ver como decorria a prova, tentou passar o bicampeão e cometeu um erro de trajectória na 4.ª curva da primeira volta, saindo de pista e descendo para a 8.ª posição, atrás dos Toyota .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "8.ª",
+    "label": "VALOR",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Toyota",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "4.ª curva",
+    "label": "LOCAL"
+  },
+  {
+    "text": "primeira volta",
+    "label": "TEMPO"
+  },
+  {
+    "text": "8.ª posição",
+    "label": "VALOR"
+  },
+  {
+    "text": "Toyota",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('8.ª', 'VALOR'), ('Toyota', 'PESSOA')]
+Espúrias  (FP): [('4.ª curva', 'LOCAL'), ('primeira volta', 'TEMPO'), ('8.ª posição', 'VALOR'), ('Toyota', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A 8 voltas do fim, Raikkonen liderava e já era campeão virtual, atrás de Alonso ( 3.º na prova) e Hamilton ( 8.º ) : o domínio da Ferrari era total na corrida, e só destinatário do título era incerto...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "8",
+    "label": "VALOR",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Raikkonen",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Alonso",
+    "label": "PESSOA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "3.º",
+    "label": "VALOR",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Hamilton",
+    "label": "PESSOA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "8.º",
+    "label": "VALOR",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Ferrari",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "A 8 voltas",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Raikkonen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alonso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "3.º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Hamilton",
+    "label": "PESSOA"
+  },
+  {
+    "text": "8.º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Ferrari",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('8', 'VALOR'), ('Ferrari', 'PESSOA')]
+Espúrias  (FP): [('A 8 voltas', 'TEMPO'), ('Ferrari', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas a 5 voltas do fim o finlandês fez a melhor volta do dia, enquanto Hamilton era apenas 7.º ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "5",
+    "label": "VALOR",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Hamilton",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "7.º",
+    "label": "VALOR",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "5",
+    "label": "VALOR"
+  },
+  {
+    "text": "7.º",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Hamilton', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+a 15 segundos | a 15 segundos de Heidfeld , e muito longe do 5.º lugar que lhe daria o título. Festa à brasileira para Raikkonen com dobradinha de Massa bem saborosa para a Ferrari : GP do Brasil | GP do Brasil e Mundiais de pilotos e construtores...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "a 15 segundos",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "15 segundos",
+    "label": "VALOR",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Heidfeld",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "5.º",
+    "label": "VALOR",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Raikkonen",
+    "label": "PESSOA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Massa",
+    "label": "PESSOA",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Ferrari",
+    "label": "PESSOA",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "GP do Brasil",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "GP",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Mundiais",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "a 15 segundos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Heidfeld",
+    "label": "PESSOA"
+  },
+  {
+    "text": "5.º",
+    "label": "VALOR"
+  },
+  {
+    "text": "GP do Brasil",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "GP",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ferrari",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Raikkonen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Massa",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('15 segundos', 'VALOR'), ('Ferrari', 'PESSOA'), ('Mundiais', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Ferrari', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+PELO QUARTO ANO CONSECUTIVO
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "PELO QUARTO ANO CONSECUTIVO",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('PELO QUARTO ANO CONSECUTIVO', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com este triunfo, o suíço contabiliza 12 vitórias em torneios do Grand Slam , aproximando-se do recorde de 14 , que pertence a Pete Sampras .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12",
+    "label": "VALOR",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Grand Slam",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "14",
+    "label": "VALOR",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Pete Sampras",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "12",
+    "label": "VALOR"
+  },
+  {
+    "text": "Grand Slam",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "14",
+    "label": "VALOR"
+  },
+  {
+    "text": "Pete Sampras",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Grand Slam', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Grand Slam', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Entretanto, a francesa Nathalie Dechy conquistou o seu segundo título consecutivo em pares femininos. Dechy e a russa Dinara Safina bateram Chan Yung-jan e Chuang Chia-jung ( Taiwan ), por 6-4 e 6-2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nathalie Dechy",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Dechy",
+    "label": "PESSOA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Dinara Safina",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Chan Yung-jan",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Chuang Chia-jung",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Taiwan",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "6-4",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "6-2",
+    "label": "VALOR",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Nathalie Dechy",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dechy",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dinara Safina",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Chan Yung-jan",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Chuang Chia-jung",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Taiwan",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('6-4', 'VALOR'), ('6-2', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Salgado , o fotógrafo da África perdida
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Salgado",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "África",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Salgado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "África",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('África', 'ABSTRACCAO')]
+Espúrias  (FP): [('África', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+" África " do fotojornalista Sebastião Salgado é um murro na alma, um livro que consegue ainda surpreender os nossos olhos tão viciados que estão na catadupa de imagens que invadem o nosso quotidiano. É também o carimbo que autentica a vitalidade do fotojornalismo de referência, no tempo em que num ápice de 5 anos | de 5 anos a fotografia digital e toda ferramenta que permite uma nova linguagem multimédia, pareciam condenar o preto-e-branco como a última sessão fotográfica.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "África",
+    "label": "OBRA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Sebastião Salgado",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "no tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "de 5 anos",
+    "label": "TEMPO",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "5 anos",
+    "label": "VALOR",
+    "token_indices": [
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "África",
+    "label": "OBRA"
+  },
+  {
+    "text": "Sebastião Salgado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "de 5 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "de 5 anos",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('no tempo', 'TEMPO'), ('5 anos', 'VALOR')]
+Espúrias  (FP): [('de 5 anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na época ele ainda não era muito conhecido, tinha iniciado a carreira de fotógrafo em 1975 , em Angola , fotografando a aventura portuguesa na hora da descolonização. Mandara às urtigas uma profissão respeitável de economista e descobrira que a fotografia era o meio ideal para mostrar ao Mundo a saga do sofrimento humano.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em 1975",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "na hora",
+    "label": "TEMPO",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Mundo",
+    "label": "PESSOA",
+    "token_indices": [
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em 1975",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mundo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('na hora', 'TEMPO'), ('Mundo', 'PESSOA')]
+Espúrias  (FP): [('Mundo', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+As suas fotos tinham sido publicadas na Photo e no Paris-Match , que eu me lembre, e tinham-me marcado pela capacidade de testemunharem momentos únicos, aliando o olhar jornalístico, ao apuro técnico, a sensibilidade social ao rigor estético. Sempre me intrigou, e hoje de novo ao ver o " África " onde estão também essas fotos, como é que um fotógrafo sem experiência já conseguia enquadrar de uma forma tão rigorosa e com um carácter tão forte. Só os mestres o conseguem com muita maturidade mas ele já alinhava na grelha de partida em primeiro para aquela que acabaria por ser uma carreira fulgurante.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Photo",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Paris-Match",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "África",
+    "label": "OBRA",
+    "token_indices": [
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Photo",
+    "label": "COISA"
+  },
+  {
+    "text": "Paris-Match",
+    "label": "COISA"
+  },
+  {
+    "text": "África",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Photo', 'LOCAL'), ('Paris-Match', 'LOCAL'), ('hoje', 'TEMPO'), ('África', 'OBRA')]
+Espúrias  (FP): [('Photo', 'COISA'), ('Paris-Match', 'COISA'), ('África', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em Fátima , no dia seguinte pela manhã voltei a encontrá-lo, sempre com o António Pedro Ferreira ao lado, e ele acabou por confessar (o lugar prestava-se a isso!) que tinha adormecido na véspera no quarto do hotel, depois de um jantar reconfortante falhando assim as fotografias da Procissão das Velas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fátima",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "no dia seguinte pela manhã",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "António Pedro Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Procissão das Velas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fátima",
+    "label": "LOCAL"
+  },
+  {
+    "text": "no dia seguinte",
+    "label": "TEMPO"
+  },
+  {
+    "text": "António Pedro Ferreira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Procissão das Velas",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('no dia seguinte pela manhã', 'TEMPO')]
+Espúrias  (FP): [('no dia seguinte', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por detrás das suas imagens uma ideia, um projecto, uma produção, um fim. Salgado não fotografa à solta, não dispara sem objectivo. Por isso as suas fotografias demoram anos a fazer, editar, imprimir, mostrar.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Salgado",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "anos",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Salgado",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('anos', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Durante muitos anos o fotógrafo trabalhou nas agências Sygma e Gamma e mais tarde foi membro da Magnum .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Durante muitos anos",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Sygma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Gamma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "mais tarde",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Magnum",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "muitos anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Sygma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gamma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Magnum",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Durante muitos anos', 'TEMPO'), ('mais tarde', 'TEMPO')]
+Espúrias  (FP): [('muitos anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para ter fundo de maneio para poder realizar muitas das fotografias que agora aparecem no " África ", trabalhava nove meses em Paris a fazer conselhos de ministros, política, faits-divers, para poder financiar os seus projectos especiais a preto-e-branco com cariz de autor, durante os restantes três meses do ano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "África",
+    "label": "OBRA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "nove meses",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "durante os restantes três meses do ano",
+    "label": "TEMPO",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "África",
+    "label": "OBRA"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "durante os restantes três meses do ano",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('nove meses', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A revista Time tinha-lhe pedido para seguir o Presidente durante um mês , ele fê-lo com alguma contrariedade e acabou por estar no sítio certo, à hora exacta, no instante decisivo. Havia mais dois fotógrafos a seu lado, um deles da Associated Press que fez fotos muito melhores, mais nítidas e mais perto, do que as dele, mas Salgado conseguiu mesmo assim com a venda dessas imagens, um pouco tremidas, comprar um pequeno apartamento em Paris .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Time",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "durante um mês",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Associated Press",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Salgado",
+    "label": "PESSOA",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      75
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Time",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "durante um mês",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Associated Press",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Salgado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Time', 'PESSOA')]
+Espúrias  (FP): [('Time', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A obra de Salgado supera muito do que tem sido em geral nos últimos 30 anos | nos últimos 30 anos a fotografia documental. Não há outro fotógrafo na arte de testemunhar com uma tão extensa foto-galeria.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Salgado",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "nos últimos 30 anos",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "30 anos",
+    "label": "VALOR",
+    "token_indices": [
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Salgado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "nos últimos 30 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "nos últimos 30 anos",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('30 anos', 'VALOR')]
+Espúrias  (FP): [('nos últimos 30 anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas se o público enche aos milhares as suas exposições e corre a comprar os seus foto-álbuns, há uma elite da fotografia que questiona o sucesso comercial assente no testemunho da tragédia alheia, mesmo que haja no seu discurso visual e falado uma obsessão de esquerda pelo estado das coisas e pelos desígnios da Humanidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Humanidade",
+    "label": "PESSOA",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Humanidade",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Humanidade', 'PESSOA')]
+Espúrias  (FP): [('Humanidade', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Histórico Carlos Chagas : A doença de Chagas ou tripanosomíase americana foi descoberta pelo médico sanitarista Carlos Justiniano Ribeiro das Chagas - Carlos Chagas - em 1909 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Chagas",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "doença de Chagas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Carlos Justiniano Ribeiro das Chagas",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Carlos Chagas",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "em 1909",
+    "label": "TEMPO",
+    "token_indices": [
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carlos Chagas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carlos Justiniano Ribeiro das Chagas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carlos Chagas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carlos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1909",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('doença de Chagas', 'ABSTRACCAO')]
+Espúrias  (FP): [('Carlos', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este brasileiro descobriu a doença e descreveu praticamente todos os seus aspectos. Quando Carlos Chagas realizava uma campanha contra a malária que atingia operários na construção de um trecho da Estrada de Ferro Central do Brasil | Estrada de Ferro Central do Brasil , ao norte de Minas Gerais , ao fazer exames de uma menina doente, encontrou tripanosomos em seu sangue. Ao examinar posteriormente as fezes de insetos existentes na região e o sangue de animais mamíferos, constatou também a presença dos mesmos parasitas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Chagas",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Estrada de Ferro Central do Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Estrada de Ferro Central",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL",
+    "token_indices": [
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carlos Chagas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estrada de Ferro Central do Brasil",
+    "label": "OBRA"
+  },
+  {
+    "text": "Estrada de Ferro Central",
+    "label": "OBRA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Estrada de Ferro Central do Brasil', 'LOCAL'), ('Estrada de Ferro Central', 'LOCAL')]
+Espúrias  (FP): [('Estrada de Ferro Central do Brasil', 'OBRA'), ('Estrada de Ferro Central', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Transmissores: São artrópodes da classe Insecta , ordem Hemiptera , família Reduviidae e subfamília Triatominae .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Insecta",
+    "label": "COISA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Hemiptera",
+    "label": "COISA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Reduviidae",
+    "label": "COISA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Triatominae",
+    "label": "COISA",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Insecta",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Hemiptera",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Reduviidae",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Triatominae",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Insecta', 'COISA'), ('Hemiptera', 'COISA'), ('Reduviidae', 'COISA'), ('Triatominae', 'COISA')]
+Espúrias  (FP): [('Insecta', 'ABSTRACCAO'), ('Hemiptera', 'ABSTRACCAO'), ('Reduviidae', 'ABSTRACCAO'), ('Triatominae', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sugam sangue (hematofágos) em todas as fases de seu ciclo evolutivo. Vivem em média entre um a dois anos , com evolução de ovo, ninfa e adulto, com grande capacidade de reprodução e, dependendo da espécie, com intensa resistência ao jejum.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "entre um a dois anos",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em média entre um a dois anos",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('entre um a dois anos', 'TEMPO')]
+Espúrias  (FP): [('em média entre um a dois anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os triatomíneos têm ampla distribuição geográfica no Novo Mundo , desde os Estados Unidos até o sul do Chile e Argentina , existindo espécies que são tipicamente silvestres; e das 118 espécies conhecidas, 105 são do Novo Mundo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Novo Mundo",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Chile",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "118",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "105",
+    "label": "VALOR",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Novo Mundo",
+    "label": "LOCAL",
+    "token_indices": [
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Novo Mundo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "sul do Chile",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "118",
+    "label": "VALOR"
+  },
+  {
+    "text": "105",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Chile', 'LOCAL'), ('Novo Mundo', 'LOCAL')]
+Espúrias  (FP): [('sul do Chile', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Todas as espécies são vetoras em potencial para o Trypanosoma cruzi , mas seis têm importância epidemiológica na América do Sul : Triatoma infestans , T. brasiliensis , T. dimidiata , T. sordida , P. megistus e Rhodnius prolixus .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Trypanosoma cruzi",
+    "label": "COISA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "América do Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Triatoma infestans",
+    "label": "COISA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "T. brasiliensis",
+    "label": "COISA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "T. dimidiata",
+    "label": "COISA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "T. sordida",
+    "label": "COISA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "P. megistus",
+    "label": "COISA",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Rhodnius prolixus",
+    "label": "COISA",
+    "token_indices": [
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Trypanosoma cruzi",
+    "label": "COISA"
+  },
+  {
+    "text": "América do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Triatoma infestans",
+    "label": "PESSOA"
+  },
+  {
+    "text": "T. brasiliensis",
+    "label": "PESSOA"
+  },
+  {
+    "text": "T. dimidiata",
+    "label": "PESSOA"
+  },
+  {
+    "text": "T. sordida",
+    "label": "PESSOA"
+  },
+  {
+    "text": "P. megistus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rhodnius prolixus",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Triatoma infestans', 'COISA'), ('T. brasiliensis', 'COISA'), ('T. dimidiata', 'COISA'), ('T. sordida', 'COISA'), ('P. megistus', 'COISA'), ('Rhodnius prolixus', 'COISA')]
+Espúrias  (FP): [('Triatoma infestans', 'PESSOA'), ('T. brasiliensis', 'PESSOA'), ('T. dimidiata', 'PESSOA'), ('T. sordida', 'PESSOA'), ('P. megistus', 'PESSOA'), ('Rhodnius prolixus', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em algumas localidades do sul do Brasil ( Rio Grande do Sul ), sul do Peru , Bolívia e algumas localidades do noroeste da Argentina , T. infestans também tem hábito peridoméstico, ocupando galinheiros, currais etc. As colônias em ecótopos artificias têm tendência a se concentrarem nas partes mais altas da parede. Neste gênero, Triatoma , um exemplo típico é dado pelo T. arthurneivai que, habita fendas de pedras e está associado a lagartos e roedores. É encontrado no Brasil nos estados da Bahia , Minas Gerais e São Paulo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Peru",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Bolívia",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "T. infestans",
+    "label": "COISA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Triatoma",
+    "label": "COISA",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "T. arthurneivai",
+    "label": "COISA",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL",
+    "token_indices": [
+      85,
+      86
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      88,
+      89
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Peru",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bolívia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "T. infestans",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Triatoma', 'COISA'), ('T. arthurneivai', 'COISA'), ('Brasil', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Na Argentina temos mais duas espécies deste grupo que são T. eratyrusiformis e T. patagonica : criam-se em lugares pedregosos e alimentam-se de pequenos roedores, mas atacam o homem e os animais domésticos à noite .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Argentina",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "T. eratyrusiformis",
+    "label": "COISA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "T. patagonica",
+    "label": "COISA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "à noite",
+    "label": "TEMPO",
+    "token_indices": [
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "T. eratyrusiformis",
+    "label": "COISA"
+  },
+  {
+    "text": "T. patagonica",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('à noite', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+T. brasiliensis com altas taxas de infecção pelo T. cruzi é o vetor mais importante no nordeste do Brasil , e pode ser encontrado com alguma freqüência em domicílios. Tem hábitos silvestres e peridomiciliares, onde está associado com abrigo de cabras, galinheiros e ecótopos rochosos; no peridomicílio e domicílio tem as aves como principal fonte alimentar, seguidas por humanos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "T. brasiliensis",
+    "label": "COISA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "T. cruzi",
+    "label": "COISA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "T. brasiliensis",
+    "label": "COISA"
+  },
+  {
+    "text": "T. cruzi",
+    "label": "COISA"
+  },
+  {
+    "text": "no nordeste do Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCAL')]
+Espúrias  (FP): [('no nordeste do Brasil', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+É a espécie responsável pelos focos mais intensos da endemia chagásica em Minas Gerais e Bahia ( Brasil ). Tem hábito silvestre no centro do Brasil e leste do Paraguai e está associado a Didelpbideos , motivo pelo qual os índices de infecção para T. cruzi são elevados. Invadem ocasionalmente domicílios e peridomicílios onde se colonizam com facilidade. P. geniculatus , espécie silvestre que também invade ocasionalmente ecótopos artificiais e tem ampla distribuição geográfica, esta associada a animais com hábitos terrestres (buracos), como é o caso dos tatus. Pode-se citar ainda o P. diasi com distribuição na Bolívia e Brasil nos estados de Goiás , Minas Gerais , São Paulo e Bahia , ocorrendo neste último estado na região da caatinga. P lutzi no nordeste brasileiro e P. tupynambai no Rio Grande do Sul e Uruguai são espécies que nos últimos anos têm sido encontradas com freqüência nas habitações humanas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Paraguai",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Didelpbideos",
+    "label": "COISA",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "T. cruzi",
+    "label": "COISA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "ocasionalmente",
+    "label": "TEMPO",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "P. geniculatus",
+    "label": "COISA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "ocasionalmente",
+    "label": "TEMPO",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "P. diasi",
+    "label": "COISA",
+    "token_indices": [
+      92,
+      93
+    ]
+  },
+  {
+    "text": "Bolívia",
+    "label": "LOCAL",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Goiás",
+    "label": "LOCAL",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL",
+    "token_indices": [
+      105,
+      106
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      108,
+      109
+    ]
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL",
+    "token_indices": [
+      111
+    ]
+  },
+  {
+    "text": "P lutzi",
+    "label": "COISA",
+    "token_indices": [
+      121,
+      122
+    ]
+  },
+  {
+    "text": "P. tupynambai",
+    "label": "COISA",
+    "token_indices": [
+      127,
+      128
+    ]
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      130,
+      131,
+      132,
+      133
+    ]
+  },
+  {
+    "text": "Uruguai",
+    "label": "LOCAL",
+    "token_indices": [
+      135
+    ]
+  },
+  {
+    "text": "nos últimos anos",
+    "label": "TEMPO",
+    "token_indices": [
+      139,
+      140,
+      141
+    ]
+  },
+  {
+    "text": "com freqüência",
+    "label": "TEMPO",
+    "token_indices": [
+      145,
+      146
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Didelpbideos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "T. cruzi",
+    "label": "COISA"
+  },
+  {
+    "text": "Paraguai",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "P. geniculatus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bolívia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Goiás",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Didelpbideos', 'COISA'), ('ocasionalmente', 'TEMPO'), ('P. geniculatus', 'COISA'), ('ocasionalmente', 'TEMPO'), ('P. diasi', 'COISA'), ('P lutzi', 'COISA'), ('P. tupynambai', 'COISA'), ('Rio Grande do Sul', 'LOCAL'), ('Uruguai', 'LOCAL'), ('nos últimos anos', 'TEMPO'), ('com freqüência', 'TEMPO')]
+Espúrias  (FP): [('Didelpbideos', 'PESSOA'), ('P. geniculatus', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+T. sordida geralmente é encontrada em ecótopos silvestres e no peridomicílio, invade com freqüência o domicílio, mas é considerada espécie secundária. Tem distribuição no Brasil Central (cerrado), partes do Paraguai .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "T. sordida",
+    "label": "COISA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Brasil Central",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Paraguai",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil Central",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Paraguai",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('T. sordida', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Tem sido encontrada com baixa taxa de infecção natural, a qual está associada a roedores. T. dimidiata freqüenta o domicílio e é encontrada em diversas tocas silvestres, tais como rocas, grutas ocupadas por morcegos e ocos de arvores, sendo um importante vetor da América Central , México , Colômbia , Equador e norte do Peru .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "T. dimidiata",
+    "label": "COISA",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "América Central",
+    "label": "LOCAL",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "México",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Colômbia",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Equador",
+    "label": "LOCAL",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Peru",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "T. dimidiata",
+    "label": "COISA"
+  },
+  {
+    "text": "América Central",
+    "label": "LOCAL"
+  },
+  {
+    "text": "México",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Colômbia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Equador",
+    "label": "LOCAL"
+  },
+  {
+    "text": "norte do Peru",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Peru', 'LOCAL')]
+Espúrias  (FP): [('norte do Peru', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Outro gênero que pertence a este grupo, cujos adultos invadem ecótopos artificiais, são algumas espécies de Rhodnius , principalmente R. domesticus , que é encontrado na região litorânea do Brasil , R. pictipes nas regiões norte e centro-oeste do Brasil e o R. brethesi , com distribuição no norte do Brasil e Venezuela , tem hábitos silvestres e habita palmeiras de piaçaba ( Leopoldinia piassaba ), ataca o homem com avidez e, nos últimos anos , tem invadido com freqüência ecótopos artificiais.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rhodnius",
+    "label": "COISA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "R. domesticus",
+    "label": "COISA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "R. pictipes",
+    "label": "COISA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "R. brethesi",
+    "label": "COISA",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Venezuela",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Leopoldinia piassaba",
+    "label": "COISA",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "nos últimos anos",
+    "label": "TEMPO",
+    "token_indices": [
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "text": "com freqüência",
+    "label": "TEMPO",
+    "token_indices": [
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rhodnius",
+    "label": "COISA"
+  },
+  {
+    "text": "R. domesticus",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "R. pictipes",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "R. brethesi",
+    "label": "COISA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Venezuela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Leopoldinia piassaba",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('nos últimos anos', 'TEMPO'), ('com freqüência', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+R. prolixus é a espécie vetora mais importante da Colômbia e Venezuela , onde tem hábito doméstico, sendo responsável pela transmissão natural da Doença de Chagas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "R. prolixus",
+    "label": "COISA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Colômbia",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Venezuela",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Doença de Chagas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Colômbia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Venezuela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Doença de Chagas",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('R. prolixus', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No ambiente domiciliar, R. prolixus alimenta-se principalmente de sangue humano e de aves, embora utilize também, como fonte alimentar, cães e gatos. No ambiente silvestre, faz uso de marsupiais e roedores como fonte de alimento. R. pallescens é importante vetora no Panamá , invade casas com freqüência formando colônias e é encontrada também no peridomicílio e em ambientes silvestres em palmeiras. As populações domésticas na área central do Panamá têm como fonte alimentar o homem ( 59% ), seguido por marsupiais e aves domésticas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "R. prolixus",
+    "label": "COISA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "R. pallescens",
+    "label": "COISA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Panamá",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "com freqüência",
+    "label": "TEMPO",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Panamá",
+    "label": "LOCAL",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "59%",
+    "label": "VALOR",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "R. prolixus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "R. pallescens",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Panamá",
+    "label": "LOCAL"
+  },
+  {
+    "text": "59%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('R. prolixus', 'COISA'), ('R. pallescens', 'COISA'), ('com freqüência', 'TEMPO'), ('Panamá', 'LOCAL')]
+Espúrias  (FP): [('R. prolixus', 'PESSOA'), ('R. pallescens', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O filme « Call girl », de António-Pedro Vasconcelos , estreia hoje em quarenta salas de cinema, mostrando uma intriga policial que envolve uma mulher fatal e um autarca escrupuloso que se deixa corromper.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Call girl",
+    "label": "OBRA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "António-Pedro Vasconcelos",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Call girl",
+    "label": "OBRA"
+  },
+  {
+    "text": "António-Pedro Vasconcelos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "quarenta",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('quarenta', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+« Call girl » podia ser uma variação moderna de Anjo Azul , de Josef von Sternberg , disse o realizador à agência Lusa , acompanhando «o percurso da decadência, da perdição», do autarca alentejano até ao momento em que aceita dinheiro em troca de um favor.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Call girl",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Anjo Azul",
+    "label": "OBRA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Josef von Sternberg",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Lusa",
+    "label": "PESSOA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "até ao momento",
+    "label": "TEMPO",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Call girl",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Anjo Azul",
+    "label": "OBRA"
+  },
+  {
+    "text": "Josef von Sternberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lusa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Call girl', 'OBRA'), ('Lusa', 'PESSOA'), ('até ao momento', 'TEMPO')]
+Espúrias  (FP): [('Call girl', 'ABSTRACCAO'), ('Lusa', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+«Neste caso a personagem é corrompida, no outro [ Anjo azul | Anjo azul ] perde toda a dignidade e reputação», compara António-Pedro Vasconcelos , até porque é um tema «recorrente na literatura e na ficção ocidental».
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Anjo azul",
+    "label": "OBRA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "António-Pedro Vasconcelos",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Anjo azul",
+    "label": "OBRA"
+  },
+  {
+    "text": "Anjo",
+    "label": "OBRA"
+  },
+  {
+    "text": "António-Pedro Vasconcelos",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Anjo', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tabaco: Associação lamenta exemplo de presidente da ASAE | presidente da ASAE
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "presidente da ASAE",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "ASAE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tabaco",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ASAE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ASAE",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('presidente da ASAE', 'PESSOA')]
+Espúrias  (FP): [('Tabaco', 'ABSTRACCAO'), ('presidente', 'PESSOA'), ('presidente', 'PESSOA'), ('ASAE', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O presidente da Confederação Portuguesa para a Prevenção do Tabagismo | presidente da Confederação Portuguesa para a Prevenção do Tabagismo ( CPPT ) considerou hoje «um exemplo lamentável» o facto de o presidente da Confederação Portuguesa para a Prevenção do Tabagismo | presidente da Confederação Portuguesa para a Prevenção do Tabagismo ter sido fotografado a fumar num casino depois da entrada em vigor da lei do Tabaco .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "presidente da Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "CPPT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "presidente da Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Tabaco",
+    "label": "OBRA",
+    "token_indices": [
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "presidente da Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "presidente da Confederação Portuguesa para a Prevenção do Tabagismo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tabaco",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('CPPT', 'ORGANIZACAO'), ('hoje', 'TEMPO'), ('Tabaco', 'OBRA')]
+Espúrias  (FP): [('Tabaco', 'ABSTRACCAO')]

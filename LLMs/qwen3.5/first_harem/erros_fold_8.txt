@@ -1,0 +1,5508 @@
+--------------------------------------------------------------------------------
+Texto:
+.... Intelbras - Empresa .... "A organização tem como princípio que o bom resultado só será obtido através da satisfação e superação das necessidades dos clientes, da manutenção de um moral elevado dos colaboradores e do atendimento das expectativas dos acionistas. Foi assim, praticando esta verdadeira "política da qualidade", que a Intelbras alcançou a liderança no mercado nacional, também se destacando no cenário internacional com uma forte presença na América Latina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "América Latina",
+    "label": "LOCAL",
+    "token_indices": [
+      69,
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "América Latina",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Intelbras', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Intelbras é a marca do telefone no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Intelbras",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Intelbras', 'ABSTRACCAO')]
+Espúrias  (FP): [('Intelbras', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Desde o início o objetivo era audacioso: tornar-se a maior fabricante brasileira de centrais e aparelhos telefônicos. Para isso, a Intelbras direcionou sua atuação para a qualidade total de seus produtos. Em 1987 , foi a primeira empresa a lançar uma Central tipo PABX |Central tipo PABX com tecnologia nacional.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "1987",
+    "label": "TEMPO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Central",
+    "label": "COISA",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "PABX",
+    "label": "COISA",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "PABX",
+    "label": "COISA",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1987",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Central tipo PABX",
+    "label": "COISA"
+  },
+  {
+    "text": "Central tipo PABX",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Central', 'COISA'), ('PABX', 'COISA'), ('PABX', 'COISA')]
+Espúrias  (FP): [('Central tipo PABX', 'COISA'), ('Central tipo PABX', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Durante muitos anos, a Intelbras foi a fornecedora de quase todos os programas de telefonia governamentais. Em 1990 , lançou aparelhos telefônicos, terminais inteligentes ( KS ), micro centrais e pequenas centrais, além de peças e acessórios, direcionando sua atuação para a iniciativa privada. Em 1992 , uma nova filosofia administrativa foi implantada, criando Programas de Qualidade e de Gestão Participativa, aumentando a produtividade e a competitividade no mercado. As exportações iniciaram em 1996 , principalmente para os países da América Latina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "1990",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "KS",
+    "label": "COISA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "1996",
+    "label": "TEMPO",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "América Latina",
+    "label": "LOCAL",
+    "token_indices": [
+      80,
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1990",
+    "label": "TEMPO"
+  },
+  {
+    "text": "KS",
+    "label": "COISA"
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Programas de Qualidade",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Gestão Participativa",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "1996",
+    "label": "TEMPO"
+  },
+  {
+    "text": "América Latina",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Programas de Qualidade', 'ABSTRACCAO'), ('Gestão Participativa', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1996 , o certificado ISO 9001 atestou seu nível de qualidade internacional. Hoje, o nome Intelbras é uma marca de qualidade e avanço tecnológico. Uma posição alcançada, passo a passo, numa longa história de sucesso. A Intelbras nasceu em 1976 com um desafio: ser uma das primeiras empresas brasileiras a atuar no mercado de telecomunicações. Um desafio plenamente superado, tanto que hoje já é a primeira em participação no mercado nacional.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1996",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "ISO 9001",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Intelbras",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "1976",
+    "label": "TEMPO",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1996",
+    "label": "TEMPO"
+  },
+  {
+    "text": "ISO 9001",
+    "label": "COISA"
+  },
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1976",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('ISO 9001', 'ABSTRACCAO'), ('Intelbras', 'ABSTRACCAO')]
+Espúrias  (FP): [('ISO 9001', 'COISA'), ('Intelbras', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com sede em São José , estado de Santa Catarina , cidade vizinha da turística capital Florianópolis , a Intelbras conta com uma área total de mais de 36 mil m² , sendo 15 mil m² de área construída. Ali atuam mais de 600 funcionários, profissionais altamente treinados e especializados em produzir qualidade. Fábrica: São José - Santa Catarina - Brasil Intelbras S/A - Indústria de Telecomunicação Eletrônica Brasileira Rodovia BR 101, Km 212, Área Industrial 88.104-800 - São José - SC - Brasil Fones: Dpto. Comercial : (048) 281-9600 Dpto. Compras : (048) 281-9620 Dpto. Marketing : (48) 281 9595 Dpto. Técnico : (48) 281 9900 Fax: (048) 281-9505 CGC/ MF: 82.901.000/0001-27 Inscr. Estadual: 250.082.764
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São José",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Florianópolis",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Intelbras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "mais de 36 mil m²",
+    "label": "VALOR",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "15 mil m²",
+    "label": "VALOR",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "mais de 600",
+    "label": "VALOR",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "São José",
+    "label": "LOCAL",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCAL",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Intelbras S/A - Indústria de Telecomunicação Eletrônica Brasileira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Rodovia BR 101, Km 212, Área Industrial 88.104-800 - São José - SC - Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "Dpto. Comercial",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      85,
+      86
+    ]
+  },
+  {
+    "text": "Dpto. Compras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      90,
+      91
+    ]
+  },
+  {
+    "text": "Dpto. Marketing",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      95,
+      96
+    ]
+  },
+  {
+    "text": "Dpto. Técnico",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      101,
+      102
+    ]
+  },
+  {
+    "text": "82.901.000/0001-27",
+    "label": "OUTRO",
+    "token_indices": [
+      112
+    ]
+  },
+  {
+    "text": "250.082.764",
+    "label": "OUTRO",
+    "token_indices": [
+      115
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('São José', 'LOCAL'), ('Santa Catarina', 'LOCAL'), ('Florianópolis', 'LOCAL'), ('Intelbras', 'ORGANIZACAO'), ('mais de 36 mil m²', 'VALOR'), ('15 mil m²', 'VALOR'), ('mais de 600', 'VALOR'), ('São José', 'LOCAL'), ('Santa Catarina', 'LOCAL'), ('Brasil', 'LOCAL'), ('Intelbras S/A - Indústria de Telecomunicação Eletrônica Brasileira', 'ORGANIZACAO'), ('Rodovia BR 101, Km 212, Área Industrial 88.104-800 - São José - SC - Brasil', 'LOCAL'), ('Dpto. Comercial', 'ORGANIZACAO'), ('Dpto. Compras', 'ORGANIZACAO'), ('Dpto. Marketing', 'ORGANIZACAO'), ('Dpto. Técnico', 'ORGANIZACAO'), ('82.901.000/0001-27', 'OUTRO'), ('250.082.764', 'OUTRO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Figuras da Ciência em Portugal Figuras Egas Moniz Egas Moniz ( 1874-1955 ), natural de Avanca , formou-se em medicina ( 1899 ), manifestando de princípio grande interesse pela actividade política. Em 1903 foi eleito deputado pelo Partido Progressista .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ciência",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Egas Moniz",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Egas Moniz",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "1874-1955",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Avanca",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "1899",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "1903",
+    "label": "TEMPO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Partido Progressista",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Egas Moniz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Egas Moniz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Avanca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1874-1955",
+    "label": "VALOR"
+  },
+  {
+    "text": "1899",
+    "label": "VALOR"
+  },
+  {
+    "text": "1903",
+    "label": "VALOR"
+  },
+  {
+    "text": "Partido Progressista",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Ciência', 'ABSTRACCAO'), ('1874-1955', 'TEMPO'), ('1899', 'TEMPO'), ('1903', 'TEMPO')]
+Espúrias  (FP): [('1874-1955', 'VALOR'), ('1899', 'VALOR'), ('1903', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Lutou contra a Ditadura de João Franco | Ditadura de João Franco , tendo participado na tentativa golpista de 28 de Janeiro de 1908 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ditadura de João Franco",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Ditadura",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "João Franco",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "28 de Janeiro de 1908",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ditadura de João Franco",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Ditadura de João Franco",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "28 de Janeiro de 1908",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Ditadura de João Franco', 'ABSTRACCAO'), ('Ditadura', 'ABSTRACCAO'), ('João Franco', 'PESSOA')]
+Espúrias  (FP): [('Ditadura de João Franco', 'ACONTECIMENTO'), ('Ditadura de João Franco', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Após a implantação da 1ª. Republica ( 1910-1926 ), aderiu ao novo regime, tendo comabtido ao lado de António José de Almeida no Partido Evolucionista .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1ª. Republica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "1910-1926",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "António José de Almeida",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Partido Evolucionista",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1ª. Republica",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "1910-1926",
+    "label": "TEMPO"
+  },
+  {
+    "text": "António José de Almeida",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Partido Evolucionista",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('1ª. Republica', 'ABSTRACCAO')]
+Espúrias  (FP): [('1ª. Republica', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1916 formou o Partido Centrista de vida efémera. Em 1917 entra para o Governo populista de Sidónio Pais , exercendo os cargos Ministro dos Negócios Estrangeiros , embaixador de Portugal em Espanha , e depois o de presidente da delegação portuguesa à Conferência de Paz , em Paris , no final da I Guerra Mundial ( 1914-1918 ). Foi ainda o obreiro no restabelecimento das relações diplomáticas de Portugal com o Vaticano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1916",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Partido Centrista",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "1917",
+    "label": "TEMPO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Sidónio Pais",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Ministro dos Negócios Estrangeiros",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Conferência de Paz",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "I Guerra Mundial",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "1914-1918",
+    "label": "TEMPO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "Vaticano",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1916",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Partido Centrista",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1917",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sidónio Pais",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ministro dos Negócios Estrangeiros",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Espanha",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conferência de Paz",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "I Guerra Mundial",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "1914-1918",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Vaticano",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Espanha', 'LOCAL')]
+Espúrias  (FP): [('Espanha', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Entre as suas numeras obras destacam-se: Vida Sexual ( 1900 ), onde dá conta das modernas teorias europeias, nomeadamente da psicanálise de S. Freud ; As Bases da Psicanálise ( 1915 ), O Conflito Sexual ( 1922 ), Conferências Médicas (quatro volumes), Júlio Dinis e a Psicanálise ( 1920 ), A Necrofilia de Camilo Castelo Branco ( 1925 ), Confidências de um Investigador Científico ( 1949 ), A Nossa Casa ( 1950 ). Carlos Fontes Navegando na Filosofia
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vida Sexual",
+    "label": "OBRA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "1900",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "S. Freud",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "As Bases da Psicanálise",
+    "label": "OBRA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "1915",
+    "label": "TEMPO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "O Conflito Sexual",
+    "label": "OBRA",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "1922",
+    "label": "TEMPO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Conferências Médicas",
+    "label": "OBRA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Júlio Dinis e a Psicanálise",
+    "label": "OBRA",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "1920",
+    "label": "TEMPO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "A Necrofilia de Camilo Castelo Branco",
+    "label": "OBRA",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "1925",
+    "label": "TEMPO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Confidências de um Investigador Científico",
+    "label": "OBRA",
+    "token_indices": [
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "1949",
+    "label": "TEMPO",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "A Nossa Casa",
+    "label": "OBRA",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "1950",
+    "label": "TEMPO",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "Carlos Fontes",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Vida Sexual', 'OBRA'), ('1900', 'TEMPO'), ('S. Freud', 'PESSOA'), ('As Bases da Psicanálise', 'OBRA'), ('1915', 'TEMPO'), ('O Conflito Sexual', 'OBRA'), ('1922', 'TEMPO'), ('Conferências Médicas', 'OBRA'), ('Júlio Dinis e a Psicanálise', 'OBRA'), ('1920', 'TEMPO'), ('A Necrofilia de Camilo Castelo Branco', 'OBRA'), ('1925', 'TEMPO'), ('Confidências de um Investigador Científico', 'OBRA'), ('1949', 'TEMPO'), ('A Nossa Casa', 'OBRA'), ('1950', 'TEMPO'), ('Carlos Fontes', 'PESSOA'), ('Filosofia', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Empates na Honra O Ovarense-Amora | Ovarense - Amora e o Nacional-Académica | Nacional - Académica , dois jogos da 26ª jornada da II Divisão de Honra antecipados para ontem, terminaram empatados. Em Ovar , a equipa da casa esteve mesmo a perder com o Amora , quando um erro defensivo permitiu a Rui Maside inaugurar o marcador ( 14' ). A Ovarense atacava mais, mas só aos 64' conseguiu marcar, por Emanuel , que de cabeça concluiu um canto marcado por Quinito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Honra",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Ovarense-Amora",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Ovarense",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Amora",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Nacional-Académica",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Nacional",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Académica",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "26ª jornada da II Divisão de Honra",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Ovar",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Amora",
+    "label": "PESSOA",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Rui Maside",
+    "label": "PESSOA",
+    "token_indices": [
+      53,
+      54
+    ]
+  },
+  {
+    "text": "14'",
+    "label": "VALOR",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Ovarense",
+    "label": "PESSOA",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "64'",
+    "label": "VALOR",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Emanuel",
+    "label": "PESSOA",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Quinito",
+    "label": "PESSOA",
+    "token_indices": [
+      82
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ovarense-Amora",
+    "label": "OBRA"
+  },
+  {
+    "text": "Ovarense",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Amora",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Nacional-Académica",
+    "label": "OBRA"
+  },
+  {
+    "text": "Nacional",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Académica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "26ª",
+    "label": "VALOR"
+  },
+  {
+    "text": "II Divisão de Honra",
+    "label": "OBRA"
+  },
+  {
+    "text": "Ovar",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Amora",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rui Maside",
+    "label": "PESSOA"
+  },
+  {
+    "text": "64'",
+    "label": "VALOR"
+  },
+  {
+    "text": "Emanuel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Quinito",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Honra', 'ACONTECIMENTO'), ('Ovarense-Amora', 'ACONTECIMENTO'), ('Ovarense', 'PESSOA'), ('Amora', 'PESSOA'), ('Nacional-Académica', 'ACONTECIMENTO'), ('Nacional', 'PESSOA'), ('Académica', 'PESSOA'), ('26ª jornada da II Divisão de Honra', 'ACONTECIMENTO'), ('Amora', 'PESSOA'), ("14'", 'VALOR'), ('Ovarense', 'PESSOA')]
+Espúrias  (FP): [('Ovarense-Amora', 'OBRA'), ('Ovarense', 'ORGANIZACAO'), ('Amora', 'ORGANIZACAO'), ('Nacional-Académica', 'OBRA'), ('Nacional', 'ORGANIZACAO'), ('Académica', 'ORGANIZACAO'), ('26ª', 'VALOR'), ('II Divisão de Honra', 'OBRA'), ('Amora', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Amora teve dois expulsos -- João Paulo ( 56' ) e Gil ( 72' ) -- mas manteve o empate até ao final. Na Madeira , o Nacional empatou a zero com a Académica num jogo fraco e onde o calor foi o dado mais assinalável. A 26ª jornada ficará completa hoje com os seguintes jogos: Penafiel-Rio Ave | Penafiel - Rio Ave , Famalicão-Espinho | Famalicão - Espinho , Portimonense-Estoril | Portimonense - Estoril , Torreense-Leça | Torreense - Leça , Feirense-Felgueiras | Feirense - Felgueiras , União Lamas-Paços Ferreira | União Lamas - Paços Ferreira e Aves-Campomaiorense | Aves - Campomaiorense Bremen à frente O Werder Bremen já alcançou o Borussia Dortmund no primeiro lugar do campeonato alemão de futebol, tendo anteontem vencido o Duisburg por 5-1 e beneficiado do empate ( 0-0 ) cedido pelo Borussia na deslocação a Estugarda .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Amora",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "João Paulo",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "56'",
+    "label": "VALOR",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Gil",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "72'",
+    "label": "VALOR",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Madeira",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Nacional",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Académica",
+    "label": "PESSOA",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "26ª",
+    "label": "VALOR",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Penafiel-Rio Ave",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Penafiel",
+    "label": "PESSOA",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Rio Ave",
+    "label": "PESSOA",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Famalicão-Espinho",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Famalicão",
+    "label": "PESSOA",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Espinho",
+    "label": "PESSOA",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "Portimonense-Estoril",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "Portimonense",
+    "label": "PESSOA",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Estoril",
+    "label": "PESSOA",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "Torreense-Leça",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Torreense",
+    "label": "PESSOA",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Leça",
+    "label": "PESSOA",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Feirense-Felgueiras",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Feirense",
+    "label": "PESSOA",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Felgueiras",
+    "label": "PESSOA",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "União Lamas-Paços Ferreira",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      89,
+      90,
+      91
+    ]
+  },
+  {
+    "text": "União Lamas",
+    "label": "PESSOA",
+    "token_indices": [
+      93,
+      94
+    ]
+  },
+  {
+    "text": "Paços Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      96,
+      97
+    ]
+  },
+  {
+    "text": "Aves-Campomaiorense",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Aves",
+    "label": "PESSOA",
+    "token_indices": [
+      101
+    ]
+  },
+  {
+    "text": "Campomaiorense",
+    "label": "PESSOA",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "Bremen",
+    "label": "PESSOA",
+    "token_indices": [
+      104
+    ]
+  },
+  {
+    "text": "Werder Bremen",
+    "label": "PESSOA",
+    "token_indices": [
+      108,
+      109
+    ]
+  },
+  {
+    "text": "Borussia Dortmund",
+    "label": "PESSOA",
+    "token_indices": [
+      113,
+      114
+    ]
+  },
+  {
+    "text": "Duisburg",
+    "label": "PESSOA",
+    "token_indices": [
+      127
+    ]
+  },
+  {
+    "text": "5-1",
+    "label": "VALOR",
+    "token_indices": [
+      129
+    ]
+  },
+  {
+    "text": "0-0",
+    "label": "VALOR",
+    "token_indices": [
+      135
+    ]
+  },
+  {
+    "text": "Borussia",
+    "label": "PESSOA",
+    "token_indices": [
+      139
+    ]
+  },
+  {
+    "text": "Estugarda",
+    "label": "LOCAL",
+    "token_indices": [
+      143
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Amora', 'PESSOA'), ('João Paulo', 'PESSOA'), ("56'", 'VALOR'), ('Gil', 'PESSOA'), ("72'", 'VALOR'), ('Madeira', 'LOCAL'), ('Nacional', 'PESSOA'), ('Académica', 'PESSOA'), ('26ª', 'VALOR'), ('Penafiel-Rio Ave', 'ACONTECIMENTO'), ('Penafiel', 'PESSOA'), ('Rio Ave', 'PESSOA'), ('Famalicão-Espinho', 'ACONTECIMENTO'), ('Famalicão', 'PESSOA'), ('Espinho', 'PESSOA'), ('Portimonense-Estoril', 'ACONTECIMENTO'), ('Portimonense', 'PESSOA'), ('Estoril', 'PESSOA'), ('Torreense-Leça', 'ACONTECIMENTO'), ('Torreense', 'PESSOA'), ('Leça', 'PESSOA'), ('Feirense-Felgueiras', 'ACONTECIMENTO'), ('Feirense', 'PESSOA'), ('Felgueiras', 'PESSOA'), ('União Lamas-Paços Ferreira', 'ACONTECIMENTO'), ('União Lamas', 'PESSOA'), ('Paços Ferreira', 'PESSOA'), ('Aves-Campomaiorense', 'ACONTECIMENTO'), ('Aves', 'PESSOA'), ('Campomaiorense', 'PESSOA'), ('Bremen', 'PESSOA'), ('Werder Bremen', 'PESSOA'), ('Borussia Dortmund', 'PESSOA'), ('Duisburg', 'PESSOA'), ('5-1', 'VALOR'), ('0-0', 'VALOR'), ('Borussia', 'PESSOA'), ('Estugarda', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Werder Bremen abriu o marcador logo aos 18' pelo líbero egípcio Hany Ramzy e chegou ao intervalo a ganhar por 3-0 , com golos de Mario Basler ( 24' ) e Bernd Hobsch ( 36' ). Marco Bode fez o 4-0 aos 67' , o Duisburg reduziu por Markkus Marin ( 78' ) e foi Andreas Herzog quem estabeleceu o resultado final, a sete minutos do fim. Sem poder contar com Stephane Chapuisat , Steffen Freund e Matthias Sammer , o Borussia não foi ontem além de um empate a zero em Estugarda , onde só ganhou uma vez nos últimos 12 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Werder Bremen",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "18'",
+    "label": "VALOR",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Hany Ramzy",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "3-0",
+    "label": "VALOR",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Mario Basler",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "24'",
+    "label": "VALOR",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Bernd Hobsch",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "36'",
+    "label": "VALOR",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Marco Bode",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "4-0",
+    "label": "VALOR",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "67'",
+    "label": "VALOR",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Duisburg",
+    "label": "PESSOA",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Markkus Marin",
+    "label": "PESSOA",
+    "token_indices": [
+      49,
+      50
+    ]
+  },
+  {
+    "text": "78'",
+    "label": "VALOR",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Andreas Herzog",
+    "label": "PESSOA",
+    "token_indices": [
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Stephane Chapuisat",
+    "label": "PESSOA",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Steffen Freund",
+    "label": "PESSOA",
+    "token_indices": [
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Matthias Sammer",
+    "label": "PESSOA",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Borussia",
+    "label": "PESSOA",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "Estugarda",
+    "label": "LOCAL",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "12 anos",
+    "label": "VALOR",
+    "token_indices": [
+      102,
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Werder Bremen",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Hany Ramzy",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mario Basler",
+    "label": "PESSOA"
+  },
+  {
+    "text": "24'",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Bernd Hobsch",
+    "label": "PESSOA"
+  },
+  {
+    "text": "36'",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Marco Bode",
+    "label": "PESSOA"
+  },
+  {
+    "text": "67'",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Duisburg",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Markkus Marin",
+    "label": "PESSOA"
+  },
+  {
+    "text": "78'",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Andreas Herzog",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estugarda",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Werder Bremen', 'PESSOA'), ("18'", 'VALOR'), ('3-0', 'VALOR'), ("24'", 'VALOR'), ("36'", 'VALOR'), ('4-0', 'VALOR'), ("67'", 'VALOR'), ('Duisburg', 'PESSOA'), ("78'", 'VALOR'), ('Stephane Chapuisat', 'PESSOA'), ('Steffen Freund', 'PESSOA'), ('Matthias Sammer', 'PESSOA'), ('Borussia', 'PESSOA'), ('12 anos', 'VALOR')]
+Espúrias  (FP): [('Werder Bremen', 'ORGANIZACAO'), ("24'", 'TEMPO'), ("36'", 'TEMPO'), ("67'", 'TEMPO'), ('Duisburg', 'ORGANIZACAO'), ("78'", 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Borussia Moenchengladbach , que venceu em Bochum por 2-0 (golos de Thomas Kastenmaier e Heiko Herrlich ), e o Kaiserslautern , que derrotou o Schalke por 1-0 (golo de Steffan Kuntz ) aproximaram-se dos líderes, estando agora a apenas dois pontos. Eis os resultados da 23ª jornada: Werder Bremen-Duisburg | Werder Bremen - Duisburg , 5-1 ; Estugarda-Borussia Dortmund | Estugarda - Borussia Dortmund , 0-0 ; Bochum-Borussia M'Gladbach | Bochum - Borussia M'Gladbach , 0-2 ; Dynamo Dresden-Hamburgo | Dynamo Dresden - Hamburgo , 1-1 ; Bayern Munique-TSV Munique | Bayern Munique - TSV Munique , 1-0 ; Schalke-Kaiserslautern | Schalke - Kaiserslautern , 0-1 ; Bayer Uerdingen-Eintracht Frankfurt | Bayer Uerdingen - Eintracht Frankfurt , 1-1 ; Bayer Leverkusen-Freiburg | Bayer Leverkusen - Freiburg , 2-4 ; Karlsruher-Colónia | Karlsruher - Colónia , 0-0 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Borussia Moenchengladbach",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Bochum",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "2-0",
+    "label": "VALOR",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Thomas Kastenmaier",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Heiko Herrlich",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Kaiserslautern",
+    "label": "PESSOA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Schalke",
+    "label": "PESSOA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "1-0",
+    "label": "VALOR",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Steffan Kuntz",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "23ª",
+    "label": "VALOR",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Werder Bremen-Duisburg",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Werder Bremen",
+    "label": "PESSOA",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Duisburg",
+    "label": "PESSOA",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "5-1",
+    "label": "VALOR",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Estugarda-Borussia Dortmund",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Estugarda",
+    "label": "PESSOA",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Borussia Dortmund",
+    "label": "PESSOA",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "0-0",
+    "label": "VALOR",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Bochum-Borussia M'Gladbach",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Bochum",
+    "label": "PESSOA",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "Borussia M'Gladbach",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "0-2",
+    "label": "VALOR",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Dynamo Dresden-Hamburgo",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Dynamo Dresden",
+    "label": "PESSOA",
+    "token_indices": [
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Hamburgo",
+    "label": "PESSOA",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "1-1",
+    "label": "VALOR",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "Bayern Munique-TSV Munique",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      88,
+      89,
+      90
+    ]
+  },
+  {
+    "text": "Bayern Munique",
+    "label": "PESSOA",
+    "token_indices": [
+      92,
+      93
+    ]
+  },
+  {
+    "text": "TSV Munique",
+    "label": "PESSOA",
+    "token_indices": [
+      95,
+      96
+    ]
+  },
+  {
+    "text": "1-0",
+    "label": "VALOR",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "Schalke-Kaiserslautern",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "Schalke",
+    "label": "PESSOA",
+    "token_indices": [
+      102
+    ]
+  },
+  {
+    "text": "Kaiserslautern",
+    "label": "PESSOA",
+    "token_indices": [
+      104
+    ]
+  },
+  {
+    "text": "0-1",
+    "label": "VALOR",
+    "token_indices": [
+      106
+    ]
+  },
+  {
+    "text": "Bayer Uerdingen-Eintracht Frankfurt",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      108,
+      109,
+      110
+    ]
+  },
+  {
+    "text": "Bayer Uerdingen",
+    "label": "PESSOA",
+    "token_indices": [
+      112,
+      113
+    ]
+  },
+  {
+    "text": "Eintracht Frankfurt",
+    "label": "PESSOA",
+    "token_indices": [
+      115,
+      116
+    ]
+  },
+  {
+    "text": "1-1",
+    "label": "VALOR",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "Bayer Leverkusen-Freiburg",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      120,
+      121
+    ]
+  },
+  {
+    "text": "Bayer Leverkusen",
+    "label": "PESSOA",
+    "token_indices": [
+      123,
+      124
+    ]
+  },
+  {
+    "text": "Freiburg",
+    "label": "PESSOA",
+    "token_indices": [
+      126
+    ]
+  },
+  {
+    "text": "2-4",
+    "label": "VALOR",
+    "token_indices": [
+      128
+    ]
+  },
+  {
+    "text": "Karlsruher-Colónia",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      130
+    ]
+  },
+  {
+    "text": "Karlsruher",
+    "label": "PESSOA",
+    "token_indices": [
+      132
+    ]
+  },
+  {
+    "text": "Colónia",
+    "label": "PESSOA",
+    "token_indices": [
+      134
+    ]
+  },
+  {
+    "text": "0-0",
+    "label": "VALOR",
+    "token_indices": [
+      136
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Borussia Moenchengladbach', 'PESSOA'), ('Bochum', 'LOCAL'), ('2-0', 'VALOR'), ('Thomas Kastenmaier', 'PESSOA'), ('Heiko Herrlich', 'PESSOA'), ('Kaiserslautern', 'PESSOA'), ('Schalke', 'PESSOA'), ('1-0', 'VALOR'), ('Steffan Kuntz', 'PESSOA'), ('23ª', 'VALOR'), ('Werder Bremen-Duisburg', 'ACONTECIMENTO'), ('Werder Bremen', 'PESSOA'), ('Duisburg', 'PESSOA'), ('5-1', 'VALOR'), ('Estugarda-Borussia Dortmund', 'ACONTECIMENTO'), ('Estugarda', 'PESSOA'), ('Borussia Dortmund', 'PESSOA'), ('0-0', 'VALOR'), ("Bochum-Borussia M'Gladbach", 'ACONTECIMENTO'), ('Bochum', 'PESSOA'), ("Borussia M'Gladbach", 'PESSOA'), ('0-2', 'VALOR'), ('Dynamo Dresden-Hamburgo', 'ACONTECIMENTO'), ('Dynamo Dresden', 'PESSOA'), ('Hamburgo', 'PESSOA'), ('1-1', 'VALOR'), ('Bayern Munique-TSV Munique', 'ACONTECIMENTO'), ('Bayern Munique', 'PESSOA'), ('TSV Munique', 'PESSOA'), ('1-0', 'VALOR'), ('Schalke-Kaiserslautern', 'ACONTECIMENTO'), ('Schalke', 'PESSOA'), ('Kaiserslautern', 'PESSOA'), ('0-1', 'VALOR'), ('Bayer Uerdingen-Eintracht Frankfurt', 'ACONTECIMENTO'), ('Bayer Uerdingen', 'PESSOA'), ('Eintracht Frankfurt', 'PESSOA'), ('1-1', 'VALOR'), ('Bayer Leverkusen-Freiburg', 'ACONTECIMENTO'), ('Bayer Leverkusen', 'PESSOA'), ('Freiburg', 'PESSOA'), ('2-4', 'VALOR'), ('Karlsruher-Colónia', 'ACONTECIMENTO'), ('Karlsruher', 'PESSOA'), ('Colónia', 'PESSOA'), ('0-0', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Classificação após 23 jogos: Borussia Dortmund e Werder Bremen , 34 pontos ; Borussia Moenchengladbach e Kaiserslautern , 32 ; Freiburg e Bayern Munique , 30 ; Karlsruher , 25 ; Bayer Leverkusen , Hamburgo e Estugarda , 22 ; Colónia e Eintracht Frankfurt , 21 ; Schalke , 20 ; Bayer Uerdingen , 16 ; Bochum e TSV Munique , 14 ; Duisburg , 13 ; Dynamo Dresden , 12 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "23",
+    "label": "VALOR",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Borussia Dortmund",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Werder Bremen",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "34 pontos",
+    "label": "VALOR",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Borussia Moenchengladbach",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Kaiserslautern",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "32",
+    "label": "VALOR",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Freiburg",
+    "label": "PESSOA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Bayern Munique",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "30",
+    "label": "VALOR",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Karlsruher",
+    "label": "PESSOA",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "25",
+    "label": "VALOR",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Bayer Leverkusen",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Hamburgo",
+    "label": "PESSOA",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Estugarda",
+    "label": "PESSOA",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "22",
+    "label": "VALOR",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Colónia",
+    "label": "PESSOA",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Eintracht Frankfurt",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "21",
+    "label": "VALOR",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Schalke",
+    "label": "PESSOA",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "20",
+    "label": "VALOR",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Bayer Uerdingen",
+    "label": "PESSOA",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "16",
+    "label": "VALOR",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Bochum",
+    "label": "PESSOA",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "TSV Munique",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "14",
+    "label": "VALOR",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Duisburg",
+    "label": "PESSOA",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "13",
+    "label": "VALOR",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Dynamo Dresden",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68
+    ]
+  },
+  {
+    "text": "12",
+    "label": "VALOR",
+    "token_indices": [
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('23', 'VALOR'), ('Borussia Dortmund', 'PESSOA'), ('Werder Bremen', 'PESSOA'), ('34 pontos', 'VALOR'), ('Borussia Moenchengladbach', 'PESSOA'), ('Kaiserslautern', 'PESSOA'), ('32', 'VALOR'), ('Freiburg', 'PESSOA'), ('Bayern Munique', 'PESSOA'), ('30', 'VALOR'), ('Karlsruher', 'PESSOA'), ('25', 'VALOR'), ('Bayer Leverkusen', 'PESSOA'), ('Hamburgo', 'PESSOA'), ('Estugarda', 'PESSOA'), ('22', 'VALOR'), ('Colónia', 'PESSOA'), ('Eintracht Frankfurt', 'PESSOA'), ('21', 'VALOR'), ('Schalke', 'PESSOA'), ('20', 'VALOR'), ('Bayer Uerdingen', 'PESSOA'), ('16', 'VALOR'), ('Bochum', 'PESSOA'), ('TSV Munique', 'PESSOA'), ('14', 'VALOR'), ('Duisburg', 'PESSOA'), ('13', 'VALOR'), ('Dynamo Dresden', 'PESSOA'), ('12', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+França teve Taça O Paris St. Germain e o Bastia ficaram ontem apurados para a final da Taça da Liga de França , em futebol. A equipa parisiense venceu fora o Le Havre , com um golo de Raí na conversão de um penalti, e defrontará na final o Bastia , que derrotou na Córsega o Montpellier por 3-1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Taça",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Paris St. Germain",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Bastia",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Taça da Liga de França",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Le Havre",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Raí",
+    "label": "PESSOA",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Bastia",
+    "label": "PESSOA",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Córsega",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Montpellier",
+    "label": "PESSOA",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "3-1",
+    "label": "VALOR",
+    "token_indices": [
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "França",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Taça",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Paris St. Germain",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bastia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Taça da Liga de França",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "futebol",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Le Havre",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Raí",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bastia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Córsega",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Montpellier",
+    "label": "PESSOA"
+  },
+  {
+    "text": "3-1",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('futebol', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Bastia marcou primeiro, por Bruno Rodriguez ( 43' ), mas Thierry Laurey chegou ao empate seis minutos depois.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bastia",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Bruno Rodriguez",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "43'",
+    "label": "VALOR",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Thierry Laurey",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bastia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Bruno Rodriguez",
+    "label": "PESSOA"
+  },
+  {
+    "text": "43'",
+    "label": "VALOR"
+  },
+  {
+    "text": "Thierry Laurey",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Bastia', 'PESSOA')]
+Espúrias  (FP): [('Bastia', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+E só nos últimos dez minutos o Bastia assegurou a presença na final, com dois golos de Franck Burnier ( 82' ) e Anton Drobnjak ( 88' ). O vencedor da Taça da Liga terá direito a estar presente na Taça UEFA da próxima época.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bastia",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Franck Burnier",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "82'",
+    "label": "VALOR",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Anton Drobnjak",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "88'",
+    "label": "VALOR",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Taça da Liga",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Taça UEFA",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bastia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Franck Burnier",
+    "label": "PESSOA"
+  },
+  {
+    "text": "82'",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Anton Drobnjak",
+    "label": "PESSOA"
+  },
+  {
+    "text": "88'",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Taça da Liga",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Taça UEFA",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Bastia', 'PESSOA'), ("82'", 'VALOR'), ("88'", 'VALOR')]
+Espúrias  (FP): [('Bastia', 'ORGANIZACAO'), ("82'", 'TEMPO'), ("88'", 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+É o centro metabólico, contém o núcleo e a maioria dos organitos. Geralmente , o corpo celular dos neurónios situa-se a nível do Sistema Nervoso Central , à excepção de neurónios sensitivos primários e neurónios efectores terminais do Sistems Nervoso Autónomo onde os corpos celulares se agregam formando gânglios. No Sistema Nervoso Central os corpos celulares localizam-se apenas na substância cinzenta. A substância branca não apresenta corpos celulares de neurónios, mas apenas os seus prolongamentos. Núcleo É longo, esférico ou ovóide, aparece pouco corado e com a cromatina descondensada sugerindo a grande actividade sintética da célula. Cada núcleo tem em geral um nucléolo único, grande e central. Na proximidade do núcleolo ou da membrana nuclear observa-se, no sexo feminino, cromatina sexual, sob a forma de um grânulo esférico bem distinto e que corresponde a um cromossoma X inactivado, que permanece condensado na interfase. Reticulo endoplasmático liso É abundante e menos evidente, com uma distribuição a nível de toda a célula.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sistema Nervoso Central",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Sistems Nervoso Autónomo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Sistema Nervoso Central",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "X",
+    "label": "COISA",
+    "token_indices": [
+      136
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Sistema Nervoso Central', 'ABSTRACCAO'), ('Sistems Nervoso Autónomo', 'ABSTRACCAO'), ('Sistema Nervoso Central', 'ABSTRACCAO'), ('X', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Está em continuidade com o RER e preenche muito do espaço entre os corpos de Nissl. Aparelho de Golgi Localiza-se apenas no perikaryon em torno do núcleo. Consiste em membranas lisas, que constituem vesículas achatadas e dispostas paralelamente entre si , formando grupos que são paralelos ao envólucro nuclear. Além das vesículas achatadas , encontram-se também vesículas menores e esféricas. Em algumas técnicas clássicas de estudo do aparelho de Golgi, como a impregnação pela prata ou a coloração com o ósmio , ele aparece como uma rede filamentosa irregular. Esse aspecto é consequência da impregnação das membranas do aparelho de Golgi e sua deformação pela técnica usada. Tem um papel importante na produção de elementos da membrana celular, bem como na formação de lisossomas e de neurotransmissores. A baínha de mielina não é parte do neurónio, mas sim um folheto envolvente resultante do enrolamento de células da glia, nomeadamente as células de Schwann.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RER",
+    "label": "COISA",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "RER",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Nissl",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Aparelho de Golgi",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Aparelho de Golgi",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Aparelho de Golgi",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('RER', 'COISA')]
+Espúrias  (FP): [('RER', 'ABSTRACCAO'), ('Nissl', 'ABSTRACCAO'), ('Aparelho de Golgi', 'ABSTRACCAO'), ('Aparelho de Golgi', 'ABSTRACCAO'), ('Aparelho de Golgi', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Capítulo XV Maria Eduarda e Carlos , que ficara essa noite nos Olivais na sua casinhola, acabavam de almoçar. O Domingos servira o café, e antes de sair deixara ao lado de Carlos a caixa de cigarretes e o Figaro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Maria Eduarda",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Carlos",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Olivais",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Domingos",
+    "label": "PESSOA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Carlos",
+    "label": "PESSOA",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Figaro",
+    "label": "COISA",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Maria Eduarda",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carlos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Olivais",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Domingos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Figaro",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Carlos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As duas janelas estavam abertas. Nem uma folha se movia no ar pesado da manhã encoberta, entristecida ainda por um dobre lento de sinos que morria ao longe nos campos. No banco de cortiça, sob as árvores, miss Sarah costurava preguiçosamente; Rosa ao lado brincava na relva. E Carlos , que viera numa intimidade conjugal, com uma simples camisa de seda e um jaquetão de flanela, chegou então a cadeira para junto de Maria , tomou-lhe a mão, brincando-lhe com os anéis, numa lenta carícia: - Vamos a saber, meu amor... Decidiste, por fim ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "miss Sarah",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Rosa",
+    "label": "PESSOA",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Carlos",
+    "label": "PESSOA",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Maria",
+    "label": "PESSOA",
+    "token_indices": [
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sarah",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rosa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carlos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Maria",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('miss Sarah', 'PESSOA')]
+Espúrias  (FP): [('Sarah', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Tudo bom, tio André , obrigado. E no seu desejo de ver todos em torno de si felizes como ele e como a terra sequiosa que ia ser consolada - Carlos meteu uma libra na mão do tio André , que ficou deslumbrado, sem ousar fechar os dedos sobre aquele ouro extraordinário que reluziu. Quando Maria entrou no quiosque trazia um cofre de sândalo. Atirou-o para o divã: fez sentar Carlos ao lado, bem confortável, entre almofadas: acendeu-lhe uma cigarrete. Depois agachou-se aos seus pés, sobre o tapete, como na humildade de uma confissão.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tio André",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Carlos",
+    "label": "PESSOA",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "tio André",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Maria",
+    "label": "PESSOA",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Carlos",
+    "label": "PESSOA",
+    "token_indices": [
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "tio André",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carlos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Maria",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('tio André', 'PESSOA'), ('Carlos', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A mamã, mais tarde, quando ela era já rapariga, não tolerava que lhe perguntassem pelo passado; e dizia sempre que remexer a memória das coisas antigas prejudicava tanto como sacudir uma garrafa de vinho velho... De Viena apenas recordava confusamente largos passeios de árvores, militares vestidos de branco, e uma casa espelhada e dourada onde se dançava: ás vezes durante tempos ela ficava lá só com o avô, um velhinho triste e tímido, metido pelos cantos, que lhe contara histórias de navios. Depois tinham ido a Inglaterra : mas lembrava-se somente de ter atravessado um grande rumor de ruas, num dia de chuva, embrulhada em peles, sobre os joelhos dum escudeiro. As suas primeiras memórias mais nítidas datavam de Paris ; a mamã, já viúva, andava de luto pelo avô; e ela tinha uma aia italiana que a levava todas as manhãs, com um arco e com uma péla, brincar aos Campos Elíseos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Viena",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      119
+    ]
+  },
+  {
+    "text": "Campos Elíseos",
+    "label": "LOCAL",
+    "token_indices": [
+      151,
+      152
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Viena",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Paris', 'LOCAL'), ('Campos Elíseos', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A noite costumava ver a mamã decotada, num quarto cheio de cetins e de luzes; e um homem louro, um pouco brusco, que fumava sempre estirado pelos sofás, trazia-lhe de vez em quando uma boneca, e chamava-lhe mademoisele Triste-coeur por causa do seu arzinho sisudo. Enfim a mamã metera-a num convento ao pé de Tours - porque nessa idade, apesar de cantar já ao piano as valsas da Bele Helène , ainda não sabia soletrar. Fora nos jardins do convento, onde havia lindos lilases, que a mamã se separara dela numa paixão de lágrimas; e ao lado esperava, para a consolar decerto, um sujeito muito grave, de bigodes encerados, a quem a Madre Superiora falara com veneração. A mamã ao principio vinha vê-la todos os meses, demorando-se em Tours dois, três dias; trazia-lhe uma profusão de presentes, bonecas, bombons, lenços bordados, vestidos ricos, que lhe não permitia usar a regra severa do convento.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Triste-coeur",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Tours",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Bele Helène",
+    "label": "OBRA",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Madre Superiora",
+    "label": "PESSOA",
+    "token_indices": [
+      112,
+      113
+    ]
+  },
+  {
+    "text": "Tours",
+    "label": "LOCAL",
+    "token_indices": [
+      128
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tours",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bele Helène",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Tours",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Triste-coeur', 'ABSTRACCAO'), ('Bele Helène', 'OBRA'), ('Madre Superiora', 'PESSOA')]
+Espúrias  (FP): [('Bele Helène', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Davam então passeios de carruagem pelos arredores de Tours : e havia sempre oficiais a cavalo, que escoltavam a caleche - e tratavam a mamã por tu. No convento as mestras, a Madre Superiora não gostavam destas saídas - nem mesmo que a mamã viesse acordar os corredores devotos com as suas risadas e o ruído das suas sedas; ao mesmo tempo pareciam teme-la; chamavam-lhe Madame la Comtesse .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tours",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Madre Superiora",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Madame la Comtesse",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      65,
+      66,
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tours",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Madre Superiora",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Madame la Comtesse",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Madame la Comtesse', 'ABSTRACCAO')]
+Espúrias  (FP): [('Madame la Comtesse', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A casa da mamã, no Parc Monceaux , era na realidade uma casa de jogo - mas recoberta de um luxo sério e fino. Os escudeiros tinham meias de seda; os convidados, com grandes nomes no Nobiliário de França , conversavam de corridas, das Tulherias , dos discursos do Senado ; e as mesas de jogo armavam-se depois como uma distracção mais picante.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parc Monceaux",
+    "label": "LOCAL",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Nobiliário de França",
+    "label": "LOCAL",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Tulherias",
+    "label": "PESSOA",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Senado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Parc Monceaux",
+    "label": "LOCAL"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tulherias",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Senado",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Nobiliário de França', 'LOCAL'), ('Tulherias', 'PESSOA')]
+Espúrias  (FP): [('França', 'LOCAL'), ('Tulherias', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ela recolhia sempre ao seu quarto ás dez horas: Madame de Chavigny , que ficara como sua dama de companhia, ia com ela cedo ao Bois num coupé estufo de douairière. Pouco a pouco, porém, este grande verniz começou a estalar. A pobre mamã caíra sob o jugo dum Mr. de Trevernes , homem perigoso pela sua sedução pessoal e por uma desoladora falta de honra e de senso. A casa descaiu rapidamente numa boémia mal dourada e ruidosa. Quando ela madrugava, com os seus hábitos saudáveis do convento, encontrava paletós de homens por cima dos sofás: no mármore das consoles restavam pontas de charuto entre nódoas de champagne; e nalgum quarto mais retirado ainda tinia o dinheiro dum bacarat talhado à claridade do sol. Depois uma noite, estando deitada, sentira de repente gritos, uma debandada brusca na escada; veio encontrar a mamã estirada no tapete, desmaiada; ela dissera-lhe apenas mais tarde, alagada em lágrimas, «que tinha havido uma desgraça»...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Madame de Chavigny",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Bois",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Mr. de Trevernes",
+    "label": "PESSOA",
+    "token_indices": [
+      49,
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Madame de Chavigny', 'PESSOA'), ('Bois', 'LOCAL'), ('Mr. de Trevernes', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Madame de Champigny deixara-as desde que faltara o coupé severo, acolchoado de cetim; e ela, só com a mãe, insensivelmente, fatalmente, fora-se misturando a essa vida tresnoitada de grogs e de bacarat. A mamã chamava a Mac-Gren o «bebé». Era com efeito uma criança estouvada e feliz. Namorara-se dela logo com o ardor, a efusão, o ímpeto dum irlandês; e prometeu-lhe faze-la sua esposa apenas se emancipasse - porque Mac-Gren , menor ainda, vivia sobretudo das liberalidades de uma avó excêntrica e rica que o adorava, e que habitava a Provença numa vasta quinta onde tinha feras em jaulas...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Madame de Champigny",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "Provença",
+    "label": "LOCAL",
+    "token_indices": [
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Madame de Champigny', 'PESSOA'), ('Mac-Gren', 'PESSOA'), ('Mac-Gren', 'PESSOA'), ('Provença', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E no entanto induzia-a sem cessar a fugir com ele, desesperado de a ver entre aqueles Valachos que cheiravam a genebra. O seu desejo era leva-la para Fontainebleau , para um cotage com trepadeiras de que falava sempre, e esperar aí tranquilamente a maioridade que lhe traria duas mil libras de renda. Decerto, era uma situação falsa: mas preferível a permanecer naquele meio depravado e brutal onde ela a cada instante corava... A esse tempo a mamã parcela ir perdendo todo o senso, desarranjada de nervos, quasi irresponsável. As dificuldades crescentes estonteavam-na; brigava com as criadas; bebia champagne «pour s' étourdir». Para satisfazer as exigências de Mr. de Trevernes empenhara as suas jóias, e quasi todos os dias chorava com ciúmes dele. Por fim houve uma penhora: uma noite tiveram de enfardelar à pressa roupa num saco, e ir dormir a um hotel. E, pior, pior que tudo !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Valachos",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Fontainebleau",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Mr. de Trevernes",
+    "label": "PESSOA",
+    "token_indices": [
+      106,
+      107,
+      108
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Valachos', 'PESSOA'), ('Fontainebleau', 'LOCAL'), ('Mr. de Trevernes', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E partira com ele, sem precipitação, como sua esposa, levando todas as suas malas. A mamã de volta de Baden correu a Fontainebleau , desvairada e trágica, amaldiçoando Mac-Gren , ameaçando-o com a prisão de Mazas , querendo esbofeteá-lo; depois rompeu a chorar.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Baden",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Fontainebleau",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Mazas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Baden",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fontainebleau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mazas",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Mazas', 'ORGANIZACAO')]
+Espúrias  (FP): [('Mazas', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mac-Gren , como um bebé, agarrou-se a ela aos beijos, chorando também. A mamã terminou por os apertar a ambos contra o coração, já rendida, perdoando tudo, chamando-lhes «filhos da sua alma». Passou o dia em Fontainebleau , radiante, contando «a patuscada de Baden », já com o plano de vir instalar-se no cotage, viver junto deles numa felicidade calma e nobre de avósinha... Era em maio ; Mac-Gren , à noite, deitou um «fogo preso» no jardim. Começou um ano quieto e fácil. O seu único desejo era que a mamã vivesse com eles sossegadamente. Diante suas suplicas ela ficava pensativa, dizia: «Tens razão, veremos !» Depois remergulhava no torvelinho de MORF="?,S" Paris , de onde ressurgia uma manhã, num fiacre, estremunhada e aflita, com uma rica peliça sobre uma velha saia, a pedir-lhe cem francos... Por fim nascera Rosa . Toda a sua ansiedade desde então fora legitimar a sua união.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Fontainebleau",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Baden",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "maio",
+    "label": "TEMPO",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      113
+    ]
+  },
+  {
+    "text": "Rosa",
+    "label": "PESSOA",
+    "token_indices": [
+      140
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Mac-Gren', 'PESSOA'), ('Fontainebleau', 'LOCAL'), ('Baden', 'LOCAL'), ('maio', 'TEMPO'), ('Mac-Gren', 'PESSOA'), ('Paris', 'LOCAL'), ('Rosa', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E ao mesmo tempo terrivelmente teimoso: ela pouco a pouco perdera-lhe todo o respeito. No começo da primavera a mamã um dia apareceu em Fontainebleau com as suas malas, sucumbida, enojada da vida. Rompera enfim com Trevernes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fontainebleau",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Trevernes",
+    "label": "PESSOA",
+    "token_indices": [
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fontainebleau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Trevernes",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Trevernes', 'PESSOA')]
+Espúrias  (FP): [('Trevernes', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas quasi imediatamente se consolou: e começou daí a adorar Mac-Gren com uma tão larga efusão de carícias, e achando-o tão lindo, que era ás vezes embaraçadora. Os dois passavam o dia, com copinhos de cognac, jogando o besigue. De repente rebentou a guerra com a Prússia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Prússia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Prússia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Prússia', 'ORGANIZACAO')]
+Espúrias  (FP): [('Prússia', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mac-Gren entusiasmado, e apesar das suplicas delas, correra a alistar-se no batalhão de Zuavos de Charete ; a avó de resto aprovara este rasgo de amor pela França , e fizera-lhe numa carta em verso, em que celebrava Jeane d'Arc , uma larga remessa de dinheiro.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Zuavos",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Charete",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "França",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Jeane d'Arc",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Zuavos de Charete",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Jeane d'Arc",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Zuavos', 'PESSOA'), ('Charete', 'PESSOA'), ('França', 'ABSTRACCAO')]
+Espúrias  (FP): [('Zuavos de Charete', 'ORGANIZACAO'), ('França', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+«É o fim de tudo, é o fim de tudo !» dizia a mamã espavorida. Ela veio a Paris procurar noticias de Mac-Gren : na rua Royale teve de se refugiar num portão, diante do tumulto dum povo em delírio, aclamando, cantando a Marselhesa , em torno de uma caleche onde ia um homem, pálido como cera, com um cache-nez escarlate ao pescoço. E um sujeito ao lado, aterrado, disse-lhe que o povo fora buscar Rochefort à prisão e que estava, proclamada a República .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Royale",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Marselhesa",
+    "label": "OBRA",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Rochefort",
+    "label": "PESSOA",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "República",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      83
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mac-Gren",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rua Royale",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marselhesa",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Rochefort",
+    "label": "PESSOA"
+  },
+  {
+    "text": "República",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Royale', 'LOCAL'), ('Marselhesa', 'OBRA')]
+Espúrias  (FP): [('Rua Royale', 'LOCAL'), ('Marselhesa', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Começaram então dias de infinito sobressalto. Felizmente Rosa convalescia. Mas a pobre mamã causava dó, envelhecida de repente, sombria, prostrada numa cadeira, murmurando apenas: «É o fim de tudo, é o fim de tudo !» E parecia na verdade o fim da França .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rosa",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "França",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rosa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('França', 'ORGANIZACAO')]
+Espúrias  (FP): [('França', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cada dia uma batalha perdida; regimentos presos, apinhados em wagons de gado, internados a todo o vapor para os presídios da Alemanha ; os prussianos marchando sobre Paris ...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Alemanha', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Fui três vezes director da Faculdade de Filosofia e depois vim para a Universidade do Minho , fui vice-reitor e reitor. E eu que nunca quis governar tive essa pouca sorte. Quando eu saí foi uma libertação. Eu gosto é de investigar, tenho muito gosto nisso. O pobre do reitor anda a resolver problemas que aparecem não sabe Deus quando nem como. Agora a universidade está mais desenvolvida, mas naquele tempo ainda era pior. Ia quase todas as semanas para Lisboa para resolver os problemas. Isso ajudou-me muito porque conheci o Ministério da Educação por dentro, porque bater à porta falsa é perder tempo, procurar bater à porta que nos interessa. E conheci o Ministério da Educação e isso deu-me muito jeito porque sabia lá quem mandava e quem resolvia os problemas e quem os impedia.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Faculdade de Filosofia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Universidade do Minho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      80
+    ]
+  },
+  {
+    "text": "Ministério da Educação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "text": "Ministério da Educação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      114,
+      115,
+      116
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Faculdade de Filosofia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade do Minho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério da Educação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério da Educação",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lisboa', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mas eu tinha que ir a Lisboa , e essas viajens pela estrada antiga, a comer nesses restaurantes das estradas miseráveis, geralmente com uns azeites que já tinham servido no outro dia. Eu dáva-me mal com essas comidas e andar sempre para trás e para diante para resolver qualquer problema. Foi muito doloroso nesse aspecto. Na universidade não. Aqui tínhamos uma boa equipa, éramos amigos e trabalhávamos. A Universidade do Minho tem uma equipa boa desde o princípio. Pela primeira vez candidata-se um reitor que não é da equipa. Este reitor ainda foi da comissão instaladora, assim como o Machado dos Santos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Universidade do Minho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Machado dos Santos",
+    "label": "PESSOA",
+    "token_indices": [
+      99,
+      100,
+      101
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Universidade do Minho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade do Minho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Machado dos Santos",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Universidade do Minho', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Agora pela primeira vez vai a reitor uma pessoa que já não é da equipa inicial. O que também é bom. é bom que se vá desenvolvendo, mas quer dizer que a equipa era muito unida e trabalhou com gosto, com sacrifício, mas trabalhou com gosto, contra tudo e contra todos porque é muito difícil vencer Lisboa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lisboa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Lisboa', 'ORGANIZACAO')]
+Espúrias  (FP): [('Lisboa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Começamos as aulas um ano mais cedo do que o que tínhamos planeado. Olhe aqui no Largo do Paço coemçaram as aulas, nesta sala que agora está dividida, tinha outra na entrada, aí onde está o correiro e o salão medieval. Começamos as aulas um ano mais cedo, ainda não tínhamos feitos os pavilhões na D .Pedro V , depois é que passou para Gualtar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Largo do Paço",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "D .Pedro V",
+    "label": "LOCAL",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Gualtar",
+    "label": "LOCAL",
+    "token_indices": [
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Largo do Paço",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D. Pedro V",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Gualtar",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('D .Pedro V', 'LOCAL')]
+Espúrias  (FP): [('D. Pedro V', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Começamos as aulas um ano mais cedo porque havia em Lisboa , nós começamos em Fevereiro de 1974 e dois meses depois veio o 24 de Abril , passou-se bastantes dificuldades. Êxitos por um lado e dificuldades por outro e uma delas é que o ministro queria acabar com as universidades novas, só a Universidade Nova de Lisboa é que havia de existir. E nós que não tínhamos alunos, os alunos são uma força, começamos um ano mais cedo para ter alunos para poder a nossa voz ser mais forte.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Fevereiro de 1974",
+    "label": "TEMPO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "24 de Abril",
+    "label": "TEMPO",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Universidade Nova de Lisboa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fevereiro de 1974",
+    "label": "TEMPO"
+  },
+  {
+    "text": "24 de Abril",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Universidade Nova de Lisboa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('24 de Abril', 'TEMPO')]
+Espúrias  (FP): [('24 de Abril', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eu sei que fiz o meu doutoramento em Novembro e em Julho do ano seguinte foi nomeado director. Como era a Faculdade de Filosofia nessa altura? A Faculdade de Filosofia em biblioteca estava muito bem e em muito bom estado, era das melhores bibliotecas de Filosofia de Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Novembro",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Julho",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Faculdade de Filosofia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Faculdade de Filosofia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Novembro', 'TEMPO'), ('Julho', 'TEMPO'), ('Faculdade de Filosofia', 'ORGANIZACAO'), ('Faculdade de Filosofia', 'ORGANIZACAO'), ('Filosofia', 'ABSTRACCAO'), ('Portugal', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E foi nessa altura que se formou a biblioteca, comprávamos os livros muito baratos. Tem um conjunto de professores muito bons. Morreu aqui há dias o professor de Filosofia da Ciência , que era o melhor professor de Filosofia e Ciência em Portugal , Passo Sousa Alves .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Filosofia da Ciência",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Filosofia e Ciência",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Passo Sousa Alves",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Filosofia da Ciência",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Ciência",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Passo Sousa Alves",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Filosofia e Ciência', 'ABSTRACCAO')]
+Espúrias  (FP): [('Filosofia', 'ABSTRACCAO'), ('Ciência', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O primeiro congresso de Filosofia em Portugal , foi feito aqui em 1955 e vieram cá todas as universidades e como tínhamos medo que algumas não viessem, convidamos alguns estrangeiros. Mas felizmente vieram. Estávamos 400 congressistas e foi quando eles pensaram em fundar no estado a Faculdade de Filosofia , que não existia a de História e Filosofia separada. Precisamente hoje já estão.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "1955",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "400",
+    "label": "VALOR",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Faculdade de Filosofia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "História",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1955",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "História e Filosofia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('400', 'VALOR'), ('Faculdade de Filosofia', 'ORGANIZACAO'), ('História', 'ABSTRACCAO')]
+Espúrias  (FP): [('História e Filosofia', 'ABSTRACCAO'), ('Filosofia', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+E em toda a parte tinha o meu grupo de amigos, com quem me dava bem, e também vi a ida para Espanha como uma aventura e disse: - «Vamos lá ver !» Como correu esse tempo que esteve em Espanha ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Espanha', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Olhe, não perdi o meu tempo, porque estudava, era o principal e depois, nós não gostávamos dos espanhóis. Eu vivi em Espanha em três partes. Espanha não é uma nação, é um conjunto de nações. Nós não gostamos é dos castelhanos. Nós quando falamos dos espanhóis, referimo-nos aos castelhanos. O meu pai também é da fronteira, ainda hoje não podem ver os castelhanos, porque o castelhano o que quer é mandar, quer sempre o pé em cima dos outros e ninguém aguenta isso.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Espanha', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E olhe uma das razões porque se fundou Portugal , repare que D.Afonso Henriques vai por aí fora e a gente não sabe, nem ainda ninguém explicou, porque é que o português nunca quis ser castelhano. São psicologicamente diferentes. E o castelhano esteve à frente de Espanha e fez a união de Espanha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "D.Afonso Henriques",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D.Afonso Henriques",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Portugal', 'ORGANIZACAO'), ('Espanha', 'ORGANIZACAO'), ('Espanha', 'ORGANIZACAO')]
+Espúrias  (FP): [('Portugal', 'LOCAL'), ('Espanha', 'LOCAL'), ('Espanha', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em Barcelona , os catalães não podem com os castelhanos, e em Bilbau são os vascos que não podem com os castelhanos e os galegos também não, são mais nossos amigos do que dos castelhanos. Se Filipe II tem posto a capital em Lisboa , como ele pensou, e não pôs a capital em Lisboa , quando Portugal se uniu a Espanha , com medo da Armada Inglesa , e foi pôr Madrid , no meio de Espanha , onde não chegava a Armada Inglesa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Barcelona",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Bilbau",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Filipe II",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Armada Inglesa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Madrid",
+    "label": "LOCAL",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Armada Inglesa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      83,
+      84
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Barcelona",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bilbau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Filipe II",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Espanha",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Madrid",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Armada Inglesa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lisboa', 'LOCAL'), ('Espanha', 'LOCAL'), ('Armada Inglesa', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Veja que os nosso impérios, o Brasil é tão grande com a Europa e não tem separatismos. O espanhol, o castelhano é Colombia , Venezuela , Argentina , tudo separado. E se arte portuguesa, é curioso que não é pelas armas que fazemos isso, e quando em 1640 , os fidalgos em Lisboa proclamam a indepêndencia, o povo vai todo com eles e revolta-se. Nós sem Marinha , sem nada. O Brasil , a África , Goa , volta tudo sem Marinha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Colombia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Venezuela",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Argentina",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "1640",
+    "label": "TEMPO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Marinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "África",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Goa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Marinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Colombia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Venezuela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1640",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marinha",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "África",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marinha",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Colombia', 'ABSTRACCAO'), ('Venezuela', 'ABSTRACCAO'), ('Argentina', 'ABSTRACCAO'), ('Brasil', 'ORGANIZACAO'), ('África', 'ORGANIZACAO'), ('Goa', 'ORGANIZACAO')]
+Espúrias  (FP): [('Colombia', 'LOCAL'), ('Venezuela', 'LOCAL'), ('Argentina', 'LOCAL'), ('Brasil', 'LOCAL'), ('África', 'LOCAL'), ('Goa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando eles quiseram impor o islamismo já a reconquista ia por ai fora, já não conseguiram. Fizeram mártires em Sevilha , mas não conseguiram e foram postos de cá para fora. Isso são coisas interessantes e explicam muito da maneira de ser dos povos. Como eu estive na parte de Castela não me ligava muito com eles, ao passo que a minha vida em Portugal , eu vim para cá, para Braga , com 18 / 19 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sevilha",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Castela",
+    "label": "LOCAL",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "18",
+    "label": "VALOR",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "19 anos",
+    "label": "VALOR",
+    "token_indices": [
+      76,
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sevilha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Castela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL"
+  },
+  {
+    "text": "18",
+    "label": "VALOR"
+  },
+  {
+    "text": "19",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('19 anos', 'VALOR')]
+Espúrias  (FP): [('19', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eu sou bracarense desde 1934 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1934",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "bracarense",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1934",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('bracarense', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Moro no Porto e estudo no 11º ano( Economia ).Pratico equitação(tornou-se a 5º máxima da minha vida), adoro história e não perco um bom documentário. Adoro cinema e prefiro filmes de Drama ou " Históricos "|Drama ou "Históricos". Deus , a Pátria , O Rei , a Família e a equitação são as máximas da minha vida e a minha causa incere-se na 2º e na 3º máxima. Sou contra o federaliamo Europeu (mas a favor da comunidade europeia das nações) e sou monárquico. Ao contrário do que muitos pensam não herdei a vontade de ser Monárquico |Monárquico, pois na minha família não há um único monárquico a não ser eu.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "11º",
+    "label": "VALOR",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Economia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "5º",
+    "label": "VALOR",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Drama",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Históricos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Pátria",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Rei",
+    "label": "PESSOA",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Família",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "2º",
+    "label": "VALOR",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "3º",
+    "label": "VALOR",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Monárquico",
+    "label": "PESSOA",
+    "token_indices": [
+      96
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Porto', 'LOCAL'), ('11º', 'VALOR'), ('Economia', 'ABSTRACCAO'), ('5º', 'VALOR'), ('Drama', 'ABSTRACCAO'), ('Históricos', 'ABSTRACCAO'), ('Deus', 'PESSOA'), ('Pátria', 'ABSTRACCAO'), ('Rei', 'PESSOA'), ('Família', 'ABSTRACCAO'), ('2º', 'VALOR'), ('3º', 'VALOR'), ('Monárquico', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Contudo sou descendente de família Nobre pelo lado da minha mãe, mas nem por isso a minha família se torna Monárquica |Monárquica. Com isto entende-se que para ser Monárquico |Monárquico basta preferir a Instituição Real em deterioração da Republicana , não é preciso pertencer a famílias aristocráticas(como muitos pensam e mal, aproveitando-se disso para nos criticar). Podia dizer muito mais á cerca de mim e da minha causa, mas como não percebo muito de internet, vou perquisar mais um pouco para ver como é a estrutura da página, mais tarde falo mais de mim e da minha causa. Com os melhores cumprimentos e Saudações Monárquicas: Diogo Costa V. T. Pereira
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Monárquica",
+    "label": "PESSOA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Monárquico",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Instituição Real",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Republicana",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Diogo Costa V. T. Pereira",
+    "label": "PESSOA",
+    "token_indices": [
+      105,
+      106,
+      107,
+      108,
+      109
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Monárquica",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Monárquica",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Monárquico",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Monárquico",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Diogo Costa V. T. Pereira",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Monárquica', 'PESSOA'), ('Monárquico', 'PESSOA'), ('Instituição Real', 'ABSTRACCAO'), ('Republicana', 'ABSTRACCAO')]
+Espúrias  (FP): [('Monárquica', 'ABSTRACCAO'), ('Monárquica', 'ABSTRACCAO'), ('Monárquico', 'ABSTRACCAO'), ('Monárquico', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Polémica em Vila do Conde PSD denuncia poluição A Comissão Política Concelhia do PSD de Vila do Conde divulgou recentemente um comunicado denunciando casos de poluição que assolam a freguesia de Ferreiró -- um bastião Socialista |Socialista -- e que, no entender dos sociais-democratas, retratam «exemplos de má gestão» da Câmara Municipal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vila do Conde",
+    "label": "LOCAL",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Comissão Política Concelhia do PSD de Vila do Conde",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Ferreiró",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Socialista",
+    "label": "PESSOA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Câmara Municipal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vila do Conde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comissão Política Concelhia do PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Vila do Conde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ferreiró",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Socialista",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Socialista",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Câmara Municipal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Comissão Política Concelhia do PSD de Vila do Conde', 'ORGANIZACAO'), ('Socialista', 'PESSOA')]
+Espúrias  (FP): [('Comissão Política Concelhia do PSD', 'ORGANIZACAO'), ('Vila do Conde', 'LOCAL'), ('Socialista', 'ORGANIZACAO'), ('Socialista', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O documento «laranja» acusa a edilidade de não ter realizado as obras de saneamento da Urbanização 25 de Abril , cujos detritos, diz o comunicado, estão a ser lançados «a céu aberto» para um arruamento vizinho. Referem ainda a existência de uma sucata no «centro de uma zona residencial, onde as águas dos poços correm riscos de contaminação». Finalmente, o PSD divulga que uma fábrica local, a Ferro-Têxtil , está a poluir o «ribeiro dos peixes», colocando em causa o seu aproveitamento para as regas dos terrenos agrícolas que circundam aquela área. Confrontado com as acusações sociais-democratas, Saraiva Dias , vereador substituto do presidente da autarquia, referiu ao PÚBLICO que o comunicado do PSD contém «um conjunto de atoardas, distantes da realidade».
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Urbanização 25 de Abril",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Ferro-Têxtil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Saraiva Dias",
+    "label": "PESSOA",
+    "token_indices": [
+      97,
+      98
+    ]
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "PESSOA",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      113
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Urbanização 25 de Abril",
+    "label": "LOCAL"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ferro-Têxtil",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Saraiva Dias",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PÚBLICO', 'PESSOA'), ('PSD', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No entanto, o autarca reconhece que existem problemas na Urbanização 25 de Abril , que «a Câmara está a resolver, prevendo para breve a instalação dos contentores necessários». Quanto à sucata, o vereador lembra que «foi o Governo de Cavaco Silva | Governo de Cavaco Silva que legislou sobre essa matéria», permitindo a permanência das sucatas até Maio de 1996 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Urbanização 25 de Abril",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Governo de Cavaco Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Cavaco Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Maio de 1996",
+    "label": "TEMPO",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Urbanização 25 de Abril",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Governo de Cavaco Silva",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Governo de Cavaco Silva",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Maio de 1996",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Governo de Cavaco Silva', 'PESSOA'), ('Governo', 'ORGANIZACAO'), ('Cavaco Silva', 'PESSOA')]
+Espúrias  (FP): [('Governo de Cavaco Silva', 'ORGANIZACAO'), ('Governo de Cavaco Silva', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+De qualquer forma, a autarquia já comunicou aos proprietários que, após essa data, não irá permitir casos de poluição ambiental. Na mesma linha, o vereador lembra que a Ferro-Têxtil foi licenciada pelo Ministério da Indústria do Governo cessante, a quem deverá ser imputada a responsabilidade de eventuais problemas. Ao que o PÚBLICO apurou, a administração da empresa chegou recentemente a um acordo com a Direcção Regional do Ambiente para que os detritos sejam encaminhados para uma estação de tratamento de águas residuais a construir em Fradelos , no âmbito do projecto de despoluição do rio Ave . A.T.M.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ferro-Têxtil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Ministério da Indústria",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "PESSOA",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Direcção Regional do Ambiente",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Fradelos",
+    "label": "LOCAL",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Ave",
+    "label": "LOCAL",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "A.T.M.",
+    "label": "PESSOA",
+    "token_indices": [
+      97
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ferro-Têxtil",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério da Indústria",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Direcção Regional do Ambiente",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Fradelos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ave",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('PÚBLICO', 'PESSOA'), ('A.T.M.', 'PESSOA')]
+Espúrias  (FP): [('PÚBLICO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Actv Home Page Aeroclube de Torres Vedras Esta Página está no SAPO . [ Page Banner Image ]. Benvindos à página Web do Aeroclube de Torres Vedras .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aeroclube de Torres Vedras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "SAPO",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Web",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Aeroclube de Torres Vedras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Actv",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Aeroclube de Torres Vedras",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "SAPO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Aeroclube de Torres Vedras",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('SAPO', 'LOCAL'), ('Web', 'LOCAL')]
+Espúrias  (FP): [('Actv', 'ORGANIZACAO'), ('SAPO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Estamos situados junto à praia de Santa Cruz , no concelho de Torres Vedras , tendo a nossa sede nas nossas instalações no aeródromo municipal. Dispomos uma frota de 9 aviões, de 2 e 4 lugares, um planador e um ultra ligeiro com motor. A nossa Escola de Pilotagem utiliza 3 salas de aulas, 1 quais em Lisboa , estando equipada com modernos meios audio visuais. Dispomos um laboratório para a prática de comunicações aeronáuticas e de um treinador de procedimentos de voo assistido por computador. Voam connosco actualmente dezenas de pilotos todos os anos, por prazer, para treino ou para aumentar a sua experiência de voo, tendo em vista um futuro acesso a uma carreira de piloto profissional. A nossa Escola de Pilotagem ajudou a formar dezenas de pilotos particulares e profissionais, sendo actualmente dirigida pelo Cmdt. João Filhó , um profissional da aviação que trabalha na Portugália , e que é um entre as dezenas de profissionais que iniciaram ou reforçaram a sua actividade de pilotos no ACTV .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Santa Cruz",
+    "label": "LOCAL",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Torres Vedras",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "9",
+    "label": "VALOR",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "2",
+    "label": "VALOR",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "4",
+    "label": "VALOR",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Escola de Pilotagem",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "3",
+    "label": "VALOR",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "1",
+    "label": "VALOR",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Escola de Pilotagem",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      121,
+      122,
+      123
+    ]
+  },
+  {
+    "text": "Cmdt. João Filhó",
+    "label": "PESSOA",
+    "token_indices": [
+      137,
+      138,
+      139
+    ]
+  },
+  {
+    "text": "Portugália",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      148
+    ]
+  },
+  {
+    "text": "ACTV",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      169
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Santa Cruz', 'LOCAL'), ('Torres Vedras', 'LOCAL'), ('9', 'VALOR'), ('2', 'VALOR'), ('4', 'VALOR'), ('Escola de Pilotagem', 'ORGANIZACAO'), ('3', 'VALOR'), ('1', 'VALOR'), ('Lisboa', 'LOCAL'), ('Escola de Pilotagem', 'ORGANIZACAO'), ('Cmdt. João Filhó', 'PESSOA'), ('Portugália', 'ORGANIZACAO'), ('ACTV', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Comentários sobre esta página podem ser enviados por e-mail para pedromaya@mail.telepac.pt Contactos com o ACTV para: ACTV Aeródromo Municipal de Santa Cruz 2560 SILVEIRA ou por e-mail para opsactv@actv.pt ou pedromaya@mail.telepac.pt
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ACTV",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "ACTV",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Aeródromo Municipal de Santa Cruz 2560 SILVEIRA",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ACTV",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Aeródromo Municipal de Santa Cruz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "2560 SILVEIRA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ACTV",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "opsactv@actv.pt",
+    "label": "OUTRO"
+  },
+  {
+    "text": "pedromaya@mail.telepac.pt",
+    "label": "OUTRO"
+  }
+]
+
+Perdidas  (FN): [('Aeródromo Municipal de Santa Cruz 2560 SILVEIRA', 'LOCAL')]
+Espúrias  (FP): [('Aeródromo Municipal de Santa Cruz', 'LOCAL'), ('2560 SILVEIRA', 'LOCAL'), ('opsactv@actv.pt', 'OUTRO'), ('pedromaya@mail.telepac.pt', 'OUTRO')]
+

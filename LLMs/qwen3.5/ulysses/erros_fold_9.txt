@@ -1,0 +1,3029 @@
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS PROJETO DE LEI Nº , DE 2019 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( Do Sr. Wladimir Garotinho ) Revoga-se a Lei nº 13.586 , de 28 de dezembro de 2017 , que dispõe sobre o tratamento tributário das atividades de exploração e de desenvolvimento de campo de petróleo ou de gás natural ; institui regime tributário especial para as atividades de exploração , de desenvolvimento e de produção de petróleo , de gás natural e de outros hidrocarbonetos fluidos ; altera as Leis n º 9.481 , de 13 de agosto de 1997 , e 12.973 , de 13 de maio de 2014 ; e revoga dispositivo do Decreto-Lei nº 62 , de 21 de novembro de 1966 , entre outras providências .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Wladimir Garotinho",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Lei nº 13.586 , de 28 de dezembro de 2017",
+    "label": "FUNDlei",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Leis n º 9.481 , de 13 de agosto de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ]
+  },
+  {
+    "text": "12.973 , de 13 de maio de 2014",
+    "label": "FUNDlei",
+    "token_indices": [
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ]
+  },
+  {
+    "text": "Decreto-Lei nº 62 , de 21 de novembro de 1966",
+    "label": "FUNDlei",
+    "token_indices": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Wladimir Garotinho",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 13.586 , de 28 de dezembro de 2017",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Leis n º 9.481 , de 13 de agosto de 1997 , e nº 10.197 , de 20 de janeiro de 2001",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Lei nº 10.197 , de 2001",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Fundo de Desenvolvimento do Setor de Petróleo e Gás Natural",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Leis n º 9.481 , de 13 de agosto de 1997', 'FUNDlei'), ('12.973 , de 13 de maio de 2014', 'FUNDlei'), ('Decreto-Lei nº 62 , de 21 de novembro de 1966', 'FUNDlei')]
+Espúrias  (FP): [('Leis n º 9.481 , de 13 de agosto de 1997 , e nº 10.197 , de 20 de janeiro de 2001', 'FUNDlei'), ('Lei nº 10.197 , de 2001', 'FUNDlei'), ('Fundo de Desenvolvimento do Setor de Petróleo e Gás Natural', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO A aprovação da Medida Provisória nº . 795 / 2017 , que concede incentivos fiscais às empresas petrolíferas que exploram camadas do pré-sal e pós-sal no território brasileiro importa em renúncia fiscal excessiva , inclusive apelidada pela grande imprensa de “ MP do Trilhão ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medida Provisória nº . 795 / 2017",
+    "label": "FUNDprojetodelei",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "MP do Trilhão",
+    "label": "FUNDapelido",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Medida Provisória nº . 795 / 2017",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "grande imprensa",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('Medida Provisória nº . 795 / 2017', 'FUNDprojetodelei'), ('MP do Trilhão', 'FUNDapelido')]
+Espúrias  (FP): [('Medida Provisória nº . 795 / 2017', 'FUNDlei'), ('grande imprensa', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 4 3 6 / 2 0 1 9 A p re s e n ta ç ã o : 1 3 / 0 8 / 2 0 1 9 1 9 : 5 2 CÂMARA DOS DEPUTADOS A exposição de motivos da referida Medida Provisória trouxe a renúncia fiscal , com a consequente redução da carga tributária para o setor , tendo o ano de 2020 como o prazo máximo de uso dos benefícios .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "2020",
+    "label": "DATA",
+    "token_indices": [
+      69
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2020",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ressalta-se ainda a incoerência com o aspecto ambiental , pois a lei que se pretende a revogação contradiz a política de incentivo ao baixo carbono e ao necessário cumprimento de metas relativas aos pactos que assumimos como Nação referente ao Acordo de Paris , por exemplo , pois incentiva justamente a exploração , desenvolvimento e produção de energia altamente poluente .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Acordo de Paris",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Acordo de Paris', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por fim , as situações que conferem tratamento diferenciado e que não se fundam no rol das imunidades constitucionalmente previstas devem ser revistas , em decorrência de fato superveniente que altere as condições de concessão ou ainda por livre disposição do ente competente , devido à nova conjuntura econômica ou ineficiência da política pública que considerou a viabilidade dos referidos benefícios P L n .4 4 3 6 / 2 0 1 9 A p re s e n ta ç ã o : 1 3 / 0 8 / 2 0 1 9 1 9 : 5 2 CÂMARA DOS DEPUTADOS fiscais , considerando aqui princípios constitucionais que envolvem a administração pública .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      99,
+      100,
+      101
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No Brasil , desde 2014 , tem sido realizada a campanha “ Setembro Amarelo ” , uma iniciativa do Centro de Valorização da Vida , do Conselho Federal de Medicina e da Associação Brasileira de Psiquiatria 1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "2014",
+    "label": "DATA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Setembro Amarelo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Centro de Valorização da Vida",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Conselho Federal de Medicina",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Associação Brasileira de Psiquiatria",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2014",
+    "label": "DATA"
+  },
+  {
+    "text": "Setembro Amarelo",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Centro de Valorização da Vida",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Conselho Federal de Medicina",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Associação Brasileira de Psiquiatria",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto'), ('Conselho Federal de Medicina', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Conselho Federal de Medicina', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em setembro de 2017 , o MS lançou a Agenda de Ações Estratégicas para a Vigilância e Prevenção do Suicídio e Promoção da Saúde no Brasil 2017 - 2020 5 , com o objetivo de reduzir em 10% a mortalidade por 1 https : / / www.ufrgs.br / telessauders / noticias / dia-mundial-prevencao-suicidio / 2 https : / / www.paho.org / bra / index.php ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "setembro de 2017",
+    "label": "DATA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "MS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Agenda de Ações Estratégicas para a Vigilância e Prevenção do Suicídio e Promoção da Saúde no Brasil 2017 - 2020",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "https : / / www.ufrgs.br / telessauders / noticias / dia-mundial-prevencao-suicidio /",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "https : / / www.paho.org / bra /",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "setembro de 2017",
+    "label": "DATA"
+  },
+  {
+    "text": "MS",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Agenda de Ações Estratégicas para a Vigilância e Prevenção do Suicídio e Promoção da Saúde no Brasil 2017 - 2020",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "paho.org",
+    "label": "LOCALvirtual"
+  }
+]
+
+Perdidas  (FN): [('https : / / www.ufrgs.br / telessauders / noticias / dia-mundial-prevencao-suicidio /', 'LOCALvirtual'), ('https : / / www.paho.org / bra /', 'LOCALvirtual')]
+Espúrias  (FP): [('paho.org', 'LOCALvirtual')]
+
+--------------------------------------------------------------------------------
+Texto:
+option = com_content & view = article & id = 5671 : folha-informativa - suicidio & Itemid = 839 3 http : / / portalarquivos2 . saude.gov.br / images / pdf / 2018 / setembro / 20 / Coletiva-suic - - dio.pdf 4 http : / / www.saude.gov.br / saude-de-a-z / suicidio 5 https : / / www.neca.org.br / wp-content / uploads / cartilha_agenda-estrategica-publicada.pdf P L n .4 8 7 3 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 4 : 5 8 3 suicídio até 2020 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "http : / / portalarquivos2 . saude.gov.br / images / pdf / 2018 / setembro / 20 / Coletiva-suic - - dio.pdf",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "http : / / www.saude.gov.br / saude-de-a-z / suicidio 5 https : / / www.neca.org.br / wp-content / uploads / cartilha_agenda-estrategica-publicada.pdf",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "2020",
+    "label": "DATA",
+    "token_indices": [
+      105
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Organização Mundial da Saúde ( OMS )",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('http : / / portalarquivos2 . saude.gov.br / images / pdf / 2018 / setembro / 20 / Coletiva-suic - - dio.pdf', 'LOCALvirtual'), ('http : / / www.saude.gov.br / saude-de-a-z / suicidio 5 https : / / www.neca.org.br / wp-content / uploads / cartilha_agenda-estrategica-publicada.pdf', 'LOCALvirtual'), ('2020', 'DATA')]
+Espúrias  (FP): [('Organização Mundial da Saúde ( OMS )', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Deputada REJANE DIAS 6 http : / / www.planalto.gov.br / ccivil _ 03 / _ ato2019 - 2022 / 2019 / lei / L13819 . htm P L n .4 8 7 3 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 4 : 5 8
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputada",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "REJANE DIAS",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "http : / / www.planalto.gov.br / ccivil _ 03 / _ ato2019 - 2022 / 2019 / lei / L13819 . htm",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputada",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "REJANE DIAS",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('http : / / www.planalto.gov.br / ccivil _ 03 / _ ato2019 - 2022 / 2019 / lei / L13819 . htm', 'LOCALvirtual')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art .1º O art .110 e o art .112 , Inc .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "art .110",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "art .112",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('art .110', 'FUNDlei'), ('art .112', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO O Projeto de Lei que ora se apresenta à consideração das senhoras e dos senhores parlamentares insere-se na linha das iniciativas legislativas destinadas a estimular a participação das mulheres em pleitos eleitorais e a promover a igualdade entre mulheres e homens na esfera política .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "parlamentares",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('parlamentares', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os casos de empate entre as votações obtidas por distintas candidaturas em eleições proporcionais não são , naturalmente , significativos percentualmente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "eleições proporcionais",
+    "label": "EVENTO",
+    "token_indices": [
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('eleições proporcionais', 'EVENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É a situação , por exemplo , de Minas Gerais , em que o primeiro empate nas eleições de 2014 para a Assembleia Legislativa , entre Giovanni Coelho ( PDT ) e Alessandra Farmacêutica ( PPS ) , se deu entre candidaturas que obtiveram 2.248 votos cada , enquanto o candidato eleito com menor votação obteve 25.394 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Minas Gerais",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "eleições de 2014 para a Assembleia Legislativa",
+    "label": "EVENTO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Giovanni Coelho",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "PDT",
+    "label": "ORGpartido",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Alessandra Farmacêutica",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "PPS",
+    "label": "ORGpartido",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Minas Gerais",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "2014",
+    "label": "DATA"
+  },
+  {
+    "text": "Assembleia Legislativa",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Giovanni Coelho",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PDT",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "Alessandra Farmacêutica",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PPS",
+    "label": "ORGpartido"
+  }
+]
+
+Perdidas  (FN): [('eleições de 2014 para a Assembleia Legislativa', 'EVENTO')]
+Espúrias  (FP): [('2014', 'DATA'), ('Assembleia Legislativa', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+No Distrito Federal , houve empate , nas eleições de 2014 para a Câmara Legislativa , entre Roberto Lucena ( PMDB ) e Goudim ( PPL ) , que obtiveram 6.139 votos cada , enquanto Luzia de Paula ( PEN ) se elegeu com 7.428 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "eleições de 2014 para a Câmara Legislativa",
+    "label": "EVENTO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Roberto Lucena",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGpartido",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Goudim",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "PPL",
+    "label": "ORGpartido",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Luzia de Paula",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "PEN",
+    "label": "ORGpartido",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Distrito Federal",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "2014",
+    "label": "DATA"
+  },
+  {
+    "text": "Câmara Legislativa",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Roberto Lucena",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "Goudim",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PPL",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "Luzia de Paula",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PEN",
+    "label": "ORGpartido"
+  }
+]
+
+Perdidas  (FN): [('eleições de 2014 para a Câmara Legislativa', 'EVENTO')]
+Espúrias  (FP): [('2014', 'DATA'), ('Câmara Legislativa', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mais significativo ainda foi o empate nas eleições para a Assembleia Legislativa do Amapá entre duas candidatas eleitas , Edna Auzier ( PROS ) e Maria Góes ( PDT ) , ambas com 5.028 votos , votação superior à do Professor Paulo Lemos ( PSOL ) , de 4.105 votos , que se elegeu com a menor votação no pleito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "eleições para a Assembleia Legislativa do Amapá",
+    "label": "EVENTO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Edna Auzier",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "PROS",
+    "label": "ORGpartido",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Maria Góes",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "PDT",
+    "label": "ORGpartido",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Professor Paulo Lemos",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "PSOL",
+    "label": "ORGpartido",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Assembleia Legislativa do Amapá",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Edna Auzier",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PROS",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "Maria Góes",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PDT",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "Professor Paulo Lemos",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "PSOL",
+    "label": "ORGpartido"
+  }
+]
+
+Perdidas  (FN): [('eleições para a Assembleia Legislativa do Amapá', 'EVENTO'), ('Professor Paulo Lemos', 'PESSOAindividual')]
+Espúrias  (FP): [('Assembleia Legislativa do Amapá', 'ORGgovernamental'), ('Professor Paulo Lemos', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas esses números , referentes a 27 circunscrições , quais sejam , os 26 estados e o Distrito Federal , servem-nos apenas de parâmetro para o que acontece nas eleições de mais de 5.500 câmaras de vereadores , a cada quatro anos , em todo o Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "eleições",
+    "label": "EVENTO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "câmaras de vereadores",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "eleições",
+    "label": "EVENTO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('câmaras de vereadores', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em outras palavras , a norma proposta neste Projeto de Lei levará concretamente à eleição de deputadas e , principalmente , de vereadoras que sem ela não se elegeriam .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "eleição de deputadas",
+    "label": "EVENTO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "vereadoras",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "deputadas",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "vereadoras",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): [('eleição de deputadas', 'EVENTO')]
+Espúrias  (FP): [('deputadas', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO O Programa Nacional de Alimentação Escolar ( PNAE ) , implementado pelo Fundo Nacional de Desenvolvimento da Educação ( FNDE ) , é uma das iniciativas mais bem-sucedidas em termos de ação suplementar do governo federal para oferecer condições adequadas de aprendizagem às crianças e jovens alunos das redes públicas de educação básica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Programa Nacional de Alimentação Escolar ( PNAE )",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Fundo Nacional de Desenvolvimento da Educação ( FNDE )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "governo federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Programa Nacional de Alimentação Escolar ( PNAE )",
+    "label": "PRODUTOprograma"
+  },
+  {
+    "text": "Fundo Nacional de Desenvolvimento da Educação ( FNDE )",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Fundo Nacional de Desenvolvimento da Educação ( FNDE )', 'PRODUTOoutros'), ('governo federal', 'ORGgovernamental')]
+Espúrias  (FP): [('Fundo Nacional de Desenvolvimento da Educação ( FNDE )', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 8 6 0 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 0 : 4 1 2 A Lei nº 11.947 , de 2009 , colaborou decisivamente para a institucionalização e o aperfeiçoamento do PNAE ao determinar a elaboração de cardápios por nutricionista , estimular o consumo de gêneros alimentícios locais , fortalecer o controle social por meio dos Conselhos de Alimentação Escolar e garantir atenção nutricional individualizada em virtude de estado ou de condição de saúde específica do educando , entre outros avanços .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 11.947 , de 2009",
+    "label": "FUNDlei",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "PNAE",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "nutricionista",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Conselhos de Alimentação Escolar",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      81,
+      82,
+      83,
+      84
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 11.947 , de 2009",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "PNAE",
+    "label": "PRODUTOprograma"
+  },
+  {
+    "text": "agricultores familiares",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): [('nutricionista', 'PESSOAcargo'), ('Conselhos de Alimentação Escolar', 'ORGgovernamental')]
+Espúrias  (FP): [('agricultores familiares', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+As primeiras mudas e sementes vieram para o Brasil em 1727 , trazidas pelo sargento-mor Francisco de Melo Palheta , que se espalharam rapidamente pelo País .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "1727",
+    "label": "DATA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "sargento-mor Francisco de Melo Palheta",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "1727",
+    "label": "DATA"
+  },
+  {
+    "text": "Francisco de Melo Palheta",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('sargento-mor Francisco de Melo Palheta', 'PESSOAindividual')]
+Espúrias  (FP): [('Francisco de Melo Palheta', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ao longo da nossa história , o café foi fonte não apenas de alimento , mas também de práticas e usos populares e objeto de manifestações folclóricas , como essa quadrinha registrada por Luís da Câmara Cascudo , no Dicionário do Folclore Brasileiro : Senhora dona de casa , cinturinha de retrós vai lá na cozinha fazer café pra nós .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luís da Câmara Cascudo",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Luís da Câmara Cascudo",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Dicionário do Folclore Brasileiro",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Dicionário do Folclore Brasileiro', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tanto é assim que se gerou , na República Velha , a chamada política do café-com-leite , um acordo firmado entre as oligarquias estaduais e o governo federal para que os presidentes da República fossem escolhidos entre os políticos de São Paulo e Minas Gerais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "presidentes da República",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "políticos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "República Velha",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "política do café-com-leite",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "presidente da República",
+    "label": "PESSOAcargo"
+  }
+]
+
+Perdidas  (FN): [('presidentes da República', 'PESSOAgrupocargo'), ('políticos', 'PESSOAgrupocargo')]
+Espúrias  (FP): [('República Velha', 'LOCALconcreto'), ('política do café-com-leite', 'PRODUTOoutros'), ('presidente da República', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado ZÉ VITOR 2019 - 13713 P L n .4 8 6 0 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 0 : 4 1
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "ZÉ VITOR",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "ZÉ VITOR",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('2019', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+HUGO MOTTA ) Dispõe sobre o livre exercício da profissão de músico .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HUGO MOTTA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "músico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HUGO MOTTA",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('músico', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º É livre o exercício da profissão de músico em todo o território nacional , sendo vedada a exigência de inscrição em entidade de qualquer espécie .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "músico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('músico', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No caso específico da profissão de músico , o Poder Judiciário tem se manifestado , de forma reiterada , no sentido de que os artigos da Lei 3.857 , de 22 de dezembro de 1960 , que submetem o exercício profissional do músico à inscrição prévia na Ordem dos Músicos do Brasil – OMB , não foram recepcionados pelo novo texto constitucional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "músico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Poder Judiciário",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Lei 3.857 , de 22 de dezembro de 1960",
+    "label": "FUNDlei",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "músico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Ordem dos Músicos do Brasil – OMB",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Judiciário",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "artigos da Lei 3.857 , de 22 de dezembro de 1960",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Ordem dos Músicos do Brasil – OMB",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('músico', 'PESSOAcargo'), ('Lei 3.857 , de 22 de dezembro de 1960', 'FUNDlei'), ('músico', 'PESSOAcargo')]
+Espúrias  (FP): [('artigos da Lei 3.857 , de 22 de dezembro de 1960', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Vejamos dois julgados paradigmáticos : “ ADMINISTRATIVO – MANDADO DE SEGURANÇA – INSCRIÇÃO NA ORDEM DOS MÚSICOS DO BRASIL .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ORDEM DOS MÚSICOS DO BRASIL",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ADMINISTRATIVO",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "MANDADO DE SEGURANÇA",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "ORDEM DOS MÚSICOS DO BRASIL",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('ADMINISTRATIVO', 'PRODUTOoutros'), ('MANDADO DE SEGURANÇA', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+I – No caso da profissão de músico , em que se trata de atividade que não se apresenta perigosa ou prejudicial à sociedade , diferentemente das profissões de médico , advogado ou engenheiro , que exigem controle rigoroso , tendo em vista que põem em risco bens jurídicos de extrema importância , como a liberdade , a vida , a saúde , a segurança e o patrimônio das pessoas , afigura-se desnecessária a inscrição em ORDEM ou conselho para o exercício da profissão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "músico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "médico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "advogado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "engenheiro",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('músico', 'PESSOAcargo'), ('médico', 'PESSOAcargo'), ('advogado', 'PESSOAcargo'), ('engenheiro', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( TRF 3ª Região , MAS 2001.61.05.002134 - 00 , Rel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TRF 3ª Região",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TRF 3ª Região",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "2001.61.05.002134 - 00",
+    "label": "LOCALvirtual"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('2001.61.05.002134 - 00', 'LOCALvirtual')]
+
+--------------------------------------------------------------------------------
+Texto:
+ORDEM DOS MÚSICOS DO BRASIL .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ORDEM DOS MÚSICOS DO BRASIL",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MÚSICOS",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "BRASIL",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "ORDEM DOS MÚSICOS DO BRASIL",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('MÚSICOS', 'PESSOAgrupocargo'), ('BRASIL', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+MÚSICO PROFISSIONAL .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MÚSICO",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MÚSICO', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Estabelece a Constituição , no art . 5º , XIII , que ‘ é livre o exercício de qualquer trabalho , ofício ou profissão , atendidas as qualificações profissionais que a lei estabelecer ’ .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Constituição , no art . 5º , XIII",
+    "label": "FUNDlei",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Constituição",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Constituição , no art . 5º , XIII', 'FUNDlei')]
+Espúrias  (FP): [('Constituição', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+No caso do músico , a atividade não se apresenta perigosa ou prejudicial à sociedade , diferentemente das profissões de médico , advogado ou engenheiro , que exigem controle rigoroso , tendo em vista que põem em risco bens jurídicos de extrema importância , como a liberdade , a 3 vida , a saúde , a segurança e o patrimônio das pessoas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "músico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "médico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "advogado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "engenheiro",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('músico', 'PESSOAcargo'), ('médico', 'PESSOAcargo'), ('advogado', 'PESSOAcargo'), ('engenheiro', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Afigura-se , portanto , desnecessária inscrição em ordem ou conselho para o exercício da profissão de músico .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "músico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('músico', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Federal João Batista Moreira , DJ 21.02.2003 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "João Batista Moreira",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "21.02.2003",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "João Batista Moreira",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "21.02.2003",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Federal', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+No entanto , como , no Brasil , as decisões judiciais só atingem as partes em litígio , em que pese a pacificação da matéria nos tribunais , os músicos , em todo o território nacional , continuam sofrendo constrangimento no exercício de sua profissão por parte dos fiscais da OMB .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "músicos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "OMB",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "músicos",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "território nacional",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "fiscais da OMB",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): [('OMB', 'ORGnaogovernamental')]
+Espúrias  (FP): [('território nacional', 'LOCALconcreto'), ('fiscais da OMB', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sob a alegação de exercício ilegal da profissão , shows são interrompidos ; multas são apresentadas tanto aos músicos quanto aos que contratam os seus trabalhos , processos judiciais são interpostos para cobrança de anuidade dos músicos etc .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "músicos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "músicos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('músicos', 'PESSOAgrupocargo'), ('músicos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os abusos cometidos pelos fiscais da OMB chegam ao ponto de multarem até mesmo quem esteja tocando amadoristicamente algum instrumento em reuniões informais , ou em cultos religiosos , sem nenhuma remuneração .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OMB",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "fiscais da OMB",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('OMB', 'ORGnaogovernamental')]
+Espúrias  (FP): [('fiscais da OMB', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+O afã arrecadatório da OMB , nos últimos dias , chegou ao paroxismo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OMB",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "OMB",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('OMB', 'ORGnaogovernamental')]
+Espúrias  (FP): [('OMB', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com surpresa e indignação , tomamos conhecimento de que , em São Paulo , foi criada uma “ Delegacia Cristã Musical ” , com o objetivo de fiscalizar a atividade dos músicos que atuam em cultos de igrejas evangélicas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Delegacia Cristã Musical",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "músicos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Delegacia Cristã Musical",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('músicos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A atitude da Ordem dos Músicos é tão injustificável que o Ministério Público Federal , por meio da Procuradora da República Débora Duprat , ajuizou uma Arguição de Descumprimento de Preceito Fundamental ( DPF ) junto ao Supremo Tribunal Federal , pedindo o reconhecimento da não recepção de dispositivos da Lei 3.857 / 60 , que criou a Ordem e regula o exercício profissional do músico .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ordem dos Músicos",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Ministério Público Federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Procuradora da República",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Débora Duprat",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Lei 3.857 / 60",
+    "label": "FUNDlei",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "músico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ministério Público Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Procuradora da República",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Débora Duprat",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Arguição de Descumprimento de Preceito Fundamental ( DPF )",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Lei 3.857 / 60",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Ordem dos Músicos",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('músico', 'PESSOAcargo')]
+Espúrias  (FP): [('Arguição de Descumprimento de Preceito Fundamental ( DPF )', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+4 Entre os dispositivos apontados como inconstitucionais figura justamente o que torna obrigatória a filiação aos quadros da OMB .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OMB",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "OMB",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('OMB', 'ORGnaogovernamental')]
+Espúrias  (FP): [('OMB', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , entendemos que abusos como esses que vêm sendo cometidos pela OMB não se justificam , de forma alguma , em um estado democrático de direito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OMB",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "OMB",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('OMB', 'ORGnaogovernamental')]
+Espúrias  (FP): [('OMB', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tem direito a instituição e atuação de bancada o partido que tenha representação igual ou superior a cinco por cento da composição da respectiva Casa Legislativa ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Casa Legislativa",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Casa Legislativa', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os partidos com representação inferior a cinco por cento da composição da respectiva Casa Legislativa poderão compor bloco parlamentar com o objetivo de exercer prerrogativas de bancada , desde que o bloco parlamentar tenha representação igual ou superior a cinco por cento dos membros da respectiva Casa Legislativa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Casa Legislativa",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Casa Legislativa",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Casa Legislativa",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Casa Legislativa', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+2 JUSTIFICAÇÃO O contínuo aperfeiçoamento do processo legislativo deve ser uma preocupação presente no cotidiano de todos os parlamentares eleitos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "parlamentares",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('parlamentares', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com o objetivo de conferir maior celeridade aos debates e decisões no Poder Legislativo , proponho que as prerrogativas de bancadas sejam exercidas exclusivamente por partidos ou blocos parlamentares com representação superior a cinco por cento da composição da Casa Legislativa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Legislativo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Casa Legislativa",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      39,
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Legislativo",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Poder Legislativo",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Casa Legislativa', 'ORGgovernamental')]
+Espúrias  (FP): [('Poder Legislativo', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+45 , um adicional de 25% , incidente sobre o valor da respectiva aposentadoria , para o segurado do Regime Geral de Previdência Social – RGPS que tenha se aposentado por invalidez e que comprove a necessidade de ajuda permanente de terceiros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Regime Geral de Previdência Social – RGPS",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Regime Geral de Previdência Social – RGPS",
+    "label": "PRODUTOsistema"
+  }
+]
+
+Perdidas  (FN): [('Regime Geral de Previdência Social – RGPS', 'PRODUTOoutros')]
+Espúrias  (FP): [('Regime Geral de Previdência Social – RGPS', 'PRODUTOsistema')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esse adicional é pago ainda que , após a sua aplicação , o valor da aposentadoria supere o limite máximo de benefícios do Regime Geral de Previdência Social – RGPS .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Regime Geral de Previdência Social – RGPS",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Regime Geral de Previdência Social – RGPS",
+    "label": "PRODUTOsistema"
+  }
+]
+
+Perdidas  (FN): [('Regime Geral de Previdência Social – RGPS', 'PRODUTOoutros')]
+Espúrias  (FP): [('Regime Geral de Previdência Social – RGPS', 'PRODUTOsistema')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ressalte-se que esse é o entendimento do Superior Tribunal de Justiça – STJ , que reconheceu , em decisão recente , o direito ao adicional para todos os segurados do RGPS que necessitam de auxílio de terceiros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal de Justiça – STJ",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "RGPS",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Superior Tribunal de Justiça – STJ",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('RGPS', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em seu voto , a Ministra Regina Helena Costa argumentou que a situação de 3 vulnerabilidade e necessidade de auxílio permanente pode acontecer com qualquer segurado do Instituto Nacional do Seguro Social – INSS , e não somente com os segurados aposentados por invalidez , não podendo aquele Tribunal deixar ao desamparo idosos que não têm recursos suficientes para arcar com os custos de um cuidador em tempo integral .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministra",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Regina Helena Costa",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Instituto Nacional do Seguro Social – INSS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "cuidador",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ministra",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Regina Helena Costa",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Instituto Nacional do Seguro Social – INSS",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('cuidador', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Seus argumentos convenceram outros quatro integrantes da Primeira Seção do STJ , tendo a extensão do benefício sido aprovada por cinco votos a quatro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STJ",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Primeira Seção do STJ",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('STJ', 'ORGgovernamental')]
+Espúrias  (FP): [('Primeira Seção do STJ', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esse tratamento isonômico a todo e qualquer aposentado do RGPS vai ao encontro de um dos princípios fundamentais da Constituição Federal , contido em seu art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RGPS",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Constituição Federal",
+    "label": "FUNDapelido",
+    "token_indices": [
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Constituição Federal",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('RGPS', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado JÚLIO CÉSAR RIBEIRO 2019 - 1152
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "JÚLIO CÉSAR RIBEIRO",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "JÚLIO CÉSAR RIBEIRO",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('2019', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+I - 6% ( seis por cento ) para a entidade reguladora do setor de mineração ; II – 1,5% ( um inteiro e cinco décimos por cento ) para o Fundo Nacional de Desenvolvimento Científico e Tecnológico ( FNDCT ) , instituído pelo Decreto-Lei nº 719 , de 31 de julho de 1969 , e restabelecido pela Lei nº 8.172 , de 18 de janeiro de 1991 , destinado ao desenvolvimento científico e tecnológico do setor mineral , sendo aplicado , no mínimo , 0,5% ( cinco décimos por cento ) em pesquisas , estudos e projetos para o beneficiamento de rejeitos e estéreis de minerais para uso em outras cadeias produtivas ; .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fundo Nacional de Desenvolvimento Científico e Tecnológico ( FNDCT )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Decreto-Lei nº 719 , de 31 de julho de 1969",
+    "label": "FUNDlei",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Lei nº 8.172 , de 18 de janeiro de 1991",
+    "label": "FUNDlei",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Fundo Nacional de Desenvolvimento Científico e Tecnológico ( FNDCT )', 'PRODUTOoutros'), ('Decreto-Lei nº 719 , de 31 de julho de 1969', 'FUNDlei'), ('Lei nº 8.172 , de 18 de janeiro de 1991', 'FUNDlei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 2 9 9 / 2 0 1 9 A p re s e n ta ç ã o : 0 7 / 0 8 / 2 0 1 9 1 4 : 5 4 2 JUSTIFICAÇÃO O presente projeto de lei busca ajustar os percentuais de destinação da Compensação Financeira pela Exploração de Recursos Minerais ( CFEM ) , instituída pela Lei nº 8.001 , de 1990 , com o objetivo de acrescentar o volume de recursos destinados ao Fundo Nacional de Desenvolvimento Científico e Tecnológico ( FNDCT ) , e ao Centro de Tecnologia Mineral ( Cetem ) , para a realização de pesquisas , estudos e projetos para o beneficiamento de rejeitos e estéreis de minerais para uso em outras cadeias produtivas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Compensação Financeira pela Exploração de Recursos Minerais ( CFEM )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Lei nº 8.001 , de 1990",
+    "label": "FUNDlei",
+    "token_indices": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Fundo Nacional de Desenvolvimento Científico e Tecnológico ( FNDCT )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "text": "Centro de Tecnologia Mineral ( Cetem )",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Compensação Financeira pela Exploração de Recursos Minerais ( CFEM )",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Lei nº 8.001 , de 1990",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Fundo Nacional de Desenvolvimento Científico e Tecnológico ( FNDCT )', 'PRODUTOoutros'), ('Centro de Tecnologia Mineral ( Cetem )', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com essa proposição , estamos destinando 1% do valor da CFEM para a realização de pesquisas , estudos e projetos para o beneficiamento de rejeitos e estéreis de minerais para uso em outras cadeias produtivas , o que é do interesse dos empresários da mineração , pois o reaproveitamento dos rejeitos minerais agrega valor ao processo produtivo desse setor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CFEM",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CFEM",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('CFEM', 'PRODUTOoutros')]
+Espúrias  (FP): [('CFEM', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+123 deste Estatuto até completar dezoito anos de idade , após o que será transferido para estabelecimento penal onde será cumprida o restante da pena de acordo com a Lei nº 7.210 , de 11 de julho de 1984 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 7.210 , de 11 de julho de 1984",
+    "label": "FUNDlei",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "Lei nº 7.210 , de 11 de julho de 1984",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Estatuto', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tudo isso , embalados pelo falso entendimento de que há , no ECA , uma velada promessa da impunidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ECA",
+    "label": "FUNDapelido",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ECA', 'FUNDapelido')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional há muito vem debatendo este tema sem , contudo , chegar a um consenso : por um lado há os que defendem a diminuição da idade penal de forma drástica e generalizada ; por outro os que defendem , de forma veemente , que reduzir a idade penal não é o melhor caminho .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Congresso Nacional",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Congresso Nacional', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O objetivo do presente projeto de lei é justamente apresentar ao debate uma proposta mediadora , em que o Legislativo brasileiro caminhe no sentido de atender ao clamor da sociedade , punindo com mais rigor os menores que cometem infrações equiparadas a crimes graves , mas sem contudo implicar redução imediata da maioridade penal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Legislativo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Legislativo brasileiro",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Legislativo', 'ORGgovernamental')]
+Espúrias  (FP): [('Legislativo brasileiro', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS PROJETO DE LEI Nº , DE 2012 ( Do Sr .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "2012",
+    "label": "DATA",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2012",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 4º É garantida a assistência jurídica , em todos os graus , aos remanescentes das comunidades dos quilombos , a fim de que possam promover a defesa das terras por eles ocupadas contra esbulhos e turbações , assegurada a proteção da integridade territorial da área demarcada nos termos do art .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "remanescentes das comunidades dos quilombos",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('remanescentes das comunidades dos quilombos', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os remanescentes das comunidades dos quilombos guardam os traços de seus antepassados , escravos que se rebelaram contra o sistema escravagista , então vigente no País , e que , pela sua coragem e ousadia , organizaram movimentos de resistência , que se refletem , até hoje , na cultura , nos costumes e tradições de agricultores afro-brasileiros .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "agricultores afro-brasileiros",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('agricultores afro-brasileiros', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+CARLOS HENRIQUE GAGUIM ) Altera a Lei nº 9.394 , de 20 de dezembro de 1996 , que “ Estabelece as diretrizes e bases da educação nacional ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CARLOS HENRIQUE GAGUIM",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CARLOS HENRIQUE GAGUIM",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "educação nacional",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('educação nacional', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO O presente projeto de lei destina-se a alterar a Lei nº 9.394 , de 20 de dezembro de 1996 , que “ Estabelece as diretrizes e bases da educação nacional ” , com vistas a : I ) estabelecer que os estabelecimentos de ensino , respeitadas as normas comuns e as do seu sistema de ensino , terão a incumbência de estabelecer ações destinadas a promover a reparação de danos causados ao patrimônio escolar ; e II ) dispor sobre ações que lhes incumbe para promover a reparação de danos causados ao patrimônio escolar e a cultura de paz no ambiente escolar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "educação nacional",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('educação nacional', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Trata-se de ali explicitar ações que caberão ser implementadas pelos estabelecimentos de ensino com as finalidades referidas e sem prejuízo da observância às normas previstas no Estatuto da Criança e do Adolescente ( Lei nº 8.069 , de 13 de julho de 1990 ) e outras que integram o sistema de proteção da criança e do adolescente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estatuto da Criança e do Adolescente",
+    "label": "FUNDapelido",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Lei nº 8.069 , de 13 de julho de 1990",
+    "label": "FUNDlei",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto da Criança e do Adolescente ( Lei nº 8.069 , de 13 de julho de 1990 )",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Estatuto da Criança e do Adolescente', 'FUNDapelido'), ('Lei nº 8.069 , de 13 de julho de 1990', 'FUNDlei')]
+Espúrias  (FP): [('Estatuto da Criança e do Adolescente ( Lei nº 8.069 , de 13 de julho de 1990 )', 'FUNDlei')]
+

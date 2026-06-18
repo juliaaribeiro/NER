@@ -1,0 +1,3963 @@
+--------------------------------------------------------------------------------
+Texto:
+Ronda - página 1 Ronda tem oficialmente 45 mil habitantes mas, como uma dama bem conservada, ainda melhor vivida e nascida em berço de ouro, parece que tem menos, muito menos. Situada 125 quilómetros a sul de Sevilha e 60 a norte de Marbelha , a cidade desfruta de uma das localizações mais estonteantes da Espanha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ronda",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Ronda",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "45 mil",
+    "label": "VALOR",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "125 quilómetros",
+    "label": "VALOR",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Sevilha",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "60",
+    "label": "VALOR",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Marbelha",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ronda",
+    "label": "LOCAL"
+  },
+  {
+    "text": "45 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "125 quilómetros",
+    "label": "VALOR"
+  },
+  {
+    "text": "Sevilha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "60",
+    "label": "VALOR"
+  },
+  {
+    "text": "Marbelha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Ronda', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Empoleirada num rochedo fendido por uma vertiginosa garganta de 100 metros de altura, regada pelo rio Gaudalevin , Ronda converteu-se numa fortaleza natural e num monumento nacional. Por causa desta posição quase inexpugnável, foi um dos últimos bastiões mouriscos a serem subjugados pelos reis católicos Fernando e Isabel , em 1485 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "100 metros",
+    "label": "VALOR",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Gaudalevin",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Ronda",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Fernando",
+    "label": "PESSOA",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Isabel",
+    "label": "PESSOA",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "1485",
+    "label": "TEMPO",
+    "token_indices": [
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "100 metros",
+    "label": "VALOR"
+  },
+  {
+    "text": "rio Gaudalevin",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ronda",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fernando",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Isabel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1485",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Gaudalevin', 'LOCAL')]
+Espúrias  (FP): [('rio Gaudalevin', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como se tudo isso não bastasse, a parte histórica do município -o "casco antigo" - éuma das mais belas do país. Quando Deus e os homens fizeram Ronda , andavam com a mania das grandezas e do exibicionismo. O nome deriva de Arunda (rodeada por montanhas), como era chamada por Plínio e Ptolomeu , nos tempos do Império Romano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Ronda",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Arunda",
+    "label": "OUTRO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Plínio",
+    "label": "PESSOA",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Ptolomeu",
+    "label": "PESSOA",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Império Romano",
+    "label": "TEMPO",
+    "token_indices": [
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ronda",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Império Romano",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Arunda', 'OUTRO'), ('Plínio', 'PESSOA'), ('Ptolomeu', 'PESSOA'), ('Império Romano', 'TEMPO')]
+Espúrias  (FP): [('Império Romano', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os sectores "moderno" e "antigo" de Ronda (nem o moderno éplastificado nem o antigo apenas escombros) são ligados por três pontes de pedra: uma romana, uma mourisca e a prodigiosa Puente Nuevo , erguida em 1735 , cujo panorama éde tirar o fôlego a um pescador de pérolas filipino. Por falar em mergulho, durante a Guerra Civil espanhola| Guerra Civil espanhola , quando as prisões estavam cheias até ao gargalo, era costume lançar os prisioneiros pela Puente Nuevo abaixo. Convém lembrar que ainda não haviam sido inventados os pára-quedas. Claro que, se eles voassem, seriam considerados inocentes.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ronda",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Puente Nuevo",
+    "label": "OBRA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "1735",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Guerra Civil",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Guerra Civil espanhola",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Puente Nuevo",
+    "label": "LOCAL",
+    "token_indices": [
+      76,
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ronda",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Puente Nuevo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1735",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Guerra Civil espanhola",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Guerra Civil espanhola",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Puente Nuevo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Puente Nuevo', 'OBRA'), ('Guerra Civil', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Guerra Civil espanhola', 'ACONTECIMENTO'), ('Puente Nuevo', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Essa "insurgência" intelectual sofre um rude golpe com a ditadura do Estado Novo , chefiada por Salazar , que marca o fim da chamada "imprensa livre" e abre um lapso de tempo, de 1926 a 1941 , atreito a dois tipos de tipicismo. Por um lado, temos um tipicismo folclorista e costumbrista, evocativo, reconstituidor da vida cultural popular urbana ou do mato, de que a obra de Óscar Ribas ( Angola ) será o paradigina com inusitados seguidores em tempos mais revolucionários. Este tipicismo de cariz etnográfico tem o contraponto evasionista e mesmo exótico, além de ideologicamente colonialista, na poesia de Tomaz Vieira da Cruz ( Angola ). Noutros, como João Albasini e Caetano Campo ( Moçambique ) ou ainda naqueles do chamado "período hesperitano" de Cabo Verde (com José Lopes e outros), se encontrará o apelo, ainda evasivo e esquivo, de uma peculiaridade telúrica e humana que se deseja demarcadora da colonialidade, mas não o ensejando em pertinência. E uma estética da evasão, da hiper-idealização do real, típica, em Africa , de um regionalismo, conquanto "útil", sobretudo estilizador, turístico, para usar uma metáfora depreciativa, ou seja, inconsequente quanto ao nacionalismo. Por outro lado, deparamos com um outro tipicismo mais localista e regionalista, portanto, telúrico, de integração continental (de africanidade, sim, mas não necessariamente manifesta e veemente), a que anda associado algum orgulho negróide, alguma, ténue, "personalidade africana", que se pode caracterizar politicamente como protonacionalista, de um geo-estrategismo de grande alcance cultural (veja-se o exemplo da Claridade ( 1936 ) cabo-verdiana) ou, pelo menos, propondo modestas vias ideologicamente reformistas e esteticamente conservadoras, como no caso da primeira poesia de Geraldo Bessa Victor (logo depois optando por contribuir para uma estética da luso-tropicalidade freyriana). Estamos, no caso cabo-verdiano da Claridade , perante uma verdadeira criação de crioulidade (de assunção de uma diferença não-portuguesa), ou, em direcção distinta, de entrada no funil de estrangulamento histórico (da estreita portugalidade).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estado Novo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Salazar",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "1926",
+    "label": "TEMPO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "1941",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Óscar Ribas",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Tomaz Vieira da Cruz",
+    "label": "PESSOA",
+    "token_indices": [
+      101,
+      102,
+      103,
+      104
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      106
+    ]
+  },
+  {
+    "text": "João Albasini",
+    "label": "PESSOA",
+    "token_indices": [
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Caetano Campo",
+    "label": "PESSOA",
+    "token_indices": [
+      113,
+      114
+    ]
+  },
+  {
+    "text": "Moçambique",
+    "label": "LOCAL",
+    "token_indices": [
+      116
+    ]
+  },
+  {
+    "text": "Cabo Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      126,
+      127
+    ]
+  },
+  {
+    "text": "José Lopes",
+    "label": "PESSOA",
+    "token_indices": [
+      129,
+      130
+    ]
+  },
+  {
+    "text": "Africa",
+    "label": "LOCAL",
+    "token_indices": [
+      170
+    ]
+  },
+  {
+    "text": "Claridade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      246
+    ]
+  },
+  {
+    "text": "1936",
+    "label": "TEMPO",
+    "token_indices": [
+      248
+    ]
+  },
+  {
+    "text": "Geraldo Bessa Victor",
+    "label": "PESSOA",
+    "token_indices": [
+      269,
+      270,
+      271
+    ]
+  },
+  {
+    "text": "Claridade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      288
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estado Novo",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Salazar",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1926",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1941",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Óscar Ribas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tomaz Vieira da Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1926",
+    "label": "TEMPO"
+  },
+  {
+    "text": "O Povo de Angola",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Estado Novo', 'ABSTRACCAO'), ('Tomaz Vieira da Cruz', 'PESSOA'), ('Angola', 'LOCAL'), ('João Albasini', 'PESSOA'), ('Caetano Campo', 'PESSOA'), ('Moçambique', 'LOCAL'), ('Cabo Verde', 'LOCAL'), ('José Lopes', 'PESSOA'), ('Africa', 'LOCAL'), ('Claridade', 'ABSTRACCAO'), ('1936', 'TEMPO'), ('Geraldo Bessa Victor', 'PESSOA'), ('Claridade', 'ABSTRACCAO')]
+Espúrias  (FP): [('Estado Novo', 'ACONTECIMENTO'), ('Tomaz Vieira da Silva', 'PESSOA'), ('1926', 'TEMPO'), ('O Povo de Angola', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A quarta fase, do Casticismo ( 1942-1960 ), surgiu na sequência de aprofundamento da opção anti-colonial, como corolário lógico de uma actividade literária que compreendia o esforço de consciencialização como serviço cívico ou, se é possível a contradição, enquanto ética social com fundamentos na história e na cultura imperecível de um povo. A sua introdução verifica-se com o livro do são-tomense Francisco José Tenreiro , Ilha de nome santo ( 1942 ), integrado na colecção coimbrã do Novo Cancioneiro , no movimento do Neo-realismo português. O Casticismo (termo que adoptamos pela primeira vez) pode, então, ser definível como a procura da permanente herança dos povos, da sua intra-história, profunda, imperecível, dialéctica, criadora e transformadora, para lá do efémero, segundo uma concepção próxima da que Miguel de Unamuno nos legou nos seus ensaios sobre o casticismo castelhano visto como tradição não académica e erudita, mas popular e antiga, carregada de futuro. Num primeiro momento, esse Casticismo afinal tão ansiosamente buscado, apresentou-se sob as vestes do Sócio-realismo ( 1942-1950/60 ) baseado no marxismo ou na sua versão acrescida (a do marxismo-leninismo), em que, quer em Portugal , quer nas colónias, foi determinante o papel desempenhado por activistas brancos conotados com o Partido Comunista Português .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Casticismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "1942-1960",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Francisco José Tenreiro",
+    "label": "PESSOA",
+    "token_indices": [
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Ilha de nome santo",
+    "label": "OBRA",
+    "token_indices": [
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "1942",
+    "label": "TEMPO",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Novo Cancioneiro",
+    "label": "OBRA",
+    "token_indices": [
+      77,
+      78
+    ]
+  },
+  {
+    "text": "Neo-realismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Casticismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "Miguel de Unamuno",
+    "label": "PESSOA",
+    "token_indices": [
+      124,
+      125,
+      126
+    ]
+  },
+  {
+    "text": "Casticismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      154
+    ]
+  },
+  {
+    "text": "Sócio-realismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      164
+    ]
+  },
+  {
+    "text": "1942-1950/60",
+    "label": "TEMPO",
+    "token_indices": [
+      166
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      183
+    ]
+  },
+  {
+    "text": "Partido Comunista Português",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      199,
+      200,
+      201
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Casticismo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "1942-1960",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Francisco José Tenreiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ilha de nome santo",
+    "label": "OBRA"
+  },
+  {
+    "text": "Novo Cancioneiro",
+    "label": "OBRA"
+  },
+  {
+    "text": "Neo-realismo português",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('1942', 'TEMPO'), ('Neo-realismo', 'ABSTRACCAO'), ('Casticismo', 'ABSTRACCAO'), ('Miguel de Unamuno', 'PESSOA'), ('Casticismo', 'ABSTRACCAO'), ('Sócio-realismo', 'ABSTRACCAO'), ('1942-1950/60', 'TEMPO'), ('Portugal', 'LOCAL'), ('Partido Comunista Português', 'ORGANIZACAO')]
+Espúrias  (FP): [('Neo-realismo português', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não temos conhecimento de indícios de que o Naturalismo brasileiro (sobretudo este, pela sua pujança, e não o português) tenha sido recebido atempadamente pelos africanos. Ninguém parece ter dado pel' O cortiço , de Aluísio Azevedo , à data a que nos reportamos. Com o Sócio-realismo , atravessado, de imediato, pela Negritude , estão em foco as classes e o mundo do trabalho, da produção de riquezas coloniais (com seus contratados, serviçais, agricultores, operários, mas também pastores, além de grupos restritos e outros, marginais), através de processos discursivos virados para a sugestão de concretude social e quotidiana, em que o pormenor, a notação descritiva, tem grande relevo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Naturalismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "O cortiço",
+    "label": "OBRA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Aluísio Azevedo",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Sócio-realismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Negritude",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Naturalismo', 'ABSTRACCAO'), ('O cortiço', 'OBRA'), ('Aluísio Azevedo', 'PESSOA'), ('Sócio-realismo', 'ABSTRACCAO'), ('Negritude', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Basta referir a segunda fase da obra de Castro Soromenho ( Angola ), a primeira fase da obra de Agostinho Neto e António Jacinto ( Angola ), de José Craveirinha ( Moçambique ) e de Francisco José Tenreiro ( São Tomé e Príncipe ), ou a obra de Luís Romano e Teixeira de Sousa ( Cabo Verde ), e de Noémia de Sousa ( Moçambique ), para verificarmos a assunção de uma postura de classe proletária que tende a colar-se à pele mais generalizante da categoria do colonizado. O colonizado é uma categoria ainda mais generalizante do que a do negro, mas, por isso, os escritores africanos de língua portuguesa, nos anos 50 , assumiram a Negritude ( 1949-1959 ) como realização cultural do pan-africanismo, sobretudo os que estavam morando fora de África , cultuando com orgulho a raça, as culturas tradicionais (tribais), relativas ao mato e ao campo, numa estética do retorno ideal às origens, de reencontro com um passado grandioso, utopia da felicidade, à semelhança de uma recuperação rousseauniana. Agostinho Neto , em Angola , Aguinaldo Fonseca , em Cabo Verde , Noémia e Craveirinha , em Moçambique , Tenreiro e Tomás Medeiros , em São Tomé e Príncipe , exemplificam esse movimento de aproximação genuína ao povo africano e sua herança, de uma maneira racista anti-racista, para glosar a expressão de Sartre , no prefácio à antologia de Senghor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Castro Soromenho",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Agostinho Neto",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "António Jacinto",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "José Craveirinha",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Moçambique",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Francisco José Tenreiro",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "São Tomé e Príncipe",
+    "label": "LOCAL",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Luís Romano",
+    "label": "PESSOA",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Teixeira de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Cabo Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Noémia de Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Moçambique",
+    "label": "LOCAL",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "anos 50",
+    "label": "TEMPO",
+    "token_indices": [
+      111,
+      112
+    ]
+  },
+  {
+    "text": "Negritude",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      116
+    ]
+  },
+  {
+    "text": "1949-1959",
+    "label": "TEMPO",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "África",
+    "label": "LOCAL",
+    "token_indices": [
+      132
+    ]
+  },
+  {
+    "text": "Agostinho Neto",
+    "label": "PESSOA",
+    "token_indices": [
+      171,
+      172
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      175
+    ]
+  },
+  {
+    "text": "Aguinaldo Fonseca",
+    "label": "PESSOA",
+    "token_indices": [
+      177,
+      178
+    ]
+  },
+  {
+    "text": "Cabo Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      181,
+      182
+    ]
+  },
+  {
+    "text": "Noémia",
+    "label": "PESSOA",
+    "token_indices": [
+      184
+    ]
+  },
+  {
+    "text": "Craveirinha",
+    "label": "PESSOA",
+    "token_indices": [
+      186
+    ]
+  },
+  {
+    "text": "Moçambique",
+    "label": "LOCAL",
+    "token_indices": [
+      189
+    ]
+  },
+  {
+    "text": "Tenreiro",
+    "label": "PESSOA",
+    "token_indices": [
+      191
+    ]
+  },
+  {
+    "text": "Tomás Medeiros",
+    "label": "PESSOA",
+    "token_indices": [
+      193,
+      194
+    ]
+  },
+  {
+    "text": "São Tomé e Príncipe",
+    "label": "LOCAL",
+    "token_indices": [
+      197,
+      198,
+      199,
+      200
+    ]
+  },
+  {
+    "text": "Sartre",
+    "label": "PESSOA",
+    "token_indices": [
+      224
+    ]
+  },
+  {
+    "text": "Senghor",
+    "label": "PESSOA",
+    "token_indices": [
+      231
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Castro Soromenho', 'PESSOA'), ('Angola', 'LOCAL'), ('Agostinho Neto', 'PESSOA'), ('António Jacinto', 'PESSOA'), ('Angola', 'LOCAL'), ('José Craveirinha', 'PESSOA'), ('Moçambique', 'LOCAL'), ('Francisco José Tenreiro', 'PESSOA'), ('São Tomé e Príncipe', 'LOCAL'), ('Luís Romano', 'PESSOA'), ('Teixeira de Sousa', 'PESSOA'), ('Cabo Verde', 'LOCAL'), ('Noémia de Sousa', 'PESSOA'), ('Moçambique', 'LOCAL'), ('anos 50', 'TEMPO'), ('Negritude', 'ABSTRACCAO'), ('1949-1959', 'TEMPO'), ('África', 'LOCAL'), ('Agostinho Neto', 'PESSOA'), ('Angola', 'LOCAL'), ('Aguinaldo Fonseca', 'PESSOA'), ('Cabo Verde', 'LOCAL'), ('Noémia', 'PESSOA'), ('Craveirinha', 'PESSOA'), ('Moçambique', 'LOCAL'), ('Tenreiro', 'PESSOA'), ('Tomás Medeiros', 'PESSOA'), ('São Tomé e Príncipe', 'LOCAL'), ('Sartre', 'PESSOA'), ('Senghor', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Inaugura-se uma quinta fase, de Resistência ( 1961-1974 ), com a entrada na década de 60 e o início da luta armada de libertação nacional, despoletada, em primeiro lugar em Angola , passando a ser produzida uma literatura não de todo circunstancial, primeiro angolana e, depois, moçambicana e guineense, por escritores tanto com inferior nível de escolarização como com estudos superiores, cuja orientação ideológica e política é expressamente anti-colonialista, que engloba, para além de um específico corpus de guerrilha, também, a partir de 1969 , uma temática e um discurso de Ghetto , relativos estes ao curto período final do colonialismo português.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Resistência",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "1961-1974",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "60",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "1969",
+    "label": "TEMPO",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Ghetto",
+    "label": "OUTRO",
+    "token_indices": [
+      91
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Resistência",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "1961-1974",
+    "label": "TEMPO"
+  },
+  {
+    "text": "60",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ghetto",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "1969",
+    "label": "TEMPO"
+  },
+  {
+    "text": "colonialismo português",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Ghetto', 'OUTRO')]
+Espúrias  (FP): [('Ghetto', 'ABSTRACCAO'), ('colonialismo português', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tuna Académica da Universidade Fernando Pessoa Tuna Académica da Universidade Fernando Pessoa A tuna Académica da Universiade Fernando Pessoa , da cidade do Porto , foi criada em 12 de Outubro do ano da Graça de 1994 , surgindo devido aos pedidos de muitas famílias (...) - a Tuna da UFP , constituida por cerca de 40 elementos e apadrinhada pela magnífica Tuna Universitária do Minho , segundo Zebedeu (filho de Jacob , irmão do João e primo do Serafim ) no capítulo 4º , versículo 234º , alínea k), já com um vasto número de actuações por tudo o país, apesar da sua curta existência, veio culmatar uma lacuna, muito importante, existente no seio da vida tunante portuguesa. Não conseguimos, no entanto, discernir até ao momento, qual a lacuna preenchida. Os tunos da UFP demostrando, desde cedo, a sua força espiritual e o seu caractér determinado, têm como principal preocupação o desenvolvimento económico das cooperativas vinículas portuguesas; o "aproveitamento" das belezas naturais femininas e também a divulgação da música portuguesa pelos 49 cantos do mundo(...). Tendo em conta a sua curta existência, o número de actuações realizadas é já bastante significativo. Aliás, já participaram em algumas actividades de relevo, das quais podemos salientar o II FITISEP e o Festival de Solidariedade do "ABRAÇO" , ambos realizados no Coliseu do Porto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tuna Académica da Universidade Fernando Pessoa",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Tuna Académica da Universidade Fernando Pessoa",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Académica da Universiade Fernando Pessoa",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "12 de Outubro",
+    "label": "TEMPO",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "1994",
+    "label": "TEMPO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Tuna da UFP",
+    "label": "PESSOA",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "cerca de 40",
+    "label": "VALOR",
+    "token_indices": [
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Tuna Universitária do Minho",
+    "label": "PESSOA",
+    "token_indices": [
+      62,
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Zebedeu",
+    "label": "PESSOA",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Jacob",
+    "label": "PESSOA",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "João",
+    "label": "PESSOA",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "Serafim",
+    "label": "PESSOA",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "4º",
+    "label": "VALOR",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "234º",
+    "label": "VALOR",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "UFP",
+    "label": "PESSOA",
+    "token_indices": [
+      134
+    ]
+  },
+  {
+    "text": "49",
+    "label": "VALOR",
+    "token_indices": [
+      172
+    ]
+  },
+  {
+    "text": "II FITISEP",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      205,
+      206
+    ]
+  },
+  {
+    "text": "Festival de Solidariedade do \"ABRAÇO\"",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      209,
+      210,
+      211,
+      212,
+      213
+    ]
+  },
+  {
+    "text": "Coliseu do Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      218,
+      219,
+      220
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tuna Académica da Universidade Fernando Pessoa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tuna Académica da Universidade Fernando Pessoa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universiade Fernando Pessoa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade Fernando Pessoa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tuna da UFP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tuna Universitária do Minho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Zebedeu",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jacob",
+    "label": "PESSOA"
+  },
+  {
+    "text": "João",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Serafim",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Tuna Académica da Universidade Fernando Pessoa', 'PESSOA'), ('Tuna Académica da Universidade Fernando Pessoa', 'PESSOA'), ('Académica da Universiade Fernando Pessoa', 'PESSOA'), ('12 de Outubro', 'TEMPO'), ('1994', 'TEMPO'), ('Tuna da UFP', 'PESSOA'), ('cerca de 40', 'VALOR'), ('Tuna Universitária do Minho', 'PESSOA'), ('4º', 'VALOR'), ('234º', 'VALOR'), ('UFP', 'PESSOA'), ('49', 'VALOR'), ('II FITISEP', 'ACONTECIMENTO'), ('Festival de Solidariedade do "ABRAÇO"', 'ACONTECIMENTO'), ('Coliseu do Porto', 'LOCAL')]
+Espúrias  (FP): [('Tuna Académica da Universidade Fernando Pessoa', 'ORGANIZACAO'), ('Tuna Académica da Universidade Fernando Pessoa', 'ORGANIZACAO'), ('Universiade Fernando Pessoa', 'ORGANIZACAO'), ('Universidade Fernando Pessoa', 'ORGANIZACAO'), ('Tuna da UFP', 'ORGANIZACAO'), ('Tuna Universitária do Minho', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quanto aos prémios que normalmente recebem, só se devem aos "codfich" (não sabemos traduzir) e presuntos oferecidos ao júri. Antes do fecho desta edição, a Tuna Académica encontrava-se em mais um estágio, desta feita para o lançamento da sua primeira cassete comercial (e consequente realização do video-clip para esse grande veículo e instrumento de cultura, que dá pelo nome de " Made In Portugal ") estando ainda em recuperação do último em Alfandega da Fé que se realizou em meados do século (no mês de Junho ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tuna Académica",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Made In Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Alfandega da Fé",
+    "label": "LOCAL",
+    "token_indices": [
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Junho",
+    "label": "TEMPO",
+    "token_indices": [
+      85
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tuna Académica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Made In Portugal",
+    "label": "OBRA"
+  },
+  {
+    "text": "Alfandega da Fé",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Junho",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Tuna Académica', 'PESSOA'), ('Made In Portugal', 'LOCAL')]
+Espúrias  (FP): [('Tuna Académica', 'ORGANIZACAO'), ('Made In Portugal', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+In "TIME", nº109, Ano 34, pp 257 a 303 Tradução de Vay Bus-Cála
+
+Entidades verdadeiras:
+[
+  {
+    "text": "\"TIME\", nº109, Ano 34, pp 257 a 303",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Vay Bus-Cála",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TIME",
+    "label": "LOCAL"
+  },
+  {
+    "text": "109",
+    "label": "VALOR"
+  },
+  {
+    "text": "34",
+    "label": "VALOR"
+  },
+  {
+    "text": "257",
+    "label": "VALOR"
+  },
+  {
+    "text": "303",
+    "label": "VALOR"
+  },
+  {
+    "text": "Vay Bus-Cála",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('"TIME", nº109, Ano 34, pp 257 a 303', 'OBRA')]
+Espúrias  (FP): [('TIME', 'LOCAL'), ('109', 'VALOR'), ('34', 'VALOR'), ('257', 'VALOR'), ('303', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fiquei admirada, surpreendida - agradavelmente surpreendida - quando ouvi na semana passada a Presidência , através da Ministra da Cultura , afirmar que convinha aplicar o artigo 151º .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Presidência",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Ministra da Cultura",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "151º",
+    "label": "OBRA",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidência",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministra da Cultura",
+    "label": "PESSOA"
+  },
+  {
+    "text": "artigo 151º",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Presidência', 'PESSOA'), ('151º', 'OBRA')]
+Espúrias  (FP): [('Presidência', 'ORGANIZACAO'), ('artigo 151º', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+É certo que há que aplicar o artigo 151º do Tratado de Maastricht mas, ao lê-lo, verifico que é incitativo. Há que favorecer, há que incentivar, há que encorajar. Talvez fosse conveniente fazer mais alguma coisa. Hoje falamos também de educação e sabemos que ela avança mais rapidamente porque já não estamos apenas numa fase de encorajamentos mas de decisões. Num momento em que está a ter lugar a Convenção , em que se fala de refazer, de reformular determinado número de textos fundamentais, talvez seja necessário colocar também a questão do artigo 151º de uma forma que não a da sua simples aplicação. É certo que os problemas que se nos depararão para o " Cultura 2000 " e para a cultura em geral, que são problemas de orçamento, nos parecerão insuficientes. O orçamento não se prende apenas com uma questão de caixa, prende-se também com a questão da unanimidade ou da maioria qualificada. Prende-se também com os verdadeiros debates de fundo. Concordo com algumas intervenções que precederam a minha - pequeno ou grande projecto, cidadania e animação cidadã ou encorajamento, apoio à criação? Sem dúvida, prende-se com os dois aspectos. Ainda assim, há que pensar nos dois de uma forma diferente mas, ao mesmo tempo, conjunta. Qual deve ser a acção dos Estados ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "151º do Tratado de Maastricht",
+    "label": "OBRA",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Convenção",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "151º",
+    "label": "OBRA",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "Cultura 2000",
+    "label": "OBRA",
+    "token_indices": [
+      116,
+      117
+    ]
+  },
+  {
+    "text": "Estados",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      214
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tratado de Maastricht",
+    "label": "OBRA"
+  },
+  {
+    "text": "Convenção",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('151º do Tratado de Maastricht', 'OBRA'), ('151º', 'OBRA'), ('Cultura 2000', 'OBRA'), ('Estados', 'ORGANIZACAO')]
+Espúrias  (FP): [('Tratado de Maastricht', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que compete às iniciativas dos Estados ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estados",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Estados', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O que compete à União Europeia ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('União Europeia', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Eis porque, Senhora Comissária , me permito propor que avancemos para uma Barcelona da cultura. Senhora Presidente , em primeiro lugar, gostaria de fazer uma reflexão que se aplica a todos os assuntos tratados na Comissão para a Cultura, a Juventude, a Educação, os Meios de Comunicação Social e os Desportos , de que sou membro.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Comissária",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Barcelona",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Comissão para a Cultura, a Juventude, a Educação, os Meios de Comunicação Social e os Desportos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senhora Comissária",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Barcelona",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Comissão para a Cultura, a Juventude, a Educação, os Meios de Comunicação Social e os Desportos",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Barcelona', 'ABSTRACCAO')]
+Espúrias  (FP): [('Barcelona', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+As verbas atribuídas a todos estes domínios não chegam a um por cento do orçamento comunitário. É-me difícil aceitar que os referidos assuntos constituam objectivos importantes deste Parlamento , quando lhes atribuímos uma parcela tão pequena do orçamento. Espero que esta situação se altere num futuro próximo. Em segundo lugar, gostaria de referir que há poucos meses participei, no Círculo de Belas Artes de Madrid , num fórum que contou com a presença de responsáveis pela Cultura de diversos Estados-Membros , entre os quais se encontravam directores de museus nacionais, e lamento dizer que todos se manifestaram bastante descontentes com o programa CULTURA 2000 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Círculo de Belas Artes de Madrid",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Cultura",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "CULTURA 2000",
+    "label": "OBRA",
+    "token_indices": [
+      102,
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Círculo de Belas Artes de Madrid",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cultura",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "CULTURA 2000",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Círculo de Belas Artes de Madrid', 'ACONTECIMENTO'), ('Estados-Membros', 'ORGANIZACAO'), ('CULTURA 2000', 'OBRA')]
+Espúrias  (FP): [('Círculo de Belas Artes de Madrid', 'LOCAL'), ('Estados-Membros', 'ABSTRACCAO'), ('CULTURA 2000', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Muitos deles afirmaram considerar que se trata de um retrocesso em relação aos anteriores programas ARIANE e RAFAEL e que, face às despesas incorridas em trâmites burocráticos para poder solicitar uma ajuda, esta acabava, no final, por não se revelar compensadora. Em geral, acabaram por expressar a opinião de que se sentem um pouco enganados. Creio que devemos procurar que as verbas disponíveis sejam distribuídas em moldes tendentes a criar mais apoios do que descontentamento, objectivo que considero extremamente importante para a imagem do que representa a cultura a nível europeu. Importante também é procurar simplificar a burocracia, pois todos os participantes no referido fórum concordaram em que este é um obstáculo de peso. Importa igualmente assegurar que não haja atrasos nos pagamentos, pois um grande número dos beneficiários não se pode permitir tais atrasos. Devemos também garantir que nenhum projecto seja rejeitado por motivos puramente formais, havendo que dar oportunidades também às pequenas organizações. Esta foi outra questão em relação à qual foram manifestadas queixas. Senhora Presidente , minhas Senhoras e meus Senhores das Instituições europeias, sejam sinceros: estão convencidos de que o direito europeu da concorrência, as normas sobre a altura dos assentos dos tractores ou as directivas sobre a liberalização do mercado da energia fazem bater mais depressa os corações para o processo da integração europeia? Falta provavelmente um outro factor de identificação para as pessoas dos nossos Estados-Membros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ARIANE",
+    "label": "OBRA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "RAFAEL",
+    "label": "OBRA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      166,
+      167
+    ]
+  },
+  {
+    "text": "Senhoras",
+    "label": "PESSOA",
+    "token_indices": [
+      170
+    ]
+  },
+  {
+    "text": "Senhores",
+    "label": "PESSOA",
+    "token_indices": [
+      173
+    ]
+  },
+  {
+    "text": "Instituições",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      175
+    ]
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      231
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ARIANE', 'OBRA'), ('RAFAEL', 'OBRA'), ('Senhora Presidente', 'PESSOA'), ('Senhoras', 'PESSOA'), ('Senhores', 'PESSOA'), ('Instituições', 'ORGANIZACAO'), ('Estados-Membros', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O intercâmbio cultural e a partilha cultural podem multiplicar a atenção positiva, podem fazê-lo muito mais do que, por exemplo, um controverso regulamento. A herança cultural e a diversidade cultural da Europa devem, desde o Tratado de Maastricht - a partir daí, a palavra cultura passou a existir nos Tratados -, fazer parte de toda a política comunitária, mas tal só acontece em teoria. Na prática, os Estados-Membros vigiam ciosamente a sua soberania cultural, quer no plano nacional, quer regional. Em questões culturais, o Conselho persiste no princípio da unanimidade, tendo como regra trabalhosos processos de concertação e tendo como consequência consensos a um baixo nível, bem como arreliadores atrasos - veja-se o programa CULTURA 2000 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Tratado de Maastricht",
+    "label": "OBRA",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Tratados",
+    "label": "OBRA",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Estados-Membros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "CULTURA 2000",
+    "label": "OBRA",
+    "token_indices": [
+      114,
+      115
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tratado de Maastricht",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tratado de Maastricht",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CULTURA 2000",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Tratado de Maastricht', 'OBRA'), ('Tratados', 'OBRA'), ('Estados-Membros', 'ORGANIZACAO'), ('CULTURA 2000', 'OBRA')]
+Espúrias  (FP): [('Tratado de Maastricht', 'ACONTECIMENTO'), ('Tratado de Maastricht', 'ACONTECIMENTO'), ('CULTURA 2000', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+E nem estamos sequer a falar de muito dinheiro. A percentagem das despesas com a cultura, inscritas no orçamento comunitário, sendo nada mais, nada menos do que 0,04% , é mais do que escassa. Para os operadores culturais e artísticos é altamente desanimador saber de antemão que a sua candidatura tem 90% de probabilidades de ser recusada, pois nem sequer 10% das candidaturas chegam a ser contempladas. Também para nós, deputados, não tem graça nenhuma, vermo-nos forçados a dar uma série de respostas negativas, gorando constantemente as expectativas depositadas. Ninguém quer privar os países membros da sua competência, mas um pouco mais de sinceridade ficava-lhes bem. Lamentavelmente, esta também falta na aplicação prática do programa CULTURA 2000 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "0,04%",
+    "label": "VALOR",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "90%",
+    "label": "VALOR",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "10%",
+    "label": "VALOR",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "CULTURA 2000",
+    "label": "OBRA",
+    "token_indices": [
+      115,
+      116
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "0,04%",
+    "label": "VALOR"
+  },
+  {
+    "text": "90%",
+    "label": "VALOR"
+  },
+  {
+    "text": "10%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('CULTURA 2000', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O senhor Sichrovsky , deputado europeu do partido de Haider , escreve peças de teatro. O senhor Morak , secretário de Estado da Cultura do novo governo, é actor de teatro e cantor pop. O senhor Schüssel , o chanceler federal, toca piano - Artistas no poder! No princípio de toda a carreira de artista, está a impotência. Os artistas são pessoas que trazem ao mundo uma proposição estética de que o mundo de modo nenhum estava à espera. À rejeição por parte deste, a maioria dos artistas reage com um reforço da sua proposição, com uma atitude megalómana. No início do século XX , a situação de Oskar Kokoschka e de Adolf Hitler era bastante parecida: um tentava vender os seus óleos em cafés vienenses, o outro, as suas aguarelas num asilo para homens. Nenhum vendia nada e ambos sonhavam vir a ser grandes artistas. Todos nós sonhamos o sonho da arte, independentemente de termos ou não termos talento. Quem quer que seja capaz de formar uma frase, de manejar um pincel, perpetua-se no papel, faz pinceladas na tela, na esperança de ter exprimido uma originalidade imorredoura. Qualquer jornalista da nossa terra embrulha o seu aranzel do dia-a-dia entre as duas capas de um livro, ansiando por que sobreviva eternidades fora.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sichrovsky",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Haider",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Morak",
+    "label": "PESSOA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Cultura",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Schüssel",
+    "label": "PESSOA",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Artistas",
+    "label": "PESSOA",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "século XX",
+    "label": "TEMPO",
+    "token_indices": [
+      102,
+      103
+    ]
+  },
+  {
+    "text": "Oskar Kokoschka",
+    "label": "PESSOA",
+    "token_indices": [
+      108,
+      109
+    ]
+  },
+  {
+    "text": "Adolf Hitler",
+    "label": "PESSOA",
+    "token_indices": [
+      112,
+      113
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Sichrovsky', 'PESSOA'), ('Haider', 'PESSOA'), ('Morak', 'PESSOA'), ('Cultura', 'ABSTRACCAO'), ('Schüssel', 'PESSOA'), ('Artistas', 'PESSOA'), ('século XX', 'TEMPO'), ('Oskar Kokoschka', 'PESSOA'), ('Adolf Hitler', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A burguesia vienense, e não apenas esta, põe os filhos a aprender piano à força e nada deseja mais ardentemente do que pequenos Mozarts e Schuberts .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mozarts",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Schuberts",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mozarts",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Schuberts",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Mozarts', 'ABSTRACCAO'), ('Schuberts', 'ABSTRACCAO')]
+Espúrias  (FP): [('Mozarts', 'PESSOA'), ('Schuberts', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Todo o director de jornal com posses para tal paga a um escritor americano borracho para que o faça entrar literatura. Todo o jornalista de televisão arranja maneira de meter o nome no genérico do filme, mesmo que mais não tenha feito do que servir de moço de recados entre o canal de televisão e a produção do filme. Todo o leitor de editora malha com os seus conhecimentos de alemão, há muito ultrapassados, no manuscrito que lhe foi apresentado, ele gostaria pelo menos de rasgar algumas feridas no corpo do escritor. Não há político que não compile a soma dos seus crimes, das suas incapacidades, dos seus subornos, na forma de memórias, apontando assim a si próprio o caminho da imortalidade. Todo o dono de um jardinzinho tem esperança de que pelo menos o anão de jardim o ultrapasse em altura quando ele, o dono de um jardinzinho, estiver debaixo da terra. E está bem que assim seja. Tornamo-nos artistas, sonhamos o sonho da arte, porque não queremos espichar, porque temos medo de que a lápide funerária com o nosso nome caia e só fique à vista a face lisa e sem nome, para todo o sempre. Quando nada restar de nós, tem a arte que restar de nós, e se nada de seu produziu, o ser humano tem pelo menos que ter estado próximo da arte. Qualquer guarda de museu se acha mais importante, mais próximo da imortalidade, do que o porteiro de uma estação de tratamento de esgotos. Eu tenho uma profunda compreensão por este mecanismo, considero-o até uma necessidade. Desde que o bom Deus não pode já garantir-nos a perspectiva da imortalidade, desde que a ideia democrática dá importância a todos e não apenas às cabeças coroadas, também gozamos dos mesmos direitos quanto à exigência de eternidade.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      267
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Deus', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Qualquer um tem direito a fazer-se imortal, mesmo que só os amigos e a família acreditem nisso. Não há diferença nenhuma entre a estátua de Palas Atena e um anão de jardim de Grossgöpfritz , salvo quanto à qualidade. A ânsia, o sonho de arte que subjaz a ambos é o mesmo. Ai de nós todos, quando este sonho de arte estoira, quando o sonhador de arte descobre toda a sua incapacidade, quando não tem remédio senão reconhecer o seu insucesso, quando é forçado a olhar de frente a sua própria falta de talento, o seu semitalento. A sua decepção, a sua raiva, o seu medo do nada e a paranóia daí resultante, a sua vingança, são imensuráveis. Não existe vingança mais feroz do que a do semitalento, nenhum castigo mais violento do que o que o sem-talento inflige ao talentoso, e o que acordou, ao que sonha: todos os críticos agem movidos por esta humilhação. Adolf Hitler , o maior dos sonhadores de arte, reprovou no exame de admissão à Academia de Belas-Artes de Viena ; em consequência, destruiu depois metade do mundo, para que nenhum sonho de arte pudesse jamais sobreviver. Quando entrou em Viena , a primeira coisa que fez foi mandar destruir os registos da Academia de Belas-Artes em que estava consignado o seu fracasso. Joseph Goebbels , ao ser obrigado a reconhecer que os seus dramas, que tinham uma certa tendência de esquerda, nenhum teatro os queria, pôs-se a congeminar teorias de conspiração e juntou-se aos nazis. Jörg Haider , ao ver que não conseguia um lugar no Teatro Estadual de Linz ou no Teatro Municipal de Klagenfurt , elegeu para palco o país inteiro, mais, o mundo inteiro. O senhor Mölzer , ao ver que não conseguia publicar a sua suada prosa varonil em nenhuma editora, mas só em edição de autor, tornou-se conselheiro cultural de Haider .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Palas Atena",
+    "label": "OBRA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Grossgöpfritz",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Adolf Hitler",
+    "label": "PESSOA",
+    "token_indices": [
+      156,
+      157
+    ]
+  },
+  {
+    "text": "Academia de Belas-Artes de Viena",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      171,
+      172,
+      173,
+      174,
+      175
+    ]
+  },
+  {
+    "text": "Viena",
+    "label": "LOCAL",
+    "token_indices": [
+      196
+    ]
+  },
+  {
+    "text": "Academia de Belas-Artes",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      209,
+      210,
+      211
+    ]
+  },
+  {
+    "text": "Joseph Goebbels",
+    "label": "PESSOA",
+    "token_indices": [
+      219,
+      220
+    ]
+  },
+  {
+    "text": "Jörg Haider",
+    "label": "PESSOA",
+    "token_indices": [
+      252,
+      253
+    ]
+  },
+  {
+    "text": "Teatro Estadual de Linz",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      263,
+      264,
+      265,
+      266
+    ]
+  },
+  {
+    "text": "Teatro Municipal de Klagenfurt",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      269,
+      270,
+      271,
+      272
+    ]
+  },
+  {
+    "text": "Mölzer",
+    "label": "PESSOA",
+    "token_indices": [
+      286
+    ]
+  },
+  {
+    "text": "Haider",
+    "label": "PESSOA",
+    "token_indices": [
+      312
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Palas Atena', 'OBRA'), ('Grossgöpfritz', 'LOCAL'), ('Adolf Hitler', 'PESSOA'), ('Academia de Belas-Artes de Viena', 'ORGANIZACAO'), ('Viena', 'LOCAL'), ('Academia de Belas-Artes', 'ORGANIZACAO'), ('Joseph Goebbels', 'PESSOA'), ('Jörg Haider', 'PESSOA'), ('Teatro Estadual de Linz', 'ORGANIZACAO'), ('Teatro Municipal de Klagenfurt', 'ORGANIZACAO'), ('Mölzer', 'PESSOA'), ('Haider', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É patente nele a vontade de se vingar dos seus colegas mais bem sucedidos, e a imprensa austríaca não porá limites a essa vontade. Peter Sichrovsky , que tentou insinuar-se junto de Claus Peymann como autor do Teatro Nacional e foi posto a andar, apelou na sequência ao público para que tomasse de assalto o Teatro Nacional quando da estreia da peça Heldenplatz , de Thomas Bernhard .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Peter Sichrovsky",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Claus Peymann",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Teatro Nacional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Teatro Nacional",
+    "label": "LOCAL",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Heldenplatz",
+    "label": "OBRA",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Thomas Bernhard",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Peter Sichrovsky",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Claus Peymann",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Teatro Nacional",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Heldenplatz",
+    "label": "OBRA"
+  },
+  {
+    "text": "Thomas Bernhard",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Teatro Nacional', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A que autores caberá agora, com o poder de Estado por detrás, serem tomados de assalto? E Franz Morak , o mais talentoso e mais trágico de todos, que espreita com cenho carregado do peso do cargo e que não tardará, de qualquer modo, a ser um político de empréstimo em festas de Carnaval ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Franz Morak",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Carnaval",
+    "label": "TEMPO",
+    "token_indices": [
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Franz Morak",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Estado', 'ORGANIZACAO'), ('Carnaval', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E Schüssel , chamado do sonho à realidade? Os sem-talento, os meio-talento, os três-quartos-de-talento, ei-los agora no poder, autênticos artistas da governação. Agora, podem finalmente erguer de novo o seu ofendido ego de artistas, o seu narcisismo recalcado, a sua amesquinhada consciência de artistas, podem alçá-los a uma dimensão monumental, podem elevar-se para o céu com o pedestal do Estado sob os pés: prontos para levarem com a caca dos pombos. Viena , 8/2/2000 Tradução de António Sousa Ribeiro
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Schüssel",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Viena",
+    "label": "LOCAL",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "8/2/2000",
+    "label": "TEMPO",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "António Sousa Ribeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      76,
+      77,
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Schüssel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Viena",
+    "label": "LOCAL"
+  },
+  {
+    "text": "8/2/2000",
+    "label": "TEMPO"
+  },
+  {
+    "text": "António Sousa Ribeiro",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Estado', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Voltar à página anterior EFACEC Automação e Robótica, S.A. , ganha encomenda de Armazém Automático no valor de 1,45 milhões de Euros para a Continental Mabor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EFACEC Automação e Robótica, S.A.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Armazém Automático",
+    "label": "COISA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "1,45 milhões de Euros",
+    "label": "VALOR",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Continental Mabor",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EFACEC Automação e Robótica, S.A.",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Armazém Automático",
+    "label": "OBRA"
+  },
+  {
+    "text": "1,45 milhões de Euros",
+    "label": "VALOR"
+  },
+  {
+    "text": "Continental Mabor",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Armazém Automático', 'COISA')]
+Espúrias  (FP): [('Armazém Automático', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Continental junta-se assim a uma extensa lista de multinacionais clientes da EFACEC Automação e Robótica , da qual constam, entre outros nomes, a Philips , a Repsol , a Telefónica , a Reckitt Benckiser e a Volkswagen , que se destacam pelos elevados índices de satisfação originando segundas e mesmo terceiras encomendas, em sistemas de logística automatizada. Em 2001-2002 a Continental AG , fundada em Hannover em 1871 , e detendo a posição de quarto maior fabricante mundial de Pneus, componentes, módulos e sistemas para a indústria automóvel, realizou um grande investimento na reestruturação do Grupo , com particular ênfase na fábrica da Continental-Mabor Indústria de Pneus, S.A. , em Lousado , em que se prevê um aumento do nível de produção de cerca de 33.000 pneus/dia| cerca de 33.000 pneus/dia para aproximadamente 44.000 pneus/dia| aproximadamente 44.000 pneus/dia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Continental",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "EFACEC Automação e Robótica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Philips",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Repsol",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Telefónica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Reckitt Benckiser",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Volkswagen",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "2001-2002",
+    "label": "TEMPO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Continental AG",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Hannover",
+    "label": "LOCAL",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "1871",
+    "label": "TEMPO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Grupo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "Continental-Mabor Indústria de Pneus, S.A.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      104,
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  {
+    "text": "Lousado",
+    "label": "LOCAL",
+    "token_indices": [
+      111
+    ]
+  },
+  {
+    "text": "cerca de 33.000",
+    "label": "VALOR",
+    "token_indices": [
+      124,
+      125,
+      126
+    ]
+  },
+  {
+    "text": "cerca de 33.000 pneus/dia",
+    "label": "VALOR",
+    "token_indices": [
+      128,
+      129,
+      130,
+      131
+    ]
+  },
+  {
+    "text": "aproximadamente 44.000",
+    "label": "VALOR",
+    "token_indices": [
+      133,
+      134
+    ]
+  },
+  {
+    "text": "aproximadamente 44.000 pneus/dia",
+    "label": "VALOR",
+    "token_indices": [
+      136,
+      137,
+      138
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Continental', 'ORGANIZACAO'), ('EFACEC Automação e Robótica', 'ORGANIZACAO'), ('Philips', 'ORGANIZACAO'), ('Repsol', 'ORGANIZACAO'), ('Telefónica', 'ORGANIZACAO'), ('Reckitt Benckiser', 'ORGANIZACAO'), ('Volkswagen', 'ORGANIZACAO'), ('2001-2002', 'TEMPO'), ('Continental AG', 'ORGANIZACAO'), ('Hannover', 'LOCAL'), ('1871', 'TEMPO'), ('Grupo', 'ORGANIZACAO'), ('Continental-Mabor Indústria de Pneus, S.A.', 'ORGANIZACAO'), ('Lousado', 'LOCAL'), ('cerca de 33.000', 'VALOR'), ('cerca de 33.000 pneus/dia', 'VALOR'), ('aproximadamente 44.000', 'VALOR'), ('aproximadamente 44.000 pneus/dia', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Dentro deste grande projecto de expansão a Continental Mabor encomendou à EFACEC Automação e Robótica um sistema automático que servirá para armazenar borracha num estado intermédio do processo produtivo ( Compound ). A preferência pela EFACEC deveu-se às suas capacidades tecnológicas comprovadas e ao elevado grau de "customização" dos seus equipamentos, factores cruciais e determinantes para o sucesso deste negócio, onde as particularidades do fabrico de pneus impõem um desenvolvimento à medida. O grau de "customização" toma particular relevância no que respeita ao sofisticado Sistema de Gestão EFACEC que incluirá várias funcionalidades específicas, com vista a uma interligação do sistema com as máquinas de produção de borracha da Continental .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Continental Mabor",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "EFACEC Automação e Robótica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Compound",
+    "label": "COISA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "EFACEC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Sistema de Gestão EFACEC",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      84,
+      85,
+      86,
+      87
+    ]
+  },
+  {
+    "text": "Continental",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      108
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Continental Mabor",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "EFACEC Automação e Robótica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Compound",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "EFACEC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Continental",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sistema de Gestão EFACEC",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Continental",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Compound', 'COISA')]
+Espúrias  (FP): [('Compound', 'ABSTRACCAO'), ('Continental', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+SOGIPE - Aluger e Comércio de Equipamentos, Lda . A SOGIPE éuma empresa vocacionada exclusivamente em Aluguer de Longa e Curta Duração. Éa resposta a uma necessidade crescente de um serviço de aluguer especializado no sector de logística. A SOGIPE disponibiliza-lhe a gama mais completa de empilhadores com mais de 70 modelos, de forma a prestar um serviço adequado às suas necessidades. A SOGIPE éespecializada em aluguer de material LINDE , sendo a LINDE o maior fabricante de material de movimentação de cargas a nível mundial, com mais de 27 milhões de contos aplicados, por ano, na área de I&D .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SOGIPE - Aluger e Comércio de Equipamentos, Lda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "SOGIPE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "SOGIPE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "mais de 70",
+    "label": "VALOR",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "SOGIPE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "LINDE",
+    "label": "COISA",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "LINDE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "mais de 27 milhões de contos",
+    "label": "VALOR",
+    "token_indices": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "text": "I&D",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      99
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SOGIPE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "LINDE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "LINDE",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('SOGIPE - Aluger e Comércio de Equipamentos, Lda', 'ORGANIZACAO'), ('SOGIPE', 'ORGANIZACAO'), ('mais de 70', 'VALOR'), ('SOGIPE', 'ORGANIZACAO'), ('LINDE', 'COISA'), ('mais de 27 milhões de contos', 'VALOR'), ('I&D', 'ABSTRACCAO')]
+Espúrias  (FP): [('LINDE', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mais de 120 pessoas, das quais mais de 70 técnicos, dedicadas a garantir o serviço do cliente. Uma frota de mais de 30 "carros oficina" equipados para todo o tipo de intervenções, a todo o momento, nas suas instalações. Centros logísticos em Loures e Benavente com salas de formação, centros de demonstração e centros de preparação para as cerca de 400 máquinas vendidas por ano. 8500 m2 de área coberta. Delegações em Lisboa , Matosinhos , Loures e Benavente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mais de 120",
+    "label": "VALOR",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "mais de 70",
+    "label": "VALOR",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "mais de 30",
+    "label": "VALOR",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Loures",
+    "label": "LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Benavente",
+    "label": "LOCAL",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "cerca de 400",
+    "label": "VALOR",
+    "token_indices": [
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "8500 m2",
+    "label": "VALOR",
+    "token_indices": [
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Matosinhos",
+    "label": "LOCAL",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Loures",
+    "label": "LOCAL",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Benavente",
+    "label": "LOCAL",
+    "token_indices": [
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "120",
+    "label": "VALOR"
+  },
+  {
+    "text": "70",
+    "label": "VALOR"
+  },
+  {
+    "text": "30",
+    "label": "VALOR"
+  },
+  {
+    "text": "Loures",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Benavente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "400",
+    "label": "VALOR"
+  },
+  {
+    "text": "8500 m2",
+    "label": "VALOR"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Matosinhos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Loures",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Benavente",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Mais de 120', 'VALOR'), ('mais de 70', 'VALOR'), ('mais de 30', 'VALOR'), ('cerca de 400', 'VALOR')]
+Espúrias  (FP): [('120', 'VALOR'), ('70', 'VALOR'), ('30', 'VALOR'), ('400', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mais de 30 concessionários em todo o pais, assegurando total cobertura nacional. 36.000 referências geradas de peças. Mais de 8000 máquinas vendidas e mais de 2000 clientes activos. | Empresa | Condições | Frota | Consulta | Usados | A EMPRESA - APRESENTAÇÃO CONDIÇÕES PARA ALUGUER A FROTA LINDE CONSULTA PARA ALUGUER CONSULTA PARA ALUGUER USADOS PARA VENDA Realizado por PROMEC Serviços Resolução mínima 800x600 Última actualização 25/02/2000
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mais de 30",
+    "label": "VALOR",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "36.000",
+    "label": "VALOR",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Mais de 8000",
+    "label": "VALOR",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "mais de 2000",
+    "label": "VALOR",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "LINDE",
+    "label": "COISA",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "PROMEC Serviços",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "800x600",
+    "label": "VALOR",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "25/02/2000",
+    "label": "TEMPO",
+    "token_indices": [
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "30",
+    "label": "VALOR"
+  },
+  {
+    "text": "36.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "8000",
+    "label": "VALOR"
+  },
+  {
+    "text": "2000",
+    "label": "VALOR"
+  },
+  {
+    "text": "800x600",
+    "label": "VALOR"
+  },
+  {
+    "text": "25/02/2000",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Mais de 30', 'VALOR'), ('Mais de 8000', 'VALOR'), ('mais de 2000', 'VALOR'), ('LINDE', 'COISA'), ('PROMEC Serviços', 'ORGANIZACAO')]
+Espúrias  (FP): [('30', 'VALOR'), ('8000', 'VALOR'), ('2000', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Paris Lumière | Hospedagem | 4 estrelas | Terrass Hotel 26ºC Météo France Brasília Paris - 4 estrelas - 3 estrelas - 2 estrelas - 1 estrela - Apart hotel - Castelos Terrass Hotel 12, rue Joseph de Maistre - 75018 PARIS Telefone: 00 331 46 06 72 85 Fax: 00 331 42 52 29 11 Direção : Jean-Luc Binet E-mail:terrass@FranceNet.fr O Hotel Salão Ver Paris e sonhar... um clichê turístico, mas realista desde que você abrace Paris do restaurante instalado no terraço-jardim da cobertura. O serviço é completo, a cozinha é natural e sofisticada, e a vista é tão deslumbrante que os lugares são contados. Aliás, cada parisiense (existem muitos, talvez ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paris Lumière",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "4",
+    "label": "VALOR",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Terrass Hotel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "26ºC",
+    "label": "VALOR",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "France",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "4",
+    "label": "VALOR",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "3",
+    "label": "VALOR",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "2",
+    "label": "VALOR",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "1",
+    "label": "VALOR",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Castelos Terrass Hotel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "rue Joseph de Maistre",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "PARIS",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Direção",
+    "label": "PESSOA",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Jean-Luc Binet",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Hotel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Salão",
+    "label": "LOCAL",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Paris Lumière', 'ORGANIZACAO'), ('4', 'VALOR'), ('Terrass Hotel', 'ORGANIZACAO'), ('26ºC', 'VALOR'), ('France', 'LOCAL'), ('Brasília', 'LOCAL'), ('Paris', 'LOCAL'), ('4', 'VALOR'), ('3', 'VALOR'), ('2', 'VALOR'), ('1', 'VALOR'), ('Castelos Terrass Hotel', 'ORGANIZACAO'), ('rue Joseph de Maistre', 'LOCAL'), ('PARIS', 'LOCAL'), ('Direção', 'PESSOA'), ('Jean-Luc Binet', 'PESSOA'), ('Hotel', 'ORGANIZACAO'), ('Salão', 'LOCAL'), ('Paris', 'LOCAL'), ('Paris', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+). Seja ele de Tóquio , do Rio , Chicago ou Sochaux , certamente ele voltará, fiel a tanta magia e firmemente decidido a "crer na França ". 88 quartos com banheiro privativo 13 suítes 7 andares com elevador Sala de estar Piano Bar com música ao vivo. 8 salas equipadas para seminários ou banquetes. Dois restaurantes, no térreo e no terraço, oferecendo uma vista espetacular de Paris .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tóquio",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Sochaux",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "França",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "88",
+    "label": "VALOR",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "13",
+    "label": "VALOR",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "7",
+    "label": "VALOR",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Piano Bar",
+    "label": "LOCAL",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "8",
+    "label": "VALOR",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tóquio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sochaux",
+    "label": "LOCAL"
+  },
+  {
+    "text": "88",
+    "label": "VALOR"
+  },
+  {
+    "text": "13",
+    "label": "VALOR"
+  },
+  {
+    "text": "7",
+    "label": "VALOR"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('França', 'ABSTRACCAO'), ('Piano Bar', 'LOCAL'), ('8', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Salão do restaurante Restaurante no terraço panorâmico Localização Situado na colina de Montmartre , próximo à igreja do Sacré Coeur , o Terrass Hotel lhe oferece uma localização especial com vista dominante sobre Paris , aliado à tranquilidade de um bairro. Metrô Linha 2 Estação Place Clichy ou Blanche Linha 12 Estação Abesses Ônibus Linhas 30 - 54 - 60 - 68 - 74 - 81 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Montmartre",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Sacré Coeur",
+    "label": "LOCAL",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Terrass Hotel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Linha 2",
+    "label": "LOCAL",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Place Clichy",
+    "label": "LOCAL",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Blanche",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Linha 12",
+    "label": "LOCAL",
+    "token_indices": [
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Abesses",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "30",
+    "label": "LOCAL",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "54",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "60",
+    "label": "LOCAL",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "68",
+    "label": "LOCAL",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "74",
+    "label": "LOCAL",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "81",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Montmartre",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sacré Coeur",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Paris",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Metrô",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Linha 2",
+    "label": "VALOR"
+  },
+  {
+    "text": "Estação Place Clichy",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Blanche",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Linha 12",
+    "label": "VALOR"
+  },
+  {
+    "text": "Abesses",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ônibus",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Linhas 30 - 54 - 60 - 68 - 74 - 81",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Terrass Hotel', 'ORGANIZACAO'), ('Linha 2', 'LOCAL'), ('Place Clichy', 'LOCAL'), ('Linha 12', 'LOCAL'), ('30', 'LOCAL'), ('54', 'LOCAL'), ('60', 'LOCAL'), ('68', 'LOCAL'), ('74', 'LOCAL'), ('81', 'LOCAL')]
+Espúrias  (FP): [('Metrô', 'ORGANIZACAO'), ('Linha 2', 'VALOR'), ('Estação Place Clichy', 'LOCAL'), ('Linha 12', 'VALOR'), ('Ônibus', 'ORGANIZACAO'), ('Linhas 30 - 54 - 60 - 68 - 74 - 81', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Preços QUARTOS Simples 1 pessoa 1110 FF Simples 2 pessoas 1320 FF Superior 1 pessoa 1320 FF Superior 2 pessoas 1540 FF Triplo - Suíte Júnior 1860 FF Café da manhã - 75 FF QUARTOS - Promoção Internautas Simples 1 ou 2 pessoas 880 FF Superior 1 ou 2 pessoas 1040 FF Triplo - Suíte Júnior 1400 FF Café da manhã - Cortesia Aceitamos todos cartões de crédito, cheque de viagem e Euros Todos os impostos incluídos Câmbio - Valores atuais Franco Francês 1 Real = 3.8466 Francos 1 Franco = 0.2600 Reais Euro - CEE 1 Real = 0.5864 Euros 1 Euro = 1,7053 Reais Serviços Elevador Estacionamento Baby -sitting Lavanderia Serviços de quarto Mini bar Secador de cabelos Climatização individual Telefone direto TV satélite
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1",
+    "label": "VALOR",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "1110 FF",
+    "label": "VALOR",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "2",
+    "label": "VALOR",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "1320 FF",
+    "label": "VALOR",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "1",
+    "label": "VALOR",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "1320 FF",
+    "label": "VALOR",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "2",
+    "label": "VALOR",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "1540 FF",
+    "label": "VALOR",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "1860 FF",
+    "label": "VALOR",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "75 FF",
+    "label": "VALOR",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "1",
+    "label": "VALOR",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "2",
+    "label": "VALOR",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "880 FF",
+    "label": "VALOR",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "1",
+    "label": "VALOR",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "2",
+    "label": "VALOR",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "1040 FF",
+    "label": "VALOR",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "1400 FF",
+    "label": "VALOR",
+    "token_indices": [
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Franco Francês",
+    "label": "COISA",
+    "token_indices": [
+      81,
+      82
+    ]
+  },
+  {
+    "text": "1 Real",
+    "label": "VALOR",
+    "token_indices": [
+      83,
+      84
+    ]
+  },
+  {
+    "text": "3.8466 Francos",
+    "label": "VALOR",
+    "token_indices": [
+      86,
+      87
+    ]
+  },
+  {
+    "text": "1 Franco",
+    "label": "VALOR",
+    "token_indices": [
+      88,
+      89
+    ]
+  },
+  {
+    "text": "0.2600 Reais",
+    "label": "VALOR",
+    "token_indices": [
+      91,
+      92
+    ]
+  },
+  {
+    "text": "Euro",
+    "label": "COISA",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "CEE",
+    "label": "LOCAL",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "1 Real",
+    "label": "VALOR",
+    "token_indices": [
+      96,
+      97
+    ]
+  },
+  {
+    "text": "0.5864 Euros",
+    "label": "VALOR",
+    "token_indices": [
+      99,
+      100
+    ]
+  },
+  {
+    "text": "1 Euro",
+    "label": "VALOR",
+    "token_indices": [
+      101,
+      102
+    ]
+  },
+  {
+    "text": "1,7053 Reais",
+    "label": "VALOR",
+    "token_indices": [
+      104,
+      105
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('1', 'VALOR'), ('1110 FF', 'VALOR'), ('2', 'VALOR'), ('1320 FF', 'VALOR'), ('1', 'VALOR'), ('1320 FF', 'VALOR'), ('2', 'VALOR'), ('1540 FF', 'VALOR'), ('1860 FF', 'VALOR'), ('75 FF', 'VALOR'), ('1', 'VALOR'), ('2', 'VALOR'), ('880 FF', 'VALOR'), ('1', 'VALOR'), ('2', 'VALOR'), ('1040 FF', 'VALOR'), ('1400 FF', 'VALOR'), ('Franco Francês', 'COISA'), ('1 Real', 'VALOR'), ('3.8466 Francos', 'VALOR'), ('1 Franco', 'VALOR'), ('0.2600 Reais', 'VALOR'), ('Euro', 'COISA'), ('CEE', 'LOCAL'), ('1 Real', 'VALOR'), ('0.5864 Euros', 'VALOR'), ('1 Euro', 'VALOR'), ('1,7053 Reais', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+HOSPEDAGEM SÓ R$ 29,99 reais NA HORA DE FAZER SUA HOME PAGE, A AMAINFO VAI LHE DÁ O DOMÍNIO (www.seunome.com.br ou www.suaempresa.com.br) INTEIRAMENTE GRÁTIS. Aproveite promoção por tempo limitado, nos ligue agora mesmo (92) 233-8157 / 9148-0766 Super-promoção HOME PAGE só R$ 189,00 reais ( 6 links ou paginas) ou se preferir mande um e-mail para amainfo@amainfo.com.br 47 Programas Comerciais por apenas R$ 49,90 Informatize Sua Empresa Pelo Menor Custo do Mercado CD com 47 Programas Comerciais por apenas R$ 49,90 Com um pequeno investimento, você obtém o direito de usar 47 programas de grande utilidade em sua empresa, sem nenhuma limitação. E com uma taxa adicional de R$ 19,90 você também obtém o código fonte (em linguagem Delphi ) de todos os 47 programas, assim, você mesmo poderá alterá-los para gerar programas personalizados de acordo com as necessidades de sua empresa. Está mensagem enviada pela Amainfo Teleinformática não é um Spam ,Visto que contém duas Formas de ser Removida. Os E-mails enviados pela Amainfo pode ser facilmente filtrados pela Palavra contida no Assunto ou Subject do E-mail: « MEPPS », ou clique aqui e envie um E-mail com o assunto excluir para que seja efetuada a remoção. Seu Pedido será Prontamente Atendido
+
+Entidades verdadeiras:
+[
+  {
+    "text": "R$ 29,99 reais",
+    "label": "VALOR",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "AMAINFO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "R$ 189,00 reais",
+    "label": "VALOR",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "6",
+    "label": "VALOR",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "47",
+    "label": "VALOR",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "R$ 49,90",
+    "label": "VALOR",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "47",
+    "label": "VALOR",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "R$ 49,90",
+    "label": "VALOR",
+    "token_indices": [
+      79,
+      80
+    ]
+  },
+  {
+    "text": "47",
+    "label": "VALOR",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "R$ 19,90",
+    "label": "VALOR",
+    "token_indices": [
+      108,
+      109
+    ]
+  },
+  {
+    "text": "Delphi",
+    "label": "COISA",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "47",
+    "label": "VALOR",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "Amainfo Teleinformática",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      146,
+      147
+    ]
+  },
+  {
+    "text": "Spam",
+    "label": "COISA",
+    "token_indices": [
+      151
+    ]
+  },
+  {
+    "text": "Amainfo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      164
+    ]
+  },
+  {
+    "text": "MEPPS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      179
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('R$ 29,99 reais', 'VALOR'), ('AMAINFO', 'ORGANIZACAO'), ('R$ 189,00 reais', 'VALOR'), ('6', 'VALOR'), ('47', 'VALOR'), ('R$ 49,90', 'VALOR'), ('47', 'VALOR'), ('R$ 49,90', 'VALOR'), ('47', 'VALOR'), ('R$ 19,90', 'VALOR'), ('Delphi', 'COISA'), ('47', 'VALOR'), ('Amainfo Teleinformática', 'ORGANIZACAO'), ('Spam', 'COISA'), ('Amainfo', 'ORGANIZACAO'), ('MEPPS', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos irmãos tem ?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "irmãos",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('irmãos', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Irmãos éramos sete e agora somos dois e uma irmã. Descreva a casa onde morou durante a sua infância. Era de 2 andares e feita de pau. Quem morava na casa? O meu pai, a minha mãe e os meus irmãos. Como eram divididas as tarefas? Um ia com as ovelhas, outras com as cabras e outros lavravam as terras. Quais eram os momentos mais marcantes na sua família? A primeira vez que calcei umas botas tinha 18 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2",
+    "label": "VALOR",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "18 anos",
+    "label": "VALOR",
+    "token_indices": [
+      77,
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "18 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('2', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Como é que se descreveria como criança? Era como vós hoje. Como era a sua relação com os amigos? Era malhar o corpo aos outros. Como era a relação com a família? Éramos amigos. O que queria ser quando crescesse? Motorista. Quais eram as suas brincadeiras preferidas? À choca e jogar à bola feita de trapos. Quando é que saiu da casa dos seus pais? Porquê? Conte-nos como foi essa mudança de casa. Saí quando tinha 18 anos porque queria ser independente. A mudança de casa foi triste. É casado? Conte-nos como foi o seu casamento e o namoro. Sou. Escrevíamos por cartas. Tem filhos? Tenho. Tem netos? Tenho 6 netos. Quando é que chegou a Pisões ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "18 anos",
+    "label": "VALOR",
+    "token_indices": [
+      76,
+      77
+    ]
+  },
+  {
+    "text": "6",
+    "label": "VALOR",
+    "token_indices": [
+      109
+    ]
+  },
+  {
+    "text": "Pisões",
+    "label": "LOCAL",
+    "token_indices": [
+      116
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "18 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('6', 'VALOR'), ('Pisões', 'LOCAL')]
+Espúrias  (FP): [('Portugal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eu morei sempre aqui. Morei sempre na moagem no meio do monte. Qual foi a sua primeira impressão da aldeia? Foi sempre bonita. Qual é a lembrança desta aldeia? Eram os moinhos. Como escolheu o queria fazer? Porquê? Queria saber ler e escrever. O que fez depois disso? Fui tirar a carta de condução. Gostaria de ter continuado a estudar? Gostava. Qual foi o seu primeiro trabalho? Era ir com as cabras e lavrar nos campos do meu pai.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "carta de condução",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('carta de condução', 'COISA')]
+

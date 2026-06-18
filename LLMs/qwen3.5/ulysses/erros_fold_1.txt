@@ -1,0 +1,3936 @@
+--------------------------------------------------------------------------------
+Texto:
+WILSON FILHO ) Altera a Medida Provisória nº 2.208 , de 17 de agosto de 2001 , que dispõe sobre a comprovação da qualidade de estudante e de menor de dezoito anos nas situações que especifica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "WILSON FILHO",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Medida Provisória nº 2.208 , de 17 de agosto de 2001",
+    "label": "FUNDprojetodelei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "WILSON FILHO",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Medida Provisória nº 2.208 , de 17 de agosto de 2001",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Medida Provisória nº 2.208 , de 17 de agosto de 2001', 'FUNDprojetodelei')]
+Espúrias  (FP): [('Medida Provisória nº 2.208 , de 17 de agosto de 2001', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º É acrescentado o art 1º-A , à Medida Provisória nº2.208 , de 17 de agosto de 2001 , com a seguinte redação : “ Art . 1º - A O documento de qualificação da situação jurídica de estudante , a que se refere o art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medida Provisória nº2.208 , de 17 de agosto de 2001",
+    "label": "FUNDprojetodelei",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art 1º-A , à Medida Provisória nº2.208 , de 17 de agosto de 2001",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Medida Provisória nº2.208 , de 17 de agosto de 2001', 'FUNDprojetodelei')]
+Espúrias  (FP): [('art 1º-A , à Medida Provisória nº2.208 , de 17 de agosto de 2001', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Desta forma , cumpre ao legislador tornar expressa a disposição referente à validade nacional , de forma a assegurar aos estudantes o acesso à eventos culturais , esportivos e de lazer .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "legislador",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('legislador', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+1 PROJETO DE RESOLUÇÃO Nº , DE 2018 ( Da Sra. IRACEMA PORTELLA ) Institui a Medalha Maria da Penha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2018",
+    "label": "DATA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "IRACEMA PORTELLA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Medalha Maria da Penha",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2018",
+    "label": "DATA"
+  },
+  {
+    "text": "IRACEMA PORTELLA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Maria da Penha",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('Medalha Maria da Penha', 'PRODUTOoutros')]
+Espúrias  (FP): [('Maria da Penha', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Câmara dos Deputados resolve : Art . 1º Fica instituída a Medalha Maria da Penha , a ser outorgada pela Câmara dos Deputados a pessoas , instituições e movimentos sociais , nacionais e estrangeiras ( os ) , que se destacaram por iniciativas relevantes ao combate à violência contra a mulher .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medalha Maria da Penha",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Maria da Penha",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('Medalha Maria da Penha', 'PRODUTOoutros')]
+Espúrias  (FP): [('Maria da Penha', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 3º As propostas para a outorga da Medalha Maria da Penha poderão ser apresentadas , por escrito , à Secretaria da Mulher da Câmara dos Deputados por qualquer Deputado ( a ) Federal
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medalha Maria da Penha",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Secretaria da Mulher da Câmara dos Deputados",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Deputado ( a ) Federal",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Secretaria da Mulher da Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  }
+]
+
+Perdidas  (FN): [('Medalha Maria da Penha', 'PRODUTOoutros'), ('Deputado ( a ) Federal', 'PESSOAcargo')]
+Espúrias  (FP): [('Deputado', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 4º A definição das ( os ) premiadas ( os ) será feita pela maioria dos membros da Bancada Feminina da Câmara dos Deputados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bancada Feminina da Câmara dos Deputados",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bancada Feminina da Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Bancada Feminina da Câmara dos Deputados', 'PESSOAgrupocargo')]
+Espúrias  (FP): [('Bancada Feminina da Câmara dos Deputados', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 5º A Mesa da Câmara dos Deputados expedirá as instruções necessárias para a outorga da Medalha Maria da Penha no prazo de trinta dias contado da publicação desta Resolução .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mesa da Câmara dos Deputados",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Medalha Maria da Penha",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Medalha Maria da Penha",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Mesa da Câmara dos Deputados', 'ORGgovernamental')]
+Espúrias  (FP): [('Câmara dos Deputados', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO A proposta de Medalha Maria da Penha , a ser outorgada pela Câmara dos Deputados , tem o objetivo de homenagear pessoas , instituições e movimentos sociais , nacionais e estrangeiros ( as ) , que , com o mesmo espírito de luta de Maria da Penha , se destacaram por iniciativas relevantes ao combate à violência contra a mulher .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medalha Maria da Penha",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Maria da Penha",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Maria da Penha",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('Medalha Maria da Penha', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mais do que a condenação de seu agressor , a luta de Maria da Penha fez com que a Comissão Interamericana de Direitos Humanos da Organização dos Estados Americanos ( OEA ) condenasse , em 2001 , o Brasil por negligência , omissão e tolerância em relação à violência doméstica contra mulheres e recomendasse a adoção de políticas públicas voltadas à prevenção , punição e erradicação da violência contra a mulher .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Maria da Penha",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Comissão Interamericana de Direitos Humanos da Organização dos Estados Americanos ( OEA )",
+    "label": "PRODUTOsistema",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "2001",
+    "label": "DATA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comissão Interamericana de Direitos Humanos da Organização dos Estados Americanos ( OEA )",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "2001",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('Maria da Penha', 'PESSOAindividual'), ('Comissão Interamericana de Direitos Humanos da Organização dos Estados Americanos ( OEA )', 'PRODUTOsistema')]
+Espúrias  (FP): [('Comissão Interamericana de Direitos Humanos da Organização dos Estados Americanos ( OEA )', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Após anos de debates , o Congresso Nacional decretou e o Presidente da República sancionou a Lei 11.340 , de 7 de agosto de 2006 , merecidamente conhecida como “ Lei Maria da Penha ” , que cria mecanismos para coibir a violência doméstica e familiar contra a mulher , nos termos do § 8º do art . 226 da Constituição Federal , da Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres e da Convenção Interamericana para Prevenir , Punir e Erradicar a Violência contra a Mulher ; dispõe sobre a criação dos Juizados de Violência Doméstica e Familiar contra a Mulher ; altera o Código de Processo Penal , o Código Penal e a Lei de Execução Penal ; e dá outras providências .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Congresso Nacional",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Presidente da República",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Lei 11.340 , de 7 de agosto de 2006",
+    "label": "FUNDlei",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Lei Maria da Penha",
+    "label": "FUNDapelido",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "§ 8º do art . 226 da Constituição Federal",
+    "label": "FUNDlei",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres",
+    "label": "FUNDapelido",
+    "token_indices": [
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Convenção Interamericana para Prevenir , Punir e Erradicar a Violência contra a Mulher",
+    "label": "FUNDapelido",
+    "token_indices": [
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ]
+  },
+  {
+    "text": "Juizados de Violência Doméstica e Familiar contra a Mulher",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ]
+  },
+  {
+    "text": "Código de Processo Penal",
+    "label": "FUNDapelido",
+    "token_indices": [
+      110,
+      111,
+      112,
+      113
+    ]
+  },
+  {
+    "text": "Código Penal",
+    "label": "FUNDapelido",
+    "token_indices": [
+      116,
+      117
+    ]
+  },
+  {
+    "text": "Lei de Execução Penal",
+    "label": "FUNDapelido",
+    "token_indices": [
+      120,
+      121,
+      122,
+      123
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Congresso Nacional",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Presidente da República",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Lei 11.340 , de 7 de agosto de 2006",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Lei Maria da Penha",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "§ 8º do art . 226 da Constituição Federal",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Convenção Interamericana para Prevenir , Punir e Erradicar a Violência contra a Mulher",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres', 'FUNDapelido'), ('Convenção Interamericana para Prevenir , Punir e Erradicar a Violência contra a Mulher', 'FUNDapelido'), ('Juizados de Violência Doméstica e Familiar contra a Mulher', 'PRODUTOoutros'), ('Código de Processo Penal', 'FUNDapelido'), ('Código Penal', 'FUNDapelido'), ('Lei de Execução Penal', 'FUNDapelido')]
+Espúrias  (FP): [('Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres', 'FUNDlei'), ('Convenção Interamericana para Prevenir , Punir e Erradicar a Violência contra a Mulher', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não obstante o marco representado pela Lei Maria da Penha , a triste realidade é que a história de violência doméstica sofrida por Maria da Penha ainda se repete diariamente em milhares de lares brasileiros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Maria da Penha",
+    "label": "FUNDapelido",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Maria da Penha",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Maria da Penha",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "Maria da Penha",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "brasileiros",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('brasileiros', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Alguns dados do Instituto Maria da Penha evidenciam esse quadro dramático : ( i ) a cada 2 segundos uma mulher é vítima de violência física ou verbal no Brasil ; ( ii ) a cada 2.6 segundos uma mulher é vítima de ofensa verbal ; ( iii ) a cada 6.3 segundos uma mulher é vítima de ameaça de violência ; ( iv ) a cada 2 minutos uma mulher é vítima de arma de fogo ; ( v ) a cada 22.5 segundos uma mulher é vítima de espancamento ou tentativa de estrangulamento ; ( vi ) a cada 1.4 segundo uma mulher é vítima de assédio ; ( vii ) a cada 4.6 segundos uma mulher é vítima de assédio no trabalho ; ( viii ) a cada 6.1 segundos uma mulher é vítima de assédio físico em transporte público .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Instituto Maria da Penha",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Instituto Maria da Penha', 'ORGnaogovernamental'), ('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Por sua vez , a 11ª edição do Anuário Brasileiro de Segurança Pública , divulgado em 2017 , registra 49.497 ocorrências de estupro e 4.657 homicídios de mulheres em 2016 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "11ª edição do Anuário Brasileiro de Segurança Pública",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "2017",
+    "label": "DATA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "2016",
+    "label": "DATA",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Anuário Brasileiro de Segurança Pública",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "2017",
+    "label": "DATA"
+  },
+  {
+    "text": "2016",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('11ª edição do Anuário Brasileiro de Segurança Pública', 'PRODUTOoutros')]
+Espúrias  (FP): [('Anuário Brasileiro de Segurança Pública', 'LOCALvirtual')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em outra perspectiva , a pesquisa “ Visível e Invisível : a vitimização de mulheres no Brasil ” , realizada pelo Datafolha em 2016 , constatou que : ( i ) para 73% da população brasileira a violência contra a mulher aumentou nos últimos 10 anos ; ( ii ) 66% da população já presenciou uma mulher sendo vítima de algum tipo de violência ; ( iii ) 29% das mulheres reportaram ter sofrido ao menos algum tipo de violência nos últimos 12 meses ; ( iv ) a maioria dos agressores ( 61% ) são pessoas conhecidas da vítima , em especial cônjuge / companheiro / namorado e ex-cônjuge / ex-companheiro / ex - namorado ; ( v ) 43% dos casos de violência contra mulher ocorreram em casa ; 4 ( vi ) na maioria dos casos as mulheres não tomam atitude frente à violência sofrida , visto que 52% reportaram que não fizeram nada ; ( vii ) 40% das mulheres relataram ter sofrido algum tipo de assédio , sendo o tipo mais frequente o recebimento de comentários desrespeitosos a andar na rua .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Visível e Invisível : a vitimização de mulheres no Brasil",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Datafolha",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "2016",
+    "label": "DATA",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Visível e Invisível : a vitimização de mulheres no Brasil', 'PRODUTOoutros'), ('Datafolha', 'ORGnaogovernamental'), ('2016', 'DATA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deputada IRACEMA PORTELLA ( PROGRESSISTAS / PI )
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputada",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "IRACEMA PORTELLA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "PROGRESSISTAS",
+    "label": "ORGpartido",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "PI",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputada",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "IRACEMA PORTELLA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PROGRESSISTAS",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "PI",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('PI', 'LOCALconcreto')]
+Espúrias  (FP): [('PI', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI Nº , DE 2019 ( Do Sr. LUIZ PHILIPPE DE ORLEANS E BRAGANÇA ) Altera a Lei nº 12.232 , de 29 de abril de 2010 , para acrescentar normas relativas à execução de serviços de publicidade contratados pela administração pública O Congresso Nacional decreta : Art . 1º Esta Lei altera a Lei nº 12.232 , de 29 de abril de 2010 , para acrescentar normas relativas à execução de serviços de publicidade contratados pela administração pública .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "LUIZ PHILIPPE DE ORLEANS E BRAGANÇA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Lei nº 12.232 , de 29 de abril de 2010",
+    "label": "FUNDlei",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Lei nº 12.232 , de 29 de abril de 2010",
+    "label": "FUNDlei",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "LUIZ PHILIPPE DE ORLEANS E BRAGANÇA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 12.232 , de 29 de abril de 2010",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Lei nº 12.232 , de 29 de abril de 2010', 'FUNDlei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+§ 5º É vedada a contratação de serviços de publicidade que tenham por objetivo : I – difundir mensagens genéricas sobre ações , projetos e campanhas dos órgãos ou entidades públicas , sem caracterização informativa sobre normas , procedimentos , emergências de natureza de segurança e de saúde pública ; II – divulgar nomes , símbolos ou imagens que caracterizem promoção pessoal de autoridades ou de servidores públicos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "servidores públicos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      66,
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('servidores públicos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse dispositivo está expresso que “ a publicidade dos atos , programas , obras , serviços e campanhas dos órgãos públicos deverá ter caráter educativo , informativo ou de orientação social , dela não podendo constar nomes , símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "servidores públicos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('servidores públicos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar de esse ser um comando que independe de regulamentação para sua eficácia , é fato que a legislação pode contribuir para P L n .4 8 9 2 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 8 : 4 4 3 R $ 0,00 R $ 500.000.000,00 R $ 1.000.000.000,00 R $ 1.500.000.000,00 R $ 2.000.000.000,00 R $ 2.500.000.000,00 R $ 3.000.000.000,00 20002001200220032004200520062007200820092010201120122013201420152016 Gasto com publicidade no Governo Federal um melhor regramento da publicidade de órgãos públicos – o que pretendemos com este projeto de lei .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Governo Federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      87,
+      88
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Governo Federal', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No caso do governo brasileiro , segundo levantamento do site Poder360 1 , o Poder Executivo gastou mais de R $ 30 bilhões de reais com publicidade entre os anos 2000 e 2016 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder360",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "2000",
+    "label": "DATA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "2016",
+    "label": "DATA",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "governo brasileiro",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Poder360",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "2000",
+    "label": "DATA"
+  },
+  {
+    "text": "2016",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('governo brasileiro', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com efeito , observa-se uma aceleração em gastos em 2001 , ano antecedente da eleição presidencial de 2002 , e , sobretudo , em 2009 e 2010 , que cresceram em média R $ 750 milhões de reais quando comparados 1 https : / / www.poder360 . com.br / midia / acesse-a-integra-dos-arquivos-sobre-publicidade-da-uniao-de - 2000 - a - 2016 / P L n .4 8 9 2 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 8 : 4 4 4 ao biênio anterior ( 2007 - 2008 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2001",
+    "label": "DATA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "eleição presidencial de 2002",
+    "label": "EVENTO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "2009",
+    "label": "DATA",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "2010",
+    "label": "DATA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "https : / / www.poder360 . com.br / midia / acesse-a-integra-dos-arquivos-sobre-publicidade-da-uniao-de - 2000 - a - 2016 /",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "2007",
+    "label": "DATA",
+    "token_indices": [
+      102
+    ]
+  },
+  {
+    "text": "2008",
+    "label": "DATA",
+    "token_indices": [
+      104
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2001",
+    "label": "DATA"
+  },
+  {
+    "text": "2002",
+    "label": "DATA"
+  },
+  {
+    "text": "2009",
+    "label": "DATA"
+  },
+  {
+    "text": "2010",
+    "label": "DATA"
+  },
+  {
+    "text": "2008",
+    "label": "DATA"
+  },
+  {
+    "text": "2011",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('eleição presidencial de 2002', 'EVENTO'), ('https : / / www.poder360 . com.br / midia / acesse-a-integra-dos-arquivos-sobre-publicidade-da-uniao-de - 2000 - a - 2016 /', 'LOCALvirtual'), ('2007', 'DATA')]
+Espúrias  (FP): [('2002', 'DATA'), ('2011', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sendo assim , neste Projeto de Lei reforçamos a obrigatoriedade de caracterização das peças publicitárias oficiais como de caráter educativo , informativo ou de orientação social ; e a proibição de divulgação de nomes , símbolos ou imagens que caracterizem promoção pessoal de autoridades ou de servidores públicos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "servidores públicos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('servidores públicos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Estamos estabelecendo também obrigatoriedade de divulgação de informações acerca do custo de produção das ações publicitárias contratadas pelo governo de modo a ampliar a transparência desses dados – como os relativos aos gastos realizados para cada serviço prestado por fornecedor e para cada meio de divulgação .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "governo",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('governo', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além disso , as peças e projetos publicitários contratados pela Administração Pública deverão conter , de forma clara e ostensiva , informações sobre o custo total de todas as suas etapas de execução , desde a celebração do contrato até a sua veiculação .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Administração Pública",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Administração Pública', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta lei dispõe sobre a concessão de visto permanente ao estrangeiro que invista e pretenda fixar-se no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2º Inclua-se na Lei nº 6.815 , de 19 de agosto de 1980 os seguintes dispositivos : “ Art . 18 - A Poderá obter o visto permanente o estrangeiro que pretenda fixar-se no Brasil e invista recursos próprios de origem externa e lícita em empresas constituídas sob as leis brasileiras , títulos públicos ou em imóveis novos em construção
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 6.815 , de 19 de agosto de 1980",
+    "label": "FUNDlei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 6.815 , de 19 de agosto de 1980",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+18 - A ficará condicionada também : I – no caso de investimento em empresas constituídas sob as leis brasileiras , à comprovação da subscrição de quotas ou ações em montante igual ou superior a R $ 400.000,00 ( quatrocentos mil reais ) , ou quantia equivalente em moeda estrangeira ; II - no caso de investimento em títulos públicos , à comprovação de aquisição de títulos públicos no montante igual ou superior a R $ 600.000,00 ( seiscentos mil reais ) ; III – no caso de investimento em imóveis novos em construção , à comprovação de aquisição um ou mais imóveis novos em construção , avaliados pelo Poder Público em montante igual ou superior a R $ 600.000,00 ( seiscentos mil reais )
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Público",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      109,
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Poder Público', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+§ 4º Se houver interesse nacional e geração de empregos no Brasil , em casos excepcionais , o montante estabelecido no inciso I poderá ser reduzido , por regulamento , até a metade desse valor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO A proposição visa a criar o visto permanente , destinado aos investidores que pretendam se fixar e investir no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "investidores",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('investidores', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Além de fixar o valor mínimo dos investimentos , a iniciativa estabelece o prazo de dois anos para a concessão do visto permanente , e o prazo mínimo de cinco anos de manutenção , no Brasil , do montante investido .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado LUIZ NISHIMORI ( PR / PR )
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "LUIZ NISHIMORI",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "PR",
+    "label": "ORGpartido",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "PR",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "LUIZ NISHIMORI",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PR",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "PR",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('PR', 'ORGpartido')]
+Espúrias  (FP): [('PR', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI COMPLEMENTAR Nº , DE 2019 ( Do Sr. JOÃO MAIA ) Acrescenta o art . 48 - A na Lei Complementar nº 101 , de 4 de maio de 2000 , para incluir um código identificador das coordenadas geográficas ( georreferenciamento ) que permita o monitoramento e a fiscalização , do andamento das obras públicas , na União , nos Estados , no Distrito Federal e nos Municípios .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "JOÃO MAIA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "art . 48 - A na Lei Complementar nº 101 , de 4 de maio de 2000",
+    "label": "FUNDlei",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "JOÃO MAIA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "art . 48 - A na Lei Complementar nº 101 , de 4 de maio de 2000",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "União",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Estados",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Municípios",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('União', 'LOCALconcreto'), ('Estados', 'LOCALconcreto'), ('Distrito Federal', 'LOCALconcreto'), ('Municípios', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta Lei Complementar acrescenta o art . 48 - A na Lei de Responsabilidade Fiscal , no Capítulo que trata da Transparência , Controle e Fiscalização das ações de governo , para determinar a inclusão de um código identificador das coordenadas geográficas ( georreferenciamento ) que permita o monitoramento e a fiscalização , do andamento das obras públicas , na União , nos Estados , no Distrito Federal e nos Municípios
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 48 - A na Lei de Responsabilidade Fiscal",
+    "label": "FUNDlei",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 48 - A na Lei de Responsabilidade Fiscal",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "União",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Estados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Municípios",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('União', 'ORGgovernamental'), ('Estados', 'ORGgovernamental'), ('Distrito Federal', 'ORGgovernamental'), ('Municípios', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 1º O disposto no caput será regulamentado nas leis de diretrizes orçamentárias quanto às obras que serão monitoradas por meio do código identificador das coordenadas geográficas ( georreferenciamento ) , levando-se em conta a finalidade do investimento , a população atendida e o montante de recursos envolvidos nas programações orçamentárias e em sua execução financeira
+
+Entidades verdadeiras:
+[
+  {
+    "text": "leis de diretrizes orçamentárias",
+    "label": "FUNDapelido",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('leis de diretrizes orçamentárias', 'FUNDapelido')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com a alteração proposta à Lei de Responsabilidade Fiscal , no Capítulo que trata da Transparência , Controle e Fiscalização das ações de governo , passa a ser obrigatória a divulgação em tempo real das principais informações sobre as obras públicas e em formato compatível com o desenvolvimento de aplicativos de celular .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei de Responsabilidade Fiscal",
+    "label": "FUNDapelido",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei de Responsabilidade Fiscal",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Lei de Responsabilidade Fiscal', 'FUNDapelido')]
+Espúrias  (FP): [('Lei de Responsabilidade Fiscal', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+P L P n .1 9 1 / 2 0 1 9 A p re s e n ta ç ã o : 1 4 / 0 8 / 2 0 1 9 1 9 : 2 0 4 Em resumo , é o governo cada vez mais transparente e aberto ao crivo da população , razão pela qual contamos com o apoio dos nobres pares para aprimoramento e aprovação da presente proposição ao longo de sua tramitação legislativa nesta Casa .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "governo",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('governo', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+SHÉRIDAN ) Altera a Lei Nº . 9.504 de 30 de Setembro de 1997 ( Lei das Eleições ) para instituir na legislação eleitoral os Comitês de Ação Política .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SHÉRIDAN",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Lei Nº . 9.504 de 30 de Setembro de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Lei das Eleições",
+    "label": "FUNDapelido",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Comitês de Ação Política",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SHÉRIDAN",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei Nº . 9.504 de 30 de Setembro de 1997",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Lei das Eleições",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Comitês de Ação Política', 'ORGnaogovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Qualquer eleitor poderá associar-se voluntariamente a outros eleitores para a formação de comitês de ação política , com o intuito de arrecadar recursos oriundos de pessoas físicas para a realização autônoma de manifestações coletivas em favor de determinado candidato ou partido , manifestações políticas e defesa de políticas , opiniões e preferências durante o ano eleitoral , devendo estes requererem seus cadastros perante a Justiça Eleitoral
+
+Entidades verdadeiras:
+[
+  {
+    "text": "comitês de ação política",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Justiça Eleitoral",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "eleitor",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "eleitores",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "comitês de ação política",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Justiça Eleitoral",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('eleitor', 'PESSOAgrupocargo'), ('eleitores', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 1º Desde o dia 1º de janeiro do ano eleitoral , os comitês de ação política poderão requerer seus cadastros perante a Justiça Eleitoral para a realização das atividades estabelecidas no caput deste artigo , aplicando-lhes o disposto no Art .36 - A desta lei no que concerne à propaganda eleitoral antecipada
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1º de janeiro",
+    "label": "DATA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "comitês de ação política",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Justiça Eleitoral",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Justiça Eleitoral",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('1º de janeiro', 'DATA'), ('comitês de ação política', 'ORGnaogovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo a base de dados do Instituto pela Democracia e Assistência Eleitoral ( IDEA – em inglês ) , que congrega em torno de 180 países , 68,3% dos países preveem algum tipo de subvenção pública direta a partidos e / ou candidatos 1 , excluindo formas de subvenção indireta e acesso subsidiado à mídia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Instituto pela Democracia e Assistência Eleitoral ( IDEA",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Instituto pela Democracia e Assistência Eleitoral ( IDEA – em inglês )",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('Instituto pela Democracia e Assistência Eleitoral ( IDEA', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Instituto pela Democracia e Assistência Eleitoral ( IDEA – em inglês )', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mudanças nesse quadro podem ser capazes de catalisar modos de participação e engajamento político que passem por fora das organizações partidárias tradicionais , indo ao encontro dos anseios de novos movimentos e 1 http : / / www.idea.int / political-finance / question.cfm ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "http : / / www.idea.int / political-finance / question.cfm ?",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('http : / / www.idea.int / political-finance / question.cfm ?', 'LOCALvirtual')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Sendo tanto uma forma de concretizar um direito previsto na constituição como uma forma de contribuir para a ampliação de fontes limpas e legais de financiamento da política , apresento essa proposta aos nobres pares e à sociedade brasileira , confiante de que , finalmente , viraremos a página dos escândalos de financiamento ilegal e relações escusas entre o público e o privado em nosso país , trazendo os homens e mulheres comuns para dentro da política e descentralizando as formas de financiamento .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "constituição",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('constituição', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+Conhecida como “ Lei do Calote ” , o referido diploma legal jogou para o colo das instituições privadas de ensino todo o ônus da alta inadimplência que ocorre no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei do Calote",
+    "label": "FUNDapelido",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei do Calote",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Daí ser popularmente conhecida como a Lei do Calote .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei do Calote",
+    "label": "FUNDapelido",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei do Calote', 'FUNDapelido')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+1 https : / / oglobo.globo.com / rio / censo - 218 - escolas-particulares-fecharam-de - 2013 - 2015 - no-rio - 20155182 P L n .4 8 7 4 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 4 : 5 9 4 Diante da importância e efetividade dos efeitos que a medida tende a produzir , conclamo os nobres pares à aprovação da matéria .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "https : / / oglobo.globo.com / rio / censo - 218 - escolas-particulares-fecharam-de - 2013 - 2015 - no-rio - 20155182",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "escolas particulares",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('https : / / oglobo.globo.com / rio / censo - 218 - escolas-particulares-fecharam-de - 2013 - 2015 - no-rio - 20155182', 'LOCALvirtual')]
+Espúrias  (FP): [('escolas particulares', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI Nº , DE 2019 ( Do Sr. PEDRO UCZAI ) Dispõe sobre a definição , na Lei nº 10.260 , de 12 de julho de 2001 , de entidades mantenedoras e instituições de ensino que podem aderir e participar do financiamento estudantil como aqueles que devem ter controle acionário majoritariamente nacional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "PEDRO UCZAI",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Lei nº 10.260 , de 12 de julho de 2001",
+    "label": "FUNDlei",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "PEDRO UCZAI",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 10.260 , de 12 de julho de 2001",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('PEDRO UCZAI', 'PESSOAcargo')]
+Espúrias  (FP): [('PEDRO UCZAI', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 9º O Ministério da Educação poderá definir outros critérios de qualidade e , nos termos do que for aprovado pelo CG-Fies , requisitos para adesão e participação das instituições de ensino no Fies , as quais deverão ter controle acionário majoritariamente nacional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ministério da Educação",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "CG-Fies",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Fies",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ministério da Educação",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "CG-Fies",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Fies', 'PRODUTOprograma')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO O Fundo de Financiamento Estudantil ( Fies ) , instituído pela Lei nº 10.260 , de 12 de julho de 2001 , hoje composto pelo Fundo Fies e pelo Programa Fies ( P-Fies ) , concede financiamento principalmente a estudantes em cursos superiores não gratuitos , mas também a cursos técnicos e de pós - graduação stricto sensu , sendo um instrumento relevante de democratização P L n .4 8 9 5 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 9 : 5 2 2 da educação superior brasileira , sobretudo se considerarmos que ainda estamos distantes de cumprir a meta do PNE que prevê uma taxa líquida de 33% de estudantes de 18 a 24 anos em cursos superiores em 2024 , quando atualmente essa cifra é pouco superior a 18% .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fundo de Financiamento Estudantil ( Fies )",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Lei nº 10.260 , de 12 de julho de 2001",
+    "label": "FUNDlei",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Fundo Fies",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Programa Fies ( P-Fies )",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "2024",
+    "label": "DATA",
+    "token_indices": [
+      141
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fundo de Financiamento Estudantil ( Fies )",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Fundo Fies",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Programa Fies ( P-Fies )",
+    "label": "PRODUTOprograma"
+  },
+  {
+    "text": "Lei nº 10.260 , de 12 de julho de 2001",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Fundo de Financiamento Estudantil ( Fies )', 'PRODUTOprograma'), ('Fundo Fies', 'PRODUTOprograma'), ('2024', 'DATA')]
+Espúrias  (FP): [('Fundo de Financiamento Estudantil ( Fies )', 'PRODUTOoutros'), ('Fundo Fies', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado PEDRO UCZAI 2019 - 14537 P L n .4 8 9 5 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 9 : 5 2
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "PEDRO UCZAI",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "PEDRO UCZAI",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('Deputado', 'PESSOAindividual')]
+Espúrias  (FP): [('Deputado', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+LÍDICE DA MATA ) Estabelece percentual mínimo de cacau nos chocolates e torna obrigatória a informação sobre o teor de cacau nos rótulos , embalagens e peças publicitárias desses produtos , nacionais e importados , comercializados no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LÍDICE DA MATA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('LÍDICE DA MATA', 'PESSOAindividual')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 4º O descumprimento do disposto nesta Lei sujeita o infrator às sanções previstas nos arts . 56 a 60 e 66 a 68 da Lei nº 8.078 , de 11 de P L n .4 6 1 7 / 2 0 1 9 A p re s e n ta ç ã o : 2 1 / 0 8 / 2 0 1 9 1 4 : 3 0 setembro de 1990 ( Código de Defesa do Consumidor ) , e à legislação sanitária , sem prejuízo das sanções de natureza civil ou penal cabíveis .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "arts . 56 a 60 e 66 a 68 da Lei nº 8.078",
+    "label": "FUNDlei",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "setembro de 1990",
+    "label": "DATA",
+    "token_indices": [
+      71,
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Código de Defesa do Consumidor",
+    "label": "FUNDapelido",
+    "token_indices": [
+      75,
+      76,
+      77,
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "arts . 56 a 60 e 66 a 68 da Lei nº 8.078 , de 11 de setembro de 1990",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Código de Defesa do Consumidor",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('arts . 56 a 60 e 66 a 68 da Lei nº 8.078', 'FUNDlei'), ('setembro de 1990', 'DATA')]
+Espúrias  (FP): [('arts . 56 a 60 e 66 a 68 da Lei nº 8.078 , de 11 de setembro de 1990', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO Apesar de sermos um dos maiores consumidores de chocolate , o produto ofertado no Brasil apresenta qualidade aquém da observada em mercados mais desenvolvidos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Estou convicta de que seus termos contribuirão para o aprimoramento do mercado nacional de chocolates , aproximando-o dos padrões verificados em outros países , como os Estados Unidos e os que integram a União Europeia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estados Unidos",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "chocolates",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "União Europeia",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('União Europeia', 'ORGnaogovernamental')]
+Espúrias  (FP): [('chocolates', 'PRODUTOoutros'), ('União Europeia', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+De acordo com levantamento do PNAD , mais de 95% dos domicílios brasileiros possuem televisor .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "PNAD",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('PNAD', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Paralelamente , o mercado de TV por assinatura vem experimentando um período de vertiginosa expansão , tendo alcançado a expressiva marca dos 9,9 milhões de assinantes em janeiro de 2011 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "janeiro de 2011",
+    "label": "DATA",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TV por assinatura",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "janeiro de 2011",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('TV por assinatura', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+A proposta está em perfeita consonância com o espírito do texto constitucional brasileiro , ao assegurar à família um precioso instrumento de defesa contra a exploração da inexperiência do público infantil pelos meios de comunicação de massa .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "texto constitucional brasileiro",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('texto constitucional brasileiro', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+1 * 6 E 5 3 E C D 5 0 2 * 6 E 5 3 E C D 5 0 2 PROJETO DE LEI Nº , DE 2013 ( Do Dr. Jorge Silva ) Altera a Lei n ° 6.001 , de 19 de dezembro de 1973 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2013",
+    "label": "DATA",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Jorge Silva",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Lei n ° 6.001 , de 19 de dezembro de 1973",
+    "label": "FUNDlei",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2013",
+    "label": "DATA"
+  },
+  {
+    "text": "Dr. Jorge Silva",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei n ° 6.001 , de 19 de dezembro de 1973",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Jorge Silva', 'PESSOAindividual')]
+Espúrias  (FP): [('Dr. Jorge Silva', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta Lei regula a indenização de benfeitorias a agricultores ocupantes de boa-fé em terras indígenas , nos termos estabelecidos pelo § 6º do art . 231 da Constituição Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "agricultores",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "§ 6º do art . 231 da Constituição Federal",
+    "label": "FUNDlei",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "§ 6º do art . 231 da Constituição Federal",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('agricultores', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Outra questão que nos preocupa diz respeito à desocupação compulsória dos agricultores , sem que lhes seja paga a devida indenização .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "agricultores",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('agricultores', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse sentido , estamos propondo que esses agricultores tenham o direito de permanecer na área até a data do pagamento da devida indenização .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "agricultores",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('agricultores', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado DR. JORGE SILVA 2013 _ 14075
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "DR.",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "JORGE SILVA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "2013",
+    "label": "DATA",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "JORGE SILVA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "2013",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('DR.', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI Nº , DE 2019 ( Do Sr. FELIPE CARRERAS ) Dispõe sobre a criação de Áreas Especiais de Interesse Turístico , nas condições que especifica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "FELIPE CARRERAS",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Áreas Especiais de Interesse Turístico",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "FELIPE CARRERAS",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('Áreas Especiais de Interesse Turístico', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta Lei dispõe sobre a criação de Áreas Especiais de Interesse Turístico ( AEIT ) , com o objetivo de estimular a atividade turística em seus territórios .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Áreas Especiais de Interesse Turístico ( AEIT )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Áreas Especiais de Interesse Turístico ( AEIT )', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2º É o Poder Executivo autorizado a criar Áreas Especiais de Interesse Turístico ( AEIT ) , sujeitas ao regime jurídico instituído por esta Lei , com a finalidade de estimular a atividade turística , fortalecer a indústria turística e gerar emprego e renda em seus territórios .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Áreas Especiais de Interesse Turístico ( AEIT )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Áreas Especiais de Interesse Turístico ( AEIT )', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 3º A criação de AEIT se dará por decreto , que delimitará sua área , à vista de proposta dos estados ou municípios , em conjunto ou isoladamente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('AEIT', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 4º As AEIT serão criadas em áreas de vocação turística , assim entendidas aquelas que apresentem em seu território : I – paisagens notáveis ; II – localidades e acidentes naturais adequados ao repouso e à pratica de atividades recreativas , desportivas ou de lazer ; III – bens ou locais de valor histórico , artístico , arqueológico ou pré-histórico ; IV – manifestações culturais ou etnológicas ; V – áreas destinadas à proteção dos recursos naturais renováveis ; P L n .4 8 3 6 / 2 0 1 9 A p re s e n ta ç ã o : 0 3 / 0 9 / 2 0 1 9 1 8 : 0 8 2 VI – unidades de conservação , nos termos da Lei nº 9.985 , de 18 de julho de 2000 ; e VII – outros que venham a ser definidos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Lei nº 9.985 , de 18 de julho de 2000",
+    "label": "FUNDlei",
+    "token_indices": [
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('AEIT', 'PRODUTOoutros'), ('Lei nº 9.985 , de 18 de julho de 2000', 'FUNDlei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 5º É vedada a instalação em AEIT de empreendimentos cujas atividades possam prejudicar a atividade turística .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('AEIT', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 6º O Poder Público formulará e executará políticas de estímulo à atividade turística em AEIT , incluindo : I – isenção de taxas e impostos federais ; II – abertura de linhas de crédito em instituições financeiras oficiais para o desenvolvimento das atividades turísticas , direcionadas aos municípios que sediarem AEIT e aos empreendimentos turísticos nelas instalados ; III – celebração de convênio ou parceria para a execução de projetos de conservação ambiental em AEIT ; IV – celebração de convênio ou parceria com órgãos e entidades de formação técnica para a capacitação de trabalhadores no setor turístico em AEIT ; e V – concessão de prioridade na execução de obras públicas destinadas à implantação , expansão ou modernização da infraestrutura turística em AEIT .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Público",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      101
+    ]
+  },
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      125
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Poder Público', 'ORGgovernamental'), ('AEIT', 'PRODUTOoutros'), ('AEIT', 'PRODUTOoutros'), ('AEIT', 'PRODUTOoutros'), ('AEIT', 'PRODUTOoutros'), ('AEIT', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO Esta proposição busca especificar mais detidamente o conceito de Áreas Especiais de Interesse Turístico ( AEIT ) , criadas pela Lei nº 6.513 , de 20 / 12 / 77 , como “ trechos contínuos do território nacional , inclusive suas águas territoriais , a serem preservados e valorizados no sentido cultural e natural , e destinados à realização de planos e projetos de desenvolvimento turístico ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Áreas Especiais de Interesse Turístico ( AEIT )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Lei nº 6.513 , de 20 / 12 / 77",
+    "label": "FUNDlei",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Áreas Especiais de Interesse Turístico ( AEIT )",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Lei nº 6.513 , de 20 / 12 / 77",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Áreas Especiais de Interesse Turístico ( AEIT )', 'PRODUTOoutros')]
+Espúrias  (FP): [('Áreas Especiais de Interesse Turístico ( AEIT )', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ao P L n .4 8 3 6 / 2 0 1 9 A p re s e n ta ç ã o : 0 3 / 0 9 / 2 0 1 9 1 8 : 0 8 3 longo de todo esse tempo , as AEIT permaneceram letra morta , à espera de efetiva regulamentação e implantação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('AEIT', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Se a ideia das Áreas Especiais de Interesse Turístico dormitou por 42 anos nos esconsos da legislação nacional , a realidade do turismo modificou-se de forma impressionante .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Áreas Especiais de Interesse Turístico",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Áreas Especiais de Interesse Turístico', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não por acaso , o Brasil acordou para a importância do desenvolvimento do segmento turístico .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Brasil', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cremos , portanto , que é hora de dar forma concreta à ideia de AEIT .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('AEIT', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Adicionalmente , especificamos as características locais que devem estar presentes para embasar o pedido de criação das AEIT .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AEIT",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('AEIT', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ademais , elencamos as políticas a serem executadas pelo Poder Público nas Áreas Especiais de Interesse Turístico , com vistas ao cumprimento de incentivo à atividade turística .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Público",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Áreas Especiais de Interesse Turístico",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Público",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Áreas Especiais de Interesse Turístico', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Estamos certos de que a implantação de Áreas Especiais de Interesse Turístico nos moldes aqui propostos representará uma inovação legal que muito contribuirá para o fortalecimento e a expansão do segmento turístico no País .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Áreas Especiais de Interesse Turístico",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Áreas Especiais de Interesse Turístico', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 8 3 6 / 2 0 1 9 A p re s e n ta ç ã o : 0 3 / 0 9 / 2 0 1 9 1 8 : 0 8 4 Desta forma , contamos com o apoio de nossos Pares congressistas para a aprovação desta proposta .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "congressistas",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('congressistas', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+LUIZ ANTÔNIO CORRÊA ) Dispõe sobre a profissão de guarda - parque .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LUIZ ANTÔNIO CORRÊA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "guarda - parque",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "LUIZ ANTÔNIO CORRÊA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "guarda-parque",
+    "label": "PESSOAcargo"
+  }
+]
+
+Perdidas  (FN): [('guarda - parque', 'PESSOAcargo')]
+Espúrias  (FP): [('guarda-parque', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 4º O exercício da profissão de Guarda-parque é autorizado ao portador de diploma de nível médio , com habilitação em curso técnico P L n .4 7 0 8 / 2 0 1 9 A p re s e n ta ç ã o : 2 7 / 0 8 / 2 0 1 9 1 7 : 2 8 2 específico de Guarda-parque com , no mínimo , 200 ( duzentas ) horas de aulas práticas e teóricas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Guarda-parque",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Guarda-parque",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Guarda-parque', 'PESSOAcargo'), ('Guarda-parque', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Originariamente , o projeto foi apresentado em 2014 pelo nobre Deputado Marco Maia , a quem rendemos nossas homenagens , tendo sido arquivado ao final da legislatura passada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Marco Maia",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2014",
+    "label": "DATA"
+  },
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Marco Maia",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('2014', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+George Hilton Proíbe , em todo território nacional , a comercialização e uso da substância salvinorina e da planta da qual pode ser extraída , da espécie Salvia divinorum .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "George Hilton",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "George Hilton",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Salvia divinorum",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Salvia divinorum', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta lei proíbe , em todo o território nacional , a comercialização e uso da substância salvinorina e da planta da qual pode ser extraída , da espécie Salvia divinorum , para os fins do disposto na Lei nº . 11.343 , de 23 de agosto de 2006 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº . 11.343 , de 23 de agosto de 2006",
+    "label": "FUNDlei",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Salvia divinorum",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Lei nº . 11.343 , de 23 de agosto de 2006",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Salvia divinorum', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Existem várias substâncias que já foram proscritas no Brasil , a partir da edição da Portaria nº 344 , da Secretaria de Vigilância em saúde , do Ministério da Saúde .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Portaria nº 344",
+    "label": "FUNDlei",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Secretaria de Vigilância em saúde",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Ministério da Saúde",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Portaria nº 344 , da Secretaria de Vigilância em saúde , do Ministério da Saúde",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Portaria nº 344', 'FUNDlei'), ('Secretaria de Vigilância em saúde', 'ORGgovernamental'), ('Ministério da Saúde', 'ORGgovernamental')]
+Espúrias  (FP): [('Portaria nº 344 , da Secretaria de Vigilância em saúde , do Ministério da Saúde', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os exemplos mais conhecidos são o THC ( tetraidrocanabinol ) – extraído de plantas da espécie Cannabis sativa , vulgarmente conhecida como maconha – e a cocaína .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "THC ( tetraidrocanabinol )",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Cannabis sativa",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "maconha",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "cocaína",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('THC ( tetraidrocanabinol )', 'PRODUTOoutros'), ('Cannabis sativa', 'PRODUTOoutros'), ('maconha', 'PRODUTOoutros'), ('cocaína', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+É o que acontece com a planta da espécie Salvia divinorum .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Salvia divinorum",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Salvia divinorum', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um dos compostos isolados da planta , denominado de salvinorina A , está sendo considerado como um dos mais potentes alucinógenos conhecidos .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "salvinorina A",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('salvinorina A', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta Lei altera a Lei Complementar nº 123 , de 14 de dezembro de 2006 , para estabelecer critério de reajuste do teto de receita bruta do microempreendedor individual ( MEI ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Complementar nº 123 , de 14 de dezembro de 2006",
+    "label": "FUNDlei",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "microempreendedor individual ( MEI )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Complementar nº 123 , de 14 de dezembro de 2006",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "microempreendedor individual ( MEI )",
+    "label": "PESSOAcargo"
+  }
+]
+
+Perdidas  (FN): [('microempreendedor individual ( MEI )', 'PRODUTOoutros')]
+Espúrias  (FP): [('microempreendedor individual ( MEI )', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2º Acrescente-se § 15 ao artigo 18 - A da Lei Complementar nº 123 , de 14 de dezembro de 2006 : “ Art . 18 - A
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 18 - A da Lei Complementar nº 123 , de 14 de dezembro de 2006",
+    "label": "FUNDlei",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "§ 15 ao artigo 18 - A da Lei Complementar nº 123 , de 14 de dezembro de 2006",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('artigo 18 - A da Lei Complementar nº 123 , de 14 de dezembro de 2006', 'FUNDlei')]
+Espúrias  (FP): [('§ 15 ao artigo 18 - A da Lei Complementar nº 123 , de 14 de dezembro de 2006', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 15 O teto previsto no § 1º deste artigo será reajustado a cada 1º de janeiro com base no índice de correção do salário-mínimo estabelecido no ano anterior .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "salário-mínimo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('salário-mínimo', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No entanto , sabemos que aquele empreendedor enquadrado no MEI que tem aumento de faturamento superior ao limite de 36.000 reais anuais , fruto do progresso do seu negócio , passa a sofrer tributação diferenciada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "empreendedor",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "MEI",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MEI",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('empreendedor', 'PESSOAcargo'), ('MEI', 'PRODUTOoutros')]
+Espúrias  (FP): [('MEI', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ocorre que grande parte dos pequenos negócios enquadrados no MEI têm o seus custos vinculados ao salário-mínimo , em razão das exigências legais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MEI",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "salário-mínimo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MEI",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('salário-mínimo', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2º Até 20% ( vinte por cento ) dos recursos do Fundo Penitenciário Nacional – FUNAPEN poderão ser disponibilizados para serem repassados aos Municípios que abrigam unidades prisionais Federais nos respectivos territórios , mediante a celebração de convênios específicos para o financiamento de ações em regime de mútua cooperação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fundo Penitenciário Nacional – FUNAPEN",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fundo Penitenciário Nacional – FUNAPEN",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Municípios",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Municípios', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os repasses de recursos previstos nesta Lei dar-se-ão de forma complementar e não em substituição à liberação de recursos orçamentários para a execução das políticas voltadas à obtenção de recursos materiais e humanos para assistência ao preso , do egresso e do internado , bem como para a capacitação dos servidores do sistema penitenciário sob responsabilidade direta da União .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "políticas",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "servidores",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "sistema penitenciário",
+    "label": "PRODUTOsistema"
+  },
+  {
+    "text": "União",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('políticas', 'PRODUTOoutros'), ('servidores', 'PESSOAgrupocargo'), ('sistema penitenciário', 'PRODUTOsistema'), ('União', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+JOSÉ AUGUSTO MAIA ) Modifica a redação da Lei nº 10.201 , de 14 de fevereiro de 2001 , que institui o Fundo Nacional de Segurança Pública – FNSP , estabelecendo condições para o recebimento do FNSP pelos Municípios .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "JOSÉ AUGUSTO MAIA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Lei nº 10.201 , de 14 de fevereiro de 2001",
+    "label": "FUNDlei",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Fundo Nacional de Segurança Pública – FNSP",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "FNSP",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "JOSÉ AUGUSTO MAIA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 10.201 , de 14 de fevereiro de 2001",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Fundo Nacional de Segurança Pública – FNSP",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "FNSP",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Municípios",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Municípios', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 3º Terão acesso aos recursos do FNSP : ( Redação dada pela Lei nº 10.746 , de 10.10.2003 ) I - .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FNSP",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Lei nº 10.746 , de 10.10.2003",
+    "label": "FUNDlei",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FNSP",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Lei nº 10.746 , de 10.10.2003', 'FUNDlei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+II – o Município que mantenha guarda municipal , implante Conselho Municipal de Segurança e contribua com ações de policiamento comunitário , visando à obtenção dos resultados a que se refere o § 2º deste artigo , sob condição de que , em relação à guarda municipal , a mesma não exerça atividades policiais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho Municipal de Segurança",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Conselho Municipal de Segurança', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO O acesso aos recursos do FNSP e a integração das ações dos diferentes Entes interessam não apenas aos Municípios de um modo geral , como também à União e aos Estados e ao Distrito Federal , à medida que a prevenção e o combate à violência constituem cada vez mais uma política nacional prioritária , e o crime e a contravenção apresentam capilaridade crescente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FNSP",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FNSP",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Entes",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Municípios",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "União",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Estados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Entes', 'ORGnaogovernamental'), ('Municípios', 'ORGgovernamental'), ('União', 'ORGgovernamental'), ('Estados', 'ORGgovernamental'), ('Distrito Federal', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Deste modo , é razoável exigir dos interessados que criem suas guardas municipais e contribuam com ações de policiamento comunitário , sem que , no entanto , esses órgãos exerçam atividades policiais , que são de outra competência .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "guardas municipais",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('guardas municipais', 'ORGgovernamental')]
+Espúrias  (FP): []
+

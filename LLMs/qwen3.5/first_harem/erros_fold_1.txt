@@ -1,0 +1,5805 @@
+--------------------------------------------------------------------------------
+Texto:
+Com 12 anos de existência, a Serrambi oferece a seus clientes todos os serviços ligados a área de turismo como: passagens aéreas, excursões nacionais e internacionais, locação de automóveis no Brasil e no exterior, seguro viagem, congressos e etc. E tem mais A Serrambi Viagens e Turismo promove eventos de grande importância para o turismo de Pernambuco e do Brasil , destacamos as Excursões Pedagógicas , o Trem do Forró e as excursões com grupos de colégios (só em julho/99 , cerca de 2.000 alunos de vários colégios viajaram conosco em excursões rodoviárias, de aproximadamente 6 dias de duração, para diversos destinos como Porto Seguro , Fortaleza , Natal etc).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12 anos",
+    "label": "VALOR",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Serrambi",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Serrambi Viagens e Turismo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Pernambuco",
+    "label": "LOCAL",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Excursões Pedagógicas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Trem do Forró",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "julho/99",
+    "label": "TEMPO",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "2.000",
+    "label": "VALOR",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "6 dias",
+    "label": "VALOR",
+    "token_indices": [
+      95,
+      96
+    ]
+  },
+  {
+    "text": "Porto Seguro",
+    "label": "LOCAL",
+    "token_indices": [
+      103,
+      104
+    ]
+  },
+  {
+    "text": "Fortaleza",
+    "label": "LOCAL",
+    "token_indices": [
+      106
+    ]
+  },
+  {
+    "text": "Natal",
+    "label": "LOCAL",
+    "token_indices": [
+      108
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Serrambi",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Serrambi",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pernambuco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Excursões Pedagógicas",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Trem do Forró",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "julho/99",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "Porto Seguro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fortaleza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Natal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('12 anos', 'VALOR'), ('Serrambi Viagens e Turismo', 'ORGANIZACAO'), ('6 dias', 'VALOR')]
+Espúrias  (FP): [('Serrambi', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Leva turistas de todas as partes do país à cidade de Caruaru , à 130 Km da capital Pernambucana. Em média, são dez viagens a cada ano, transportando cerca de cinco mil passageiros. Endereço: Rua da Amizade , 38, Graças , Recife - PE - CEP 52.011.260. Fone/Fax: (81) 423-5000. C.G.C 12.012.159/0001-05 - Embratur: 063.64.00.41-05 Abav Nº 117 - Snea Nº 4316 - Iata 5750217-4 Email: serrambi@truenet.com.br | A Empresa | Passagem Aérea | Locação de Automóveis | Seguro Viagem | Trem do Forró | | Galeria do Trem | Excursões Nacionais | Excursões Internacionais | Sua Palavra |
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Caruaru",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "130 Km",
+    "label": "VALOR",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Rua da Amizade",
+    "label": "LOCAL",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Graças",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Recife",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "12.012.159/0001-05",
+    "label": "OUTRO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "063.64.00.41-05",
+    "label": "OUTRO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "117",
+    "label": "OUTRO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "4316",
+    "label": "OUTRO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "5750217-4",
+    "label": "OUTRO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Trem do Forró",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Caruaru', 'LOCAL'), ('130 Km', 'VALOR'), ('Rua da Amizade', 'LOCAL'), ('Graças', 'LOCAL'), ('Recife', 'LOCAL'), ('12.012.159/0001-05', 'OUTRO'), ('063.64.00.41-05', 'OUTRO'), ('117', 'OUTRO'), ('4316', 'OUTRO'), ('5750217-4', 'OUTRO'), ('Trem do Forró', 'ACONTECIMENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Artigo 02 ASSOCIAÇÃO BRASILEIRA DE PSICÓLOGOS ESPÍRITAS Parceria da ABRAPE e Centro Espírita "Jesus é o Caminho" ( Guarulhos SP ) Em 22 de setembro , o " C.E.Jesus é o Caminho ", teve o prazer de abrir suas portas para permitir a realização de um evento que pela sua própria proposta, denominou-se " Simpósio da Vida ". O Simpósio foi constituído pela exposição de quatro diferentes expositores, com quatro diferentes temas/propostas. Embora diferentes quanto ao tema, a seqüência da apresentação dos assuntos forneceu uma certa coerência, correlação e aplicabilidade entre si, fato aliás, desejável em tudo que se faz/recebe, pois a vida é una. Os expositores espíritas, profissionais nas áreas de Psicologia e Medicina Psiquiátrica , que entre outras atividades são membros ativos na Diretoria da ABRAPE - Associação Brasileira dos Psicólogos Espíritas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "02",
+    "label": "VALOR",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "ASSOCIAÇÃO BRASILEIRA DE PSICÓLOGOS ESPÍRITAS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "ABRAPE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Centro Espírita \"Jesus é o Caminho\"",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Guarulhos SP",
+    "label": "LOCAL",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "22 de setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "C.E.Jesus é o Caminho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Simpósio da Vida",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Simpósio",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Psicologia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      112
+    ]
+  },
+  {
+    "text": "Medicina Psiquiátrica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      114,
+      115
+    ]
+  },
+  {
+    "text": "Diretoria da ABRAPE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      125,
+      126,
+      127
+    ]
+  },
+  {
+    "text": "Associação Brasileira dos Psicólogos Espíritas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      129,
+      130,
+      131,
+      132,
+      133
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('02', 'VALOR'), ('ASSOCIAÇÃO BRASILEIRA DE PSICÓLOGOS ESPÍRITAS', 'ORGANIZACAO'), ('ABRAPE', 'ORGANIZACAO'), ('Centro Espírita "Jesus é o Caminho"', 'ORGANIZACAO'), ('Guarulhos SP', 'LOCAL'), ('22 de setembro', 'TEMPO'), ('C.E.Jesus é o Caminho', 'ORGANIZACAO'), ('Simpósio da Vida', 'ACONTECIMENTO'), ('Simpósio', 'ACONTECIMENTO'), ('Psicologia', 'ABSTRACCAO'), ('Medicina Psiquiátrica', 'ABSTRACCAO'), ('Diretoria da ABRAPE', 'ORGANIZACAO'), ('Associação Brasileira dos Psicólogos Espíritas', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Durante o tempo estipulado para exposição, os oradores tiveram a oportunidade de mostrar o quanto é importante e necessário estar-se pensando com seriedade sobre os temas abordados. Dada a escassez de tempo e a abrangência da matéria, já se firmou um compromisso de durante 1997 , a casa estar novamente abrindo portas, para desta vez, receber cada orador, individualmente, para fazer uma exposição mais detalhada sobre o assunto a ser tratado. A proposta acima, foi quase que uma exigência dos próprios assistentes que vieram para o evento. Recebemos na casa, pessoas de Guarulhos , Grande São Paulo e Interior Paulista , além de muitas ligações recebidas de várias localidades onde o evento foi divulgado. Esteve também presente, participando e entrevistando os expositores, a Rádio Boa Nova , uma emissora desta cidade. Este assunto, não poderia ser fechado, sem se mencionar a boa vontade dos muitos colaboradores que tornaram o evento tão "perfeito".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1997",
+    "label": "TEMPO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Guarulhos",
+    "label": "LOCAL",
+    "token_indices": [
+      92
+    ]
+  },
+  {
+    "text": "Grande São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      94,
+      95,
+      96
+    ]
+  },
+  {
+    "text": "Interior Paulista",
+    "label": "LOCAL",
+    "token_indices": [
+      98,
+      99
+    ]
+  },
+  {
+    "text": "Rádio Boa Nova",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      123,
+      124,
+      125
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1997",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Guarulhos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Grande São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Interior Paulista",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Carlos Alberto de Mello",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Rádio Boa Nova', 'ORGANIZACAO')]
+Espúrias  (FP): [('Carlos Alberto de Mello', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foi uma grande oportunidade para mostrar que não existe nem grandes nem pequenos entre as criaturas bem intencionadas. Considerando a adesão e resultados, podemos acreditar que este foi só o primeiro Simpósio , bem chamado da Vida. Se Deus quiser, muitos outros virão! Fraternalmente, C.E. "Jesus é o Caminho" Gamaliel André , Presidente
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Simpósio",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "C.E. \"Jesus é o Caminho\"",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Gamaliel André",
+    "label": "PESSOA",
+    "token_indices": [
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Simpósio",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Vida",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "C.E. \"Jesus é o Caminho\"",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gamaliel André",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Vida', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+BOMBEIROS VOLUNTÁRIOS DE VILA NOVA DE OLIVEIRINHA Clique aqui para ENTRAR NO MENU (Fotografia do Quartel Construído em 1935 ) CLIQUE AQUI para enviar uma mensagem Visitas desde 13/05/2001 Mensagem do Presidente da Direcção Caros amigos dos Bombeiros : A nossa página na Internet já está activa desde o dia 13 de Maio de 2001 , data em que se comemorou mais uma Festa dos Carolos ( 2001 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BOMBEIROS VOLUNTÁRIOS DE VILA NOVA DE OLIVEIRINHA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "1935",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "13/05/2001",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Presidente da Direcção",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Bombeiros",
+    "label": "PESSOA",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "13 de Maio de 2001",
+    "label": "TEMPO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Festa dos Carolos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "2001",
+    "label": "TEMPO",
+    "token_indices": [
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BOMBEIROS VOLUNTÁRIOS DE VILA NOVA DE OLIVEIRINHA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1935",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Presidente da Direcção",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Internet",
+    "label": "COISA"
+  },
+  {
+    "text": "13 de Maio de 2001",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Festa dos Carolos",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "2001",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('13/05/2001', 'TEMPO'), ('Bombeiros', 'PESSOA'), ('Internet', 'LOCAL')]
+Espúrias  (FP): [('Internet', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Festa dos Carolos é uma tradição desta terra que os Bombeiros querem manter viva neste começo do novo milénio. E como nesta nova era as solicitações são diversas, os Bombeiros Voluntários de Vila Nova de Oliveirinha têm bem presente os novos desafios. Assim, paralelamente à construção do Novo Quartel dos Bombeiros --temos dado passos bastante importantes!--, vamos continuar a melhorar esta página na Internet .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Festa dos Carolos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Bombeiros",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Bombeiros Voluntários de Vila Nova de Oliveirinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Festa dos Carolos",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Bombeiros",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Bombeiros Voluntários de Vila Nova de Oliveirinha",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Novo Quartel dos Bombeiros",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Internet",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Bombeiros', 'PESSOA'), ('Internet', 'LOCAL')]
+Espúrias  (FP): [('Bombeiros', 'ORGANIZACAO'), ('Novo Quartel dos Bombeiros', 'LOCAL'), ('Internet', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para tal, podem escrever-nos, enviar um fax ou uma mensagem via correio electrónico. Para isso, visite a página de CONTACTOS .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "CONTACTOS",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('CONTACTOS', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Vamos todos ajudar os Bombeiros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bombeiros",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bombeiros",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Bombeiros', 'PESSOA')]
+Espúrias  (FP): [('Bombeiros', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Depoimento de Arlete Lopes Crispino P - Vamos começar, a senhora diga o seu nome completo, lugar onde a senhora nasceu, quando e nome dos seus pais, seus avós e, se possível, onde eles nasceram. R- Então, eu me chamo Arlete Lopes Crispino , nasci em Pinheiros , numa cidade pequenininha na Central do Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Arlete Lopes Crispino",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Arlete Lopes Crispino",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Pinheiros",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Central do Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Arlete Lopes Crispino",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pinheiros",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Central do Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Arlete Lopes Crispino', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+P - Conta alguma coisa da sua família: como foi sua infância, seus pais,seus irmãos, sua casa. R- A gente começa a ter lembrança da infância lá para os 5, 6 anos | lá para os 5 , 6 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "lá para os 5, 6 anos",
+    "label": "VALOR",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "lá para os 5",
+    "label": "VALOR",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "6 anos",
+    "label": "VALOR",
+    "token_indices": [
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "5",
+    "label": "VALOR"
+  },
+  {
+    "text": "6",
+    "label": "VALOR"
+  },
+  {
+    "text": "5",
+    "label": "VALOR"
+  },
+  {
+    "text": "6",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('lá para os 5, 6 anos', 'VALOR'), ('lá para os 5', 'VALOR'), ('6 anos', 'VALOR')]
+Espúrias  (FP): [('5', 'VALOR'), ('6', 'VALOR'), ('5', 'VALOR'), ('6', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Uma infância cheia de dificuldades porque meus pais tiveram muitos filhos e ele era um homem assim muito aventureiro; ele tinha uma profissão mas ele se interessava por tudo, queria estar em todos os lugares; então quando ele se casou com minha mãe ele era farmacêutico formado, então os primeiros filhos nasceram em Queluz onde ele tinha duas farmácias e uma posição muito boa. Minha mãe logo deixou de lecionar porque ele quis fazer o curso de medicina e foi para o Rio de Janeiro fazer o curso de medicina, então ela parou de lecionar, deixou a cadeira dela. Ele fez o curso de medicina, lá a família cresceu mais um pouco e depois de formado ele voltou para Pinheiros , que era a terra dela e um pouco dele também, aí comprou terras no Paraná , ele queria ser fazendeiro. Tinha idéias avançadas; ele foi dono de uma fábrica de latas, que naquele tempo a lata era o máximo, estava entrando no Brasil , 1920 , antes até, ele foi dono do primeiro jornal de Queluz , que ele queria fazer circular as notícias, mas a cidade era tão pequena que antes do jornal ficar pronto, todo mundo já sabia de tudo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Queluz",
+    "label": "LOCAL",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "text": "Pinheiros",
+    "label": "LOCAL",
+    "token_indices": [
+      119
+    ]
+  },
+  {
+    "text": "Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      135
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      163
+    ]
+  },
+  {
+    "text": "1920",
+    "label": "TEMPO",
+    "token_indices": [
+      165
+    ]
+  },
+  {
+    "text": "Queluz",
+    "label": "LOCAL",
+    "token_indices": [
+      176
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Queluz', 'LOCAL'), ('Rio de Janeiro', 'LOCAL'), ('Pinheiros', 'LOCAL'), ('Paraná', 'LOCAL'), ('Brasil', 'LOCAL'), ('1920', 'TEMPO'), ('Queluz', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assim ele se aventurou por muitas coisas e quando ele comprou a fazenda, ele praticamente largou a medicina e foi se dedicar a fazenda. Mas a fazenda era no norte do Paraná e eles então se mudaram para lá, foram morar em uma cidade pequena chamada Itaporanga ; lá a mamãe recomeçou a lecionar porque ela viu que ele se dedicava tanto a fazenda, ele se pegava tanto com aquilo que não dava, né, então ela voltou a lecionar. Então quando eu fui para Itaporanga eu fui no colo, tinha 2 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Itaporanga",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Itaporanga",
+    "label": "LOCAL",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "2 anos",
+    "label": "VALOR",
+    "token_indices": [
+      90,
+      91
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Paraná",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itaporanga",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itaporanga",
+    "label": "LOCAL"
+  },
+  {
+    "text": "2 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Itaporanga', 'ABSTRACCAO')]
+Espúrias  (FP): [('Itaporanga', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ele ia fazendo tudo, ele queria tudo e depois de Itaporaga nós mudamos para Marília em 1929 , que não era a Marília de hoje, era uma coisinha. Não tinha calçamento, não tinha água encanada, luz elétrica já tinha e fomos para lá e a família aumentando, porque mamãe teve ao todo 13 filhos, né, e ele ali se firmou um pouquinho mais, mas sempre com aquelas idéias que ele externava muito de cooperativismo, ele já passou para socialismo e com o tempo ele ficou sendo o comodista (comunista?) da cidade. Então a toda hora ele era detido, era encaminhado para São Paulo e minha mãe lecionando e a família grande, a família grande. Mas a gente era criança e a vida para gente ótima, porque tinha o pai, tinha a mãe; as vezes o pai viajava, né, entre aspas, se ausentava, depois voltava e a vida da gente era boa, alegre, a casa cheia de criança, muitos amigos, muita criançada em volta, mamãe sempre lecionando, muito querida.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Itaporaga",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "1929",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "13",
+    "label": "VALOR",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      101,
+      102
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Itaporaga', 'LOCAL'), ('Marília', 'LOCAL'), ('1929', 'TEMPO'), ('Marília', 'LOCAL'), ('13', 'VALOR'), ('São Paulo', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Então assim foi. Da primeira casinha que nós moramos, que era de tijolo, coisa rara em Marília , passamos para uma grande casa de madeira e lá ele pôs o consultório e até ia indo muito bem. Aí veio a Revolução de 1930 e depois a de 32 , né, então ele sempre comentava com a família o avanço das tropas legalistas, os paulistas se afastando, ele marcava no mapa e comentava tudo; olha, não sei porque, ele ficou mal visto e foi preso pela primeira vez lá e veio para São Paulo e daí para cá ele foi diversas vezes detido e a mamãe sempre firme com a família, todo mundo estudou e ele nesse vai e vem. Foi assim no tempo do Getúlio também, foi...depois do Getúlio , negócio de intentona, aquelas coisas todas, né; e ele finalmente... caiu em ciladas, assim, até te contei, de porem material dentro do consultório dele e quando ele abriu a porta viu aquele material lá, não deu tempo de sair porque a policia entrou atrás dele, essas coisas injustas e tudo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Revolução de 1930",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "32",
+    "label": "TEMPO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      91,
+      92
+    ]
+  },
+  {
+    "text": "Getúlio",
+    "label": "PESSOA",
+    "token_indices": [
+      124
+    ]
+  },
+  {
+    "text": "Getúlio",
+    "label": "PESSOA",
+    "token_indices": [
+      128
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Marília', 'LOCAL'), ('Revolução de 1930', 'ACONTECIMENTO'), ('32', 'TEMPO'), ('São Paulo', 'LOCAL'), ('Getúlio', 'PESSOA'), ('Getúlio', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Depois quando a gente veio aqui para São Paulo aí conhecemos o fogão elétrico, posteriormente o fogão a gás, nossa, quando a gente lembrava de Marília , o que era a vida dura, né, não tinha água encanada, a gente morava numa casa, essa casa de madeira, tirando água do poço, o poço até servia a nossa casa e a do vizinho; tirando água do poço, enchendo tinas de água, carregando a água para cozinha, carregando a água para o chuveiro, que ele tinha uma cordinha, descia, o chuveiro era redondo e tinha um ralo em baixo por onde descia a água. Então quando enchia a água o ralo estava fechado aí a gente ia tomar banho e puxava o ralo pela cordinha, suspendia la qualquer coisa e a água descia pelo ralo; a gente tomava banho de chuveiro, mas era um chuveiro improvisado, tudo improvisado. Então a gente conheceu a vida na forma mais dura, então acho que hoje a gente tem tudo, todos esses modernismos aí que veio em benefício da mulher, porque mulher sofria, viu?(riso).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('São Paulo', 'LOCAL'), ('Marília', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mas depois em Marília , depois de morarmos nessa casa grande tábua, papai começou a construir uma casa de tijolos e foi uma casa muito gostosa e ele teria sido o precursor das coisas, ele era muito para frente, sabe, por isso ele era inquieto. O quanto ele tinha de inquieto ela tinha de pé no chão para ali segurar as barras, né, então ele mandou já instalar canos e posteriormente, quando Marília recebeu água encanada, já estava em casa. Nessa casa também ele fez o poço e ao invés da gente puxar a água assim em balde, ele fez uma espécie de bomba, você sabe um filme de mocinho que eles bombam a água assim? Então a gente bombava e cada um tinha que bombar um pouco e com isso enchia uma caixa alta que tinha no quintal e dessa caixa nos servia, então a gente já teve água encanada antes da água encanada chegar em Marília , que ele providenciava as coisas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      157
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Marília",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Marília', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Papai sempre que mudava para uma casa, a primeira preocupação dele era por um filtro de água para os filhos, os filhos tinham que ter tudo água filtrada, sempre uma preocupação assim. E dessa antecipação dele, então nós tivemos uma banheira dentro de casa, que erauma novidade também e também um sanitário, né, e lá fora tinha a fossa séptica então passava tudo pela fossa. Então ele foi assim, ele via as coisas, ele lia, se interessava, queria por em prática, ele vivia um pouquinho fora da época dele, adiantado. Mas a mamãe ali dentro sustentando tudo. P - Como é que ela enfrentava as situações? R- Como ela enfrentava? P - Principalmente quando seu pai... R- Com muita coragem, olha, com muita coragem. Eu me lembro dela falar muitas vezes assim: " João , lembra nos seus filhos, deixa a situação mundial, pensa nos seus filhos. Você quer consertar o mundo João ? olha para os filhos!" (riso).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "João",
+    "label": "PESSOA",
+    "token_indices": [
+      133
+    ]
+  },
+  {
+    "text": "João",
+    "label": "PESSOA",
+    "token_indices": [
+      152
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('João', 'PESSOA'), ('João', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Então "São filhas do Doutor Lopes e Dona Elisinha ", que já era diretora naquele tempo lá, né, ela foi diretora substituta bastante tempo, ela nunca fez o concurso para direção; naquele tempo punha-se assim para dirigir e ficava. E estudamos, né, eu ganhei um curso secundário grátis porque tinha sido uma boa aluna no quarto ano então recebi o diploma e recebi também a possibilidade de freqüentar o ginásio do estado sem pagar. E o ginásio, a gente tinha muita honra de freqüentar porque era um ginásio exigente, os professores começaram a modernizar o ensino, vamos dizer, né, o professor nos levando a noite para a parte de cima do colégio para a gente ver as estrelas, as constelações, localizar, localização de norte, sul, a criar laboratórios e a gente a freqüentar laboratórios, quer dizer, eram experiências simples, mas era uma novidade, era uma mudança no ensino, né? Tivemos uma professora de música também maravilhosa, ela é viva até hoje, se chama Regina Epingauss (?), ela era moça, hoje eu sei que ela tinha 21 anos , mas para nós ela era uma senhora bonita, loira, filha de alemães e ela dava música de uma maneira completamente diferente.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Doutor Lopes",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Dona Elisinha",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Regina Epingauss",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      163,
+      164
+    ]
+  },
+  {
+    "text": "21 anos",
+    "label": "VALOR",
+    "token_indices": [
+      175,
+      176
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Doutor Lopes', 'PESSOA'), ('Dona Elisinha', 'PESSOA'), ('Regina Epingauss', 'ABSTRACCAO'), ('21 anos', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ela levava trechos de óperas, árias, nos fazia pesquisar biografias de Beethoven , Mozart , Lizst , tudo e gente foi se interessando de tal maneira pela música que era uma matéria que a gente gostava, que ela levava uma vitrolinha, olha, porque naquele tempo era uma vitrola de dar corda, na sala de aula era uma coisa extraordinária. A professora de português também, que nos fazia ler livros e comentar livros e dizer dos personagens dos livros, era uma coisa tão diferente, era uma professora extraordinária também, se chamava Berta Camargo Vieira , uma coisa, nós a considerávamos uma sumidade. Ela providenciou a primeira biblioteca do ginásio com os alunos indo de casa em casa pedindo livros e a população dava os livros, né, e os livros eram depois os livros separados por matéria, por assunto, então foi organizado a primeira biblioteca, né e o todos os professores muito assim diferentes.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Beethoven",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Mozart",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Lizst",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Berta Camargo Vieira",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      90,
+      91,
+      92
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Beethoven",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mozart",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lizst",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Berta Camargo Vieira",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Berta Camargo Vieira', 'ABSTRACCAO')]
+Espúrias  (FP): [('Berta Camargo Vieira', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O professor de química, gostaria de lembrar o nome dele, fazendo experiências com a gente...era, vamos dizer assim, uma palavra bem assim daquele tempo, era uma plêiade de professores muito bons, então a gente orgulho de estudar naquele ginásio. Que depois passou a ser estadual. Porque a gente comentava assim, quem não passa no nosso ginásio vai estudar no colégio das freiras. Então a gente tinha aquela coisa de criança, né,: nós estudamos numa escola mais exigente!" Depois nos formamos e uma a uma minha mãe consegui que fosse estudar em Agudos , que era onde tinha uma escola normal livre que se chamava Escola Normal Livre de Agudos e era dirigida por freiras alemãs, essas freiras, a última delas morreu a pouco tempo, elas fizeram o ensino de Agudos , formaram olha, não sei quantas turmas de professoras> lá, né e eram muito modernas, vamos dizer também; eram freiras que, aos sábados, punham o rádio para tocar no pátio interno e nós dançávamos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Agudos",
+    "label": "LOCAL",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "Escola Normal Livre de Agudos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      104,
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  {
+    "text": "Agudos",
+    "label": "LOCAL",
+    "token_indices": [
+      129
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Agudos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Escola Normal Livre de Agudos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Faculdade de Filosofia e Ciências de Marília",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estado de São Paulo",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Escola Normal Livre de Agudos', 'ABSTRACCAO'), ('Agudos', 'LOCAL')]
+Espúrias  (FP): [('Escola Normal Livre de Agudos', 'ORGANIZACAO'), ('Faculdade de Filosofia e Ciências de Marília', 'ORGANIZACAO'), ('Estado de São Paulo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Isso era coisa que naquele tempo freira não fazia e elas nos deixavam a gente dançar, fazia carnaval, pulava. Elas nos levavam a chácaras para comer frutas, íamos em fila, nos tirávamos do internato então, porque éramos interna, eram freiras diferentes mesmo. Ficaram famosas na região porque eram muito abertas. Então esse tempo foi muito bom também para nós e então a vida foi passando e gente foi entendendo o porque daquela situação assim que antes nos envergonhava, mas depois deixou de envergonhar porque cada um tem o direito de pensar como pode, como quer e o meu pai pensava daquele jeito pelo bem de todos, ele pensava em todos, não pensava nele. Assim foi a vida dele, muitas vezes veio para cá, ficou no Dops que o trazia para cá, ficou no Presídio Maria Zélia , ali ele fezrelações, aí é que ele foi estudar a política, porque ele conheceu muita gente boa, Caio Prado , né, encaminhou ele a leituras muito boas, mas era uma vida de prisão.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dops",
+    "label": "LOCAL",
+    "token_indices": [
+      125
+    ]
+  },
+  {
+    "text": "Presídio Maria Zélia",
+    "label": "LOCAL",
+    "token_indices": [
+      133,
+      134,
+      135
+    ]
+  },
+  {
+    "text": "Caio Prado",
+    "label": "PESSOA",
+    "token_indices": [
+      154,
+      155
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Dops', 'LOCAL'), ('Presídio Maria Zélia', 'LOCAL'), ('Caio Prado', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Então uma vez que meu pai ficou quase um ano e meio aqui, ele voltou gordo, a gente quase não reconheceu porque era ler, cantavam, jogavam dama, baralho, conversavam muito e as conversas eram muito instrutivas e ele cada vez foi se instruindo mais naquilo que ele era acusado sem dever, ele falava em cooperativismo, em socialismo e de repente ele tinha virado um comunista. P - Mas ele não militava assim, era só umas idéias? R- Quando aqui o partido entrou na legalidade, em 45 , ele se aproximou mesmo do partido, porque aí ele já conhecia muita gente que ele tinha conhecido lá preso, sem conhecer, sem saber e durante os anos de legalidade, ele freqüentou, mas sempre com a recriminação da mamãe. Então quando caiu outras vez na ilegalidade, que foi Marechal Dutra que tirou a legalidade do partido, ali ele já era amigo até de Prestes , né, Prestes o visitou quando ele estava doente, tudo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "45",
+    "label": "TEMPO",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Marechal Dutra",
+    "label": "PESSOA",
+    "token_indices": [
+      134,
+      135
+    ]
+  },
+  {
+    "text": "Prestes",
+    "label": "PESSOA",
+    "token_indices": [
+      149
+    ]
+  },
+  {
+    "text": "Prestes",
+    "label": "PESSOA",
+    "token_indices": [
+      152
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('45', 'TEMPO'), ('Marechal Dutra', 'PESSOA'), ('Prestes', 'PESSOA'), ('Prestes', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pessoas muito boas, o Doutor Samuel Pessoa , tudo gente boa, ele conheceu nessa época e Dona Joelfina (?) foi muito boa também e então a gente tinha aquele receio, porque a mamãe não nos deixava, nesse ponto ela nos segurava. A gente admirava ele e via quantas coisas justas ele pensava, mas ao mesmo tempo não tinha coragem de aderir assim abertamente, né? P - Ele conversava muito sobre política com vocês? R- Nossa! Ele lia os jornais: "Vem aqui, vem aqui olha!" e lia trechos ou passava em vermelho trechos e falava: "Vocês precisam ler isto." E quando não nos fazia ouvir aquilo que ele estava lendo mesmo e falava: "Vocês tem de ler as entrelinhas, não é só ler não, é pensar." E assim ele nos levou a um raciocínio que tudo que a gente lê agente fala "o que será que tá nessas entrelinhas, tem coisa por aí".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Doutor Samuel Pessoa",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Dona Joelfina",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Doutor Samuel Pessoa', 'PESSOA'), ('Dona Joelfina', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Me lembro quando a gente ainda mal entedia de nada ele falou: "Olha aí, a Ford comprou uma concessão enorme de terras no Amazonas e assim que eles vão se apoderar das nossas terras!" E agente então falava: "Ah, já estão vendendo o Brasil "(riso). Olha, tem tanta gente comprando o Brasil até hoje (riso), não muda nada. P - Aqui em São Paulo ele continuou a mesma coisa? R- Aqui ele se dedicou mais a medicina, bem mais, principalmente porque o naturismo deu muito retorno para ele. Ele criou também casa de banho a vapor, também nunca tinha ouvido falar que São Paulo tinha banho a vapor. Ele fez muito primitivamente, mas no consultório dele tinha banho a vapor. Então ele aliava o regime aos banhos a vapor, à ginástica, porque ele era um ginasta fervoroso, de fazer diariamente. Tinha um programa no rádio do Professor Osvaldo Diniz Magalhães , de lá do Rio , interessante; ele fazia ginástica pelo rádio e ele nos acordava: "Vamos, sai da cama, vocês ficam dormindo aí até tarde, vamos fazer ginástica!" As vezes a gente acompanhava, as vezes tinha vindo de baile, não queria, mas ele sempre assim.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ford",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Amazonas",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      102,
+      103
+    ]
+  },
+  {
+    "text": "Professor Osvaldo Diniz Magalhães",
+    "label": "PESSOA",
+    "token_indices": [
+      146,
+      147,
+      148,
+      149
+    ]
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL",
+    "token_indices": [
+      154
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ford', 'ORGANIZACAO'), ('Amazonas', 'LOCAL'), ('Brasil', 'LOCAL'), ('Brasil', 'LOCAL'), ('São Paulo', 'LOCAL'), ('São Paulo', 'LOCAL'), ('Professor Osvaldo Diniz Magalhães', 'PESSOA'), ('Rio', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mas aqui ele se dedicou mais a medicina, bem mais e foi bem sucedido e tudo. E dizia que ia viver 120 anos ele dizia assim, tadinho: "Vou enterrar vocês todos." Mas ele foi quase que com a idade que eu estou, ele foi com 68 anos , morreu de câncer. E ele se alimentava bem, ele não bebia, ele não fumava, ele ginasticava, ele fazia excursões, nos levava para o Pico do Jaraguá , para Guarapiranga , que naquele tempo não era nada, para Santos ; muita atividade que ele tinha e teve a doença fatal, né, e minha mãe que era magrinha, que lutava e tudo, viveu até os 98 anos e meio | 98 anos e meio (riso). Mas aqui então a vida, a gente já veio para cá recém formada, tivemos dias muito bons em Marília , a despedida de Marília foi uma festa que a gente fez em casa que coincidiu com o aniversário da minha irmã Odila , então foi uma festa que todo o pessoal do clube veio porque o que tinha em Marília ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "120 anos",
+    "label": "VALOR",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "68 anos",
+    "label": "VALOR",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Pico do Jaraguá",
+    "label": "LOCAL",
+    "token_indices": [
+      71,
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Guarapiranga",
+    "label": "LOCAL",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Santos",
+    "label": "LOCAL",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "98 anos e meio",
+    "label": "VALOR",
+    "token_indices": [
+      111,
+      112,
+      113,
+      114
+    ]
+  },
+  {
+    "text": "98 anos",
+    "label": "VALOR",
+    "token_indices": [
+      116,
+      117
+    ]
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      139
+    ]
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      144
+    ]
+  },
+  {
+    "text": "Odila",
+    "label": "PESSOA",
+    "token_indices": [
+      162
+    ]
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      180
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "120 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "68 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Pico do Jaraguá",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Guarapiranga",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Santos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "98 anos e meio",
+    "label": "VALOR"
+  },
+  {
+    "text": "98 anos e meio",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('98 anos', 'VALOR'), ('Marília', 'LOCAL'), ('Marília', 'LOCAL'), ('Odila', 'PESSOA'), ('Marília', 'LOCAL')]
+Espúrias  (FP): [('98 anos e meio', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cinema, que nós íamos uma vez por semana só porque não tinha meios de mandar aquela turma toda ao cinema mais do que uma vez por semana; baile, todos os domingos chamava-se Domingueira no Tênis Clube de Marília , a gente saia do cinema e aí fazia na avenida o footing, ficava que nem amostra, para lá e para cá, para lá e para cá e os moços parados, né, vendo as moças circularem e então a gente dava volta na avenida, era bem larga e após isso íamos para a Domingueira .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Domingueira",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Tênis Clube de Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Domingueira",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      91
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tênis Clube de Marília",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Domingueira",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Domingueira', 'ABSTRACCAO'), ('Tênis Clube de Marília', 'LOCAL')]
+Espúrias  (FP): [('Tênis Clube de Marília', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tinha de tudo né, tinha moças com mais liberdade, mas por exemplo, andar de namorado, de mão dada, de abraço, de beijo, mas nem sonhar! Isso daí nem de jeito nenhum, isso daí foi bem depois e ainda com medida, ainda com bastante medida. Então esse último mês que a gente passou lá e fizemos a festa, que foi em casa e tudo, a vitrola ainda era vitrola de manivela, a gente dava corda e com sentia que a corda chegou, bom, aí punha os discos, punha a agulha, tocava; tocava alguns discos aquela corda, depois renovava a corda. Mas foi muito gostosos, todos os moços foram, do Tênis , as amigas, a miss Marília que se chamava Dalva Sentini estava lá, uma outra que já tinha sido também, a Gláucia Amaral , todas as moças, porque a gente tinha muitas amizades. E no baile, agente distribuiu assim, para o moço e para a moça, o nome de amores famosos, vamos dizer assim Romeu e Julieta , Otelo e Desdêmona , que mais que tem? Aberlado e Heloísa , esses amores famosos, né, e então um tinha que procurar o outro.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tênis",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "miss Marília",
+    "label": "PESSOA",
+    "token_indices": [
+      113,
+      114
+    ]
+  },
+  {
+    "text": "Dalva Sentini",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      118,
+      119
+    ]
+  },
+  {
+    "text": "Gláucia Amaral",
+    "label": "PESSOA",
+    "token_indices": [
+      130,
+      131
+    ]
+  },
+  {
+    "text": "Romeu e Julieta",
+    "label": "PESSOA",
+    "token_indices": [
+      163,
+      164,
+      165
+    ]
+  },
+  {
+    "text": "Otelo e Desdêmona",
+    "label": "PESSOA",
+    "token_indices": [
+      167,
+      168,
+      169
+    ]
+  },
+  {
+    "text": "Aberlado e Heloísa",
+    "label": "PESSOA",
+    "token_indices": [
+      175,
+      176,
+      177
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tênis",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('miss Marília', 'PESSOA'), ('Dalva Sentini', 'ABSTRACCAO'), ('Gláucia Amaral', 'PESSOA'), ('Romeu e Julieta', 'PESSOA'), ('Otelo e Desdêmona', 'PESSOA'), ('Aberlado e Heloísa', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+se a moça era a Desdêmona , tinha que procurar o Otelo , né, e então depois que os pares se formaram, então teve a valsa e dançamos e tudo. Foi uma festa muito gostosa, eram essas festas inocentes que a gente fazia né, a música que deixou lembrança dessa festa foi Céu Cor de Rosa , uma música muito bonita, acho que nossa, naquele tempo não tinha isso de música estrangeira infiltrada aqui, né? E depois então viemos para cá e aqui nós continuamos com essa tradição de festinhas em casa; então essa casa da Avenida Pompéia , onde nós moramos 25 anos e que tinha um hall imenso, mas maior que isso só o hall era maior que isso e a sala de jantar maior que isso também, a gente fez muita festa lá. A gente era daquele tipo de moça do interior e fomos nos ambientando, devagarinho, devagarinho.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Desdêmona",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Otelo",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Céu Cor de Rosa",
+    "label": "OBRA",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Avenida Pompéia",
+    "label": "LOCAL",
+    "token_indices": [
+      96,
+      97
+    ]
+  },
+  {
+    "text": "25 anos",
+    "label": "VALOR",
+    "token_indices": [
+      102,
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Desdêmona', 'PESSOA'), ('Otelo', 'PESSOA'), ('Céu Cor de Rosa', 'OBRA'), ('Avenida Pompéia', 'LOCAL'), ('25 anos', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Eu fui substituindo o grupo escolar Miss Brown , eu e a Iná , a minha irmã Odila logo, nós mudamos em julho e ela, em janeiro no ano seguinte, ela logo escolheu cadeira. Então ela não substitui aqui em São Paulo assim muito tempo e a gente substituíamos, era uma hora em Casa Verde , uma hora em Perus (fim da fita) Joelfina Mais uma palavra não decifrada
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Miss Brown",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Iná",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Odila",
+    "label": "PESSOA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "julho",
+    "label": "TEMPO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Casa Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Perus",
+    "label": "LOCAL",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Joelfina",
+    "label": "PESSOA",
+    "token_indices": [
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Miss Brown",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Iná",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Odila",
+    "label": "PESSOA"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Casa Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Perus",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('julho', 'TEMPO'), ('janeiro', 'TEMPO'), ('Joelfina', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Niteroi Rugby Football Clube Página do time de Handebol O Handebol chegou ao Brasil em meados da década de cinqüenta através dos funcionários da Volkswagen que vindos da Alemanha trouxeram consigo a principal diversão que tinham em seu país de origem para que fosse utilizada em seus momentos de folga. O contato com funcionários brasileiros e a imigração de europeus para os estados do Sul do país fizeram com que este jogo, já popular em sua região, se disseminasse. Já nos anos 70 , um grupo de brasileiros, profissionais de educação física, interessados no aperfeiçoamento do esporte, partiram para Romênia buscando maiores informações, em cursos, no país que até então era um dos principais campeões mundiais do esporte. Entre esses professores destacava-se o niteroiense Ronaldo Barros Goldoni que trouxe para a cidade o que havia de mais moderno no Handebol e as principais técnicas de iniciação. A principal equipe do Estado na época era dirigida por Ronaldo Goldoni , equipe esta que tinha em seu corpo de jogadores, futuros professores de Educação Física .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Niteroi Rugby Football Clube",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Handebol",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Handebol",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Volkswagen",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "anos 70",
+    "label": "TEMPO",
+    "token_indices": [
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Romênia",
+    "label": "LOCAL",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Ronaldo Barros Goldoni",
+    "label": "PESSOA",
+    "token_indices": [
+      124,
+      125,
+      126
+    ]
+  },
+  {
+    "text": "Handebol",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      139
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "LOCAL",
+    "token_indices": [
+      150
+    ]
+  },
+  {
+    "text": "Ronaldo Goldoni",
+    "label": "PESSOA",
+    "token_indices": [
+      156,
+      157
+    ]
+  },
+  {
+    "text": "Educação Física",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      171,
+      172
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Niteroi Rugby Football Clube",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Handebol",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Volkswagen",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "anos 70",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Romênia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ronaldo de Souza",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Niteroi Rugby Football Clube",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Handebol",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Ronaldo Barros Goldoni', 'PESSOA'), ('Handebol', 'ABSTRACCAO'), ('Estado', 'LOCAL'), ('Ronaldo Goldoni', 'PESSOA'), ('Educação Física', 'ABSTRACCAO')]
+Espúrias  (FP): [('Ronaldo de Souza', 'PESSOA'), ('Brasil', 'LOCAL'), ('Niteroi Rugby Football Clube', 'ORGANIZACAO'), ('Brasil', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cansados de terem que contar com a boa vontade dos dirigentes de grandes clubes com o novo esporte, em 1981 os principais jogadores de Niterói , até então jogando no C. R. Flamengo , juntaram-se ao clube no qual muitos deles praticavam também o rugby, formando então, a equipe de handebol do Niterói Rugby .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1981",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Niterói",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "C. R. Flamengo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Niterói Rugby",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52,
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1981",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Niterói",
+    "label": "LOCAL"
+  },
+  {
+    "text": "C. R. Flamengo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Niterói",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Niterói Rugby",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Niterói', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Neste mesmo ano, o Niterói Rugby Handball conquistava o primeiro lugar na Taça Rio de Janeiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Niterói Rugby Handball",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Taça Rio de Janeiro",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Niterói Rugby Handball",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Taça Rio de Janeiro",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Niterói Rugby Handball', 'ORGANIZACAO')]
+Espúrias  (FP): [('Niterói Rugby Handball', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O N.R.F.C. sempre foi formador de grandes atletas do handebol disputando e obtendo títulos em campeonatos com a presença de grandes e tradicionais clubes de nosso Estado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "N.R.F.C.",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "N.R.F.C.",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estado', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nossas equipes já há algum tempo estão sendo dirigidas pelo professor Brasil , uma das brilhantes crias de Ronaldo Goldone que mesmo não estando a frente de nossas equipes continua atuando nas atividades do Niterói Rugby .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "professor Brasil",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Ronaldo Goldone",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Niterói Rugby",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ronaldo Goldone",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Niterói Rugby",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('professor Brasil', 'PESSOA')]
+Espúrias  (FP): [('Brasil', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fw . Atinga seu publico alvo! Debora - Fastmarketing [ cadastro@fastmarketing.org ] O KIT de mala-direta digital mais COMPLETO do mercado, APENAS: R$ 89,00 Não perca tempo! Peça já o seu aqui. Banco de Dados com 14 milhões e 200 mil endereços de e-mails brasileiros, atualizados, extraidos de sites e domínios no Brasil , SEM REPETIÇÕES, organizados alfabeticamente e Separados também por ESTADOS. - 11,6 milhões de e-mails de pessoas físicas - 2,6 milhões de e-mails pessoas jurídicas, - Os mais usados softwares para envio de e-mail e mensagens em massa. - Exclusivo Software para envio de e-mail que transforma seu próprio computador num servidor SMTP . O que possibilita o envio de e-mails sem bloqueios e sem limitações. Excelentes Ferramentas contida no KIT: - Software para envio de publicidade em todas as salas de Bate-Papo do Uol e do Bol . Este programa possibilita que sua mensagem seja vista por até 70.000 pessoas que estão batendo papo em salas de Chat numa só execução que demora aproximadamente 45 minutos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Debora",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Fastmarketing",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "R$ 89,00",
+    "label": "VALOR",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "14 milhões e 200 mil",
+    "label": "VALOR",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "11,6 milhões",
+    "label": "VALOR",
+    "token_indices": [
+      64,
+      65
+    ]
+  },
+  {
+    "text": "2,6 milhões",
+    "label": "VALOR",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "SMTP",
+    "label": "COISA",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "Bate-Papo",
+    "label": "LOCAL",
+    "token_indices": [
+      135
+    ]
+  },
+  {
+    "text": "Uol",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      137
+    ]
+  },
+  {
+    "text": "Bol",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      140
+    ]
+  },
+  {
+    "text": "70.000",
+    "label": "VALOR",
+    "token_indices": [
+      152
+    ]
+  },
+  {
+    "text": "Chat",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      161
+    ]
+  },
+  {
+    "text": "aproximadamente 45 minutos",
+    "label": "VALOR",
+    "token_indices": [
+      167,
+      168,
+      169
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Debora', 'PESSOA'), ('Fastmarketing', 'ORGANIZACAO'), ('R$ 89,00', 'VALOR'), ('14 milhões e 200 mil', 'VALOR'), ('Brasil', 'LOCAL'), ('11,6 milhões', 'VALOR'), ('2,6 milhões', 'VALOR'), ('SMTP', 'COISA'), ('Bate-Papo', 'LOCAL'), ('Uol', 'ORGANIZACAO'), ('Bol', 'ORGANIZACAO'), ('70.000', 'VALOR'), ('Chat', 'ABSTRACCAO'), ('aproximadamente 45 minutos', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+- Softwares para catalogar, filtrar e excluir e-mails inválidos e duplicados da sua lista. - Software que captura da Internet números de DNS internacionais, inclusive retornando tempo de resposta, necessários caso você queira mandar seus e-mail de forma totalmente anônima, impossibilitando inclusive que seja visto o seu número de IP . - Software que captura todos os e-mail do HPG (que são na faixa de 2 milhões ). Apostilas ilustradas para total aproveitamento do KIT: - Apostilas ilustradas, com dicas e truques (em formato .doc - Word ) ensinando usar os programas. - Como furar os filtros anti spam dos provedores. - Como transformar seu computador num servidor de SMTP , possibilitando assim um envio de e-mails sem bloqueios e sem limitações. - Como enviar e-mail de forma totalmente anônima.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "DNS",
+    "label": "COISA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "IP",
+    "label": "COISA",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "HPG",
+    "label": "LOCAL",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "na faixa de 2 milhões",
+    "label": "VALOR",
+    "token_indices": [
+      62,
+      63,
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Word",
+    "label": "COISA",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "SMTP",
+    "label": "COISA",
+    "token_indices": [
+      109
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Internet', 'LOCAL'), ('DNS', 'COISA'), ('IP', 'COISA'), ('HPG', 'LOCAL'), ('na faixa de 2 milhões', 'VALOR'), ('Word', 'COISA'), ('SMTP', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+- Como capturar da Internet os endereços de e-mail que estão circulando pela rede. - Como fazer sua própria lista segmentada de e-mails. Capturando em mecanismos de busca somente e-mails de determinados ramos e regiões. - Como conseguir conexão gratuita e anônima para enviar seus e-mails. - Onde conseguir cracks em sites internacionais para validar qualquer programa demo. Grátis - 130.000 nomes e endereços divididos por Estado e região para elaboração de mala direta convencional impressa, acompanhado de um software para criação e impressão de etiquetas adesivas. - Etiquetas impressas para mala direta convencional custam em média R. 30,00 o milheiro em empresas especializadas que desenvolvem estas listas, você pode até iniciar um novo negócio e revender listas impressas e lucrar centenas de Reais! Não perca tempo! Peça já o seu aqui. Um KIT completo como este, custa em média 250 reais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "130.000",
+    "label": "VALOR",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "R. 30,00",
+    "label": "VALOR",
+    "token_indices": [
+      97,
+      98
+    ]
+  },
+  {
+    "text": "250 reais",
+    "label": "VALOR",
+    "token_indices": [
+      140,
+      141
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Internet",
+    "label": "COISA"
+  },
+  {
+    "text": "R. 30,00",
+    "label": "VALOR"
+  },
+  {
+    "text": "130.000",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Internet', 'LOCAL'), ('250 reais', 'VALOR')]
+Espúrias  (FP): [('Internet', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este não inclui CD. Você recebe um link para que baixe os arquivos diretamente. Não responda a este e-mail, Acesse o nosso site e faça já o seu pedido! Central de atendimento: 0xx71 258-2500 / 3495-2239 / 9923-5133 (Segunda a sexta as 8:00 as 19:00h ) Caso não seja do seu interesse receber nossos e-mails, responda a esta mensagem com o assunto «cancelar». Desculpe-nos o incômodo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "8:00",
+    "label": "TEMPO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "19:00h",
+    "label": "TEMPO",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CD",
+    "label": "COISA"
+  },
+  {
+    "text": "0xx71 258-2500",
+    "label": "VALOR"
+  },
+  {
+    "text": "3495-2239",
+    "label": "VALOR"
+  },
+  {
+    "text": "9923-5133",
+    "label": "VALOR"
+  },
+  {
+    "text": "8:00",
+    "label": "TEMPO"
+  },
+  {
+    "text": "19:00h",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('CD', 'COISA'), ('0xx71 258-2500', 'VALOR'), ('3495-2239', 'VALOR'), ('9923-5133', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nossa História Histórico A escola iniciou suas atividades no prédio onde funciona atualmente a Educação Infantil , tendo sido construído inicialmente para residência da família Barros Lima . ( Rua Barão da Passagem , esquina com Rua Duarte da Costa ). Histórico dos cursos Em 1967 teve início o funcionamento do Instituto com os cursos de Educação Infantil e o antigo primário ( 1ª à 4ª série do 1º Grau ). Em 1972 foi implantado o antigo ginasial ( 5ª à 8ª série do 1º Grau ). Em 1979 foi implantado o curso de 2º Grau . Houve ampliação das instalações com a aquisição dos imóveis limítrofes da Rua Barão da Passagem e da Rua Duarte da Costa , passando a área do terreno para cerca de 4000m² .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Educação Infantil",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Barros Lima",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Rua Barão da Passagem",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Rua Duarte da Costa",
+    "label": "LOCAL",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "1967",
+    "label": "TEMPO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Instituto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Educação Infantil",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      56,
+      57
+    ]
+  },
+  {
+    "text": "1ª",
+    "label": "VALOR",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "4ª",
+    "label": "VALOR",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "1º Grau",
+    "label": "VALOR",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "1972",
+    "label": "TEMPO",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "5ª",
+    "label": "VALOR",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "8ª",
+    "label": "VALOR",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "1º Grau",
+    "label": "VALOR",
+    "token_indices": [
+      84,
+      85
+    ]
+  },
+  {
+    "text": "1979",
+    "label": "TEMPO",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "2º Grau",
+    "label": "VALOR",
+    "token_indices": [
+      94,
+      95
+    ]
+  },
+  {
+    "text": "Rua Barão da Passagem",
+    "label": "LOCAL",
+    "token_indices": [
+      108,
+      109,
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Rua Duarte da Costa",
+    "label": "LOCAL",
+    "token_indices": [
+      114,
+      115,
+      116,
+      117
+    ]
+  },
+  {
+    "text": "4000m²",
+    "label": "VALOR",
+    "token_indices": [
+      127
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Educação Infantil', 'ABSTRACCAO'), ('Barros Lima', 'PESSOA'), ('Rua Barão da Passagem', 'LOCAL'), ('Rua Duarte da Costa', 'LOCAL'), ('1967', 'TEMPO'), ('Instituto', 'ORGANIZACAO'), ('Educação Infantil', 'ABSTRACCAO'), ('1ª', 'VALOR'), ('4ª', 'VALOR'), ('1º Grau', 'VALOR'), ('1972', 'TEMPO'), ('5ª', 'VALOR'), ('8ª', 'VALOR'), ('1º Grau', 'VALOR'), ('1979', 'TEMPO'), ('2º Grau', 'VALOR'), ('Rua Barão da Passagem', 'LOCAL'), ('Rua Duarte da Costa', 'LOCAL'), ('4000m²', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 06/11/1982 foi oficialmente inaugurado o prédio principal, tendo como patrono o Dr. José Getúlio Lima (advogado e professor, pai do Dr. José Carlos de Barros Lima ), que atuou muito na área educacional da região tendo sido o fundador, entre outros, do ginásio " Conselheiro Lafayette " ( 1942 ) posteriormente Ginásio Estadual "Anhanguera" e atualmente E.E.S.G. "Pereira Barreto" .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "06/11/1982",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Dr. José Getúlio Lima",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Dr. José Carlos de Barros Lima",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Conselheiro Lafayette",
+    "label": "LOCAL",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "1942",
+    "label": "TEMPO",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Ginásio Estadual \"Anhanguera\"",
+    "label": "LOCAL",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "E.E.S.G. \"Pereira Barreto\"",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "06/11/1982",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dr. José Getúlio Lima",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dr. José Carlos de Barros Lima",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conselheiro Lafayette",
+    "label": "OUTRO"
+  },
+  {
+    "text": "1942",
+    "label": "TEMPO"
+  },
+  {
+    "text": "E.E.S.G. \"Pereira Barreto\"",
+    "label": "OUTRO"
+  }
+]
+
+Perdidas  (FN): [('Conselheiro Lafayette', 'LOCAL'), ('Ginásio Estadual "Anhanguera"', 'LOCAL'), ('E.E.S.G. "Pereira Barreto"', 'ORGANIZACAO')]
+Espúrias  (FP): [('Conselheiro Lafayette', 'OUTRO'), ('E.E.S.G. "Pereira Barreto"', 'OUTRO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A partir de 1993 foi implantada a Informática Pedagógica com o objetivo de instrumentalizar o professor com mais uma ferramenta didática e dar ao aluno oportunidade de desenvolver trabalhos interdisciplinares visando a construção do conhecimento, a troca de informações e experiências sem limites de fronteiras. No ano de 1995 , foi iniciada a utilização da INTERNET para desenvolver os projetos pedagógicos da escola. A Informática vem desenvolvendo desde 1995 um trabalho de editoração e diagramação do " Nosso Jornal - Sto Ivo " - informativo semestral iniciado em 1992 , em tamanho tablóide, 12 páginas, estando no primeiro semestre de 2000 em sua 16ª edição.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1993",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Informática Pedagógica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "1995",
+    "label": "TEMPO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "INTERNET",
+    "label": "COISA",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Informática",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "1995",
+    "label": "TEMPO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Nosso Jornal - Sto Ivo",
+    "label": "OBRA",
+    "token_indices": [
+      77,
+      78,
+      79,
+      80,
+      81
+    ]
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "12",
+    "label": "VALOR",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "16ª",
+    "label": "VALOR",
+    "token_indices": [
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1993",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "INTERNET",
+    "label": "COISA"
+  },
+  {
+    "text": "1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Nosso Jornal - Sto Ivo",
+    "label": "OBRA"
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO"
+  },
+  {
+    "text": "16ª",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Informática Pedagógica', 'ABSTRACCAO'), ('Informática', 'ORGANIZACAO'), ('12', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Belly depois de « King » e antes dos R.E.M. «Somos de pequenas cidades» Os Belly são o nome mais pequeno que aparece no cartaz da actuação dos R.E.M. prevista para o próximo dia 20 , em Lisboa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Belly",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "King",
+    "label": "OBRA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "R.E.M.",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Belly",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "R.E.M.",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "20",
+    "label": "TEMPO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "King",
+    "label": "OBRA"
+  },
+  {
+    "text": "R.E.M.",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Belly",
+    "label": "PESSOA"
+  },
+  {
+    "text": "King",
+    "label": "OBRA"
+  },
+  {
+    "text": "R.E.M.",
+    "label": "PESSOA"
+  },
+  {
+    "text": "20",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Belly', 'PESSOA')]
+Espúrias  (FP): [('King', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Será então a altura de ver Tanya Donnely , ex-Throwing Muses e ex-Breeders , e ouvir algumas das canções do seu grupo. Em antecipação, fica a conversa com o guitarrista Tom Gorman .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tanya Donnely",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "ex-Throwing Muses",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "ex-Breeders",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Tom Gorman",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tanya Donnely",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Throwing Muses",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Breeders",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tom Gorman",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('ex-Throwing Muses', 'PESSOA'), ('ex-Breeders', 'PESSOA')]
+Espúrias  (FP): [('Throwing Muses', 'ORGANIZACAO'), ('Breeders', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar de em Portugal serem conhecidos apenas por uma minoria de interessados, os Belly são nos Estados Unidos e no Reino Unido um sucesso já com alguma dimensão. Tom Gorman , guitarrista do grupo, conta-nos o que se passou à volta desse sucesso e as opções tomadas para o novo álbum, « King ». PÚBLICO -- Os Belly começaram um pouco como «a vingança» de Tanya Donnely , depois das Throwing Muses e das Breeders , mas neste álbum parece haver mais contribuições dos outros elementos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Belly",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Reino Unido",
+    "label": "LOCAL",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Tom Gorman",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "King",
+    "label": "OBRA",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "PESSOA",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Belly",
+    "label": "PESSOA",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Tanya Donnely",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Throwing Muses",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Breeders",
+    "label": "PESSOA",
+    "token_indices": [
+      74
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Reino Unido",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tom Gorman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "King",
+    "label": "OBRA"
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Belly",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Throwing Muses",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Breeders",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Belly', 'PESSOA'), ('Belly', 'PESSOA'), ('Tanya Donnely', 'PESSOA'), ('Throwing Muses', 'PESSOA'), ('Breeders', 'PESSOA')]
+Espúrias  (FP): [('Belly', 'ORGANIZACAO'), ('Throwing Muses', 'ORGANIZACAO'), ('Breeders', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Estão finalmente a desenvolver-se num colectivo? TOM GORMAN -- Esse era o objectivo desde o início. Mas a Tanya tinha tantas canções acumuladas... Além disso, leva muito tempo aprender a tocar juntos e desenvolver um estilo conjunto. Mas com o tempo isso acontece. É um processo que nunca acaba e « King » é o exemplo de um passo em frente. P. -- De há alguns anos para cá, tem havido uma certa tendência para as bandas lideradas por mulheres utilizarem esse facto para chamar a atenção. No entanto, os Belly nunca tentaram tirar muito partido dos seus pontos de vista femininos... R. -- A maneira como funcionamos parece-nos natural. Há uma dinâmica entre fêmeas e machos. Consideramo-nos como uma banda, quatro pessoas que fazem música, e acontece que uns são rapazes e outros raparigas. O facto de sermos liderados por uma mulher é só um pormenor e não sentimos necessidade de explorar o facto.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TOM GORMAN",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Tanya",
+    "label": "PESSOA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "King",
+    "label": "OBRA",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Belly",
+    "label": "PESSOA",
+    "token_indices": [
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tanya",
+    "label": "PESSOA"
+  },
+  {
+    "text": "King",
+    "label": "OBRA"
+  },
+  {
+    "text": "Belly",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('TOM GORMAN', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Vocês, que vinham do circuito independente, estavam à espera desse sucesso? R. -- Não, não estávamos à espera. Quando « Star » saiu pensámos: «Se tivermos sorte, talvez vendamos cem mil discos.» Mas agora, olhando para trás e notando que a paisagem da música popular estava a mudar, sobretudo na América , quase que não me surpreendo. O facto de as Breeders e outras bandas terem conseguido vender bem, mais ou menos na mesma altura, faz com que não seja assim tão estranho.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Star",
+    "label": "OBRA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "América",
+    "label": "LOCAL",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Breeders",
+    "label": "PESSOA",
+    "token_indices": [
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Star",
+    "label": "OBRA"
+  },
+  {
+    "text": "América",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Breeders",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Breeders', 'PESSOA')]
+Espúrias  (FP): [('Breeders', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No entanto, nós estamos interessados em música pop, mas num sentido um tanto para o clássico, não necessariamente naquele dos tops. P. -- E foi fácil suportar as pressões do sucesso que de repente cresceu à vossa volta? R. -- Sim, até um certo ponto. A Tanya agora vive em Boston mas, de certa forma, somos todos de pequenas cidades e lá ninguém nos conhece. O que nos permite fugir de tudo. Fazer digressões da maneira como nós o fizemos é definitivamente trabalho duro, mas a páginas tantas entra-se num mundo muito próprio e tudo o que está à volta -- a imprensa, etc. -- acaba por já não ter importância. P. -- No entanto, a Tanya tem afirmado em entrevistas que o turbilhão a deixou um bocado fora de si, e que agora quer mais controlo sobre as coisas. Isso resultou num álbum mais tenso e planeado, que é o que este « King » parece ser quando comparado com « Star »? R.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tanya",
+    "label": "PESSOA",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Boston",
+    "label": "LOCAL",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Tanya",
+    "label": "PESSOA",
+    "token_indices": [
+      116
+    ]
+  },
+  {
+    "text": "King",
+    "label": "OBRA",
+    "token_indices": [
+      154
+    ]
+  },
+  {
+    "text": "Star",
+    "label": "OBRA",
+    "token_indices": [
+      162
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tanya', 'PESSOA'), ('Boston', 'LOCAL'), ('Tanya', 'PESSOA'), ('King', 'OBRA'), ('Star', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+-- Eu não lhe chamaria planeado. Mas, à medida que se vai conhecendo as etapas deste caminho, vai-se sabendo melhor como as coisas funcionam e o que se quer. Desta vez, no estúdio, sabíamos mais o que se estava a passar. Acho que « King » não é um álbum tão fácil quanto « Star », mas acontecem nele mais coisas interessantes. Só que leva mais algum tempo a apercebermo-nos. E é mais cru e directo. P. -- O facto de terem convidado Glyn Jones , que trabalhou com os Beatles , os Stones , os Clash e uma série de bandas míticas, para produtor foi uma forma de tentarem captar um certo classicismo para « King »? R. -- Sim. Nós queríamos que este disco tivesse um som próprio, que não soasse à altura em que foi gravado. Além disso, ele sugeriu que a gravação fosse feita em regime «live», o que foi bom por causa da rodagem ao vivo que já tínhamos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "King",
+    "label": "OBRA",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Star",
+    "label": "OBRA",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Glyn Jones",
+    "label": "PESSOA",
+    "token_indices": [
+      83,
+      84
+    ]
+  },
+  {
+    "text": "Beatles",
+    "label": "PESSOA",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Stones",
+    "label": "PESSOA",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "Clash",
+    "label": "PESSOA",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "King",
+    "label": "OBRA",
+    "token_indices": [
+      116
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('King', 'OBRA'), ('Star', 'OBRA'), ('Glyn Jones', 'PESSOA'), ('Beatles', 'PESSOA'), ('Stones', 'PESSOA'), ('Clash', 'PESSOA'), ('King', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Foi uma porta para entrar no grande «show»do rock'n'roll? R. -- É uma oportunidade de tocar em sítios novos e para audiências muito maiores. De conseguir uma certa exposição. Acho que o nosso som não é muito parecido com o deles, mas acho que pode cair um pouco na mesma categoria. Por isso, talvez consigamos ganhar novos interessados. Estamos todos muito ansiosos por esses concertos, mas não sabemos muito bem o que podemos esperar. Mas acho que vai ser divertido. Jorge Dias
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jorge Dias",
+    "label": "PESSOA",
+    "token_indices": [
+      80,
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "R.",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jorge Dias",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('R.', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Emagrecendo -O site que ajuda a controlar seu peso. O médico Alfredo Halpern é um dos maiores especialistas em obesidade. Ele estuda o assunto há mais de 30 anos e hoje tem reconhecimento internacional. Não é à toa que foi escolhido pela Organização Mundial de Saúde para ser o representante sul-americano da Força Tarefa para o Combate da Obesidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alfredo Halpern",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "30 anos",
+    "label": "VALOR",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Organização Mundial de Saúde",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Força Tarefa para o Combate da Obesidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Alfredo Halpern",
+    "label": "PESSOA"
+  },
+  {
+    "text": "mais de 30 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Organização Mundial de Saúde",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Força Tarefa para o Combate da Obesidade",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('30 anos', 'VALOR')]
+Espúrias  (FP): [('mais de 30 anos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Faz parte também do Conselho Deliberativo da Iaso ( International Association For Study of Obesity ). É um dos fundadores da Abeso ( Associação Brasileira para o Estudo da Obesidade ), da qual foi presidente por duas vezes. É professor livre-docente da Faculdade de Medicina da USP . Chefe grupo de obesidade e doenças metabólicas do serviço de endocrinologia do Hospital das Clínicas da Faculdade de Medicina da USP , grupo do qual foi pioneiro. Foi responsável pela introdução da disciplina « Obesidade » na pós-graduação da USP . Na realidade, pioneiro na inserção da obesidade como doença nos currículos científicos das universidades do Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho Deliberativo da Iaso",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "International Association For Study of Obesity",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Abeso",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Associação Brasileira para o Estudo da Obesidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Faculdade de Medicina da USP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Hospital das Clínicas da Faculdade de Medicina da USP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Obesidade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "USP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      104
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselho Deliberativo da Iaso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "International Association For Study of Obesity",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Abeso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação Brasileira para o Estudo da Obesidade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Faculdade de Medicina da USP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Obesidade",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "USP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "USP",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Hospital das Clínicas da Faculdade de Medicina da USP', 'ORGANIZACAO')]
+Espúrias  (FP): [('USP', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com uma carreira marcada pelo constante aperfeiçoamento e por muita competência, o Prof. Dr. Alfredo Halpern é autor de três livros para o público em geral: Entenda a Obesidade e Emagreça .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prof. Dr. Alfredo Halpern",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Entenda a Obesidade e Emagreça",
+    "label": "OBRA",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prof. Dr. Alfredo Halpern",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Entenda a Obesidade",
+    "label": "OBRA"
+  },
+  {
+    "text": "Emagreça",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Entenda a Obesidade e Emagreça', 'OBRA')]
+Espúrias  (FP): [('Entenda a Obesidade', 'OBRA'), ('Emagreça', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Obesidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Obesidade",
+    "label": "OBRA",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Obesidade",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Obesidade', 'OBRA')]
+Espúrias  (FP): [('Obesidade', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pontos para o Gordo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pontos para o Gordo",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gordo",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Pontos para o Gordo', 'OBRA')]
+Espúrias  (FP): [('Gordo', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Possui capítulos escritos em mais de 12 livros científicos publicados no Brasil e no Exterior .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "mais de 12",
+    "label": "VALOR",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Exterior",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "mais de 12",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCAL'), ('Exterior', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É um dos autores do tratado « Obesidade », uma das mais completas e importantes obras sobre o assunto em todo o mundo. O Prof. Dr. Alfredo Halpern - criador do Sistema de Pontos para o controle do peso - há vários anos é referência obrigatória para os mais importantes veículos de comunicação. O Sistema foi criado por ele há mais ou menos 30 anos , pelo fato do Prof. Dr. Alfredo não se conformar com as dietas «burras» que obrigavam pessoas que gostavam bastante de açúcares e outras guloseimas, a se privar desses alimentos. Ele acreditava - e continua acreditando cada vez mais - que, para emagrecer e continuar com o peso indicado, a pessoa deverá comer de tudo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Obesidade",
+    "label": "OBRA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Prof. Dr. Alfredo Halpern",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Sistema de Pontos",
+    "label": "OBRA",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Sistema",
+    "label": "OBRA",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "mais ou menos 30 anos",
+    "label": "VALOR",
+    "token_indices": [
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Prof. Dr. Alfredo",
+    "label": "PESSOA",
+    "token_indices": [
+      69,
+      70,
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prof. Dr. Alfredo Halpern",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sistema de Pontos",
+    "label": "OUTRO"
+  },
+  {
+    "text": "Prof. Dr. Alfredo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "30 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Obesidade', 'OBRA'), ('Sistema de Pontos', 'OBRA'), ('Sistema', 'OBRA'), ('mais ou menos 30 anos', 'VALOR')]
+Espúrias  (FP): [('Sistema de Pontos', 'OUTRO'), ('30 anos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Rainha D. Maria II Foto da Biblioteca Biblioteca Central da Marinha Situada, desde 1891 , na Praça do Império , na imediata proximidade do Mosteiro dos Jerónimos , a Biblioteca Central da Marinha ( BCM ) é sucessora da antiga Biblioteca da Real Academia dos Guardas-Marinhas , que seguiu com a côrte para o Brasil e foi transferida para o Rio de Janeiro aquando da 1ª invasão francesa, tendo ficado em grande parte naquele país. A sua fundação, como " Biblioteca de Marinha ", deve-se à Rainha D. Maria II , por decreto de 7 de Janeiro de 1835 , ficando de ínicio integrada no Arsenal Real de Marinha e instalada no andar nobre do respectivo edíficio da Ribeira das Naus . Em 1960 , recebeu a designação de Biblioteca Central da Marinha , ficando a reger-se por um regulamento próprio como organismo na dependência do então Superintendente dos Serviços da Armada , estando, presentemente, na dependência do Almirante Chefe do Estado-Maior da Armada e o seu Director , quando Oficial General , desempenha em acumulação as funções de Presidente da Comissão Cultural da Marinha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rainha D. Maria II",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Biblioteca",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Biblioteca Central da Marinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "1891",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Praça do Império",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Mosteiro dos Jerónimos",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Biblioteca Central da Marinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "BCM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Biblioteca da Real Academia dos Guardas-Marinhas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "1ª",
+    "label": "VALOR",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Biblioteca de Marinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Rainha D. Maria II",
+    "label": "PESSOA",
+    "token_indices": [
+      86,
+      87,
+      88,
+      89
+    ]
+  },
+  {
+    "text": "7 de Janeiro de 1835",
+    "label": "TEMPO",
+    "token_indices": [
+      94,
+      95,
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "text": "Arsenal Real de Marinha",
+    "label": "LOCAL",
+    "token_indices": [
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  {
+    "text": "Ribeira das Naus",
+    "label": "LOCAL",
+    "token_indices": [
+      118,
+      119,
+      120
+    ]
+  },
+  {
+    "text": "1960",
+    "label": "TEMPO",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "Biblioteca Central da Marinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      129,
+      130,
+      131,
+      132
+    ]
+  },
+  {
+    "text": "Superintendente dos Serviços da Armada",
+    "label": "PESSOA",
+    "token_indices": [
+      147,
+      148,
+      149,
+      150,
+      151
+    ]
+  },
+  {
+    "text": "Almirante Chefe do Estado-Maior da Armada",
+    "label": "PESSOA",
+    "token_indices": [
+      158,
+      159,
+      160,
+      161,
+      162,
+      163
+    ]
+  },
+  {
+    "text": "Director",
+    "label": "PESSOA",
+    "token_indices": [
+      167
+    ]
+  },
+  {
+    "text": "Oficial General",
+    "label": "PESSOA",
+    "token_indices": [
+      170,
+      171
+    ]
+  },
+  {
+    "text": "Presidente da Comissão Cultural da Marinha",
+    "label": "PESSOA",
+    "token_indices": [
+      179,
+      180,
+      181,
+      182,
+      183,
+      184
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Rainha D. Maria II', 'PESSOA'), ('Biblioteca', 'LOCAL'), ('Biblioteca Central da Marinha', 'ORGANIZACAO'), ('1891', 'TEMPO'), ('Praça do Império', 'LOCAL'), ('Mosteiro dos Jerónimos', 'LOCAL'), ('Biblioteca Central da Marinha', 'ORGANIZACAO'), ('BCM', 'ORGANIZACAO'), ('Biblioteca da Real Academia dos Guardas-Marinhas', 'ORGANIZACAO'), ('Brasil', 'LOCAL'), ('Rio de Janeiro', 'LOCAL'), ('1ª', 'VALOR'), ('Biblioteca de Marinha', 'ORGANIZACAO'), ('Rainha D. Maria II', 'PESSOA'), ('7 de Janeiro de 1835', 'TEMPO'), ('Arsenal Real de Marinha', 'LOCAL'), ('Ribeira das Naus', 'LOCAL'), ('1960', 'TEMPO'), ('Biblioteca Central da Marinha', 'ORGANIZACAO'), ('Superintendente dos Serviços da Armada', 'PESSOA'), ('Almirante Chefe do Estado-Maior da Armada', 'PESSOA'), ('Director', 'PESSOA'), ('Oficial General', 'PESSOA'), ('Presidente da Comissão Cultural da Marinha', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Especializada, desde sempre, em matérias ligadas ao mar e a tudo que com ele se relaciona, a BCM possui actualmente cerca de 80.000 volumes correspondendo a perto de 45.000 títulos. A partir de 1994 , em consequência da reestruturação orgânica operada na Marinha , passou a integrar o Arquivo Central da Marinha que, do antecedente, constituía um organismo autónomo. Encontra-se aberta ao público todos os dias úteis das 09:30 às 16:45 horas tendo sido, em 1997 , consultados 4498 livros a que correspondeu uma frequência de 1308 leitores dos quais 90% de nacionalidade portuguesa e 10% de estrangeiros.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BCM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "80.000",
+    "label": "VALOR",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "45.000",
+    "label": "VALOR",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "1994",
+    "label": "TEMPO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Marinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Arquivo Central da Marinha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "09:30",
+    "label": "TEMPO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "16:45 horas",
+    "label": "TEMPO",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "1997",
+    "label": "TEMPO",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "4498",
+    "label": "VALOR",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "1308",
+    "label": "VALOR",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "90%",
+    "label": "VALOR",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "10%",
+    "label": "VALOR",
+    "token_indices": [
+      95
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BCM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "80.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "45.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "1994",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Marinha",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Arquivo Central da Marinha",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1997",
+    "label": "TEMPO"
+  },
+  {
+    "text": "4498",
+    "label": "VALOR"
+  },
+  {
+    "text": "1308",
+    "label": "VALOR"
+  },
+  {
+    "text": "90%",
+    "label": "VALOR"
+  },
+  {
+    "text": "10%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('09:30', 'TEMPO'), ('16:45 horas', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Agricultores de Famalicão querem mudar traçado do gasoduto «Tudo nas costas das pessoas» Cerca quarenta proprietários agrícolas do concelho de Vila Nova de Famalicão , cujos terrenos são atravessados pelo gasoduto que está a ser implantado na região de acordo com um novo traçado já publicado no « Diário da República », não estão dispostos a aceitar as alterações introduzidas e prometem tudo fazer para mudar o percurso da conduta de gás natural, de modo a evitarem «prejuízos desnecessários» nas suas colheitas com a cedência do uso de servidão à Transgás - Sociedade Portuguesa de Gás Natural .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Famalicão",
+    "label": "LOCAL",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Vila Nova de Famalicão",
+    "label": "LOCAL",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Diário da República",
+    "label": "LOCAL",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Sociedade Portuguesa de Gás Natural",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      92,
+      93,
+      94,
+      95,
+      96
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Famalicão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cerca quarenta",
+    "label": "VALOR"
+  },
+  {
+    "text": "Vila Nova de Famalicão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Diário da República",
+    "label": "OBRA"
+  },
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sociedade Portuguesa de Gás Natural",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Diário da República', 'LOCAL')]
+Espúrias  (FP): [('Cerca quarenta', 'VALOR'), ('Diário da República', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Precavido com o que se passara numa reunião em Cabeçudos -- onde o problema foi colocado por outros proprietários --, Malta Dias , jurista da empresa, fez questão de apresentar documentação alegadamente comprovativa da total responsabilidade da Câmara de Famalicão na escolha do traçado. Inclusive, revelou um pormenor que, de acordo com o advogado Joaquim Loureiro (defensor de um dos lesados), poderá servir de argumento num eventual pedido de impugnação do aviso do Ministério da Indústria e Energia publicado em 16 de Agosto no « Diário da República » que ratifica o traçado: é que, revelou o responsável da Transgás , a autarquia, obedecendo a um prazo estabelecido pela Direcção-Geral de Energia , deveria ter apresentado todas as sugestões de alteração ao trajecto da conduta de gás até finais de Fevereiro de 1994 , mas parte delas só foi apresentada em 11 de Julho de 1995 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cabeçudos",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Malta Dias",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Câmara de Famalicão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Joaquim Loureiro",
+    "label": "PESSOA",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Ministério da Indústria e Energia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73,
+      74,
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "text": "16 de Agosto",
+    "label": "TEMPO",
+    "token_indices": [
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Diário da República",
+    "label": "LOCAL",
+    "token_indices": [
+      85,
+      86,
+      87
+    ]
+  },
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Direcção-Geral de Energia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      109,
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Fevereiro de 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      130,
+      131,
+      132
+    ]
+  },
+  {
+    "text": "11 de Julho de 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      141,
+      142,
+      143,
+      144,
+      145
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cabeçudos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Malta Dias",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Câmara de Famalicão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Joaquim Loureiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Direcção-Geral de Energia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "16 de Agosto",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Diário da República",
+    "label": "OBRA"
+  },
+  {
+    "text": "15 de Julho",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Ministério da Indústria e Energia', 'ORGANIZACAO'), ('Diário da República', 'LOCAL'), ('Fevereiro de 1994', 'TEMPO'), ('11 de Julho de 1995', 'TEMPO')]
+Espúrias  (FP): [('Diário da República', 'OBRA'), ('15 de Julho', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No documento enviado à empresa do gás natural, o presidente da autarquia, Agostinho Fernandes (cuja secretária, ontem, tinha indicações para remeter o PÚBLICO para o chefe do Departamento de Urbanismo , José Duarte , que, por sua vez, não esteve disponível em tempo útil), justificou o pedido de alteração do traçado com o facto de o primeiro projecto oferecer «condicionantes», uma das quais implicaria «a redução do espaço industrial, assim como do espaço de aglomerado adjacente, junto ao nó de Cabeçudos , devido ao seu afastamento necessário para a faixa de protecção do gasoduto». Foi com base nesta sugestão da autarquia que uma extensa área de terreno que o Grupo Sonae ali adquiriu para a edificação de um centro de lazer e de um hipermercado deixou de ser atravessada pelo gasoduto -- mudança fulcral em que os contestatários se apoiam para acusar a Transgás «proteger a Sonae ». A empresa do gás natural limita-se a reafirmar que «todas as alterações foram feitas a pedido da Câmara », versão que não é aceite pela edilidade.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Agostinho Fernandes",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "PESSOA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Departamento de Urbanismo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "José Duarte",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Cabeçudos",
+    "label": "LOCAL",
+    "token_indices": [
+      80
+    ]
+  },
+  {
+    "text": "Grupo Sonae",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      109,
+      110
+    ]
+  },
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      143
+    ]
+  },
+  {
+    "text": "Sonae",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      146
+    ]
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      165
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PÚBLICO",
+    "label": "OBRA"
+  },
+  {
+    "text": "Agostinho Fernandes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Departamento de Urbanismo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José Duarte",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cabeçudos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Grupo Sonae",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('PÚBLICO', 'PESSOA'), ('Transgás', 'ORGANIZACAO'), ('Sonae', 'ORGANIZACAO'), ('Câmara', 'ORGANIZACAO')]
+Espúrias  (FP): [('PÚBLICO', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Aliás, confrontada com as dúvidas dos proprietários e com as declarações ao PÚBLICO um técnico camarário a responsabilizar a Transgás pelo traçado, a administração desta empresa solicitou ao presidente da autarquia a presença de um seu representante na reunião com os agricultores, o que não se verificou. A ausência serviu para os técnicos da Transgás convencerem os agricultores quanto à responsabilidade da Câmara no processo e os dirigentes da Fanorte -- que, antes da reunião, tinham acusado «os responsáveis do gasoduto» de terem entrado em áreas agrícolas «de forma abusiva», «pisando culturas instaladas, fazendo marcações e só depois contactado os proprietários» --, saíram do encontro tendo a Câmara como «alvo». «Nada nos move contra a Transgás », emendou o dirigente agrícola Orlando Gonçalves .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PÚBLICO",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Fanorte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      107
+    ]
+  },
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Orlando Gonçalves",
+    "label": "PESSOA",
+    "token_indices": [
+      121,
+      122
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PÚBLICO",
+    "label": "OBRA"
+  },
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Fanorte",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José Manuel Pires",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PÚBLICO', 'PESSOA'), ('Transgás', 'ORGANIZACAO'), ('Orlando Gonçalves', 'PESSOA')]
+Espúrias  (FP): [('PÚBLICO', 'OBRA'), ('José Manuel Pires', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+«Esta conversa, feita noutro tempo, poderia ter resolvido o problema. Evitaria uma algazarra desnecessária...», sustentou Orlando Gonçalves , revelando que a Fanorte vai agora «exigir uma explicação da Câmara ». É que, explicou, «até hoje, ninguém nos ouviu». «E só depois da publicação no ` Diário da República ' é que tomámos conhecimento do traçado. Isto é inadmissível». Pelo mesmo diapasão alinhou o delegado em Lagoa da Associação de Agricultores de Famalicão , António Ribeiro , em declarações ao PÚBLICO : «A Câmara nunca falou connosco, fizeram tudo nas costas das pessoas».
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Orlando Gonçalves",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Fanorte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Diário da República",
+    "label": "LOCAL",
+    "token_indices": [
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Lagoa",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Associação de Agricultores de Famalicão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67,
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "António Ribeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "PESSOA",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      82
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Orlando Gonçalves",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fanorte",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Diário da República",
+    "label": "OBRA"
+  },
+  {
+    "text": "Lagoa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Associação de Agricultores de Famalicão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "António Ribeiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PÚBLICO",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Diário da República', 'LOCAL'), ('PÚBLICO', 'PESSOA')]
+Espúrias  (FP): [('Diário da República', 'OBRA'), ('PÚBLICO', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O agricultores -- que não chegaram a discutir a polémica questão do preço oferecido pela Transgás pelo uso da servidão, cuja verba ronda os 150 ecudos por metro quadrado cedido -- elegeram uma comissão que irá contactar com a edilidade, numa tentativa para ser feita uma nova alteração ao traçado. «Para que o gasoduto prejudique o menos possível quer a agricultura, quer a indústria». Luís Paulo Rodrigues
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "150",
+    "label": "VALOR",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Luís Paulo Rodrigues",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Transgás",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "150 ecudos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Luís Paulo Rodrigues",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('150', 'VALOR')]
+Espúrias  (FP): [('150 ecudos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Vital &Cremonezzi enviarcremonezi [ enviarcremonezi@ieg.com.br ]. Visite nosso site - clique aqui Mudando o Conceito contabilidade Com 38 anos de atuação no mercado, é um dos maiores centros de atendimento contábil de Campinas e região. Formado por uma equipe com mais de 15 colaboradores, o escritório hoje soma experiência e dinamismo a um novo conceito de fazer contabilidade. Alguns nossos clientes: * Oriental Jóias e Relógios * Boot Co -Calçados * Modelo Calçados * Mr. Cat -Calçados * Bromberg -Construtora * Fornitura Visite nosso site: www.vitaecremonezzi.com.br 0800 770 8552 (Chamadas locais). Tel: (19) 3232-0366 clique aqui para excluir seu e-mail da lista Mr. Counter
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vital &Cremonezzi",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "38 anos",
+    "label": "VALOR",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Campinas",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "mais de 15",
+    "label": "VALOR",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Oriental Jóias e Relógios",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      62,
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Boot Co -Calçados",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Modelo Calçados",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Mr. Cat -Calçados",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Bromberg -Construtora",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Fornitura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Mr. Counter",
+    "label": "LOCAL",
+    "token_indices": [
+      102,
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Vital &Cremonezzi', 'ORGANIZACAO'), ('38 anos', 'VALOR'), ('Campinas', 'LOCAL'), ('mais de 15', 'VALOR'), ('Oriental Jóias e Relógios', 'ORGANIZACAO'), ('Boot Co -Calçados', 'ORGANIZACAO'), ('Modelo Calçados', 'ORGANIZACAO'), ('Mr. Cat -Calçados', 'ORGANIZACAO'), ('Bromberg -Construtora', 'ORGANIZACAO'), ('Fornitura', 'ORGANIZACAO'), ('Mr. Counter', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E eu disse ao meu colega:-"Espera que passe este trampolho." E no fim diz a senhora:-"Muito obrigado que sou portuguesa." Coitadinha. Ficamos arrasados! -"Oh senhora desculpe! É maneira de falar, nem pensamos sequer ofender. Era uma maneira de falar porque julgamos que ninguém nos entendia." Mas com esta ficamos bem. A senhora até compreendeu a nossa posição, que não era para ofender. Mas essa saíu-nos cara. Que tipo de actividades vocês portugueses faziam? Saíamos, discutíamos os problemas, discutíamos as dificuldades que cada um tinha, ajudávamo-nso mutuamente. Moravam todos perto uns dos outros? Cada um morava na sua residência universitária, mas juntávamo-nos sempre. De Bilbau foi para Leuven , como é que surgiu a ideia de ir para essa universidade? Acabou a guerra, eu já pode ir para Leuven porque eu queria sair de Espanha porque já conhecia a Espanha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bilbau",
+    "label": "LOCAL",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "Leuven",
+    "label": "LOCAL",
+    "token_indices": [
+      106
+    ]
+  },
+  {
+    "text": "Leuven",
+    "label": "LOCAL",
+    "token_indices": [
+      127
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      133
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      138
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Bilbau', 'LOCAL'), ('Leuven', 'LOCAL'), ('Leuven', 'LOCAL'), ('Espanha', 'LOCAL'), ('Espanha', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Realmente gostei de lá estar, mas também gostei de Leuven porque Leuven tem uma vantagem que não tem Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Leuven",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Leuven",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Leuven",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Leuven', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Bélgica está entre a Alemanha , Inglaterra e a França e tem tudo o que há de novidade. É que nós estamos na cauda da Europa e as coisas chegam cá tarde. Eu quando cheguei cá pareceu-me que não arranjava trabalho porque nós estávamos 10 anos atrasados. Nós íamos 10 anos atrasados ao que lá estava, não por incapacidade, o português gosta de aprender e aprende bem as coisas, mas precisamente porque na Bélgica o que havia da Inglaterra , da Alemanha ou da França estava ali. A Bélgica estava bem situada, ao passo que nós estamos num extremo. Hoje já há mais comunicações, e as universidades estão mais desenvolvidas, infelizmente nem todos os instutitutos universitários. Eu sempre defendo, porque há uns que atacam que algumas universidades não tem categoria, e é verdade, mas eu sempre defendo que mais vale isso do que nada.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bélgica",
+    "label": "LOCAL",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "10 anos",
+    "label": "VALOR",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "10 anos",
+    "label": "VALOR",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Bélgica",
+    "label": "LOCAL",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Bélgica",
+    "label": "LOCAL",
+    "token_indices": [
+      89
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Bélgica', 'LOCAL'), ('Alemanha', 'LOCAL'), ('Inglaterra', 'LOCAL'), ('França', 'LOCAL'), ('Europa', 'LOCAL'), ('10 anos', 'VALOR'), ('10 anos', 'VALOR'), ('Bélgica', 'LOCAL'), ('Inglaterra', 'LOCAL'), ('Alemanha', 'LOCAL'), ('França', 'LOCAL'), ('Bélgica', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Locais de Escalada - Gruta do Baú - Lagoa Santa - MG Gruta do Baú - Lagoa Santa - MG Como chegar Chegando a Belo Horizonte , deve-se pegar a Av. Cristiano Machado que desemboca na rodovia para a cidade de Pedro Leopoldo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gruta do Baú",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Lagoa Santa",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "MG",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Gruta do Baú",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Lagoa Santa",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "MG",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Belo Horizonte",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Av. Cristiano Machado",
+    "label": "LOCAL",
+    "token_indices": [
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Pedro Leopoldo",
+    "label": "LOCAL",
+    "token_indices": [
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Escalada",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Gruta do Baú",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lagoa Santa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "MG",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Gruta do Baú",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lagoa Santa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "MG",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Belo Horizonte",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Av. Cristiano Machado",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pedro Leopoldo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Escalada', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na estrada que leva ao bairro remoto de Fidalgo , aparecerão formações à esquerda. Após avistar um formação de calcáreo parecida com um fechadura e depois um campinho, existe a entrada para a fazendo. Entrando na fazenda, as vias do Baú se encontram nas paredes à esquerda. Onde Ficar Os escaladores locais geralmente ficam no rancho, que se encontra continuando a descer a estrada da fazenda. O rancho só oferece chão e teto, sendo que a água é precária, tornado recomendável levar água. Vias As vias do Baú são demais! Existem várias vias-escola, com baixos níveis de dificuldade técnica/física (entre 4 a 6º grau), e médios p/ altos níveis ( 7 em diante). A maioria das vias são grampeadas, mas, existe a possibilidade de se praticar escalada móvel e solo. Você poderá pernoitar (recomendamos comunicar o proprietário) ou bivacar nas moitas. Quando for ao Baú , não deixe de ver a " FECHADURA " e a " ONDA ", uma formação rochosa muito radical, no formato de uma onda, onde há belas vias negativas...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fidalgo",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Baú",
+    "label": "LOCAL",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Baú",
+    "label": "LOCAL",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "4 a 6º",
+    "label": "VALOR",
+    "token_indices": [
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "text": "7",
+    "label": "VALOR",
+    "token_indices": [
+      110
+    ]
+  },
+  {
+    "text": "Baú",
+    "label": "LOCAL",
+    "token_indices": [
+      144
+    ]
+  },
+  {
+    "text": "FECHADURA",
+    "label": "LOCAL",
+    "token_indices": [
+      152
+    ]
+  },
+  {
+    "text": "ONDA",
+    "label": "LOCAL",
+    "token_indices": [
+      157
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Fidalgo', 'LOCAL'), ('Baú', 'LOCAL'), ('Baú', 'LOCAL'), ('4 a 6º', 'VALOR'), ('7', 'VALOR'), ('Baú', 'LOCAL'), ('FECHADURA', 'LOCAL'), ('ONDA', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A relação de Einstein mostra que o tempo necessário para a difusão aumenta com o quadrado da distância a percorrer. Por exemplo , a glicose demora 3,5 segundos a atingir 90% do equilíbrio de difusão num local que dista 1 µm da fonte de glicose (como ocorre no sangue) mas levaria 11 anos a atingir a mesma concentração num ponto a 10 cm da fonte. A difusão é um meio de transporte rápido e eficaz para curtas distâncias mas muito ineficaz para distâncias com mais de alguns microns. Devido à lentidão da difusão para distâncias macroscópicas, os organismos multicelulares desenvolveram sistemas circulatórios (ex: sangue, transporte axonal) que asseguram um movimento rápido de partículas para longas distâncias. A difusão proporciona o movimento de partículas entre células e sangue. A Lei de Fick para a difusão defme quantitativamente as relações entre estes três factores. Postula que a quantidade de uma substância difundida por unidade de tempo num dado momento, isto é, o fluxo de difusão (J) é proporcional ao coeficiente de difusão (D, cm2/s), à área disponível de troca (A) e ao gradiente de concentração (AC) e inversamente proporcional à distância a que ocorre a difusão (1): Figura 3 - Difusão.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de Einstein",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "3,5 segundos",
+    "label": "VALOR",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "90%",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "1 µm",
+    "label": "VALOR",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "11 anos",
+    "label": "VALOR",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "10 cm",
+    "label": "VALOR",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Lei de Fick",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      128,
+      129,
+      130
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Einstein",
+    "label": "PESSOA"
+  },
+  {
+    "text": "3,5 segundos",
+    "label": "VALOR"
+  },
+  {
+    "text": "90%",
+    "label": "VALOR"
+  },
+  {
+    "text": "1 µm",
+    "label": "VALOR"
+  },
+  {
+    "text": "11 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "10 cm",
+    "label": "VALOR"
+  },
+  {
+    "text": "alguns microns",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('de Einstein', 'ABSTRACCAO'), ('Lei de Fick', 'ABSTRACCAO')]
+Espúrias  (FP): [('Einstein', 'PESSOA'), ('alguns microns', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+As moléculas do soluto difundem-se (A) até atingirem um estado de equilíbrio (B). Os mesmos princípios aplicam-se ao movimento de substâncias através das membranas plasmáticas com uma diferença: a substituição, na Lei de Fick , do coeficiente de difusão pelo Coeficiente de Permeabilidade membranar (P, cm2/s) , uma vez que a espessura da membrana celular pode ser considerada uma constante: J = P*A*C Para a maioria dos solutos, os coeficientes de permeabilidade são cerca de um milhão de vezes inferiores aos coeficientes de difusão. Uma vez que a permeabilidade é uma propriedade da membrana, diferentes tipos de células têm diferentes constantes de permeabilidade para a mesma substância. O principal factor limitante da difusão através de uma membrana celular é a lipossolubilidade da substância a transportar. Moléculas apolares como o oxigénio, dióxido de carbono, ácidos gordos e hormonas esteróides difundem rapidamente pela porção lipídica da membrana. Moléculas polares de pequenas dimensões e sem carga, como a ureia e o glicerol, atravessam a bicamada lipídica rapidamente.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei de Fick",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Coeficiente de Permeabilidade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei de Fick",
+    "label": "OBRA"
+  },
+  {
+    "text": "P",
+    "label": "VALOR"
+  },
+  {
+    "text": "cm2/s",
+    "label": "VALOR"
+  },
+  {
+    "text": "J",
+    "label": "VALOR"
+  },
+  {
+    "text": "P",
+    "label": "VALOR"
+  },
+  {
+    "text": "A",
+    "label": "VALOR"
+  },
+  {
+    "text": "C",
+    "label": "VALOR"
+  },
+  {
+    "text": "um milhão",
+    "label": "VALOR"
+  },
+  {
+    "text": "respiração celular",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "respiração celular",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Lei de Fick', 'ABSTRACCAO'), ('Coeficiente de Permeabilidade', 'ABSTRACCAO')]
+Espúrias  (FP): [('Lei de Fick', 'OBRA'), ('P', 'VALOR'), ('cm2/s', 'VALOR'), ('J', 'VALOR'), ('P', 'VALOR'), ('A', 'VALOR'), ('C', 'VALOR'), ('um milhão', 'VALOR'), ('respiração celular', 'ACONTECIMENTO'), ('respiração celular', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A relação entre o gradiente de concentração e o potencial de equilíbrio para um ião X (Ex) é dado pela Equação de Nernst : OndeR é a constante dos gases perfeitos ( [ 8,314 ] K-1 mol-l ) T é temperatura absoluta ( 310K no corpo humano ) F é a constante de Faraday (carga por mole = 9,65x104 A.s.mol-l ) Z é o número de cargas do ião ln -logaritmo natural [X] a concentração molal do ião no exterior (e) e no interior (i) da célula. À temperatura ambiente, substituindo os valores das constantes e convertendo o logaritmo natural para um logaritmo de base 10 , obtemos : Ex = ( 60 z ) log ( [ X]e [ X]i )(mV Se, por exemplo, o ião for o potássio temos: Ek = (60/1) log (5/150) = -90 mV. A equação de Nernst pode, também, ser utilizada para prever a direcção do fluxo de iões: a) Se, para um dado ião, a diferença de potencial medida na membrana for igual à calculada pela equação de Nernst , então esse ião está em equilíbrio electroquímico e não há fluxo b) Se, para um dado ião, o potencial eléctrico medido tem o mesmo sinal do calculado pela equação de Nernst mas é numericamente superior , a força eléctrica é superior à força da concentração; o fluxo do ião é determinado pela força eléctrica c) Se, para um dado ião, o potencial eléctrico medido tem o mesmo sinal do calculado pela equação de Nernst mas é numericamente inferior , a força da concentração é superior à força eléctrica, o fluxo do ião é determinado pelo gradiente de concentração d) Se, para um dado ião, o potencial eléctrico medido tem um sinal oposto ao que seria previsível pela equação de Nernst , as forças eléctrica e de concentração actuam no mesmo sentido e a direcção do fluxo iónico é determinado por ambas as forças.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Equação de Nernst",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "[ 8,314 ] K-1 mol-l",
+    "label": "VALOR",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "310K",
+    "label": "VALOR",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "9,65x104 A.s.mol-l",
+    "label": "VALOR",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "10",
+    "label": "VALOR",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "de Nernst",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      141,
+      142
+    ]
+  },
+  {
+    "text": "de Nernst",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      174,
+      175
+    ]
+  },
+  {
+    "text": "de Nernst",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      206,
+      207
+    ]
+  },
+  {
+    "text": "de Nernst",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      249,
+      250
+    ]
+  },
+  {
+    "text": "de Nernst",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      295,
+      296
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Equação de Nernst', 'ABSTRACCAO'), ('[ 8,314 ] K-1 mol-l', 'VALOR'), ('310K', 'VALOR'), ('9,65x104 A.s.mol-l', 'VALOR'), ('10', 'VALOR'), ('de Nernst', 'ABSTRACCAO'), ('de Nernst', 'ABSTRACCAO'), ('de Nernst', 'ABSTRACCAO'), ('de Nernst', 'ABSTRACCAO'), ('de Nernst', 'ABSTRACCAO')]
+Espúrias  (FP): []
+

@@ -1,0 +1,3896 @@
+--------------------------------------------------------------------------------
+Texto:
+PT , PDT , PC do B e os outros «contras» (partidos contrários à revisão) exigiram que as votações do Congresso revisor começassem pela questão tributária. A nova reivindicação irritou os partidos favoráveis à revisão, que criticaram a proposta. No dia 1º de março , a fundação inaugurou mais uma escola. Ela foi construída em Marília (cidade onde foi fundada o banco) com capacidade para mil alunos. Como nas outras escolas, ali os alunos recebem gratuitamente o ensino, o material didático, o uniforme, a alimentação e tratamento médico e odontológico. A exclusão de Maradona , por ter jogado dopado contra a Nigéria , abalou os jogadores. O time, antes bastante aguerrido e solidário, passou a discutir em campo. A Argentina fez uma opção bastante ofensiva. Variava entre um 4-3-3 e um 4-2-4 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "PDT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "PC do B",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Congresso",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "1º de março",
+    "label": "TEMPO",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Maradona",
+    "label": "PESSOA",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "Nigéria",
+    "label": "PESSOA",
+    "token_indices": [
+      101
+    ]
+  },
+  {
+    "text": "Argentina",
+    "label": "PESSOA",
+    "token_indices": [
+      119
+    ]
+  },
+  {
+    "text": "4-3-3",
+    "label": "OUTRO",
+    "token_indices": [
+      128
+    ]
+  },
+  {
+    "text": "4-2-4",
+    "label": "OUTRO",
+    "token_indices": [
+      131
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PDT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PC do B",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Congresso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1º de março",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Maradona",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Nigéria",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Maradona",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1986",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Nigéria', 'PESSOA'), ('Argentina', 'PESSOA'), ('4-3-3', 'OUTRO'), ('4-2-4', 'OUTRO')]
+Espúrias  (FP): [('Nigéria', 'LOCAL'), ('Maradona', 'PESSOA'), ('1986', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O técnico Alfio Basile tentou aproveitar seus melhores jogadores. Ainda há muito o que fazer para desgravar completamente as exportações de impostos indiretos, conforme permitem as regras do Gatt e impõe a realidade de um ambiente internacional competitivo. Mas a União foi ao limite em termos de desgravação das exportações. Antes da urgente reforma constitucional, a extensão da desoneração tributária das exportações para todas as etapas da cadeia produtiva enfrenta dificuldades operacionais insuperáveis no âmbito federal. Seria inviável estimar, por exemplo, com a acuidade necessária para a concessão de crédito fiscal, qual a incidência efetiva de PIS e Cofins em cada etapa do processo produtivo anterior à produção dos insumos usados diretamente na produção para exportações.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alfio Basile",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Gatt",
+    "label": "OBRA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "PIS",
+    "label": "COISA",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "Cofins",
+    "label": "COISA",
+    "token_indices": [
+      98
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Alfio Basile",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Gatt",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PIS",
+    "label": "COISA"
+  },
+  {
+    "text": "Cofins",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Gatt', 'OBRA')]
+Espúrias  (FP): [('Gatt', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+New Page 3 Conferências da Associação 1ª Conferência A realização da primeira conferência a promover pela Associação encontra-se já agendada para Maio de 2002 e em fase de organização. Uma conferência que decorrerá sobre a temática do Censo de 2001 e no qual intervirão alguns associados, outros investigadores convidados e representantes do INE . Em breve será divulgado nesta página o programa da conferência, o local e a data da sua realização. 2ª Conferência A próxima conferência da APD , cujo programa se encontra no 3.º boletim, disponível neste site, decorrerá no ISEG no próximo dia 9 de Dezembro , às 14 horas , no Auditório 2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "1ª Conferência",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Maio de 2002",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Censo de 2001",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "INE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "2ª Conferência",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "APD",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "3.º",
+    "label": "VALOR",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "ISEG",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      92
+    ]
+  },
+  {
+    "text": "9 de Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "text": "14 horas",
+    "label": "TEMPO",
+    "token_indices": [
+      101,
+      102
+    ]
+  },
+  {
+    "text": "Auditório 2",
+    "label": "LOCAL",
+    "token_indices": [
+      105,
+      106
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "New Page 3",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1ª Conferência",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Maio de 2002",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Censo de 2001",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "INE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "APD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "3.º boletim",
+    "label": "COISA"
+  },
+  {
+    "text": "ISEG",
+    "label": "LOCAL"
+  },
+  {
+    "text": "9 de Dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Auditório 2",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Associação', 'ORGANIZACAO'), ('Censo de 2001', 'ABSTRACCAO'), ('2ª Conferência', 'ACONTECIMENTO'), ('3.º', 'VALOR'), ('ISEG', 'ORGANIZACAO'), ('14 horas', 'TEMPO')]
+Espúrias  (FP): [('New Page 3', 'LOCAL'), ('Censo de 2001', 'ACONTECIMENTO'), ('3.º boletim', 'COISA'), ('ISEG', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esta 2ª Conferência da Associação , que incide sobre as questões da " Imigração em Portugal ", tem como objectivo discutir os aspectos contemporâneos da imigração no nosso país. Serão abordadas questões demográficas, incluindo a caracterização dos imigrantes a partir dos Censos 2001 , o impacto demográfico da imigração e a sua distribuição regional, e algumas modalidades sociais e económicas da imigração, incluindo a inserção social dos migrantes e as estratégias de migração. As referências empíricas incluem tanto a sedimentação da imigração "tradicional" como a nova vertente das migrações de Leste .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2ª Conferência",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Imigração em Portugal",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Censos 2001",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Leste",
+    "label": "LOCAL",
+    "token_indices": [
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2ª Conferência",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Imigração em Portugal",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Censos 2001",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Leste",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Censos 2001', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Censos 2001', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Insituto de desenho industrial ( IDI ) Instituto de Desenho Industrial ( IDI ) 1968 :: 1986 (? ) Nacionalidade Brasil O IDI foi uma divisão do Museu de Arte Moderna do Rio de Janeiro , criada por Bergmiller , Goebel Weyne e Maurício Roberto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Insituto de desenho industrial",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Instituto de Desenho Industrial",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "1968",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "1986",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Museu de Arte Moderna do Rio de Janeiro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Bergmiller",
+    "label": "PESSOA",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Goebel Weyne",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Maurício Roberto",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Insituto de desenho industrial",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Instituto de Desenho Industrial",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1968",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1986",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Bergmiller",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Goebel Weyne",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Maurício Roberto",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCAL'), ('IDI', 'ORGANIZACAO'), ('Museu de Arte Moderna do Rio de Janeiro', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O objetivo do IDI era se tornar um centro de informação e divulgação do design, mostrando ao grande público o que era o desenho industrial. O Instituto organizou um evento que se chamou " Desenho Industrial - Bienal Internacional do Rio de Janeiro " em 1968 , 1970 e 1972 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Instituto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Desenho Industrial - Bienal Internacional do Rio de Janeiro",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "1968",
+    "label": "TEMPO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "1970",
+    "label": "TEMPO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "1972",
+    "label": "TEMPO",
+    "token_indices": [
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Desenho Industrial - Bienal Internacional do Rio de Janeiro",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "1968",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1970",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1972",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Instituto', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Bienal do Rio mostrava o que estava acontecendo na área no Brasil e no mundo. Ele também em organizou exposições temáticas (como " O talher contemporâneo " e " A imagem corporativa "). Mais tarde, o IDI se tornaria uma espécie de seção de pesquisa da ESDI , sendo que vários de seus membros lecionavam na escola que não conseguiu incorporar essa atividade. Um dos trabalhos mais conhecidos do IDI foi o " Manual para planejamento de embalagens ", que esgotou rapidamente após seu lançamento. O Insituto também desenvolveu um projeto para a normatização da produção de mobiliário escolar no Brasil , em todos os níveis (do primeiro grau ao curso superior). Esse projeto teve a participação de ortopedistas, educadores e dos principais produtores de mobiliário escolar do Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bienal do Rio",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "O talher contemporâneo",
+    "label": "OBRA",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "A imagem corporativa",
+    "label": "OBRA",
+    "token_indices": [
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "ESDI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Manual para planejamento de embalagens",
+    "label": "OBRA",
+    "token_indices": [
+      74,
+      75,
+      76,
+      77,
+      78
+    ]
+  },
+  {
+    "text": "Insituto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      101
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      129
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ESDI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Manual para planejamento de embalagens",
+    "label": "OBRA"
+  },
+  {
+    "text": "Insituto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Bienal do Rio', 'ACONTECIMENTO'), ('O talher contemporâneo', 'OBRA'), ('A imagem corporativa', 'OBRA'), ('IDI', 'ORGANIZACAO'), ('Brasil', 'LOCAL')]
+Espúrias  (FP): [('Rio', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Também foram desenvolvidos manuais para possibilitar a produção das peças em pequenas e médias indústrias, como acontece na área rural do país. Os participantes do IDI também tinham a preocupação de não deixar nunca que o instituto estabelecesse alguma concorrência com outros escritórios. O IDI foi desativado no fim dos anos 80 , quando o MAM suspendeu seu funcionamento. Bibliografia - DE SOUZA, Pedro Luiz Pereira - D&I No. 20 - OUT 1990 Links Autor |Autor Tiago Teixeira Data agosto de 1999 Se você possui alguma informação que possa complementar ou retificar esse texto, por favor contribua.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "anos 80",
+    "label": "TEMPO",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "MAM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "DE SOUZA, Pedro Luiz Pereira - D&I No. 20 - OUT 1990",
+    "label": "OBRA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Autor",
+    "label": "PESSOA",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Tiago Teixeira",
+    "label": "PESSOA",
+    "token_indices": [
+      76,
+      77
+    ]
+  },
+  {
+    "text": "agosto de 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      79,
+      80,
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "IDI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "anos 80",
+    "label": "TEMPO"
+  },
+  {
+    "text": "MAM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "DE SOUZA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pedro Luiz Pereira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D&I",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "No. 20",
+    "label": "VALOR"
+  },
+  {
+    "text": "OUT 1990",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Autor",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tiago Teixeira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "agosto de 1999",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('IDI', 'ORGANIZACAO'), ('DE SOUZA, Pedro Luiz Pereira - D&I No. 20 - OUT 1990', 'OBRA')]
+Espúrias  (FP): [('DE SOUZA', 'PESSOA'), ('Pedro Luiz Pereira', 'PESSOA'), ('D&I', 'ORGANIZACAO'), ('No. 20', 'VALOR'), ('OUT 1990', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Seis Norte-africanos estavam a jogar boule sob a estátua de Flaubert .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Norte-africanos",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Flaubert",
+    "label": "OBRA",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Flaubert",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Norte-africanos', 'PESSOA'), ('Flaubert', 'OBRA')]
+Espúrias  (FP): [('Flaubert', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+As pancadas secas ouviam-se sobre o ruído do trânsito congestionado. Com uma última carícia irónica, uma mão escura lançou uma bola cor de prata. Esta tocou o chão, saltou pesadamente e curvou devagar espalhando a poeira endurecida. O jogador ficou como uma estilizada estátua temporária: os joelhos um pouco dobrados e a mão direita erguida e estática. Reparei na camisa branca arregaçada, no antebraço nu e em algo redondo na parte de trás do pulso. Não um relógio, como primeiro pensei, nem uma tatuagem, mas uma decalcomania colorida: o rosto de um chefe político muito admirado no deserto. Vou começar pela estátua: a de cima, a permanente, a sem estilo, a que chora lágrimas de cobre, a que lega à posteridade a imagem circunspecta de um homem com um laço desajeitado, colete quadrado, calças largas como sacos, bigode em desalinho. Flaubert não corresponde ao olhar. Olha fixamente para o Sul , da place des Carmes em direcção à Catedral , por sobre a cidade que desprezou, e que, por sua vez, o ignorou largamente. A cabeça está a uma altura proibitiva: só os pombos podem ver a extensão total da calvície do escritor. Esta estátua não é a original. Os Alemães levaram o primeiro Flaubert em 1941 , juntamente com os corrimãos e os puxadores das portas. Possivelmente foi transformado em insígnias de bonés. Durante mais ou menos dez anos o pedestal ficou vazio. Depois, um presidente da câmara de Rouen , que gostava muito de estátuas, descobriu o molde original de gesso - feito por um russo chamado Leopold Bernstamm .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Flaubert",
+    "label": "PESSOA",
+    "token_indices": [
+      140
+    ]
+  },
+  {
+    "text": "Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      149
+    ]
+  },
+  {
+    "text": "des Carmes",
+    "label": "LOCAL",
+    "token_indices": [
+      153,
+      154
+    ]
+  },
+  {
+    "text": "Catedral",
+    "label": "LOCAL",
+    "token_indices": [
+      158
+    ]
+  },
+  {
+    "text": "Alemães",
+    "label": "PESSOA",
+    "token_indices": [
+      200
+    ]
+  },
+  {
+    "text": "Flaubert",
+    "label": "OBRA",
+    "token_indices": [
+      204
+    ]
+  },
+  {
+    "text": "1941",
+    "label": "TEMPO",
+    "token_indices": [
+      206
+    ]
+  },
+  {
+    "text": "Rouen",
+    "label": "LOCAL",
+    "token_indices": [
+      240
+    ]
+  },
+  {
+    "text": "Leopold Bernstamm",
+    "label": "PESSOA",
+    "token_indices": [
+      259,
+      260
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Flaubert', 'PESSOA'), ('Sul', 'LOCAL'), ('des Carmes', 'LOCAL'), ('Catedral', 'LOCAL'), ('Alemães', 'PESSOA'), ('Flaubert', 'OBRA'), ('1941', 'TEMPO'), ('Rouen', 'LOCAL'), ('Leopold Bernstamm', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+- e a assembleia municipal aprovou o projecto de uma nova estátua. Rouen ofereceu-se uma estátua de metal em condições, com 93 por cento de cobre e 7 por cento de estanho: os fundidores, Rudier de Châtillon-sous-Bagneux , asseguraram que essa liga é garantida contra a corrosão.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rouen",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "93 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "7 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Rudier de Châtillon-sous-Bagneux",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rouen",
+    "label": "LOCAL"
+  },
+  {
+    "text": "93 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "7 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "Rudier de Châtillon-sous-Bagneux",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Rouen', 'PESSOA')]
+Espúrias  (FP): [('Rouen', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Duas outras cidades, Trouville e Barentin , contribuíram para o projecto e receberam estátuas de pedra. Essas não resultaram tão bem. Em Trouville , a parte superior da coxa de Flaubert teve de ser remendada e caíram farripas do bigode. No lábio superior os ferros da estrutura saem como ramos de um toro de cimento. Talvez se possa acreditar na garantia do fundidor; talvez esta segunda versão da estátua dure. Mas não vejo razões para confiar. Em relação a Flaubert nunca nada durou muito tempo. Morreu há pouco mais de um século e tudo o que deixou foi papel. Papel, ideias, frases, metáforas, prosa estruturada que se transforma em som. Isto é precisamente o que ele teria querido; só os seus admiradores é que sentimentalmente se queixam. A casa do escritor em Croisset foi destruída pouco tempo depois da sua morte e substituída por uma fábrica que produz álcool a partir de trigo estragado. Também pode não levar muito tempo a livrarem-se da sua efígie: se um presidente que gosta de estátuas a pôs ali, outro - talvez um que tenha lido uma parte do que Sartre escreveu sobre Flaubert - pode, cheio de zelo, tirá-la! Começo pela estátua porque foi aí que comecei todo o projecto. Por que é que a escrita nos faz procurar o escritor? Por que é que não o deixamos em paz? Por que é que os livros não bastam? Flaubert queria que fosse assim: poucos escritores acreditaram mais na objectividade do texto escrito e na insignificância da personalidade do escritor; mas mesmo assim desobedecemos e continuamos. A imagem, o rosto, a assinatura: a estátua com 93 por cento de cobre e a fotografia de Nadar ; o bocado de tecido e a mecha de cabelo. O que é que nos torna ávidos de relíquias? Não acreditamos suficientemente nas palavras? Pensamos que os despojos de uma vida têm uma verdade ancilar? Quando Robert Louis Stevenson morreu, a sua ama, com um espírito de negócio de boa escocesa, começou calmamente a vender cabelo que afirmava ter cortado da cabeça do escritor quarenta anos antes.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Trouville",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Barentin",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Trouville",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Flaubert",
+    "label": "OBRA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Flaubert",
+    "label": "OBRA",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Croisset",
+    "label": "LOCAL",
+    "token_indices": [
+      132
+    ]
+  },
+  {
+    "text": "Sartre",
+    "label": "PESSOA",
+    "token_indices": [
+      186
+    ]
+  },
+  {
+    "text": "Flaubert",
+    "label": "OBRA",
+    "token_indices": [
+      189
+    ]
+  },
+  {
+    "text": "Flaubert",
+    "label": "PESSOA",
+    "token_indices": [
+      235
+    ]
+  },
+  {
+    "text": "93 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      271,
+      272,
+      273
+    ]
+  },
+  {
+    "text": "Nadar",
+    "label": "PESSOA",
+    "token_indices": [
+      280
+    ]
+  },
+  {
+    "text": "Robert Louis Stevenson",
+    "label": "PESSOA",
+    "token_indices": [
+      317,
+      318,
+      319
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Trouville', 'LOCAL'), ('Barentin', 'LOCAL'), ('Trouville', 'LOCAL'), ('Flaubert', 'OBRA'), ('Flaubert', 'OBRA'), ('Croisset', 'LOCAL'), ('Sartre', 'PESSOA'), ('Flaubert', 'OBRA'), ('Flaubert', 'PESSOA'), ('93 por cento', 'VALOR'), ('Nadar', 'PESSOA'), ('Robert Louis Stevenson', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os crentes, os investigadores, os exploradores, compraram cabelo que chegava para estofar um sofá. Decidi guardar Croisset para mais tarde. Tinha cinco dias para passar em Rouen e um instinto infantil ainda me leva a guardar o melhor para o fim. Será que o mesmo impulso funciona às vezes com os escritores? Adia, adia, o melhor ainda está para vir? Se assim é, então que excitantes são os livros inacabados. Lembro-me logo de dois: Bouvard et Pécuchet , onde Flaubert tentou meter e dominar o mundo todo, toda a luta humana e todo o falhanço humano; e L'Idiot de la famille , onde Sartre tentou meter todo o Flaubert .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Croisset",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Rouen",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Bouvard et Pécuchet",
+    "label": "OBRA",
+    "token_indices": [
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Flaubert",
+    "label": "PESSOA",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "L'Idiot de la famille",
+    "label": "OBRA",
+    "token_indices": [
+      97,
+      98,
+      99,
+      100
+    ]
+  },
+  {
+    "text": "Sartre",
+    "label": "PESSOA",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "Flaubert",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      108
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Croisset",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rouen",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bouvard et Pécuchet",
+    "label": "OBRA"
+  },
+  {
+    "text": "Flaubert",
+    "label": "PESSOA"
+  },
+  {
+    "text": "L'Idiot de la famille",
+    "label": "OBRA"
+  },
+  {
+    "text": "Sartre",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Flaubert",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Flaubert', 'ABSTRACCAO')]
+Espúrias  (FP): [('Flaubert', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Uma apoplexia pôs fim ao primeiro projecto; a cegueira abreviou o segundo. Almocei no Hôtel de la Marine , sobre a baía. Ali perto amigos meus tinham morrido - os amigos inesperados que esses anos nos dão - mas não me sentia comovido. 50th Armoured Division, Second British Army . Surgiam as recordações, mas não as emoções; nem sequer recordações de emoções. Depois do almoço fui ao museu e vi um filme sobre os desembarques, depois fui dez quilómetros a guiar até Bayeux para ver a outra invasão através do Canal , nove séculos antes. A tapeçaria da rainha Matilda é como um filme na horizontal, com as imagens ligadas umas às outras. Ambos os acontecimentos são igualmente estranhos: um é demasiado longínquo para ser real, o outro é demasiado familiar para ser verdadeiro. Como é que nós agarramos o passado? Será que o podemos fazer? Quando eu era estudante de medicina uns brincalhões no baile de fim de ano soltaram na sala um leitão que tinha sido coberto de gordura. O bicho corria por entre as pernas, escapava-se quando o tentavam agarrar, grunhia imenso. Alguns caíram ao tentar segurá-lo, e fizeram uma figura ridícula.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Hôtel de la Marine",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "50th Armoured Division, Second British Army",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Bayeux",
+    "label": "LOCAL",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "Canal",
+    "label": "LOCAL",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "rainha Matilda",
+    "label": "PESSOA",
+    "token_indices": [
+      98,
+      99
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Hôtel de la Marine",
+    "label": "LOCAL"
+  },
+  {
+    "text": "50th Armoured Division",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Second British Army",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Canal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bayeux",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Canal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Matilda",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('50th Armoured Division, Second British Army', 'PESSOA'), ('rainha Matilda', 'PESSOA')]
+Espúrias  (FP): [('50th Armoured Division', 'ORGANIZACAO'), ('Second British Army', 'ORGANIZACAO'), ('Canal', 'LOCAL'), ('Matilda', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Muitas vezes o passado comporta-se como o leitão. No meu terceiro dia em Rouen fui ao Hôtel-Dieu , o hospital onde o pai de Gustave tinha sido cirurgião-chefe, e onde o escritor tinha passado a sua infância. Ao longo da avenue Gustave Flaubert , passa-se pela Imprimerie Flaubert e por um snack-bar chamado Le Flaubert : sentimos que vamos na direcção certa. Estacionada junto ao hospital estava uma grande carrinha branca Peugeot : tinha estrelas azuis pintadas, um número de telefone e as palavras AMBULANCE FLAUBERT. O escritor como médico? Pouco provável. Recordo a observação paternalista de George Sand ao seu colega mais novo. «Tu crias desolação», escreveu ela, «e eu crio consolação». A Peugeot devia ter escrito AMBULANCE GEORGE SAND. Não se sabe o que aconteceu à verdade.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rouen",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Hôtel-Dieu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Gustave",
+    "label": "PESSOA",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Gustave Flaubert",
+    "label": "LOCAL",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Imprimerie Flaubert",
+    "label": "LOCAL",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Le Flaubert",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Peugeot",
+    "label": "COISA",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "George Sand",
+    "label": "PESSOA",
+    "token_indices": [
+      97,
+      98
+    ]
+  },
+  {
+    "text": "Peugeot",
+    "label": "COISA",
+    "token_indices": [
+      114
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rouen",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hôtel-Dieu",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Gustave",
+    "label": "PESSOA"
+  },
+  {
+    "text": "avenue Gustave Flaubert",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Imprimerie Flaubert",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Le Flaubert",
+    "label": "LOCAL"
+  },
+  {
+    "text": "AMBULANCE FLAUBERT",
+    "label": "LOCAL"
+  },
+  {
+    "text": "George Sand",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Hôtel-Dieu', 'ORGANIZACAO'), ('Gustave Flaubert', 'LOCAL'), ('Le Flaubert', 'ABSTRACCAO'), ('Peugeot', 'COISA'), ('Peugeot', 'COISA')]
+Espúrias  (FP): [('Hôtel-Dieu', 'LOCAL'), ('avenue Gustave Flaubert', 'LOCAL'), ('Le Flaubert', 'LOCAL'), ('AMBULANCE FLAUBERT', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+W. JAMES Willian James Willian James , filósofo e psicólogo. Foi o mais influente dos pensadores dos EUA , criador do pragmatismo. Nasceu e, Nova Iorque , a 11 de Janeiro de 1842 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "W. JAMES",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Willian James",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Willian James",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Nova Iorque",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "11 de Janeiro de 1842",
+    "label": "TEMPO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "W. JAMES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Willian James",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Willian James",
+    "label": "PESSOA"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "11 de Janeiro de 1842",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Nova Iorque', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Obras Princípios de Psicologia ( 1890 ), uma obra monumental que o projectou na comunidade científica e filosófica do tempo. A Vontade de Crer e Outros Ensaios Sobre Filosofia Popular ( 1897 ), A Imortalidade Humana ( 1898 ), Diversidade da Experiência Religiosa ( 1902 ). Pragmatismo: um nome novo para velhas formas de pensar ( 1907 ). Esta obra resume as contribuições de Willian James para o pragmatismo, termo empregue pela primeira vez por Charles Peirce .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princípios de Psicologia",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "1890",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "A Vontade de Crer",
+    "label": "OBRA",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Outros Ensaios Sobre Filosofia Popular",
+    "label": "OBRA",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "1897",
+    "label": "TEMPO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "A Imortalidade Humana",
+    "label": "OBRA",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "1898",
+    "label": "TEMPO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Diversidade da Experiência Religiosa",
+    "label": "OBRA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "1902",
+    "label": "TEMPO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Pragmatismo: um nome novo para velhas formas de pensar",
+    "label": "OBRA",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "1907",
+    "label": "TEMPO",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Willian James",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Charles Peirce",
+    "label": "PESSOA",
+    "token_indices": [
+      75,
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princípios de Psicologia",
+    "label": "OBRA"
+  },
+  {
+    "text": "1890",
+    "label": "TEMPO"
+  },
+  {
+    "text": "A Vontade de Crer e Outros Ensaios Sobre Filosofia Popular",
+    "label": "OBRA"
+  },
+  {
+    "text": "1897",
+    "label": "TEMPO"
+  },
+  {
+    "text": "A Imortalidade Humana",
+    "label": "OBRA"
+  },
+  {
+    "text": "1898",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Diversidade da Experiência Religiosa",
+    "label": "OBRA"
+  },
+  {
+    "text": "1902",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Pragmatismo: um nome novo para velhas formas de pensar",
+    "label": "OBRA"
+  },
+  {
+    "text": "1907",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Willian James",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Charles Peirce",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('A Vontade de Crer', 'OBRA'), ('Outros Ensaios Sobre Filosofia Popular', 'OBRA')]
+Espúrias  (FP): [('A Vontade de Crer e Outros Ensaios Sobre Filosofia Popular', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Principais Domínios de Investigação Willian James aplica à psicologia o princípio do funcionalismo, integrando-a no conjunto das ciências experimentais. Durante décadas aplicou os seus métodos empíricos à investigação de temas religiosos e filosóficos. Explorou a questão da existência de Deus , a imortalidade da alma, o livre arbítrio e os valores éticos, como fonte da experiência religiosa e moral. O método pragmático, desenvolvido a partir da análise do fundamento lógico das ciências, converte-se na base da avaliação de qualquer experiência. O significado das ideias só pode ser analisado a partir das suas consequências. Se não produzem efeitos as ideias não têm sentido As ideias metafisicas são desprovidas de sentido porque não podem ser comprovadas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Willian James",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Willian James",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Deus",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Willian James",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Deus', 'PESSOA')]
+Espúrias  (FP): [('Deus', 'ABSTRACCAO'), ('Willian James', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+As teorias com significado, segundo Willian James , são aquelas que permitem resolver problemas que decorrem da experiência. Carlos Fontes Navegando na Filosofia
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Willian James",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Carlos Fontes",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Willian James",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carlos Fontes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Navegando na Filosofia",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Filosofia', 'ABSTRACCAO')]
+Espúrias  (FP): [('Navegando na Filosofia', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A denúncia foi feita ontem, em Faro , pelo líder do Partido da Terra ( PT . Ribeiro Teles defendeu, no Jardim Alameda , a necessidade de uma política que tenha «os pés bem assentes na terra», sem estar subordinada aos «números» da macroeconomia, construída à custa da «degradação dos nossos recursos».
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Faro",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Partido da Terra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Ribeiro Teles",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Jardim Alameda",
+    "label": "LOCAL",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Faro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Partido da Terra",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PT . Ribeiro Teles",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jardim Alameda",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('PT', 'ORGANIZACAO'), ('Ribeiro Teles', 'PESSOA')]
+Espúrias  (FP): [('PT . Ribeiro Teles', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A linda praia do gunga A linda praia do gunga Aluga-se casa na praia Barra de São Miguel , ALÁrea de lazerA praiaA linda praia do gunga Contato Barra de São Miguel do Rio Niquim que segundo os nativos, possui poderes medicinais, dos arrecifes de corais que permitem a suavidade das ondas, dando-nos a impressão de uma enorme piscina. Mar de tonalidade extremamente azul e areias claras. Das cidades litorâneas na parte sul do Estado Barra de São Miguel e a cidade balneário mais badalada. O território atualmente ocupado pela cidade foi aldeamento primitivo dos índios Caetés , sobre os quais recai a fama de terem devorado o primeiro Bispo do Brasil Dom Pero Fernandes Sardinha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Barra de São Miguel",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Barra de São Miguel",
+    "label": "LOCAL",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Rio Niquim",
+    "label": "LOCAL",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "LOCAL",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Barra de São Miguel",
+    "label": "LOCAL",
+    "token_indices": [
+      75,
+      76,
+      77,
+      78
+    ]
+  },
+  {
+    "text": "Caetés",
+    "label": "PESSOA",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "Bispo do Brasil Dom Pero Fernandes Sardinha",
+    "label": "PESSOA",
+    "token_indices": [
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Barra de São Miguel",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ALÁrea de lazer",
+    "label": "LOCAL"
+  },
+  {
+    "text": "A praia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Barra de São Miguel",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estado",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Barra de São Miguel",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio Niquim",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Caetés",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Dom Pero Fernandes Sardinha",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Bispo do Brasil Dom Pero Fernandes Sardinha', 'PESSOA')]
+Espúrias  (FP): [('ALÁrea de lazer', 'LOCAL'), ('A praia', 'LOCAL'), ('Brasil', 'LOCAL'), ('Dom Pero Fernandes Sardinha', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por sua proximidade com a Capital , Maceió é considerada como integrante da Grande Maceió e oferece ao turista uma infra-estrutura de hotéis, pousadas, bares, restaurantes, agências bancárias, correios, telefonia DDD , DDI e celular, além de um completo termina turístico, às margens do Rio Niquim .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Capital",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Maceió",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Grande Maceió",
+    "label": "LOCAL",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "DDD",
+    "label": "COISA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "DDI",
+    "label": "COISA",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Rio Niquim",
+    "label": "LOCAL",
+    "token_indices": [
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Capital",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Maceió",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Grande Maceió",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio Niquim",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('DDD', 'COISA'), ('DDI', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A prática de esportes náuticos é um grande atrativo que a Barra de São Miguel oferece aos turistas, onde se pode desenvolver vôos de ultraleve, "jet skis", "surf", caiaques, passeios de jangada e saveiros e a pesca de arremesso e linha de vara. Na Barra , como é popularmente conhecida, as praias de mar calmo protegidas por arrecifes, rivalizam a preferência pela praia de mar aberto, o paraíso dos surfistas. FOLCLORE COCO ALAGOANO PASTORIL CHEGANÇA QUADRILHA BAIANA PATRIMÔNIO ECOLÓGICO RIOS: NIQUIM E SÃO MIGUEL RIACHO BRANCO LAGOA NIQUIM Os nativos a consideram de grande poder medicinal. VEGETAÇÃO DE MANGUE Área sob proteção ambiental de acordo com decreto governamental. Fiscalização exercida pelo IMA . PATRIMÔNIO HISTÓRICO IGREJA DE SANTANA ( Padroeira ) Construída no começo do século pela população local, em mutirão. ARTESANATO MADEIRA Construção de pequenas embarcações.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Barra de São Miguel",
+    "label": "LOCAL",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Barra",
+    "label": "LOCAL",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "NIQUIM",
+    "label": "LOCAL",
+    "token_indices": [
+      80
+    ]
+  },
+  {
+    "text": "SÃO MIGUEL",
+    "label": "LOCAL",
+    "token_indices": [
+      82,
+      83
+    ]
+  },
+  {
+    "text": "RIACHO BRANCO",
+    "label": "LOCAL",
+    "token_indices": [
+      84,
+      85
+    ]
+  },
+  {
+    "text": "LAGOA NIQUIM",
+    "label": "LOCAL",
+    "token_indices": [
+      86,
+      87
+    ]
+  },
+  {
+    "text": "MANGUE",
+    "label": "LOCAL",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "IMA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      111
+    ]
+  },
+  {
+    "text": "IGREJA DE SANTANA",
+    "label": "OBRA",
+    "token_indices": [
+      115,
+      116,
+      117
+    ]
+  },
+  {
+    "text": "Padroeira",
+    "label": "PESSOA",
+    "token_indices": [
+      119
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Barra de São Miguel', 'LOCAL'), ('Barra', 'LOCAL'), ('NIQUIM', 'LOCAL'), ('SÃO MIGUEL', 'LOCAL'), ('RIACHO BRANCO', 'LOCAL'), ('LAGOA NIQUIM', 'LOCAL'), ('MANGUE', 'LOCAL'), ('IMA', 'ORGANIZACAO'), ('IGREJA DE SANTANA', 'OBRA'), ('Padroeira', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Projeto Memórias do Comércio II - Araraquara , São Carlos e Adjacências |Adjacências Depoimento de Amália Acetozi Massafera Entrevistado por Rosali Henriques e Flávia Barbosa Araraquara , 16 de setembro de 1999 Realização: Museu da Pessoa Número da entrevista: 007 Transcrito por: Sonia Regina P - Dona Amália , nós vamos começar finalmente nossa entrevista e a gente queria começar perguntando novamente o nome completo da senhora, o local e a data do seu nascimento. R - (Riso) Eu nasci dia 25 de junho de 1917 , em Araraquara .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Memórias do Comércio II",
+    "label": "OBRA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Araraquara",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "São Carlos",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Adjacências",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Amália Acetozi Massafera",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Rosali Henriques",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Flávia Barbosa",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Araraquara",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "16 de setembro de 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Museu da Pessoa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "007",
+    "label": "VALOR",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Sonia Regina",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Dona Amália",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47
+    ]
+  },
+  {
+    "text": "25 de junho de 1917",
+    "label": "TEMPO",
+    "token_indices": [
+      81,
+      82,
+      83,
+      84,
+      85
+    ]
+  },
+  {
+    "text": "Araraquara",
+    "label": "LOCAL",
+    "token_indices": [
+      88
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Projeto Memórias do Comércio II",
+    "label": "OBRA"
+  },
+  {
+    "text": "Araraquara",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Carlos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Adjacências",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Amália Acetozi Massafera",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rosali Henriques",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Flávia Barbosa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Araraquara",
+    "label": "LOCAL"
+  },
+  {
+    "text": "16 de setembro de 1999",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Museu da Pessoa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "007",
+    "label": "VALOR"
+  },
+  {
+    "text": "Sonia Regina",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Amália",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Memórias do Comércio II', 'OBRA'), ('Dona Amália', 'PESSOA'), ('25 de junho de 1917', 'TEMPO'), ('Araraquara', 'LOCAL')]
+Espúrias  (FP): [('Projeto Memórias do Comércio II', 'OBRA'), ('Amália', 'PESSOA'), ('1999', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+P - E dona Amália , seus pais quais são os nomes deles? R - Meus pais são Secundino Acetozi e Maria Prozilo Avanci depois Acetozi , né, também. P - E eles são de que origem, a senhora sabe? R - Italianos |Italianos, de origem quer dizer, eles são descendentes, né, porque os meus avós vieram da Itália , tanto materno como paterno e fixaram aqui, adoraram Araraquara , mais engraçado é ela contar, né, a minha avó sabe contava que no navio quando eles distribuíam banana, ela achou tão gostosa a banana, ela comia com casca e tudo (riso) depois que ela aprendeu que não era com casca que se comia, a banana ela comia com casca. P - A senhora sabe porque que eles vieram aqui pra Araraquara ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Amália",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Secundino Acetozi",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Maria Prozilo Avanci",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Acetozi",
+    "label": "PESSOA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Italianos",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Araraquara",
+    "label": "LOCAL",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Araraquara",
+    "label": "LOCAL",
+    "token_indices": [
+      130
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Amália', 'PESSOA'), ('Secundino Acetozi', 'PESSOA'), ('Maria Prozilo Avanci', 'PESSOA'), ('Acetozi', 'PESSOA'), ('Italianos', 'PESSOA'), ('Itália', 'LOCAL'), ('Araraquara', 'LOCAL'), ('Araraquara', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+R - Ah porque eles escolheram aqui, acho que foi distribuído, né, os lugares que, como é que fala, quando vem de lá pra cá. P - Imigrantes | Imigrantes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Imigrantes",
+    "label": "PESSOA",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Imigrantes",
+    "label": "PESSOA",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Imigrantes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Imigrantes', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+R - Imigrantes|Imigrantes, vieram como imigrantes, olha trabalharam viu, os italianos, os alemães, os japoneses, sírios, colônias italianas ela ficou aqui e veio já casada de lá com dois filhos, depois teve os outros aqui, minha tia Rosinha , meu tio Pedro , olha depois tiveram mais filhos, tiveram a tia Elvira , outra tia mais o meu pai, que o meu pai era o caçula e foram criados aqui, adoravam Araraquara .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tia Rosinha",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "tio Pedro",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "tia Elvira",
+    "label": "PESSOA",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Araraquara",
+    "label": "LOCAL",
+    "token_indices": [
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Imigrantes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "italianos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "alemães",
+    "label": "PESSOA"
+  },
+  {
+    "text": "japoneses",
+    "label": "PESSOA"
+  },
+  {
+    "text": "sírios",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rosinha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pedro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Elvira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Araraquara",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('tia Rosinha', 'PESSOA'), ('tio Pedro', 'PESSOA'), ('tia Elvira', 'PESSOA')]
+Espúrias  (FP): [('Imigrantes', 'PESSOA'), ('italianos', 'PESSOA'), ('alemães', 'PESSOA'), ('japoneses', 'PESSOA'), ('sírios', 'PESSOA'), ('Rosinha', 'PESSOA'), ('Pedro', 'PESSOA'), ('Elvira', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+P - Mas eles trabalhavam com que? R - Ele trabalhou na Estrada de Ferro , sabe, quer dizer antes ele trabalhou na Prefeitura , quando teve a febre amarela aqui, ele foi colocado pra carregar os corpos das pessoas que morriam lá no cemitério, sabe, naquela época era convocado porque assim foi uma peste que matou minha vó materna, não paterna, minha vó materna não, ele era convocado tinha que pegar carroça e levar os corpos pra lá, depois ele trabalhou na estrada de ferro, depois aposentou morreu antes, né, mais cedo. P - Essa família do seu pai, a senhora sabe de que região da Itália que eles são? R - Eu tenho lá em casa agora não lembro viu, o meu avô paterno era de... naquele lugar bonito, era família religiosa, eram todos padres e a irmã era freira, aí ele fugiu veio pro Brasil , ficou na Argentina e o que aprendeu em casa, coisa construir, construções, meu avô era um italiano bonito, napolitano ele era de Napoli esse eu lembro o outro, um era da baixa Itália o outro era do norte, toda família tanto a parte do meu marido como a minha todos italianos, nós somos de origem total de italiano não tem nada de... P - E a senhora chegou a conhecer algum desses avós, conviveu com eles? R - Conheci o avô materno, conheci ele se chamava Luciano , era um homem muito bonito, muito bom tinha uma chácara lá em cima na vila, que ele plantava, tinha o tipo italiano, costume dele usava tamanco, meias vermelhas, aquelas coisas, plantava uva no quintal inteirinho plantada era lindo, mas quando minha avó morreu deixou os dois filhos pequenos então ele pôs uma empregada em casa. História de italiano é assim mesmo, arranjou uma empregada botou na casa, no fim acabou tomando conta das crianças mas tendo um filho com ela, minha _______ considerava minha tia Lúcia , mas não casava não, ficava deixava os filhos e cuidava, ajudava.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estrada de Ferro",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Prefeitura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      107
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      147
+    ]
+  },
+  {
+    "text": "Argentina",
+    "label": "LOCAL",
+    "token_indices": [
+      151
+    ]
+  },
+  {
+    "text": "Napoli",
+    "label": "LOCAL",
+    "token_indices": [
+      171
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      181
+    ]
+  },
+  {
+    "text": "Luciano",
+    "label": "PESSOA",
+    "token_indices": [
+      235
+    ]
+  },
+  {
+    "text": "tia Lúcia",
+    "label": "PESSOA",
+    "token_indices": [
+      321,
+      322
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Estrada de Ferro', 'LOCAL'), ('Prefeitura', 'ORGANIZACAO'), ('Itália', 'LOCAL'), ('Brasil', 'LOCAL'), ('Argentina', 'LOCAL'), ('Napoli', 'LOCAL'), ('Itália', 'LOCAL'), ('Luciano', 'PESSOA'), ('tia Lúcia', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Conforme pesquisa feita com intelectuais e personalidades, e publicada no Jornal do Brasil , foi escolhida como a melhor livraria de nossa cidade.A responsável por este sucesso chama-se Vanna Piraccini , ou melhor dizendo, a D. Vanna .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jornal do Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Vanna Piraccini",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "D. Vanna",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jornal do Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Vanna Piraccini",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Vanna",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Vanna Piraccini', 'ABSTRACCAO')]
+Espúrias  (FP): [('Vanna Piraccini', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+D. Vanna é uma livreira à moda clássica. Conhece pessoalmente seus clientes, troca idéias com eles ou orienta-os quando jovens. O nome escolhido por D. Vanna , é o que ela espera que sua livraria represente: uma proposta de Renascimento do Homem e do Saber | Renascimento do Homem e do Saber .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "D. Vanna",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "D. Vanna",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Renascimento do Homem e do Saber",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Renascimento do Homem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Saber",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "D. Vanna",
+    "label": "PESSOA"
+  },
+  {
+    "text": "D. Vanna",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Renascimento do Homem e do Saber",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Renascimento do Homem e do Saber",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Renascimento do Homem', 'ABSTRACCAO'), ('Saber', 'ABSTRACCAO')]
+Espúrias  (FP): [('Renascimento do Homem e do Saber', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No momento, estamos importando regularmente dos EUA , da França , da Inglaterra , da Itália , da Espanha e da Alemanha , além de dispormos de obras editadas em Portugal e que contam com uma distribuição no país. Em nossa loja virtual, você poderá consultar nosso catálogo, ordenado por autores, títulos e assuntos, independente da língua ou da origem do livro. Na maioria dos casos, temos o título em estoque, embora eventualmente, o mesmo possa estar em falta. Nesse caso, poderemos efetuar o pedido para você. Uma de nossas principais diferenças em relação a outras "lojas virtuais" reside justamente na existência de um catálogo rico e variado, embora dispondo de um número limitado de exemplares de cada livro, devido a problemas de espaço.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Portugal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fio-terra Para tentar se recuperar do jet lag e da correria da exposição do marido no Yerba Buena , Regina Casé fez ontem saída pela tangente. Junto com seu guapo Luiz Zerbini , foi até Muir Woods um bosque nas imediações da cidade, onde só queria era abraçar árvores de preferência, enormes sequóias. Pão-de-açúcar negocia compra da G.Aronson O grupo Pão-de-açúcar , 2ª maior rede de supermercados do país, iniciou negociações para a aquisição das 27 lojas G.Aronson , todas localizadas em São Paulo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Yerba Buena",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Regina Casé",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Luiz Zerbini",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Muir Woods",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Pão-de-açúcar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "G.Aronson",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Pão-de-açúcar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "2ª",
+    "label": "VALOR",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "27",
+    "label": "VALOR",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "G.Aronson",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      82,
+      83
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Yerba Buena",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Regina Casé",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Luiz Zerbini",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Muir Woods",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pão-de-açúcar",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "G.Aronson",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2ª",
+    "label": "VALOR"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Pão-de-açúcar', 'ORGANIZACAO'), ('27', 'VALOR'), ('G.Aronson', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Folha confirmou os entendimentos junto a empresários do setor de eletrodomésticos e a funcionários do Pão-de-açúcar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Folha",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Pão-de-açúcar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Folha",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Pão-de-açúcar",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Folha', 'PESSOA')]
+Espúrias  (FP): [('Folha', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Oficialmente, a rede nega. Folha -- Em torno dele não estavam pessoas que hoje estão na sua candidatura? FHC -- Certamente, e daí? O candidato do PT apresentou o vice de seu principal adversário como alguém «identificado com o autoritarismo». Até aqui, os tiros de Lula parecem não ter abalado o alvo. «Meu passado muito me orgulha», dá de ombros Maciel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Folha",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Maciel",
+    "label": "PESSOA",
+    "token_indices": [
+      60
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Folha",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "FHC",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lula",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Maciel",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Folha', 'PESSOA')]
+Espúrias  (FP): [('Folha', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O governador se convenceu ainda de que, se abandonassse a candidatura, poderia se tornar refém de Quércia e perderia o poder de influência na escolha do candidato do PMDB . A declaração de Fleury de que continua candidato não convenceu alguns prefeitos que o acompanhavam. «Ele já está abraçando a candidatura Quércia », disse Itamar Borges ( PMDB ), de Santa Fé do Sul . Fleury aproveitou a viagem para responder ao ex-secretário José Machado de Campos Filho , que o chamara de traidor por não apoiar Quércia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Quércia",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Fleury",
+    "label": "PESSOA",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Quércia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Itamar Borges",
+    "label": "PESSOA",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Santa Fé do Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Fleury",
+    "label": "PESSOA",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "José Machado de Campos Filho",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74,
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "text": "Quércia",
+    "label": "PESSOA",
+    "token_indices": [
+      87
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Quércia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Fleury",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Itamar Borges",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Santa Fé do Sul",
+    "label": "LOCAL"
+  },
+  {
+    "text": "José Machado de Campos Filho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Quércia",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Quércia', 'ABSTRACCAO'), ('Fleury', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+«Para quem quer ser candidato ao Senado , faltou bom senso e juízo», disse. Ao visitar a ponte rodoferroviária de Rubinéia , criticou o deputado quercista Alberto Goldman ( PMDB-SP ), ex-ministro dos Transportes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Rubinéia",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Alberto Goldman",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "PMDB-SP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Transportes",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rubinéia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alberto Goldman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "PMDB-SP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Transportes",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Transportes', 'ABSTRACCAO')]
+Espúrias  (FP): [('Transportes', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+«Ele veio aqui e liberou US$ 5 milhões , 1% do valor da obra.» declarou.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "US$ 5 milhões",
+    "label": "VALOR",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "1%",
+    "label": "VALOR",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "US$ 5 milhões",
+    "label": "VALOR"
+  },
+  {
+    "text": "1%",
+    "label": "VALOR"
+  },
+  {
+    "text": "US$ 5 milhões",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('US$ 5 milhões', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Princípio da Incerteza de Heisenberg | Princípio da Incerteza de Heisenberg O elétron é uma partícula muito pequena, difícil de detectar a sua posição e sua velocidade ao mesmo tempo. Werner Heisenberg em 1926 propôs substituirmos o conceito de órbita pelo conceito de probabilidade de posição. Quanto maior a densidade eletrônica, maior a probabilidade de encontrarmos um elétron. A Contribuição de Schrödinger Em 1927 , quando este austríaco formulou, por pura intuição matemática, uma equação de ondas válida para o elétron do átomo de H , tinha início a mecânica ondulatória. Sua adequação às observações experimentais ocasionou sua aceitação imediata e um grande desenvolvimento da mecânica quântica nos anos subsequentes. Depois da equação de Schrödinger |equação de Schrödinger não se podia mais admitir uma órbita precisa para o elétron. Essa equação, passada pelo devido tratamento matemático, revela figuras tridimensionais que sugerem uma probabilidade de encontrar elétrons em determinados volumes. Isto está exatamente de acordo com o que Heisenberg propôs. Estas regiões de máxima probabilidade de encontrarmos elétrons no átomo, foram chamadas de orbitais, diferenciando-se das órbitas de Böhr . Até agora, temos as seguintes partículas constituintes do átomo: Prótons |Prótons Neutrons |Neutrons Elétrons |Elétrons Porém, nos anos 60 intensas pesquisas revelaram que estas particulas basicas são compostas de mais unidades basicas chamadas de quarks. Isto foi concluido nos anos 80 , as partículas constituintes da matéria são os quarks, e são responsáveis pelas forças que mantém o núcleo unido. Quarks |Quarks são particulas maciças, que tem um spin de 1/2 a suportam uma fração de carga elétrica. Os quarks sempre se encontram combinados com outras particulas. Existem 6 tipos de quarks: up, down, top,botton, strange e charm. Apenas o up e o down, ocorrem nos protons e neutrons. Os demais só aparecem em particulas instaveis que espontaneamente decaem em frações de segundo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princípio da Incerteza de Heisenberg",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Princípio da Incerteza",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Heisenberg",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Werner Heisenberg",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "1926",
+    "label": "TEMPO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Schrödinger",
+    "label": "PESSOA",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "1927",
+    "label": "TEMPO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "H",
+    "label": "COISA",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "equação de Schrödinger",
+    "label": "COISA",
+    "token_indices": [
+      113,
+      114,
+      115
+    ]
+  },
+  {
+    "text": "Schrödinger",
+    "label": "PESSOA",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "Heisenberg",
+    "label": "PESSOA",
+    "token_indices": [
+      158
+    ]
+  },
+  {
+    "text": "órbitas de Böhr",
+    "label": "COISA",
+    "token_indices": [
+      176,
+      177,
+      178
+    ]
+  },
+  {
+    "text": "Prótons",
+    "label": "COISA",
+    "token_indices": [
+      189
+    ]
+  },
+  {
+    "text": "Neutrons",
+    "label": "COISA",
+    "token_indices": [
+      191
+    ]
+  },
+  {
+    "text": "Elétrons",
+    "label": "COISA",
+    "token_indices": [
+      193
+    ]
+  },
+  {
+    "text": "anos 60",
+    "label": "TEMPO",
+    "token_indices": [
+      197,
+      198
+    ]
+  },
+  {
+    "text": "anos 80",
+    "label": "TEMPO",
+    "token_indices": [
+      219,
+      220
+    ]
+  },
+  {
+    "text": "Quarks",
+    "label": "COISA",
+    "token_indices": [
+      240
+    ]
+  },
+  {
+    "text": "1/2",
+    "label": "VALOR",
+    "token_indices": [
+      250
+    ]
+  },
+  {
+    "text": "6",
+    "label": "VALOR",
+    "token_indices": [
+      268
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Princípio da Incerteza de Heisenberg', 'ABSTRACCAO'), ('Princípio da Incerteza', 'ABSTRACCAO'), ('Heisenberg', 'PESSOA'), ('Werner Heisenberg', 'PESSOA'), ('1926', 'TEMPO'), ('Schrödinger', 'PESSOA'), ('1927', 'TEMPO'), ('H', 'COISA'), ('equação de Schrödinger', 'COISA'), ('Schrödinger', 'PESSOA'), ('Heisenberg', 'PESSOA'), ('órbitas de Böhr', 'COISA'), ('Prótons', 'COISA'), ('Neutrons', 'COISA'), ('Elétrons', 'COISA'), ('anos 60', 'TEMPO'), ('anos 80', 'TEMPO'), ('Quarks', 'COISA'), ('1/2', 'VALOR'), ('6', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Agora mais algumas partículas atômicas: BARYONS - Hadrons que consistem de 3 quarks BOSONS - Partículas que suportam as forças físicas básicas FERMIONS - Todas as partículas com spin 1/2 ou 3/2 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BARYONS",
+    "label": "COISA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Hadrons",
+    "label": "COISA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "3",
+    "label": "VALOR",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "BOSONS",
+    "label": "COISA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "FERMIONS",
+    "label": "COISA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "1/2",
+    "label": "VALOR",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "3/2",
+    "label": "VALOR",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BARYONS",
+    "label": "COISA"
+  },
+  {
+    "text": "BOSONS",
+    "label": "COISA"
+  },
+  {
+    "text": "FERMIONS",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Hadrons', 'COISA'), ('3', 'VALOR'), ('1/2', 'VALOR'), ('3/2', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Exemplos incluem leptons e baryons. GLUONS - Bosons que suportam intensas forças entre dos quarks. GRAVITONS - Bosons que se supões suportar as forças gravitacionais. Estas partículas já vem sendo observadas. HADRONS - Todas as partículas que são compostas pelos quarks. LEPTONS - Partículas que foram encontradas fora do núcleo. Existem seis tipos de leptons: eletrons, muons, taus, e os respectivos neutrinos. MESONS - Hadrons formados por um quark e antiquarks. MUONS - Leptons que são menos pesados que os elétrons. Embora estas partículas existam desde os primeiros instantes da formação do universo, elas agora existem apenas em partículas aceleradas e raios cósmicos. NEUTRINOS - Partículas sem carga elétrica e com nenhuma ou pouca massa. PHOTONS - Bosons que carregam força eletromagnética. São as partículas que compõe a luz. QUARKS - Partículas que compõe os neutrons e os protons. TAUS - São leptons mais pesados. Hoje estas partículas podem apenas ser encontradas em partículas aceleradas e em raios cósmicos, embora fossem abundantes no início da formação do universo. VECTOR MESONS - (Também chamados de W+ , W- e Z bosons). Bosons que carregam fracas forças, responsáveis por alguns tipos de decaimentos radioativos. Voltar
+
+Entidades verdadeiras:
+[
+  {
+    "text": "GLUONS",
+    "label": "COISA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Bosons",
+    "label": "COISA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "GRAVITONS",
+    "label": "COISA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Bosons",
+    "label": "COISA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "HADRONS",
+    "label": "COISA",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "LEPTONS",
+    "label": "COISA",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "MESONS",
+    "label": "COISA",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Hadrons",
+    "label": "COISA",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "MUONS",
+    "label": "COISA",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "Leptons",
+    "label": "COISA",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "NEUTRINOS",
+    "label": "COISA",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "PHOTONS",
+    "label": "COISA",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Bosons",
+    "label": "COISA",
+    "token_indices": [
+      117
+    ]
+  },
+  {
+    "text": "QUARKS",
+    "label": "COISA",
+    "token_indices": [
+      129
+    ]
+  },
+  {
+    "text": "TAUS",
+    "label": "COISA",
+    "token_indices": [
+      139
+    ]
+  },
+  {
+    "text": "VECTOR MESONS",
+    "label": "COISA",
+    "token_indices": [
+      168,
+      169
+    ]
+  },
+  {
+    "text": "W+",
+    "label": "COISA",
+    "token_indices": [
+      174
+    ]
+  },
+  {
+    "text": "W-",
+    "label": "COISA",
+    "token_indices": [
+      176
+    ]
+  },
+  {
+    "text": "Z",
+    "label": "COISA",
+    "token_indices": [
+      178
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('GLUONS', 'COISA'), ('Bosons', 'COISA'), ('GRAVITONS', 'COISA'), ('Bosons', 'COISA'), ('HADRONS', 'COISA'), ('LEPTONS', 'COISA'), ('MESONS', 'COISA'), ('Hadrons', 'COISA'), ('MUONS', 'COISA'), ('Leptons', 'COISA'), ('NEUTRINOS', 'COISA'), ('PHOTONS', 'COISA'), ('Bosons', 'COISA'), ('QUARKS', 'COISA'), ('TAUS', 'COISA'), ('VECTOR MESONS', 'COISA'), ('W+', 'COISA'), ('W-', 'COISA'), ('Z', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Substância gris e substância branca Num corte dos órgãos que integram o sistema nervoso, tais como encéfalo ou medula espinal, se vêem zonas mais escuras e mais claras bem definidas. Elas são a substância gris e branca respectivamente. A substância gris é formada pelos corpos neuronais e forma centros de processamento de informações. A substância branca é formada, na sua maior parte, por vias de condução. Aqui se agrupam vias aferentes, eferentes, vias de comunicação dos centros entre si. A cor branca se deve às bainhas mielínicas das fibras que possuem lípides. O sistema nervoso pode dividir-se funcionalmente em: Sistema nervoso central, da vida de relacionamento ou somático: rege as funções de relação com o meio externo. Sistema nervoso autônomo ou vegetativo: ocupa-se do aspecto interior, a regulação, a coordenação dos órgãos. É autônomo, já que estes processos não dependem da vontade do homem. De acordo com a sua localização, o sistema nervoso de relacionamento se divide em: Sistema nervoso central: consta do encéfalo e da medula espinal (cérebro espinal), estes são os principais centros onde se relaciona e integra a informação nervosa. Encontram-se suspensos em líquido cefalorraquidiano e estão protegidos por estruturas ósseas, o crânio e a coluna vertebral. Sistema nervoso periférico: composto pelos nervos que conduzem informação para o sistema nervoso central (aferentes) e deste (eferentes) e pelos gânglios associados. O ser humano tem 12 pares de nervos craniais, que partem do encéfalo; 31 pares de nervos raquidianos, que partem da medula. Todo o eixo encefalo-espinal se acha envolto e definido por tecido conectivo fibroso dando lugar às meninges: dura-máter, pia-máter e aracnóides. A dura-máter é grossa e resistente e, nas aracnóides, circula o líquido cefalorraquiano e encontram-se os vasos sangüíneos. Sistema nervoso autônomo Corresponde à porção do sistema nervoso que se ocupa da inervação das estruturas involuntárias, tais como o músculo cardíaco, músculo liso, glândulas etc.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12",
+    "label": "VALOR",
+    "token_indices": [
+      226
+    ]
+  },
+  {
+    "text": "31",
+    "label": "VALOR",
+    "token_indices": [
+      235
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('12', 'VALOR'), ('31', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+P - Não era fácil não, né. R - Não foi fácil pra ele foi muito difícil, depois ele morreu cedo também, um homem já tava casada mas eu conheci, tive o prazer de conhecer e todos os outros irmãos que ele tinha tido também e da avó paterna eu adorava, a avó Ernesta , um encanto morava ali em frente à Faculdade da Farmácia , vocês não conhecem aqui, né, e ali tinha jardim. Quando tinha circo ela ia buscar o adubo dos elefantes, das coisas pra, então as flores davam deste tamanho ela falava sabe por que... Ah, ela trabalhava é com macarrão eu lembro dela daquelas mesas grandes largas, né, ela com aquele pau largo fazendo abrindo a massa de macarrão, a gente tem uma lembrança muito grande e muito bonita, do trabalho do amor que eles tinham, tinha adoração pelo _________ eles não quiseram voltar mais pra Itália de jeito nenhum, adoravam o Brasil , Araraquara pra eles, porque eles sofreram muito lá, passaram fome além do frio, a guerra a coisa, não tinham e é tão linda a Itália , passei lá lindo. P - E a senhora tinha quantos anos quando a senhora convivia quando esses avós faleceram, quer dizer como foi a convivência que a senhora teve com eles? R - Tive os dois filhos pequenos e ela morreu em casa, depois quando eu fui pra Marília ela estava em casa com meus pais, convivi bastante com ela, exemplo de pessoa que vem de fora, aquela força que eles tem pra trabalhar, não mede sacrifício fazem, lavam roupa tudo que precisa fazem, hoje não ninguém quer fazer mais nada, não é, hoje elas vinham com aquela garra de trabalhar, de fazer não escolhiam serviço, faziam tudo que precisava, ela ia buscar lenha que nas matas lá tinha, criava cabrita a gente tomava, por isso que tenho os dentes bons porque ela me dava leite de cabra.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "avó Ernesta",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Faculdade da Farmácia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      151
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      157
+    ]
+  },
+  {
+    "text": "Araraquara",
+    "label": "LOCAL",
+    "token_indices": [
+      159
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      183
+    ]
+  },
+  {
+    "text": "Marília",
+    "label": "LOCAL",
+    "token_indices": [
+      233
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('avó Ernesta', 'PESSOA'), ('Faculdade da Farmácia', 'ORGANIZACAO'), ('Itália', 'LOCAL'), ('Brasil', 'LOCAL'), ('Araraquara', 'LOCAL'), ('Itália', 'LOCAL'), ('Marília', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+P - O óleo vinha de lá ou era daqui mesmo? R - Não era daqui, a carne de porco eles derretiam e faziam pedaço de carne faziam deixava na gordura aquelas latas grandes, guardava os pedaços tudo naquela lata, quando queria um pedaço de carne tirava, era um hábito antigo, era mais gostosa. P - E eles moravam em chácara? R - Não. P - Na cidade mesmo? R - Na cidade, moravam ali em frente à Faculdade Escola de Farmácia , a vovó tinha uma casa da esquina, ela comprava era danada, não sei ela tinha o espírito sabe forte pra negociar pra fazer as coisas viva, não ficava pedindo esmola os outros aí pedem né, porque veio pra cá sem nada, não tinha nada, filho e tudo trabalharam numa chácara que agora é atrás da escola, tinha uma chácara lá eles trabalharam lá, dali foram saindo procurando outro lugar, quando podiam compraram uma casa enfeitavam a casa com flores com tudo, depois vendiam aquela compravam outra, é interessantíssimo viu, a força que eles trouxeram. P - E tinha bastante quintal nessa casa que eles moravam? R - Tinha quintal mas não era também tanto assim, sabe. P - Frutas. R - É, ah do meu avô tinha lá em cima da chácara tinha tudo, tinha banana tinha fruta quantidade, uva então era aquilo que ele plantava, né, minha avó plantava, a gente chegava lá tinha aquelas vagens sabe, comprida, bonito era isso porque distribuía pra vizinhos, tinha muita solidariedade naquela época, eles distribuíam, faziam aqueles pães grandes e os pães era maravilhosos, e o forno era de lenha, tudo ________ que eles torravam café em casa, pão tudo isso, moía era tudo moidinho.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Faculdade Escola de Farmácia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      78,
+      79,
+      80,
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Faculdade Escola de Farmácia', 'ORGANIZACAO')]
+Espúrias  (FP): []
+

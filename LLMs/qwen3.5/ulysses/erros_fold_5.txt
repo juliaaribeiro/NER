@@ -1,0 +1,3062 @@
+--------------------------------------------------------------------------------
+Texto:
+Esses são dados do Instituto Nacional de Câncer , INCA , que estima , para 2006 , a ocorrência de 47.280 casos novos para este tipo de câncer ( Em Estimativa de Incidência de Câncer no Brasil para 2006 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Instituto Nacional de Câncer , INCA",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "2006",
+    "label": "DATA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "2006",
+    "label": "DATA",
+    "token_indices": [
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2006",
+    "label": "DATA"
+  },
+  {
+    "text": "Instituto Nacional de Câncer , INCA",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Estimativa de Incidência de Câncer no Brasil para 2006",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto'), ('2006', 'DATA')]
+Espúrias  (FP): [('Estimativa de Incidência de Câncer no Brasil para 2006', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+O aumento observado nas taxas de incidência pode ser parcialmente justificado pela evolução dos métodos diagnósticos , pela melhoria na qualidade dos sistemas de informação do país e pelo aumento na expectativa de vida do brasileiro .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "brasileiro",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('brasileiro', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional já aprovou a Lei 10.289 , de 2001 , que criou o Programa Nacional de Controle do Câncer de Próstata .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Congresso Nacional",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Lei 10.289 , de 2001",
+    "label": "FUNDlei",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Programa Nacional de Controle do Câncer de Próstata",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei 10.289 , de 2001",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Programa Nacional de Controle do Câncer de Próstata",
+    "label": "PRODUTOprograma"
+  }
+]
+
+Perdidas  (FN): [('Congresso Nacional', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+De acordo com a Sociedade Brasileira de Urologia ( SBU ) , o uso de medicamentos , como os alfa bloqueadores , para tratar esse crescimento , poderia reduzir em 20% o número de cirurgias para a diminuição da próstata no SUS , o que certamente representaria uma grande economia de recursos para serem usados em outras áreas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sociedade Brasileira de Urologia ( SBU )",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "SUS",
+    "label": "PRODUTOsistema",
+    "token_indices": [
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sociedade Brasileira de Urologia ( SBU )",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "SUS",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('SUS', 'PRODUTOsistema')]
+Espúrias  (FP): [('SUS', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cumpre-nos informar que projeto de lei com mesmo teor já foi apresentado a esta Casa pelos Ilustres Deputados Joel de Holanda e Edgar Moury , ambos de Pernambuco , tendo sido arquivado nos termos do artigo 105 do RICD , razão pela qual o reapresentamos neste momento a fim de darmos continuidade à idéia por eles iniciada , que visa , sobretudo , assegurar o acesso gratuito dos portadores de hiperplasia benigna de próstata e de câncer de próstata aos medicamentos necessários .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputados",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Joel de Holanda",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Edgar Moury",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Pernambuco",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "artigo 105 do RICD",
+    "label": "FUNDlei",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputados",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "Joel de Holanda",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Edgar Moury",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Pernambuco",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('artigo 105 do RICD', 'FUNDlei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+De acordo com o projeto , a instância gestora máxima do SUS terá a incumbência de estabelecer a devida padronização desses medicamentos e de seu uso .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "SUS",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('SUS', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado Federal José Humberto PHS-MG
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Federal José Humberto",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Federal",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "José Humberto",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PHS",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "MG",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Federal José Humberto', 'PESSOAindividual')]
+Espúrias  (FP): [('Federal', 'PESSOAcargo'), ('José Humberto', 'PESSOAindividual'), ('PHS', 'PESSOAindividual'), ('MG', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Irajá Abreu ) Acrescenta os parágrafos 1º e 2º ao art . 15 da Lei nº 6.815 , de 19 de agosto de 1980 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Irajá Abreu",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "parágrafos 1º e 2º ao art . 15 da Lei nº 6.815 , de 19 de agosto de 1980",
+    "label": "FUNDlei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Irajá Abreu",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "art . 15 da Lei nº 6.815 , de 19 de agosto de 1980",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('parágrafos 1º e 2º ao art . 15 da Lei nº 6.815 , de 19 de agosto de 1980', 'FUNDlei')]
+Espúrias  (FP): [('art . 15 da Lei nº 6.815 , de 19 de agosto de 1980', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO O mercado de trabalho brasileiro , na esteira dos recentes acontecimentos e mudanças ocorridas no cenário econômico internacional a partir da crise de 2008 e , consequentemente , sobre os fluxos internacionais de mão de obra e de trabalho , vem sofrendo , da mesma forma , importantes transformações .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "crise de 2008",
+    "label": "EVENTO",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "2008",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('crise de 2008', 'EVENTO')]
+Espúrias  (FP): [('Brasil', 'LOCALconcreto'), ('2008', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo o Conselho Nacional de Imigração , a importação de máquinas faz com que as empresas também tragam técnicos dos países de origem para lidar com essa tecnologia , o que aumentou em 16% a imigração de profissionais estrangeiros no ano de 2007 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho Nacional de Imigração",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "técnicos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "2007",
+    "label": "DATA",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselho Nacional de Imigração",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "2007",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('técnicos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Referimo-nos , no caso , aos profissionais de nível técnico especializado e aos trabalhadores detentores de altíssima qualificação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "profissionais de nível técnico",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('profissionais de nível técnico', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Tal situação é fruto da incapacidade do sistema educacional brasileiro em formar , em número e qualificação suficiente , profissionais aptos a trabalhar com as novas tecnologias , processos e métodos de produção atualmente disponíveis .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "sistema educacional brasileiro",
+    "label": "PRODUTOsistema"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('sistema educacional brasileiro', 'PRODUTOsistema')]
+
+--------------------------------------------------------------------------------
+Texto:
+Há tempos que as entidades representativas empresariais brasileiras vêm buscando soluções , as quais têm se traduzido na adoção de medidas tais como a instituição de cursos de formação , promovidos pela iniciativa privada ou , por outro lado , na apresentação de reivindicação quanto à adoção de políticas governamentais mais positivas e eficazes no sentido de melhorar o quadro de falta de qualificação da mão de obra local , o que tem sido apontado como mais um componente do denominado “ Custo Brasil ” .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Brasil', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+A disciplina legal atualmente em vigor para a concessão de visto temporário a trabalhadores estrangeiros que desejam exercer suas atividades laborais no Brasil ou - como mais frequentemente ocorre – que são requisitados pelas empresas sediadas no Brasil para trabalhar no País é por demais restritiva , impondo uma série de obstáculos à contratação desses profissionais e à legalização de sua estada com finalidade laboral em nosso território .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diante disso , o objetivo que buscamos alcançar com a alteração que ora propomos à Lei nº 6.815 / 80 , o Estatuto do Estrangeiro , não é a total liberalização ou retirada absoluta de proteção do mercado de trabalho brasileiro , porém uma flexibilização da disciplina legal vigente , a qual tem se mostrado excessivamente repressora e sobretudo morosa no que se refere às possibilidades de ocupação de postos de trabalho no Brasil por parte de cidadãos estrangeiros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 6.815 / 80",
+    "label": "FUNDlei",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Estatuto do Estrangeiro",
+    "label": "FUNDapelido",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 6.815 / 80",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Estatuto do Estrangeiro",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse contexto , cumpre ressaltar que os trabalhadores brasileiros dispõem de várias garantias , as quais vigoram em favor da preservação da ocupação dos postos de trabalho por cidadãos brasileiros , como o limite na legislação trabalhista , segundo a qual as empresas brasileiras com três ou mais empregados são obrigadas a manter uma proporcionalidade de 2 / 3 de empregados brasileiros para 1 / 3 de empregados estrangeiros .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "trabalhadores brasileiros",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "legislação trabalhista",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('trabalhadores brasileiros', 'PESSOAgrupocargo'), ('legislação trabalhista', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além disso , um trabalhador brasileiro não pode receber menos do que for pago a um trabalhador estrangeiro no mesmo cargo e / ou função .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "trabalhador brasileiro",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('trabalhador brasileiro', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado IRAJÁ ABREU ( PSD-TO ) 2014 _ 1654
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "IRAJÁ ABREU",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "IRAJÁ ABREU",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PSD",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "TO",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "2014",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('PSD', 'ORGpartido'), ('TO', 'LOCALconcreto'), ('2014', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cerca de 78% ( sessenta e oito por cento ) das crianças brasileiras com até quatorze anos , ou seja , em média 30,3 milhões crianças já sofreram violência corporal em casa .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "brasileiras",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('brasileiras', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Vale salientar também que , 58,9% ( cinquenta e oito vírgula nove por cento ) das denúncias recebidas pela Ouvidoria Nacional de Direitos Humanos , por meio do “ Disque 100 ” , têm como algum tipo de violência contra crianças e adolescentes , principalmente negligência , violência psicológica e violência física .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ouvidoria Nacional de Direitos Humanos",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "100",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ouvidoria Nacional de Direitos Humanos",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Disque 100",
+    "label": "LOCALvirtual"
+  }
+]
+
+Perdidas  (FN): [('100', 'LOCALvirtual')]
+Espúrias  (FP): [('Disque 100', 'LOCALvirtual')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse contexto , a criança ou o adolescente , que de alguma forma já são afetados pelos processo de separação de seus genitores , acabam se tornando alvos disputa , conflitos e agressões mútuas , tendo como como consequência , por vezes , à aplicação da Lei de Alienação Parental Neste contexto , no que tange a aplicabilidade da Lei de Alienação , tem - se observado no curso do processo judicial de regulação das responsabilidades parentais a vulnerabilidade de crianças e adolescentes em casos envolvendo violência doméstica e / ou sexual , em virtude da aplicação isolada da referida Lei em detrimento da legislação penal e / ou do Estatuto da Criança e do Adolescente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei de Alienação Parental",
+    "label": "FUNDapelido",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Lei de Alienação",
+    "label": "FUNDapelido",
+    "token_indices": [
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Estatuto da Criança e do Adolescente",
+    "label": "FUNDapelido",
+    "token_indices": [
+      110,
+      111,
+      112,
+      113,
+      114,
+      115
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei de Alienação Parental",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Estatuto da Criança e do Adolescente",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Lei de Alienação Parental', 'FUNDapelido'), ('Lei de Alienação', 'FUNDapelido')]
+Espúrias  (FP): [('Lei de Alienação Parental', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROFESSOR VICTÓRIO GALLI ) Altera a Lei nº 8.171 , de 17 de janeiro de 1991 , que dispõe sobre a política agrícola .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PROFESSOR VICTÓRIO GALLI",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Lei nº 8.171 , de 17 de janeiro de 1991",
+    "label": "FUNDlei",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PROFESSOR VICTÓRIO GALLI",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 8.171 , de 17 de janeiro de 1991",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "política agrícola",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('política agrícola', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º O caput art .104 da Lei nº 8.171 , de 17 de janeiro de 1991 , passa a vigorar com a seguinte redação : “ Art . 104 São isentas de tributação e do pagamento do Imposto Territorial Rural as áreas dos imóveis rurais consideradas de preservação permanente e de reserva legal , atendidos os dispositivos da Lei nº 12.651 , de 25 de maio de 2012 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "caput art .104 da Lei nº 8.171 , de 17 de janeiro de 1991",
+    "label": "FUNDlei",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Imposto Territorial Rural",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Lei nº 12.651 , de 25 de maio de 2012",
+    "label": "FUNDlei",
+    "token_indices": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "caput art .104 da Lei nº 8.171 , de 17 de janeiro de 1991",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Lei nº 12.651 , de 25 de maio de 2012",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Imposto Territorial Rural', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+2 ] A Lei nº 8.171 , de 17 de janeiro de 1991 , que dispõe sobre a política agrícola , estabelece , no art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 8.171 , de 17 de janeiro de 1991",
+    "label": "FUNDlei",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 8.171 , de 17 de janeiro de 1991",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "política agrícola",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('política agrícola', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+No entanto , a Receita Federal , responsável pela fiscalização do tributo , tem entendido , conforme noticiário veiculado na imprensa ( “ Fisco explica isenção de ITR de área ambiental ” , Jornal “ Valor Econômico ” , Sexta-feira e fim de semana , 22 , 23 e 24 de junho de 2012 ) tem se posicionado no sentido de que - segundo explica a reportagem - , “ para ser considerada área de reserva legal , é exigida aprovação por um órgão ambiental estadual competente ou , mediante convênio , um órgão ambiental municipal ou instituição habilitada ” e que essa aprovação “ deve constar na margem da inscrição de matrícula do imóvel , com protocolização anual do Ato Declaratório Ambiental ( ADA ) no IBAMA ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Receita Federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Fisco",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "ITR",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Jornal “ Valor Econômico ”",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "22",
+    "label": "DATA",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "23",
+    "label": "DATA",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "24 de junho de 2012",
+    "label": "DATA",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Ato Declaratório Ambiental ( ADA )",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125
+    ]
+  },
+  {
+    "text": "IBAMA",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      127
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Receita Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Jornal “ Valor Econômico ”",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "Sexta-feira e fim de semana , 22 , 23 e 24 de junho de 2012",
+    "label": "DATA"
+  },
+  {
+    "text": "órgão ambiental estadual",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "órgão ambiental municipal",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Fisco', 'ORGgovernamental'), ('ITR', 'PRODUTOoutros'), ('Jornal “ Valor Econômico ”', 'ORGnaogovernamental'), ('22', 'DATA'), ('23', 'DATA'), ('24 de junho de 2012', 'DATA'), ('Ato Declaratório Ambiental ( ADA )', 'PRODUTOoutros'), ('IBAMA', 'ORGgovernamental')]
+Espúrias  (FP): [('Jornal “ Valor Econômico ”', 'LOCALvirtual'), ('Sexta-feira e fim de semana , 22 , 23 e 24 de junho de 2012', 'DATA'), ('órgão ambiental estadual', 'ORGgovernamental'), ('órgão ambiental municipal', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado PROFESSOR VICTÓRIO GALLI PMDB - MT 2012 _ 18160
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "PROFESSOR",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "VICTÓRIO GALLI",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGpartido",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "MT",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "2012",
+    "label": "DATA",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "PROFESSOR",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "VICTÓRIO GALLI",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PMDB",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "MT",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "2012",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('PROFESSOR', 'PESSOAcargo')]
+Espúrias  (FP): [('PROFESSOR', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+( NR ) CÂMARA DOS DEPUTADOS Deputado Laudívio Carvalho JUSTIFICAÇÃO Os crimes hediondos representam as ofensas mais nefastas que podem ser praticadas contra os indivíduos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Laudívio Carvalho",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Laudívio Carvalho",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Apenas para exemplificar , segundo o 8º Anuário Brasileiro de Segurança Pública , publicado em 2014 , nos anos de 2012 e 2013 foram praticados , respectivamente 1.829 ( mil oitocentos e vinte e nove ) e 1.871 ( mil oitocentos e setenta e um ) crimes de latrocínio , e 50.224 ( cinquenta mil , duzentos e vinte e quatro ) e 50.320 ( cinquenta mil , trezentos e vinte ) crimes de estupro no Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2014",
+    "label": "DATA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "2012",
+    "label": "DATA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "2013",
+    "label": "DATA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "8º Anuário Brasileiro de Segurança Pública",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "2014",
+    "label": "DATA"
+  },
+  {
+    "text": "2012",
+    "label": "DATA"
+  },
+  {
+    "text": "2013",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): [('8º Anuário Brasileiro de Segurança Pública', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS Deputado Laudívio Carvalho Deve-se apontar , também , que embora o Supremo Tribunal Federal tenha entendimento no sentido de que a progressão de regime não pode ser proibida ( HC 82.959 / SP ) , “ a censura à fórmula legislativa que veda a progressão de regime não pode significar que o legislador esteja impedido de adotar critérios diferenciados para a progressão de regimes nos crimes hediondos ” ( MENDES , Gilmar Ferreira ; GONET BRANCO , Paulo Gustavo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Laudívio Carvalho",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "SP",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "legislador",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "MENDES , Gilmar Ferreira",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      72,
+      73,
+      74,
+      75
+    ]
+  },
+  {
+    "text": "GONET BRANCO , Paulo Gustavo",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      77,
+      78,
+      79,
+      80,
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Laudívio Carvalho",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "HC 82.959 / SP",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "MENDES",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Gilmar Ferreira",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "GONET BRANCO",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Paulo Gustavo",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('SP', 'LOCALconcreto'), ('legislador', 'PESSOAcargo'), ('MENDES , Gilmar Ferreira', 'PESSOAindividual'), ('GONET BRANCO , Paulo Gustavo', 'PESSOAindividual')]
+Espúrias  (FP): [('HC 82.959 / SP', 'FUNDlei'), ('MENDES', 'PESSOAindividual'), ('Gilmar Ferreira', 'PESSOAindividual'), ('GONET BRANCO', 'PESSOAindividual'), ('Paulo Gustavo', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+São Paulo : Saraiva , 2012 , p .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Saraiva",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "2012",
+    "label": "DATA",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "2012",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('Saraiva', 'ORGnaogovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+1 o desta Lei : I – será utilizado exclusivamente na dedução do IPI incidente nas saídas dos produtos que contenham resíduos sólidos em sua composição ; II – não poderá ser aproveitado se o produto que contenha resíduos sólidos em sua composição sair do estabelecimento industrial com suspensão , isenção ou imunidade do IPI ; P L n .4 8 6 1 / 2 0 1 9 A p re s e n ta ç ã o : 0 4 / 0 9 / 2 0 1 9 1 0 : 4 2 2 III – somente poderá ser usufruído se os resíduos sólidos forem adquiridos diretamente de cooperativa de catadores de materiais recicláveis com número mínimo de cooperados pessoas físicas definido em ato do Poder Executivo , ficando vedada , neste caso , a participação de pessoas jurídicas ; e IV – será calculado pelo adquirente mediante a aplicação da alíquota da TIPI a que estiver sujeito o produto que contenha resíduos sólidos em sua composição sobre o percentual de até 50% ( cinquenta por cento ) do valor dos resíduos sólidos constantes da nota fiscal de aquisição , observado o § 2 o do art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "IPI",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "IPI",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "catadores de materiais recicláveis",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      111,
+      112,
+      113,
+      114
+    ]
+  },
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      126,
+      127
+    ]
+  },
+  {
+    "text": "TIPI",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      154
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('IPI', 'PRODUTOoutros'), ('IPI', 'PRODUTOoutros'), ('catadores de materiais recicláveis', 'PESSOAgrupocargo'), ('Poder Executivo', 'ORGgovernamental'), ('TIPI', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 2017 , período da análise , das 303,9 mil 1 A matéria pode ser consultada no seguinte endereço : < https : / / www.correiobraziliense.com.br / app / noticia / brasil / 2018 / 12 / 05 / interna-brasil , 723277 / brasil-reciclou - 295 - 8 - mil-toneladas-de-latas-de-aluminio.shtml > .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2017",
+    "label": "DATA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "https : / / www.correiobraziliense.com.br / app / noticia / brasil / 2018 / 12 / 05 / interna-brasil , 723277 / brasil-reciclou - 295 - 8 - mil-toneladas-de-latas-de-aluminio.shtml",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2017",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('https : / / www.correiobraziliense.com.br / app / noticia / brasil / 2018 / 12 / 05 / interna-brasil , 723277 / brasil-reciclou - 295 - 8 - mil-toneladas-de-latas-de-aluminio.shtml', 'LOCALvirtual')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Na matéria “ Brasil é o 4º maior produtor de lixo plástico do mundo e recicla apenas 1% ” 2 , o portal de notícias G1 divulga um estudo do Fundo Mundial para a Natureza – WWF que estima a quantidade de lixo plástico produzida no País em 11 milhões de toneladas por ano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "G1",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Fundo Mundial para a Natureza – WWF",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Fundo Mundial para a Natureza – WWF",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('G1', 'LOCALvirtual')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+2 A reportagem pode ser consultada no seguinte endereço : < https : / / g1 . globo.com / natureza / noticia / 2019 / 03 / 04 / brasil-e-o - 4o-maior-produtor-de-lixo-plastico-do-mundo - e-recicla-apenas - 1 . ghtml > .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "https : / / g1 . globo.com / natureza / noticia / 2019 / 03 / 04 / brasil-e-o - 4o-maior-produtor-de-lixo-plastico-do-mundo - e-recicla-apenas - 1 . ghtml",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('https : / / g1 . globo.com / natureza / noticia / 2019 / 03 / 04 / brasil-e-o - 4o-maior-produtor-de-lixo-plastico-do-mundo - e-recicla-apenas - 1 . ghtml', 'LOCALvirtual')]
+Espúrias  (FP): [('2019', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS Tel . ( 61 ) 3215 - 5941 e 3215 - 3941 Gabinete do deputado Jesus Sérgio E-mail : dep.jesussergio @ camara.leg.br PROJETO DE LEI Nº , DE 2019 ( Do Sr. JESUS SÉRGIO ) Dispõe sobre a informação obrigatória dos agrotóxicos utilizados na fase de produção agrícola de alimentos ofertados ao consumidor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Jesus Sérgio",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "JESUS SÉRGIO",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Jesus Sérgio",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('deputado', 'PESSOAcargo'), ('JESUS SÉRGIO', 'PESSOAindividual')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2º Na oferta dos alimentos de que trata esta Lei , serão fornecidas as seguintes informações ao consumidor : I – identificação do produtor rural ou da empresa responsável pela fase de produção agrícola do alimento ; e II – relação dos ingredientes ativos de agrotóxicos utilizados na fase de produção agrícola com sua classificação pela Anvisa
+
+Entidades verdadeiras:
+[
+  {
+    "text": "produtor rural",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Anvisa",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Anvisa",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('produtor rural', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO O uso das tecnologias da chamada “ Revolução Verde ” na agricultura tem levado à aplicação crescente de agrotóxicos nos cultivos de alimentos do País .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "agricultura",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('agricultura', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+De acordo com pesquisa do Instituto Datafolha realizada nos dias 4 e 5 de julho , para 78% dos brasileiros entrevistados o consumo de alimentos com agrotóxicos é considerado muito inseguro para a saúde humana , sendo que para 72% os alimentos produzidos no País têm mais agrotóxicos do que deveriam .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Instituto Datafolha",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "4",
+    "label": "DATA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "5 de julho",
+    "label": "DATA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Instituto Datafolha",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "4 e 5 de julho",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('4', 'DATA'), ('5 de julho', 'DATA')]
+Espúrias  (FP): [('4 e 5 de julho', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo informação do jornal Folha de São Paulo , dados da Organização Mundial da Saúde ( OMS ) apontam que o uso de agrotóxicos pode estar relacionado a cerca de 193 mil mortes por ano em todo o mundo , a maior parte por “ exposição evitável ” a essas substâncias , sobretudo por trabalhadores rurais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Folha de São Paulo",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Organização Mundial da Saúde ( OMS )",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "trabalhadores rurais",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Folha de São Paulo",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "Organização Mundial da Saúde ( OMS )",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('Folha de São Paulo', 'ORGnaogovernamental'), ('trabalhadores rurais', 'PESSOAgrupocargo')]
+Espúrias  (FP): [('Folha de São Paulo', 'LOCALvirtual')]
+
+--------------------------------------------------------------------------------
+Texto:
+DULCE MIRANDA ) Institui o selo Empresa Parceira Cinquenta Mais , concedido às empresas que empregarem pessoas com 50 ( cinquenta ) ou mais anos de idade em número equivalente a , no mínimo , 20% ( vinte por cento ) dos trabalhadores existentes em cada estabelecimento .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DULCE MIRANDA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DULCE MIRANDA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Empresa Parceira Cinquenta Mais",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Empresa Parceira Cinquenta Mais', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo recente reportagem da Revista Veja 1 , intitulada Empresas só têm a perder ao desprezar profissionais mais maduros , em 2017 , a Pesquisa Nacional por Amostra de Domicílios Contínua ( Pnad 1 https : / / veja.abril.com.br / economia / empresas-so-tem-a-perder-ao-desprezar-profissionais-mais-maduros / P L n .4 7 4 9 / 2 0 1 9 A p re s e n ta ç ã o : 2 8 / 0 8 / 2 0 1 9 1 6 : 3 5 2 Contínua ) , realizada pelo IBGE , mostrou que o Brasil chegou a 30,2 milhões de idosos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Revista Veja",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "2017",
+    "label": "DATA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "https : / / veja.abril.com.br / economia / empresas-so-tem-a-perder-ao-desprezar-profissionais-mais-maduros /",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "IBGE",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      93
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Revista Veja",
+    "label": "LOCALvirtual"
+  },
+  {
+    "text": "2017",
+    "label": "DATA"
+  },
+  {
+    "text": "Pesquisa Nacional por Amostra de Domicílios Contínua ( Pnad )",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Instituto Brasileiro de Geografia e Estatística ( IBGE )",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Revista Veja', 'ORGnaogovernamental'), ('https : / / veja.abril.com.br / economia / empresas-so-tem-a-perder-ao-desprezar-profissionais-mais-maduros /', 'LOCALvirtual'), ('IBGE', 'ORGgovernamental'), ('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): [('Revista Veja', 'LOCALvirtual'), ('Pesquisa Nacional por Amostra de Domicílios Contínua ( Pnad )', 'PRODUTOoutros'), ('Instituto Brasileiro de Geografia e Estatística ( IBGE )', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Isso se dará na forma da concessão do selo Empresa Parceira Cinquenta Mais aos estabelecimentos que empregarem pessoas com 50 anos ou mais de idade em número equivalente a , no mínimo , 20% dos trabalhadores existentes em cada estabelecimento , nos termos do regulamento .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Empresa Parceira Cinquenta Mais",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Empresa Parceira Cinquenta Mais', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os recursos do Funalixo serão destinados ao financiamento de Programas de Coleta , Destinação e Tratamento de Resíduos Sólidos e Hospitalares , sob responsabilidade dos Municípios .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Funalixo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Programas de Coleta , Destinação e Tratamento de Resíduos Sólidos e Hospitalares",
+    "label": "PRODUTOprograma",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Funalixo",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Programas de Coleta , Destinação e Tratamento de Resíduos Sólidos e Hospitalares', 'PRODUTOprograma')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2º Constituem recursos do Funalixo : I - até 5% ( cinco por cento ) dos recursos de que trata a alínea “ b ” do inciso I do caput do art . 49 da Lei nº 9.478 , de 6 de agosto de 1997 ; II - até 5% ( cinco por cento ) dos recursos de que trata a alínea “ f ” do inciso II do caput do art . 49 da Lei nº 9.478 , de 6 de agosto de 1997 ; III - até 5% ( cinco por cento ) dos recursos de que trata o inciso II do § 2º do art . 50 da Lei nº 9.478 , de 6 de agosto de 1997 ; IV – os decorrentes de acordos , ajustes , contratos e convênios celebrados com órgãos e entidades da administração pública federal , estadual , distrital ou municipal ; V – transferidos de entidades nacionais e internacionais , públicas ou privadas , ou de pessoas físicas ; VI - empréstimos de instituições financeiras nacionais sob controle da União ou de instituições financeiras internacionais multilaterais de fomento ; VII – dotações orçamentárias e de créditos adicionais , em consonância com as prioridades da Lei de Diretrizes Orçamentárias – LDO ; VIII – rendas provenientes do retorno de empréstimos concedidos ou de aplicações financeiras dos recursos do Funalixo ; IX – outras receitas previstas em lei .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Funalixo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "alínea “ b ” do inciso I do caput do art . 49 da Lei nº 9.478 , de 6 de agosto de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "alínea “ f ” do inciso II do caput do art . 49 da Lei nº 9.478 , de 6 de agosto de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
+    ]
+  },
+  {
+    "text": "inciso II do § 2º do art . 50 da Lei nº 9.478 , de 6 de agosto de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122
+    ]
+  },
+  {
+    "text": "Lei de Diretrizes Orçamentárias – LDO",
+    "label": "FUNDapelido",
+    "token_indices": [
+      205,
+      206,
+      207,
+      208,
+      209,
+      210
+    ]
+  },
+  {
+    "text": "Funalixo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      228
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Funalixo', 'PRODUTOoutros'), ('alínea “ b ” do inciso I do caput do art . 49 da Lei nº 9.478 , de 6 de agosto de 1997', 'FUNDlei'), ('alínea “ f ” do inciso II do caput do art . 49 da Lei nº 9.478 , de 6 de agosto de 1997', 'FUNDlei'), ('inciso II do § 2º do art . 50 da Lei nº 9.478 , de 6 de agosto de 1997', 'FUNDlei'), ('Lei de Diretrizes Orçamentárias – LDO', 'FUNDapelido'), ('Funalixo', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 3º Os recursos do Funalixo serão aplicados : I - em apoio financeiro reembolsável mediante concessão de empréstimo , por intermédio do órgão gestor do Fundo , em parceria com instituição financeira oficial sob controle da União , observadas as condições técnicas e financeiras estabelecidas em regulamento ; II - em apoio financeiro , não reembolsável , a projetos especiais , conforme diretrizes previamente estabelecidas pelo órgão gestor do Fundo ; III – em apoio financeiro não reembolsável a projetos conduzidos pelos Municípios com receita corrente líquida até cinco milhões de reais , conforme diretrizes previamente estabelecidas pelo órgão gestor do Fundo , observadas as disponibilidades orçamentárias e financeiras do Fundo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Funalixo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Funalixo', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 5º Para receberem recursos provenientes do Funalixo , os Municípios não poderão estar inscritos no Cadastro Informativo de Créditos não quitados do setor público federal ( Cadin ) a que se refere a Lei n.º 10.522 , de 19 de Julho de 2002 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Funalixo",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Lei n.º 10.522 , de 19 de Julho de 2002",
+    "label": "FUNDlei",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Funalixo",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Cadastro Informativo de Créditos não quitados do setor público federal ( Cadin )",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Lei n.º 10.522 , de 19 de Julho de 2002",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Cadastro Informativo de Créditos não quitados do setor público federal ( Cadin )', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+No presente caso , nosso projeto de lei desloca a atenção de todos neste Parlamento para a gestão do lixo urbano , para o tratamento adequado dos resíduos sólidos e hospitalares , elementos ainda a aguardar solução definitiva , em função da ausência de recursos em montante suficiente dirigidos ao setor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parlamento",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Parlamento', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Tais dados indicam que o País se ressente , nitidamente , de uma Política Nacional de Resíduos Sólidos , com vistas à redução da geração de resíduos , à reutilização e reciclagem , com regras claras e responsabilidades compartilhadas entre o Poder Público , na União , nos Estados e nos Municípios , e a iniciativa privada acerca dos vários tipos de resíduos produzidos , inclusive os oriundos dos serviços de saúde .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Política Nacional de Resíduos Sólidos",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Poder Público",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Política Nacional de Resíduos Sólidos",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Poder Público",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "União",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Estados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Municípios",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('União', 'ORGgovernamental'), ('Estados', 'ORGgovernamental'), ('Municípios', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Todavia , constatamos que a norma que disciplina essa modalidade de geração , a Resolução nº 482 / 2012 da Agência Nacional de Energia Elétrica ( Aneel ) , incluiu barreiras que consideramos exageradas e desnecessárias para o caso daqueles consumidores que desejarem compartilhar uma instalação fotovoltaica para realizarem microgeração distribuída , desestimulando os investimentos na implantação dos empreendimentos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Resolução nº 482 / 2012 da Agência Nacional de Energia Elétrica ( Aneel )",
+    "label": "FUNDlei",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Resolução nº 482 / 2012",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Agência Nacional de Energia Elétrica ( Aneel )",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Resolução nº 482 / 2012 da Agência Nacional de Energia Elétrica ( Aneel )', 'FUNDlei')]
+Espúrias  (FP): [('Resolução nº 482 / 2012', 'FUNDlei'), ('Agência Nacional de Energia Elétrica ( Aneel )', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+De acordo com a referida resolução , os consumidores pessoas físicas , para compartilharem uma instalação de microgeração e aproveitarem os créditos em cada uma de suas unidades consumidoras , precisam instituir uma cooperativa ou se associarem por meio de consórcio , o que acarreta inúmeros transtornos , diversos custos e demanda o decurso de longo prazo para que todos os procedimentos requeridos sejam cumpridos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "consumidores pessoas físicas",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('consumidores pessoas físicas', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Propomos , por meio deste projeto de lei , que a utilização de contrato seja permitida para um conjunto de até vinte consumidores pessoas físicas que desejarem compartilhar instalação fotovoltaica de microgeração distribuída , que é aquela com potência instalada menor ou igual a 75 quilowatts ( kW ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "consumidores pessoas físicas",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('consumidores pessoas físicas', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 4 7 1 / 2 0 1 9 A p re s e n ta ç ã o : 1 4 / 0 8 / 2 0 1 9 1 6 : 0 7 A matéria contida no referido Projeto não está inserida naquelas reservadas de forma exclusiva ao Chefe do Executivo ( ex vi artigo 61 , § 1º , I e II , alíneas “ a ” a “ f ” da Constituição Federal ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Chefe do Executivo",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "ex vi artigo 61 , § 1º , I e II , alíneas “ a ” a “ f ” da Constituição Federal",
+    "label": "FUNDlei",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "artigo 61 , § 1º , I e II , alíneas “ a ” a “ f ” da Constituição Federal",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Chefe do Executivo', 'PESSOAcargo'), ('ex vi artigo 61 , § 1º , I e II , alíneas “ a ” a “ f ” da Constituição Federal', 'FUNDlei')]
+Espúrias  (FP): [('artigo 61 , § 1º , I e II , alíneas “ a ” a “ f ” da Constituição Federal', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI Nº , DE 2018 ( Da Sra. BRUNA FURLAN ) Concede isenção de pagamento de taxas , nos estabelecimentos oficiais , relativas à revalidação de diplomas de graduação e ao reconhecimento de diplomas de Mestrado e de Doutorado expedidos por universidades estrangeiras a que se refere o art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996 , para os refugiados admitidos no Brasil conforme a Lei nº 9.474 , de 22 de julho de 1997 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2018",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "BRUNA FURLAN",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Lei nº 9.474 , de 22 de julho de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2018",
+    "label": "DATA"
+  },
+  {
+    "text": "BRUNA FURLAN",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Lei nº 9.474 , de 22 de julho de 1997",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta Lei concede isenção de pagamento de taxas , nos estabelecimentos oficiais , relativas à revalidação de diplomas de graduação e ao reconhecimento de diplomas de Mestrado e de Doutorado expedidos por universidades estrangeiras a que se refere o art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996 , para os refugiados admitidos no Brasil conforme a Lei nº 9.474 , de 22 de julho de 1997 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Lei nº 9.474 , de 22 de julho de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 48 da Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Lei nº 9.474 , de 22 de julho de 1997",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+2 JUSTIFICAÇÃO A Lei nº 9.394 , de 20 de dezembro de 1996 ( Diretrizes e Bases da Educação Nacional ) e sua regulamentação preveem que os diplomas de cursos de graduação e de pós - graduação stricto sensu ( mestrado e doutorado ) , expedidos por instituições estrangeiras de educação superior e pesquisa , legalmente constituídas para esse fim em seus países de origem , podem ser declarados equivalentes aos concedidos no Brasil e hábeis para os fins previstos em lei , mediante processo de revalidação ou reconhecimento , respectivamente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Diretrizes e Bases da Educação Nacional",
+    "label": "FUNDapelido",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 9.394 , de 20 de dezembro de 1996",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Diretrizes e Bases da Educação Nacional",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Recentemente , a Resolução nº 3 , de 22 de junho de 2016 , do Conselho Nacional de Educação , e a Portaria Normativa nº 22 , de 13 de dezembro de 2016 , do Ministério da Educação , trouxeram auspiciosas e importantes inovações que facilitaram e aceleraram o procedimento de revalidação e de reconhecimento de diplomas emitidos por universidades estrangeiras .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Resolução nº 3 , de 22 de junho de 2016 , do Conselho Nacional de Educação",
+    "label": "FUNDlei",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Portaria Normativa nº 22 , de 13 de dezembro de 2016 , do Ministério da Educação",
+    "label": "FUNDlei",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Resolução nº 3 , de 22 de junho de 2016",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Conselho Nacional de Educação",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Portaria Normativa nº 22 , de 13 de dezembro de 2016",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Ministério da Educação",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Resolução nº 3 , de 22 de junho de 2016 , do Conselho Nacional de Educação', 'FUNDlei'), ('Portaria Normativa nº 22 , de 13 de dezembro de 2016 , do Ministério da Educação', 'FUNDlei')]
+Espúrias  (FP): [('Resolução nº 3 , de 22 de junho de 2016', 'FUNDlei'), ('Conselho Nacional de Educação', 'ORGgovernamental'), ('Portaria Normativa nº 22 , de 13 de dezembro de 2016', 'FUNDlei'), ('Ministério da Educação', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mais do que isso , entretanto , a Convenção relativa ao Estatuto dos Refugiados , concluída em Genebra , em 28 de julho de 1951 , e promulgada no Brasil pelo Decreto nº 50.215 , de 28 de janeiro de 1961 , estabelece , em seu art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estatuto dos Refugiados",
+    "label": "FUNDapelido",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Genebra",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "28 de julho de 1951",
+    "label": "DATA",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Decreto nº 50.215 , de 28 de janeiro de 1961",
+    "label": "FUNDlei",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Convenção relativa ao Estatuto dos Refugiados",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Genebra",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "28 de julho de 1951",
+    "label": "DATA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Decreto nº 50.215 , de 28 de janeiro de 1961",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Estatuto dos Refugiados', 'FUNDapelido')]
+Espúrias  (FP): [('Convenção relativa ao Estatuto dos Refugiados', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Dessa maneira , para conferir efetividade à integração profissional dos refugiados em solo brasileiro e dar pleno cumprimento aos preceitos da Convenção relativa ao Estatuto dos Refugiados , propomos a introdução de dispositivo na Lei de Diretrizes e Bases da Educação Nacional com a finalidade de conceder , em âmbito nacional , a isenção das taxas de revalidação e 4 de reconhecimento de diplomas expedidos por universidades estrangeiras às pessoas admitidas no Brasil na condição jurídica de refugiadas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estatuto dos Refugiados",
+    "label": "FUNDapelido",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Lei de Diretrizes e Bases da Educação Nacional",
+    "label": "FUNDapelido",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei de Diretrizes e Bases da Educação Nacional",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Estatuto dos Refugiados', 'FUNDapelido'), ('Lei de Diretrizes e Bases da Educação Nacional', 'FUNDapelido'), ('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): [('Lei de Diretrizes e Bases da Educação Nacional', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Edson Santos ) Acrescenta dispositivo à Consolidação das Leis do Trabalho ( CLT ) , para dispor sobre a estabilidade no emprego do trabalhador portador de doença grave .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Edson Santos",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Consolidação das Leis do Trabalho ( CLT )",
+    "label": "FUNDapelido",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Edson Santos",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Consolidação das Leis do Trabalho ( CLT )",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Consolidação das Leis do Trabalho ( CLT )', 'FUNDapelido')]
+Espúrias  (FP): [('Consolidação das Leis do Trabalho ( CLT )', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º A Consolidação das Leis do Trabalho , aprovada pelo Decreto-Lei n.º 5.452 , de 1º de maio de 1943 , passa a vigorar com a seguinte redação : “ Art . 492 - A O empregado que manifestar doença grave não poderá ser despedido arbitrariamente , desde o momento da comunicação da doença , comprovada por meio de atestado expedido por médico especializado , até seis meses após a liberação para o trabalho
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Consolidação das Leis do Trabalho",
+    "label": "FUNDapelido",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Decreto-Lei n.º 5.452 , de 1º de maio de 1943",
+    "label": "FUNDlei",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "médico",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      69
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Consolidação das Leis do Trabalho",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "Decreto-Lei n.º 5.452 , de 1º de maio de 1943",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('médico', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+As decisões que garantem a estabilidade decorrem de construção jurisprudencial , pois o legislador tem sido omisso e não há , hoje , lei que ampare claramente esse direito do trabalhador .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "legislador",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('legislador', 'PESSOAcargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+2011 _ 3952011 _ 395 _ 198
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2011",
+    "label": "DATA",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('2011', 'DATA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+CARLOS HENRIQUE GAGUIM ) Insere dispositivo na Lei nº 11.445 , de 5 de janeiro de 2007 , que estabelece diretrizes nacionais para o saneamento básico , criando procedimento de reconhecimento de inovações no desenho de equipamentos de saneamento básico , voltadas à eficiência no uso econômico da água .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CARLOS HENRIQUE GAGUIM",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Lei nº 11.445 , de 5 de janeiro de 2007",
+    "label": "FUNDlei",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CARLOS HENRIQUE GAGUIM",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 11.445 , de 5 de janeiro de 2007",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "saneamento básico",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('saneamento básico', 'PRODUTOoutros')]
+

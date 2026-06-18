@@ -1,0 +1,6892 @@
+--------------------------------------------------------------------------------
+Texto:
+O que é a EFTA ? Quando é que foi criada? Que cinco países da EFTA se juntaram ao EEE"EEE quando este entrou em vigor?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EFTA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "EFTA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "EEE\"EEE",
+    "label": "OBRA",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EFTA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "EEE",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('EFTA', 'ORGANIZACAO'), ('EEE"EEE', 'OBRA')]
+Espúrias  (FP): [('EEE', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A que companhia pertencia o Airbus atacado pelo GIA em Dezembro de 1994 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Airbus",
+    "label": "COISA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "GIA",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "em Dezembro de 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Airbus",
+    "label": "COISA"
+  },
+  {
+    "text": "GIA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em Dezembro de 1994",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('GIA', 'PESSOA')]
+Espúrias  (FP): [('GIA', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantas vezes é que ele foi campeão do mundo? Quando é que ele morreu? Em que circuito de F1 é que ele morreu?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "F1",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Quando",
+    "label": "TEMPO"
+  },
+  {
+    "text": "F1",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Quando', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem era o presidente do regime comunista do Afeganistão antes dessa queda?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('presidente', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que foi inaugurada a Ponte da Normandia | Ponte da Normandia ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ponte da Normandia",
+    "label": "LOCAL",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Ponte",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Normandia",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ponte da Normandia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Ponte",
+    "label": "OBRA"
+  },
+  {
+    "text": "Normandia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Ponte da Normandia', 'LOCAL'), ('Ponte', 'LOCAL')]
+Espúrias  (FP): [('Ponte da Normandia', 'OBRA'), ('Ponte', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que Liamine Zéroul foi eleito para a presidência da Argélia ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Liamine Zéroul",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Argélia",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Liamine Zéroul",
+    "label": "PESSOA"
+  },
+  {
+    "text": "presidência",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Argélia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('presidência', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que a Organização Mundial do Comércio entrou em vigor?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Organização Mundial do Comércio",
+    "label": "OBRA",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Organização Mundial do Comércio",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Organização Mundial do Comércio', 'OBRA')]
+Espúrias  (FP): [('Organização Mundial do Comércio', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que o antigo Parlamento da Bretanha | Parlamento da Bretanha foi destruído por um incêndio?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parlamento da Bretanha",
+    "label": "LOCAL",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Bretanha",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Parlamento da Bretanha",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Bretanha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Parlamento da Bretanha', 'LOCAL'), ('Parlamento', 'LOCAL')]
+Espúrias  (FP): [('Parlamento da Bretanha', 'ORGANIZACAO'), ('Parlamento', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem ganhou o Óscar de melhor filme por " Forrest Gump "?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Óscar",
+    "label": "OUTRO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Forrest Gump",
+    "label": "OBRA",
+    "token_indices": [
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Óscar",
+    "label": "OBRA"
+  },
+  {
+    "text": "Forrest Gump",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Óscar', 'OUTRO')]
+Espúrias  (FP): [('Óscar', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem ganhou o Prémio Goncourt em 1995 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prémio Goncourt",
+    "label": "OUTRO",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prémio Goncourt",
+    "label": "OBRA"
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Prémio Goncourt', 'OUTRO')]
+Espúrias  (FP): [('Prémio Goncourt', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem ganhou o Óscar de melhor actor em 1994 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Óscar",
+    "label": "OUTRO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Óscar",
+    "label": "OBRA"
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Óscar', 'OUTRO')]
+Espúrias  (FP): [('Óscar', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que duas personalidades famosas presidiram ao júri do Festival de Cannes de 1994 | Festival de Cannes de 1994 | Festival de Cannes de 1994 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Festival de Cannes de 1994",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Festival de Cannes",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "de 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Festival",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "de 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Festival de Cannes de 1994",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "de 1994",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Festival', 'ACONTECIMENTO'), ('Cannes', 'LOCAL'), ('de 1994', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Qual o endereço da Delegação de Turismo do Sri Lanka | Delegação de Turismo do Sri Lanka ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Delegação de Turismo do Sri Lanka",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Delegação de Turismo",
+    "label": "LOCAL",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Sri Lanka",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Delegação de Turismo do Sri Lanka",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Delegação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Turismo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sri Lanka",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Delegação de Turismo do Sri Lanka', 'LOCAL'), ('Delegação de Turismo', 'LOCAL')]
+Espúrias  (FP): [('Delegação de Turismo do Sri Lanka', 'ORGANIZACAO'), ('Delegação', 'ORGANIZACAO'), ('Turismo', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um míssil ASMP é quantas vezes mais rápido do que a velocidade do som?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ASMP",
+    "label": "COISA",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ASMP', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Que prémio ganhou o filme " Pulp Fiction " no Festival de Cannes | Festival de Cannes ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pulp Fiction",
+    "label": "OBRA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Festival de Cannes",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Festival",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pulp Fiction",
+    "label": "OBRA"
+  },
+  {
+    "text": "Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Festival de Cannes",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Festival', 'ACONTECIMENTO'), ('Cannes', 'LOCAL')]
+Espúrias  (FP): [('Festival de Cannes', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que significa a sigla WIA ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "WIA",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('WIA', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O que é Geographos?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Geographos",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Geographos', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que avião civil efectuou o voo mais longo sem escalas? Onde é que o A340 levou a cabo o voo mais longo sem escalas por um avião civil? Quando é que este feito foi levado a cabo?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "A340",
+    "label": "COISA",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "A340",
+    "label": "COISA"
+  },
+  {
+    "text": "Quando",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Quando', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quais são os outros três nomes do Arsenal Football Club ? Quando é que este clube foi fundado? Em que estádio é que os jogadores do Arsenal têm estado a treinar desde Agosto de 2006 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Arsenal Football Club",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Arsenal",
+    "label": "PESSOA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "desde Agosto de 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Arsenal Football Club",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "desde Agosto de 2006",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Arsenal', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos litros de azeite são comercializados por ano pela EBS ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "por ano",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "EBS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EBS",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('por ano', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Que quatro planetas do sistema solar são compostos principalmente de gás? Diga um corpo celeste. De que é que é composta a atmosfera da Lua ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lua",
+    "label": "COISA",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lua', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Que cinco companhias de aviação que se fundiram em 1933 para criar a Air France ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em 1933",
+    "label": "TEMPO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Air France",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Air France",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('em 1933', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em quantos países os aviões da Air France fazem os seus 1800 voos diários? Que companhia detém 100% do capital da Air France ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Air France",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "1800",
+    "label": "VALOR",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "100%",
+    "label": "VALOR",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Air France",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Air France",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1800 voos diários",
+    "label": "VALOR"
+  },
+  {
+    "text": "Air France",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('1800', 'VALOR'), ('100%', 'VALOR')]
+Espúrias  (FP): [('1800 voos diários', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é a MNEF ? Quando é que chegou ao fim o último julgamento sobre o escândalo da MNEF ? Segundo Jean Michel Grosz , que organização foi criada no seu escritório?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MNEF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "MNEF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Jean Michel Grosz",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MNEF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Jean Michel Grosz",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('MNEF', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que saiu o rimeiro Álbum | Álbum da cantora americana Anastacia ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Álbum",
+    "label": "COISA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Anastacia",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Álbum",
+    "label": "OBRA"
+  },
+  {
+    "text": "Álbum",
+    "label": "OBRA"
+  },
+  {
+    "text": "Anastacia",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Álbum', 'COISA')]
+Espúrias  (FP): [('Álbum', 'OBRA'), ('Álbum', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Qual era a moeda da Alemanha antes do euro?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Alemanha', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Que barragem seria a maior do mundo se tivesse sido construída? Qual era o custo estimado do projecto?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Qual era o custo estimado do projecto?",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Qual era o custo estimado do projecto?', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos meses tem numa semana ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "numa semana",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('numa semana', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quem foi assassinado a 4 de Novembro de 1995 , aos 73 anos ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "a 4 de Novembro de 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "73 anos",
+    "label": "VALOR",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "a 4 de Novembro de 1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "aos 73 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('73 anos', 'VALOR')]
+Espúrias  (FP): [('aos 73 anos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que língua é falada pela maioria da população afegã? Quantas escolas havia no Afeganistão em 2003 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Afeganistão",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "em 2003",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em 2003",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Afeganistão', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quem é que derrotou Michael Moorer no 10º round em Las Vegas ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Michael Moorer",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "10º",
+    "label": "VALOR",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Las Vegas",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Michael Moorer",
+    "label": "PESSOA"
+  },
+  {
+    "text": "no 10º round",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Las Vegas",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('10º', 'VALOR')]
+Espúrias  (FP): [('no 10º round', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é uma alergia? Que outro nome se dá a uma alergia? Em 1980 , que percentagem da população tinha sido atingida por elas? Que alergia afecta cerca de 8% das crianças?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1980",
+    "label": "TEMPO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "cerca de 8%",
+    "label": "VALOR",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em 1980",
+    "label": "TEMPO"
+  },
+  {
+    "text": "8%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('cerca de 8%', 'VALOR')]
+Espúrias  (FP): [('8%', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que personagem é que César Romero representava na famosa série televisiva " Batman "? Onde é que ele morreu? Que idade tinha ele?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "César Romero",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Batman",
+    "label": "OBRA",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "César Romero",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Batman",
+    "label": "OBRA"
+  },
+  {
+    "text": "ele",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('ele', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+TERROR, POP ART E CONTRACULTURA
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "TERROR",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "POP ART",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "CONTRACULTURA",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('TERROR', 'ABSTRACCAO'), ('POP ART', 'ABSTRACCAO'), ('CONTRACULTURA', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por Vladimir Cunha (yoyodine@hotmail.com)
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vladimir Cunha",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vladimir Cunha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "yoyodine@hotmail.com",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('yoyodine@hotmail.com', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Até 1947 , o jovem William M.Gaines não passava de um bon-vivant dedicado única e exclusivamente às coisas boas do mundo. Mas só até 1947 , pois naquele mesmo ano sua vida mudaria drasticamente após a morte de sua mãe num acidente de barco. Profundamente abatido com a tragédia, seu pai, Max Gaines , resolveu retirar-se dos negócios e passou para o filho a missão de tocar adiante a empresa da família, a editora de quadrinhos religiosos Educational Comics .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Até 1947",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "William M.Gaines",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "até 1947",
+    "label": "TEMPO",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "naquele mesmo ano",
+    "label": "TEMPO",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Max Gaines",
+    "label": "PESSOA",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Educational Comics",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77,
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Até 1947",
+    "label": "TEMPO"
+  },
+  {
+    "text": "William M.Gaines",
+    "label": "PESSOA"
+  },
+  {
+    "text": "até 1947",
+    "label": "TEMPO"
+  },
+  {
+    "text": "aquele mesmo ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Max Gaines",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Educational Comics",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('naquele mesmo ano', 'TEMPO')]
+Espúrias  (FP): [('aquele mesmo ano', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O único problema é que quadrinhos religiosos não eram exatamente um gênero de sucesso entre a molecada, que preferia as aventuras do Capitão América às adaptações carolas de passagens do Novo Testamento , daí ser compreensível que a Educational Comics estivesse em sérias dificuldades financeiras. Entretanto, o destino de Gaines tomaria um rumo inesperado quando ele cruzou o caminho de Al Feldstein , um talentoso artista freelancer em começo de carreira e que, assim como o ex-playboy, adorava aventuras de terror e mistério. Descobertas as afinidades, a dupla juntou as forças e criou duas histórias: A Cripta do Terror e A Câmara do Horror .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Capitão América",
+    "label": "OBRA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Novo Testamento",
+    "label": "OBRA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Educational Comics",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Gaines",
+    "label": "PESSOA",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Al Feldstein",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "A Cripta do Terror",
+    "label": "OBRA",
+    "token_indices": [
+      95,
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "text": "A Câmara do Horror",
+    "label": "OBRA",
+    "token_indices": [
+      100,
+      101,
+      102,
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Capitão América",
+    "label": "COISA"
+  },
+  {
+    "text": "Novo Testamento",
+    "label": "COISA"
+  },
+  {
+    "text": "Educational Comics",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gaines",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Al Feldstein",
+    "label": "PESSOA"
+  },
+  {
+    "text": "A Cripta do Terror",
+    "label": "OBRA"
+  },
+  {
+    "text": "A Câmara do Horror",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Capitão América', 'OBRA'), ('Novo Testamento', 'OBRA')]
+Espúrias  (FP): [('Capitão América', 'COISA'), ('Novo Testamento', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+E já que pior do que estava não podia ficar, Gaines aproveitou a editora que herdara do pai e lançou os dois títulos no mercado. Nasciam aí os quadrinhos de terror e a lendária EC Comics .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gaines",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "EC Comics",
+    "label": "COISA",
+    "token_indices": [
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gaines",
+    "label": "PESSOA"
+  },
+  {
+    "text": "EC Comics",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('EC Comics', 'COISA')]
+Espúrias  (FP): [('EC Comics', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A publicação bolada por Gaines e Feldstein , batizada com o apropriado título de Tales From the Crypt , tornou-se um sucesso espetacular entre crianças e adolescentes e motivo de choque para os norte-americanos adultos. Jamais o cidadão comum - classe média, branco, suburbano e fiel defensor do American Way of Life como o caminho mais curto para o Paraíso - iria permitir que seus filhos passassem o tempo lendo histórias sobre aberrações, trapaças, assassinatos, bruxaria, exorcismo e magia-negra. O mundo permitido era aquele idealizado nas pinturas de Norman Rockwell , do garoto loiro de cabelo escovinha, das ceias do Dia de Ação de Graças | do Dia de Ação de Graças e das bandeirantes de rosto corado. A América mergulhava no sonho da prosperidade capitalista, numa vida melhor através da química e no seu estabelecimento como superpotência econômica e militar. Encarar o lado feio e bizarro da vida não estava nos planos de ninguém. Exceto da molecada, que, dos cafundós do Arkansas ao centro de Nova Iorque , fazia a fortuna de Gaines comprando qualquer coisa que tivesse o selo EC Comics estampado na capa.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gaines",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Feldstein",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Tales From the Crypt",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "American Way of Life",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Paraíso",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Norman Rockwell",
+    "label": "PESSOA",
+    "token_indices": [
+      88,
+      89
+    ]
+  },
+  {
+    "text": "do Dia de Ação de Graças",
+    "label": "TEMPO",
+    "token_indices": [
+      99,
+      100,
+      101,
+      102,
+      103,
+      104
+    ]
+  },
+  {
+    "text": "Dia de Ação de Graças",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      107,
+      108,
+      109,
+      110,
+      111
+    ]
+  },
+  {
+    "text": "América",
+    "label": "PESSOA",
+    "token_indices": [
+      119
+    ]
+  },
+  {
+    "text": "Arkansas",
+    "label": "LOCAL",
+    "token_indices": [
+      162
+    ]
+  },
+  {
+    "text": "Nova Iorque",
+    "label": "LOCAL",
+    "token_indices": [
+      166,
+      167
+    ]
+  },
+  {
+    "text": "Gaines",
+    "label": "PESSOA",
+    "token_indices": [
+      173
+    ]
+  },
+  {
+    "text": "EC Comics",
+    "label": "COISA",
+    "token_indices": [
+      181,
+      182
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gaines e Feldstein",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tales From the Crypt",
+    "label": "OBRA"
+  },
+  {
+    "text": "Norman Rockwell",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dia de Ação de Graças",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dia de Ação de Graças",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Gaines', 'PESSOA'), ('Feldstein', 'PESSOA'), ('Tales From the Crypt', 'ABSTRACCAO'), ('American Way of Life', 'ABSTRACCAO'), ('Paraíso', 'ABSTRACCAO'), ('do Dia de Ação de Graças', 'TEMPO'), ('Dia de Ação de Graças', 'ACONTECIMENTO'), ('América', 'PESSOA'), ('Arkansas', 'LOCAL'), ('Nova Iorque', 'LOCAL'), ('Gaines', 'PESSOA'), ('EC Comics', 'COISA')]
+Espúrias  (FP): [('Gaines e Feldstein', 'PESSOA'), ('Tales From the Crypt', 'OBRA'), ('Dia de Ação de Graças', 'TEMPO'), ('Dia de Ação de Graças', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Isso aconteceu porque Bill Gaines criou uma identificação imediata com o público ao se apropriar da linguagem radiofônica - todas as histórias eram apresentadas por um narrador, geralmente o Zelador da Cripta , a Bruxa Velha ou o Guardião da Câmara - e também porque arrebanhou um time de artistas de primeira para atingir, nas páginas da revista, o clima de demência que as histórias pediam. Assim como Will Eisner , os desenhistas Jack Davis , Frank Frazetta , Johnny Craig e Graham "Ghastly" Ingels tinham um traço sombrio e carregado de dramaticidade. Houve também tendência em distorcer certas expressões faciais na tentativa de transpor para o papel a loucura interna de cada personagem. Tales From The Crypt impressionava também por sua logomarca ao mostrar a palavra " Crypt " grafada de tal forma que dava a impressão de estar apodrecendo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bill Gaines",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Zelador da Cripta",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Bruxa Velha",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Guardião da Câmara",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Will Eisner",
+    "label": "PESSOA",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Jack Davis",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Frank Frazetta",
+    "label": "PESSOA",
+    "token_indices": [
+      76,
+      77
+    ]
+  },
+  {
+    "text": "Johnny Craig",
+    "label": "PESSOA",
+    "token_indices": [
+      79,
+      80
+    ]
+  },
+  {
+    "text": "Graham \"Ghastly\" Ingels",
+    "label": "PESSOA",
+    "token_indices": [
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "text": "Tales From The Crypt",
+    "label": "OBRA",
+    "token_indices": [
+      114,
+      115,
+      116,
+      117
+    ]
+  },
+  {
+    "text": "Crypt",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      128
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bill Gaines",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Zelador da Cripta",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bruxa Velha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Guardião da Câmara",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Will Eisner",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jack Davis",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Frank Frazetta",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Johnny Craig",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Graham \"Ghastly\" Ingels",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tales From The Crypt",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Crypt', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O sucesso da EC Comics nas bancas, levou Gaines a ampliar sua linha de "produtos". Na esteira do sucesso de Tales From The Crypt , foram lançados The Vault Of Horror , Crime SuspenStories , The Haunt of Fear e Shock SuspenStories .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EC Comics",
+    "label": "COISA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Gaines",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Tales From The Crypt",
+    "label": "OBRA",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "The Vault Of Horror",
+    "label": "OBRA",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Crime SuspenStories",
+    "label": "OBRA",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "The Haunt of Fear",
+    "label": "OBRA",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Shock SuspenStories",
+    "label": "OBRA",
+    "token_indices": [
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EC Comics",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gaines",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tales From The Crypt",
+    "label": "OBRA"
+  },
+  {
+    "text": "The Vault Of Horror",
+    "label": "OBRA"
+  },
+  {
+    "text": "Crime SuspenStories",
+    "label": "OBRA"
+  },
+  {
+    "text": "The Haunt of Fear",
+    "label": "OBRA"
+  },
+  {
+    "text": "Shock SuspenStories",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('EC Comics', 'COISA')]
+Espúrias  (FP): [('EC Comics', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Aproveitando a maré boa, Gaines adaptou as histórias do conhecido autor Ray Bradbury e jogou no mercado Weird Science e Weird Fantasy , publicações que misturavam suspense e terror a uma ficção científica um pouco mais pessimista, semelhante a de escritores como Phillip K.Dick e William Gibson .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gaines",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Ray Bradbury",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Weird Science",
+    "label": "OBRA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Weird Fantasy",
+    "label": "OBRA",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Phillip K.Dick",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "William Gibson",
+    "label": "PESSOA",
+    "token_indices": [
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gaines",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ray Bradbury",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Weird Science",
+    "label": "COISA"
+  },
+  {
+    "text": "Weird Fantasy",
+    "label": "COISA"
+  },
+  {
+    "text": "Phillip K.Dick",
+    "label": "PESSOA"
+  },
+  {
+    "text": "William Gibson",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Weird Science', 'OBRA'), ('Weird Fantasy', 'OBRA')]
+Espúrias  (FP): [('Weird Science', 'COISA'), ('Weird Fantasy', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não contente em se tornar o novo rei dos quadrinhos - desbancado as HQs de super-hérois, que, depois de Tales From The Crypt , entraram em decadência - Gaines aventurou-se pelo campo do humor. Em 1952 chegava às bancas a MAD Magazine , o mais novo empreendimento da EC Comics , editada pelo escritor e desenhista Harvey Kurtzman .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Tales From The Crypt",
+    "label": "OBRA",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Gaines",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Em 1952",
+    "label": "TEMPO",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "MAD Magazine",
+    "label": "COISA",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "EC Comics",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Harvey Kurtzman",
+    "label": "PESSOA",
+    "token_indices": [
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tales From The Crypt",
+    "label": "OBRA"
+  },
+  {
+    "text": "MAD Magazine",
+    "label": "OBRA"
+  },
+  {
+    "text": "EC Comics",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Harvey Kurtzman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Em 1952",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('HQs', 'COISA'), ('Gaines', 'PESSOA'), ('MAD Magazine', 'COISA')]
+Espúrias  (FP): [('MAD Magazine', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O grande mérito da MAD Magazine trazer para as HQs um humor anárquico, satírico e, principalmente, judeu. Ainda em sua primeira fase - reconhecidamente a melhor de todas - ela destruiu sem dó nem piedade todo e qualquer ícone da cultura de massa norte-americana. Flash Gordon virou Flesh Garden ( Jardim de Carne ), um brutamontes com zero de QI | QI , e Batman foi transformando em um anão vampiro que vivia tentando agarrar a Mulher Maravilha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MAD Magazine",
+    "label": "COISA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Flash Gordon",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Flesh Garden",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Jardim de Carne",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "QI",
+    "label": "OUTRO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Batman",
+    "label": "PESSOA",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Mulher Maravilha",
+    "label": "PESSOA",
+    "token_indices": [
+      76,
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MAD Magazine",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Flash Gordon",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Flesh Garden",
+    "label": "OBRA"
+  },
+  {
+    "text": "Jardim de Carne",
+    "label": "OBRA"
+  },
+  {
+    "text": "QI",
+    "label": "VALOR"
+  },
+  {
+    "text": "Batman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mulher Maravilha",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('MAD Magazine', 'COISA'), ('HQs', 'COISA'), ('Flesh Garden', 'ABSTRACCAO'), ('Jardim de Carne', 'ABSTRACCAO'), ('QI', 'OUTRO')]
+Espúrias  (FP): [('MAD Magazine', 'ORGANIZACAO'), ('Flesh Garden', 'OBRA'), ('Jardim de Carne', 'OBRA'), ('QI', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+São notáveis também as sátiras feitas ao Superman ( Superduperman e a charge Supermarket , sobre um supermercado exclusivo para heróis) e as adaptações de contos de fadas, todas elas temperadas por uma certa dosa de perversão sexual. A MAD merece ainda um capítulo à parte sobre sua produção gráfica, pois foi nela que floresceu o talento de Wallace Wood ; Basil Wolverton , especialista em desenhar monstros deformados, e Bill Elder , os responsáveis pela "cara" da fase clássica da revista. Para se ter uma idéia de como a coisa era pesada para época, o slogan da MAD era uma provocação absurda: "MAD Magazine: Humor In a Jugular Vein!!", frase que, nos anúncios da revista, aparecia escrita sob uma Monalisa deformada criada por Basil Wolverton .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superman",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Superduperman",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Supermarket",
+    "label": "OUTRO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "MAD",
+    "label": "COISA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Wallace Wood",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Basil Wolverton",
+    "label": "PESSOA",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Bill Elder",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "MAD",
+    "label": "COISA",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "Monalisa",
+    "label": "OBRA",
+    "token_indices": [
+      120
+    ]
+  },
+  {
+    "text": "Basil Wolverton",
+    "label": "PESSOA",
+    "token_indices": [
+      124,
+      125
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Superman",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Superduperman",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Supermarket",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "MAD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Wallace Wood",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Basil Wolverton",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bill Elder",
+    "label": "PESSOA"
+  },
+  {
+    "text": "MAD Magazine",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MAD",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Superman', 'PESSOA'), ('Superduperman', 'PESSOA'), ('Supermarket', 'OUTRO'), ('MAD', 'COISA'), ('MAD', 'COISA'), ('Monalisa', 'OBRA'), ('Basil Wolverton', 'PESSOA')]
+Espúrias  (FP): [('Superman', 'ABSTRACCAO'), ('Superduperman', 'ABSTRACCAO'), ('Supermarket', 'ABSTRACCAO'), ('MAD', 'ORGANIZACAO'), ('MAD Magazine', 'ORGANIZACAO'), ('MAD', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A festa duraria pouco e, logo, a década de 50 seria conhecida como um dos períodos mais sem-graça da história das HQs . Apesar de algumas coisas maravilhosas, como Pogo , de Walt Kelly , e Ferdinando , as histórias em quadrinhos sofreram um duro golpe com o surgimento do macarthismo, da paranóia anti-comunista e com a publicação de A Seducao dos Inocentes - livro do psiquiatra Frederic Werthan sobre os "malefícios" das HQs . Entre outras coisas, Dr. Werthan , "provava" que Batman e Robin mantinham um ardoroso caso homossexual:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "a década de 50",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Pogo",
+    "label": "OBRA",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Walt Kelly",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Ferdinando",
+    "label": "OBRA",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "A Seducao dos Inocentes",
+    "label": "OBRA",
+    "token_indices": [
+      59,
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Frederic Werthan",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68
+    ]
+  },
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Dr. Werthan",
+    "label": "PESSOA",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "Batman",
+    "label": "PESSOA",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Robin",
+    "label": "PESSOA",
+    "token_indices": [
+      85
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "pouco",
+    "label": "TEMPO"
+  },
+  {
+    "text": "de 50",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Pogo",
+    "label": "OBRA"
+  },
+  {
+    "text": "Walt Kelly",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ferdinando",
+    "label": "OBRA"
+  },
+  {
+    "text": "A Seducao dos Inocentes",
+    "label": "OBRA"
+  },
+  {
+    "text": "Frederic Werthan",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dr. Werthan",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Batman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Robin",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('a década de 50', 'TEMPO'), ('HQs', 'COISA'), ('HQs', 'COISA')]
+Espúrias  (FP): [('pouco', 'TEMPO'), ('de 50', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+" Constantemente eles se salvam um ao outro de ataques violentos de um número sem-fim de inimigos. Transmite-se a sensação de que nós, homens, devemos nos manter juntos porque há muitas criaturas malvadas que têm que ser exterminadas... Às vezes , Batman acaba numa cama, ferido, e mostra-se o jovem Robin sentado ao seu lado. Em casa, levam uma vida idílica. São Bruce Wayne e Dick Grayson .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Constantemente",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Às vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Batman",
+    "label": "PESSOA",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Robin",
+    "label": "PESSOA",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Bruce Wayne",
+    "label": "PESSOA",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Dick Grayson",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Às vezes",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Batman",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Robin",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bruce Wayne",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dick Grayson",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Constantemente', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Vivem em aposentos suntuosos com lindas flores em grandes vasos... Batman é, às vezes , mostrado num robe de chambre...é como um sonho de dois homossexuais vivendo juntos".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Batman",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "às vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Batman",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('às vezes', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Impelido pela caça às bruxas do Senador Joseph MacCarthy - cujo alvo foi, principalmente, atores, roteiristas e diretores de Hollywood acusados de comunismo - e o livro do Dr. Werthan , o governo norte-americano tentou acabar com todo o tipo de publicação cujo conteúdo fosse considerado "imoral" ou "impróprio". A primeira a dançar foi a EC Comics .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senador Joseph MacCarthy",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Hollywood",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Dr. Werthan",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "EC Comics",
+    "label": "COISA",
+    "token_indices": [
+      55,
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senador Joseph MacCarthy",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Hollywood",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Dr. Werthan",
+    "label": "PESSOA"
+  },
+  {
+    "text": "EC Comics",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('EC Comics', 'COISA')]
+Espúrias  (FP): [('EC Comics', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Todos seus títulos foram proibidos e a MAD passou a pegar menos pesado em suas sátiras e mudou de formato para poder continuar nas bancas. Outro caso célebre foi a perseguição que o criador de Ferdinando , All Capp , sofreu por causa de uma história sobre os schmoos, um bichinho fictício semelhante a uma foca que se proliferava à velocidade da luz e tinha uma carne deliciosa, além de dar leite e pôr ovos. Na história, os Estados Unidos entram em polvorosa porque ninguém mais queria trabalhar, já que todo mundo tinha um schmoo em casa e não passava mais fome. Por isso, o schmoos foram considerados pelo governo como uma apologia ao comunismo e All Capp teve que tirá-los das aventuras de Ferdinando .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MAD",
+    "label": "COISA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Ferdinando",
+    "label": "PESSOA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "All Capp",
+    "label": "PESSOA",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "PESSOA",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "All Capp",
+    "label": "PESSOA",
+    "token_indices": [
+      116,
+      117
+    ]
+  },
+  {
+    "text": "Ferdinando",
+    "label": "PESSOA",
+    "token_indices": [
+      124
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MAD",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ferdinando",
+    "label": "COISA"
+  },
+  {
+    "text": "All Capp",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ferdinando",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('MAD', 'COISA'), ('Ferdinando', 'PESSOA'), ('Estados Unidos', 'PESSOA'), ('All Capp', 'PESSOA'), ('Ferdinando', 'PESSOA')]
+Espúrias  (FP): [('MAD', 'ORGANIZACAO'), ('Ferdinando', 'COISA'), ('Estados Unidos', 'LOCAL'), ('Ferdinando', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O resultado mais triste da paranóia do Senador MacCarthy e do chefe do FBI | chefe do FBI , J Edgar Hoover , foi a criação do Comics Code , aquele selinho encontrado em todas as revistas comercializadas nos EUA . Sem ele, as publicações de quadrinhos não poderiam ser vendidas, o que levou as editoras a implantar a censura interna, acabando assim com a liberdade de criação de seus artistas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senador MacCarthy",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "chefe do FBI",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "FBI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "J Edgar Hoover",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Comics Code",
+    "label": "COISA",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senador MacCarthy",
+    "label": "PESSOA"
+  },
+  {
+    "text": "chefe do FBI",
+    "label": "PESSOA"
+  },
+  {
+    "text": "J Edgar Hoover",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Comics Code",
+    "label": "OBRA"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('FBI', 'ORGANIZACAO'), ('Comics Code', 'COISA')]
+Espúrias  (FP): [('Comics Code', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar de algumas coisas legais aqui e ali, as HQs só saíram do marasmo no começo dos anos 60 após o surgimento da literatura beat e das primeiras manifestações da contracultura. Criado em São Francisco , o movimento dos Comix deu um novo impulso criativo aos quadrinhos. Primeiro porque seus integrantes estavam num desbunde total e não estavam nem aí para a rígida moral norte-americana. Segundo porque as revistas dos Comix não eram vendidas em bancas e sim em lojinhas hippies, cujos donos não queriam nem saber se as ditas-cujas tinham ou não o famigerado Comics Code Aproval .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "no começo dos anos 60",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "São Francisco",
+    "label": "LOCAL",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Comix",
+    "label": "PESSOA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Comix",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Comics Code Aproval",
+    "label": "COISA",
+    "token_indices": [
+      95,
+      96,
+      97
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "no começo dos anos 60",
+    "label": "TEMPO"
+  },
+  {
+    "text": "São Francisco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Comics Code Aproval",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('HQs', 'COISA'), ('Comix', 'PESSOA'), ('Comix', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É um período marcado pela negação à linguagem formal das HQs . Nos comix, por muitas vezes não havia uma seqüência lógica na narrativa. Uma historia poderia ser interrompida para dar vazão a algum experimentalismo gráfico ou não ter exatamente um roteiro. Poderiam ainda ser ácidas e demolidoras - como as notórias edições de Air Pirates , de Dan O'Neil e Ted Richards , nas quais Mickey e Minie Mouse apareciam fazendo toda espécie de loucuras sexuais - ou simplesmente desagradáveis, principalmente em alguns momentos mais escatológicos da Zap Comix , a primeira publicação underground do planeta. Entre os nomes do quadrinho underground, destacam-se Robert Crumb , Gilbert Shelton , Robert Williams , Skip Williamson e Ricky Griffin , litografista que fez a cabeça de toda uma geração com sua arte psicodélica e posters de Carlos Santana , The Doors e Gratefull Dead .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HQs",
+    "label": "COISA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "por muitas vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Air Pirates",
+    "label": "OBRA",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Dan O'Neil",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Ted Richards",
+    "label": "PESSOA",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Mickey",
+    "label": "PESSOA",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Minie Mouse",
+    "label": "PESSOA",
+    "token_indices": [
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Zap Comix",
+    "label": "OBRA",
+    "token_indices": [
+      88,
+      89
+    ]
+  },
+  {
+    "text": "Robert Crumb",
+    "label": "PESSOA",
+    "token_indices": [
+      104,
+      105
+    ]
+  },
+  {
+    "text": "Gilbert Shelton",
+    "label": "PESSOA",
+    "token_indices": [
+      107,
+      108
+    ]
+  },
+  {
+    "text": "Robert Williams",
+    "label": "PESSOA",
+    "token_indices": [
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Skip Williamson",
+    "label": "PESSOA",
+    "token_indices": [
+      113,
+      114
+    ]
+  },
+  {
+    "text": "Ricky Griffin",
+    "label": "PESSOA",
+    "token_indices": [
+      116,
+      117
+    ]
+  },
+  {
+    "text": "Carlos Santana",
+    "label": "PESSOA",
+    "token_indices": [
+      135,
+      136
+    ]
+  },
+  {
+    "text": "The Doors",
+    "label": "PESSOA",
+    "token_indices": [
+      138,
+      139
+    ]
+  },
+  {
+    "text": "Gratefull Dead",
+    "label": "PESSOA",
+    "token_indices": [
+      141,
+      142
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Air Pirates",
+    "label": "OBRA"
+  },
+  {
+    "text": "Dan O'Neil",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ted Richards",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mickey",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Minie Mouse",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Zap Comix",
+    "label": "OBRA"
+  },
+  {
+    "text": "Robert Crumb",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Gilbert Shelton",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Robert Williams",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Skip Williamson",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ricky Griffin",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('HQs', 'COISA'), ('por muitas vezes', 'TEMPO'), ('Carlos Santana', 'PESSOA'), ('The Doors', 'PESSOA'), ('Gratefull Dead', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Os comix atraíram também uma parcela considerável de artistas da velha guarda. Cansado da censura do Comics Code e empolgado com o movimento, Will Eisner lança um gênero inédito: as novelas gráficas ( Um Contrato com Deus e O Edifício ), uma mistura de literatura e quadrinhos com uma linguagem mais madura e bem mais experimental do que a usada na HQ tradicional. Outro veterano a pedir uma vaga no porão do quadrinho underground foi Harvey Kurtzman .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Comics Code",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Will Eisner",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Um Contrato com Deus",
+    "label": "OBRA",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "O Edifício",
+    "label": "OBRA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "HQ",
+    "label": "COISA",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Harvey Kurtzman",
+    "label": "PESSOA",
+    "token_indices": [
+      75,
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comics Code",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Will Eisner",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Um Contrato com Deus",
+    "label": "OBRA"
+  },
+  {
+    "text": "O Edifício",
+    "label": "OBRA"
+  },
+  {
+    "text": "Harvey Kurtzman",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Comics Code', 'ABSTRACCAO'), ('HQ', 'COISA')]
+Espúrias  (FP): [('Comics Code', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Junto com ele vieram os bons companheiros de EC Comics Bill Elder e Wallace Wood , que, nesse período , deu ao mundo a memorável My World , uma fábula pessoal sobre a decadência moral dos Estados Unidos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "EC Comics",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Bill Elder",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Wallace Wood",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "nesse período",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "My World",
+    "label": "OBRA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EC Comics",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Bill Elder",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Wallace Wood",
+    "label": "PESSOA"
+  },
+  {
+    "text": "nesse período",
+    "label": "TEMPO"
+  },
+  {
+    "text": "My World",
+    "label": "OBRA"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Estados Unidos', 'PESSOA')]
+Espúrias  (FP): [('Estados Unidos', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A revolta histórica produz normalmente uma nova forma de pensamento quanto à forma de organização da sociedade. Assim foi com a Reforma Protestante .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reforma Protestante",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reforma Protestante",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Reforma Protestante', 'ABSTRACCAO')]
+Espúrias  (FP): [('Reforma Protestante', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No seguimento do colapso de instituições monásticas e do escolasticismo nos finais da Idade Média na Europa , acentuado pela " Cativeiro Babilónica da igreja " no papado de Avignon , o Grande Cisma e o fracasso da conciliação, assistimos no século XVI ao fermentar de um enorme debate sobre a reforma da religião e dos posteriores valores religiosos fundamentais. Este debate passou completamente ao lado de Portugal , demasiado distante do foco onde surgiram estes pensamentos. A imprensa, inventada na Alemanha por John Gutenberg , foi importante na divulgação destas ideias. As 95 Teses de Martinho Lutero | 95 Teses de Martinho Lutero foram imediatamente impressas e divulgadas por todas as regiões de língua alemã, o que contribuiu para a crescente popularidade de Martinho Lutero .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Idade Média",
+    "label": "OUTRO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Cativeiro Babilónica da igreja",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Avignon",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Grande Cisma",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "no século XVI",
+    "label": "TEMPO",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "PESSOA",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "John Gutenberg",
+    "label": "PESSOA",
+    "token_indices": [
+      83,
+      84
+    ]
+  },
+  {
+    "text": "95 Teses de Martinho Lutero",
+    "label": "OBRA",
+    "token_indices": [
+      93,
+      94,
+      95,
+      96,
+      97
+    ]
+  },
+  {
+    "text": "95 Teses",
+    "label": "OBRA",
+    "token_indices": [
+      99,
+      100
+    ]
+  },
+  {
+    "text": "Martinho Lutero",
+    "label": "PESSOA",
+    "token_indices": [
+      102,
+      103
+    ]
+  },
+  {
+    "text": "Martinho Lutero",
+    "label": "PESSOA",
+    "token_indices": [
+      124,
+      125
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "nos finais da Idade Média na Europa",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Cativeiro Babilónica da igreja",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Avignon",
+    "label": "LOCAL"
+  },
+  {
+    "text": "no século XVI",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "95 Teses de Martinho Lutero",
+    "label": "OBRA"
+  },
+  {
+    "text": "95 Teses",
+    "label": "OBRA"
+  },
+  {
+    "text": "Martinho Lutero",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Idade Média', 'OUTRO'), ('Europa', 'LOCAL'), ('Cativeiro Babilónica da igreja', 'ACONTECIMENTO'), ('Avignon', 'ACONTECIMENTO'), ('Grande Cisma', 'ACONTECIMENTO'), ('Portugal', 'PESSOA'), ('Alemanha', 'LOCAL'), ('John Gutenberg', 'PESSOA'), ('Martinho Lutero', 'PESSOA')]
+Espúrias  (FP): [('nos finais da Idade Média na Europa', 'TEMPO'), ('Cativeiro Babilónica da igreja', 'ABSTRACCAO'), ('Avignon', 'LOCAL'), ('Portugal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não menos relevante foi a influência da pressão social exercida pela Contra-Reforma , na qual os Jesuítas tiveram um papel de liderança. A Inquisição e a censura exercida pela Igreja Católica foram igualmente determinantes para evitar que as ideias reformadoras encontrassem divulgação em Portugal , Espanha ou Itália , países católicos. Historiadores assumem geralmente que a incapacidade de reformar (grande número de interesses legítimos, falta de coordenação na coligação dos reformadores) poderia levar a uma grande revolta ou revolução, uma vez que o sistema deverá ser gradualmente ajustado ou então desintegrar-se. O fracasso da conciliação levou à Reforma Protestante do ocidente europeu. Estes movimentos reformistas frustrados variam desde o nominalismo, a moderna devoção, ao humanismo, e ocorrem em conjunção com o crescente desagrado perante a riqueza e o poder da elite clerical, sensibilizando a população para a corrupção moral e financeira da Igreja .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Contra-Reforma",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Jesuítas",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Inquisição",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Igreja Católica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Reforma Protestante",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      97,
+      98
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      142
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Contra-Reforma', 'ABSTRACCAO'), ('Jesuítas', 'PESSOA'), ('Inquisição', 'ORGANIZACAO'), ('Igreja Católica', 'ORGANIZACAO'), ('Portugal', 'LOCAL'), ('Espanha', 'LOCAL'), ('Itália', 'LOCAL'), ('Reforma Protestante', 'ACONTECIMENTO'), ('Igreja', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Reforma Religiosa e Política na Inglaterra
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reforma Religiosa e Política",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Reforma Religiosa e Política', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tinha havido desde há muito uma forte corrente anti-clerical, tendo a Inglaterra já tido o movimento Lollard , que inspirou os Hussitas na Boémia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Inglaterra",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Lollard",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Hussitas",
+    "label": "PESSOA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Boémia",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "desde há muito",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lollard",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Hussitas",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Boémia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Inglaterra', 'PESSOA')]
+Espúrias  (FP): [('desde há muito', 'TEMPO'), ('Inglaterra', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas em cerca de 1520 , no entanto, os Lollards não eram já uma força activa, ou pelo menos um movimento de massas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em cerca de 1520",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Lollards",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "em cerca de 1520",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lollards",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lollards', 'PESSOA')]
+Espúrias  (FP): [('Lollards', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O carácter diferente da Reforma Inglesa deve-se ao facto de ter sido promovida inicialmente pelas necessidades políticas de Henrique VIII . Sendo este casado com Catarina de Aragão | Catarina de Aragão e estando apaixonado por Ana Bolena , Henrique solicita ao Papa Clemente VII a anulação do casamento. Perante a recusa do Papado , Henrique faz-se proclamar, em 1531 , protector da Igreja inglesa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reforma Inglesa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Henrique VIII",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Catarina de Aragão",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Catarina",
+    "label": "PESSOA",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Aragão",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Ana Bolena",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Henrique",
+    "label": "PESSOA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Papa Clemente VII",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Papado",
+    "label": "PESSOA",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Henrique",
+    "label": "PESSOA",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "em 1531",
+    "label": "TEMPO",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reforma Inglesa",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Henrique VIII",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Catarina de Aragão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Catarina de Aragão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Henrique",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Papa Clemente VII",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Papado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1531",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Igreja inglesa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Reforma Inglesa', 'ABSTRACCAO'), ('Catarina', 'PESSOA'), ('Aragão', 'LOCAL'), ('Ana Bolena', 'PESSOA'), ('Papado', 'PESSOA'), ('Henrique', 'PESSOA'), ('Igreja', 'ORGANIZACAO')]
+Espúrias  (FP): [('Reforma Inglesa', 'ACONTECIMENTO'), ('Catarina de Aragão', 'PESSOA'), ('Papado', 'ORGANIZACAO'), ('Igreja inglesa', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O " Ato de Supremacia ", votado no Parlamento em Novembro de 1534 , colocou Henrique e os seus sucessores na liderança da Igreja : os súbditos deveriam submeter-se ou então seriam excomungados e perseguidos. Apesar de uma certa deriva em direcção ao luteranismo, Henrique reafirma a ortodoxia católica através da " Confissão dos Seis Artigos " ( 1539 ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ato de Supremacia",
+    "label": "OBRA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "em Novembro de 1534",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Henrique",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Henrique",
+    "label": "PESSOA",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Confissão dos Seis Artigos",
+    "label": "OBRA",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "1539",
+    "label": "TEMPO",
+    "token_indices": [
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ato de Supremacia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em Novembro de 1534",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Henrique",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Confissão dos Seis Artigos",
+    "label": "OBRA"
+  },
+  {
+    "text": "1539",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Igreja', 'ORGANIZACAO'), ('Henrique', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Houve muitos opositores da Reforma de Henrique | Reforma de Henrique , tais como Thomas More e o Bispo John Fischer , que foram executados pela sua oposição. Mas também existiu um partido crescente de Protestantes genuínos que estavam inspirados pelas doutrinas então correntes no continente. Quando Henrique foi sucedido pelo seu filho Eduardo VI em 1547 , os protestantes viram-se em ascendente no governo. Uma reforma mais radical foi imposta, com a destruição de imagens e o fecho de capelas, para além de ter sido revogada a " Confissão dos Seis Artigos ". Em 1552 , é redigido o novo " Livro de Orações " e promulgada a " Confissão de Fé em Quarenta e Dois Artigos ", que aproximava doutrinalmente a Igreja de Inglaterra | Igreja de Inglaterra do calvinismo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reforma de Henrique",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Reforma",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Henrique",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Thomas More",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Bispo John Fischer",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Protestantes",
+    "label": "PESSOA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Henrique",
+    "label": "PESSOA",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Eduardo VI",
+    "label": "PESSOA",
+    "token_indices": [
+      53,
+      54
+    ]
+  },
+  {
+    "text": "em 1547",
+    "label": "TEMPO",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Confissão dos Seis Artigos",
+    "label": "OBRA",
+    "token_indices": [
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "text": "Em 1552",
+    "label": "TEMPO",
+    "token_indices": [
+      94,
+      95
+    ]
+  },
+  {
+    "text": "Livro de Orações",
+    "label": "OBRA",
+    "token_indices": [
+      102,
+      103,
+      104
+    ]
+  },
+  {
+    "text": "Confissão de Fé em Quarenta e Dois Artigos",
+    "label": "OBRA",
+    "token_indices": [
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+    ]
+  },
+  {
+    "text": "Igreja de Inglaterra",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      123,
+      124,
+      125
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      127
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      129
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reforma de Henrique",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Reforma",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Henrique",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Thomas More",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bispo John Fischer",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Em 1547",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Eduardo VI",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Confissão dos Seis Artigos",
+    "label": "OBRA"
+  },
+  {
+    "text": "Em 1552",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Livro de Orações",
+    "label": "OBRA"
+  },
+  {
+    "text": "Confissão de Fé em Quarenta e Dois Artigos",
+    "label": "OBRA"
+  },
+  {
+    "text": "Igreja Anglicana",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Igreja Luterana",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Reforma de Henrique', 'ABSTRACCAO'), ('Reforma', 'ABSTRACCAO'), ('Protestantes', 'PESSOA'), ('Henrique', 'PESSOA'), ('em 1547', 'TEMPO'), ('Igreja de Inglaterra', 'ABSTRACCAO'), ('Igreja', 'ABSTRACCAO'), ('Inglaterra', 'LOCAL')]
+Espúrias  (FP): [('Reforma de Henrique', 'ACONTECIMENTO'), ('Reforma', 'ACONTECIMENTO'), ('Em 1547', 'TEMPO'), ('Igreja Anglicana', 'ORGANIZACAO'), ('Igreja Luterana', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Seguiu-se uma breve reacção católica durante o reinado de Maria I ( 1553-1558 ). De início moderada na sua política religiosa, Maria procura a reconciliação com Roma , consagrada em 1554 , quando o Parlamento vota o regresso à obediência papal. Porém, as perseguições violentas que move aos não católicos e o seu casamento com Filipe II de Espanha | Filipe II de Espanha | Filipe II de Espanha , provocam um forte descontentamento na população.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Maria I",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "1553-1558",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Maria",
+    "label": "PESSOA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Roma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "em 1554",
+    "label": "TEMPO",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Filipe II de Espanha",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Filipe II",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Maria I",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1553-1558",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Roma",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1554",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Filipe II de Espanha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Filipe II",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Maria', 'PESSOA'), ('Roma', 'ORGANIZACAO')]
+Espúrias  (FP): [('Roma', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um consenso começou a surgir durante o reinado de Isabel I . Em 1559 , Isabel retorna à religião do pai, com o restabelecimento do " Ato de Supremacia " e do " Livro de Orações " de Eduardo VI . Através da " Confissão dos Trinta e Nove Artigos " ( 1563 ), Isabel alcança um compromisso entre o protestantismo e o catolicismo: embora o dogma se aproxime do calvinismo, só admitindo como sacramento o baptismo e a eucaristia, é mantida a hierarquia episcopal e o fausto das cerimónias religiosas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Isabel I",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Em 1559",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Isabel",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Ato de Supremacia",
+    "label": "OBRA",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Livro de Orações",
+    "label": "OBRA",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Eduardo VI",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Confissão dos Trinta e Nove Artigos",
+    "label": "OBRA",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "1563",
+    "label": "TEMPO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Isabel",
+    "label": "PESSOA",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "durante o reinado de Isabel I",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Em 1559",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Isabel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ato de Supremacia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Livro de Orações",
+    "label": "OBRA"
+  },
+  {
+    "text": "Eduardo VI",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Confissão dos Trinta e Nove Artigos",
+    "label": "OBRA"
+  },
+  {
+    "text": "( 1563 )",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Isabel I', 'PESSOA'), ('1563', 'TEMPO'), ('Isabel', 'PESSOA')]
+Espúrias  (FP): [('durante o reinado de Isabel I', 'TEMPO'), ('( 1563 )', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O sucesso da Contra-Reforma no continente e o crescimento de um partido puritano dedicado a estender a Reforma Protestante polarizou a era Elizabetana , apesar da Inglaterra não ter tido até 1640 lutas religiosas comparáveis às dos seus vizinhos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Contra-Reforma",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Reforma Protestante",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "era Elizabetana",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "até 1640",
+    "label": "TEMPO",
+    "token_indices": [
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Contra-Reforma",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Reforma Protestante",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "era Elizabetana",
+    "label": "TEMPO"
+  },
+  {
+    "text": "até 1640",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Reforma Protestante', 'ABSTRACCAO'), ('Inglaterra', 'LOCAL')]
+Espúrias  (FP): [('Reforma Protestante', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na verdade a Reforma na Inglaterra procurou preservar o máximo da Tradição Católica (episcopado, liturgia e sacramentos). A Igreja da Inglaterra | Igreja da Inglaterra sempre se viu como a "eclesia anglicanae", ou seja, "A Igreja cristã na Inglaterra " e não derivação da Igreja de Roma | Igreja de Roma ou do movimento reformista do século XVI .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reforma",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Tradição Católica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Igreja da Inglaterra",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Igreja de Roma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Roma",
+    "label": "LOCAL",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "do século XVI",
+    "label": "TEMPO",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reforma",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Igreja da Inglaterra",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Igreja de Roma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "do século XVI",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Reforma', 'ABSTRACCAO'), ('Tradição Católica', 'ABSTRACCAO'), ('Igreja', 'ORGANIZACAO'), ('Inglaterra', 'LOCAL'), ('Igreja', 'ORGANIZACAO'), ('Roma', 'LOCAL')]
+Espúrias  (FP): [('Reforma', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como consequência disso sempre existiu dois grandes "partidos" ou "facções": a Igreja Alta ( High Church ) e Igreja Baixa ( Low Church ), que refletem a controvérsia histórica sobre as formas de culto e de expressão.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Igreja Alta",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "High Church",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Igreja Baixa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Low Church",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Igreja Alta",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "High Church",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Igreja Baixa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Low Church",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Igreja Alta', 'ABSTRACCAO'), ('High Church', 'ABSTRACCAO'), ('Igreja Baixa', 'ABSTRACCAO'), ('Low Church', 'ABSTRACCAO')]
+Espúrias  (FP): [('Igreja Alta', 'ORGANIZACAO'), ('High Church', 'ORGANIZACAO'), ('Igreja Baixa', 'ORGANIZACAO'), ('Low Church', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Reforma Anglicana buscou ser a "via média" entre os extremos romanos e puritanos. Assim aceitam os dois sacramentos do Evangelho : o Santo Batismo , através do qual a pessoa é feita membro da Igreja de Cristo , sendo que tal graça é complementada na Confirmação , e na Santa Comunhão , que une o cristão ao sacrifício de Cristo Jesus que os alimenta com seu corpo e sangue.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reforma Anglicana",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Evangelho",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Santo Batismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Igreja de Cristo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Confirmação",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Santa Comunhão",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Cristo Jesus",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reforma Anglicana",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Evangelho",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Santo Batismo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Igreja de Cristo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Confirmação",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Santa Comunhão",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Cristo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cristo Jesus",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Reforma Anglicana', 'ABSTRACCAO')]
+Espúrias  (FP): [('Reforma Anglicana', 'ACONTECIMENTO'), ('Cristo', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os demais ritos sacramentais da Igreja também são aceitos, apesar de não terem sido instituídos por Cristo , mas são reconhecidos por serem, em parte, estados de vida aprovados nas Escrituras : a Confirmação , Penitência , Ordens , Matrimônio e a Unção dos enfermos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Cristo",
+    "label": "PESSOA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Escrituras",
+    "label": "OBRA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Confirmação",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Penitência",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Ordens",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Matrimônio",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Unção dos enfermos",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cristo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Confirmação",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Penitência",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Ordens",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Matrimônio",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Unção dos enfermos",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Escrituras', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Embora tenham se afastado de muitas das prática devocionais medievais com relação aos santos e a Virgem Maria mantiveram um calendário específico para sua comemoração na Igreja , em especial as antigas festas marianas diretamente associadas aos méritos de seu Filho Jesus Cristo ( Anunciação , Natividade etc).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Virgem Maria",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Jesus Cristo",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Anunciação",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Natividade",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Igreja",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Anunciação",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Natividade",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Jesus Cristo",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Virgem Maria', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+De bicicleta também pelo Ambiente
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ambiente",
+    "label": "OUTRO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Ambiente', 'OUTRO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Durante a Conferência das Nações Unidas sobre as Alterações Climáticas , em Bali , o Público teve uma secção designada " Eu contribuo ", onde os leitores eram convidados a dizerem aquilo que fazem pelo Ambiente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conferência das Nações Unidas sobre as Alterações Climáticas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Bali",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Público",
+    "label": "COISA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Eu contribuo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Ambiente",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conferência das Nações Unidas sobre as Alterações Climáticas",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Bali",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Público",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ambiente",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Público', 'COISA'), ('Eu contribuo', 'ABSTRACCAO')]
+Espúrias  (FP): [('Público', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Joana Marinho , uma estudante universitária de 25 anos , de Vila do Conde : «Tudo começou quando os meus pais acoplaram às bicicletas cestinhos de verga para nos levarem, a mim e aos meus irmãos, nas deslocações ao supermercado e à praia. A partir dos seis anos, eu e o meu irmão mais velho íamos para a escola de bicicleta. Este hábito perdura até hoje , ao qual se acrescentaram muitas outras medidas.»
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Joana Marinho",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "25 anos",
+    "label": "VALOR",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Vila do Conde",
+    "label": "LOCAL",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "até hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Joana Marinho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "25 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Vila do Conde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "aos seis anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "até hoje",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('aos seis anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Também Vítor Pereira , um recém-licenciado em Medicina , 28 anos , de Matosinhos , usa a bicicleta como opção de transporte: «(...) a ida para o trabalho, sempre que possível uso a bicicleta ou o transporte público.»
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vítor Pereira",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Medicina",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "28 anos",
+    "label": "VALOR",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Matosinhos",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vítor Pereira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Medicina",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "28",
+    "label": "VALOR"
+  },
+  {
+    "text": "Matosinhos",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('28 anos', 'VALOR')]
+Espúrias  (FP): [('28', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+George Steiner esteve recentemente em Portugal e de acordo com notícia no Ciência Hoje o ensaísta vem proferir um discurso que a Europa é uma civilização decadente e que aparecerão outros locais do planeta como a China e a Índia ?. Esta afirmação levantou-me uma série de inquitações:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "George Steiner",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Ciência Hoje",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "PESSOA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "China",
+    "label": "LOCAL",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "George Steiner",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ciência Hoje",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "China",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Ciência Hoje', 'LOCAL'), ('Europa', 'PESSOA')]
+Espúrias  (FP): [('Ciência Hoje', 'ORGANIZACAO'), ('Europa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ora a Índia e a China já têm o seu espaço, as suas incongruências e cometendo os piores atentados ecológicos de sempre enquanto hoje há uma Europa que tem feito da sustentabilidade um exemplo a este planeta...exigir mais é possível, concerteza.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Índia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "China",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "China",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Índia', 'ORGANIZACAO'), ('China', 'ORGANIZACAO'), ('hoje', 'TEMPO'), ('Europa', 'ORGANIZACAO')]
+Espúrias  (FP): [('Índia', 'LOCAL'), ('China', 'LOCAL'), ('Europa', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por mim G.S. que fique pela América e ataque outros holocaustos que não criticou: Guantanamo , o muro internacional no México , que ataque a administração Bush que ainda não assinou o Protocolo de Quioto , que ataque um país que mantem a pena de morte, que ataque um país onde é constitucional o uso de armas...e lembrar-lhe que há muitos holocaustos no mundo...
+
+Entidades verdadeiras:
+[
+  {
+    "text": "G.S.",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "América",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Guantanamo",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "México",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Bush",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Protocolo de Quioto",
+    "label": "OBRA",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "G.S.",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Guantanamo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Protocolo de Quioto",
+    "label": "OBRA"
+  },
+  {
+    "text": "Bush",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('América', 'LOCAL'), ('Guantanamo', 'ACONTECIMENTO'), ('México', 'LOCAL'), ('Bush', 'ORGANIZACAO')]
+Espúrias  (FP): [('Guantanamo', 'LOCAL'), ('Bush', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+G.S. , enquanto aufere uns bons milhões de dólares e estará num gabinete provavelmente nada ecológico, com ar condicionado, podia sair um pouco da sua aura de eterna vítima de anti-semitismo e demonstar mais solidariedade com estas irracionalidades no Mundo de hoje como Angola e que são também holocautos tão ou mais graves que Kosovo e/ou Israel-Palestina : Darfur , Birmânia , Congo , Ruanda , Singapura , Indonésia , Tibete , povos da Amazónia , Curdos e Nações sem Estado.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "G.S.",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Mundo",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "de hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Angola",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Kosovo",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Israel-Palestina",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Darfur",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Birmânia",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Congo",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Ruanda",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Singapura",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Indonésia",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Tibete",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Amazónia",
+    "label": "LOCAL",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Curdos",
+    "label": "PESSOA",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "G.S.",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mundo de hoje",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Angola",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Kosovo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Israel-Palestina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Darfur",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Birmânia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Congo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ruanda",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Singapura",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Indonésia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tibete",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Amazónia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Curdos",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Mundo', 'LOCAL'), ('de hoje', 'TEMPO'), ('Angola', 'ACONTECIMENTO'), ('Kosovo', 'ACONTECIMENTO'), ('Israel-Palestina', 'ACONTECIMENTO'), ('Darfur', 'ACONTECIMENTO'), ('Birmânia', 'ACONTECIMENTO'), ('Congo', 'ACONTECIMENTO'), ('Ruanda', 'ACONTECIMENTO'), ('Singapura', 'ACONTECIMENTO'), ('Indonésia', 'ACONTECIMENTO'), ('Tibete', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Mundo de hoje', 'LOCAL'), ('Angola', 'LOCAL'), ('Kosovo', 'LOCAL'), ('Israel-Palestina', 'LOCAL'), ('Darfur', 'LOCAL'), ('Birmânia', 'LOCAL'), ('Congo', 'LOCAL'), ('Ruanda', 'LOCAL'), ('Singapura', 'LOCAL'), ('Indonésia', 'LOCAL'), ('Tibete', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+" Pequena Notável " ou a " Brazilian Bombshell "
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pequena Notável",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Brazilian Bombshell",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pequena Notável",
+    "label": "OBRA"
+  },
+  {
+    "text": "Brazilian Bombshell",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Pequena Notável', 'PESSOA'), ('Brazilian Bombshell', 'PESSOA')]
+Espúrias  (FP): [('Pequena Notável', 'OBRA'), ('Brazilian Bombshell', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Depois de ser exibida no Rio , chega a São Paulo a mostra Carmen Miranda para sempre , que será inaugurada hoje para convidados e amanhã para o público no Memorial da América Latina | Memorial da América Latina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rio",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Carmen Miranda para sempre",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "amanhã",
+    "label": "TEMPO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Memorial da América Latina",
+    "label": "LOCAL",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Memorial",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "América Latina",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Carmen Miranda para sempre",
+    "label": "OBRA"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "amanhã",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Memorial da América Latina",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Carmen Miranda para sempre', 'ACONTECIMENTO'), ('Memorial', 'LOCAL'), ('América Latina', 'LOCAL')]
+Espúrias  (FP): [('Carmen Miranda para sempre', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fotos, roupas (algumas são releituras contemporâneas de seu estilo), objetos, são mais de 700 peças reunidas (além de filmes e músicas) para contar a história da " Pequena Notável " ou a " Brazilian Bombshell " - não há no mundo quem não conheça essa genial estrela que conquistou o Brasil , a Broadway e Hollywood .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "mais de 700",
+    "label": "VALOR",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Pequena Notável",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Brazilian Bombshell",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "PESSOA",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Broadway",
+    "label": "PESSOA",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Hollywood",
+    "label": "PESSOA",
+    "token_indices": [
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pequena Notável",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Brazilian Bombshell",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Broadway",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hollywood",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('mais de 700', 'VALOR'), ('Brasil', 'PESSOA'), ('Broadway', 'PESSOA'), ('Hollywood', 'PESSOA')]
+Espúrias  (FP): [('Brasil', 'LOCAL'), ('Broadway', 'LOCAL'), ('Hollywood', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A imagem recorrente que vem à cabeça é a da baiana com badulaques na cabeça sempre sorridente - ela se apresentava com nada menos que 20 quilos sobre o corpo, entre roupas e acessórios, e uma plataforma de 15 cm de altura. Carmen Miranda ( 1909-1955 ) "nasceu personagem, era uma artista" , como diz o jornalista e escritor Ruy Castro , que há pouco lançou uma biografia sobre a estrela. Apesar do enorme sucesso conquistado a partir do fim da década de 1930 nos EUA , para Ruy Castro a fase da artista no Brasil é a que precisa ser "urgentemente conhecida pelo público brasileiro". Ele, que fez consultoria dos textos presentes na mostra, vai realizar uma palestra gratuita na sexta-feira , , às 19h30 , sobre a vida e a obra da artista na Biblioteca Victor Civita , no Memorial .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "20 quilos",
+    "label": "VALOR",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "15 cm",
+    "label": "VALOR",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Carmen Miranda",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "1909-1955",
+    "label": "TEMPO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Ruy Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      59,
+      60
+    ]
+  },
+  {
+    "text": "a partir do fim da década de 1930",
+    "label": "TEMPO",
+    "token_indices": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Ruy Castro",
+    "label": "PESSOA",
+    "token_indices": [
+      88,
+      89
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "na sexta-feira",
+    "label": "TEMPO",
+    "token_indices": [
+      120,
+      121
+    ]
+  },
+  {
+    "text": "às 19h30",
+    "label": "TEMPO",
+    "token_indices": [
+      124,
+      125
+    ]
+  },
+  {
+    "text": "Biblioteca Victor Civita",
+    "label": "LOCAL",
+    "token_indices": [
+      136,
+      137,
+      138
+    ]
+  },
+  {
+    "text": "Memorial",
+    "label": "LOCAL",
+    "token_indices": [
+      141
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carmen Miranda",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1909-1955",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Ruy Castro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "há pouco",
+    "label": "TEMPO"
+  },
+  {
+    "text": "a partir do fim da década de 1930",
+    "label": "TEMPO"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ruy Castro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "na sexta-feira",
+    "label": "TEMPO"
+  },
+  {
+    "text": "às 19h",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Museu Nacional de Belas Artes",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('20 quilos', 'VALOR'), ('15 cm', 'VALOR'), ('Brasil', 'LOCAL'), ('às 19h30', 'TEMPO'), ('Biblioteca Victor Civita', 'LOCAL'), ('Memorial', 'LOCAL')]
+Espúrias  (FP): [('há pouco', 'TEMPO'), ('às 19h', 'TEMPO'), ('Museu Nacional de Belas Artes', 'LOCAL'), ('São Paulo', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Carmen Miranda para sempre é um projeto que vem sendo realizado há mais de dois anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carmen Miranda para sempre",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "há mais de dois anos",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "há mais de dois anos",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Carmen Miranda para sempre', 'ACONTECIMENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Com curadoria de Fabiano Canosa , a mostra feita com peças da própria coleção de Canosa , do Museu Carmen Miranda (inaugurado em 1976 ) e da família da artista, tem percurso cronológico e está dividida em núcleos. Inicia com o nascimento em Portugal e inclui imagens de sua família. Depois, vem a fase brasileira, "quando ela era a rainha do disco, do rádio, do cineteatro e fez filmes que estão quase todos destruídos, uma tragédia". Um dos únicos que restaram é Alô, Alô Carnaval , de 1936 , que Carmen fez ao lado de sua irmã Aurora , morta em dezembro - como conta o curador. Não era ainda a Carmen Miranda dos badulaques. Era uma "mulher art déco dos anos 30 ", como diz Canosa , que usava calças, ternos e vestidos belos - em particular, há uma sala especial com retratos da artista feitos em 1931 , em Buenos Aires , pela alemã Annemarie Heinrich .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fabiano Canosa",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Canosa",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Museu Carmen Miranda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "em 1976",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Alô, Alô Carnaval",
+    "label": "OBRA",
+    "token_indices": [
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "text": "de 1936",
+    "label": "TEMPO",
+    "token_indices": [
+      86,
+      87
+    ]
+  },
+  {
+    "text": "Carmen",
+    "label": "PESSOA",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Aurora",
+    "label": "PESSOA",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "em dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      100,
+      101
+    ]
+  },
+  {
+    "text": "Carmen Miranda",
+    "label": "PESSOA",
+    "token_indices": [
+      111,
+      112
+    ]
+  },
+  {
+    "text": "dos anos 30",
+    "label": "TEMPO",
+    "token_indices": [
+      120,
+      121,
+      122
+    ]
+  },
+  {
+    "text": "Canosa",
+    "label": "PESSOA",
+    "token_indices": [
+      126
+    ]
+  },
+  {
+    "text": "em 1931",
+    "label": "TEMPO",
+    "token_indices": [
+      147,
+      148
+    ]
+  },
+  {
+    "text": "Buenos Aires",
+    "label": "LOCAL",
+    "token_indices": [
+      151,
+      152
+    ]
+  },
+  {
+    "text": "Annemarie Heinrich",
+    "label": "PESSOA",
+    "token_indices": [
+      156,
+      157
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fabiano Canosa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Canosa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Museu Carmen Miranda",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1976",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alô, Alô Carnaval",
+    "label": "OBRA"
+  },
+  {
+    "text": "de 1936",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Carmen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Aurora",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em dezembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Carmen Miranda', 'PESSOA'), ('dos anos 30', 'TEMPO'), ('Canosa', 'PESSOA'), ('em 1931', 'TEMPO'), ('Buenos Aires', 'LOCAL'), ('Annemarie Heinrich', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E foi durante uma de suas apresentações no Cassino da Urca | Cassino da Urca , no Rio , em 1939 , que o produtor americano Lee Shubert viu Carmen e se encantou. Levou-a para a Broadway e o sucesso foi inevitável. Ela, com o Bando da Lua , ficou consagrada já no início com o espetáculo The Streets of Paris .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cassino da Urca",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Cassino",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Urca",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "em 1939",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Lee Shubert",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Carmen",
+    "label": "PESSOA",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Broadway",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Bando da Lua",
+    "label": "PESSOA",
+    "token_indices": [
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "The Streets of Paris",
+    "label": "OBRA",
+    "token_indices": [
+      57,
+      58,
+      59,
+      60
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cassino da Urca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cassino da Urca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1939",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lee Shubert",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carmen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Broadway",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bando da Lua",
+    "label": "PESSOA"
+  },
+  {
+    "text": "The Streets of Paris",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Cassino', 'LOCAL'), ('Urca', 'LOCAL'), ('Broadway', 'ORGANIZACAO')]
+Espúrias  (FP): [('Cassino da Urca', 'LOCAL'), ('Broadway', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Daí em diante, tornou-se uma das maiores celebridades que o mundo já conheceu.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Daí em diante",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Daí em diante', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Carmen Miranda para sempre .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carmen Miranda para sempre",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carmen Miranda",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Carmen Miranda para sempre', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Carmen Miranda', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Memorial da América Latina | Memorial da América Latina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Memorial da América Latina",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Memorial",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "América Latina",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Memorial da América Latina",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Memorial', 'LOCAL'), ('América Latina', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Av. Auro Soares de Moura Andrade , 664, 3823-4741. 9h/18h (fecha 2.ª ). Grátis. Até 16/4 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Av. Auro Soares de Moura Andrade",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "9h/18h",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "2.ª",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Até 16/4",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Av. Auro Soares de Moura Andrade",
+    "label": "LOCAL"
+  },
+  {
+    "text": "664",
+    "label": "VALOR"
+  },
+  {
+    "text": "3823-4741",
+    "label": "VALOR"
+  },
+  {
+    "text": "9h/18h",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2.ª",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Até 16/4",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('664', 'VALOR'), ('3823-4741', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+New York, New York | New York , New York
+
+Entidades verdadeiras:
+[
+  {
+    "text": "New York, New York",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "New York",
+    "label": "LOCAL",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "New York",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "New York",
+    "label": "LOCAL"
+  },
+  {
+    "text": "New York",
+    "label": "LOCAL"
+  },
+  {
+    "text": "New York",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('New York, New York', 'OBRA')]
+Espúrias  (FP): [('New York', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+No mês passado , o presidente da Câmara de Nova Iorque | presidente da Câmara de Nova Iorque | presidente da Câmara de Nova Iorque , Michael Bloomberg , decidiu entregar o cartão de militante do Partido Conservador .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "No mês passado",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "presidente da Câmara de Nova Iorque",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Nova Iorque",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Câmara de Nova Iorque",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Michael Bloomberg",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Partido Conservador",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "No mês passado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "presidente da Câmara de Nova Iorque",
+    "label": "PESSOA"
+  },
+  {
+    "text": "presidente da Câmara",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Nova Iorque",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Michael Bloomberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Partido Conservador",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Câmara', 'ORGANIZACAO'), ('Câmara de Nova Iorque', 'ORGANIZACAO')]
+Espúrias  (FP): [('presidente da Câmara', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+E se ele avançar, as mais recentes sondagens indicam que o boletim de voto das eleições de 2008 podem ter três rostos ligados à " Big Apple ": Hillary Clinton , senadora pelo estado de Nova Iorque , Rudy Giuliani , o republicano que já foi presidente da Câmara | presidente da Câmara da cidade, e Michael Bloomberg , o homem que sucedeu a Giuliani no cargo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Big Apple",
+    "label": "LOCAL",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Hillary Clinton",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Nova Iorque",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Rudy Giuliani",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "presidente da Câmara",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Michael Bloomberg",
+    "label": "PESSOA",
+    "token_indices": [
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Giuliani",
+    "label": "PESSOA",
+    "token_indices": [
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "de 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Big Apple",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hillary Clinton",
+    "label": "PESSOA"
+  },
+  {
+    "text": "senadora pelo estado de Nova Iorque",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rudy Giuliani",
+    "label": "PESSOA"
+  },
+  {
+    "text": "presidente da Câmara",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Câmara",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Michael Bloomberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Giuliani",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Nova Iorque', 'LOCAL'), ('Câmara', 'ORGANIZACAO')]
+Espúrias  (FP): [('senadora pelo estado de Nova Iorque', 'PESSOA'), ('Câmara', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este cenário deverá irritar solenemente a classe política de cidades como Boston , St. Louis , Chicago , ou Los Angeles , que nunca viram com agrado a intromissão de políticos nova-iorquinos nos assuntos presidenciais. Aliás, os últimos sete presidentes eleitos vieram de regiões no Sul ou do Oeste , e ser oriundo do Nordeste americano passou a ser quase considerado uma garantia de derrota eleitoral (que o digam Dukakis ou Kerry ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Boston",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "St. Louis",
+    "label": "LOCAL",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Los Angeles",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Oeste",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Nordeste",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Dukakis",
+    "label": "PESSOA",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "Kerry",
+    "label": "PESSOA",
+    "token_indices": [
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Boston",
+    "label": "LOCAL"
+  },
+  {
+    "text": "St. Louis",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Chicago",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Los Angeles",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Dukakis",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Kerry",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Sul', 'LOCAL'), ('Oeste', 'LOCAL'), ('Nordeste', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Como recordava um artigo num recente número da revista New Yorker , Nova Iorque já não via uma coisa assim desde 1951 , quando, no campeonato de basebol, as equipas de Brooklin Dodgers e dos New York Giants disputaram o "play off" para decidir quem iria à final com os New York Yankees (que acabaram vencedores da " World Séries ").
+
+Entidades verdadeiras:
+[
+  {
+    "text": "New Yorker",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Nova Iorque",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "desde 1951",
+    "label": "TEMPO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Brooklin Dodgers",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "New York Giants",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "New York Yankees",
+    "label": "PESSOA",
+    "token_indices": [
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "World Séries",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "New Yorker",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Nova Iorque",
+    "label": "LOCAL"
+  },
+  {
+    "text": "desde 1951",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Brooklin Dodgers",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "New York Giants",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "New York Yankees",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "World Séries",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('New Yorker', 'LOCAL'), ('Nova Iorque', 'PESSOA'), ('New York Yankees', 'PESSOA')]
+Espúrias  (FP): [('New Yorker', 'ABSTRACCAO'), ('Nova Iorque', 'LOCAL'), ('New York Yankees', 'ORGANIZACAO')]

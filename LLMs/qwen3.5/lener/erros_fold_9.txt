@@ -1,0 +1,7232 @@
+--------------------------------------------------------------------------------
+Texto:
+Ementa e Acórdão 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR : MIN . MARCO AURÉLIO REQTE .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "08/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "PARANÁ",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "08/03/2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'JURISPRUDENCIA'), ('PARANÁ', 'LOCAL')]
+Espúrias  (FP): [('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( S ) : GOVERNADOR DO ESTADO DO PARANÁ ADV . ( A/S ) : PGE-PR - SÉRGIO BOTTO DE LACERDA E OUTRO ( A / S ) INTDO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO PARANÁ",
+    "label": "LOCAL",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "PGE-PR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "SÉRGIO BOTTO DE LACERDA",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DO PARANÁ",
+    "label": "LOCAL"
+  },
+  {
+    "text": "SÉRGIO BOTTO DE LACERDA",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PGE-PR', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Precedentes : ações diretas de inconstitucionalidade nº 2.192/ES , relator o ministro Ricardo Lewandowski , e nº 341/PR , relator o ministro Eros Grau , acórdãos publicados , respectivamente , no Diário da Justiça de 20 de junho de 2008 e 19 de setembro de 2011 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ações diretas de inconstitucionalidade nº 2.192/ES",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Ricardo Lewandowski",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "nº 341/PR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Eros Grau",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "20 de junho de 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "19 de setembro de 2011",
+    "label": "TEMPO",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ações diretas de inconstitucionalidade nº 2.192/ES",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Ricardo Lewandowski",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Eros Grau",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Diário da Justiça",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "20 de junho de 2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "19 de setembro de 2011",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('nº 341/PR', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Diário da Justiça', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 8 189 Relatório 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR : MIN . MARCO AURÉLIO REQTE .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "08/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "PARANÁ",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "08/03/2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'JURISPRUDENCIA'), ('PARANÁ', 'LOCAL')]
+Espúrias  (FP): [('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( A / S ) : ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ R E L A T Ó R I O O SENHOR MINISTRO MARCO AURÉLIO – O Gabinete prestou as seguintes informações : O Governador do Estado do Paraná questiona a constitucionalidade da Lei Complementar nº 116 , de 30 de junho de 2006 , daquele Estado , de origem parlamentar , que ” introduz dispositivo interpretativo sobre a natureza jurídica das Quotas e Produtividade devidas aos Auditores Fiscais da Coordenação da Receita do Estado , previstas na Lei Complementar nº 92 , de 5 de julho de 2002 ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Lei Complementar nº 116",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Coordenação da Receita do Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81,
+      82,
+      83,
+      84,
+      85
+    ]
+  },
+  {
+    "text": "Lei Complementar nº 92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "text": "5 de julho de 2002",
+    "label": "TEMPO",
+    "token_indices": [
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lei Complementar nº 116",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Coordenação da Receita do Estado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei Complementar nº 92",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "5 de julho de 2002",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Estado do Paraná', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Eis o teor da lei impugnada : Art . 1º As Quotas de Produtividade , que compõem o prêmio de produtividade , a que se refere o art . 66 da Lei Complementar nº 92 , de 05 de julho de 2002 , devidas aos Auditores Fiscais da Coordenação da Receita do Estado , a qualquer título , constituem parcela de sua remuneração e por isso , incorporam-se aos proventos de aposentadoria e são extensivas aos auditores fiscais aposentados e seus pensionistas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 66 da Lei Complementar nº 92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "05 de julho de 2002",
+    "label": "TEMPO",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Coordenação da Receita do Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 66 da Lei Complementar nº 92",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "05 de julho de 2002",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Coordenação da Receita do Estado', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ RELATOR : MIN . MARCO AURÉLIO REQTE .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "08/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "PARANÁ",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "08/03/2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'JURISPRUDENCIA'), ('PARANÁ', 'LOCAL')]
+Espúrias  (FP): [('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( A / S ) : ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ R E L A T Ó R I O O SENHOR MINISTRO MARCO AURÉLIO – O Gabinete prestou as seguintes informações : O Governador do Estado do Paraná questiona a constitucionalidade da Lei Complementar nº 116 , de 30 de junho de 2006 , daquele Estado , de origem parlamentar , que ” introduz dispositivo interpretativo sobre a natureza jurídica das Quotas e Produtividade devidas aos Auditores Fiscais da Coordenação da Receita do Estado , previstas na Lei Complementar nº 92 , de 5 de julho de 2002 ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Lei Complementar nº 116",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Lei Complementar nº 92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "text": "5 de julho de 2002",
+    "label": "TEMPO",
+    "token_indices": [
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lei Complementar nº 116",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Coordenação da Receita do Estado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei Complementar nº 92",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "5 de julho de 2002",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Estado do Paraná', 'LOCAL')]
+Espúrias  (FP): [('Coordenação da Receita do Estado', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eis o teor da lei impugnada : Art . 1º As Quotas de Produtividade , que compõem o prêmio de produtividade , a que se refere o art . 66 da Lei Complementar nº 92 , de 05 de julho de 2002 , devidas aos Auditores Fiscais da Coordenação da Receita do Estado , a qualquer título , constituem parcela de sua remuneração e por isso , incorporam-se aos proventos de aposentadoria e são extensivas aos auditores fiscais aposentados e seus pensionistas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 66 da Lei Complementar nº 92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "05 de julho de 2002",
+    "label": "TEMPO",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Coordenação da Receita do Estado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 66 da Lei Complementar nº 92",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "05 de julho de 2002",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Coordenação da Receita do Estado', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+À folha 162 à 172 , a Advocacia-Geral da União aduz caber2 Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001 , que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Advocacia-Geral da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "24/08/2001",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Infraestrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Advocacia-Geral da União",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Infraestrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('24/08/2001', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Defende que , mesmo com a reforma previdenciária promovida pela Emenda Constitucional nº 41 , de 2003 , o instituto continua assegurado pelo princípio da isonomia , pelo artigo 35 , § 8º , da Constituição estadual e pelo artigo 56 da Lei Complementar estadual nº 92 , de 2002 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Emenda Constitucional nº 41",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "2003",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "artigo 35 , § 8º , da Constituição estadual",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "artigo 56 da Lei Complementar estadual nº 92",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "2002",
+    "label": "TEMPO",
+    "token_indices": [
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Emenda Constitucional nº 41",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "artigo 35 , § 8º , da Constituição estadual",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "artigo 56 da Lei Complementar estadual nº 92",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "2002",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Emenda Constitucional nº 41', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Emenda Constitucional nº 41', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+À folha 162 à 172 , a Advocacia-Geral da União aduz caber2 Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001 , que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Advocacia-Geral da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "24/08/2001",
+    "label": "TEMPO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Infraestrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Advocacia-Geral da União",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Infraestrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('24/08/2001', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Inteiro Teor do Acórdão - Página 4 de 8 192 Voto - MIN . MARCO AURÉLIO 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO ( RELATOR ) – Inicialmente , consigno a impropriedade da manifestação do AdvogadoGeral da União .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "08/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "PARANÁ",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "8/8",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PLENO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('08/03/2018', 'TEMPO'), ('PLENÁRIO', 'ORGANIZACAO'), ('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'JURISPRUDENCIA'), ('PARANÁ', 'LOCAL'), ('MARCO AURÉLIO', 'PESSOA')]
+Espúrias  (FP): [('8/8', 'TEMPO'), ('PLENO', 'ORGANIZACAO'), ('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+] § 3º – Quando o Supremo Tribunal Federal apreciar a inconstitucionalidade , em tese , de norma legal ou ato normativo , citará , previamente , o Advogado-Geral da União , que defenderá o ato ou texto impugnado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Advogado-Geral da União",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO')]
+Espúrias  (FP): [('Advogado-Geral da União', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cumpre ao Advogado-Geral da União , ante a norma imperativa , defender o ato .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Advogado-Geral da União",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO')]
+Espúrias  (FP): [('Advogado-Geral da União', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Menciono , a título exemplificativo , o julgamento da Ação Rescisória nº 1.536 , relatora ministra Cármen Lúcia , acórdão publicado em 6 de setembro de 2007 , a versar sobre situação Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001 , que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Rescisória nº 1.536",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Cármen Lúcia",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "6 de setembro de 2007",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "24/08/2001",
+    "label": "TEMPO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Infraestrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cármen Lúcia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "6 de setembro de 2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "24/08/2001",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Infraestrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Ação Rescisória nº 1.536', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Supremo Tribunal Federal 08/03/2018 PLENÁRIO AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ V O T O O SENHOR MINISTRO MARCO AURÉLIO ( RELATOR ) – Inicialmente , consigno a impropriedade da manifestação do AdvogadoGeral da União .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "08/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "PARANÁ",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "08/03/2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'JURISPRUDENCIA'), ('PARANÁ', 'LOCAL'), ('União', 'ORGANIZACAO')]
+Espúrias  (FP): [('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PARANÁ', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+] § 3º – Quando o Supremo Tribunal Federal apreciar a inconstitucionalidade , em tese , de norma legal ou ato normativo , citará , previamente , o Advogado-Geral da União , que defenderá o ato ou texto impugnado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Advogado-Geral da União",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO')]
+Espúrias  (FP): [('Advogado-Geral da União', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cumpre ao Advogado-Geral da União , ante a norma imperativa , defender o ato .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Advogado-Geral da União",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO')]
+Espúrias  (FP): [('Advogado-Geral da União', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Menciono , a título exemplificativo , o julgamento da Ação Rescisória nº 1.536 , relatora ministra Cármen Lúcia , acórdão publicado em 6 de setembro de 2007 , a versar sobre situação Supremo Tribunal Federal Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001 , que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ação Rescisória nº 1.536",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Cármen Lúcia",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "6 de setembro de 2007",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "24/08/2001",
+    "label": "TEMPO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Infraestrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cármen Lúcia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "6 de setembro de 2007",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "24/08/2001",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Infraestrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Ação Rescisória nº 1.536', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DE SÃO PAULO",
+    "label": "LOCAL",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DE SÃO PAULO",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('ESTADO DE SÃO PAULO', 'LOCAL')]
+Espúrias  (FP): [('ESTADO DE SÃO PAULO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+LEI COMPLEMENTAR N . 567/88 , § 3º DO ART . 7º .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LEI COMPLEMENTAR N . 567/88 , § 3º DO ART . 7º",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "LEI COMPLEMENTAR N . 567/88",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('LEI COMPLEMENTAR N . 567/88 , § 3º DO ART . 7º', 'LEGISLACAO')]
+Espúrias  (FP): [('LEI COMPLEMENTAR N . 567/88', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+AGENTES FISCAIS DE RENDAS INATIVOS DO ESTADO DE SÃO PAULO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DE SÃO PAULO",
+    "label": "LOCAL",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DE SÃO PAULO",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('ESTADO DE SÃO PAULO', 'LOCAL')]
+Espúrias  (FP): [('ESTADO DE SÃO PAULO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+LEI COMPLEMENTAR N . 567/88 , § 3º DO ART . 7º .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LEI COMPLEMENTAR N . 567/88 , § 3º DO ART . 7º",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "LEI COMPLEMENTAR N . 567/88",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('LEI COMPLEMENTAR N . 567/88 , § 3º DO ART . 7º', 'LEGISLACAO')]
+Espúrias  (FP): [('LEI COMPLEMENTAR N . 567/88', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Logo , a Assembleia Legislativa do Estado do Paraná deve adotar o disposto na Lei Fundamental quanto à reserva de iniciativa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Assembleia Legislativa do Estado do Paraná",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Lei Fundamental",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Assembleia Legislativa do Estado do Paraná",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lei Fundamental', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ante o quadro , julgo procedente o pedido para declarar a inconstitucionalidade da Lei Complementar nº 116 , de 30 de junho de 2006 , do Estado do Paraná .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Complementar nº 116",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Complementar nº 116",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estado do Paraná', 'LOCAL')]
+Espúrias  (FP): [('Estado do Paraná', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Logo , a Assembleia Legislativa do Estado do Paraná deve adotar o disposto na Lei Fundamental quanto à reserva de iniciativa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Assembleia Legislativa do Estado do Paraná",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Lei Fundamental",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Assembleia Legislativa do Estado do Paraná",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Lei Fundamental', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ante o quadro , julgo procedente o pedido para declarar a inconstitucionalidade da Lei Complementar nº 116 , de 30 de junho de 2006 , do Estado do Paraná .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Complementar nº 116",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei Complementar nº 116",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estado do Paraná', 'LOCAL')]
+Espúrias  (FP): [('Estado do Paraná', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Inteiro Teor do Acórdão - Página 7 de 8 195 Extrato de Ata - 08/03/2018 PLENÁRIO EXTRATO DE ATA AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767 PROCED .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "08/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PLENO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "8/03/2018",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('08/03/2018', 'TEMPO'), ('PLENÁRIO', 'ORGANIZACAO'), ('AÇÃO DIRETA DE INCONSTITUCIONALIDADE 3.767', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('PLENO', 'ORGANIZACAO'), ('8/03/2018', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+( A/S ) : ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ Decisão : O Tribunal , por unanimidade e nos termos do voto do Relator , julgou procedente o pedido para declarar a inconstitucionalidade da Lei Complementar 116 , de 30 de junho de 2006 , do Estado do Paraná .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Lei Complementar 116",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LOCAL",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei Complementar 116",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estado do Paraná', 'LOCAL')]
+Espúrias  (FP): [('Estado do Paraná', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+( A/S ) : ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ Decisão : O Tribunal , por unanimidade e nos termos do voto do Relator , julgou procedente o pedido para declarar a inconstitucionalidade da Lei Complementar 116 , de 30 de junho de 2006 , do Estado do Paraná .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Lei Complementar 116",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARANÁ",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lei Complementar 116",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "30 de junho de 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Estado do Paraná",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estado do Paraná', 'LEGISLACAO')]
+Espúrias  (FP): [('Estado do Paraná', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ementa e Acórdão 16/03/2018 PLENÁRIO A G .REG .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "16/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16/03/2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('PLENÁRIO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+NO HABEAS CORPUS 151.914 ESPÍRITO SANTO RELATOR : MIN . ALEXANDRE DE MORAES AGTE . ( S ) : LOPO MEIRELES JUNIOR AGTE . ( S ) : GLAUCO JABOUR MEIRELLES ADV . ( A / S ) : ARLETE BARRETO DE ARAUJO SILVEIRA E OUTRO ( A / S ) AGDO . ( A / S ) : RELATOR DO ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL EMENTA : AGRAVO REGIMENTAL EM HABEAS CORPUS .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "ARE N º 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA"
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ARE N º 1.048.950', 'JURISPRUDENCIA'), ('SUPREMO TRIBUNAL FEDERAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Incidência , por analogia , da Súmula 606/STF ( cf. HC 137.701- AgR , Rel . Min . DIAS TOFFOLI , Tribunal Pleno , Dje de 13/3/2017 ; HC 136.097-AgR , Rel . Min . LUIZ FUX , Tribunal Pleno , Dje de 3/11/2016 ; HC 132.400-AgR , Rel . Min . ROSA WEBER , Tribunal Pleno , DJe de 6/9/2016 e HC 97.009 , Rel . Min . MARCO AURÉLIO , Rel . p/ Acórdão : Min . TEORI ZAVASCKI , Tribunal Pleno , DJe de 4/4/2014 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Súmula 606/STF",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "HC 137.701- AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "DIAS TOFFOLI",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "13/3/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "HC 136.097-AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "LUIZ FUX",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "3/11/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "HC 132.400-AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "ROSA WEBER",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "6/9/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "HC 97.009",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      69,
+      70
+    ]
+  },
+  {
+    "text": "TEORI ZAVASCKI",
+    "label": "PESSOA",
+    "token_indices": [
+      79,
+      80
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      82,
+      83
+    ]
+  },
+  {
+    "text": "4/4/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      87
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Súmula 606/STF', 'JURISPRUDENCIA'), ('HC 137.701- AgR', 'JURISPRUDENCIA'), ('DIAS TOFFOLI', 'PESSOA'), ('Tribunal Pleno', 'ORGANIZACAO'), ('13/3/2017', 'TEMPO'), ('HC 136.097-AgR', 'JURISPRUDENCIA'), ('LUIZ FUX', 'PESSOA'), ('Tribunal Pleno', 'ORGANIZACAO'), ('3/11/2016', 'TEMPO'), ('HC 132.400-AgR', 'JURISPRUDENCIA'), ('ROSA WEBER', 'PESSOA'), ('Tribunal Pleno', 'ORGANIZACAO'), ('6/9/2016', 'TEMPO'), ('HC 97.009', 'JURISPRUDENCIA'), ('MARCO AURÉLIO', 'PESSOA'), ('TEORI ZAVASCKI', 'PESSOA'), ('Tribunal Pleno', 'ORGANIZACAO'), ('4/4/2014', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Supremo Tribunal Federal Inteiro Teor do Acórdão - Página 1 de 9 Ementa e Acórdão HC 151914 A GR / ES Brasília , 16 de março de 2018 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "HC 151914 A GR / ES",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "16 de março de 2018",
+    "label": "TEMPO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCAL"
+  },
+  {
+    "text": "16 de março de 2018",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('HC 151914 A GR / ES', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Supremo Tribunal Federal HC 151914 A GR / ES Brasília , 16 de março de 2018 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "HC 151914 A GR / ES",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "16 de março de 2018",
+    "label": "TEMPO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "HC 151914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCAL"
+  },
+  {
+    "text": "16 de março de 2018",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('HC 151914 A GR / ES', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('HC 151914', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+NO HABEAS CORPUS 151.914 ESPÍRITO SANTO RELATOR : MIN . ALEXANDRE DE MORAES AGTE . ( S ) : LOPO MEIRELES JUNIOR AGTE . ( S ) : GLAUCO JABOUR MEIRELLES ADV . ( A / S ) : ARLETE BARRETO DE ARAUJO SILVEIRA E OUTRO ( A / S ) AGDO . ( A / S ) : RELATOR DO ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL R E L A T Ó R I O O SENHOR MINISTRO ALEXANDRE DE MORAES ( RELATOR ) : Trata-se de agravo regimental interposto contra decisão que , com fundamento na Súmula 606/STF , negou seguimento ao habeas corpus , por se tratar de impetração dirigida a ato de Ministro do Supremo Tribunal Federal ( Recurso Extraordinário com Agravo 1.048.950 , Rel . Min . GILMAR MENDES ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "ARE N º 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "Súmula 606/STF",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      100,
+      101
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      120,
+      121,
+      122
+    ]
+  },
+  {
+    "text": "Recurso Extraordinário com Agravo 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      124,
+      125,
+      126,
+      127,
+      128
+    ]
+  },
+  {
+    "text": "GILMAR MENDES",
+    "label": "PESSOA",
+    "token_indices": [
+      134,
+      135
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA"
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ARE N º 1.048.950', 'JURISPRUDENCIA'), ('SUPREMO TRIBUNAL FEDERAL', 'ORGANIZACAO'), ('ALEXANDRE DE MORAES', 'PESSOA'), ('Súmula 606/STF', 'JURISPRUDENCIA'), ('Supremo Tribunal Federal', 'ORGANIZACAO'), ('Recurso Extraordinário com Agravo 1.048.950', 'JURISPRUDENCIA'), ('GILMAR MENDES', 'PESSOA')]
+Espúrias  (FP): [('ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Consta dos autos que os agravantes foram condenados pela prática dos delitos previstos nas sanções do artigo 121 , § 2º , incisos I e IV , c.c o art . 29 , na forma do art . 14 , II , todos do Código Penal ( homicídio qualificado tentado ) ; e art . 121 , § 2º , incisos I e IV , c/c o art . 29 , ambos do Código Penal ( homicídio consumado ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 121 , § 2º , incisos I e IV , c.c o art . 29 , na forma do art . 14 , II , todos do Código Penal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "art . 121 , § 2º , incisos I e IV , c/c o art . 29 , ambos do Código Penal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 121 , § 2º , incisos I e IV , c.c o art . 29 , na forma do art . 14 , II , todos do Código Penal",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "art . 121 , § 2º , incisos I e IV , c/c o art . 29 , ambos do Código Penal",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('artigo 121 , § 2º , incisos I e IV , c.c o art . 29 , na forma do art . 14 , II , todos do Código Penal', 'LEGISLACAO')]
+Espúrias  (FP): [('art . 121 , § 2º , incisos I e IV , c.c o art . 29 , na forma do art . 14 , II , todos do Código Penal', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Supremo Tribunal Federal 16/03/2018 PLENÁRIO A G .REG .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "16/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "16/03/2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('PLENÁRIO', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+NO HABEAS CORPUS 151.914 ESPÍRITO SANTO RELATOR : MIN . ALEXANDRE DE MORAES AGTE . ( S ) : LOPO MEIRELES JUNIOR AGTE . ( S ) : GLAUCO JABOUR MEIRELLES ADV . ( A / S ) : ARLETE BARRETO DE ARAUJO SILVEIRA E OUTRO ( A / S ) AGDO . ( A / S ) : RELATOR DO ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL R E L A T Ó R I O O SENHOR MINISTRO ALEXANDRE DE MORAES ( RELATOR ) : Trata-se de agravo regimental interposto contra decisão que , com fundamento na Súmula 606/STF , negou seguimento ao habeas corpus , por se tratar de impetração dirigida a ato de Ministro do Supremo Tribunal Federal ( Recurso Extraordinário com Agravo 1.048.950 , Rel . Min . GILMAR MENDES ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "ARE N º 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "Súmula 606/STF",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      100,
+      101
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      120,
+      121,
+      122
+    ]
+  },
+  {
+    "text": "Recurso Extraordinário com Agravo 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      124,
+      125,
+      126,
+      127,
+      128
+    ]
+  },
+  {
+    "text": "GILMAR MENDES",
+    "label": "PESSOA",
+    "token_indices": [
+      134,
+      135
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA"
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ARE N º 1.048.950', 'JURISPRUDENCIA'), ('SUPREMO TRIBUNAL FEDERAL', 'ORGANIZACAO'), ('ALEXANDRE DE MORAES', 'PESSOA'), ('Súmula 606/STF', 'JURISPRUDENCIA'), ('Supremo Tribunal Federal', 'ORGANIZACAO'), ('Recurso Extraordinário com Agravo 1.048.950', 'JURISPRUDENCIA'), ('GILMAR MENDES', 'PESSOA')]
+Espúrias  (FP): [('ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Consta dos autos que os agravantes foram condenados pela prática dos delitos previstos nas sanções do artigo 121 , § 2º , incisos I e IV , c.c o art . 29 , na forma do art . 14 , II , todos do Código Penal ( homicídio qualificado tentado ) ; e art . 121 , § 2º , incisos I e IV , c/c o art . 29 , ambos do Código Penal ( homicídio consumado ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 121 , § 2º , incisos I e IV , c.c o art . 29 , na forma do art . 14 , II , todos do Código Penal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "art . 121 , § 2º , incisos I e IV , c/c o art . 29 , ambos do Código Penal",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 121 , § 2º , incisos I e IV , c.c o art . 29 , na forma do art . 14 , II , todos do Código Penal",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "art . 121 , § 2º , incisos I e IV , c/c o art . 29 , ambos do Código Penal",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('artigo 121 , § 2º , incisos I e IV , c.c o art . 29 , na forma do art . 14 , II , todos do Código Penal', 'LEGISLACAO')]
+Espúrias  (FP): [('art . 121 , § 2º , incisos I e IV , c.c o art . 29 , na forma do art . 14 , II , todos do Código Penal', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Inteiro Teor do Acórdão - Página 3 de 9 Relatório HC 151914 A GR / ES Nesta ação , a defesa reitera a nulidade do julgamento perante o Tribunal do Júri , decorrente da leitura da decisão de pronúncia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HC 151914 A GR / ES",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HC 151914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "GR / ES",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('HC 151914 A GR / ES', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('HC 151914', 'JURISPRUDENCIA'), ('GR / ES', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Requer , ao final , a retratação da decisão agravada ou o provimento do presente recurso , para anular o julgamento realizado perante o Tribunal do Júri , “ determinando que o juízo da Comarca de Marataízes/ES , proceda a novo julgamento dos pacientes em tela ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Comarca de Marataízes/ES",
+    "label": "LOCAL",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tribunal do Júri",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comarca de Marataízes/ES",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Tribunal do Júri', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Supremo Tribunal Federal HC 151914 A GR / ES Nesta ação , a defesa reitera a nulidade do julgamento perante o Tribunal do Júri , decorrente da leitura da decisão de pronúncia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "HC 151914 A GR / ES",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "HC 151914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "GR / ES",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('HC 151914 A GR / ES', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('HC 151914', 'JURISPRUDENCIA'), ('GR / ES', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Requer , ao final , a retratação da decisão agravada ou o provimento do presente recurso , para anular o julgamento realizado perante o Tribunal do Júri , “ determinando que o juízo da Comarca de Marataízes/ES , proceda a novo julgamento dos pacientes em tela ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Comarca de Marataízes/ES",
+    "label": "LOCAL",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tribunal do Júri",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comarca de Marataízes/ES",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Tribunal do Júri', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+NO HABEAS CORPUS 151.914 ESPÍRITO SANTO V O T O O SENHOR MINISTRO ALEXANDRE DE MORAES ( RELATOR ) : A decisão ora atacada não merece reparos , uma vez que a controvérsia foi resolvida nos termos da pacífica jurisprudência do SUPREMO TRIBUNAL FEDERAL , no sentido de que é inviável o conhecimento de habeas corpus impetrado contra decisão de Ministro ou de órgão colegiado deste Tribunal , inclusive quando proferidas em sede de procedimentos penais de competência originária do Supremo Tribunal Federal ( HC 133.091-AgR , Rel . Min . CELSO DE MELLO , Tribunal Pleno , DJe de 5/8/2016 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "HC 133.091-AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      84,
+      85
+    ]
+  },
+  {
+    "text": "CELSO DE MELLO",
+    "label": "PESSOA",
+    "token_indices": [
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      95,
+      96
+    ]
+  },
+  {
+    "text": "5/8/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      100
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HABEAS CORPUS 151.914 ESPÍRITO SANTO",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "HC 133.091-AgR",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "CELSO DE MELLO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "5/8/2016",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('HABEAS CORPUS 151.914', 'JURISPRUDENCIA'), ('ESPÍRITO SANTO', 'LOCAL'), ('Supremo Tribunal Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('HABEAS CORPUS 151.914 ESPÍRITO SANTO', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esta Corte firmou a orientação do não cabimento de habeas corpus contra ato de Ministro Relator ou contra decisão colegiada de Turma ou do Plenário do próprio Tribunal , independentemente de tal decisão haver sido proferida em sede de habeas corpus ou proferida em sede de recursos em geral ( Súmula 606 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Súmula 606",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Plenário', 'ORGANIZACAO')]
+Espúrias  (FP): [('Súmula 606', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Supremo Tribunal Federal 16/03/2018 PLENÁRIO A G .REG .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "16/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "16/03/2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('PLENÁRIO', 'ORGANIZACAO')]
+Espúrias  (FP): [('PLENÁRIO', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+NO HABEAS CORPUS 151.914 ESPÍRITO SANTO V O T O O SENHOR MINISTRO ALEXANDRE DE MORAES ( RELATOR ) : A decisão ora atacada não merece reparos , uma vez que a controvérsia foi resolvida nos termos da pacífica jurisprudência do SUPREMO TRIBUNAL FEDERAL , no sentido de que é inviável o conhecimento de habeas corpus impetrado contra decisão de Ministro ou de órgão colegiado deste Tribunal , inclusive quando proferidas em sede de procedimentos penais de competência originária do Supremo Tribunal Federal ( HC 133.091-AgR , Rel . Min . CELSO DE MELLO , Tribunal Pleno , DJe de 5/8/2016 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "HC 133.091-AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      84,
+      85
+    ]
+  },
+  {
+    "text": "CELSO DE MELLO",
+    "label": "PESSOA",
+    "token_indices": [
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      95,
+      96
+    ]
+  },
+  {
+    "text": "5/8/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      100
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HABEAS CORPUS 151.914 ESPÍRITO SANTO",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "HC 133.091-AgR",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "CELSO DE MELLO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "5/8/2016",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('HABEAS CORPUS 151.914', 'JURISPRUDENCIA'), ('ESPÍRITO SANTO', 'LOCAL'), ('Supremo Tribunal Federal', 'ORGANIZACAO')]
+Espúrias  (FP): [('HABEAS CORPUS 151.914 ESPÍRITO SANTO', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esta Corte firmou a orientação do não cabimento de habeas corpus contra ato de Ministro Relator ou contra decisão colegiada de Turma ou do Plenário do próprio Tribunal , independentemente de tal decisão haver sido proferida em sede de habeas corpus ou proferida em sede de recursos em geral ( Súmula 606 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Súmula 606",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Plenário', 'ORGANIZACAO')]
+Espúrias  (FP): [('Súmula 606', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+E ainda : HC 137.701-AgR , Rel . Min . DIAS TOFFOLI , Tribunal Pleno , Dje de 13/3/2017 ; HC 136.097-AgR , Rel . Min . LUIZ FUX , Tribunal Pleno , Dje de 3/11/2016 ; HC 132.400-AgR , Rel . Min . ROSA WEBER , Tribunal Pleno , DJe de 6/9/2016 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HC 137.701-AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "DIAS TOFFOLI",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "13/3/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "HC 136.097-AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "LUIZ FUX",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "3/11/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "HC 132.400-AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "ROSA WEBER",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47,
+      48
+    ]
+  },
+  {
+    "text": "6/9/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('HC 137.701-AgR', 'JURISPRUDENCIA'), ('DIAS TOFFOLI', 'PESSOA'), ('Tribunal Pleno', 'ORGANIZACAO'), ('13/3/2017', 'TEMPO'), ('HC 136.097-AgR', 'JURISPRUDENCIA'), ('LUIZ FUX', 'PESSOA'), ('Tribunal Pleno', 'ORGANIZACAO'), ('3/11/2016', 'TEMPO'), ('HC 132.400-AgR', 'JURISPRUDENCIA'), ('ROSA WEBER', 'PESSOA'), ('Tribunal Pleno', 'ORGANIZACAO'), ('6/9/2016', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Supremo Tribunal Federal HC 151914 A GR / ES MARCO AURÉLIO , Rel . p/ Acórdão : Min . TEORI ZAVASCKI , Tribunal Pleno , DJe de 4/4/2014 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "HC 151914 A GR / ES",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "TEORI ZAVASCKI",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "4/4/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "HC 151914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "TEORI ZAVASCKI",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "4/4/2014",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('HC 151914 A GR / ES', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('HC 151914', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+E ainda : HC 137.701-AgR , Rel . Min . DIAS TOFFOLI , Tribunal Pleno , Dje de 13/3/2017 ; HC 136.097-AgR , Rel . Min . LUIZ FUX , Tribunal Pleno , Dje de 3/11/2016 ; HC 132.400-AgR , Rel . Min . ROSA WEBER , Tribunal Pleno , DJe de 6/9/2016 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HC 137.701-AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "DIAS TOFFOLI",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "13/3/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "HC 136.097-AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "LUIZ FUX",
+    "label": "PESSOA",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "3/11/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "HC 132.400-AgR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "ROSA WEBER",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47,
+      48
+    ]
+  },
+  {
+    "text": "6/9/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('HC 137.701-AgR', 'JURISPRUDENCIA'), ('DIAS TOFFOLI', 'PESSOA'), ('Tribunal Pleno', 'ORGANIZACAO'), ('13/3/2017', 'TEMPO'), ('HC 136.097-AgR', 'JURISPRUDENCIA'), ('LUIZ FUX', 'PESSOA'), ('Tribunal Pleno', 'ORGANIZACAO'), ('3/11/2016', 'TEMPO'), ('HC 132.400-AgR', 'JURISPRUDENCIA'), ('ROSA WEBER', 'PESSOA'), ('Tribunal Pleno', 'ORGANIZACAO'), ('6/9/2016', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+NO HABEAS CORPUS 151.914 ESPÍRITO SANTO RELATOR : MIN . ALEXANDRE DE MORAES AGTE . ( S ) : LOPO MEIRELES JUNIOR AGTE . ( S ) : GLAUCO JABOUR MEIRELLES ADV . ( A / S ) : ARLETE BARRETO DE ARAUJO SILVEIRA E OUTRO ( A / S ) AGDO . ( A / S ) : RELATOR DO ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL V O T O O SENHOR MINISTRO CELSO DE MELLO : Com expressa ressalva da minha pessoal convicção em sentido radicalmente contrário à visão restritiva hoje prevalecente nesta Corte em torno da impetração da ação de “ habeas corpus ” , exposta em votos vencidos ( HC 91.207/RJ , HC 105.959/DF , v.g .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "ARE N º 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "CELSO DE MELLO",
+    "label": "PESSOA",
+    "token_indices": [
+      76,
+      77,
+      78
+    ]
+  },
+  {
+    "text": "HC 91.207/RJ",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      115,
+      116
+    ]
+  },
+  {
+    "text": "HC 105.959/DF",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      118,
+      119
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA"
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "CELSO DE MELLO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('ARE N º 1.048.950', 'JURISPRUDENCIA'), ('SUPREMO TRIBUNAL FEDERAL', 'ORGANIZACAO'), ('HC 91.207/RJ', 'JURISPRUDENCIA'), ('HC 105.959/DF', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Supremo Tribunal Federal 16/03/2018 PLENÁRIO A G .REG .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "16/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "16/03/2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('PLENÁRIO', 'ORGANIZACAO')]
+Espúrias  (FP): [('PLENÁRIO', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+NO HABEAS CORPUS 151.914 ESPÍRITO SANTO RELATOR : MIN . ALEXANDRE DE MORAES AGTE . ( S ) : LOPO MEIRELES JUNIOR AGTE . ( S ) : GLAUCO JABOUR MEIRELLES ADV . ( A / S ) : ARLETE BARRETO DE ARAUJO SILVEIRA E OUTRO ( A / S ) AGDO . ( A / S ) : RELATOR DO ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL V O T O O SENHOR MINISTRO CELSO DE MELLO : Com expressa ressalva da minha pessoal convicção em sentido radicalmente contrário à visão restritiva hoje prevalecente nesta Corte em torno da impetração da ação de “ habeas corpus ” , exposta em votos vencidos ( HC 91.207/RJ , HC 105.959/DF , v.g .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "ARE N º 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "CELSO DE MELLO",
+    "label": "PESSOA",
+    "token_indices": [
+      76,
+      77,
+      78
+    ]
+  },
+  {
+    "text": "HC 91.207/RJ",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      115,
+      116
+    ]
+  },
+  {
+    "text": "HC 105.959/DF",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      118,
+      119
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA"
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "CELSO DE MELLO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('ARE N º 1.048.950', 'JURISPRUDENCIA'), ('SUPREMO TRIBUNAL FEDERAL', 'ORGANIZACAO'), ('HC 91.207/RJ', 'JURISPRUDENCIA'), ('HC 105.959/DF', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+NO HABEAS CORPUS 151.914 ESPÍRITO SANTO RELATOR : MIN . ALEXANDRE DE MORAES AGTE . ( S ) : LOPO MEIRELES JUNIOR AGTE . ( S ) : GLAUCO JABOUR MEIRELLES ADV . ( A / S ) : ARLETE BARRETO DE ARAUJO SILVEIRA E OUTRO ( A / S ) AGDO . ( A / S ) : RELATOR DO ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL V O T O O SENHOR MINISTRO MARCO AURÉLIO O habeas corpus é ação constitucional voltada a preservar a liberdade de ir e vir do cidadão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "ARE N º 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      76,
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA"
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('ARE N º 1.048.950', 'JURISPRUDENCIA'), ('SUPREMO TRIBUNAL FEDERAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+NO HABEAS CORPUS 151.914 ESPÍRITO SANTO RELATOR : MIN . ALEXANDRE DE MORAES AGTE . ( S ) : LOPO MEIRELES JUNIOR AGTE . ( S ) : GLAUCO JABOUR MEIRELLES ADV . ( A / S ) : ARLETE BARRETO DE ARAUJO SILVEIRA E OUTRO ( A / S ) AGDO . ( A / S ) : RELATOR DO ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL V O T O O SENHOR MINISTRO MARCO AURÉLIO O habeas corpus é ação constitucional voltada a preservar a liberdade de ir e vir do cidadão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "ARE N º 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA",
+    "token_indices": [
+      76,
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HABEAS CORPUS 151.914",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA"
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARCO AURÉLIO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('ARE N º 1.048.950', 'JURISPRUDENCIA'), ('SUPREMO TRIBUNAL FEDERAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('ARE N º 1.048.950 DO SUPREMO TRIBUNAL FEDERAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Inteiro Teor do Acórdão - Página 8 de 9 Extrato de Ata - 16/03/2018 PLENÁRIO EXTRATO DE ATA AG.REG .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "16/03/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "PLENÁRIO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16/03/2018",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('PLENÁRIO', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+: ESPÍRITO SANTO RELATOR : MIN . ALEXANDRE DE MORAES AGTE . ( S ) : LOPO MEIRELES JUNIOR AGTE . ( S ) : GLAUCO JABOUR MEIRELLES ADV . ( A/S ) : ARLETE BARRETO DE ARAUJO SILVEIRA ( 448-A/ES , 4742/RJ ) E OUTRO ( A/S ) AGDO . ( A/S ) : RELATOR DO ARE Nº 1.048.950 DO SUPREMO TRIBUNAL FEDERAL Decisão : O Tribunal , por maioria , negou provimento ao agravo regimental , nos termos do voto do Relator .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "ARE Nº 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61,
+      62,
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA"
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARE Nº 1.048.950 DO SUPREMO TRIBUNAL FEDERAL",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ARE Nº 1.048.950', 'JURISPRUDENCIA'), ('SUPREMO TRIBUNAL FEDERAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('ARE Nº 1.048.950 DO SUPREMO TRIBUNAL FEDERAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+p/ Doralúcia das Neves Santos Assessora-Chefe do Plenário Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001 , que institui a Infra-estrutura de Chaves Públicas Brasileira - ICP-Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Doralúcia das Neves Santos",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "24/08/2001",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Infra-estrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Doralúcia das Neves Santos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "24/08/2001",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Infra-estrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Plenário', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+: ESPÍRITO SANTO RELATOR : MIN . ALEXANDRE DE MORAES AGTE . ( S ) : LOPO MEIRELES JUNIOR AGTE . ( S ) : GLAUCO JABOUR MEIRELLES ADV . ( A/S ) : ARLETE BARRETO DE ARAUJO SILVEIRA ( 448-A/ES , 4742/RJ ) E OUTRO ( A/S ) AGDO . ( A/S ) : RELATOR DO ARE Nº 1.048.950 DO SUPREMO TRIBUNAL FEDERAL Decisão : O Tribunal , por maioria , negou provimento ao agravo regimental , nos termos do voto do Relator .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "ARE Nº 1.048.950",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "SUPREMO TRIBUNAL FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61,
+      62,
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESPÍRITO SANTO",
+    "label": "LOCAL"
+  },
+  {
+    "text": "ALEXANDRE DE MORAES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "LOPO MEIRELES JUNIOR",
+    "label": "PESSOA"
+  },
+  {
+    "text": "GLAUCO JABOUR MEIRELLES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARLETE BARRETO DE ARAUJO SILVEIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "ARE Nº 1.048.950 DO SUPREMO TRIBUNAL FEDERAL",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ARE Nº 1.048.950', 'JURISPRUDENCIA'), ('SUPREMO TRIBUNAL FEDERAL', 'ORGANIZACAO')]
+Espúrias  (FP): [('ARE Nº 1.048.950 DO SUPREMO TRIBUNAL FEDERAL', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Plenário , Sessão Virtual de 9.3.2018 a 15.3.2018 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "9.3.2018",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "15.3.2018",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "9.3.2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "15.3.2018",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Plenário', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+p/ Doralúcia das Neves Santos Assessora-Chefe do Plenário Documento assinado digitalmente conforme MP n° 2.200-2/2001 de 24/08/2001 , que institui a Infra-estrutura de Chaves Públicas Brasileira - ICP-Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Doralúcia das Neves Santos",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "24/08/2001",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Infra-estrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Doralúcia das Neves Santos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MP n° 2.200-2/2001",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "24/08/2001",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Infra-estrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ICP-Brasil",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Plenário', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em relação ao paciente Igor Leonardo , consta das informações que foram prestadas em fls .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Igor Leonardo",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Igor Leonardo', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Consta dos autos que no dia 21 de julho de 2015 , por volta das 22:29 horas , na av. José Faria da Rocha , altura do nº 1708 , no bairro Eldorado , Contagem/MG , os pacientes , de posse de uma faca , conseguiram cortar aproximadamente um metro de cabo de telefonia da empresa OI , colocando-o no carrinho de reciclagem que conduziam .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "21 de julho de 2015",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "av. José Faria da Rocha",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "bairro Eldorado",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Contagem/MG",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "OI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "21 de julho de 2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "José Faria da Rocha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Eldorado",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Contagem/MG",
+    "label": "LOCAL"
+  },
+  {
+    "text": "OI",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('av. José Faria da Rocha', 'LOCAL'), ('bairro Eldorado', 'LOCAL')]
+Espúrias  (FP): [('José Faria da Rocha', 'LOCAL'), ('Eldorado', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Uma moradora do local , percebendo passos em seu telhado , acionou a Polícia Militar , comparecendo ao local uma guarnição , cujos integrantes , verificando o beco existente ao lado da casa da referida moradora , perceberam que , de fato , certo cabo de telefonia havia sido cortado , deparando-se , em seguida , com os pacientes descendo a avenida José Faria da Rocha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Polícia Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "avenida José Faria da Rocha",
+    "label": "LOCAL",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Polícia Militar",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José Faria da Rocha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('avenida José Faria da Rocha', 'LOCAL')]
+Espúrias  (FP): [('José Faria da Rocha', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ato contínuo , os milicianos abordaram a dupla e , durante busca , encontraram o cabo de telefonia subtraído e também a faca utilizada na empreitada criminosa , sendo os pacientes conduzidos à DEPOL e autuados em flagrante delito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DEPOL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('DEPOL', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+COATORA : JD 1 V CR COMARCA CONTAGEM A C Ó R D Ã O Vistos etc. , acorda , em Turma , a 1ª CÂMARA CRIMINAL do Tribunal de Justiça do Estado de Minas Gerais , na conformidade da ata dos julgamentos , em JULGAR PREJUDICADO O PEDIDO DE HABEAS CORPUS EM RELAÇÃO AO PACIENTE IGOR LEONARDO DE OLIVEIRA MENDES E DENEGAR A ORDEM QUANTO AO PACIENTE WELLINGTON DOUGLAS SANTOS SOUZA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "JD 1 V CR COMARCA CONTAGEM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "1ª CÂMARA CRIMINAL do Tribunal de Justiça do Estado de Minas Gerais",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "IGOR LEONARDO DE OLIVEIRA MENDES",
+    "label": "PESSOA",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "WELLINGTON DOUGLAS SANTOS SOUZA",
+    "label": "PESSOA",
+    "token_indices": [
+      68,
+      69,
+      70,
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CONTAGEM",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1ª CÂMARA CRIMINAL do Tribunal de Justiça do Estado de Minas Gerais",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "IGOR LEONARDO DE OLIVEIRA MENDES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "WELLINGTON DOUGLAS SANTOS SOUZA",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('JD 1 V CR COMARCA CONTAGEM', 'ORGANIZACAO')]
+Espúrias  (FP): [('CONTAGEM', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Consta dos autos que no dia 21 de julho de 2015 , por volta das 22:29 horas , na av. José Faria da Rocha , altura do nº 1708 , no bairro Eldorado , Contagem/MG , os pacientes , de posse de uma faca , conseguiram cortar aproximadamente um metro de cabo de telefonia da empresa OI , colocando-o no carrinho de reciclagem que conduziam .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "21 de julho de 2015",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "av. José Faria da Rocha",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "bairro Eldorado",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Contagem/MG",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "OI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "21 de julho de 2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "José Faria da Rocha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Eldorado",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Contagem/MG",
+    "label": "LOCAL"
+  },
+  {
+    "text": "OI",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('av. José Faria da Rocha', 'LOCAL'), ('bairro Eldorado', 'LOCAL')]
+Espúrias  (FP): [('José Faria da Rocha', 'LOCAL'), ('Eldorado', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Uma moradora do local , percebendo passos em seu telhado , acionou a Polícia Militar , comparecendo ao local uma guarnição , cujos integrantes , verificando o beco existente ao lado da casa da referida moradora , perceberam que , de fato , certo cabo de telefonia havia sido cortado , deparando-se , em seguida , com os pacientes descendo a avenida José Faria da Rocha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Polícia Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "avenida José Faria da Rocha",
+    "label": "LOCAL",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Polícia Militar",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José Faria da Rocha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('avenida José Faria da Rocha', 'LOCAL')]
+Espúrias  (FP): [('José Faria da Rocha', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ato contínuo , os milicianos abordaram a dupla e , durante busca , encontraram o cabo de telefonia subtraído e também a faca utilizada na empreitada criminosa , sendo os pacientes conduzidos à DEPOL e autuados em flagrante delito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DEPOL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('DEPOL', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Neste sentido é o entendimento do Superior Tribunal de Justiça : '' Julga-se o Habeas Corpus prejudicado quando o impetrante obtém , durante a ação , a situação jurídica reclamada '' ( STJ , 6ª Turma - HC 7294 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "STJ , 6ª Turma - HC 7294",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "STJ , 6ª Turma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "HC 7294",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('STJ , 6ª Turma - HC 7294', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('STJ , 6ª Turma', 'ORGANIZACAO'), ('HC 7294', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Neste sentido , acórdão de minha relatoria : EMENTA : HABEAS CORPUS - FURTO TENTADO - PÁTIO DA POLÍCIA CIVIL - PRISÃO EM FLAGRANTE CONVERTIDA EM PREVENTIVA - PRESENÇA DOS REQUISITOS DO ART . 312 DO CPP - MAUS ANTECEDENTES - GARANTIA DA ORDEM PÚBLICA - CONSTRANGIMENTO ILEGAL - NÃO EVIDENCIADO - TESES DEFENSIVAS : NEGATIVA DE AUTORIA - EXAME APROFUNDADO E VALORATIVO DE MATÉRIA FÁTICO-PROBATÓRIA - VIA INADEQUADA - ORDEM DENEGADA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "POLÍCIA CIVIL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "ART . 312 DO CPP",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ART . 312 DO CPP",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('POLÍCIA CIVIL', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+`` Revista Trimestral de Jurisprudência '' , do STF , vol .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Revista Trimestral de Jurisprudência",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "STF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Revista Trimestral de Jurisprudência",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "STF",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Revista Trimestral de Jurisprudência', 'ORGANIZACAO')]
+Espúrias  (FP): [('Revista Trimestral de Jurisprudência', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A C Ó R D Ã O SBDI-1 GMAAB/PMV/ct/smf EMBARGOS EM RECURSO DE REVISTA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SBDI-1",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SBDI-1",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "GMAAB/PMV/ct/smf",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('SBDI-1', 'ORGANIZACAO')]
+Espúrias  (FP): [('SBDI-1', 'JURISPRUDENCIA'), ('GMAAB/PMV/ct/smf', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tem-se , contudo , que a referida legislação foi alterada pela Medida Provisória nº 449 de 2008 , posteriormente convertida na Lei 11.941/2009 , dando nova redação ao artigo 43 da Lei nº 8.212/91 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medida Provisória nº 449 de 2008",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Lei 11.941/2009",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "artigo 43 da Lei nº 8.212/91",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Medida Provisória nº 449",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Lei 11.941/2009",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "artigo 43 da Lei nº 8.212/91",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Medida Provisória nº 449 de 2008', 'LEGISLACAO')]
+Espúrias  (FP): [('Medida Provisória nº 449', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Desta forma , em relação ao período em que passou a vigorar com a nova redação do artigo 43 da Lei 8.212/91 , aplicável às hipóteses em que a prestação do serviço ocorreu a partir do dia 5/3/2009 , observar-se-á o regime de competência ( em que o lançamento é feito quando o crédito é merecido e não quando é recebido ) , ou seja , considera-se como fato gerador das contribuições previdenciárias decorrentes de créditos trabalhistas reconhecidos em juízo , a data da efetiva prestação de serviço .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 43 da Lei 8.212/91",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "artigo 43 da Lei 8.212/91",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "5/3/2009",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('5/3/2009', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+1024-1035 , apreciando o tema referente ao `` fato gerador da contribuição previdenciária - juros e multa '' , conheceu do recurso de revista da CEF , por violação do artigo 195 , I , `` a '' , da CF , e , no mérito , deu-lhe provimento parcial `` para determinar que os juros de mora e a multa sobre as contribuições previdenciárias devidas , nas competências anteriores à publicação da MP nº 449/2008 , incidam a partir do dia dois do mês subsequente ao da liquidação da sentença e , naquelas posteriores à referida publicação , a partir da prestação dos serviços , observado , em ambas , o princípio da anterioridade nonagesimal '' ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CEF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "artigo 195 , I , `` a '' , da CF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "MP nº 449/2008",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      73,
+      74,
+      75
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CEF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MP nº 449/2008",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "MP nº 449/2008",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [("artigo 195 , I , `` a '' , da CF", 'LEGISLACAO')]
+Espúrias  (FP): [('MP nº 449/2008', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+7ª Turma , quanto ao tema em epígrafe , conheceu do recurso de revista da CEF , por violação do artigo 195 , I , `` a '' , da CF , e deu-lhe provimento parcial `` fato gerador da contribuição previdenciária - juros e multa '' , conheceu do recurso de revista da CEF , por violação do artigo 195 , I , `` a '' , da CF , e , no mérito , deu-lhe provimento parcial `` para determinar que os juros de mora e a multa sobre as contribuições previdenciárias devidas , nas competências anteriores à publicação da MP nº 449/2008 , incidam a partir do dia dois do mês subsequente ao da liquidação da sentença e , naquelas posteriores à referida publicação , a partir da prestação dos serviços , observado , em ambas , o princípio da anterioridade nonagesimal '' ( fl .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "7ª Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "CEF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "artigo 195 , I , `` a '' , da CF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "CEF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "artigo 195 , I , `` a '' , da CF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "MP nº 449/2008",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      102,
+      103,
+      104
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "7ª Turma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CEF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "artigo 195 , I , `` a '' , da CF",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "MP nº 449/2008",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('CEF', 'ORGANIZACAO'), ("artigo 195 , I , `` a '' , da CF", 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pelo Texto Máximo , a incidência se faz a partir do momento em que tais rendimentos sejam pagos ou creditados , o que afasta a incidência de juros de mora e de multa antes da apuração judicial do crédito , nos casos em que se tratar de valores resultantes de condenação ou acordo judicial .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Texto Máximo",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Texto Máximo', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Essa regra se aplica tanto aos valores pagos em virtude da liquidação da sentença ou do cumprimento do acordo , quanto às contribuições devidas referentes aos salários pagos durante o pacto laboral só reconhecido em juízo ( parágrafo único do art . 876 da CLT ) , ainda que abrangendo vários anos atrás .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 876 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "parágrafo único do art . 876 da CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('art . 876 da CLT', 'LEGISLACAO')]
+Espúrias  (FP): [('parágrafo único do art . 876 da CLT', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Registre-se , por fim , que a alteração legal ocorrida em lei ( nova redação do art . 43 da Lei n . 8.212/91 , conferida pela MPr n . 449 , de 3.12.2008 , convertida na Lei n . 11.941/09 ) , se interpretada com as normas constitucionais e legais que regem a matéria , não autoriza o entendimento de ter sido alterada a forma de cálculo das contribuições previdenciárias devidas em decorrência de decisão judicial '' ( Grifamos ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 43 da Lei n . 8.212/91",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "MPr n . 449",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "3.12.2008",
+    "label": "TEMPO",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Lei n . 11.941/09",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 43 da Lei n . 8.212/91",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "MPr n . 449",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "3.12.2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lei n . 11.941/09",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('MPr n . 449', 'LEGISLACAO')]
+Espúrias  (FP): [('MPr n . 449', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( RE 406567 AgR , Relator ( a ) : Min .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RE 406567",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "RE 406567 AgR",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Min .",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('RE 406567', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('RE 406567 AgR', 'JURISPRUDENCIA'), ('Min .', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DIAS TOFFOLI , Primeira Turma , julgado em 16/10/2012 , ACÓRDÃO ELETRÔNICO DJe-225 DIVULG 14/11/2012 PUBLIC 16/11/2012 ) TRIBUTÁRIO .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DIAS TOFFOLI",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "16/10/2012",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "14/11/2012",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "16/11/2012",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TOFFOLI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Primeira Turma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "16/10/2012",
+    "label": "TEMPO"
+  },
+  {
+    "text": "14/11/2012",
+    "label": "TEMPO"
+  },
+  {
+    "text": "16/11/2012",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('DIAS TOFFOLI', 'PESSOA')]
+Espúrias  (FP): [('TOFFOLI', 'ORGANIZACAO'), ('Primeira Turma', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O referido artigo dispõe apenas de onde sairá o aporte financeiro para custear as despesas do Governo com a previdência social , trazendo suas bases de financiamento .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Governo', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Tem-se , contudo , que a referida legislação foi alterada pela Medida Provisória nº 449 de 2008 , posteriormente convertida na Lei 11.941/2009 , dando nova redação ao artigo 43 da Lei nº 8.212/91 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medida Provisória nº 449",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "2008",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Lei 11.941/2009",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "artigo 43 da Lei nº 8.212/91",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Medida Provisória nº 449",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Lei 11.941/2009",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "artigo 43 da Lei nº 8.212/91",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('2008', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Logo , tem-se que o artigo 276 do Decreto nº 3.048/99 especificamente fixa o dia dois do mês seguinte à intimação da liquidação de sentença como sendo o momento a partir do qual devem incidir juros e multa moratória pelo atraso no recolhimento da obrigação previdenciária , como se depreende de seu teor : Art . 276 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 276 do Decreto nº 3.048/99",
+    "label": "LOCAL",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "artigo 276 do Decreto nº 3.048/99",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('artigo 276 do Decreto nº 3.048/99', 'LOCAL')]
+Espúrias  (FP): [('artigo 276 do Decreto nº 3.048/99', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Acerca do momento posterior à alteração legislativa , caso também dos autos , em que a prestação de serviços também ocorreu a partir de 5/3/2009 , destaca-se o seguinte : A alteração do artigo 43 da Lei 8.212/91 se deu com a Medida Provisória nº 449 , de 3/12/2008 , publicada no Diário Oficial da União ( DOU ) de 4/12/2008 , e 12/12/2008 ( retificações ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "5/3/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "artigo 43 da Lei 8.212/91",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Medida Provisória nº 449",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "3/12/2008",
+    "label": "TEMPO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "4/12/2008",
+    "label": "TEMPO",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "12/12/2008",
+    "label": "TEMPO",
+    "token_indices": [
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "5/3/2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "artigo 43 da Lei 8.212/91",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Medida Provisória nº 449",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "3/12/2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Diário Oficial da União",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "4/12/2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "12/12/2008",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Diário Oficial da União', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Contudo , a Constituição Federal estabeleceu o princípio da anterioridade nonagesimal , pelo qual as contribuições sociais , por serem uma espécie de tributo , só poderão ser exigidas após decorridos noventa dias da data da publicação da lei que as houver instituído ou modificado ( art . 150 , III , `` a '' c/c o art . 195 , § 6º , ambos da CF ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 150 , III , `` a '' c/c o art . 195 , § 6º , ambos da CF",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Constituição Federal",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "art . 150 , III , `` a '' c/c o art . 195 , § 6º , ambos da CF",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Constituição Federal', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nos termos do caput do art . 161 do Código Tributário Nacional : Art . 161 - caput - O crédito não integralmente pago no vencimento é acrescido de juros de mora , seja qual for o motivo determinante da falta , sem prejuízo da imposição das penalidades cabíveis e da aplicação de quaisquer medidas de garantia previstas nesta Lei ou em lei tributária .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 161 do Código Tributário Nacional",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "caput do art . 161 do Código Tributário Nacional",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('art . 161 do Código Tributário Nacional', 'LEGISLACAO')]
+Espúrias  (FP): [('caput do art . 161 do Código Tributário Nacional', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nesse sentido , cito precedente de minha relatoria , no leading case julgado pelo Tribunal Pleno do TST , sessão de 20/10/2015 e DEJT de 15/12/2015 , processo nº E-RR-1125-36.2010.5.06.0171 : RECURSO DE EMBARGOS .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal Pleno do TST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "20/10/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "15/12/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "E-RR-1125-36.2010.5.06.0171",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tribunal Pleno do TST",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "20/10/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "15/12/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "processo nº E-RR-1125-36.2010.5.06.0171",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('E-RR-1125-36.2010.5.06.0171', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('processo nº E-RR-1125-36.2010.5.06.0171', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tem-se , contudo , que a referida legislação foi alterada pela Medida Provisória nº 449 de 2008 , posteriormente convertida na Lei 11.941/2009 , dando nova redação ao artigo 43 da Lei nº 8.212/91 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medida Provisória nº 449 de 2008",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Lei 11.941/2009",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "artigo 43 da Lei nº 8.212/91",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Medida Provisória nº 449",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Lei 11.941/2009",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "artigo 43 da Lei nº 8.212/91",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Medida Provisória nº 449 de 2008', 'LEGISLACAO')]
+Espúrias  (FP): [('Medida Provisória nº 449', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Da mesma forma que no IRPF a pessoa física presta as informações , faz o cálculo e ainda recolhe o tributo , na contribuição previdenciária , devida , na forma da lei , a partir da prestação do serviço , o contribuinte presta as informações sobre o pagamento por serviços prestados , faz o cálculo e recolhe o tributo , por se tratar de tributo cuja legislação atribui ao sujeito passivo o dever de antecipar o pagamento , sem prévio exame da autoridade administrativa .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "IRPF",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('IRPF', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROCESSO Nº TST-E-RR-73100-45.2010.5.13.0003 Firmado por assinatura digital em 13/05/2016 pelo sistema AssineJus da Justiça do Trabalho , conforme MP 2.200-2/2001 , que instituiu a Infra-Estrutura de Chaves Públicas Brasileira .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TST-E-RR-73100-45.2010.5.13.0003",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "13/05/2016",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "MP 2.200-2/2001",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TST-E-RR-73100-45.2010.5.13.0003",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "13/05/2016",
+    "label": "TEMPO"
+  },
+  {
+    "text": "MP 2.200-2/2001",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Infra-Estrutura de Chaves Públicas Brasileira",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Infra-Estrutura de Chaves Públicas Brasileira', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+LEI Nº 6.060 , DE 29 DE DEZEMBRO DE 2017 ( * ) ( Autoria do Projeto : Poder Executivo ) Estima a receita e fixa a despesa do Distrito Federal para o exercício financeiro de 2018 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "LEI Nº 6.060 , DE 29 DE DEZEMBRO DE 2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "2018",
+    "label": "TEMPO",
+    "token_indices": [
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "LEI Nº 6.060",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "29 DE DEZEMBRO DE 2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2018",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('LEI Nº 6.060 , DE 29 DE DEZEMBRO DE 2017', 'LEGISLACAO')]
+Espúrias  (FP): [('LEI Nº 6.060', 'LEGISLACAO'), ('29 DE DEZEMBRO DE 2017', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O GOVERNADOR DO DISTRITO FEDERAL , FAÇO SABER QUE A CÂMARA LEGISLATIVA DO DISTRITO FEDERAL DECRETA E EU SANCIONO A SEGUINTE LEI : CAPÍTULO I DAS DISPOSIÇÕES INICIAIS Art . 1º Esta Lei estima a receita do Distrito Federal para o exercício financeiro de 2018 , no montante de R $ 28.788.857.727,00 e fixa a despesa em igual valor , compreendendo : I - o Orçamento Fiscal , referente aos Poderes do Distrito Federal , a seus fundos , órgãos e entidades da administração direta e indireta , inclusive fundações instituídas e mantidas pelo poder público ; II - o Orçamento da Seguridade Social , abrangendo todas as entidades e órgãos a ele vinculados , da administração direta e indireta , bem como os fundos e fundações instituídos ou mantidos pelo poder público ; III - o Orçamento de Investimento das empresas estatais não dependentes em que o Distrito Federal , direta ou indiretamente , detém a maioria do capital social com direito a voto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DISTRITO FEDERAL",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "CÂMARA LEGISLATIVA DO DISTRITO FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Art . 1º",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "2018",
+    "label": "TEMPO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      148,
+      149
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('DISTRITO FEDERAL', 'LOCAL'), ('CÂMARA LEGISLATIVA DO DISTRITO FEDERAL', 'ORGANIZACAO'), ('Art . 1º', 'LEGISLACAO'), ('Distrito Federal', 'ORGANIZACAO'), ('2018', 'TEMPO'), ('Distrito Federal', 'LOCAL'), ('Distrito Federal', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 3º As receitas decorrentes da arrecadação de tributos , contribuições e de outras receitas correntes e de capital , na forma da legislação vigente , estão estimadas em : I - recursos do Tesouro : R $ 22.141.243.230,00 ; II - recursos de outras fontes : R $ 4.784.506.845,00 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tesouro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tesouro', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 7º Integram esta Lei os anexos relacionados no art . 6º da Lei nº 5.950 , de 2 de agosto de 2017 ( Lei de Diretrizes Orçamentárias de 2018 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 6º da Lei nº 5.950 , de 2 de agosto de 2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Lei de Diretrizes Orçamentárias de 2018",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 5.950",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "2 de agosto de 2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lei de Diretrizes Orçamentárias de 2018",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('art . 6º da Lei nº 5.950 , de 2 de agosto de 2017', 'LEGISLACAO')]
+Espúrias  (FP): [('Lei nº 5.950', 'LEGISLACAO'), ('2 de agosto de 2017', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 8º Excetuadas as dotações consignadas às unidades orçamentárias da Câmara Legislativa e do Tribunal de Contas e os subtítulos inseridos nesta Lei por emenda parlamentar , no seu processo de elaboração , fica o Poder Executivo autorizado a abrir créditos suplementares , mediante ato próprio : I - com a finalidade de atender insuficiências nas dotações orçamentárias , até o limite de 25 % do valor total de cada unidade orçamentária , nos Orçamentos Fiscal , da Seguridade Social e de Investimento das empresas estatais , mediante a utilização de recursos provenientes : a ) da anulação parcial ou total de dotações orçamentárias autorizadas pela Lei Orçamentária Anual ( LOA ) , nos termos do art . 43 , § 1º , III , da Lei federal nº 4.320 , de 17 de março de 1964 ; b ) de excesso de arrecadação , nos termos do art . 43 , § 1º , II , da Lei federal nº 4.320 , de 1964 ; II - para incorporar à LOA , por excesso de arrecadação , os recursos referentes às transferências concedidas pela União , oriundos de convênios , operações de crédito , internas e externas , e de eventuais resultados de aplicações financeiras vinculadas , durante o exercício financeiro , não previstos ou insuficientemente estimados no Orçamento , respeitados os valores e a destinação programática ; III - com o objetivo de transpor , remanejar e transferir dotações de uma unidade orçamentária para outra já existente ou para uma nova unidade , nos casos de transformações orgânicas na estrutura administrativa do Governo do Distrito Federal , ficando ajustado o limite de que trata o inciso I deste artigo pelo valor transposto , remanejado ou transferido , tanto para a unidade de origem quanto para a unidade de destino ; IV - para incorporação de recursos decorrentes de : a ) superávit financeiro apurado em balanço patrimonial do exercício anterior , nos termos do art . 43 , § 1º , I , da Lei federal nº 4.320 , de 1964 , observados os respectivos saldos orçamentários e suas vinculações , se houver ; b ) doações ; § 1º Fica o Poder Executivo autorizado a remanejar , por meio de decreto , sem a incidência do limite de que trata o inciso I do caput , as dotações : I - constantes desta Lei , para : a ) suprir insuficiências nas dotações orçamentárias com pessoal e encargos sociais ; b ) cobrir despesas de concessão de benefícios a servidores ; c ) atender despesas obrigatórias de caráter continuado , constantes do Anexo XXIX ; II - da reserva de contingência .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Câmara Legislativa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Tribunal de Contas",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Lei Orçamentária Anual",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      107,
+      108,
+      109
+    ]
+  },
+  {
+    "text": "LOA",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      111
+    ]
+  },
+  {
+    "text": "art . 43 , § 1º , III , da Lei federal nº 4.320 , de 17 de março de 1964",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ]
+  },
+  {
+    "text": "art . 43 , § 1º , II , da Lei federal nº 4.320 , de 1964",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165
+    ]
+  },
+  {
+    "text": "LOA",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      172
+    ]
+  },
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      186
+    ]
+  },
+  {
+    "text": "Governo do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      265,
+      266,
+      267,
+      268
+    ]
+  },
+  {
+    "text": "art . 43 , § 1º , I , da Lei federal nº 4.320 , de 1964",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Câmara Legislativa', 'ORGANIZACAO'), ('Tribunal de Contas', 'ORGANIZACAO'), ('Lei Orçamentária Anual', 'LEGISLACAO'), ('LOA', 'LEGISLACAO'), ('art . 43 , § 1º , III , da Lei federal nº 4.320 , de 17 de março de 1964', 'LEGISLACAO'), ('art . 43 , § 1º , II , da Lei federal nº 4.320 , de 1964', 'LEGISLACAO'), ('LOA', 'LEGISLACAO'), ('União', 'ORGANIZACAO'), ('Governo do Distrito Federal', 'ORGANIZACAO'), ('art . 43 , § 1º , I , da Lei federal nº 4.320 , de 1964', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+III - constantes do Anexo de Metas e Prioridades da Lei de Diretrizes Orçamentárias de 2018 , limitado ao valor total do referido Anexo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei de Diretrizes Orçamentárias de 2018",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Anexo de Metas e Prioridades da Lei de Diretrizes Orçamentárias de 2018",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Lei de Diretrizes Orçamentárias de 2018', 'LEGISLACAO')]
+Espúrias  (FP): [('Anexo de Metas e Prioridades da Lei de Diretrizes Orçamentárias de 2018', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Brasília , 29 de dezembro de 2017 130º da República e 58º de Brasília RODRIGO ROLLEMBERG ( * ) Os anexos desta Lei encontram-se disponíveis no sítio eletrônico da Secretaria de Estado de Planejamento , Orçamento e Gestão - SEPLAG , link http : //www.seplag.df.g o v. b r / p l a n e - jamento-e-orcamento/planejamento-governamental.html , conforme preconiza o art . 97 , §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017 , publicada no Diário Oficial do Distrito Federal - DODF nº 148 , de 03/08/2017 e suas alterações .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasília",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "29 de dezembro de 2017",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "130º",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "República",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "58º",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "RODRIGO ROLLEMBERG",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Secretaria de Estado de Planejamento , Orçamento e Gestão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "SEPLAG",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "art . 97 , §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "text": "03/08/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      92
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasília', 'LOCAL'), ('29 de dezembro de 2017', 'TEMPO'), ('130º', 'TEMPO'), ('República', 'ORGANIZACAO'), ('58º', 'TEMPO'), ('Brasília', 'LOCAL'), ('RODRIGO ROLLEMBERG', 'PESSOA'), ('Secretaria de Estado de Planejamento , Orçamento e Gestão', 'ORGANIZACAO'), ('SEPLAG', 'ORGANIZACAO'), ('art . 97 , §§ 1º e 2º da Lei de Diretrizes Orçamentárias nº 5.950 de 02/08/2017', 'LEGISLACAO'), ('03/08/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Vistos , relatados e discutidos estes autos de Agravo de Instrumento em Recurso de Revista n° TST-AIRR-801-42.2012.5.02.0315 , em que é Agravante EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS - ECT e são Agravados JOSÉ ARIMACIR DE SOUSA e BRAZILIAN EXPRESS TRANSPORTES AÉREOS LTDA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Recurso de Revista n° TST-AIRR-801-42.2012.5.02.0315",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "ECT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "JOSÉ ARIMACIR DE SOUSA",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "BRAZILIAN EXPRESS TRANSPORTES AÉREOS LTDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TST-AIRR-801-42.2012.5.02.0315",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ECT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "JOSÉ ARIMACIR DE SOUSA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "BRAZILIAN EXPRESS TRANSPORTES AÉREOS LTDA",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Recurso de Revista n° TST-AIRR-801-42.2012.5.02.0315', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('TST-AIRR-801-42.2012.5.02.0315', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+OJ 382/SBDI-1/TST O Tribunal Regional de origem , quanto aos temas , assim decidiu : `` Responsabilidade subsidiária do segundo reclamado No julgamento da ação declaratória de constitucionalidade - ADC 16 - ajuizada pelo governo do Distrito Federal , o STF declarou a constitucionalidade do § 1º do art . 71 da Lei nº 8.666/93 , obstando à Justiça do Trabalho a aplicação automática de responsabilidade subsidiária à Administração Pública em face do inadimplemento dos direitos trabalhistas , tal como se extraía da literalidade do inciso IV da Súmula nº 331 do TST .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OJ 382/SBDI-1/TST",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "ADC 16",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "STF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "§ 1º do art . 71 da Lei nº 8.666/93",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "inciso IV da Súmula nº 331 do TST",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "OJ 382/SBDI-1/TST",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "ADC 16",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "STF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "§ 1º do art . 71 da Lei nº 8.666/93",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "inciso IV da Súmula nº 331 do TST",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Distrito Federal', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ainda , em tal julgamento concluiu-se que a norma do § 1º do art . 71 da Lei nº 8.666/93 não fere a Constituição e deve ser observada pela Justiça do Trabalho , o que impede a aplicação de responsabilidade subsidiária à Administração Pública de forma automática , pela só constatação de inadimplemento dos direitos laborais pela empresa contratada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "§ 1º do art . 71 da Lei nº 8.666/93",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Constituição",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "§ 1º do art . 71 da Lei nº 8.666/93",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Constituição', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Na linha desse entendimento , o C. TST , por meio da Resolução 174/2011 , publicada no DeJT de 27/05/2011 , inseriu o item V na Súmula 331 nos seguintes termos , verbis : `` V - Os entes integrantes da Administração Pública direta e indireta respondem subsidiariamente , nas mesmas condições do item IV , caso evidenciada a sua conduta culposa no cumprimento das obrigações da Lei nº 8.666 , de 21.06.1993 , especialmente na fiscalização do cumprimento das obrigações contratuais e legais da prestadora de serviço como empregadora .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Resolução 174/2011",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "27/05/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Súmula 331",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Lei nº 8.666",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "21.06.1993",
+    "label": "TEMPO",
+    "token_indices": [
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "C. TST",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Resolução 174/2011",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "DeJT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "27/05/2011",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lei nº 8.666",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "21.06.1993",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('TST', 'ORGANIZACAO'), ('Súmula 331', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('C. TST', 'ORGANIZACAO'), ('DeJT', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Diante do julgamento da ADC 16 pelo E. STF e do item `` V '' da Súmula 331 do C. TST , não há que se falar em condenação subsidiária apenas em razão da inadimplência da empresa contratada para com seus empregados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ADC 16",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "STF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "item `` V '' da Súmula 331 do C. TST",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ADC 16 pelo E. STF",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "item `` V '' da Súmula 331 do C. TST",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ADC 16', 'JURISPRUDENCIA'), ('STF', 'ORGANIZACAO')]
+Espúrias  (FP): [('ADC 16 pelo E. STF', 'JURISPRUDENCIA')]
+

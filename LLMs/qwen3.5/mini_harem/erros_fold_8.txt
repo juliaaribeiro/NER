@@ -1,0 +1,4096 @@
+--------------------------------------------------------------------------------
+Texto:
+Jornal O Povo Online | O Povo Online - Especiais 27-09-2000 Edição de 15/09/2000 Olimpíadas Uma disputa eletrônica nas páginas velozes da Internet A Internet é uma fonte de consulta nesse período de Olimpíada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "O Povo Online",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "O Povo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "27-09-2000",
+    "label": "TEMPO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "15/09/2000",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Olimpíadas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Olimpíada",
+    "label": "TEMPO",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jornal O Povo Online",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "O Povo Online",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "27-09-2000",
+    "label": "TEMPO"
+  },
+  {
+    "text": "15/09/2000",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Olimpíadas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Olimpíada",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('O Povo', 'ORGANIZACAO'), ('Olimpíadas', 'ACONTECIMENTO'), ('Internet', 'LOCAL'), ('Olimpíada', 'TEMPO')]
+Espúrias  (FP): [('Jornal O Povo Online', 'ORGANIZACAO'), ('Olimpíadas', 'ABSTRACCAO'), ('Olimpíada', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com a velocidade da informação nos diversos sites, o internauta entra em Sydney sem precisar de passaporte. Nos bastidores da diputa pelo ouro em Sydney existe outra grande competição em busca da atenção de milhares de torcedores ao redor do planeta. São os veículos de comunicação redobram o trabalho para a cobertura das olímpiadas e nesta batalha existe a participação de um novo e grande integrante: a internet. Pela primeira vez na história, os Jogos Olímpicos poderão ser acompanhados pelos computadores e entre os sites nacionais existem mais de 50 opções de páginas que os internautas podem acessar para a sua pesquisa diária. Algumas são específicas, trazendo históricos e curiosidades, como a http://www.tudodeolimpiada.com.br. Nesta mesma rede, veículos de informação, como a revista semanal Veja (http://www.vejaolimpiadas.com.br), e páginas sobre esportes, a exemplo da http://gynsports.com.br e da http://sportworldhp.cjb.net/, também podem ser acessados. O Jornal O POVO está em Sydney e mantém em sua página, http://www.opovo.com.br, um link com informções sobre as Olimpíadas desde o dia 9 de setembro até a data da sua pesquisa. Todas as informações divulgadas pelo jornal estarão à disposição. O internauta que desejar informações mais específicas sobre determinados esportes encontra uma série de opções, entre modalidades que vão do Taekwondo -primeira participação em olimpíadas- ao Badminton .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sydney",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Sydney",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Jogos Olímpicos",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      74,
+      75
+    ]
+  },
+  {
+    "text": "mais de 50",
+    "label": "VALOR",
+    "token_indices": [
+      87,
+      88,
+      89
+    ]
+  },
+  {
+    "text": "Veja",
+    "label": "COISA",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "O POVO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      142,
+      143
+    ]
+  },
+  {
+    "text": "Sydney",
+    "label": "LOCAL",
+    "token_indices": [
+      146
+    ]
+  },
+  {
+    "text": "Olimpíadas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      159
+    ]
+  },
+  {
+    "text": "9 de setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      163,
+      164,
+      165
+    ]
+  },
+  {
+    "text": "Taekwondo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      201
+    ]
+  },
+  {
+    "text": "Badminton",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      207
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Sydney', 'LOCAL'), ('Sydney', 'LOCAL'), ('Jogos Olímpicos', 'ACONTECIMENTO'), ('mais de 50', 'VALOR'), ('Veja', 'COISA'), ('O POVO', 'ORGANIZACAO'), ('Sydney', 'LOCAL'), ('Olimpíadas', 'ACONTECIMENTO'), ('9 de setembro', 'TEMPO'), ('Taekwondo', 'ABSTRACCAO'), ('Badminton', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Na natação, a http://www.natacaobrasil.cjb.net/ informa resultados, recordes e calendários de disputas. Alguns atletas também possuem páginas, como o judoca Aurélio Miguel , o tenista Gustavo Kuerten e o medalhista olímpico Joaquim da Cruz . Existem, ainda, algumas páginas que são apresentam uma olimpíada determinada, como a de Berlim , em 1936 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Aurélio Miguel",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Gustavo Kuerten",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Joaquim da Cruz",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Berlim",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "1936",
+    "label": "TEMPO",
+    "token_indices": [
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Aurélio Miguel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Gustavo Kuerten",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Joaquim da Cruz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Berlim",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1936",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Berlim', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Berlim', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+O site traz curiosidades sobre evento ocorido em pleno período nazista de Hitler , sem esquecer da vitória, no atletismo, do americano Jesse Owens , neto de escravos, sobre a supremacia ariana.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Hitler",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Jesse Owens",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Hitler",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jesse Owens",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Hitler', 'TEMPO')]
+Espúrias  (FP): [('Hitler', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+As opções ainda são maiores para quem domina outros idiomas. Para estes, entre outras, o canal internacional de esporte ESPN tem sua página em inglês, a www.espn.com, que além de informar sobre regras, atletas e agendas também traz notícias atualizadas diarimente. SITES QUE PODEM SER VISITADOS http://www.tudodeolimpiada.com.br http://www.opovo.com.br http://www.vejaolimpiadas.com.br http://www.natacaobrasil.cjb.net/ http://www.badbrasil.hpg.com.br/ http://sportworldhp.cjb.net/ http://gynsports.com.br http://www.uol.com.br/aureliomiguel/ http://www.espn.com www.cnnsi.com/ Participe. Envie sua opinião sobre este texto. Conteúdo © Jornal O POVO S/A Geração automática de páginas por INOVA TECNOLOGIAS® Última atualização em 27-09-2000 0.40.22
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESPN",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "O POVO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67
+    ]
+  },
+  {
+    "text": "INOVA TECNOLOGIAS®",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      74,
+      75
+    ]
+  },
+  {
+    "text": "27-09-2000",
+    "label": "TEMPO",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "0.40.22",
+    "label": "OUTRO",
+    "token_indices": [
+      80
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ESPN', 'LOCAL'), ('O POVO', 'ORGANIZACAO'), ('INOVA TECNOLOGIAS®', 'ORGANIZACAO'), ('27-09-2000', 'TEMPO'), ('0.40.22', 'OUTRO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+CLIPSEGURO - o clipping mais SEGURO da Internet Novo modelo de apólice cobrirá safra agrícola Data: 25/02/2000 Fonte: Jornal do Commercio Autor : Matéria: O Governo quer disponibilizar o novo modelo do seguro agrícola para os agricultores brasileiros já na próxima safra de grãos e frutas, que começa a ser cultivada em julho .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CLIPSEGURO",
+    "label": "COISA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "25/02/2000",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Jornal do Commercio",
+    "label": "LOCAL",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Autor",
+    "label": "PESSOA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "julho",
+    "label": "TEMPO",
+    "token_indices": [
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CLIPSEGURO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "julho",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('CLIPSEGURO', 'COISA'), ('25/02/2000', 'TEMPO'), ('Jornal do Commercio', 'LOCAL'), ('Autor', 'PESSOA')]
+Espúrias  (FP): [('CLIPSEGURO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A informação é do ministro da Agricultura , Marcus Vinícius Pratini de Moraes , que já esteve reunido duas vezes com os seguradores para discutir o novo formato desse produto, o qual vem sendo desenhado com base na troca de informações entre Federação Nacional das Seguradoras ( Fenaseg ), Superintendência de Seguros Privados ( Susep ) e o Ministério da Agricultura .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Agricultura",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Marcus Vinícius Pratini de Moraes",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Federação Nacional das Seguradoras",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Fenaseg",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Superintendência de Seguros Privados",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Susep",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Ministério da Agricultura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58,
+      59,
+      60
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Agricultura",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Marcus Vinícius Pratini de Moraes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Federação Nacional das Seguradoras",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Fenaseg",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Superintendência de Seguros Privados",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério da Agricultura",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Agricultura', 'ABSTRACCAO'), ('Susep', 'ORGANIZACAO')]
+Espúrias  (FP): [('Agricultura', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os seguradores também têm pressa na aprovação do produto. A expectativa é de que o modelo em discussão possa ser posto em votação no Conselho Nacional de Seguros Privados ( CNSP ) já no próximo mês. Na visão do ministro, o seguro agrícola terá importante papel a desempenhar no projeto do Governo de estimular a agricultura, através do programa Brasil Empreendedor Rural .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho Nacional de Seguros Privados",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "CNSP",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Brasil Empreendedor Rural",
+    "label": "OBRA",
+    "token_indices": [
+      59,
+      60,
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselho Nacional de Seguros Privados",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "CNSP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil Empreendedor Rural",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Conselho Nacional de Seguros Privados', 'ACONTECIMENTO'), ('CNSP', 'ACONTECIMENTO'), ('Brasil Empreendedor Rural', 'OBRA')]
+Espúrias  (FP): [('Conselho Nacional de Seguros Privados', 'ORGANIZACAO'), ('CNSP', 'ORGANIZACAO'), ('Brasil Empreendedor Rural', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+"Esse seguro é a plataforma para desenvolvimento da agricultura", assinalou Pratini de Moraes , no último encontro com seguradoras, há quinze dias. A adoção de um novo modelo de seguro agrícola no Brasil , com o apoio governamental, provocou um aumento do interesse de grupos estrangeiros na compra da Companhia de Seguros do Estado de São Paulo ( Cosesp ). Embora tenha acumulado resultados negativos nesse ramo de seguro, a Cosesp tem uma extensa carteira de negócios, que inclui produtores rurais. Um prato cheio para conglomerados do exterior, voltados para o ramo agrícola, que fazem planos para explorar o quase virgem mercado brasileiro em de coberturas para o agrobusiness.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pratini de Moraes",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Companhia de Seguros do Estado de São Paulo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Cosesp",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Cosesp",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pratini de Moraes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Companhia de Seguros do Estado de São Paulo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cosesp",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'ORGANIZACAO'), ('Cosesp', 'ORGANIZACAO')]
+Espúrias  (FP): [('Brasil', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Dezenas de timorenses e portugueses «ocupam» pacificamente o pavilhão indonésio da Expo-92 , em Sevilha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Expo-92",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Sevilha",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "timorenses",
+    "label": "PESSOA"
+  },
+  {
+    "text": "portugueses",
+    "label": "PESSOA"
+  },
+  {
+    "text": "pavilhão indonésio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Expo-92",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Sevilha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('timorenses', 'PESSOA'), ('portugueses', 'PESSOA'), ('pavilhão indonésio', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Entre eles está Rui Marques , o organizador da viagem do Lusitânia-Expresso Eduardo dos Santos , presidente do MPLA , e Jonas Savimbi , dirigente da Unita , encontram-se na cidade do Bié em actividades ligadas à campanha eleitoral de Setembro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rui Marques",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Lusitânia-Expresso",
+    "label": "COISA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Eduardo dos Santos",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "MPLA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Jonas Savimbi",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Unita",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Bié",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rui Marques",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lusitânia-Expresso",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Eduardo dos Santos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "MPLA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Jonas Savimbi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Unita",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Bié",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Setembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Lusitânia-Expresso', 'COISA')]
+Espúrias  (FP): [('Lusitânia-Expresso', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Bush só poderá ganhar as eleições presidenciais se fizer cair Saddam Hussein , vaticinam os analistas políticos. O Presidente cancela todos os compromissos e fecha-se na Casa Branca .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bush",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Saddam Hussein",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Casa Branca",
+    "label": "LOCAL",
+    "token_indices": [
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bush",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Saddam Hussein",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Casa Branca",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Presidente', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Prezado (a) Empreendedor (a), Peço a sua permissão para lhe enviar GRATUITAMENTE uma Revista pelo correio sobre a nossa proposta de franquias de Salões de Beleza + Escola de Cabeleireiros + Loja de Cosméticos direto da Fábrica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Salões de Beleza",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Escola de Cabeleireiros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Loja de Cosméticos",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Fábrica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Revista",
+    "label": "COISA"
+  },
+  {
+    "text": "Salões de Beleza",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Escola de Cabeleireiros",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Loja de Cosméticos",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Salões de Beleza', 'ORGANIZACAO'), ('Escola de Cabeleireiros', 'ORGANIZACAO'), ('Loja de Cosméticos', 'ORGANIZACAO'), ('Fábrica', 'ORGANIZACAO')]
+Espúrias  (FP): [('Revista', 'COISA'), ('Salões de Beleza', 'ABSTRACCAO'), ('Escola de Cabeleireiros', 'ABSTRACCAO'), ('Loja de Cosméticos', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Baixo investimento inicial que pode ser 80% financiado pelo BNDES e alta lucratividade. Ligue agora e também solicite 01 convite para visitar o nosso stand na Feira da Cosmética em Setembro em São Paulo - SP . Muito obrigada, Cristiane - tel (11) 3645-3620 Peço perdão se esta mensagem não lhe interessou. Nós confiamos em Deus !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "80%",
+    "label": "VALOR",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Feira da Cosmética",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Cristiane",
+    "label": "PESSOA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "80%",
+    "label": "VALOR"
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "01",
+    "label": "VALOR"
+  },
+  {
+    "text": "Feira da Cosmética",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Setembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cristiane",
+    "label": "PESSOA"
+  },
+  {
+    "text": "(11) 3645-3620",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('01', 'VALOR'), ('(11) 3645-3620', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Apresentação Apresentação Pela inexistência de informações primárias e secundárias disponíveis, bem como pela atual situação do Projeto - Componente de Educação Ambiental - CEDUC , são apresentados comentários gerais e sucintos sobre esse Projeto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Projeto",
+    "label": "OBRA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Componente de Educação Ambiental",
+    "label": "OBRA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "CEDUC",
+    "label": "OBRA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Projeto",
+    "label": "OBRA",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Projeto - Componente de Educação Ambiental",
+    "label": "OBRA"
+  },
+  {
+    "text": "CEDUC",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Projeto', 'OBRA'), ('Componente de Educação Ambiental', 'OBRA'), ('Projeto', 'OBRA')]
+Espúrias  (FP): [('Projeto - Componente de Educação Ambiental', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este Projeto foi seriamente prejudicado pelos atrasos ocorridos na tramitação burocrática e nas longas discussões a respeito dos procedimentos a serem adotados para financiamento e contrato entre Banco Mundial e Comunidade Européia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Projeto",
+    "label": "OBRA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Banco Mundial",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Comunidade Européia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Banco Mundial",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comunidade Européia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Projeto', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Existem interesses manifestados por doadores ( Reino Unido e Alemanha ) e também por instituições brasileiras para que o Projeto possa ser efetivamente implantado, principalmente para a região da Amazônia brasileira. As discussões iniciais consideraram que a ampliação dos conhecimentos a respeito de meio ambiente e suas interações com as comunidades da região amazônica poderiam trazer uma significativa contribuição para a melhoria da qualidade de vida e do próprio ambiente nessa região. Assim o com o título de Projeto de Educação Ambiental - PEDUC foram desenvolvidas todas as atividades iniciais para a formatação e elaboração do mesmo. O Projeto , devido as interelações existentes com os Projetos Demonstrativos - PDAs , foi incorporado a este e teve seu nome alterado para Componente de Educação Ambiental - CEDUC , para receber apoio do Programa Piloto de Proteção das Florestas Tropicais - PPG7 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reino Unido",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Projeto",
+    "label": "OBRA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Amazônia",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Projeto de Educação Ambiental",
+    "label": "OBRA",
+    "token_indices": [
+      78,
+      79,
+      80,
+      81
+    ]
+  },
+  {
+    "text": "PEDUC",
+    "label": "OBRA",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Projeto",
+    "label": "OBRA",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "Projetos Demonstrativos",
+    "label": "OBRA",
+    "token_indices": [
+      106,
+      107
+    ]
+  },
+  {
+    "text": "PDAs",
+    "label": "OBRA",
+    "token_indices": [
+      109
+    ]
+  },
+  {
+    "text": "Componente de Educação Ambiental",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      121,
+      122,
+      123,
+      124
+    ]
+  },
+  {
+    "text": "CEDUC",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      126
+    ]
+  },
+  {
+    "text": "Programa Piloto de Proteção das Florestas Tropicais",
+    "label": "OBRA",
+    "token_indices": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138
+    ]
+  },
+  {
+    "text": "PPG7",
+    "label": "OBRA",
+    "token_indices": [
+      140
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reino Unido",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Amazônia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Projeto",
+    "label": "OBRA"
+  },
+  {
+    "text": "Amazônica",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Projeto",
+    "label": "OBRA"
+  },
+  {
+    "text": "PEDUC",
+    "label": "OBRA"
+  },
+  {
+    "text": "Projeto",
+    "label": "OBRA"
+  },
+  {
+    "text": "PDAs",
+    "label": "OBRA"
+  },
+  {
+    "text": "Componente de Educação Ambiental",
+    "label": "OBRA"
+  },
+  {
+    "text": "CEDUC",
+    "label": "OBRA"
+  },
+  {
+    "text": "Programa Piloto de Proteção das Florestas Tropicais do Brasil",
+    "label": "OBRA"
+  },
+  {
+    "text": "PPTB",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Reino Unido', 'ORGANIZACAO'), ('Alemanha', 'ORGANIZACAO'), ('Projeto de Educação Ambiental', 'OBRA'), ('Projetos Demonstrativos', 'OBRA'), ('Componente de Educação Ambiental', 'ABSTRACCAO'), ('CEDUC', 'ABSTRACCAO'), ('Programa Piloto de Proteção das Florestas Tropicais', 'OBRA'), ('PPG7', 'OBRA')]
+Espúrias  (FP): [('Reino Unido', 'LOCAL'), ('Alemanha', 'LOCAL'), ('Amazônica', 'LOCAL'), ('Projeto', 'OBRA'), ('Componente de Educação Ambiental', 'OBRA'), ('CEDUC', 'OBRA'), ('Programa Piloto de Proteção das Florestas Tropicais do Brasil', 'OBRA'), ('PPTB', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+As discussões realizadas estabeleceram como objetivo geral, o de fortalecer o processo de educação ambiental, de modo a contribuir para a conservação e preservação das florestas da Amazônia Legal apoiando o desenvolvimento sustentado. Com base nesse objetivo geral foram definidos os objetivos específicos, quais sejam o de: - Estimular o desenvolvimento de experiências demonstrativas piloto de educação ambiental não formal na Amazônia Legal , com o objetivo de disseminar abordagens já conhecidas e de eficiência comprovada, bem como promover a geração e divulgação de novos conhecimentos relevantes às atividades de preservação, conservação e desenvolvimento sustentável na região; - Estimular o envolvimento de associações rurais e outras organizações da sociedade civil, instituições públicas e privadas comprometidas com a educação ambiental não formal no desenvolvimento de experiência demonstrativa piloto na região; - Fortalecer as parcerias entre as instituições governamentais e não governamentais envolvidas na capacitação, produção e divulgação de educação ambiental não formal.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Amazônia Legal",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Amazônia Legal",
+    "label": "LOCAL",
+    "token_indices": [
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Amazônia Legal', 'LOCAL'), ('Amazônia Legal', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O inicio dos trabalhos de formatação, discussão e elaboração datam do ano de 1995 , tendo sido submetido ao Banco Mundial em 28 de dezembro de 1995 , sob o título de Educação Ambiental - Concepção Básica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1995",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Banco Mundial",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "28 de dezembro de 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Educação Ambiental - Concepção Básica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "28 de dezembro de 1995",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Banco Mundial",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Educação Ambiental - Concepção Básica",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Educação Ambiental - Concepção Básica', 'ABSTRACCAO')]
+Espúrias  (FP): [('Educação Ambiental - Concepção Básica', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Leonardo da Vinci Leonardo nasceu a 15 de Abril de 1452 , na pequena cidade de Vinci , perto de Florença , centro intelectual e científico da Itália .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Leonardo da Vinci",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Leonardo",
+    "label": "PESSOA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "15 de Abril de 1452",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Vinci",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Florença",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Leonardo da Vinci",
+    "label": "PESSOA"
+  },
+  {
+    "text": "15 de Abril de 1452",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Vinci",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Leonardo', 'PESSOA'), ('Florença', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O grande mestre da renascença ficou encantado com o talento de Leonardo e tornou-o seu aprendiz. Em 1472 , com apenas vinte anos, Leonardo associa-se ao núcleo de pintores de Florença .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Leonardo",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "1472",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Leonardo",
+    "label": "PESSOA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Florença",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1472",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Leonardo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Florença",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Leonardo', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não se sabe muito mais acerca da educação e formação do artista, no entanto, muitos autores afirmam que o seu conhecimento não provém de fontes tradicionais, mas sim da observação pessoal e da aplicação prática das suas ideias. Pintor |Pintor, escultor, arquitecto e engenheiro, Leonardo da Vinci foi o talento mais versátil da Itália do Renascimento .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pintor",
+    "label": "PESSOA",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Leonardo da Vinci",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Itália do Renascimento",
+    "label": "TEMPO",
+    "token_indices": [
+      53,
+      54,
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Leonardo da Vinci",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Renascimento",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Pintor', 'PESSOA'), ('Itália do Renascimento', 'TEMPO')]
+Espúrias  (FP): [('Itália', 'LOCAL'), ('Renascimento', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os seus desenhos, combinando uma precisão científica com um grande poder imaginativo, reflectem a enorme vastidão dos seus interesses, que iam desde a biologia, à fisiologia, à hidráulica, à aeronáutica e à matemática. Durante o apogeu do renascimento, Da Vinci , enquanto anatomista, preocupou-se com os sistemas internos do corpo humano, e enquanto artista interessou-se pelos detalhes externos da forma humana, estudando exaustivamente as suas proporções. A seguinte imagem resulta destes seus interesses. Os pensadores renascentistas viam uma certa perfeição matemática na forma humana. Esta imagem representa o corpo humano inserido na forma ideal do círculo e nas perfeitas proporções do quadrado. A imagem foi usada por Luca Pacioli na ilustração do seu livro De Divina Proportione « De Divina Proportione » 1490 Os pintores do Renascimento , e em particular Da Vinci , recorreram a conceitos de geometria projectiva (centro de projecção, linhas paralelas representadas como linhas convergentes, ponto de fuga) para criar os seus quadros com um aspecto tridimensional.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Da Vinci",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Luca Pacioli",
+    "label": "PESSOA",
+    "token_indices": [
+      107,
+      108
+    ]
+  },
+  {
+    "text": "De Divina Proportione",
+    "label": "OBRA",
+    "token_indices": [
+      114,
+      115,
+      116
+    ]
+  },
+  {
+    "text": "De Divina Proportione",
+    "label": "OBRA",
+    "token_indices": [
+      118,
+      119,
+      120
+    ]
+  },
+  {
+    "text": "1490",
+    "label": "TEMPO",
+    "token_indices": [
+      122
+    ]
+  },
+  {
+    "text": "Renascimento",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      126
+    ]
+  },
+  {
+    "text": "Da Vinci",
+    "label": "PESSOA",
+    "token_indices": [
+      131,
+      132
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Da Vinci",
+    "label": "PESSOA"
+  },
+  {
+    "text": "renascimento",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Luca Pacioli",
+    "label": "PESSOA"
+  },
+  {
+    "text": "De Divina Proportione",
+    "label": "OBRA"
+  },
+  {
+    "text": "1509",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('De Divina Proportione', 'OBRA'), ('1490', 'TEMPO'), ('Renascimento', 'ABSTRACCAO'), ('Da Vinci', 'PESSOA')]
+Espúrias  (FP): [('renascimento', 'ABSTRACCAO'), ('1509', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A obra prim a « A Última Ceia » é um bom exemplo disso. « A Última Ceia » 1495-1498 O ponto de fuga está colocado no olho direito de Cristo onde ele domina o primeiro plano. Os seus próprios braços, ao longo das linhas da pirâmide visual, reforçam a perspectiva.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "A Última Ceia",
+    "label": "OBRA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "A Última Ceia",
+    "label": "OBRA",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "1495-1498",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Cristo",
+    "label": "PESSOA",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "A Última Ceia",
+    "label": "OBRA"
+  },
+  {
+    "text": "A Última Ceia",
+    "label": "OBRA"
+  },
+  {
+    "text": "1495-1498",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Cristo', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Começa a dar resultados a política da União Europeia de bloquear todas as tentativas suíças de gozar as vantagens da UE , sem as responsabilidades de um país membro. Os seus governantes já perceberam que o isolamento já não dá lucro e pode levar à rejeição. Quando o povo suíço recusou, em 92 , a adesão ao Espaço Económico Europeu , como já fizera com a ONU , cometeu um grave engano. Foi essa voluntária e pretensiosa rejeição dos vizinhos, que deixou a Suíça sem a cobertura europeia, na crise que destruiu a sua imagem. O fim da guerra fria, com a implosão da URSS acabou com a importância helvética no tabuleiro europeu, enquanto os recentes escândalos de cumplicidade com os nazis, mais o roubo das economias dos judeus pelos seus bancos lhe tiraram a simpatia americana.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "92",
+    "label": "TEMPO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Espaço Económico Europeu",
+    "label": "OBRA",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "ONU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Suíça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "URSS",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      104
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('União Europeia', 'ORGANIZACAO'), ('UE', 'ORGANIZACAO'), ('92', 'TEMPO'), ('Espaço Económico Europeu', 'OBRA'), ('ONU', 'ORGANIZACAO'), ('Suíça', 'ORGANIZACAO'), ('URSS', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Projeto BNDES 50 anos Depoimento de Antonio Carlos Dias Pastori Entrevista número 36 INDEXAÇÃO IDENTIFICAÇÃO Meu nome é Antonio Pastori , eu trabalho no BNDES desde 1986 , na que era a área de análise de projetos [ Área de Operações Industrias ]. Eu sou natural de Petrópolis , nasci em 1953 , portanto estou com 49 anos , sendo que eu tenho 16 anos de Banco .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Projeto BNDES 50 anos",
+    "label": "OBRA",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Antonio Carlos Dias Pastori",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "36",
+    "label": "VALOR",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Antonio Pastori",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "1986",
+    "label": "TEMPO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Área de Operações Industrias",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Petrópolis",
+    "label": "LOCAL",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "1953",
+    "label": "TEMPO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "49 anos",
+    "label": "VALOR",
+    "token_indices": [
+      56,
+      57
+    ]
+  },
+  {
+    "text": "16 anos",
+    "label": "VALOR",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Antonio Carlos Dias Pastori",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1986",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Área de Operações Industrias",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Petrópolis",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1953",
+    "label": "TEMPO"
+  },
+  {
+    "text": "49 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "16 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Projeto BNDES 50 anos', 'OBRA'), ('36', 'VALOR'), ('Antonio Pastori', 'PESSOA'), ('Área de Operações Industrias', 'ORGANIZACAO')]
+Espúrias  (FP): [('Área de Operações Industrias', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+INGRESSO NO BNDES Eu entrei no BNDES , através de concurso público. Eu já tinha uma noção, já sabia o que o BNDES fazia. Eu tinha interesse de vir trabalhar no Banco , em função da atividade dinâmica de visitar empresas, de apoiar novos empreendimentos, de conhecer o Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('BNDES', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+TRAJETORIA NO BNDES Eu sempre trabalhei, desde que eu entrei no BNDES , na área de análise de projetos e, especificamente, na Mineração , Metalurgia e Siderurgia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Mineração",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Metalurgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Siderurgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mineração",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Metalurgia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Siderurgia",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('BNDES', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O nosso trabalho consiste em analisar o pleito de uma empresa. Esse pleito normalmente refere-se a um pedido de financiamento para expansão de uma planta industrial, para instalação de uma nova planta, para modernização. Então, o nosso trabalho sempre foi de analisar o projeto, que chamamos de "estudo de viabilidade econômica e financeira". Vemos se a empresa tem capacidade de pagamento, analisamos se o projeto é meritório dentro da política de desenvolvimento do Banco e, no final, nós montamos um relatório. Esse relatório é encaminhado à diretoria do Banco para aprovação e concessão do financiamento posteriormente. AVALIAÇÃO DE PROJETOS/ Mina do Pico , Mina de Águas Claras , Mina da Mutuca , Alunorte , Albrás , Latasa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "Mina do Pico",
+    "label": "LOCAL",
+    "token_indices": [
+      99,
+      100,
+      101
+    ]
+  },
+  {
+    "text": "Mina de Águas Claras",
+    "label": "LOCAL",
+    "token_indices": [
+      103,
+      104,
+      105,
+      106
+    ]
+  },
+  {
+    "text": "Mina da Mutuca",
+    "label": "LOCAL",
+    "token_indices": [
+      108,
+      109,
+      110
+    ]
+  },
+  {
+    "text": "Alunorte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      112
+    ]
+  },
+  {
+    "text": "Albrás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      114
+    ]
+  },
+  {
+    "text": "Latasa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      116
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mina do Pico",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mina de Águas Claras",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mina da Mutuca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alunorte",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Albrás",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Latasa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Banco', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nós financiamos a expansão da Mina do Pico , a Mina de Águas Claras e a Mina da Mutuca também. Eles têm um terminal aqui, próximo a Sepetiba , e nós financiamos toda essa expansão. Tem um projeto da Albrás , uma das maiores produtoras de alumínio do Brasil , nós financiamos a expansão dela. Tem a fábrica de alumina, a Alunorte , também no Pará , que é um insumo muito importante para o Brasil e o Brasil importava esse insumo. E, graças ao financiamento dessa empresa, nós deixamos de importar alumina. Alumina é um insumo fundamental na cadeia de fabricação do alumínio. E outros projetos menores, como a primeira fábrica de lata de alumínio do Brasil , que foi a Latasa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mina do Pico",
+    "label": "LOCAL",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Mina de Águas Claras",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Mina da Mutuca",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Sepetiba",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Albrás",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Alunorte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Pará",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      117
+    ]
+  },
+  {
+    "text": "Latasa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      122
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mina do Pico",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mina de Águas Claras",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mina da Mutuca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Albrás",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sepetiba",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alunorte",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Latasa",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Pará', 'LOCAL'), ('Brasil', 'LOCAL'), ('Brasil', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nós financiamos, desde a primeira expansão da empresa em Pouso Alegre , financiamos a fábrica de São Paulo , a fábrica do Rio de Janeiro , a fábrica de Recife e acabamos de financiar recentemente a nova unidade deles, no Rio Grande do Sul . E uma coisa que é fundamental no nosso processo de análise é conhecer, in loco, o processo operacional, o que a empresa faz, como ela está organizada, como é o ambiente organizacional dessa empresa e o processo produtivo. Então, nós sempre visitamos as empresas. VIVENCIAS NO BNDES Viagens Eu tenho uma história bastante interessante, principalmente para aqueles que imaginam que a vida de um técnico do BNDES consiste em pegar avião, na ponte Rio - São Paulo , ficar em escritórios com ar condicionado das empresas. Não é assim. A área que eu trabalhei durante 16 anos , que foi a área de Mineração e Metalurgia e Siderurgia , nós tínhamos freqüentemente viagens ao interior do Brasil , interior da Selva Amazônica , interior do Pará , do Amapá .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pouso Alegre",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Recife",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      111
+    ]
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      120,
+      121
+    ]
+  },
+  {
+    "text": "16 anos",
+    "label": "VALOR",
+    "token_indices": [
+      140,
+      141
+    ]
+  },
+  {
+    "text": "Mineração",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      148
+    ]
+  },
+  {
+    "text": "Metalurgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      150
+    ]
+  },
+  {
+    "text": "Siderurgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      152
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      161
+    ]
+  },
+  {
+    "text": "Selva Amazônica",
+    "label": "LOCAL",
+    "token_indices": [
+      165,
+      166
+    ]
+  },
+  {
+    "text": "Pará",
+    "label": "LOCAL",
+    "token_indices": [
+      170
+    ]
+  },
+  {
+    "text": "Amapá",
+    "label": "LOCAL",
+    "token_indices": [
+      173
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Pouso Alegre', 'LOCAL'), ('São Paulo', 'LOCAL'), ('Rio de Janeiro', 'LOCAL'), ('Recife', 'LOCAL'), ('Rio Grande do Sul', 'LOCAL'), ('BNDES', 'ORGANIZACAO'), ('BNDES', 'ORGANIZACAO'), ('Rio', 'LOCAL'), ('São Paulo', 'LOCAL'), ('16 anos', 'VALOR'), ('Mineração', 'ABSTRACCAO'), ('Metalurgia', 'ABSTRACCAO'), ('Siderurgia', 'ABSTRACCAO'), ('Brasil', 'LOCAL'), ('Selva Amazônica', 'LOCAL'), ('Pará', 'LOCAL'), ('Amapá', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E o que aconteceu de interessante nesse processo é que eu, o nosso chefe na época, o Wagner Bittencourt e mais dois técnicos, Mário Miceli , Eduardo Cestari , fizemos a viagem do Rio até Itaituba , no Pará . Essa viagem foi feita num Lear Jet da empresa, no maior conforto, digamos, na maior mordomia. Quando chegamos em Itaituba , o deslocamento de Itaituba até onde tinha essa ocorrência mineral, que se encontrava no Rio Tapajós , só podia ser feita de barco. E nós entramos no barco da empresa, não era um grande barco, o que eles chamam de "voadeira". " Voadeira |Voadeira" é uma lancha de metal, é um barco de metal de 10 metros de comprimento, mais ou menos. Além de nós quatro do BNDES , havia dois diretores da empresa e o barqueiro. E esse barco estava carregando muito material para a empresa. Por problemas de navegação naquele trecho, não havia uma navegação regular, então procurava-se maximizar qualquer viagem que fizesse para aquela região, levar o máximo possível de material. E a empresa, além de nós, estava levando combustível, bombas, equipamentos. O barco estava muito pesado. Naquela época, o rio Tapajós estava num período de pouca chuva, então as pedras estavam muito aflorando na superfície. Nós ficamos um pouco preocupados porque da margem, do ponto que nós estávamos sentados no barco, da quilha até o nível de água, dava um palmo de diferença. Então, qualquer oscilação faria com que entrasse água. E realmente isso aconteceu. À medida que nós fomos nos deslocando pelo rio Tapajós , no sentido montante, começou entrar água dentro do barco. Como se não bastasse, o motor falhou. O motor falhou, nós ficamos à deriva e foi entrando água, foi entrando água. De repente, todo mundo se apavorou e, no momento que levantou todo mundo, o barco perdeu o equilíbrio, ele virou, literalmente virou.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Wagner Bittencourt",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Mário Miceli",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Eduardo Cestari",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Pará",
+    "label": "LOCAL",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Lear Jet",
+    "label": "COISA",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Rio Tapajós",
+    "label": "LOCAL",
+    "token_indices": [
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Voadeira",
+    "label": "COISA",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "10 metros",
+    "label": "VALOR",
+    "token_indices": [
+      116,
+      117
+    ]
+  },
+  {
+    "text": "BNDES",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      128
+    ]
+  },
+  {
+    "text": "Tapajós",
+    "label": "LOCAL",
+    "token_indices": [
+      195
+    ]
+  },
+  {
+    "text": "Tapajós",
+    "label": "LOCAL",
+    "token_indices": [
+      259
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Wagner Bittencourt",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mário Miceli",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Eduardo Cestari",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rio",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Pará",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio Tapajós",
+    "label": "LOCAL"
+  },
+  {
+    "text": "10 metros",
+    "label": "VALOR"
+  },
+  {
+    "text": "100 cavalos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Lear Jet', 'COISA'), ('Itaituba', 'LOCAL'), ('Voadeira', 'COISA'), ('BNDES', 'ORGANIZACAO'), ('Tapajós', 'LOCAL'), ('Tapajós', 'LOCAL')]
+Espúrias  (FP): [('100 cavalos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Todos nós caímos dentro do rio, o equipamento foi todo perdido e nós ficamos cerca de uma hora à deriva. Para se ter uma idéia do rioTapajós , ele tem, mais ou menos, uns 900 metros de largura. Nós ficamos exatamente no meio e a correnteza puxava muito, então nós ficamos à deriva, nos dispersamos, mas, graças a Deus , conseguimos parar num banco de areia no meio do rio. E mais tarde, umas duas horas depois, uma outra "voadeira" que passava no local, nos socorreu. Aí, pode ser perguntado: "Bom, a viagem de vocês terminou aí. Vocês voltaram para Itaituba para o Rio de Janeiro ?" Não. Aproveitamos que nós estávamos, mais ou menos perto, umas três horas do ponto que a gente ia visitar, continuamos a viagem, visitamos o projeto, fizemos todo contato necessário. Apesar desse imprevisto, desse incidente, graças a Deus ninguém morreu, mas nós fomos lá no local, cumprimos a nossa missão. Conseguimos coletar material para fazer análise do projeto, que infelizmente, não foi aprovado, porque a questão da segurança foi um aspecto que pesou muito na análise da empresa, e por essa falha, na segurança, no deslocamento, nós olhamos com mais atenção à segurança do empreendimento, que era muito falha. A mina que estavam perfurando, parecia uma mina daquela época do Velho Oeste , aquelas galerias muito mal estruturadas. Então, o Banco realmente não concedeu financiamento para essa empresa. Isso foi em julho de 1988 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "rioTapajós",
+    "label": "LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "900 metros",
+    "label": "VALOR",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL",
+    "token_indices": [
+      103,
+      104,
+      105
+    ]
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      143
+    ]
+  },
+  {
+    "text": "Velho Oeste",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      216,
+      217
+    ]
+  },
+  {
+    "text": "Banco",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      226
+    ]
+  },
+  {
+    "text": "julho de 1988",
+    "label": "TEMPO",
+    "token_indices": [
+      237,
+      238,
+      239
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "900 metros",
+    "label": "VALOR"
+  },
+  {
+    "text": "rioTapajós",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Deus",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Itaituba",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Belém",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Deus', 'PESSOA'), ('Velho Oeste', 'ABSTRACCAO'), ('Banco', 'ORGANIZACAO'), ('julho de 1988', 'TEMPO')]
+Espúrias  (FP): [('Belém', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Depoimento de Gilberto Afif Sarruf Entrevistado por Valéria Barbosa e Roney Cytrynowicz Estúdio da Oficina Cultural Oswald de Andrade São Paulo , 21 de novembro de 1994 Transcrita por Teresa Furtado P - Eu queria que o senhor nos dissesse o seu nome, o local e a data de nascimento. R - Bom, meu nome é Gilberto Afif Sarruf , sou nascido em São Paulo , e nascí em 14 de abril de 1948 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gilberto Afif Sarruf",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Valéria Barbosa",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Roney Cytrynowicz",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Estúdio da Oficina Cultural Oswald de Andrade",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "21 de novembro de 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Teresa Furtado",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Gilberto Afif Sarruf",
+    "label": "PESSOA",
+    "token_indices": [
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "14 de abril de 1948",
+    "label": "TEMPO",
+    "token_indices": [
+      69,
+      70,
+      71,
+      72,
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gilberto Afif Sarruf",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Valéria Barbosa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Roney Cytrynowicz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Estúdio da Oficina Cultural Oswald de Andrade",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "21 de novembro de 1994",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Teresa Furtado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "14 de abril de 1948",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Estúdio da Oficina Cultural Oswald de Andrade', 'LOCAL'), ('Gilberto Afif Sarruf', 'PESSOA'), ('São Paulo', 'LOCAL')]
+Espúrias  (FP): [('Estúdio da Oficina Cultural Oswald de Andrade', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+P - E qual que era a atividade do pai do senhor? R - Meu pai veio para cá pequeno, veio com oito anos de idade, e estudou um período, até crescer um pouco mais, e começou a trabalhar com os irmãos, e quando adquiriu aproximadamente 14/15 anos , começou a trabalhar com comércio de armarinhos, e... que deu origem ao nome Ao Rei do Armarinho , e que existe até hoje, estou aqui eu continuando, e eventualmente meus filhos. P - E por que é que... qual que foi o motivo da vinda dos pais do senhor para o Brasil , por que escolheram o Brasil ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "aproximadamente 14/15 anos",
+    "label": "VALOR",
+    "token_indices": [
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Ao Rei do Armarinho",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      62,
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      106
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ao Rei do Armarinho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('aproximadamente 14/15 anos', 'VALOR'), ('Ao Rei do Armarinho', 'ABSTRACCAO'), ('Brasil', 'LOCAL')]
+Espúrias  (FP): [('Ao Rei do Armarinho', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+vamos dizer, com a cara e a coragem, para cá. Vieram se aventurar, eram solteiros, e... tentar, vamos dizer, arriscar uma vida nova. E de repente viram que existia possibilidade, que o Brasil oferecia condições favoráveis para isso, um país de clima tropical, São Paulo uma cidade que já, desde o começo do século, inspirava que seria um grande pólo de desenvolvimento, eles acreditaram e vieram, com a raça e a coragem. P - Quando eles chegaram, no caso, o pai do senhor, quando ele chegou aqui no Brasil , onde que ele foi morar, onde era a casa? R - Eles moravam no Brás , no Belenzinho , mais especificamente. P - Junto com outros parentes? R - Morava a família inteira, numa casa grande. Meu pai tinha diversos irmãos, dez ou 11 irmãos, mais os pais dele; o pai dele, e... eu sei que era uma casa grande, vamos dizer, onde a família se cotizava, se ajustava ali e praticamente eu ouvi falar alguma coisa, não cheguei a conhecer. P - E o senhor nasceu em que bairro aqui em São Paulo ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "Brás",
+    "label": "LOCAL",
+    "token_indices": [
+      104
+    ]
+  },
+  {
+    "text": "Belenzinho",
+    "label": "LOCAL",
+    "token_indices": [
+      107
+    ]
+  },
+  {
+    "text": "11",
+    "label": "VALOR",
+    "token_indices": [
+      133
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      182,
+      183
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasil', 'LOCAL'), ('São Paulo', 'LOCAL'), ('Brasil', 'LOCAL'), ('Brás', 'LOCAL'), ('Belenzinho', 'LOCAL'), ('11', 'VALOR'), ('São Paulo', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Fonte de Partes para Tractores Ford NewHolland Usados Partes para tractor, partes para tractor refabricadas, fords newholland usados, transmissões refabricadas, eixos de manivela da ford, inventário de usados da ford, partes de tractor usadas, montagens em bloco refabricadas WELCOME! Partes para tractor, partes para tractor refabricadas, fords newholland usados, transmissões refabricadas, eixos de manivela da ford, inventário de usados da ford, partes de tractor usadas, montagens em bloco refabricadas Alexander Logo A Alexander's Tractor Parts ( Partes de Tractor do Alexandre ) éum negócio de Família , envolvido no desmantelamento, refabrico, limpeza, inspecção, e envio de partes para tractores Ford . Nós também somos a fonte de partes de tractor refabricadas para Fords NewHolland usados. A Alexander's éverdadeiramente única. Nós somos a única firma de partes refabricadas e usadas dedicada exclusivamente aos proprietários de tractores Ford . Nós também somos uma das maiores companhias dedicadas ao fornecimento de partes para a sua máquina Ford NewHolland .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ford NewHolland",
+    "label": "COISA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Alexander's Tractor Parts",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73,
+      74,
+      75
+    ]
+  },
+  {
+    "text": "Partes de Tractor do Alexandre",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77,
+      78,
+      79,
+      80,
+      81
+    ]
+  },
+  {
+    "text": "Família",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      86
+    ]
+  },
+  {
+    "text": "Ford",
+    "label": "COISA",
+    "token_indices": [
+      100
+    ]
+  },
+  {
+    "text": "Fords NewHolland",
+    "label": "COISA",
+    "token_indices": [
+      113,
+      114
+    ]
+  },
+  {
+    "text": "Alexander's",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      117
+    ]
+  },
+  {
+    "text": "Ford",
+    "label": "COISA",
+    "token_indices": [
+      136
+    ]
+  },
+  {
+    "text": "Ford NewHolland",
+    "label": "COISA",
+    "token_indices": [
+      154,
+      155
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fonte de Partes para Tractores Ford NewHolland Usados",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Partes para tractor",
+    "label": "COISA"
+  },
+  {
+    "text": "Partes para tractor refabricadas",
+    "label": "COISA"
+  },
+  {
+    "text": "fords newholland usados",
+    "label": "COISA"
+  },
+  {
+    "text": "transmissões refabricadas",
+    "label": "COISA"
+  },
+  {
+    "text": "eixos de manivela da ford",
+    "label": "COISA"
+  },
+  {
+    "text": "inventário de usados da ford",
+    "label": "COISA"
+  },
+  {
+    "text": "partes de tractor usadas",
+    "label": "COISA"
+  },
+  {
+    "text": "montagens em bloco refabricadas",
+    "label": "COISA"
+  },
+  {
+    "text": "Alexander",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Partes de Tractor do Alexandre",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "30 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Ford NewHolland', 'COISA'), ("Alexander's Tractor Parts", 'ORGANIZACAO'), ('Família', 'ABSTRACCAO'), ('Ford', 'COISA'), ('Fords NewHolland', 'COISA'), ("Alexander's", 'ORGANIZACAO'), ('Ford', 'COISA'), ('Ford NewHolland', 'COISA')]
+Espúrias  (FP): [('Fonte de Partes para Tractores Ford NewHolland Usados', 'ORGANIZACAO'), ('Partes para tractor', 'COISA'), ('Partes para tractor refabricadas', 'COISA'), ('fords newholland usados', 'COISA'), ('transmissões refabricadas', 'COISA'), ('eixos de manivela da ford', 'COISA'), ('inventário de usados da ford', 'COISA'), ('partes de tractor usadas', 'COISA'), ('montagens em bloco refabricadas', 'COISA'), ('Alexander', 'PESSOA'), ('30 anos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ford éo único tractor e partes que nós temos. Esta exclusividade éo que nos distingue dos outros. A nossa companhia éverdadeiramente dedicada a servir os nossos clientes. Nós conhecemos o sentimento de se estar "avariado" e como éimportante voltar ao trabalho. Esta dedicação, em conjunto com a dos nossos clientes, tem contribuído bastante para o crescimento tremendo da nossa companhia. Os nossos altos critérios de qualidade, serviço rápido, e preços competitivos vêem-nos trazendo reconhecimento nacional. Seja a sua necessidade refabrico, usado, ou novo, seja bem-vindo a experimentar os nossos produtos. Por favor compreenda que ao entrar no nosso site, todo o conteúdo éem Inglês. Igualmente, toda a correspondência deverá ser efectuada em Inglês. Clique aqui para entrar
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ford",
+    "label": "COISA",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ford",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Inglês",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Ford', 'COISA')]
+Espúrias  (FP): [('Ford', 'ORGANIZACAO'), ('Inglês', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Envie email marketing com IP anônimo SuperEmail Marketing v3.01 Envie mensagens com IP anônimo! Com o programa SuperEmail Marketing v3.01 você poderá realizar suas campanhas de email marketing mantendo seu IP 100% anônimo. O programa também possibilita que você utilize vários servidores de SMTP públicos, simultaneamente, para acelerar o processo de envio das mensagens sem perder o anônimato. E para aumentar mais um pouquinho a velocidade de envio, você poderá selecionar a opção «Envio rápido (Turbo)» que otimiza as conexões com os servidores de emails. -Extrai endereços de emails de NewsGroups segmentados por grupos de interesse -Extrai endereços de emails da Web -Extrai endereços de emails de discos rígidos e CD-ROMS -Gera emails inteligentes baseado no dicionário dos 400.000 usernames mais usados no Brasil -Valida listas de emails -Tem opção de enviar emails usando SMTP Interno -Tem opção de enviar emails usando Múltiplos SMTP Públicos (open relays) -Procura e testa servidores de SMTP públicos na Internet -Procura e testa servidores proxy SOCKS e HTTP na Internet -Salva logs de envios -Salva os emails enviados -Salva os emails não enviados SUPER EMAIL MARKETING FURA BLOQUEIO DE PROVEDORES PORQUE: -Envia mensagens com Nomes de Origem |Nomes de Origem aleatórios -Envia mensagens com Emails de Origem aleatórios -Envia mensagens alternando o assunto -Adiciona string aleatória no fim do assunto -Adiciona string aleatória no fim da mensagem -Se conecta com os servidores fornecendo HELO aleatório -Oculta seu IP Obtenha uma versão demonstrativa em: http://superemailmarketing.kit.net/. (0xx16) 6 3 2 - 3 1 4 0
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SuperEmail Marketing v3.01",
+    "label": "COISA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "SuperEmail Marketing v3.01",
+    "label": "COISA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "100%",
+    "label": "VALOR",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "NewsGroups",
+    "label": "LOCAL",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Web",
+    "label": "LOCAL",
+    "token_indices": [
+      101
+    ]
+  },
+  {
+    "text": "400.000",
+    "label": "VALOR",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      155
+    ]
+  },
+  {
+    "text": "SOCKS",
+    "label": "COISA",
+    "token_indices": [
+      161
+    ]
+  },
+  {
+    "text": "HTTP",
+    "label": "COISA",
+    "token_indices": [
+      163
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      165
+    ]
+  },
+  {
+    "text": "Nomes de Origem",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      190,
+      191,
+      192
+    ]
+  },
+  {
+    "text": "HELO",
+    "label": "COISA",
+    "token_indices": [
+      229
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('SuperEmail Marketing v3.01', 'COISA'), ('SuperEmail Marketing v3.01', 'COISA'), ('100%', 'VALOR'), ('NewsGroups', 'LOCAL'), ('Web', 'LOCAL'), ('400.000', 'VALOR'), ('Brasil', 'LOCAL'), ('Internet', 'LOCAL'), ('SOCKS', 'COISA'), ('HTTP', 'COISA'), ('Internet', 'LOCAL'), ('Nomes de Origem', 'ABSTRACCAO'), ('HELO', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+pedra A CASA DE PEDRA |CASA DE PEDRA .......................... voltar Para os apreciadores da pesca de Tilápia do Nilo , vai aqui uma dica muito especial. Próximo à São Paulo , em São Bernardo do Campo , na localidade de Riacho Grande , existe um excelente local para pesca de tilápias. Trata-se da Casa de Pedra , como é popularmente conhecida a casa da Marquesa de Santos , na Reprêsa Bilings .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CASA DE PEDRA",
+    "label": "LOCAL",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Tilápia do Nilo",
+    "label": "COISA",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "São Bernardo do Campo",
+    "label": "LOCAL",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Riacho Grande",
+    "label": "LOCAL",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Casa de Pedra",
+    "label": "LOCAL",
+    "token_indices": [
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Marquesa de Santos",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Reprêsa Bilings",
+    "label": "LOCAL",
+    "token_indices": [
+      69,
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CASA DE PEDRA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Bernardo do Campo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Riacho Grande",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Casa de Pedra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marquesa de Santos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Reprêsa Bilings",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Tilápia do Nilo', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Lá existe uma quantidade respeitável de tal peixe, com tamanho avantajado, em média 500 gramas , com alguns exemplares chegando a mais de um quilo. Neste local, com uma vara lisa de 4 metros (no mínimo, dado a necessidade de longo alcance), pode-se tentar a "técnica do croquete", descrita no artigo "pescando pela lei da natureza", publicado nesta Site na seção Dicas. Porém, a prática normal dos pescadores que lá frequentam, é usar equipamento micro, equipado com linha 0,20mm , e anzol coberto por uma capa de fio de eletrecidade vermelho. Para preparar tal "isca", corte um pedaço de fio de bitola igual a do anzol a ser utilizado, retire o material condutor de dentro. Em seguida aplique uma fina camada de cola (super bonder é recomendável) em todo o anzol. "Vista" o anzol com a capa do fio de forma que fique coberto desde a sua base até a metade de sua curva. Limpe imediatamente a parte exposta do anzol e deixe secar bem. Depois de sêco, cole, também com super bonder, um pequeno chumaço de penas coloridas. O verde claro funciona muito bem. Trabalha-se com esta "isca" da mesma forma que se trabalha com um spiner e o resultado é muito bom, apesar da dificuldade de arremesso, dado a falta de peso. (alguns pescadores chegam a usar uma pequena bóia com pêso para auxiliar no arremesso). Com tal técnica, os pescadores que frequentam o local chegam a pegar 3 vezes mais tilápias do que com iscas naturais, saindo de lá com 150 a 200 exemplares em um bom dia de pescaria.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "500 gramas",
+    "label": "VALOR",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "4 metros",
+    "label": "VALOR",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "0,20mm",
+    "label": "VALOR",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "3",
+    "label": "VALOR",
+    "token_indices": [
+      240
+    ]
+  },
+  {
+    "text": "150 a 200",
+    "label": "VALOR",
+    "token_indices": [
+      253,
+      254,
+      255
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "500 gramas",
+    "label": "VALOR"
+  },
+  {
+    "text": "4 metros",
+    "label": "VALOR"
+  },
+  {
+    "text": "Site",
+    "label": "LOCAL"
+  },
+  {
+    "text": "0,20mm",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('3', 'VALOR'), ('150 a 200', 'VALOR')]
+Espúrias  (FP): [('Site', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Vale a pena tentar. Boa sorte. Tchello
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tchello",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tchello', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Reginaldo Duarte pertence a uma família de políticos de Juazeiro do Norte ( CE ), mas nunca havia disputado eleição. «Sempre fugia da raia. Achava que não tinha vocação política», explica. Em 90 ele não pôde fugir. «O Tasso Jereissati quis homenagear a minha região e pediu um nome. Fui escolhido e não queria aceitar. Mas aceitei porque foi uma gentileza do governador», diz. Jônice Tristão afirma que acompanha a vida política de Elcio Álvares há duas décadas. Nunca havia disputado mandatos eletivos. Acha que foi escolhido como suplente pela sua imagem empresarial formada em mais de 50 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reginaldo Duarte",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Juazeiro do Norte",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "CE",
+    "label": "LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "90",
+    "label": "TEMPO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Tasso Jereissati",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Jônice Tristão",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Elcio Álvares",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "mais de 50 anos",
+    "label": "VALOR",
+    "token_indices": [
+      95,
+      96,
+      97,
+      98
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Reginaldo Duarte",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Juazeiro do Norte",
+    "label": "LOCAL"
+  },
+  {
+    "text": "CE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "90",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Tasso Jereissati",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Elcio Álvares",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jônice Tristão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "50 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('mais de 50 anos', 'VALOR')]
+Espúrias  (FP): [('50 anos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+O técnico Sacchi elogiou ontem a «bravura» de seus jogadores, especialmente de Baggio , «com seu toque mágico para ganhar partidas». Ainda assim, foi a mídia que amplificou as acusações, ao divulgá-las sem uma checagem mais aprofundada. Culpa da mídia, então? À primeira vista, sim, mas é aí que se chega ao verdadeiro nó da questão. Por partes: a lista de nomes mais completa foi ao ar durante o Jornal Nacional , da Rede Globo , por volta de 20h .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sacchi",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Baggio",
+    "label": "PESSOA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Jornal Nacional",
+    "label": "LOCAL",
+    "token_indices": [
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Rede Globo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "20h",
+    "label": "TEMPO",
+    "token_indices": [
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sacchi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Baggio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jornal Nacional",
+    "label": "OBRA"
+  },
+  {
+    "text": "Rede Globo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "20h",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Jornal Nacional', 'LOCAL')]
+Espúrias  (FP): [('Jornal Nacional', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+De que adiantaria os jornais do dia seguinte omitirem os nomes, se eles já haviam sido arrastados à lama por um noticiário que atinge cerca de 60 milhões de pessoas, certamente mais do que a tiragem conjunta de todos os jornais brasileiros? O treinador Levir Culpi não quis adiantar o substituto de Éder Aleixo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "cerca de 60 milhões",
+    "label": "VALOR",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Levir Culpi",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Éder Aleixo",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Levir Culpi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Éder Aleixo",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('cerca de 60 milhões', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Geografia da Croácia Origem: Wikipédia , a enciclopédia livre. A Croácia situa-se entre a Europa central, meridional e oriental, porque o país tem uma forma bastante peculiar, que lembra um crescente ou uma ferradura. É esse o motivo de ter tantos vizinhos: a Eslovénia , a Hungria , a parte sérvia da Sérvia e Montenegro , a Bósnia-Herzegovina , a parte montenegrina da Sérvia e Montenegro e a Itália , do outro lado do Adriático .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Croácia",
+    "label": "LOCAL",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Wikipédia",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Croácia",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Eslovénia",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Hungria",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Sérvia e Montenegro",
+    "label": "LOCAL",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Bósnia-Herzegovina",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Sérvia",
+    "label": "LOCAL",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "Montenegro",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Adriático",
+    "label": "LOCAL",
+    "token_indices": [
+      74
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Croácia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Wikipédia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Eslovénia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Hungria",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sérvia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Montenegro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bósnia-Herzegovina",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sérvia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Montenegro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Itália",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Adriático",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Wikipédia', 'LOCAL'), ('Croácia', 'LOCAL'), ('Sérvia e Montenegro', 'LOCAL')]
+Espúrias  (FP): [('Wikipédia', 'ORGANIZACAO'), ('Sérvia', 'LOCAL'), ('Montenegro', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Isaura , - disse Leôncio com voz áspera apontando para os instrumentos de suplício, - eis ali o que te espera, se persistes em teu louco emperramento. Nada mais tenho a dizer-te; deixo-te livre ainda, e fica-te o resto do dia para refletires. Tens de escolher entre o meu amor e o meu ódio. Qualquer dos dois, tu bem sabes, são violentos e poderosos. Adeus!... Quando Isaura sentiu que seu senhor se havia ausentado, ergueu o rosto, e levantando ao céu os olhos e as mãos juntas, dirigiu à Rainha dos anjos a seguinte fervorosa prece, exalada entre soluços do mais íntimo de sua alma: - Virgem senhora da Piedade , Santíssima Mãe de Deus !... vós sabeis se eu sou inocente, e se mereço tão cruel tratamento. Socorrei-me neste transe aflitivo, porque neste mundo ninguém pode valer-me. Livrai-me das garras de um algoz, que ameaça não só a minha vida, como a minha inocência e honestidade. Iluminai-lhe o espírito e infundi-lhe no coração brandura e misericórdia para que se compadeça de sua infeliz cativa. É uma humilde escrava que com as lágrimas nos olhos e a dor no coração vos roga pelas vossas dores sacrossantas, pelas chagas de vosso Divino Filho : valei-me por piedade. Quanto Isaura era formosa naquela suplicante e angustiosa atitude! oh! muito mais bela do que em seus momentos de serenidade e prazer!... se a visse então, Leôncio talvez sentisse abrandar-se o férreo e obcecado coração. Com os olhos arrasados em lágrimas, que em fio lhe escorregavam pelas faces desbotadas, entreaberta a boca melancólica, que lhe tremia ao passar da prece murmurada entre soluços, atiradas em desordem pelas espáduas as negras e opulentas madeixas, voltando para o céu o busto mavioso plantado sobre um colo escultural, ofereceria ao artista inspirado o mais belo e sublime modelo para a efígie da Mãe Dolorosa , a quem nesse momento dirigia suas ardentes súplicas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Isaura",
+    "label": "PESSOA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Leôncio",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Isaura",
+    "label": "PESSOA",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Rainha",
+    "label": "PESSOA",
+    "token_indices": [
+      90
+    ]
+  },
+  {
+    "text": "Virgem senhora da Piedade",
+    "label": "PESSOA",
+    "token_indices": [
+      107,
+      108,
+      109,
+      110
+    ]
+  },
+  {
+    "text": "Santíssima Mãe de Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      112,
+      113,
+      114,
+      115
+    ]
+  },
+  {
+    "text": "Divino Filho",
+    "label": "PESSOA",
+    "token_indices": [
+      201,
+      202
+    ]
+  },
+  {
+    "text": "Isaura",
+    "label": "PESSOA",
+    "token_indices": [
+      208
+    ]
+  },
+  {
+    "text": "Leôncio",
+    "label": "PESSOA",
+    "token_indices": [
+      233
+    ]
+  },
+  {
+    "text": "Mãe Dolorosa",
+    "label": "PESSOA",
+    "token_indices": [
+      306,
+      307
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Isaura",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Leôncio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Isaura",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rainha dos anjos",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Rainha', 'PESSOA'), ('Virgem senhora da Piedade', 'PESSOA'), ('Santíssima Mãe de Deus', 'PESSOA'), ('Divino Filho', 'PESSOA'), ('Isaura', 'PESSOA'), ('Leôncio', 'PESSOA'), ('Mãe Dolorosa', 'PESSOA')]
+Espúrias  (FP): [('Rainha dos anjos', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os anjos do céu, que por certo naquele instante adejavam em torno dela agitando as asas de ouro e carmim, não podiam deixar de levar tão férvida e dolorosa prece aos pés do trono da Consoladora dos aflitos. Absorvida em suas mágoas Isaura não viu seu pai, que, entrando pelo salão a passos sutis e cautelosos, encaminhava-se para ela. - Oh! felizmente ela ali está, - murmurava o velho, - o algoz aqui também andava! oh! pobre Isaura !... que será de ti?!... - Meu pai por aqui!... - exclamou a infeliz ao avistar Miguel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Isaura",
+    "label": "PESSOA",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Isaura",
+    "label": "PESSOA",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Miguel",
+    "label": "PESSOA",
+    "token_indices": [
+      94
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Isaura",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Miguel",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Isaura', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+- Venha, venha ver a que estado reduzem sua filha. - Que tens, filha?... que nova desgraça te sucede? - Não está vendo, meu pai?... eis ali a sorte, que me espera, - respondeu ela apontando para o tronco e as algemas, que ali estavam ao pé dela. - Que monstro, meu Deus !... mas eu já esperava por tudo isto... - É esta a liberdade que pretende dar àquela que a mãe dele criou com tanto amor e carinho. O mais cruel e aviltante cativeiro, um martírio continuado da alma e do corpo, eis o que resta à sua desventurada filha... Meu pai, não posso resistir a tanto sofrimento!... restava-me um recurso extremo; esse mesmo vai-me ser negado. Presa, algemada, amarrada de pés e mãos!... oh!... meu pai! meu pai!... isto é horrível!... Meu pai, a sua faca, - acrescentou depois de ligeira pausa com voz rouca e olhar sombrio, - preciso de sua faca. - Que pretendes fazer com ela, Isaura ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Isaura",
+    "label": "PESSOA",
+    "token_indices": [
+      162
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Deus', 'PESSOA'), ('Isaura', 'PESSOA')]
+Espúrias  (FP): []
+

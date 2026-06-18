@@ -1,0 +1,6167 @@
+--------------------------------------------------------------------------------
+Texto:
+Nihonline Destaques Conheça Marcio Suzuki , o cóuboi nikkei que sonha seguir carreira em Las Vegas nos Estados Unidos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nihonline",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Marcio Suzuki",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Las Vegas",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Marcio Suzuki",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Las Vegas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estados Unidos",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Nihonline', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Baladas: Confira as datas das próximas festas da comunidade jovem nipo-brasileira Lançamento! Maria Helena Sato acaba de lançar o livro " Bonsais e Haicais " em prol da Igreja Santa Cruz . Dizem que a máquina tem derrotado o homem. Nesse game é homem contra homem. O nosso reporter " Jappa " esteve presente em uma das edições do Mercado Mundo Mix , confira a reportagem. O Grupo Escoteiro Caramuru prepara mais um super Bazar para você! Confira! Últimas Notícias Amazing Party : A criatividade e a animação do pessoal foi a marca registrada desta festa. Você sabia que o Kendi Yamai ( Planet Dance ) é candidato a vereador na cidade de Sorocaba ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Maria Helena Sato",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Bonsais e Haicais",
+    "label": "OBRA",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Igreja Santa Cruz",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Jappa",
+    "label": "PESSOA",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Mercado Mundo Mix",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Grupo Escoteiro Caramuru",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Bazar",
+    "label": "OUTRO",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Amazing Party",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      80,
+      81
+    ]
+  },
+  {
+    "text": "Kendi Yamai",
+    "label": "PESSOA",
+    "token_indices": [
+      100,
+      101
+    ]
+  },
+  {
+    "text": "Planet Dance",
+    "label": "LOCAL",
+    "token_indices": [
+      103,
+      104
+    ]
+  },
+  {
+    "text": "Sorocaba",
+    "label": "LOCAL",
+    "token_indices": [
+      113
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Baladas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Maria Helena Sato",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bonsais e Haicais",
+    "label": "OBRA"
+  },
+  {
+    "text": "Igreja Santa Cruz",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Jappa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mercado Mundo Mix",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Grupo Escoteiro Caramuru",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Amazing Party",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Kendi Yamai",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Planet Dance",
+    "label": "OBRA"
+  },
+  {
+    "text": "Sorocaba",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Igreja Santa Cruz', 'ABSTRACCAO'), ('Grupo Escoteiro Caramuru', 'PESSOA'), ('Bazar', 'OUTRO'), ('Planet Dance', 'LOCAL')]
+Espúrias  (FP): [('Baladas', 'ABSTRACCAO'), ('Igreja Santa Cruz', 'ORGANIZACAO'), ('Grupo Escoteiro Caramuru', 'ORGANIZACAO'), ('Planet Dance', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pois é, tanto é verdade que a Nihonline está torcendo para que ele consiga chegar lá.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nihonline",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Nihonline",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Nihonline', 'PESSOA')]
+Espúrias  (FP): [('Nihonline', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Boa Sorte Kendi !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kendi",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Boa Sorte",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Kendi",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Boa Sorte', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Promoções Cadastre-se para concorrer a vip's nas seguintes festas: - Amazing Party III - Metro Tech 6 - Whisky Party > Whisky Party ( Campinas ): Aqui na Nihonline você ganha desconto para esta super festa! Esporte Diversos Judo : Esse ano não deu para a nossa Vânia Ishii , mas você conseguiu entender a luta? Se a resposta é não, então clique aqui! Cultura : Venha conhecer o Museu da Imigração Japonesa , um dos maiores patrimônios da comunidade nipo-brasileira. Beisebol e Softbol : Este é um dos esportes que mais possui praticantes nikkeys, venha saber um pouco mais sobre ele. Abeuni : Saiba um pouco mais sobre uma das miores entidades da comunidade, veja também o relato de alguns integrantes. Atletas brasileiros brilham no " Hungarian Youth Table Tennis World Festival " - na foto ao lado: Lincon Yassuda , Gustavo Tsuboi e seu parceiro romeno Ibirapuera ganha mudas de cerejeira: O parque do Ibirapuera ganhou 100 pés de cerejeira.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Amazing Party III",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Metro Tech 6",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Whisky Party",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Whisky Party",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Campinas",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Nihonline",
+    "label": "LOCAL",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Esporte",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Judo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Vânia Ishii",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Cultura",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Museu da Imigração Japonesa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69,
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Beisebol",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Softbol",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Abeuni",
+    "label": "OUTRO",
+    "token_indices": [
+      102
+    ]
+  },
+  {
+    "text": "Hungarian Youth Table Tennis World Festival",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      127,
+      128,
+      129,
+      130,
+      131,
+      132
+    ]
+  },
+  {
+    "text": "Lincon Yassuda",
+    "label": "PESSOA",
+    "token_indices": [
+      139,
+      140
+    ]
+  },
+  {
+    "text": "Gustavo Tsuboi",
+    "label": "PESSOA",
+    "token_indices": [
+      142,
+      143
+    ]
+  },
+  {
+    "text": "Ibirapuera",
+    "label": "LOCAL",
+    "token_indices": [
+      148
+    ]
+  },
+  {
+    "text": "Ibirapuera",
+    "label": "LOCAL",
+    "token_indices": [
+      156
+    ]
+  },
+  {
+    "text": "100",
+    "label": "VALOR",
+    "token_indices": [
+      158
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Amazing Party III",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Metro Tech 6",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Whisky Party",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Whisky Party ( Campinas )",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Nihonline",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Vânia Ishii",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Museu da Imigração Japonesa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Abeuni",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Whisky Party', 'ACONTECIMENTO'), ('Campinas', 'LOCAL'), ('Nihonline', 'LOCAL'), ('Esporte', 'ABSTRACCAO'), ('Judo', 'ABSTRACCAO'), ('Cultura', 'ABSTRACCAO'), ('Beisebol', 'ABSTRACCAO'), ('Softbol', 'ABSTRACCAO'), ('Abeuni', 'OUTRO'), ('Hungarian Youth Table Tennis World Festival', 'ACONTECIMENTO'), ('Lincon Yassuda', 'PESSOA'), ('Gustavo Tsuboi', 'PESSOA'), ('Ibirapuera', 'LOCAL'), ('Ibirapuera', 'LOCAL'), ('100', 'VALOR')]
+Espúrias  (FP): [('Whisky Party ( Campinas )', 'ACONTECIMENTO'), ('Nihonline', 'ORGANIZACAO'), ('Abeuni', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Coma à vontade: A equipe do Jornal do Nikkey esteve pesquisando um lado gostoso da Liberdade em São Paulo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jornal do Nikkey",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Liberdade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jornal do Nikkey",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Liberdade",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Liberdade', 'ABSTRACCAO')]
+Espúrias  (FP): [('Liberdade', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Leia a matéria sobre alguns tipos de bentô" que podem ser encontrados. Receba gratuitamente Há pouco das eleições, você pretende votar de que maneira? Já tenho candidato Em um conhecido Em um indicado Branco ou Nulo Não sei ainda Política de Privacidade | Termos de Uso | Fale Conosco Nihonline.com.br - 2000 - Todos direitos reservados
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Política de Privacidade",
+    "label": "OBRA",
+    "token_indices": [
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO",
+    "token_indices": [
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "bentô",
+    "label": "COISA"
+  },
+  {
+    "text": "Há pouco",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Nihonline.com.br",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Política de Privacidade', 'OBRA')]
+Espúrias  (FP): [('bentô', 'COISA'), ('Há pouco', 'TEMPO'), ('Nihonline.com.br', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Macho man O mercado para modelos masculinos tem sido um tópico levantado com frequência por leitores, como Giuliano Figueiredo Curcio , de Bom Jesus ( RJ ). Alguns têm intenção de entrar neste mercado, outros apenas por curiosidade. Atualmente o top dos tops é Marcus Schenkenberg , que foi apresentador oficial do The Look of the Year este ano, que chega a cobrar US$ 30 mil por desfile e de quem falaremos brevemente em um The Look . Bebê?? Eu hein Nunca uma suposta gravidez foi tão comentada. A top Niki Taylor poderia estar esperando um filho do jogador de futebol Matt Martinez , o que cancelaria seu milionário contrato com a Cover Girl (já uma das cláusulas prevê este rompimento, em caso de bebê à vista). Ninguém confirma ou desmente nada, já que Niki é uma das tops mais reclusas do mundo da moda. Polivalente Quem achava que depois de abandonar as passarelas, Iman só se dedicaria ao maridão David Bowie , se enganou redondamente.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Giuliano Figueiredo Curcio",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Bom Jesus",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "RJ",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Marcus Schenkenberg",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "The Look of the Year",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "US$ 30 mil",
+    "label": "VALOR",
+    "token_indices": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "The Look",
+    "label": "LOCAL",
+    "token_indices": [
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Niki Taylor",
+    "label": "PESSOA",
+    "token_indices": [
+      90,
+      91
+    ]
+  },
+  {
+    "text": "Matt Martinez",
+    "label": "PESSOA",
+    "token_indices": [
+      101,
+      102
+    ]
+  },
+  {
+    "text": "Cover Girl",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      112,
+      113
+    ]
+  },
+  {
+    "text": "Niki",
+    "label": "PESSOA",
+    "token_indices": [
+      134
+    ]
+  },
+  {
+    "text": "Iman",
+    "label": "PESSOA",
+    "token_indices": [
+      154
+    ]
+  },
+  {
+    "text": "David Bowie",
+    "label": "PESSOA",
+    "token_indices": [
+      160,
+      161
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Giuliano Figueiredo Curcio",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bom Jesus",
+    "label": "LOCAL"
+  },
+  {
+    "text": "RJ",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Marcus Schenkenberg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "The Look of the Year",
+    "label": "OBRA"
+  },
+  {
+    "text": "US$ 30 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "The Look",
+    "label": "OBRA"
+  },
+  {
+    "text": "Niki Taylor",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Matt Martinez",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cover Girl",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Niki Taylor",
+    "label": "PESSOA"
+  },
+  {
+    "text": "24 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Cover Girl",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('The Look of the Year', 'ACONTECIMENTO'), ('The Look', 'LOCAL'), ('Niki', 'PESSOA'), ('Iman', 'PESSOA'), ('David Bowie', 'PESSOA')]
+Espúrias  (FP): [('The Look of the Year', 'OBRA'), ('The Look', 'OBRA'), ('Niki Taylor', 'PESSOA'), ('24 anos', 'VALOR'), ('Cover Girl', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além de ter lançado recentemente sua linha de produtos de beleza para mulheres escuras, a sempre top logo estará nas telas. Negócios à parte O caso Simpson não complicou muito a vida da modelo Paula Barbieri , que namorava O. J. até o momento do assassinato de sua ex-mulher. Ela está bem à vontade nas páginas da Playboy americana de outubro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Simpson",
+    "label": "OUTRO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Paula Barbieri",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "O. J.",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Playboy",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "outubro",
+    "label": "TEMPO",
+    "token_indices": [
+      60
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Paula Barbieri",
+    "label": "PESSOA"
+  },
+  {
+    "text": "O. J.",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Playboy",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Simpson', 'OUTRO'), ('Playboy', 'LOCAL'), ('outubro', 'TEMPO')]
+Espúrias  (FP): [('Playboy', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Já O. J. , a história é outra. Fim da história A companhia de cosméticos Elizabeth Arden não pode mais contar com o rosto bonito de Vendela em suas campanhas. O contrato de seis anos que ligava as duas partes expirou e não foi renovado. Sld out A entrada de Vanessa Williams movimentou o caixa do musical `` O Beijo da Mulher Aranha '', para melhor. Com Chita Rivera , a lotação do Bradhurst Theater ficava em 70% de sua capacidade. Com Williams , é todo dia 100% .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "O. J.",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Elizabeth Arden",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Vendela",
+    "label": "PESSOA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Vanessa Williams",
+    "label": "PESSOA",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "O Beijo da Mulher Aranha",
+    "label": "OBRA",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Chita Rivera",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Bradhurst Theater",
+    "label": "LOCAL",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "70%",
+    "label": "VALOR",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Williams",
+    "label": "PESSOA",
+    "token_indices": [
+      82
+    ]
+  },
+  {
+    "text": "100%",
+    "label": "VALOR",
+    "token_indices": [
+      87
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "O. J.",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Elizabeth Arden",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Vendela",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Vanessa Williams",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Chita Rivera",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bradhurst Theater",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Williams",
+    "label": "PESSOA"
+  },
+  {
+    "text": "100%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('O Beijo da Mulher Aranha', 'OBRA'), ('70%', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O produtor Garth Drabinsky tem a resposta. `` Vanessa é a responsável. Ela tem uma legião de seguidores''. Uma mulher de visão Além de ter lançado recentemente um novo perfume, Femino , a estilista italiana Alberta Ferreti voltou aos noticiários ao comprar toda uma vila italiana medieval: Montegridolfo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Garth Drabinsky",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Vanessa",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Femino",
+    "label": "COISA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Alberta Ferreti",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Montegridolfo",
+    "label": "LOCAL",
+    "token_indices": [
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Garth Drabinsky",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Vanessa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Femino",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Alberta Ferreti",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Montegridolfo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Femino', 'COISA')]
+Espúrias  (FP): [('Femino', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Por que não eu? A atriz e cantora Cher se fez esta pergunta e resolveu lançar então seu catálogo de compras. `` Sanctuary estará disponível a partir de janeiro e oferecerá móveis, roupas, jóias, porcelanas e muitos outros produtos, sempre com o aval do controle de qualidade de Cher . Mais que Mercedez Faz sete anos que Claudia Schieffer foi descoberta para o mundo, enquanto dançava em uma discoteca em Dusseldorf , na Alemanha , seu país natal. Schieffer é um dos melhores exemplos de que a carreira de modelo, quando bem administrada, pode durar. Sete anos não é pouco e manter o frescor que esta top mantém é tarefa das mais árduas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cher",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Sanctuary",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Cher",
+    "label": "PESSOA",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Mercedez",
+    "label": "OBRA",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Claudia Schieffer",
+    "label": "PESSOA",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Dusseldorf",
+    "label": "LOCAL",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Schieffer",
+    "label": "PESSOA",
+    "token_indices": [
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cher",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sanctuary",
+    "label": "OBRA"
+  },
+  {
+    "text": "janeiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Cher",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mercedez",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Claudia Schieffer",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Dusseldorf",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Schieffer",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sete anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Sanctuary', 'ORGANIZACAO'), ('Mercedez', 'OBRA')]
+Espúrias  (FP): [('Sanctuary', 'OBRA'), ('Mercedez', 'PESSOA'), ('Sete anos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Seu grande mérito é não ter perdido a simplicidade que herdou de sua família de classe-média ou o carinho que tem por ela. Mesmo quando dá declarações do tipo ``compro sapatos em Milão , roupas modernas em SoHo , e lingeries em Saint Germain-des-Près '' não é sinal de arrogância, mas ingenuidade de menina, a mesma que manifesta quando diz que ``não gasta muito no seu figurino, pois usa e guarda suas roupas durante muito tempo''. Sobre sua carreira profissional é até bobagem falar. Depois da primeira sessão para a `` Elle '' francesa, em outubro de 1987 , sob as lentes de Walter chin, a bela alemã nunca mais foi poupada.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Milão",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "SoHo",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Saint Germain-des-Près",
+    "label": "LOCAL",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Elle",
+    "label": "LOCAL",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "outubro de 1987",
+    "label": "TEMPO",
+    "token_indices": [
+      95,
+      96,
+      97
+    ]
+  },
+  {
+    "text": "Walter",
+    "label": "PESSOA",
+    "token_indices": [
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Milão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "SoHo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Saint Germain-des-Près",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Elle",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "outubro de 1987",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Walter chin",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Elle', 'LOCAL'), ('Walter', 'PESSOA')]
+Espúrias  (FP): [('Elle', 'ORGANIZACAO'), ('Walter chin', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Psicomotricidade eppa [eppa@eppa.com.br ] Psicomotricidade Programa de Treinamento e Desenvolvimento Conheça os 90 Cursos de formação continuada da EPPA : Clínica Educacional Organizacional EPPA News Fale conosco Cursos 2003 Site da EPPA Bom dia! O curso oferece ao participante um entendimento prático através de referenciais científicos e das técnicas que norteiam os procedimentos de intervenção. Aborda conceitos da inter-relação dos aspectos cognitivo, afetivo e motor, que favorecem o entendimento na comunicação da linguagem corporal. Conteúdo Programático * Principais conceitos da Psicomotricidade : Esquema e Imagem corporal, Tônus e o desenvolvimento. * Principais aspectos do desenvolvimento neuro-psicomotores da criança * Condutas motoras de base: Percepção, organização e estruturação temporal, Espacial e rítmo. * Condutas neuro-motoras: Lateralidade e o papel dos hemisférios cerebrais. * Técnicas e recursos em psicomotricidade * Materiais utilizados nas sessões .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Psicomotricidade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Psicomotricidade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Programa de Treinamento e Desenvolvimento",
+    "label": "OBRA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "90",
+    "label": "VALOR",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "EPPA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Clínica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Educacional",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Organizacional",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "EPPA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "2003",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "EPPA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Psicomotricidade",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      80
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Psicomotricidade', 'ABSTRACCAO'), ('Psicomotricidade', 'ABSTRACCAO'), ('Programa de Treinamento e Desenvolvimento', 'OBRA'), ('90', 'VALOR'), ('EPPA', 'ORGANIZACAO'), ('Clínica', 'ABSTRACCAO'), ('Educacional', 'ABSTRACCAO'), ('Organizacional', 'ABSTRACCAO'), ('EPPA', 'ORGANIZACAO'), ('2003', 'TEMPO'), ('EPPA', 'ORGANIZACAO'), ('Psicomotricidade', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Destina-se Psicólogos, Pedagogos, Educadores, Assistentes Sociais e Profissionais de áreas afins. Docente * Vânia Ramos - Profª de Educação Física ; Psicopedagoga; Psicomotricista; Mestre em Gerontologia ( PUC ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vânia Ramos",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Educação Física",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Gerontologia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "PUC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Psicólogos",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Pedagogos",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Educadores",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Assistentes Sociais",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Vânia Ramos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Educação Física",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Psicopedagoga",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Psicomotricista",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Gerontologia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "PUC",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Psicólogos', 'ABSTRACCAO'), ('Pedagogos', 'ABSTRACCAO'), ('Educadores', 'ABSTRACCAO'), ('Assistentes Sociais', 'ABSTRACCAO'), ('Psicopedagoga', 'ABSTRACCAO'), ('Psicomotricista', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Status C/horária 033 Parcela R$. Nº parcela 3 Total 444,00 Início Término 09/05/2003 Dia Sex 19 às 22h Local Rua 13 de Maio , 733 - Bela Vista - (11) 3262 3256 Para participar deste Programa de Treinamento e Desenvolvimento , é muito simples: basta acessar a PRÉ- RESERVA, selecionar este curso e aguardar nosso contato! Você está recebendo este informativo por estar cadastrado no site da EPPA , para interromper futuros recebimentos, basta preencher o formulário. Caso não visualizar este e-mail, clique aqui
+
+Entidades verdadeiras:
+[
+  {
+    "text": "033",
+    "label": "OUTRO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "444,00",
+    "label": "VALOR",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "09/05/2003",
+    "label": "TEMPO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Sex 19",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "22h",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Rua 13 de Maio",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Bela Vista",
+    "label": "LOCAL",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Programa de Treinamento e Desenvolvimento",
+    "label": "OBRA",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "EPPA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "R$",
+    "label": "VALOR"
+  },
+  {
+    "text": "3",
+    "label": "VALOR"
+  },
+  {
+    "text": "444,00",
+    "label": "VALOR"
+  },
+  {
+    "text": "09/05/2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "19 às 22h",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Rua 13 de Maio , 733 - Bela Vista",
+    "label": "LOCAL"
+  },
+  {
+    "text": "(11) 3262 3256",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Programa de Treinamento e Desenvolvimento",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "EPPA",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('033', 'OUTRO'), ('Sex 19', 'TEMPO'), ('22h', 'TEMPO'), ('Rua 13 de Maio', 'LOCAL'), ('Bela Vista', 'LOCAL'), ('Programa de Treinamento e Desenvolvimento', 'OBRA')]
+Espúrias  (FP): [('R$', 'VALOR'), ('3', 'VALOR'), ('19 às 22h', 'TEMPO'), ('Rua 13 de Maio , 733 - Bela Vista', 'LOCAL'), ('(11) 3262 3256', 'LOCAL'), ('Programa de Treinamento e Desenvolvimento', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com certeza, Senhora Deputada Thors , vamos corrigir a acta. (O Parlamento aprova a acta) Comunicação da Presidência sobre a situação no Médio Oriente Caros colegas, nestes últimos dias, como sabem, Jerusalém , bem como outras cidades, e os territórios palestinianos entraram infelizmente em pé de guerra e as vítimas são já numerosas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Deputada Thors",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Presidência",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Jerusalém",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senhora Deputada Thors",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Jerusalém",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Presidência', 'ORGANIZACAO'), ('Jerusalém', 'ORGANIZACAO')]
+Espúrias  (FP): [('Jerusalém', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Hoje mesmo, helicópteros bombardearam alvos em Gaza , agravando assim a situação. Devo expressar, em nome do Parlamento Europeu , a minha mais profunda emoção face a esta nova explosão de violência, e, às famílias das vítimas, o quanto partilhamos a sua dor e a sua dura experiência. O estatuto de Jerusalém esta triste realidade demonstra o constitui uma das chaves da paz no Próximo Oriente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gaza",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Jerusalém",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Próximo Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gaza",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Jerusalém",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Próximo Oriente",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Jerusalém', 'ORGANIZACAO')]
+Espúrias  (FP): [('Jerusalém', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A cidade está carregada de símbolos poderosos para as três religiões monoteístas. Qualquer atentado contra ela significa negar a vontade de paz e travar a procura de uma solução aceitável por todos. Todavia, sabemos que existem homens de paz, de ambos os lados, desejosos de andarem para a frente. A presença conjunta de Ahmed Qurie e de Avraham Burg , respectivamente Presidente do Conselho Legislativo palestiniano e Presidente da Knesset , aqui mesmo, no nosso período de sessões de Setembro , demonstrou o mais uma vez.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ahmed Qurie",
+    "label": "PESSOA",
+    "token_indices": [
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Avraham Burg",
+    "label": "PESSOA",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Presidente do Conselho Legislativo",
+    "label": "PESSOA",
+    "token_indices": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Presidente da Knesset",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ahmed Qurie",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Avraham Burg",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente do Conselho Legislativo palestiniano",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente da Knesset",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Setembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Presidente do Conselho Legislativo', 'PESSOA')]
+Espúrias  (FP): [('Presidente do Conselho Legislativo palestiniano', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Relativamente à questão de Jerusalém , deram mostras de um espírito de abertura e de uma capacidade de ouvir portadores de esperança. Neste momento em que se inicia o nosso período de sessões do Parlamento Europeu , faço um apelo à comunidade internacional no sentido de fazerem os possíveis por retomarem o mais rapidamente possível o diálogo. A União Europeia já reagiu. Espero que multiplique os seus esforços, para os quais o Parlamento Europeu dará toda a sua contribuição. (ES) Senhora Presidente , quero antes de mais, em nome do Grupo Socialista , apoiar as suas palavras e exprimir a nossa total conformidade com as mesmas. Permitir me á propor, em nome do meu grupo, que este tema da máxima importância, que afecta as responsabilidades da União Europeia a Senhora Presidente , de resto, salientou o , seja incluído no debate que vamos realizar amanhã sobre a Cimeira de Biarritz .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jerusalém",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      80,
+      81
+    ]
+  },
+  {
+    "text": "Grupo Socialista",
+    "label": "PESSOA",
+    "token_indices": [
+      90,
+      91
+    ]
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      126,
+      127
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      129,
+      130
+    ]
+  },
+  {
+    "text": "Cimeira de Biarritz",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      147,
+      148,
+      149
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jerusalém",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Grupo Socialista",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "União Europeia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Jerusalém', 'ORGANIZACAO'), ('Grupo Socialista', 'PESSOA'), ('Cimeira de Biarritz', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Jerusalém', 'LOCAL'), ('Grupo Socialista', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+É evidente que a situação no Médio Oriente figurará entre os temas que deverão abordar se nesta cimeira, embora esta tenha carácter informal. Além disso, queria referir que a Senhora Presidente salientou correctamente que houve uma provocação inadmissível por parte de um líder da extrema direita israelita conhecido pelas suas atitudes extremistas no passado. Penso também, porém, que devemos dirigir nos, fundamentalmente, aos nossos amigos israelitas para lhes dizer que um governo democrático e legitimamente constituído, como é o caso do Governo israelita, não pode responder com disparos e com tanques contra crianças e jovens que arremessam pedras. Trata se de uma resposta absolutamente desproporcionada que em nada contribui para o processo de paz. Penso, Senhora Presidente , que depois da visita por convite seu que nos fizerem os Presidentes dos parlamentos israelita e palestiniano no mês passado, temos suficiente legitimidade moral para nos dirigirmos aos nossos parceiros do Médio Oriente nos termos mais enérgicos, disponibilizando também os nossos bons ofícios.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      115,
+      116
+    ]
+  },
+  {
+    "text": "Presidentes",
+    "label": "PESSOA",
+    "token_indices": [
+      129
+    ]
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      149,
+      150
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "extrema direita israelita",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Governo israelita",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente da República Portuguesa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Israel",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Governo português",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Governo', 'ORGANIZACAO'), ('Presidentes', 'PESSOA')]
+Espúrias  (FP): [('extrema direita israelita', 'PESSOA'), ('Governo israelita', 'ORGANIZACAO'), ('Presidente da República Portuguesa', 'PESSOA'), ('Israel', 'LOCAL'), ('Governo português', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+(FR) Senhora Presidente , dirigi lhe uma carta em nome do meu grupo no sentido de lhe pedir uma modificação da ordem do dia sobre a questão que a senhora acaba de abordar com toda a dignidade. Uma vez que o senhor deputado Barón Crespo também usa da palavra, proponho que abordemos a questão imediatamente. Efectivamente, penso que, uma vez que o nosso Parlamento , com muita oportunidade, convidou conjuntamente, há um mês, os Presidentes da Knesset e do Conselho Legislativo palestiniano, precisamente no sentido de afirmar a sua vontade de intervir como actor a favor do processo de paz, não podemos, enquanto Parlamento , calar nos hoje. A senhora relatou, com palavras que partilho profundamente, a situação dramática que se vive neste preciso momento na Palestina e em Israel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "senhor deputado Barón Crespo",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "Presidentes",
+    "label": "PESSOA",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Knesset",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Conselho Legislativo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      79,
+      80
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      103
+    ]
+  },
+  {
+    "text": "Palestina",
+    "label": "LOCAL",
+    "token_indices": [
+      126
+    ]
+  },
+  {
+    "text": "Israel",
+    "label": "LOCAL",
+    "token_indices": [
+      129
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Barón Crespo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Presidentes da Knesset",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conselho Legislativo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Palestina",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('senhor deputado Barón Crespo', 'PESSOA'), ('Presidentes', 'PESSOA'), ('Knesset', 'ORGANIZACAO'), ('Israel', 'LOCAL')]
+Espúrias  (FP): [('Barón Crespo', 'PESSOA'), ('Presidentes da Knesset', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Compreendo muito bem que o senhor Presidente Prodi , amanhã, que o Conselho , que nós próprios, alguns de nós, intervenham no debate geral.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "senhor Presidente Prodi",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidente Prodi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('senhor Presidente Prodi', 'PESSOA')]
+Espúrias  (FP): [('Presidente Prodi', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em contrapartida, recebi uma série de invocações do Regimento , que vamos abordar. Tenho algumas declarações a fazer lhes e, em seguida, procederemos à fixação da ordem dos trabalhos. Senhora Presidente , caros colegas, o que está a acontecer no Médio Oriente é uma tragédia. Estou lhe muito grato por ter feito referência a esta problemática. O nosso grupo político pode dar lhe o seu pleno aval. No que diz respeito ao tratamento desta difícil temática aqui no plenário, considero adequado que os oradores do Parlamento , os presidentes dos grupos políticos ou seja quem for que falar em nome do grupo, abordassem amanhã a problemática do Médio Oriente no debate com o Presidente do Conselho e o Presidente da Comissão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Regimento",
+    "label": "OBRA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      107,
+      108
+    ]
+  },
+  {
+    "text": "Presidente do Conselho",
+    "label": "PESSOA",
+    "token_indices": [
+      113,
+      114,
+      115
+    ]
+  },
+  {
+    "text": "Presidente da Comissão",
+    "label": "PESSOA",
+    "token_indices": [
+      118,
+      119,
+      120
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Regimento",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Presidente do Conselho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente da Comissão",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Regimento', 'OBRA'), ('Médio Oriente', 'LOCAL')]
+Espúrias  (FP): [('Regimento', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não creio que seja possível alterar toda a ordem do dia, uma vez que temos um grande número de assuntos a debater esta semana. (FI) Senhora Presidente , naturalmente também o meu grupo está extremamente chocado com os acontecimentos do fim de semana no Médio Oriente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Médio Oriente",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Senhora Presidente', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Entre as propostas apresentadas quero apoiar, em primeiro lugar, a do senhor deputado Wurtz para que possamos encontrar uma ocasião propícia para solicitarmos ao Conselho e, eventualmente, também à Comissão que apresentem uma comunicação. O nosso grupo aceita também que o Parlamento apresente uma comunicação própria sobre esta matéria. Certamente todos encetaram os esforços possíveis no sentido de se levantar esta questão, mas, em todo o caso, a proposta do senhor deputado Wurtz é desta vez a mais oportuna e a que merece a maior consideração. Obrigada, Senhora Deputada Hautala , mas, como já disse ao senhor deputado Wurtz , a senhora está a antecipar se ligeiramente à fixação da nossa ordem dos trabalhos. Um ponto de ordem, Senhora Presidente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "senhor deputado Wurtz",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "senhor deputado Wurtz",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Senhora Deputada Hautala",
+    "label": "PESSOA",
+    "token_indices": [
+      87,
+      88,
+      89
+    ]
+  },
+  {
+    "text": "senhor deputado Wurtz",
+    "label": "PESSOA",
+    "token_indices": [
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      118,
+      119
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "senhor deputado Wurtz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Senhor Deputada Hautala",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Senhor Deputado Wurtz",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('senhor deputado Wurtz', 'PESSOA'), ('Senhora Deputada Hautala', 'PESSOA'), ('senhor deputado Wurtz', 'PESSOA'), ('Senhora Presidente', 'PESSOA')]
+Espúrias  (FP): [('Senhor Deputada Hautala', 'PESSOA'), ('Senhor Presidente', 'PESSOA'), ('Senhor Deputado Wurtz', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O meu grupo apreciaria muito se conseguíssemos encontrar uma maneira de examinar este assunto separadamente. Obrigada, Senhor Deputado Sterckx , tomamos nota da sua declaração. (FR) Senhora Presidente , a minha intervenção incidirá sobre um assunto completamente diferente. Mas, como o Parlamento sabe muito bem, a Convenção encarregue de elaborar a Carta dos Direitos Fundamentais da União Europeia acaba de completar os seus trabalhos. Podemos congratular nos com o facto. Todavia, enquanto que a nossa Instituição | Instituição fez tudo para que os trabalhos da Convenção tivessem êxito, de tal forma que pôs nomeadamente à disposição da Convenção as suas instalações, neste momento em que tem início o nosso período de sessões plenárias aqui em Estrasburgo , lamento que não tenha sido possível organizar em condições dignas a apresentação da Carta aqui em Estrasburgo após a conclusão dos trabalhos da sua redacção. Teria representado um símbolo forte para a nossa Instituição | Instituição e penso que foi pena.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhor Deputado Sterckx",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Convenção",
+    "label": "PESSOA",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais da União Europeia",
+    "label": "OBRA",
+    "token_indices": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Instituição",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "Convenção",
+    "label": "PESSOA",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Convenção",
+    "label": "PESSOA",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "Estrasburgo",
+    "label": "LOCAL",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Carta",
+    "label": "OBRA",
+    "token_indices": [
+      130
+    ]
+  },
+  {
+    "text": "Estrasburgo",
+    "label": "LOCAL",
+    "token_indices": [
+      133
+    ]
+  },
+  {
+    "text": "Instituição",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      150
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senhor Deputado Sterckx",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Convenção",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Carta dos Direitos Fundamentais da União Europeia",
+    "label": "OBRA"
+  },
+  {
+    "text": "Instituição",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Convenção",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estrasburgo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Senhora Presidente', 'PESSOA'), ('Convenção', 'PESSOA'), ('Convenção', 'PESSOA'), ('Convenção', 'PESSOA'), ('Carta', 'OBRA'), ('Estrasburgo', 'LOCAL'), ('Instituição', 'ORGANIZACAO')]
+Espúrias  (FP): [('Convenção', 'ORGANIZACAO'), ('Convenção', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+(EL) Senhora Presidente , na qualidade de presidente da Comissão dos Transportes do Parlamento Europeu e também como deputado grego, gostaria de fazer uma referência ao naufrágio do ferry boat Express Samina , ocorrido na passada terça feira. Até este momento temos 79 mortos e 2 desaparecidos. Trata se de um naufrágio verdadeiramente horrível e revoltante. O factor humano a incúria dos membros da tripulação parece ter tido um papel determinante. Existem, porém, indícios muito sérios de violação do direito comunitário, especialmente no que se refere ao registo dos passageiros e à observância das normas de segurança estabelecidas pelas directivas comunitárias. Penso que por esse motivo deveríamos saudar antes de mais a reacção da Comissão Europeia , que já está a investigar se o direito comunitário foi cumprido. Neste contexto, não deverá haver derrogações para os Estados Membros , como as que existem actualmente para a Grécia para os ferry boats com mais de 27 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Comissão dos Transportes do Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Express Samina",
+    "label": "COISA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "79",
+    "label": "VALOR",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "2",
+    "label": "VALOR",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      114,
+      115
+    ]
+  },
+  {
+    "text": "Estados Membros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      136,
+      137
+    ]
+  },
+  {
+    "text": "Grécia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      146
+    ]
+  },
+  {
+    "text": "mais de 27 anos",
+    "label": "VALOR",
+    "token_indices": [
+      152,
+      153,
+      154,
+      155
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Comissão dos Transportes do Parlamento Europeu",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Express Samina",
+    "label": "COISA"
+  },
+  {
+    "text": "79",
+    "label": "VALOR"
+  },
+  {
+    "text": "2",
+    "label": "VALOR"
+  },
+  {
+    "text": "Comissão Europeia",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Senhora Presidente', 'PESSOA'), ('Estados Membros', 'ORGANIZACAO'), ('Grécia', 'ORGANIZACAO'), ('mais de 27 anos', 'VALOR')]
+Espúrias  (FP): [('Presidente', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Considero igualmente que não é correcta a derrogação concedida à Grécia relativa à liberalização dos transportes até 2004 , pois penso que tal contribui para degradar ainda mais as normas de segurança no país em questão, que por acaso é o meu. Antes de dar a palavra ao senhor deputado Watts sobre o mesmo assunto, gostaria apenas de os informar que, após essa terrível catástrofe, escrevi evidentemente ao Presidente do Parlamento grego, o senhor Kaklamanis , para lhe comunicar em vosso nome a minha profunda tristeza e a nossa solidariedade para com as famílias das vítimas. Senhora Presidente , no seguimento dos trágicos acontecimentos da semana passada no mar Egeu , tenho a certeza de que a suspensão, ontem, de mais de 60 navios de passageiros gregos que não respeitam as leis da UE é bem acolhida por todo o Parlamento .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grécia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "2004",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "senhor deputado Watts",
+    "label": "PESSOA",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Presidente do Parlamento",
+    "label": "PESSOA",
+    "token_indices": [
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "senhor Kaklamanis",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      96,
+      97
+    ]
+  },
+  {
+    "text": "Egeu",
+    "label": "LOCAL",
+    "token_indices": [
+      109
+    ]
+  },
+  {
+    "text": "mais de 60",
+    "label": "VALOR",
+    "token_indices": [
+      120,
+      121,
+      122
+    ]
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      133
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      140
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grécia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "2004",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Presidente do Parlamento grego",
+    "label": "PESSOA"
+  },
+  {
+    "text": "senhor Kaklamanis",
+    "label": "PESSOA"
+  },
+  {
+    "text": "mar Egeu",
+    "label": "LOCAL"
+  },
+  {
+    "text": "60",
+    "label": "VALOR"
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "100",
+    "label": "VALOR"
+  },
+  {
+    "text": "mar Egeu",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Grécia', 'ORGANIZACAO'), ('senhor deputado Watts', 'PESSOA'), ('Presidente do Parlamento', 'PESSOA'), ('Senhora Presidente', 'PESSOA'), ('Egeu', 'LOCAL'), ('mais de 60', 'VALOR'), ('UE', 'ORGANIZACAO'), ('Parlamento', 'ORGANIZACAO')]
+Espúrias  (FP): [('Grécia', 'LOCAL'), ('Presidente do Parlamento grego', 'PESSOA'), ('mar Egeu', 'LOCAL'), ('60', 'VALOR'), ('Espanha', 'LOCAL'), ('100', 'VALOR'), ('mar Egeu', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+e a nossa gratidão a todas as pessoas que participaram nas operações de salvamento durante aqueles trágicos acontecimentos, poderia a Senhora Presidente pedir que, na reunião que a Comissão da Política Regional, dos Transportes e do Turismo vai realizar na próxima semana, se investigue por que razão foi preciso morrerem 79 pessoas antes de se suspender a actividade desses navios ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Comissão da Política Regional, dos Transportes e do Turismo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "79",
+    "label": "VALOR",
+    "token_indices": [
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comissão da Política Regional, dos Transportes e do Turismo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "79",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Senhora Presidente', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Temos pedir a essa comissão que examine por que razão se concedem a certos Estados Membros prolongados regimes de excepção quanto ao cumprimento das leis relativas à segurança marítima. (EL) Senhora Presidente , agradeço lhe muito a simpatia que manifestou ao Presidente do Parlamento grego perante esta tragédia sem precedentes ocorrida nas águas gregas. É verdade que existem falhas na aplicação dos regulamentos, não só nacionais mas também europeus, e o Governo grego tem tratado esta questão com todo o cuidado possível.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estados Membros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Presidente do Parlamento",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Governo grego",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Presidente do Parlamento grego",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Governo grego",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estados Membros', 'ORGANIZACAO'), ('Senhora Presidente', 'PESSOA'), ('Presidente do Parlamento', 'PESSOA'), ('Governo', 'ORGANIZACAO')]
+Espúrias  (FP): [('Presidente', 'PESSOA'), ('Parlamento', 'ORGANIZACAO'), ('Governo grego', 'ORGANIZACAO'), ('Presidente do Parlamento grego', 'PESSOA'), ('Governo grego', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No que se refere aos 65 navios que estão proibidos de navegar, penso que vale a pena esclarecer que a navegação desses navios teria sido proibida em 1 de Outubro , independentemente do facto de terem morrido 79 pessoas. São duas coisas independentes, pois a data de entrada em vigor dos regulamentos da OMI calhou ser a 1 de Outubro e esses navios estão abrangidos por não terem condições. É por este motivo que se proíbe a navegação dos referidos navios e não por terem morrido, infelizmente, essas pessoas. Considero, Senhora Presidente , que esta questão é extremamente séria para ser explorada pela oposição e é extremamente grave para ser tratada no âmbito do debate sobre questões urgentes e através de uma resolução muito simples. Por esse motivo, o Grupo Socialista vai votar contra a inscrição desta matéria nas questões urgentes, o que não significa, de forma alguma, que a tragédia não nos comoveu e que, seja como governo seja como Grupo Socialista , não iremos fazer tudo o que estiver ao nosso alcance para aumentar a segurança dos navios no Egeu , que tem três mil e quinhentas ilhas e um grande número de ferries, e este acidente, embora grande, se pensarmos no número de viagens que se fazem todos os verões no Egeu , é um acidente no meio de muitas travessias sem problemas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "65",
+    "label": "VALOR",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "1 de Outubro",
+    "label": "TEMPO",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "79",
+    "label": "VALOR",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "OMI",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "1 de Outubro",
+    "label": "TEMPO",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      90,
+      91
+    ]
+  },
+  {
+    "text": "Grupo Socialista",
+    "label": "PESSOA",
+    "token_indices": [
+      129,
+      130
+    ]
+  },
+  {
+    "text": "Grupo Socialista",
+    "label": "PESSOA",
+    "token_indices": [
+      161,
+      162
+    ]
+  },
+  {
+    "text": "Egeu",
+    "label": "LOCAL",
+    "token_indices": [
+      181
+    ]
+  },
+  {
+    "text": "Egeu",
+    "label": "LOCAL",
+    "token_indices": [
+      214
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "65",
+    "label": "VALOR"
+  },
+  {
+    "text": "1 de Outubro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "79",
+    "label": "VALOR"
+  },
+  {
+    "text": "OMI",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1 de Outubro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Grupo Socialista', 'PESSOA'), ('Grupo Socialista', 'PESSOA'), ('Egeu', 'LOCAL'), ('Egeu', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar de tudo isto, evidentemente, é trágico, as condições são tais que exigem uma reapreciação muito mais atenta das condições da navegação no nosso país e em toda a Europa , mas isso não significa que os mares gregos sejam menos seguros do que os de qualquer outro Estado Membro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Estado Membro",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Estado Membro', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pretendeu se justamente evitar que decisões relevantes fossem tomadas numa base tão mal informada como aquela em que a senhora Presidente , lamentavelmente, se baseou quando fez o seu comentário. O povo dinamarquês pretende uma delimitação muito mais clara dos assuntos sobre os quais a UE se deve ocupar e os assuntos cuja decisão deve continuar a ser da competência dos parlamentos nacionais. Entretanto, pretende se introduzir, já em Dezembro , em Nice , decisões por maioria relativamente aos artigos 42 º e 137 º , em matérias que dizem respeito aos aspectos sociais e ao mercado de trabalho. Se, em seguida, com base no artigo 42 º , for aprovado o alargamento do círculo de pessoas ao qual se refere o Regulamento n º 1408 e se, com base no artigo 137 º , forem introduzidas decisões por maioria, por exemplo, em relação aos critérios de atribuição de subsídio de desemprego, as consequências, tanto para a política social como para a política do mercado de trabalho, serão muito significativas na Dinamarca .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Dezembro",
+    "label": "TEMPO",
+    "token_indices": [
+      69
+    ]
+  },
+  {
+    "text": "Nice",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "42 º",
+    "label": "OBRA",
+    "token_indices": [
+      80,
+      81
+    ]
+  },
+  {
+    "text": "137 º",
+    "label": "OBRA",
+    "token_indices": [
+      83,
+      84
+    ]
+  },
+  {
+    "text": "42 º",
+    "label": "OBRA",
+    "token_indices": [
+      106,
+      107
+    ]
+  },
+  {
+    "text": "Regulamento n º 1408",
+    "label": "OBRA",
+    "token_indices": [
+      122,
+      123,
+      124,
+      125
+    ]
+  },
+  {
+    "text": "137 º",
+    "label": "OBRA",
+    "token_indices": [
+      132,
+      133
+    ]
+  },
+  {
+    "text": "Dinamarca",
+    "label": "LOCAL",
+    "token_indices": [
+      171
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Dezembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Nice",
+    "label": "LOCAL"
+  },
+  {
+    "text": "42",
+    "label": "VALOR"
+  },
+  {
+    "text": "137",
+    "label": "VALOR"
+  },
+  {
+    "text": "42",
+    "label": "VALOR"
+  },
+  {
+    "text": "Regulamento n",
+    "label": "OBRA"
+  },
+  {
+    "text": "1408",
+    "label": "VALOR"
+  },
+  {
+    "text": "137",
+    "label": "VALOR"
+  },
+  {
+    "text": "42",
+    "label": "VALOR"
+  },
+  {
+    "text": "Regulamento n",
+    "label": "OBRA"
+  },
+  {
+    "text": "1612",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('senhora Presidente', 'PESSOA'), ('Nice', 'ACONTECIMENTO'), ('42 º', 'OBRA'), ('137 º', 'OBRA'), ('42 º', 'OBRA'), ('Regulamento n º 1408', 'OBRA'), ('137 º', 'OBRA'), ('Dinamarca', 'LOCAL')]
+Espúrias  (FP): [('Presidente', 'PESSOA'), ('Nice', 'LOCAL'), ('42', 'VALOR'), ('137', 'VALOR'), ('42', 'VALOR'), ('Regulamento n', 'OBRA'), ('1408', 'VALOR'), ('137', 'VALOR'), ('42', 'VALOR'), ('Regulamento n', 'OBRA'), ('1612', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+(EL) Senhora Presidente , agradeço as condolências que enviou em nome do Parlamento Europeu e que exprimem os sentimentos de todos nós. Infelizmente, as 79 ou 80 vítimas pereceram no altar do lucro do capital armador. Por muito que alguns se esforcem por lançar as responsabilidades sobre a tripulação, ninguém pode contestar que a embarcação tinha mais de 35 anos , que segundo as normas em vigor não deveria estar em funcionamento e que se afundou com demasiada rapidez, não permitindo o salvamento de um maior número de pessoas. Na sua impunidade, os armadores tiveram e têm os governos gregos do seu lado. Não é a primeira, é a enésima vez que temos vítimas a lamentar e nenhum dos governos gregos tomou quaisquer medidas para evitar mais acidentes. Independentemente facto de um debate de urgência não poder ser aprofundado, o acidente foi extremamente grave, 80 pessoas perderam a vida, e julgo que é particularmente imperiosa uma tomada de posição imediata por parte do Parlamento Europeu .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "79",
+    "label": "VALOR",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "80",
+    "label": "VALOR",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "mais de 35 anos",
+    "label": "VALOR",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "80",
+    "label": "VALOR",
+    "token_indices": [
+      144
+    ]
+  },
+  {
+    "text": "Parlamento Europeu",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      163,
+      164
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "79 ou 80",
+    "label": "VALOR"
+  },
+  {
+    "text": "35 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "governos gregos",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "governos gregos",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Senhora Presidente', 'PESSOA'), ('Parlamento Europeu', 'ORGANIZACAO'), ('79', 'VALOR'), ('80', 'VALOR'), ('mais de 35 anos', 'VALOR'), ('80', 'VALOR'), ('Parlamento Europeu', 'ORGANIZACAO')]
+Espúrias  (FP): [('79 ou 80', 'VALOR'), ('35 anos', 'VALOR'), ('governos gregos', 'ORGANIZACAO'), ('governos gregos', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+(FR) Senhora Presidente , gostaria de voltar por um momento ao drama recordado pelo nosso colega belga, vivido por certos refugiados neste momento, na Europa , em algumas das nossas fronteiras, para lhes comunicar que me desloquei, há uma semana, ao centro de Sangatte aberto pelo Governo francês e gerido pela Cruz Vermelha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Sangatte",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Cruz Vermelha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      51,
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Sangatte",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Governo francês",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Cruz Vermelha",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Governo', 'ORGANIZACAO')]
+Espúrias  (FP): [('Governo francês', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este centro acolhe refugiados que tentam passar para a Grã Bretanha , atraídos aparentemente por condições de acolhimento mais favoráveis, e também porque as dificuldades de entrada são maiores noutras fronteiras. Informo os de que este centro vê passar em média entre 800 e 1000 candidatos por dia, provenientes do mundo inteiro e, sobretudo, do Irão , do Iraque e de uma parte da Turquia , isto é, da parte curda da Turquia , e que, desde a sua abertura há onze anos, o centro recebeu 16 000 refugiados. É a consequência directa de uma ausência de harmonização das condições de acolhimento e dos estatutos dos refugiados na Europa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Grã Bretanha",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "entre 800 e 1000",
+    "label": "VALOR",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Irão",
+    "label": "LOCAL",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Iraque",
+    "label": "LOCAL",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Turquia",
+    "label": "LOCAL",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Turquia",
+    "label": "LOCAL",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "16 000",
+    "label": "VALOR",
+    "token_indices": [
+      86,
+      87
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      108
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grã Bretanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Irão",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Iraque",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Turquia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "parte curda da Turquia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "onze anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "16 000",
+    "label": "VALOR"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('entre 800 e 1000', 'VALOR'), ('Turquia', 'LOCAL')]
+Espúrias  (FP): [('parte curda da Turquia', 'LOCAL'), ('onze anos', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+(ES) Senhora Presidente , muito obrigado por me ter concedido a palavra em último lugar, apesar de ter sido o primeiro deputado a solicitá la. Mais cem povos históricos na Europa preenchem a condição de ser uma nação, e milhões de pessoas na Europa são nacionalistas e têm apego à sua nação. Nacionalismo é também o apego e a defesa do Estado nação. Senhora Presidente , peço lhe respeito para com os nacionalistas que estão nesta assembleia, entre os quais me incluo, que são pessoas moderadas, pacíficas e democráticas. Peço lhe respeito para com os povos históricos da Europa e peço lhe respeito para com as centenas de milhões de europeus que se consideram nacionalistas de forma democrática e pacífica. (ES) Senhora Presidente , é com prazer que informo a Assembleia que, juntamente com os outros dois Vice presidentes espanhóis deste Parlamento , tive a honra e o privilégio de acompanhar a senhora Presidente Nicole Fontaine na sua visita a Espanha e de testemunhar, de forma emocionada, o seu compromisso corajoso, firme, exemplar para com a democracia e para com os valores que esta Assembleia defende.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Estado",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      121,
+      122
+    ]
+  },
+  {
+    "text": "Assembleia",
+    "label": "PESSOA",
+    "token_indices": [
+      130
+    ]
+  },
+  {
+    "text": "Vice presidentes",
+    "label": "PESSOA",
+    "token_indices": [
+      137,
+      138
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      141
+    ]
+  },
+  {
+    "text": "senhora Presidente Nicole Fontaine",
+    "label": "PESSOA",
+    "token_indices": [
+      152,
+      153,
+      154,
+      155
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      160
+    ]
+  },
+  {
+    "text": "Assembleia",
+    "label": "PESSOA",
+    "token_indices": [
+      184
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Partido Socialista",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Estado', 'ABSTRACCAO'), ('Europa', 'LOCAL'), ('Assembleia', 'PESSOA'), ('Vice presidentes', 'PESSOA'), ('Parlamento', 'ORGANIZACAO'), ('senhora Presidente Nicole Fontaine', 'PESSOA'), ('Espanha', 'LOCAL'), ('Assembleia', 'PESSOA')]
+Espúrias  (FP): [('Partido Socialista', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A senhora Presidente Nicole Fontaine , ao pronunciar a frase aludida pelo senhor deputado Ortuondo Larrea na sua intervenção, referia se aos nacionalismos intransigentes, redutores e xenófobos, àqueles nacionalismos que põe, acima dos princípios democráticos, a raça, o território ou o sangue. Era a isso que a senhora Presidente se referia, porque, como digo, fui testemunha, em todos os momentos, dessa visita. Se o senhor deputado Ortuondo Larrea , enquanto nacionalista, não faz parte de nenhum desses tipos de nacionalismo, não tem motivos para estar preocupado. É isso que pedimos, é isso que pede a resolução. É isso que se pretende, Senhora Presidente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "senhora Presidente Nicole Fontaine",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "senhor deputado Ortuondo Larrea",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48
+    ]
+  },
+  {
+    "text": "senhor deputado Ortuondo Larrea",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      101,
+      102
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Presidente Nicole Fontaine",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ortuondo Larrea",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Senhor Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('senhora Presidente Nicole Fontaine', 'PESSOA'), ('senhor deputado Ortuondo Larrea', 'PESSOA'), ('senhora Presidente', 'PESSOA'), ('senhor deputado Ortuondo Larrea', 'PESSOA')]
+Espúrias  (FP): [('Presidente Nicole Fontaine', 'PESSOA'), ('Ortuondo Larrea', 'PESSOA'), ('Senhor Presidente', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nas últimas semanas, muitos cidadãos viram se impedidos de exercer esse direito em consequência de várias perturbações numa série de postos fronteiriços, nomeadamente, os dos portos do Canal da Mancha e, também, noutros postos interiores. Neste Verão , encontrei me com membros da Comissão para lhes perguntar que indemnizações se pagam, nos casos em que sejam pedidas e em que se justifique pagá las, às pessoas que transportam mercadorias e que são impedidas de o fazer. Porém, os nossos regulamentos não contêm qualquer disposição em que se preveja a possibilidade de os cidadãos que se encontram em viage. seja de turismo ou de negócio. pedirem uma indemnização nessas circunstâncias. A Conferência dos Presidentes recusou o meu pedido de aplicação do processo de urgência, mas este problema mantém se dia após dia, semana após semana. Peço lhe, portanto, que insista com a Comissão para que apresente, o mais rapidamente possível, propostas de regulamentos que concedam aos cidadãos, no caso de serem impedidos de exercerem a liberdade de circulação a que têm direito, os mesmos direitos que possuem aqueles que transportam mercadorias.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Canal da Mancha",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Verão",
+    "label": "TEMPO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Conferência dos Presidentes",
+    "label": "PESSOA",
+    "token_indices": [
+      110,
+      111,
+      112
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      141
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Verão",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Conferência dos Presidentes",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Canal da Mancha', 'LOCAL'), ('Conferência dos Presidentes', 'PESSOA'), ('Comissão', 'ORGANIZACAO')]
+Espúrias  (FP): [('Conferência dos Presidentes', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Entretanto, foi tomada uma decisão, e há que a respeitar. Gostaria aproveitar a oportunidade para felicitar a senhora deputada Ulla Sandbæk pela vitória, pois não são apenas os conservadores ingleses tolos e o Jürgen Haider que consideraram a vitória do «não «como um bom resultado. Evidentemente que o farei, Senhor Deputado Davies .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "senhora deputada Ulla Sandbæk",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Jürgen Haider",
+    "label": "PESSOA",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Senhor Deputado Davies",
+    "label": "PESSOA",
+    "token_indices": [
+      49,
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ulla Sandbæk",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jürgen Haider",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Senhor Deputado Davies",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('senhora deputada Ulla Sandbæk', 'PESSOA')]
+Espúrias  (FP): [('Ulla Sandbæk', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Senhora Presidente , os incidentes racistas ocorridos na Alemanha desde a última sessão do Parlamento tornam necessário, infelizmente, que volte a pedir a palavra. Desde então foi despedido um sargento do Estado Maior do Exército da República Federal da Alemanha devido a afirmações de carácter racista e três agentes da polícia de Colónia foram suspensos do serviço por terem ofendido um motorista de táxi tunesino, tendo lhe batido violentamente e pontapeado. Num incêndio provocado num lar de acolhimento de refugiados, em Wuppertal , duas crianças sofreram ferimentos ligeiros, depois de um cocktail molotow ter sido lançado contra o edifício.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Estado Maior do Exército da República Federal da Alemanha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Colónia",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Wuppertal",
+    "label": "LOCAL",
+    "token_indices": [
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "República Federal da Alemanha",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Estado Maior do Exército",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Colónia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Wuppertal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Estado Maior do Exército da República Federal da Alemanha', 'ORGANIZACAO')]
+Espúrias  (FP): [('República Federal da Alemanha', 'ORGANIZACAO'), ('Estado Maior do Exército', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Existe a suspeita de se tratar de motivos racistas, continuando as investigações nesse sentido. Já foram detidos indivíduos suspeitos da autoria do atentado. Em Dusseldórfia , cerca de 20 pessoas atacaram um indivíduo negro, ferindo o. Tinha se pronunciado contra grosserias de teor racista, tendo sido espancado violentamente em consequência disso. Obrigada, Senhora Deputada Schröder .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dusseldórfia",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "cerca de 20",
+    "label": "VALOR",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Senhora Deputada Schröder",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Dusseldórfia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "20",
+    "label": "VALOR"
+  },
+  {
+    "text": "Senhora Deputada Schröder",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('cerca de 20', 'VALOR')]
+Espúrias  (FP): [('20', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pela minha parte, o que importa antes de mais é que o Parlamento possa exprimir se, que ouçamos o Conselho e que possamos continuar a ser actores do processo de paz no Próximo Oriente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Conselho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Próximo Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Parlamento",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Conselho', 'ORGANIZACAO'), ('Próximo Oriente', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mas se o senhor deputado Wurtz mantiver este pedido relativo a terça feira, vou perguntar se algum orador que deseja expressar a sua desaprovação. Se o senhor deputado Wurtz propuser uma solução de compromisso que consiste em adiar o seu pedido para quinta feira, então a questão está resolvida no que respeita a terça feira. Penso que é este o caso. (FR) Proponho que a minha proposta seja adiada para a tarde de quinta feira, na presença de Javier Solana .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "senhor deputado Wurtz",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "senhor deputado Wurtz",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Javier Solana",
+    "label": "PESSOA",
+    "token_indices": [
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "deputado Wurtz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Javier Solana",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('senhor deputado Wurtz', 'PESSOA'), ('senhor deputado Wurtz', 'PESSOA')]
+Espúrias  (FP): [('deputado Wurtz', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sim, trata se de um esclarecimento importante para que os colegas decidam. E saliento que o meu grupo entende, e creio que os restantes também, que este tema que está já incluído no tema da segurança marítima na respectiva comissão parlamentar seja examinado com a maior brevidade possível. Recebi um pedido de votação nominal sobre este ponto. (FR) Senhora Presidente , quero apenas explicar em alguns segundos porque é que pedimos este adiamento.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FR",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Senhora Presidente', 'PESSOA')]
+Espúrias  (FP): [('FR', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Trata se de um relatório controverso que junta a questão dos OGM a um tema que a Comissão não abordava. Senhora Deputada Auroi , a senhora já explicou o seu pedido, o que é perfeitamente correcto, mas suponho que o senhor deputado Poettering deseja intervir contra. Senhor Deputado MacCormick , relativamente à ordem do dia de sexta feira, o seu pedido chegou fora de prazo. Assim, posso dizer lhe desde já que não podia ser tomado em consideração. Eis a razão pela qual não há modificações para sexta feira. Todavia, posso dar lhe de boa vontade a palavra para uma invocação do Regimento , se assim o desejar profundamente. Senhora Presidente , verifico que a pergunta oral sobre professores de línguas, que foi inserida extremamente tarde na nossa ordem do dia de sexta feira, não tem proposta de resolução anexa. Admito que, dadas as circunstâncias bastante caóticas desta segunda feira, apresentei demasiado tarde o pedido no sentido de se incluir uma proposta de resolução.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OGM",
+    "label": "COISA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Senhora Deputada Auroi",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "senhor deputado Poettering",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Senhor Deputado MacCormick",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Regimento",
+    "label": "OBRA",
+    "token_indices": [
+      102
+    ]
+  },
+  {
+    "text": "Senhora Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      109,
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Comissão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Deputada Auroi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Deputado Poettering",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Deputado MacCormick",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Regimento",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('OGM', 'COISA'), ('Senhora Deputada Auroi', 'PESSOA'), ('senhor deputado Poettering', 'PESSOA'), ('Senhor Deputado MacCormick', 'PESSOA'), ('Regimento', 'OBRA'), ('Senhora Presidente', 'PESSOA')]
+Espúrias  (FP): [('Deputada Auroi', 'PESSOA'), ('Deputado Poettering', 'PESSOA'), ('Deputado MacCormick', 'PESSOA'), ('Regimento', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Grande parte dos ministro de Espanha vêm da Universidade de Deuston , naquele tempo, porque estudava-se Economia a sério o que noutras universidades não se estudava. Em Espanha é preciso cuidado com as universidades. Em Granada , onde eu estive, a grande dificuldade era Medicina as outras não valiam nada. E a Deuston , em Economia é das melhores universidades de Espanha , nessa altura, as outra universidades consultávam-na. Como também em Portugal a universidade não é boa em tudo. A universidade são os professores, mais que as paredes são os professores. O Aguiar e Silva não é uma universidade, é um homem que percebe até japonês, todas as línguas, inglês, francês. E um homem desses vale uma universidade.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espanha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Universidade de Deuston",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Economia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Granada",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Medicina",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Deuston",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Economia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Aguiar e Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      93,
+      94,
+      95
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Universidade de Deuston",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Economia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Granada",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Medicina",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Deuston",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Economia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Aguiar e Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "japonês",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "ingles",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "francês",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Espanha', 'ORGANIZACAO')]
+Espúrias  (FP): [('japonês', 'ABSTRACCAO'), ('ingles', 'ABSTRACCAO'), ('francês', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esse plano é determinado com professores, depois ia ao concelho, aprovavam o plano e depois seguia. O que é uma grande vantagem. Estamos a chegar agora a isso por causa de Bolonha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bolonha",
+    "label": "OBRA",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bolonha",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Bolonha', 'OBRA')]
+Espúrias  (FP): [('Bolonha', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Eu ia para professor de Ética interessava-me cadeiras que não me interessava se fosse para a vida política. Há umas cadeiras fundamentais que têm que se aprender, masas outras a gente escolhe conforme o que e gente quer. E é nisto quer a universidade de Leuven é responsável. E tinha um conjunto de professores muito bom. Por exemplo, em Filosofia está muito boa. Os grandes professore morreram e os novos estão a formar-se. Que recordações tem da Universidade de Leuven ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Ética",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Leuven",
+    "label": "LOCAL",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Universidade de Leuven",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      77,
+      78,
+      79
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ética",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Filosofia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Universidade de Leuven",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Leuven",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Leuven', 'LOCAL')]
+Espúrias  (FP): [('Leuven', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ai gostei muito, da abertura de espírito e entrar em contacto com a cultura europeia vêm-me daí, porque eu em Espanha eram fechadotes. E os professores belgas estavam em contacto com a cultura alemã, é uma grande vantagem para nós, porque depois das aulas isso vinha ao de cima.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Espanha', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Da Reportagem Local Uma boa opção de programas para quem tem drive de CD-ROM no computador é a linha de fotos da Corel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reportagem Local",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "CD-ROM",
+    "label": "COISA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Corel",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Corel",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Reportagem Local', 'ORGANIZACAO'), ('CD-ROM', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Composta por 250 títulos em CD, a linha Corel Photo CD funciona em PC e Macintosh .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "250",
+    "label": "VALOR",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Corel Photo CD",
+    "label": "COISA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "PC",
+    "label": "COISA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Macintosh",
+    "label": "COISA",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "250",
+    "label": "VALOR"
+  },
+  {
+    "text": "CD",
+    "label": "COISA"
+  },
+  {
+    "text": "Corel Photo CD",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "PC",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Macintosh",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Corel Photo CD', 'COISA'), ('PC', 'COISA'), ('Macintosh', 'COISA')]
+Espúrias  (FP): [('CD', 'COISA'), ('Corel Photo CD', 'ABSTRACCAO'), ('PC', 'ABSTRACCAO'), ('Macintosh', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Entre os títulos disponíveis no Brasil estão " Fireworks ", com fotos de fogos de artifício, " The Artic " (neve e gelo) e " Aviation Photography " (aviões). Cada CD, com cem fotos de uso livre, custa R$ 29 na CI-Compucenter .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Fireworks",
+    "label": "COISA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "The Artic",
+    "label": "COISA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Aviation Photography",
+    "label": "COISA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "R$ 29",
+    "label": "VALOR",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "CI-Compucenter",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Fireworks",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "The Artic",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Aviation Photography",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "R$ 29",
+    "label": "VALOR"
+  },
+  {
+    "text": "CI-Compucenter",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Fireworks', 'COISA'), ('The Artic', 'COISA'), ('Aviation Photography', 'COISA')]
+Espúrias  (FP): [('Fireworks', 'ABSTRACCAO'), ('The Artic', 'ABSTRACCAO'), ('Aviation Photography', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Norte-americanos disparam contra posições iraquianas Aparelhos norte-americanos dispararam mísseis e lançaram bombas sobre posições iraquianas no norte do país «em resposta a disparos de artilharia anti-aérea» do Iraque , anunciou o Pentágono em comunicado. Segundo o departamento da defesa, aviões F-15 «que efectuavam voos de rotina na zona de exclusão aérea no norte do Iraque » dispararam primeiro três mísseis e lançaram bombas guiadas por laser contra um centro de comando militar e uma estação de rádio. Um pouco mais tarde, outros aparelhos F-15 lançaram cinco bombas contra objectivos não identificados perto de Mossul .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Iraque",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Pentágono",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "F-15",
+    "label": "COISA",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Iraque",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "F-15",
+    "label": "COISA",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Mossul",
+    "label": "LOCAL",
+    "token_indices": [
+      93
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Norte-americanos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Iraque",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Pentágono",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Iraque",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "F-15",
+    "label": "COISA"
+  },
+  {
+    "text": "Iraque",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mossul",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Iraque', 'LOCAL'), ('F-15', 'COISA')]
+Espúrias  (FP): [('Norte-americanos', 'PESSOA'), ('Iraque', 'ORGANIZACAO'), ('Iraque', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Marfinite - Origem -Quem Somos ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Marfinite",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Marfinite",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Origem",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Quem Somos",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Origem', 'ABSTRACCAO'), ('Quem Somos', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Atualmente conta com 250 revendedores espalhados por todo o território nacional. Tem loja e depósito instalados à Rua Costa Aguiar, 590 , no bairro do Ipiranga , na capital paulista. Emprega diretamente 600 pessoas. A administração, vendas e a fábrica da MARFINITE ficam em Itaquaquecetuba , na Grande São Paulo , num terreno de 230 mil metros quadrados , com 25 mil metros quadrados de área construída. Basicamente a empresa trabalha com injeção de termoplásticos (polipropileno e polietileno). Utiliza-se de resinas da indústria petroquímica nacional, que são modificadas na fábrica de Itaquaquecetuba , com cargas minerais, fibras e estabilizantes à luz, seguindo formulações tecnicamente das mais avançadas para acrescentar qualidade extra aos produtos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "250",
+    "label": "VALOR",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Rua Costa Aguiar, 590",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Ipiranga",
+    "label": "LOCAL",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "600",
+    "label": "VALOR",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "MARFINITE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Itaquaquecetuba",
+    "label": "LOCAL",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Grande São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "230 mil metros quadrados",
+    "label": "VALOR",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "25 mil metros quadrados",
+    "label": "VALOR",
+    "token_indices": [
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Itaquaquecetuba",
+    "label": "LOCAL",
+    "token_indices": [
+      91
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('250', 'VALOR'), ('Rua Costa Aguiar, 590', 'LOCAL'), ('Ipiranga', 'LOCAL'), ('600', 'VALOR'), ('MARFINITE', 'ORGANIZACAO'), ('Itaquaquecetuba', 'LOCAL'), ('Grande São Paulo', 'LOCAL'), ('230 mil metros quadrados', 'VALOR'), ('25 mil metros quadrados', 'VALOR'), ('Itaquaquecetuba', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Possui mais de 60 máquinas de injeção, contando com equipamentos do tipo prensa BATTENFELD , capaz de produzir monoblocos de até 35 Kg . de plástico injetável por vez. A empresa tem capacidade instalada para produzir 12.000 toneladas / ano .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "mais de 60",
+    "label": "VALOR",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "BATTENFELD",
+    "label": "COISA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "35 Kg",
+    "label": "VALOR",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "12.000 toneladas / ano",
+    "label": "VALOR",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "60",
+    "label": "VALOR"
+  },
+  {
+    "text": "BATTENFELD",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "35 Kg",
+    "label": "VALOR"
+  },
+  {
+    "text": "12.000 toneladas / ano",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('mais de 60', 'VALOR'), ('BATTENFELD', 'COISA')]
+Espúrias  (FP): [('60', 'VALOR'), ('BATTENFELD', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Muito conhecida pelo grande público como produtora de móveis para jardim, praia e campo a MARFINITE conta com as seguintes linhas de produtos: a) móveis e objetos para exteriores: jardim, piscina, praia e campo b) móveis e objetos para interiores: indústria, comércio e residências c) caixas p / armazenagem, acondicionamento e transportes de produtos diversos e «containers» de vários tamanhos d) utensílios domésticos: com mais de 120 itens, que vão de bacias e baldes a potes térmicos e saladeiras centrífugas e) construção civil: caixas d' água com reservatórios com capacidade para até mil litros, bem como cones para sinalização de ruas, estradas e obras f) embalagens para indústria alimentícia. g) bolas de boliche e bilhar e esferas para desodorantes tipo "roll-on " Em 1997 a MARFINITE tem como objetivo reforçar o plano de expansão de sua área comercial, ampliando seu leque de revendedores.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MARFINITE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "mais de 120",
+    "label": "VALOR",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "1997",
+    "label": "TEMPO",
+    "token_indices": [
+      123
+    ]
+  },
+  {
+    "text": "MARFINITE",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      125
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "MARFINITE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MARFINITE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "1950",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('mais de 120', 'VALOR'), ('1997', 'TEMPO')]
+Espúrias  (FP): [('Lisboa', 'LOCAL'), ('1950', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Maior Encontro de Empresários do Pais Divulgação - K.L.A. Eventos Empresariais [kla@emailserver.com.br ] Hotel Blue Tree Park - Angra dos Reis - R.J. João Dória Jr entrevista Luiza Helena Trajano Superintendente do Magazine Luiza Alberto Saraiva Fundador e Presidente da rede Habib´s Maria Silvia Bastos Ex-Presidente da Companhia Siderúrgica Nacional Içami Tiba Autor do Livro « Quem Ama Educa » Famili Schurmann Família de Velejadores Christina Carvalho Pinto Sócia-Presidente do Grupo Full Jazz Comunicação Prof. Mauro Halfeld Colunista e Autor do livro « Investimentos » Paulo Kretley Presidente da Franklin Covey Brasil Conhecimento: 8 dos maiores especialistas do País trazem até você as mais modernas tendências em: Empreendedorismo , Vantagens Competitivas , Marketing e Marcas , Planejamento Estratégico , Liderança , Gestão de Pessoas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "K.L.A. Eventos Empresariais",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Hotel Blue Tree Park",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Angra dos Reis",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "R.J.",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "João Dória Jr",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Luiza Helena Trajano",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Superintendente do Magazine Luiza",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Alberto Saraiva",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Habib´s",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Maria Silvia Bastos",
+    "label": "PESSOA",
+    "token_indices": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Ex-Presidente da Companhia Siderúrgica Nacional",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Içami Tiba",
+    "label": "PESSOA",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Quem Ama Educa",
+    "label": "OBRA",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Famili Schurmann",
+    "label": "PESSOA",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Christina Carvalho Pinto",
+    "label": "PESSOA",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Sócia-Presidente do Grupo Full Jazz Comunicação",
+    "label": "PESSOA",
+    "token_indices": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Prof. Mauro Halfeld",
+    "label": "PESSOA",
+    "token_indices": [
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "text": "Investimentos",
+    "label": "OBRA",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "Paulo Kretley",
+    "label": "PESSOA",
+    "token_indices": [
+      86,
+      87
+    ]
+  },
+  {
+    "text": "Presidente da Franklin Covey Brasil",
+    "label": "PESSOA",
+    "token_indices": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  {
+    "text": "8",
+    "label": "VALOR",
+    "token_indices": [
+      94
+    ]
+  },
+  {
+    "text": "País",
+    "label": "LOCAL",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Empreendedorismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "Vantagens Competitivas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      110,
+      111
+    ]
+  },
+  {
+    "text": "Marketing e Marcas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      113,
+      114,
+      115
+    ]
+  },
+  {
+    "text": "Planejamento Estratégico",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      117,
+      118
+    ]
+  },
+  {
+    "text": "Liderança",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      120
+    ]
+  },
+  {
+    "text": "Gestão de Pessoas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      122,
+      123,
+      124
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('K.L.A. Eventos Empresariais', 'ORGANIZACAO'), ('Hotel Blue Tree Park', 'LOCAL'), ('Angra dos Reis', 'LOCAL'), ('R.J.', 'LOCAL'), ('João Dória Jr', 'PESSOA'), ('Luiza Helena Trajano', 'PESSOA'), ('Superintendente do Magazine Luiza', 'PESSOA'), ('Alberto Saraiva', 'PESSOA'), ('Presidente', 'PESSOA'), ('Habib´s', 'ORGANIZACAO'), ('Maria Silvia Bastos', 'PESSOA'), ('Ex-Presidente da Companhia Siderúrgica Nacional', 'PESSOA'), ('Içami Tiba', 'PESSOA'), ('Quem Ama Educa', 'OBRA'), ('Famili Schurmann', 'PESSOA'), ('Christina Carvalho Pinto', 'PESSOA'), ('Sócia-Presidente do Grupo Full Jazz Comunicação', 'PESSOA'), ('Prof. Mauro Halfeld', 'PESSOA'), ('Investimentos', 'OBRA'), ('Paulo Kretley', 'PESSOA'), ('Presidente da Franklin Covey Brasil', 'PESSOA'), ('8', 'VALOR'), ('País', 'LOCAL'), ('Empreendedorismo', 'ABSTRACCAO'), ('Vantagens Competitivas', 'ABSTRACCAO'), ('Marketing e Marcas', 'ABSTRACCAO'), ('Planejamento Estratégico', 'ABSTRACCAO'), ('Liderança', 'ABSTRACCAO'), ('Gestão de Pessoas', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Negócios: Grande oportunidade para gerar negócios e novas parcerias com 500 empresários e executivos de todo o País . Lazer: Um mundo à parte no Blue Tree Park em Angra dos Reis - R.J. : quadras de tênis, ski aquático, vela, fitness, shows noturnos, tudo isso e muito mais.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "500",
+    "label": "VALOR",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "País",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Blue Tree Park",
+    "label": "LOCAL",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Angra dos Reis - R.J.",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "500",
+    "label": "VALOR"
+  },
+  {
+    "text": "Blue Tree Park",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Angra dos Reis",
+    "label": "LOCAL"
+  },
+  {
+    "text": "fitness",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('País', 'LOCAL'), ('Angra dos Reis - R.J.', 'LOCAL')]
+Espúrias  (FP): [('Angra dos Reis', 'LOCAL'), ('fitness', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+2 a 5 de outubro de 2003 Blue Tree Park Angra dos Reis - R.J. Gostaria de receber mais informações? clique aqui Av. Paulista , 1159 conj. São Paulo - SP Você está recebendo este e-mail gratuito através da conta projecto@informatics.sintef.no.Para cancelar o recebimento de mensagens clique aqui.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2",
+    "label": "TEMPO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "5 de outubro de 2003",
+    "label": "TEMPO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Blue Tree Park",
+    "label": "LOCAL",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Angra dos Reis",
+    "label": "LOCAL",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Av. Paulista",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2 a 5 de outubro de 2003",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Blue Tree Park",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Angra dos Reis",
+    "label": "LOCAL"
+  },
+  {
+    "text": "R.J.",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Av. Paulista , 1159 conj.",
+    "label": "LOCAL"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "SP",
+    "label": "LOCAL"
+  },
+  {
+    "text": "projecto@informatics.sintef.no",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('2', 'TEMPO'), ('5 de outubro de 2003', 'TEMPO'), ('Av. Paulista', 'LOCAL')]
+Espúrias  (FP): [('2 a 5 de outubro de 2003', 'TEMPO'), ('R.J.', 'LOCAL'), ('Av. Paulista , 1159 conj.', 'LOCAL'), ('SP', 'LOCAL'), ('projecto@informatics.sintef.no', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+E como era essa primeira casa dos correios? Era normal porque tinha a parte que pertencia à parte que pertencia à parte dos Correios e depois era uma casa em que cada um tinha o seu quarto e tinha um quintal, que era onde eu brincava. Ficava mesmo no centro da povoação, que era no Bairro da Amoreira , tinha uma grande amoreira que hoje não existe. E a casa, a última vez que a vi, estava já a cair, toda esburacada. Quem morava na casa? Nós a família, o meu pai, a minha mãe e os filhos. Nessa altura os seus irmãos já eram nascidos? Não. O meu irmão nasceu em Tortosendo comigo, a minha irmã nasceu depois quando mudamos para Linhais da Serra , tinha uns 4 anos ou coisa assim, quando mudamos para Linhais da Serra e depois de lá viemos para a Covilhã .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Correios",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Bairro da Amoreira",
+    "label": "LOCAL",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Tortosendo",
+    "label": "LOCAL",
+    "token_indices": [
+      112
+    ]
+  },
+  {
+    "text": "Linhais da Serra",
+    "label": "LOCAL",
+    "token_indices": [
+      122,
+      123,
+      124
+    ]
+  },
+  {
+    "text": "4 anos",
+    "label": "VALOR",
+    "token_indices": [
+      128,
+      129
+    ]
+  },
+  {
+    "text": "Linhais da Serra",
+    "label": "LOCAL",
+    "token_indices": [
+      136,
+      137,
+      138
+    ]
+  },
+  {
+    "text": "Covilhã",
+    "label": "LOCAL",
+    "token_indices": [
+      146
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bairro da Amoreira",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tortosendo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Linhais da Serra",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Correios', 'ORGANIZACAO'), ('4 anos', 'VALOR'), ('Linhais da Serra', 'LOCAL'), ('Covilhã', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+E lembro-me muito bem, na Covilhã , ia sozinho para a escola. Agora vão sempre de automóvel buscar as crianças porque é perigoso por causa dos automóveis. Naquele tempo não havia perigo nenhum. Ia a pé por lá cima. As aulas começavam às 10h eu saía às 9h30 de casa para chegar a tempo. Ia sozinho não havia, era uma coisa que me espantava, perigos na rua. Hoje na cidade, uma criança de 6 anos atravessar a rua é sempre perigoso. Ainda me lembro do primeiro automóvel que entrou na minha terra, essa ideia ficou-me, seria o primeiro, porque de facto eram os carros-de-bois, de cavalos, era o que havia, que não eram realmente perigosos para uma criança. Quais são os momentos mais marcantes da sua família? Olhe, o que eu tenho mais recordações da família era umas reuniões de família: os meus tios tocavam a pianola, que naquele tempo era a pianola, mas também sabiam tocar violino e outros instrumentos, e cantavam também.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Covilhã",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "10h",
+    "label": "TEMPO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "9h30",
+    "label": "TEMPO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "6 anos",
+    "label": "VALOR",
+    "token_indices": [
+      73,
+      74
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Covilhã",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('10h', 'TEMPO'), ('9h30', 'TEMPO'), ('6 anos', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Como era o quotidiano em sua casa? O meu pai saía para o trabalho, até me lembro muito bem que tínhamos que jantar mais cedo porque ele tinha que ir para o trabalho, muitas vezes até de noite. E tínhamos sempre que adaptar a hora de comer e de jantar precisamente por causa do meu pai. E a que horas se levantava pela manhã? Geralmente levantava-me pelas 8h , o meu pai era um pouco mais cedo, comia e punha-me a caminho para estar às 10h na aula. Depois vinha almoçar a casa e às 2h tínhamos a segunda aula até às 4h .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "8h",
+    "label": "TEMPO",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "10h",
+    "label": "TEMPO",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "2h",
+    "label": "TEMPO",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "4h",
+    "label": "TEMPO",
+    "token_indices": [
+      102
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "8h",
+    "label": "VALOR"
+  },
+  {
+    "text": "10h",
+    "label": "VALOR"
+  },
+  {
+    "text": "2h",
+    "label": "VALOR"
+  },
+  {
+    "text": "4h",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('8h', 'TEMPO'), ('10h', 'TEMPO'), ('2h', 'TEMPO'), ('4h', 'TEMPO')]
+Espúrias  (FP): [('8h', 'VALOR'), ('10h', 'VALOR'), ('2h', 'VALOR'), ('4h', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Às 4h vinha para casa para brincar com os meus amigos. O meu pai não gostava muito que eu viesse para casa. Depois houve uns tempos que eu pertencia aos escuteiros. Os escuteiros foi uma animação que me marcou muito. Os escuteiros eram uma união que a gente ia a acampamentos, tinha as suas leis determinadas de juramento, relação a colegas e cumprimento do dever.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "4h",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "4h",
+    "label": "TEMPO"
+  },
+  {
+    "text": "escuteiros",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('escuteiros', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+E não podia sair muito e felizmente entusiasmei-me pelos livros, Antero de Quental e outros autores que eu gostei muito, e ainda hoje gosto, e de facto essa parte que me marcou. Depois quando me libertei da doença foi outra coisa.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Antero de Quental",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Antero de Quental",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Antero de Quental', 'ABSTRACCAO')]
+Espúrias  (FP): [('Antero de Quental', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Qual é a lembrança mais forte que tem da escola primária? É o professor. A escola chamava-se no Lar da Cabrada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lar da Cabrada",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lar da Cabrada",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Lar da Cabrada', 'ABSTRACCAO')]
+Espúrias  (FP): [('Lar da Cabrada', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na altura tinha ideia que era muito grande, depois voltei lá e era muito pequenina e agora já nem existe, que até casas lá construiram. O que mais gostava no professor? Conseguia explicar claro entusiasmando-se. Ainda me lembro do primeiro texto que eu estive a ler. Era sobre a Primavera e o meu pai muito admirado. Eu gostava porque ele consegui-me entusiasmar a ver o que estava ali escrito. E portanto eu estava ligando palavra por palavra, depois lia a segunda, depois lia segunda e a primeira, depois ia lendo. E o primeiro texto que eu li demorou 2 horas , segundo diz o meu pai. Porque ele cnseguia-nos meter entusiasmo nesse trabalho de saber o que estava escrito, o que é que isso representa, as contas. De maneira, que eu depois no ensino secundário não tive dificuldade nenhuma.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Primavera",
+    "label": "TEMPO",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "2 horas",
+    "label": "VALOR",
+    "token_indices": [
+      98,
+      99
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Primavera', 'TEMPO'), ('2 horas', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Noções Básicas Síndrome de Fibromialgia é o termo médico que define uma condição clínica complexa de causa desconhecida e que é caracterizada por dor músculo-esquelética generalizada acompanhada de um cansaço extremo, perturbações do sono, perturbações cognitivas, entre outros sintomas. Ao contrário do que muitas pessoas pensam, a Fibromialgia não é uma doença nova embora só nos últimos 20 anos tivesse este enorme desenvolvimento. A associação de pontos dolorosos com reumatismo foi referida por Balfour ( Inglaterra ) em 1824 que descreveu pacientes com pontos musculares hipersensíveis à palpação e passíveis de desencadear dor irradiada. Historicamente a Fibromialgia tem sido apresentada sob vários nomes ao longo dos anos: Fibrosite ( 1904 ), Miofibrosite ( 1929 ), Síndrome Fibrosítica ( 1952 ) , Síndrome Fibromiálgica , entre outros; tendo sido adoptado o nome de Fibromialgia apartir de 1981 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Síndrome de Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "20 anos",
+    "label": "VALOR",
+    "token_indices": [
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Balfour",
+    "label": "PESSOA",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Inglaterra",
+    "label": "LOCAL",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "1824",
+    "label": "TEMPO",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      96
+    ]
+  },
+  {
+    "text": "Fibrosite",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      107
+    ]
+  },
+  {
+    "text": "1904",
+    "label": "TEMPO",
+    "token_indices": [
+      109
+    ]
+  },
+  {
+    "text": "Miofibrosite",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      111
+    ]
+  },
+  {
+    "text": "1929",
+    "label": "TEMPO",
+    "token_indices": [
+      113
+    ]
+  },
+  {
+    "text": "Síndrome Fibrosítica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      115,
+      116
+    ]
+  },
+  {
+    "text": "1952",
+    "label": "TEMPO",
+    "token_indices": [
+      118
+    ]
+  },
+  {
+    "text": "Síndrome Fibromiálgica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      121,
+      122
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      132
+    ]
+  },
+  {
+    "text": "1981",
+    "label": "TEMPO",
+    "token_indices": [
+      135
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Síndrome de Fibromialgia', 'ABSTRACCAO'), ('Fibromialgia', 'ABSTRACCAO'), ('20 anos', 'VALOR'), ('Balfour', 'PESSOA'), ('Inglaterra', 'LOCAL'), ('1824', 'TEMPO'), ('Fibromialgia', 'ABSTRACCAO'), ('Fibrosite', 'ABSTRACCAO'), ('1904', 'TEMPO'), ('Miofibrosite', 'ABSTRACCAO'), ('1929', 'TEMPO'), ('Síndrome Fibrosítica', 'ABSTRACCAO'), ('1952', 'TEMPO'), ('Síndrome Fibromiálgica', 'ABSTRACCAO'), ('Fibromialgia', 'ABSTRACCAO'), ('1981', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Esta foi classificada pela Organização Mundial de Saúde em 1990 com o código M79.0 , tendo sido reconhecida em 1992 como uma doença reumática.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Organização Mundial de Saúde",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "1990",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "M79.0",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Organização Mundial de Saúde",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1990",
+    "label": "TEMPO"
+  },
+  {
+    "text": "M79.0",
+    "label": "VALOR"
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('M79.0', 'ABSTRACCAO')]
+Espúrias  (FP): [('M79.0', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+As queixas da Fibromialgia podem ser ligeiras ou graves, definindo assim um espectro funcional que vai do mero incómodo até à incapacidade para manter um emprego remunerado, as actividades domésticas ou mesmo para desfrutar o convívio com a família e com os amigos, o que torna a doença heterogénea nas suas manifestações. Actualmente sabe-se que a Fibromialgia é uma forma de reumatismo associada a uma maior sensibilidade do indivíduo perante um estímulo doloroso. O termo reumatismo pode ser justificado pelo facto da fibromialgia envolver músculos, tendões e ligamentos não envolvendo no entanto as articulações tal como acontece com a Artrite Reumatóide e a Osteoartrite .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Artrite Reumatóide",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      99,
+      100
+    ]
+  },
+  {
+    "text": "Osteoartrite",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Artrite Reumatóide",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Osteoartrite",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Fibromialgia', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar da Fibromialgia poder apresentar-se de uma forma extremamente dolorosa e incapacitante , ela não causa deformação. A Fibromialgia é uma doença comum que atinge homens , mulheres e crianças de todas as etnias e grupos sócio-económicos. Estima-se que sofram de FM entre 2% A 5% da população adulta, dependendo dos países.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "entre 2% A 5%",
+    "label": "VALOR",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "2%",
+    "label": "VALOR"
+  },
+  {
+    "text": "5%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('entre 2% A 5%', 'VALOR')]
+Espúrias  (FP): [('2%', 'VALOR'), ('5%', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Da população atingida , entre 80% a 90% serão mulheres entre os 20 e os 50 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "entre 80% a 90%",
+    "label": "VALOR",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "entre os 20 e os 50 anos",
+    "label": "VALOR",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "80%",
+    "label": "VALOR"
+  },
+  {
+    "text": "90%",
+    "label": "VALOR"
+  },
+  {
+    "text": "20",
+    "label": "VALOR"
+  },
+  {
+    "text": "50",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('entre 80% a 90%', 'VALOR'), ('entre os 20 e os 50 anos', 'VALOR')]
+Espúrias  (FP): [('80%', 'VALOR'), ('90%', 'VALOR'), ('20', 'VALOR'), ('50', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sintomas Os sintomas e a sua intensidade são variáveis de pessoa para pessoa podendo até, na mesma pessoa, variar ao longo do tempo o que dificulta o tratamento e a adaptação do doente a um novo estilo de vida que lhe permita lidar com a doença. A Fibromialgia , também referida como FM é um síndrome por se tratar de um conjunto complexo de sintomas que à priori não parecem estar interligados. Esta afecta inúmeras partes do corpo o que leva a uma maior dificuldade em diagnosticar esta enfermidade. Os sintomas principais na Fibromialgia são: Dor Na Fibromialgia a dor é crónica e difusa por todo o corpo e é muitas vezes descrita como queimadura, ardor ou picada. A intensidade da dor varia de acordo com as horas do dia, a intensidade dos esforços produzidos, a condição climatérica, a qualidade do sono na noite anterior, aspectos emocionais ou stress.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      93
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      97
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Fibromialgia', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Uma das características essenciais da Fibromialgia é também a existência de áreas sensíveis à pressão chamadas pontos dolorosos. Estes pontos dolorosos localizam-se em áreas bem identificadas sobre músculos, tendões e tecido adiposo e distribuem-se generalizada e simetricamente. Fadiga A fadiga na Fibromialgia é um sintoma que afecta mais de 90% dos doentes. Referida com maior intensidade de manhã e frequentemente agravada ao meio da tarde, a fadiga na Fibromialgia não passa com o repouso como acontece noutras situações, ela é persistente e muitas vezes referida como uma espécie de cansaço mental com grande dificuldade de concentração. A falta de energia, leva a que no dia a dia a execução de tarefas consideradas simples levem a pessoa à exaustão. Distúrbios do sono Mesmo dormindo o número de horas necessárias, os doentes com Fibromialgia referem acordar mais cansados do que quando se deitaram. Tal facto pode ser explicado por estes doentes não atingirem o estádio mais profundo do sono, o mesmo é superficial, verificando-se constantes acordares durante a noite.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "90%",
+    "label": "VALOR",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      131
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Fibromialgia', 'ABSTRACCAO'), ('Fibromialgia', 'ABSTRACCAO'), ('90%', 'VALOR'), ('Fibromialgia', 'ABSTRACCAO'), ('Fibromialgia', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Desconhece-se a razão pela qual estes doentes têm esta perturbação, sabendo-se no entanto que o seu padrão de sono não é exclusivo da FM e é diferente do encontrado em doentes com depressão. Os distúrbios podem ser classificados como alterações quantitativas (insónias, constantes acordares durante a noite ou sono de curta duração), ou alterações qualitativas (não se acorda descansado, o sono não é reparador mesmo dormindo muitas horas). Rigidez Para além da dor, a rigidez pode representar um problema para os doentes com FM . Ela é principalmente referida ao acordar ou após longos períodos de permanência na mesma posição, quer sentado quer em pé. Perturbações cognitivas Os défices cognitivos são normais na FM . Doentes relatam uma variedade de sintomas que podem variar de dia para dia. Estão incluidos nos sintomas, a dificuldade de concentração, falta de memória, confusão mental, etc.. Perturbações gastrointestinais Entre 40 e 70% dos doentes com Fibromialgia referem problemas gastrointestinais dos quais se destacam a obstipação, diarreia, dores abdominais, gases e náuseas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      113
+    ]
+  },
+  {
+    "text": "Entre 40 e 70%",
+    "label": "VALOR",
+    "token_indices": [
+      144,
+      145,
+      146,
+      147
+    ]
+  },
+  {
+    "text": "Fibromialgia",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      151
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "FM",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Entre 40 e 70%', 'VALOR'), ('Fibromialgia', 'ABSTRACCAO')]
+Espúrias  (FP): [('FM', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Dores de cabeça São referidas por mais de 50% dos doentes, dores de cabeça recorrentes assim como enxaquecas, que podem limitar a actividade diária do doente.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "mais de 50%",
+    "label": "VALOR",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "50%",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('mais de 50%', 'VALOR')]
+Espúrias  (FP): [('50%', 'VALOR')]
+

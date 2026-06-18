@@ -1,0 +1,7048 @@
+--------------------------------------------------------------------------------
+Texto:
+Onde está a Estátua da Liberdade ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estátua da Liberdade",
+    "label": "OBRA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estátua da Liberdade",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Estátua da Liberdade', 'OBRA')]
+Espúrias  (FP): [('Estátua da Liberdade', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que cidade italiana fica o Coliseu ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Coliseu",
+    "label": "OBRA",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Coliseu",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Coliseu', 'OBRA')]
+Espúrias  (FP): [('Coliseu', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Onde é que foi construída em Itália a Villa Medici ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Itália",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Villa Medici",
+    "label": "OBRA",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Villa Medici",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Itália', 'LOCAL'), ('Villa Medici', 'OBRA')]
+Espúrias  (FP): [('Villa Medici', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que filho de um ex-presidente dos EUA | ex-presidente dos EUA foi eleito governador do Texas | governador do Texas em 1994 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ex-presidente dos EUA",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "governador do Texas",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Texas",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "EUA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Texas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1994",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('ex-presidente dos EUA', 'PESSOA'), ('EUA', 'LOCAL'), ('governador do Texas', 'PESSOA')]
+Espúrias  (FP): [('EUA', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para quantos Óscares foi nomeado " A Lista de Schindler "?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Óscares",
+    "label": "OUTRO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "A Lista de Schindler",
+    "label": "OBRA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Óscares",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "A Lista de Schindler",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Óscares', 'OUTRO')]
+Espúrias  (FP): [('Óscares', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem recebeu o Óscar de Melhor Actor por « Forrest Gump »?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Óscar de Melhor Actor",
+    "label": "OUTRO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Forrest Gump",
+    "label": "OBRA",
+    "token_indices": [
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Óscar",
+    "label": "OBRA"
+  },
+  {
+    "text": "Melhor Actor",
+    "label": "OBRA"
+  },
+  {
+    "text": "Forrest Gump",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Óscar de Melhor Actor', 'OUTRO')]
+Espúrias  (FP): [('Óscar', 'OBRA'), ('Melhor Actor', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos pisos tem o Empire State Building ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Empire State Building",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Empire State Building",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Empire State Building', 'LOCAL')]
+Espúrias  (FP): [('Empire State Building', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como se chama o patrão da Microsoft | patrão da Microsoft ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "patrão da Microsoft",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Microsoft",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Microsoft",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('patrão da Microsoft', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Que político era chanceler da Alemanha | chanceler da Alemanha antes de Helmut Kohl ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "chanceler da Alemanha",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Alemanha",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Helmut Kohl",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Helmut Kohl",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('chanceler da Alemanha', 'PESSOA'), ('Alemanha', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Qual a altura do Evereste ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Evereste",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Evereste",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Evereste', 'LOCAL')]
+Espúrias  (FP): [('Evereste', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que foi construída a Esfinge ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Esfinge",
+    "label": "OBRA",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Esfinge",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Esfinge', 'OBRA')]
+Espúrias  (FP): [('Esfinge', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é o Titanic?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Titanic",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Titanic', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando foi criado o Prémio Schiller ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prémio Schiller",
+    "label": "OUTRO",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prémio Schiller",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Prémio Schiller', 'OUTRO')]
+Espúrias  (FP): [('Prémio Schiller', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que filme ganhou o Óscar em 1992 na categoria de Melhor Filme ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Óscar",
+    "label": "OUTRO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "em 1992",
+    "label": "TEMPO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Melhor Filme",
+    "label": "OUTRO",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Óscar",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "em 1992",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Melhor Filme",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Óscar', 'OUTRO'), ('Melhor Filme', 'OUTRO')]
+Espúrias  (FP): [('Óscar', 'ACONTECIMENTO'), ('Melhor Filme', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem foi o inventor da Coca Cola ? Quando foi criada a Coca Cola ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Coca Cola",
+    "label": "COISA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Coca Cola",
+    "label": "COISA",
+    "token_indices": [
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Coca Cola",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Coca Cola', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quem abriu o Baile da Opera de Viena | Baile da Opera de Viena ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Baile da Opera de Viena",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Baile",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Opera de Viena",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Baile da Opera de Viena",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Baile",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Opera de Viena",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Opera de Viena', 'PESSOA')]
+Espúrias  (FP): [('Opera de Viena', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos estados membros tinha a UE em 1995 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "UE",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "UE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('UE', 'LOCAL')]
+Espúrias  (FP): [('UE', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em quantos países foram transmitidas as Olimpíadas de Albertville | Olimpíadas de Albertville ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Olimpíadas de Albertville",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Olimpíadas",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Albertville",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Olimpíadas de Albertville",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Albertville",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Olimpíadas', 'ACONTECIMENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Desde quando é que a Suíça é membro da UNESCO ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Suíça",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "UNESCO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Suíça",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "UNESCO",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Suíça', 'LOCAL')]
+Espúrias  (FP): [('Suíça', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O prémio UNESCO da Paz é de quantos dólares?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "UNESCO",
+    "label": "OUTRO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Paz",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "UNESCO",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('UNESCO', 'OUTRO'), ('Paz', 'ABSTRACCAO')]
+Espúrias  (FP): [('UNESCO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem era o presidente do júri do 47º Festival Cinematográfico de Cannes | 47º Festival Cinematográfico de Cannes ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "47º Festival Cinematográfico de Cannes",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "47º Festival Cinematográfico",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "47º Festival Cinematográfico de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "47º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Festival Cinematográfico de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('47º Festival Cinematográfico', 'ACONTECIMENTO')]
+Espúrias  (FP): [('47º', 'VALOR'), ('Festival Cinematográfico de Cannes', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que filme recebeu a Palma de Ouro no 47º Festival de Cannes | 47º Festival de Cannes ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Palma de Ouro",
+    "label": "OUTRO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "47º Festival de Cannes",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "47º Festival",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Palma de Ouro",
+    "label": "OBRA"
+  },
+  {
+    "text": "47º Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "47º",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Palma de Ouro', 'OUTRO'), ('47º Festival', 'ACONTECIMENTO'), ('Cannes', 'LOCAL')]
+Espúrias  (FP): [('Palma de Ouro', 'OBRA'), ('47º', 'ACONTECIMENTO'), ('Festival de Cannes', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos filmes competiam pela Palma de Ouro do 47º Festival de Cannes | 47º Festival de Cannes ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Palma de Ouro",
+    "label": "OUTRO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "47º Festival de Cannes",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "47º Festival",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Palma de Ouro",
+    "label": "OBRA"
+  },
+  {
+    "text": "47º Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "47º",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Palma de Ouro', 'OUTRO'), ('47º Festival', 'ACONTECIMENTO'), ('Cannes', 'LOCAL')]
+Espúrias  (FP): [('Palma de Ouro', 'OBRA'), ('47º', 'ACONTECIMENTO'), ('Festival de Cannes', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem recebeu o prémio de melhor actriz no 47º Festival de Cannes | 47º Festival de Cannes ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "47º Festival de Cannes",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "47º Festival",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Cannes",
+    "label": "LOCAL",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "47º Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "47º",
+    "label": "VALOR"
+  },
+  {
+    "text": "Festival de Cannes",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('47º Festival', 'ACONTECIMENTO'), ('Cannes', 'LOCAL')]
+Espúrias  (FP): [('47º', 'VALOR'), ('Festival de Cannes', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em que três categorias é que Whitney Houston ganhou o prémio Single por " I will always love you "?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Whitney Houston",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Single",
+    "label": "OUTRO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "I will always love you",
+    "label": "OBRA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Whitney Houston",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Single",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "I will always love you",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Single', 'OUTRO')]
+Espúrias  (FP): [('Single', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que são os " Estudos sobre a Histeria "?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estudos sobre a Histeria",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estudos sobre a Histeria",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Estudos sobre a Histeria', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Estudos sobre a Histeria', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem foi o fundador da psicoanálise?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "psicoanálise",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('psicoanálise', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quem era presidente dos EUA | presidente dos EUA quando a guerra chegou ao fim?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "presidente dos EUA",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "presidente dos EUA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  },
+  {
+    "text": "presidente",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('presidente', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que era Napola?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Napola",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Napola', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é Madame Tussaud?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Madame Tussaud",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Madame Tussaud', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Qual o significado da sigla UNICEF ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "UNICEF",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "UNICEF",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('UNICEF', 'ABSTRACCAO')]
+Espúrias  (FP): [('UNICEF', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é Stadium Arcadium ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Stadium Arcadium",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3,
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Stadium Arcadium",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Stadium Arcadium', 'ABSTRACCAO')]
+Espúrias  (FP): [('Stadium Arcadium', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que Audrey Hepburn e Mel Ferrer se casaram? Onde é que mora hoje o filho de Audrey Hepburn ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Audrey Hepburn",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Mel Ferrer",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Audrey Hepburn",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Audrey Hepburn",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mel Ferrer",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Audrey Hepburn",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('hoje', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quem é que falou em Setembro de 1939 no 17º Congresso Internacional do PEN-clube sobre o problema da liberdade?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em Setembro de 1939",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "17º Congresso Internacional do PEN-clube",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em Setembro de 1939",
+    "label": "TEMPO"
+  },
+  {
+    "text": "17º Congresso Internacional do PEN-clube",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('em Setembro de 1939', 'TEMPO')]
+Espúrias  (FP): [('Em Setembro de 1939', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+De que região espanhola é que Santiago é capital? Que organização nomeou Santiago de Compsotela Património Mundial em 1995 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Santiago",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Santiago de Compsotela",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Património Mundial",
+    "label": "OUTRO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Santiago",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Santiago de Compsotela",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1995",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Património Mundial', 'OUTRO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos exibidores tinha a CeBIT em 2005 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CeBIT",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "em 2005",
+    "label": "TEMPO",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CeBIT",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "em 2005",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('CeBIT', 'LOCAL')]
+Espúrias  (FP): [('CeBIT', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantas pessoas morreram no atentado na Oktoberfest ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Oktoberfest",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Oktoberfest",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Oktoberfest', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Oktoberfest', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quantos lados têm o Pentâgono ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pentâgono",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pentâgono",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Pentâgono', 'LOCAL')]
+Espúrias  (FP): [('Pentâgono', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que significa a sigla RAF ? Quem era Rolf Heissler ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RAF",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Rolf Heissler",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "RAF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rolf Heissler",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('RAF', 'ABSTRACCAO')]
+Espúrias  (FP): [('RAF', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando é que o Monte Branco foi escalado pela primeira vez? De que consiste o Monte Branco ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Monte Branco",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Monte Branco",
+    "label": "COISA",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Monte Branco",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Monte Branco', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O que e o " Wurstelprater "? Onde fica o Calafati ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Wurstelprater",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Calafati",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Wurstelprater",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Calafati",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Wurstelprater', 'ABSTRACCAO')]
+Espúrias  (FP): [('Wurstelprater', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando foi publicada a API Web do Google
+
+Entidades verdadeiras:
+[
+  {
+    "text": "API Web",
+    "label": "OBRA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Google",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "API Web do Google",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('API Web', 'OBRA'), ('Google', 'ORGANIZACAO')]
+Espúrias  (FP): [('API Web do Google', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como se chama o irmão dela? Quem disse "Die multikulturelle Gegelllschaft ist gescheitert" ?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Die multikulturelle Gegelllschaft",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Die multikulturelle Gegelllschaft', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O que é uma Okiya? O que são hanamachi? Em que cidades japonesas ainda existem?
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Okiya",
+    "label": "COISA"
+  },
+  {
+    "text": "hanamachi",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Okiya', 'COISA'), ('hanamachi', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quanto custou a construção da Torre Eiffel ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Torre Eiffel",
+    "label": "OBRA",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Torre Eiffel",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Torre Eiffel', 'OBRA')]
+Espúrias  (FP): [('Torre Eiffel', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Onde fica o Alhambra ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alhambra",
+    "label": "OBRA",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Alhambra",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Alhambra', 'OBRA')]
+Espúrias  (FP): [('Alhambra', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Que profissão praticou Gerhard Schröder e 1978 a 1990 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gerhard Schröder",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "1978 a 1990",
+    "label": "TEMPO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gerhard Schröder",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1978",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1990",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('1978 a 1990', 'TEMPO')]
+Espúrias  (FP): [('1978', 'TEMPO'), ('1990', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quando foi fundada a SEAT ? A que companhia alemã pertence hoje a SEAT ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SEAT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "SEAT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "SEAT",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('hoje', 'TEMPO'), ('SEAT', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Até quando existiu a Inquisição em França ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Inquisição",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "França",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Inquisição",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "França",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Inquisição', 'ORGANIZACAO')]
+Espúrias  (FP): [('Inquisição', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Onde ficam as universidades de Yale e Harvard ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Yale",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Harvard",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Yale",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Harvard",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Yale', 'ORGANIZACAO'), ('Harvard', 'ORGANIZACAO')]
+Espúrias  (FP): [('Yale', 'LOCAL'), ('Harvard', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+PILOTO PORTUGUÊS NÃO ESCONDE DESEJO E ELOGIA ORGANIZAÇÃO
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "PILOTO PORTUGUÊS",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('PILOTO PORTUGUÊS', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O piloto português Carlos Sousa revelou que tem "capacidade para chegar ao pódio" dos automóveis na edição de 2008 do Lisboa-Dakar | Lisboa - Dakar cujo percurso foi hoje apresentado em Lisboa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "de 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Lisboa-Dakar",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Dakar",
+    "label": "LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carlos Sousa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lisboa-Dakar",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Dakar",
+    "label": "LOCAL"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('de 2008', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Carlos Sousa acredita que este ano o rali vai ser mais duro. "Vai ser um percurso para os mais resistentes. É mais difícil, mais exigente e as coisas entre os mais rápidos vão ser decididas ao segundo", afirmou o piloto da Lagos Team , que vai conduzir um Volkswagen Touareg idêntico aos de fábrica.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Carlos Sousa",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Lagos Team",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Volkswagen Touareg",
+    "label": "COISA",
+    "token_indices": [
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carlos Sousa",
+    "label": "PESSOA"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lagos Team",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Volkswagen Touareg",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Lagos Team', 'PESSOA')]
+Espúrias  (FP): [('Lagos Team', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar de ambicionar um lugar nos três primeiros, o piloto sabe que a concorrência é apertada e que não vai ser fácil: "Há 15 ou mais pilotos com hipóteses de chegar à vitória e ao pódio. As coisas vão ficar mais interessantes para quem vir o rali em casa ou pela Internet | Internet, mas para os pilotos vai ser uma luta até ao último dia ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "15 ou mais",
+    "label": "VALOR",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "até ao último dia",
+    "label": "TEMPO",
+    "token_indices": [
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "15",
+    "label": "VALOR"
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('15 ou mais', 'VALOR'), ('até ao último dia', 'TEMPO')]
+Espúrias  (FP): [('15', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+O português, que nas últimas três edições foi sempre sétimo classificado, sofreu uma lesão cervical em Setembro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "em Setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "nas últimas três edições",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Setembro",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('em Setembro', 'TEMPO')]
+Espúrias  (FP): [('nas últimas três edições', 'TEMPO'), ('Setembro', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Vem-se, a pouco e pouco, compondo o quadro da história das idéias e das atividades dos lingüistas, filólogos e gramáticos brasileiros. A partir de um primeiro e fragmentário levantamento, por falta de informações, de José Leite de Vasconcelos , e do bem mais circunstanciado Breve retrospecto sobre o ensino da Língua Portuguesa | Breve retrospecto sobre o ensino da Língua Portuguesa, redigido por Maximino Maciel em novembro de 1910 e que vem como apêndice à sua Gramática Descritiva , vem-se avolumando, em vários centros universitários brasileiros, a pesquisa de informações sobre o tema, de modo que, dentro de pouco, já se pode elaborar um manual bastante rico e informativo sobre essas idéias e atividades.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José Leite de Vasconcelos",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Breve retrospecto sobre o ensino da Língua Portuguesa",
+    "label": "OBRA",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Maximino Maciel",
+    "label": "PESSOA",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "em novembro de 1910",
+    "label": "TEMPO",
+    "token_indices": [
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Gramática Descritiva",
+    "label": "OBRA",
+    "token_indices": [
+      76,
+      77
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "José Leite de Vasconcelos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Breve retrospecto sobre o ensino da Língua Portuguesa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Breve retrospecto sobre o ensino da Língua Portuguesa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Maximino Maciel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em novembro de 1910",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Gramática Descritiva",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Breve retrospecto sobre o ensino da Língua Portuguesa', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Depois de um primeiro momento de visão panorâmica, surgem os estudos especiais de autor: M. Said Ali (de Evanildo Bechara ), J. Mattoso Câmara Jr. (de Carlos Eduardo Falcão Uchôa ), Clóvis Monteiro (de Jayr Calhau ), Olmar Guterres da Silveira (de Horácio Rolim de Freitas ), o exaustivo estudo sobre Sousa da Silveira (de Maximiano de Carvalho e Silva ), sem contar as análises percucientes de Joaquim Mattoso Câmara Jr. acerca da obra de M. Said Ali e João Ribeiro , reunidos nos Dispersos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "M. Said Ali",
+    "label": "OBRA",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Evanildo Bechara",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "J. Mattoso Câmara Jr.",
+    "label": "OBRA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Carlos Eduardo Falcão Uchôa",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Clóvis Monteiro",
+    "label": "OBRA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Jayr Calhau",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Olmar Guterres da Silveira",
+    "label": "OBRA",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Horácio Rolim de Freitas",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Sousa da Silveira",
+    "label": "PESSOA",
+    "token_indices": [
+      51,
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Maximiano de Carvalho e Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Joaquim Mattoso Câmara Jr.",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "M. Said Ali",
+    "label": "PESSOA",
+    "token_indices": [
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "text": "João Ribeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      79,
+      80
+    ]
+  },
+  {
+    "text": "Dispersos",
+    "label": "OBRA",
+    "token_indices": [
+      84
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('M. Said Ali', 'OBRA'), ('Evanildo Bechara', 'PESSOA'), ('J. Mattoso Câmara Jr.', 'OBRA'), ('Carlos Eduardo Falcão Uchôa', 'PESSOA'), ('Clóvis Monteiro', 'OBRA'), ('Jayr Calhau', 'PESSOA'), ('Olmar Guterres da Silveira', 'OBRA'), ('Horácio Rolim de Freitas', 'PESSOA'), ('Sousa da Silveira', 'PESSOA'), ('Maximiano de Carvalho e Silva', 'PESSOA'), ('Joaquim Mattoso Câmara Jr.', 'PESSOA'), ('M. Said Ali', 'PESSOA'), ('João Ribeiro', 'PESSOA'), ('Dispersos', 'OBRA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Só para a referência de uma importante contribuição de São Paulo ( USP - 1998 ), cabe menção a recente tese de livre-docência de Valter Kehdi A Morfologia e a Sintaxe Portuguesas na Obra de J. Mattoso Câmara Jr .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "USP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Valter Kehdi",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "A Morfologia e a Sintaxe Portuguesas na Obra de J. Mattoso Câmara Jr",
+    "label": "OBRA",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "USP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Valter Kehdi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "J. Mattoso Câmara Jr",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('A Morfologia e a Sintaxe Portuguesas na Obra de J. Mattoso Câmara Jr', 'OBRA')]
+Espúrias  (FP): [('J. Mattoso Câmara Jr', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em linhas gerais, depois que os estudos lingüísticos no Brasil se puderam beneficiar da contribuição mais moderna da Europa e da América , traçam-se cinco gerações de representantes bem delineadas das quais só trataremos das três primeiras, porque na última delas se inserem a atividade e a produção de Antônio Houaiss , sobre quem queremos hoje vos falar. Na primeira, inserem-se, entre outros, M. Said Ali , João Ribeiro , Pacheco da Silva Júnior , Maximino Maciel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "América",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      49,
+      50
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "M. Said Ali",
+    "label": "PESSOA",
+    "token_indices": [
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "João Ribeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Pacheco da Silva Júnior",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71,
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Maximino Maciel",
+    "label": "PESSOA",
+    "token_indices": [
+      75,
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Europa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "América",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "M. Said Ali",
+    "label": "PESSOA"
+  },
+  {
+    "text": "João Ribeiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pacheco da Silva Júnior",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Maximino Maciel",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('hoje', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Antônio Houaiss , nascido no Rio de Janeiro a 15 de outubro de 1915 e, nesta mesma cidade, falecido a 7 de março de 1999 , conheceu um amplo quadro de atividades como filólogo, diplomata, político, acadêmico, enciclopedista, dicionarista, bibliólogo, ensaísta, crítico literário, teórico da literatura, tradutor, jornalista, perito em gastronomia: numa palavra, um humanista.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "a 15 de outubro de 1915",
+    "label": "TEMPO",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "a 7 de março de 1999",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCAL"
+  },
+  {
+    "text": "a 15 de outubro de 1915",
+    "label": "TEMPO"
+  },
+  {
+    "text": "a 7 de março de 1999",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Rio de Janeiro', 'PESSOA')]
+Espúrias  (FP): [('Rio de Janeiro', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Um universo tão multifacetado quanto este permite a execução de um livro de macroscopia de vida, como esse dedicado, com muita justiça, aos 80 anos de Antônio Houaiss , cuja trajetória triunfal pode ser resumida nesse título feliz do depoimento do diplomata e musicólogo Vasco Mariz : um processo administrativo-ideológico. É o que foi a vida de Houaiss : nada se fez de improviso ou por acaso. Operário disciplinado, cada degrau de sua ascensão era impulsionado pela força do seu projeto ideológico de bem servir a quem dele precisasse, e, na ponta última desse projeto, bem servir a seu país.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "80 anos",
+    "label": "VALOR",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Vasco Mariz",
+    "label": "PESSOA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "80 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Vasco Mariz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('80 anos', 'VALOR')]
+Espúrias  (FP): [('80 anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas de toda esta trajetória, de todo esse processo administrativo-ideológico nos dão conta os estudos e depoimentos sobre o homem e sobre suas obras enfeixados na miscelânea em honra aos 80 anos de Houaiss .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "80 anos",
+    "label": "VALOR",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "80 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('80 anos', 'VALOR')]
+Espúrias  (FP): [('80 anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sinto-me em condições favoráveis para fazer esse exercício de crítica construtiva na reunião de alguns dados fragmentários que julgo importantes para uma visão aprofundada do nosso Houaiss , porque convivi - para pouca alegria e regozijo meu - porque convivi, repito, pouco com ele, se por convivência queremos aludir à proximidade da presença física. Permanentemente estava eu com Houaiss na sua produção lingüístico-filológica refletida e plasmada nos seus livros, nos seus artigos, nas suas conferências. E, como éramos joeiradores da mesma seara, percebia com mais nitidez as afinidades com suas fontes de formação e informações, percebendo suas ligações intelectuais mais próximas - percebendo ou supondo perceber -, ainda que se manifestassem, quase sempre, mais elaboradas e mais contundentes do que suas fontes originais, detectava matrizes que honravam os mestres e dignificavam o discípulo.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Permanentemente",
+    "label": "TEMPO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Permanentemente', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nessa pesquisa de recolher as peças soltas para compor o quadro definitivo, há questões que se impõem pela sua curiosidade. Uma delas, por exemplo, está na opção de Houaiss de matricular-se, na Faculdade Nacional de Filosofia , no Curso de Letras Clássicas , para licenciar-se em disciplinas, como Grego e o Latim , disciplinas que durante toda a sua vida de produção científica não ocuparam o lugar que normalmente seria esperado. É certo que Houaiss lecionou Latim , ao lado da Língua Portuguesa ; é certo também que o conhecimento dos idiomas clássicos esteve na raiz de seu trabalho lexicográfico, dicionarístico e enciclopédístico, mas não tivemos o nosso homenageado a editar textos de grego e latim ou a tratar especificamente de questões de língua ou de literatura clássicas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Faculdade Nacional de Filosofia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Curso de Letras Clássicas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Grego",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "Latim",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      74
+    ]
+  },
+  {
+    "text": "Latim",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Língua Portuguesa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      81,
+      82
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Faculdade Nacional de Filosofia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Curso de Letras Clássicas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Grego",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Latim",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Latim",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Língua Portuguesa",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Curso de Letras Clássicas', 'ABSTRACCAO')]
+Espúrias  (FP): [('Curso de Letras Clássicas', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Abrira a Prefeitura do Distrito Federal | Prefeitura do Distrito Federal , em 1936 , concurso para preenchimento de uma vaga de Português no seu quadro de magistério. Inscreveram-se 23 candidatos, entre os quais Antônio Houaiss .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prefeitura do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Prefeitura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "em 1936",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Português",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "23",
+    "label": "VALOR",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prefeitura do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Prefeitura",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1936",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Português",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('23', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ponto sorteado: a ortografia portuguesa e seus fundamentos históricos. Na comissão examinadora estavam Sousa da Silveira (presidente), Daltro Santos e Marieta Castagnino da Mota . Corrigidas as provas, foram selecionados 6 candidatos, e de um sétimo, porque escrevera mais de trinta péginas sobre ortografia latina; se pensou em não aprová-lo, sob o pretexto de ter fugido do assunto. Aí interveio em favor do candidato o presidente Sousa da Silveira , argumentando que, quem escreveu tanto sobre ortografia latina, se lhe sobrasse tempo, teria feito outra boa exposição acerca da ortografia portuguesa e seus fundamentos históricos. E assim foram 7 os candidatos aprovados, tendo alcançado o 1.º lugar no concurso o nosso saudoso Sílvio Elia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sousa da Silveira",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Daltro Santos",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Marieta Castagnino da Mota",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "6",
+    "label": "VALOR",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "presidente Sousa da Silveira",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "text": "7",
+    "label": "VALOR",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "1.º",
+    "label": "VALOR",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "Sílvio Elia",
+    "label": "PESSOA",
+    "token_indices": [
+      112,
+      113
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sousa da Silveira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Daltro Santos",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Marieta Castagnino da Mota",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sousa da Silveira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Colégio Pedro II",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "João de Souza",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('6', 'VALOR'), ('presidente Sousa da Silveira', 'PESSOA'), ('7', 'VALOR'), ('1.º', 'VALOR'), ('Sílvio Elia', 'PESSOA')]
+Espúrias  (FP): [('Sousa da Silveira', 'PESSOA'), ('Colégio Pedro II', 'ORGANIZACAO'), ('João de Souza', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A primeira proposta aponta a influência de seu professor Ernesto Faria na Escola Amaro Cavalcanti , onde concluiu seu curso de perito-contador. Como sabemos, Ernesto Faria foi excelente professor de latim, entusiasta do ensino clássico, autor de livros na suas especialidade e um grande propagandista do magistério do latim entre seus alunos, quer no curso secundário, quer no curso superior.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "professor Ernesto Faria",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Escola Amaro Cavalcanti",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Ernesto Faria",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ernesto Faria",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Escola Amaro Cavalcanti",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ernesto Faria",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('professor Ernesto Faria', 'PESSOA'), ('Escola Amaro Cavalcanti', 'ORGANIZACAO')]
+Espúrias  (FP): [('Escola Amaro Cavalcanti', 'LOCAL'), ('Ernesto Faria', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas há duas fortes objeções a essa primeira tentativa de explicação: Houaiss freqüentou uma escola pública secundária no tempo em que ela atraía verdadeiros mestres de nível universitário, e na Amaro Cavalcanti Houaiss tivera professores dessa estirpe, como Clóvis Monteiro e Mattoso Câmara Jr. , que, a prevalecer e explicação por influência de seus mestres, melhor o iriam levar a matricular-se no Curso de Letras Neolatinas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "no tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Amaro Cavalcanti",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Clóvis Monteiro",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Mattoso Câmara Jr.",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Curso de Letras Neolatinas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Amaro Cavalcanti Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Clóvis Monteiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mattoso Câmara Jr.",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Curso de Letras Neolatinas",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('no tempo', 'TEMPO'), ('Amaro Cavalcanti', 'ORGANIZACAO'), ('Houaiss', 'PESSOA'), ('Curso de Letras Neolatinas', 'ABSTRACCAO')]
+Espúrias  (FP): [('Amaro Cavalcanti Houaiss', 'PESSOA'), ('Curso de Letras Neolatinas', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A segunda objeção é que à turma de Houaiss na FNF pertenciam Celso Cunha e Olavo Nascentes , que não tinham podido sofrer a influência de Ernesto Faria na Escola Amaro Cavalcanti .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "FNF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Celso Cunha",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Olavo Nascentes",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Ernesto Faria",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Escola Amaro Cavalcanti",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "FNF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Celso Cunha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Olavo Nascentes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Ernesto Faria",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Escola Amaro Cavalcanti",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Escola Amaro Cavalcanti', 'ORGANIZACAO')]
+Espúrias  (FP): [('Escola Amaro Cavalcanti', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não custa lembrar que, por essa fase inicial da FNF , e antes dela, na Universidade do Distrito Federal | Universidade do Distrito Federal ( UDF ), brilhavam nela os nomes de Sousa da Silveira , José Oiticica e Antenor Nascentes , que, sem dúvida, constituiriam mais uma razão para que Houaiss , Celso e Olavo fizessem o Curso de Letras Neolatinas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FNF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Universidade do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "UDF",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "Sousa da Silveira",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "José Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "Antenor Nascentes",
+    "label": "PESSOA",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Celso",
+    "label": "PESSOA",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Olavo",
+    "label": "PESSOA",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "Curso de Letras Neolatinas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FNF",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Universidade do Distrito Federal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Universidade do Distrito Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "UDF",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sousa da Silveira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José Oiticica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Antenor Nascentes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Celso",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Olavo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Curso de Letras Neolatinas",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('FNF', 'ORGANIZACAO'), ('Universidade', 'ORGANIZACAO'), ('Distrito Federal', 'LOCAL'), ('Curso de Letras Neolatinas', 'ABSTRACCAO')]
+Espúrias  (FP): [('FNF', 'ACONTECIMENTO'), ('Universidade do Distrito Federal', 'LOCAL'), ('Curso de Letras Neolatinas', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Outra plausível explicação para a matrícula em Letras Clássicas se deve ao fato de se tratar de um curso de largo e profundo prestígio cultural dentro das universidades do mundo inteiro e por um aspecto especial de nele, àquela época inicial dos estudos superiores no Brasil , contar com uma plêiade de mestres europeus, de renome internacional, que vieram ao Brasil , convidados por Afrânio Peixoto em nome do nosso Governo , para lançar as raízes nessa área de estudos universitários: Jean Bourciez , Jacques Perret , Eugène Albertini , Georges Millardet .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Letras Clássicas",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Afrânio Peixoto",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Jean Bourciez",
+    "label": "PESSOA",
+    "token_indices": [
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Jacques Perret",
+    "label": "PESSOA",
+    "token_indices": [
+      84,
+      85
+    ]
+  },
+  {
+    "text": "Eugène Albertini",
+    "label": "PESSOA",
+    "token_indices": [
+      87,
+      88
+    ]
+  },
+  {
+    "text": "Georges Millardet",
+    "label": "PESSOA",
+    "token_indices": [
+      90,
+      91
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Letras Clássicas",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "àquela época inicial dos estudos superiores no Brasil",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Afrânio Peixoto",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Governo",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Jean Bourciez",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jacques Perret",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Eugène Albertini",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Georges Millardet",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCAL')]
+Espúrias  (FP): [('àquela época inicial dos estudos superiores no Brasil', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+E, quiçá, não só pontos de contactos, mas evidentes afinidades, que não se devem reduzir, a meu ver, ao plano do ideal político, pois que, neste aspecto, por informação do irmão Maurício Houaiss , este ideal deriva da influência do Professor Pascoal Leme que "tinha "idéias" que logo o apaixonaram, acrescidas do influxo de um colega seu pouco mais velho, Reinaldo Machado , cujo pai, José Alves Machado , foi por longo tempo mestre de ambos em matéria de anarquismo"1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Maurício Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Professor Pascoal Leme",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Reinaldo Machado",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "José Alves Machado",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "por longo tempo",
+    "label": "TEMPO",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Maurício Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Professor Pascoal Leme",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Reinaldo Machado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "José Alves Machado",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('por longo tempo', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+"Foi nessa oportunidade que três amigos seus [de Houaiss ], que também haviam participado e sido aprovados no referido concurso [para preencher vagas de Professor | Professor da antiga Prefeitura do Distrito Federal | Prefeitura do Distrito Federal , em 1935 ], Rocha Lima , Matos Peixoto e o autor destas linhas, se reuniram para alugarem uma sala no centro da cidade, com o fito de atenderem a alunos particulares (...) Aí não só cumpríamos os nossos deveres profissionais, mas ainda nos reuníamos para trocar idéias sobre problemas do ensino, indagar das novas tendências da filosofia e da lingüística e, last but not least, perdermos em alguns dedos de amenidades e questões de momento. Foi então que se aproximou de nós um mestre que todos admirávamos e respeitávamos: José Oiticica .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Professor",
+    "label": "PESSOA",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "Prefeitura do Distrito Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Prefeitura",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Distrito Federal",
+    "label": "LOCAL",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "em 1935",
+    "label": "TEMPO",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Rocha Lima",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Matos Peixoto",
+    "label": "PESSOA",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "José Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      128,
+      129
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Houaiss', 'PESSOA'), ('Professor', 'PESSOA'), ('Prefeitura do Distrito Federal', 'ORGANIZACAO'), ('Prefeitura', 'ORGANIZACAO'), ('Distrito Federal', 'LOCAL'), ('em 1935', 'TEMPO'), ('Rocha Lima', 'PESSOA'), ('Matos Peixoto', 'PESSOA'), ('José Oiticica', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Para vaidade nossa, mestre Oiticica preparava nova edição desse seu livro e queria ouvir a voz crítica da nossa geração sobre o que fizera e o que seria passível de correção e aperfeiçoamento. Imagine-se o nosso desvanecimento por sermos assim contemplados por um dos mais autorizados catedráticos do tradicional baluarte da cultura humanística em nosso país, o Colégio Pedro II . Oiticica foi generoso conosco. Deixou estas palavras inscritas na " Advertência desta edição ", que reproduzo da 5.ª ed. refundida:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "mestre Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Colégio Pedro II",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "Advertência desta edição",
+    "label": "OBRA",
+    "token_indices": [
+      71,
+      72,
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "mestre Oiticica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Colégio Pedro II",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Advertência desta edição",
+    "label": "OBRA"
+  },
+  {
+    "text": "5.ª ed.",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Colégio Pedro II', 'ORGANIZACAO')]
+Espúrias  (FP): [('Colégio Pedro II', 'LOCAL'), ('5.ª ed.', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Da confluência de características inatas de Antônio Houaiss com a possível participação da presença de Oiticica , aponto em primeiro lugar, como traço comum a ambos, a preocupação da sistematização dos fatos estudados. Oiticica era um sistematizador por excelência; suas análises em geral confluíam para quadros sinóticos ou esquemas. Daí é o próprio mestre do Pedro II que estabelece, neste sentido, sua relação com outro sistematizador nesses estudos de linguagem que foi Maximino Maciel , catedrático de Língua Portuguesa do Colégio Militar , autor de uma Gramática Descritiva , muito em voga no ensino entre 1887 a 1930 , mais ou menos, depois caída injustamente no esquecimento e hoje objeto de teses de pós-graduação em nossas universidades, pelo que apresentava de intuições transformadas em lições da lingüística moderna. Nos prefácios e em notas de rodapé, entre outras oportunidades, José Oiticica ressalta essa contribuição de Maximino .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Pedro II",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Maximino Maciel",
+    "label": "PESSOA",
+    "token_indices": [
+      72,
+      73
+    ]
+  },
+  {
+    "text": "Língua Portuguesa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      77,
+      78
+    ]
+  },
+  {
+    "text": "Colégio Militar",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      80,
+      81
+    ]
+  },
+  {
+    "text": "Gramática Descritiva",
+    "label": "COISA",
+    "token_indices": [
+      86,
+      87
+    ]
+  },
+  {
+    "text": "entre 1887 a 1930",
+    "label": "TEMPO",
+    "token_indices": [
+      94,
+      95,
+      96,
+      97
+    ]
+  },
+  {
+    "text": "depois",
+    "label": "TEMPO",
+    "token_indices": [
+      102
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "José Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      138,
+      139
+    ]
+  },
+  {
+    "text": "Maximino",
+    "label": "PESSOA",
+    "token_indices": [
+      144
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pedro II",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Maximino Maciel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Língua Portuguesa",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Colégio Militar",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gramática Descritiva",
+    "label": "OBRA"
+  },
+  {
+    "text": "entre 1887 a 1930",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Oiticica', 'PESSOA'), ('Pedro II', 'ORGANIZACAO'), ('Gramática Descritiva', 'COISA'), ('depois', 'TEMPO'), ('hoje', 'TEMPO'), ('José Oiticica', 'PESSOA'), ('Maximino', 'PESSOA')]
+Espúrias  (FP): [('Pedro II', 'PESSOA'), ('Gramática Descritiva', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na última palestra de uma série proferida em São Paulo , na Rádio Cruzeiro do Sul , na década de 40 , refere-se à contribuição do gramático sergipano e a importância da sistematização do desenvolvimento dos programas escolares e de sua aplicação na experiência pedagógica desenvolvida no Colégio Latino-Americano de propriedade de Oiticica , entre 1905 e 1908 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Rádio Cruzeiro do Sul",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "na década de 40",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Colégio Latino-Americano",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "entre 1905 e 1908",
+    "label": "TEMPO",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Na última palestra",
+    "label": "TEMPO"
+  },
+  {
+    "text": "de uma série",
+    "label": "TEMPO"
+  },
+  {
+    "text": "em São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rádio Cruzeiro do Sul",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "na década de 40",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Colégio Latino-Americano",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "entre 1905 e 1908",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('São Paulo', 'LOCAL'), ('Rádio Cruzeiro do Sul', 'LOCAL')]
+Espúrias  (FP): [('Na última palestra', 'TEMPO'), ('de uma série', 'TEMPO'), ('em São Paulo', 'LOCAL'), ('Rádio Cruzeiro do Sul', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foi a característica de sistematização na vida e na obra de Antônio Houaiss que me fez considerar atrás uma síntese feliz dessa atividade o título do depoimento de Vasco Mariz : " Um processo administrativo-ideológico ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Vasco Mariz",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Um processo administrativo-ideológico",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Vasco Mariz",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Um processo administrativo-ideológico', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O segundo elo entre Oiticica e Houaiss está no interesse da descrição do sistema fonético do português, especialmente do português do Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Oiticica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "português",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "português do Brasil",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCAL')]
+Espúrias  (FP): [('português', 'ABSTRACCAO'), ('português do Brasil', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+José Oiticica , depois de trabalhar para uma tese de concurso ao Colégio Pedro II acerca da língua de Camões , apresenta à Congregação , em 1916 , a 1.ª série de seu Estudos de Fonologia que, incontestavelmente, abre novo caminho nesse domínio da descrição lingüística entre nós.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "José Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Colégio Pedro II",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Camões",
+    "label": "PESSOA",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Congregação",
+    "label": "PESSOA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "em 1916",
+    "label": "TEMPO",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Estudos de Fonologia",
+    "label": "OBRA",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "José Oiticica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Colégio Pedro II",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 1916",
+    "label": "TEMPO"
+  },
+  {
+    "text": "1.ª",
+    "label": "VALOR"
+  },
+  {
+    "text": "Estudos de Fonologia",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Camões', 'PESSOA'), ('Congregação', 'PESSOA')]
+Espúrias  (FP): [('1.ª', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Houaiss sempre cultivou a preocupação da descrição fonética, tanto ligado ao Oiticica quanto a Nascentes - outro notável cultor dos estudos fonéticos -, e o ponto mais alto dessa atividade está consubstanciado na exaustiva elaboração da Tentativa de Descrição do Sistema Vocálico do Português Culto na Área Dita Carioca , em 1959 e das Normas da pronúncia normal do Brasil | Normas da pronúncia normal do Brasil aprovadas pelo Primeiro Congresso Brasileiro de Língua Falada no Teatro , realizado em 1956 , em Salvador ( Bahia ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Nascentes",
+    "label": "PESSOA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Tentativa de Descrição do Sistema Vocálico do Português Culto na Área Dita Carioca",
+    "label": "OBRA",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "em 1959",
+    "label": "TEMPO",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Normas da pronúncia normal do Brasil",
+    "label": "OBRA",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Primeiro Congresso Brasileiro de Língua Falada no Teatro",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "em 1956",
+    "label": "TEMPO",
+    "token_indices": [
+      79,
+      80
+    ]
+  },
+  {
+    "text": "Salvador",
+    "label": "LOCAL",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL",
+    "token_indices": [
+      85
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Nascentes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Tentativa de Descrição do Sistema Vocálico do Português Culto na Área Dita Carioca",
+    "label": "OBRA"
+  },
+  {
+    "text": "em 1959",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Normas da pronúncia normal do Brasil",
+    "label": "OBRA"
+  },
+  {
+    "text": "Normas da pronúncia normal do Brasil",
+    "label": "OBRA"
+  },
+  {
+    "text": "Primeiro Congresso Brasileiro de Língua Falada no Teatro",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "em 1956",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Salvador",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Bahia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Normas da pronúncia normal do Brasil', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Só um sistematizador empreende, como empreendeu Houaiss , o caminho para o dicionário, para a enciclopédia, para a crítica textual. Sem alusões pejorativas, tivemos, no campo da erudição dicionarística, quatro gigantes na seara: o Padre Augusto Magne , Antenor Nascentes , Aurélio Buarque de Holanda e Antônio Houaiss .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Padre Augusto Magne",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Antenor Nascentes",
+    "label": "PESSOA",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Aurélio Buarque de Holanda",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Padre Augusto Magne",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Antenor Nascentes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Aurélio Buarque de Holanda",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Antônio Houaiss",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Houaiss', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O trato com a língua e seu léxico está presente em Oiticica e em Houaiss , o que leva os dois a defender a necessidade da riqueza vocabular. As seguintes palavras são do velho mestre do Colégio Pedro II , mas Houaiss poderia subscrevê-las com prazer e com assentimento:
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Colégio Pedro II",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Oiticica",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Colégio Pedro II",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Houaiss",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Colégio Pedro II', 'ORGANIZACAO')]
+Espúrias  (FP): [('Colégio Pedro II', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Dos grandes mestres do idioma com quem Houaiss conviveu como aluno e discípulo - Oiticica , Sousa da Silveira e Antenor Nascentes - só o primeiro possuía esse desvanecimento pela riqueza vocabular, como também o praticava nos seus escritos, em prosa ou poesia. Oiticica debruçou-se nos escritores de léxico pujante, fichando seu arsenal vocabular, como, segundo suas declarações, fez de autores portugueses ( Camilo e Aquilino Ribeiro ) e brasileiros ( Rui , Euclides e Coelho Neto ). Defende este último de maneira veemente: «Houve quem acoimasse Coelho Neto de maníaco nesse ponto, glosando-se que inventava as histórias para empregar certos vocábulos. Não me parece real a coima. O que reconheço é serem seus vocábulos empregados com perfeita precisão».5
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Houaiss",
+    "label": "PESSOA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Sousa da Silveira",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Antenor Nascentes",
+    "label": "PESSOA",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Oiticica",
+    "label": "PESSOA",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Camilo",
+    "label": "PESSOA",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "Aquilino Ribeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Rui",
+    "label": "PESSOA",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "Euclides",
+    "label": "PESSOA",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Coelho Neto",
+    "label": "PESSOA",
+    "token_indices": [
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Coelho Neto",
+    "label": "PESSOA",
+    "token_indices": [
+      87,
+      88
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Houaiss', 'PESSOA'), ('Oiticica', 'PESSOA'), ('Sousa da Silveira', 'PESSOA'), ('Antenor Nascentes', 'PESSOA'), ('Oiticica', 'PESSOA'), ('Camilo', 'PESSOA'), ('Aquilino Ribeiro', 'PESSOA'), ('Rui', 'PESSOA'), ('Euclides', 'PESSOA'), ('Coelho Neto', 'PESSOA'), ('Coelho Neto', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Nem sua centelha inconfundível logrou salvá-lo.6
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Nem sua centelha inconfundível",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Nem sua centelha inconfundível', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tal orientação coincide com a de um dos maiores teóricos da linguagem dos nossos dias .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "dos nossos dias",
+    "label": "TEMPO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "dos maiores teóricos da linguagem dos nossos dias",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('dos nossos dias', 'TEMPO')]
+Espúrias  (FP): [('dos maiores teóricos da linguagem dos nossos dias', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na lingüística atual considera-se com freqüência só a língua falada 'primária' (espontânea ou 'usual') como 'natural' e 'livre', ao mesmo tempo que a língua exemplar (ou 'língua padrão') e a forma literária desta se consideram como 'artificiais' e 'impostas'. Por conseguinte, consideram-se também só a gramática descritiva 'objetivista' como realmente científica e a gramática normativa como expressão sem fundamento científico duma atitude antiliberal e dogmática. Trata de erros e confusões teóricas que procedem da concepção positivista vulgar da linguagem e da Lingüística .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "com freqüência",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Lingüística",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lingüística",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Lingüística",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('com freqüência', 'TEMPO')]
+Espúrias  (FP): [('Lingüística', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na realidade e, portanto, na boa teoria, a língua literária representa o grau mais alto da dimensão deôntica (o 'dever ser') da língua; e a gramática normativa é a manifestação metalingüística explícita desta dimensão.7
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "gramática normativa",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('gramática normativa', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+e a vontade divina de ser Deus .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deus",
+    "label": "PESSOA",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Deus', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Fernão de Magalhães , algumas vezes referenciado como Fernando de Magalhães , ( primavera de 1480 --- 27 de abril de 1521 ) foi um navegador português que, ao serviço do rei de Espanha | rei de Espanha , comandou a expedição marítima que efectuou a primeira viagem de circum-navegação ao globo. Foi o primeiro a dobrar estreito hoje conhecido pelo seu nome (o Estreito de Magalhães ) e o primeiro europeu a navegar no Oceano Pacífico .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fernão de Magalhães",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "algumas vezes",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Fernando de Magalhães",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "primavera de 1480 --- 27 de abril de 1521",
+    "label": "TEMPO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "rei de Espanha",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Estreito de Magalhães",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Oceano Pacífico",
+    "label": "LOCAL",
+    "token_indices": [
+      75,
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fernão de Magalhães",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Fernando de Magalhães",
+    "label": "PESSOA"
+  },
+  {
+    "text": "primavera de 1480",
+    "label": "TEMPO"
+  },
+  {
+    "text": "27 de abril de 1521",
+    "label": "TEMPO"
+  },
+  {
+    "text": "rei de Espanha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estreito de Magalhães",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Oceano Pacífico",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('algumas vezes', 'TEMPO'), ('Fernando de Magalhães', 'ABSTRACCAO'), ('primavera de 1480 --- 27 de abril de 1521', 'TEMPO'), ('hoje', 'TEMPO'), ('Estreito de Magalhães', 'ABSTRACCAO')]
+Espúrias  (FP): [('Fernando de Magalhães', 'PESSOA'), ('primavera de 1480', 'TEMPO'), ('27 de abril de 1521', 'TEMPO'), ('Estreito de Magalhães', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Alista-se com 25 anos na armada que foi à Índia , comandada por Francisco de Almeida , embora o seu nome não figure nas crónicas; sabe-se no entanto que ali permaneceu oito anos , que esteve em Goa , Cochim , Quíloa , que acompanhou Diogo Lopes de Sequeira a Malaca , viagem que acabou em naufrágio. No Oriente , Magalhães estabeleceu estreitas relações de amizade com Francisco Serrão , que veio a ser feitor nas Molucas ; dele teria tido informações quanto à situação dos lugares produtores de especiarias.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "25 anos",
+    "label": "VALOR",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Francisco de Almeida",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "oito anos",
+    "label": "TEMPO",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Cochim",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Quíloa",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Diogo Lopes de Sequeira",
+    "label": "PESSOA",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Malaca",
+    "label": "LOCAL",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Magalhães",
+    "label": "PESSOA",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Francisco Serrão",
+    "label": "PESSOA",
+    "token_indices": [
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Molucas",
+    "label": "LOCAL",
+    "token_indices": [
+      76
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "25 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Francisco de Almeida",
+    "label": "PESSOA"
+  },
+  {
+    "text": "oito anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Cochim",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Quíloa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Diogo Lopes de Sequeira",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Malaca",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Francisco Serrão",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Molucas",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Oriente', 'LOCAL'), ('Magalhães', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1517 foi a Sevilha com Rui Faleiro , tendo encontrado no feitor da Casa de la Contratación da cidade um adepto do projecto que entretanto concebera: dar a Espanha a possibilidade de atingir as Molucas pelo Ocidente , por mares não reservados aos portugueses no Tratado de Tordesilhas e, além disso, segundo Faleiro , provar que as ilhas das especiarias se situavam no hemisfério castelhano. Com a influência do bispo de Burgos | bispo de Burgos conseguiram a aprovação do projecto por parte de Carlos V , e começaram os morosos preparativos para a viagem, cheios de incidentes; depois da ruptura com Rui Faleiro , Magalhães continuou a aparelhagem dos cinco navios que, com 256 homens de tripulação, partiram de Sanlúcar de Barrameda em 20 de Setembro de 1519 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1517",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Sevilha",
+    "label": "LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Rui Faleiro",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Casa de la Contratación",
+    "label": "LOCAL",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Molucas",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Ocidente",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Tratado de Tordesilhas",
+    "label": "OBRA",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Faleiro",
+    "label": "PESSOA",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "bispo de Burgos",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Burgos",
+    "label": "LOCAL",
+    "token_indices": [
+      76
+    ]
+  },
+  {
+    "text": "Carlos V",
+    "label": "PESSOA",
+    "token_indices": [
+      85,
+      86
+    ]
+  },
+  {
+    "text": "Rui Faleiro",
+    "label": "PESSOA",
+    "token_indices": [
+      103,
+      104
+    ]
+  },
+  {
+    "text": "Magalhães",
+    "label": "PESSOA",
+    "token_indices": [
+      106
+    ]
+  },
+  {
+    "text": "256",
+    "label": "VALOR",
+    "token_indices": [
+      115
+    ]
+  },
+  {
+    "text": "Sanlúcar de Barrameda",
+    "label": "LOCAL",
+    "token_indices": [
+      121,
+      122,
+      123
+    ]
+  },
+  {
+    "text": "em 20 de Setembro de 1519",
+    "label": "TEMPO",
+    "token_indices": [
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em 1517",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Sevilha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rui Faleiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Casa de la Contratación",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Molucas",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Tratado de Tordesilhas",
+    "label": "OBRA"
+  },
+  {
+    "text": "Faleiro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Carlos V",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Magalhães",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1519",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Casa de la Contratación', 'LOCAL'), ('Espanha', 'ORGANIZACAO'), ('Ocidente', 'LOCAL'), ('bispo de Burgos', 'PESSOA'), ('Burgos', 'LOCAL'), ('Rui Faleiro', 'PESSOA'), ('256', 'VALOR'), ('Sanlúcar de Barrameda', 'LOCAL'), ('em 20 de Setembro de 1519', 'TEMPO')]
+Espúrias  (FP): [('Casa de la Contratación', 'ORGANIZACAO'), ('em 1519', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foi educado na corte de D. Afonso V . Partiu na esquadra mandada em 1480 em socorro do rei D. Fernando de Nápoles | rei D. Fernando de Nápoles , «para reprimir o furor dos turcos». Esteve na expedição de 1489 para defender a fortaleza da Graciosa , situada da ilha que o rio Luco forma junto da cidade de Larache .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "D. Afonso V",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "em 1480",
+    "label": "TEMPO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "rei D. Fernando de Nápoles",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "rei D. Fernando",
+    "label": "PESSOA",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Nápoles",
+    "label": "LOCAL",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "de 1489",
+    "label": "TEMPO",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Graciosa",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Luco",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Larache",
+    "label": "LOCAL",
+    "token_indices": [
+      60
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "D. Afonso V",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1480",
+    "label": "TEMPO"
+  },
+  {
+    "text": "rei D. Fernando de Nápoles",
+    "label": "PESSOA"
+  },
+  {
+    "text": "rei D. Fernando",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Nápoles",
+    "label": "LOCAL"
+  },
+  {
+    "text": "de Nápoles",
+    "label": "LOCAL"
+  },
+  {
+    "text": "de 1489",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Graciosa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "da Graciosa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "rio Luco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "cidade de Larache",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Luco', 'LOCAL'), ('Larache', 'LOCAL')]
+Espúrias  (FP): [('de Nápoles', 'LOCAL'), ('da Graciosa', 'LOCAL'), ('rio Luco', 'LOCAL'), ('cidade de Larache', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foi estribeiro-mor do rei D. João II , a quem em 1476 acompanhou nas guerras com Castela .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "rei D. João II",
+    "label": "PESSOA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "em 1476",
+    "label": "TEMPO",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Castela",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "rei D. João II",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1476",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Castela",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Castela', 'ORGANIZACAO')]
+Espúrias  (FP): [('Castela', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 6 de abril de 1503 partiu para a Índia com o primo Francisco de Albuquerque , comandando cada qual três naus, tendo participado em várias batalhas, erguido a fortaleza em Cochim e estabelecido relações comerciais com Coulão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 6 de abril de 1503",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Francisco de Albuquerque",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Cochim",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Coulão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em 6 de abril de 1503",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Francisco de Albuquerque",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Cochim",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Coulão",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Coulão', 'ORGANIZACAO')]
+Espúrias  (FP): [('Coulão', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+De regresso ao reino de Portugal , «mais cheio de glórias que de despojos», foi bem acolhido por D. Manuel que em 1506 o tornou a enviar ao Oriente em companhia de Tristão da Cunha e nomeando-o governador da Índia | governador da Índia na sucessão do vice-Rei D. Francisco de Almeida .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "D. Manuel",
+    "label": "PESSOA",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "em 1506",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Tristão da Cunha",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "governador da Índia",
+    "label": "PESSOA",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "text": "vice-Rei D. Francisco de Almeida",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "De regresso ao reino de Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "D. Manuel",
+    "label": "PESSOA"
+  },
+  {
+    "text": "em 1506",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Tristão da Cunha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "vice-Rei D. Francisco de Almeida",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Portugal', 'LOCAL'), ('Oriente', 'LOCAL'), ('governador da Índia', 'PESSOA')]
+Espúrias  (FP): [('De regresso ao reino de Portugal', 'LOCAL'), ('Índia', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Neste posto, conquistou vários portos em Omã acabando por chegar à riquíssima cidade de Ormuz , que se tornou tributária de Portugal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Omã",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Ormuz",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Omã",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ormuz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Portugal', 'LOCAL')]
+Espúrias  (FP): [('Portugal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em Fevereiro de 1513 Albuquerque parte para o estreito de Bab-el-Mandebe , tentando tomar Áden sem êxito. Com a construção da fortaleza de Ormuz em 1515 concluiu o seu plano de domínio dos pontos estratégicos que permitiam o controlo marítimo e o monopólio comercial da Índia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em Fevereiro de 1513",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Albuquerque",
+    "label": "PESSOA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Bab-el-Mandebe",
+    "label": "LOCAL",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Áden",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Ormuz",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "em 1515",
+    "label": "TEMPO",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Índia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em Fevereiro de 1513",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Albuquerque",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bab-el-Mandebe",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Áden",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ormuz",
+    "label": "LOCAL"
+  },
+  {
+    "text": "em 1515",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Áden', 'ORGANIZACAO'), ('Índia', 'ORGANIZACAO')]
+Espúrias  (FP): [('Áden', 'LOCAL'), ('Índia', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1514 na Índia dedicou-se à administração e diplomacia, a concluir a paz com Calecute , a receber embaixadas de reis indianos e a consolidar e embelezar Goa , onde, por meio do casamento de portugueses com mulheres indígenas procura criar uma raça luso-indiana. O seu prestígio chegara ao auge criando as bases do Império Português no Oriente | Império Português no Oriente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Em 1514",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Calecute",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Goa",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Império Português",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      57
+    ]
+  },
+  {
+    "text": "Império Português no Oriente",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      59,
+      60,
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Em 1514",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Índia",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Calecute",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Império Português no Oriente",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Império Português",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Calecute', 'ORGANIZACAO'), ('Goa', 'ORGANIZACAO'), ('Império Português no Oriente', 'ORGANIZACAO')]
+Espúrias  (FP): [('Calecute', 'LOCAL'), ('Goa', 'LOCAL'), ('Império Português no Oriente', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ora, quando morreu, conta Diogo Barbosa Machado na Bibliotheca Lusitana ( Tomo I , página 23) que «foi amortalhado com o manto da Ordem militar de Santiago , de que era comendador, sepultado na igreja de Nossa Senhora da Serra em Goa , que edificara em agradecimento do feliz sucesso da conquista de Malaca .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Diogo Barbosa Machado",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Bibliotheca Lusitana",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Tomo I",
+    "label": "LOCAL",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Ordem militar de Santiago",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Nossa Senhora da Serra",
+    "label": "LOCAL",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Malaca",
+    "label": "LOCAL",
+    "token_indices": [
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Diogo Barbosa Machado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Bibliotheca Lusitana",
+    "label": "OBRA"
+  },
+  {
+    "text": "Tomo I",
+    "label": "OBRA"
+  },
+  {
+    "text": "Ordem militar de Santiago",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Nossa Senhora da Serra",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Goa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Malaca",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Bibliotheca Lusitana', 'LOCAL'), ('Tomo I', 'LOCAL'), ('Ordem militar de Santiago', 'ORGANIZACAO')]
+Espúrias  (FP): [('Bibliotheca Lusitana', 'OBRA'), ('Tomo I', 'OBRA'), ('Ordem militar de Santiago', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Passados 51 anos | Passados 51 anos , foi trasladado, como dispusera seu testamento, ao convento de Nossa Senhora da Graça dos Religiosos Eremitas de Santo Agostinho | Nossa Senhora da Graça dos Religiosos Eremitas de Santo Agostinho da corte, para onde foi conduzido em 19 de maio de 1566 com pompa».
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Passados 51 anos",
+    "label": "TEMPO",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "51 anos",
+    "label": "VALOR",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Nossa Senhora da Graça dos Religiosos Eremitas de Santo Agostinho",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Nossa Senhora da Graça",
+    "label": "LOCAL",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Religiosos Eremitas de Santo Agostinho",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "em 19 de maio de 1566",
+    "label": "TEMPO",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Passados 51 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Passados 51 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Nossa Senhora da Graça dos Religiosos Eremitas de Santo Agostinho",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Nossa Senhora da Graça dos Religiosos Eremitas de Santo Agostinho",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "em 19 de maio de 1566",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('51 anos', 'VALOR'), ('Nossa Senhora da Graça', 'LOCAL'), ('Religiosos Eremitas de Santo Agostinho', 'ABSTRACCAO')]
+Espúrias  (FP): [('Passados 51 anos', 'TEMPO'), ('Nossa Senhora da Graça dos Religiosos Eremitas de Santo Agostinho', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O número de jornais gratuitos nacionais distribuídos nos nove primeiros meses deste ano quase duplicou em relação ao mesmo período de 2006 , ultrapassando os 600 mil exemplares, de acordo com dados hoje divulgados pela APCT .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "nos nove primeiros meses deste ano",
+    "label": "TEMPO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "ao mesmo período de 2006",
+    "label": "TEMPO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "600 mil",
+    "label": "VALOR",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "APCT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "nos nove primeiros meses deste ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "no mesmo período de 2006",
+    "label": "TEMPO"
+  },
+  {
+    "text": "600 mil exemplares",
+    "label": "VALOR"
+  },
+  {
+    "text": "APCT",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('ao mesmo período de 2006', 'TEMPO'), ('600 mil', 'VALOR'), ('hoje', 'TEMPO')]
+Espúrias  (FP): [('no mesmo período de 2006', 'TEMPO'), ('600 mil exemplares', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+A subida deveu-se sobretudo ao lançamento de dois novos títulos - o Global Notícias e o Meia-Hora que, em conjunto, representam mais de 235 mil exemplares - mas também a um crescimento das tiragens dos principais jornais gratuitos que já existiam.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Global Notícias",
+    "label": "COISA",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Meia-Hora",
+    "label": "COISA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "mais de 235 mil",
+    "label": "VALOR",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Global Notícias",
+    "label": "OBRA"
+  },
+  {
+    "text": "Meia-Hora",
+    "label": "OBRA"
+  },
+  {
+    "text": "235 mil",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Global Notícias', 'COISA'), ('Meia-Hora', 'COISA'), ('mais de 235 mil', 'VALOR')]
+Espúrias  (FP): [('Global Notícias', 'OBRA'), ('Meia-Hora', 'OBRA'), ('235 mil', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Entre os mais antigos, o maior crescimento foi registado pelo Metro que passou a distribuir mais 22.600 exemplares do que fazia no ano passado , atingindo este ano os 180 mil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Metro",
+    "label": "COISA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "mais 22.600",
+    "label": "VALOR",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "no ano passado",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "180 mil",
+    "label": "VALOR",
+    "token_indices": [
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Metro",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "22.600",
+    "label": "VALOR"
+  },
+  {
+    "text": "no ano passado",
+    "label": "TEMPO"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "180 mil",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Metro', 'COISA'), ('mais 22.600', 'VALOR')]
+Espúrias  (FP): [('Metro', 'ORGANIZACAO'), ('22.600', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com este aumento, o Metro passou a ser o maior jornal gratuito, à frente do Destak que registou, este ano , uma circulação de 173 mil exemplares (melhorando 5,3 por cento ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Metro",
+    "label": "COISA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Destak",
+    "label": "COISA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "173 mil",
+    "label": "VALOR",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "5,3 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Metro",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Destak",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "173 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "5,3 por cento",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Metro', 'COISA'), ('Destak', 'COISA')]
+Espúrias  (FP): [('Metro', 'ORGANIZACAO'), ('Destak', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A maior subida em termos relativos foi, no entanto, protagonizada pelo económico gratuito Oje que aumentou a sua circulação em quase 56 por cento , passando para os 22 mil exemplares.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Oje",
+    "label": "COISA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "quase 56 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "22 mil",
+    "label": "VALOR",
+    "token_indices": [
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Oje",
+    "label": "COISA"
+  },
+  {
+    "text": "em quase 56 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "22 mil",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('quase 56 por cento', 'VALOR')]
+Espúrias  (FP): [('em quase 56 por cento', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Refira-se que os dados hoje divulgados pela APCT não contabilizam ainda o jornal lançado pelo Público e A Bola , o Sexta-feira .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "APCT",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Público",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "A Bola",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Sexta-feira",
+    "label": "COISA",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "APCT",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Público",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "A Bola",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Sexta-feira",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('hoje', 'TEMPO'), ('Sexta-feira', 'COISA')]
+Espúrias  (FP): [('Sexta-feira', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+H5N1 : Mais de 32 mil mortos se pandemia atingisse Portugal
+
+Entidades verdadeiras:
+[
+  {
+    "text": "H5N1",
+    "label": "COISA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Mais de 32 mil",
+    "label": "VALOR",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "PESSOA",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "H5N1",
+    "label": "COISA"
+  },
+  {
+    "text": "32 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Mais de 32 mil', 'VALOR'), ('Portugal', 'PESSOA')]
+Espúrias  (FP): [('32 mil', 'VALOR'), ('Portugal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mais de 32 mil pessoas poderiam morrer se uma pandemia de gripe humana de origem aviária atingisse Portugal , segundo cenários elaborados este ano por peritos do Instituto Nacional de Saúde Ricardo Jorge .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mais de 32 mil",
+    "label": "VALOR",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "PESSOA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Instituto Nacional de Saúde Ricardo Jorge",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "32 mil",
+    "label": "VALOR"
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "este ano",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Instituto Nacional de Saúde Ricardo Jorge",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Mais de 32 mil', 'VALOR'), ('Portugal', 'PESSOA')]
+Espúrias  (FP): [('32 mil', 'VALOR'), ('Portugal', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os autores dos cenários basearam o seu cálculo em três taxas de ataque ( 30 , 35 e 40 por cento da população), admitindo que a pandemia evoluiria em duas ondas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "30",
+    "label": "VALOR",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "35",
+    "label": "VALOR",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "40 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "30",
+    "label": "VALOR"
+  },
+  {
+    "text": "35",
+    "label": "VALOR"
+  },
+  {
+    "text": "40",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('40 por cento', 'VALOR')]
+Espúrias  (FP): [('40', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Uma alteração num único gene é capaz de transformar um vírus inofensivo no agente causador de uma gripe mortal. A descoberta, segundo pesquisadores da Universidade de Wisconsin-Madison | Universidade de Wisconsin - Madison ( EUA ), poderá levar à compreensão de como as epidemias da doença surgem e qual a melhor forma de combatê-las.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Universidade de Wisconsin-Madison",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Universidade",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Wisconsin",
+    "label": "LOCAL",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Madison",
+    "label": "LOCAL",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Universidade de Wisconsin-Madison",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade de Wisconsin",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Madison",
+    "label": "LOCAL"
+  },
+  {
+    "text": "EUA",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Universidade', 'ORGANIZACAO'), ('Wisconsin', 'LOCAL')]
+Espúrias  (FP): [('Universidade de Wisconsin', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A equipe liderada por Yoshihiro Kawaoka analisou amostras do H5N1 , o vírus influenza que, em 1997 , matou 6 das 18 pessoas infectadas, em Hong Kong .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Yoshihiro Kawaoka",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "H5N1",
+    "label": "COISA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "em 1997",
+    "label": "TEMPO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "6",
+    "label": "VALOR",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "18",
+    "label": "VALOR",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Hong Kong",
+    "label": "LOCAL",
+    "token_indices": [
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Yoshihiro Kawaoka",
+    "label": "PESSOA"
+  },
+  {
+    "text": "H5N1",
+    "label": "COISA"
+  },
+  {
+    "text": "em 1997",
+    "label": "TEMPO"
+  },
+  {
+    "text": "6 das 18",
+    "label": "VALOR"
+  },
+  {
+    "text": "Hong Kong",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('6', 'VALOR'), ('18', 'VALOR')]
+Espúrias  (FP): [('6 das 18', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Essas amostras foram inoculadas em camundongos e, de acordo com os sintomas apresentados pelos animais, foram divididas em dois grupos.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "camundongos",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('camundongos', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O estudo do grupo de Kawaoka está na edição de hoje da revista científica " Science ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Kawaoka",
+    "label": "PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "de hoje",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Science",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Kawaoka",
+    "label": "PESSOA"
+  },
+  {
+    "text": "hoje",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Science",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('de hoje', 'TEMPO'), ('Science', 'LOCAL')]
+Espúrias  (FP): [('hoje', 'TEMPO'), ('Science', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Sistema de Navegação automóvel, pronto a usar , com indicações de mudança de direcção (turn-by-turn) de voz e visuais a 3 dimensões (True view 3d navigation exclusiva da Magellan ), e ecrã táctil com 32.000 côres.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sistema de Navegação",
+    "label": "COISA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Magellan",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "32.000",
+    "label": "VALOR",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sistema de Navegação",
+    "label": "COISA"
+  },
+  {
+    "text": "True view 3d navigation",
+    "label": "COISA"
+  },
+  {
+    "text": "Magellan",
+    "label": "COISA"
+  }
+]
+
+Perdidas  (FN): [('Magellan', 'ORGANIZACAO'), ('32.000', 'VALOR')]
+Espúrias  (FP): [('True view 3d navigation', 'COISA'), ('Magellan', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+-Inclui cartão SD de 512 Mb para importação de mapas,waypoints ou rotas criadas em casa.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SD",
+    "label": "COISA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "512 Mb",
+    "label": "VALOR",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "512 Mb",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('SD', 'COISA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pontos de interesse, organizados em mais de 40 categorias incluíndo, restaurantes, parques, estações de serviço, hotéis, escolas etc.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "mais de 40",
+    "label": "VALOR",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('mais de 40', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Grava até 600 endereços pessoais.(ou 200 endereços por cada utilizador, permitindo um máximo de 3 utilizadores.)
+
+Entidades verdadeiras:
+[
+  {
+    "text": "até 600",
+    "label": "VALOR",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "200",
+    "label": "VALOR",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "3",
+    "label": "VALOR",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "600",
+    "label": "VALOR"
+  },
+  {
+    "text": "200",
+    "label": "VALOR"
+  },
+  {
+    "text": "3",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('até 600', 'VALOR')]
+Espúrias  (FP): [('600', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Alimentação de 10-18V DC
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "10-18V",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('10-18V', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fornecido com suporte universal, suporte com ventosa para fixação do vidro,cabo de alimentação exterior de 220V AC, cabo USB para ligação ao computador e CD-ROM com manual de instruções em português.
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "220V AC",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('220V AC', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Menus e indicações de voz, a partir de Setembro 2005 (unidades vendidas agora terão actualização grátis nessa altura .)
+
+Entidades verdadeiras:
+[
+  {
+    "text": "a partir de Setembro 2005",
+    "label": "TEMPO",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "nessa altura",
+    "label": "TEMPO",
+    "token_indices": [
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "a partir de Setembro 2005",
+    "label": "TEMPO"
+  },
+  {
+    "text": "agora",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('nessa altura', 'TEMPO')]
+Espúrias  (FP): [('agora', 'TEMPO')]
+

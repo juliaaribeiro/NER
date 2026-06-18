@@ -1,0 +1,7259 @@
+--------------------------------------------------------------------------------
+Texto:
+PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 1 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 Acórdão n. : 5.582 Classe : Apelação n . 0715337-93.2014.8.01.0001 Origem : Rio Branco Órgão : Segunda Câmara Cível Relatora : Desª .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Acórdão n. : 5.582",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Apelação n . 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Rio Branco",
+    "label": "LOCAL",
+    "token_indices": [
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Segunda Câmara Cível', 'ORGANIZACAO'), ('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Rio BrancoAC', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA'), ('Acórdão n. : 5.582', 'JURISPRUDENCIA'), ('Apelação n . 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA'), ('Rio Branco', 'LOCAL'), ('Segunda Câmara Cível', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Regina Ferrari Apelante : Acrediesel Comércio de Veículos Ltda Advogado : Thales Rocha Bordignon ( OAB : 2160/AC ) Advogada : Vanessa Fantin Mazoca de Almeida Prado ( OAB : 3956/AC ) Advogado : Mayara Cristine Bandeira de Lima ( OAB : 3580/AC ) Advogado : Gilliard Nobre Rocha ( OAB : 2833/AC ) Apelado : Auto Viação Floresta Cidade de Rio Branco Ltda Advogada : Márcia de Souza Nepomuceno ( OAB : 4181/RO ) Advogado : KLEIR SILVA CARVALHO ( OAB : 3432/AC ) Assunto : Direito Civil APELAÇÃO CÍVEL .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Regina Ferrari",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Acrediesel Comércio de Veículos Ltda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Thales Rocha Bordignon",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "OAB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Vanessa Fantin Mazoca de Almeida Prado",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "OAB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Mayara Cristine Bandeira de Lima",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "OAB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Gilliard Nobre Rocha",
+    "label": "PESSOA",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "OAB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Auto Viação Floresta Cidade de Rio Branco Ltda",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Márcia de Souza Nepomuceno",
+    "label": "PESSOA",
+    "token_indices": [
+      66,
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "OAB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "KLEIR SILVA CARVALHO",
+    "label": "PESSOA",
+    "token_indices": [
+      77,
+      78,
+      79
+    ]
+  },
+  {
+    "text": "OAB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Regina Ferrari",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Acrediesel Comércio de Veículos Ltda",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Thales Rocha Bordignon",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Vanessa Fantin Mazoca de Almeida Prado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Mayara Cristine Bandeira de Lima",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Gilliard Nobre Rocha",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Auto Viação Floresta Cidade de Rio Branco Ltda",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Márcia de Souza Nepomuceno",
+    "label": "PESSOA"
+  },
+  {
+    "text": "KLEIR SILVA CARVALHO",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('OAB', 'ORGANIZACAO'), ('OAB', 'ORGANIZACAO'), ('OAB', 'ORGANIZACAO'), ('OAB', 'ORGANIZACAO'), ('OAB', 'ORGANIZACAO'), ('OAB', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A técnica está prevista expressamente no art . 322 , § 1º , do CPC , o qual concretiza a nova perspectiva atribuída ao Processo Civil , voltada para uma efetiva prestação jurisdicional , para a justa composição da lide e para a proteção da boa- PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 2 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 fé .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 322 , § 1º , do CPC",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      82,
+      83,
+      84
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 322 , § 1º , do CPC",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "PODER JUDICIÁRIO DO ESTADO DO ACRE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('PODER JUDICIÁRIO DO ESTADO DO ACRE', 'ORGANIZACAO'), ('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 3 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 Vistos , relatados e discutidos estes autos de Apelação n . 0715337-93.2014.8.01.0001 , DECIDE a Segunda Câmara Cível do Tribunal de Justiça do Estado do Acre , à unanimidade , DAR parcial provimento ao apelo , nos termos do voto da Desembargadora Relatora e das mídias digitais gravadas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Apelação n . 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível do Tribunal de Justiça do Estado do Acre",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Segunda Câmara Cível', 'ORGANIZACAO'), ('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Rio BrancoAC', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA'), ('Apelação n . 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA'), ('Segunda Câmara Cível do Tribunal de Justiça do Estado do Acre', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Condeno o réu a pagar á parte autora os seguintes valores : a ) R $ 20.000,00 ( vinte mil reais ) , referentes a parte PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 4 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 dos alugueres dos meses de setembro a dezembro de 2013 , no valor de R $ 5.000,00 ( cinco mil reais ) por cada mês ; b ) R $ 210.000,00 ( duzentos e dez mil reais ) , referente aos alugueres mensais de R $ 30.000,00 ( trinta mil reais ) , alusivos o período de maio a novembro de 2014 ; c ) R $ 45.000,00 ( quarenta e cinco mil reais ) por cada mês referente ao período de novembro de 2014 outubro de 2015 ( data da desocupação do imóvel ) ; d ) R $ 8.843,10 ( oito mil , oitocentos e quarenta e três reais e dez centavos ) , referentes às despesas com energia , a serem corrigidas monetariamente pelo INPC a partir do efetivo desembolso pelo autor ( 14 de outubro de 2014 ) e de juros de 1 % a partir da citação ; e ) 10 % ( dez por cento ) sobre o valor total do débito , a título de honorários advocatícios , a serem pagos ao autor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "meses de setembro a dezembro de 2013",
+    "label": "TEMPO",
+    "token_indices": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "text": "período de maio a novembro de 2014",
+    "label": "TEMPO",
+    "token_indices": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126
+    ]
+  },
+  {
+    "text": "período de novembro de 2014 outubro de 2015",
+    "label": "TEMPO",
+    "token_indices": [
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152
+    ]
+  },
+  {
+    "text": "14 de outubro de 2014",
+    "label": "TEMPO",
+    "token_indices": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Segunda Câmara Cível', 'ORGANIZACAO'), ('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Rio BrancoAC', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA'), ('meses de setembro a dezembro de 2013', 'TEMPO'), ('período de maio a novembro de 2014', 'TEMPO'), ('período de novembro de 2014 outubro de 2015', 'TEMPO'), ('14 de outubro de 2014', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Registro que os valores alusivos aos alugueres previstos nos itens A , B e C , deverão sofrer os acréscimos de multa de 2 % , correção monetária pelo INPC e juros de mora de 1 % , tudo conforme cláusula 2.1 do contrato .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "INPC",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('INPC', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Intimem-se. ” Narra a apelante que , desde maio de 2014 , a PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 5 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 empresa apelada não pagava os aluguéis mensais , o IPTU do imóvel e as contas de energia , razão pela qual pleiteou o despejo , bem como a condenação da locatária ao pagamento dos aluguéis vencidos e vincendos até a data da efetiva desocupação do imóvel e dos demais encargos da locação , já acrescidos da multa contratual .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "maio de 2014",
+    "label": "TEMPO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      42,
+      43
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      49,
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PODER JUDICIÁRIO DO ESTADO DO ACRE",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('maio de 2014', 'TEMPO'), ('ESTADO DO ACRE', 'LOCAL'), ('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('PODER JUDICIÁRIO DO ESTADO DO ACRE', 'ORGANIZACAO'), ('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A despeito disso , entende que a pretensão inicial , ao voltar-se para a cobrança do pagamento dos '' encargos da locação , vencidos e vincendos '' , alcançou não apenas as taxas de luz , água , esgoto e tributos , presentes ou futuros , que recaem ou recaírem sobre o contrato , mas também a obrigação de entregar o imóvel nas condições iniciais , PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 6 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 conforme expressamente previsto na avença .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      72,
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      78,
+      79,
+      80,
+      81
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      85,
+      86
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      95,
+      96
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      102,
+      103,
+      104
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "AC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rio Branco",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Segunda Câmara Cível', 'ORGANIZACAO'), ('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Rio BrancoAC', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('AC', 'ORGANIZACAO'), ('Rio Branco', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 7 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 V O T O 1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+É firme na jurisprudência o entendimento de que as obrigações acessórias ao contrato de locação , tais como as relacionadas às despesas com água , luz , multa e tributos , como é o caso do IPTU , podem ser objeto de cobrança juntamente com o débito principal relativo aos aluguéis PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 8 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 propriamente ditos1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      63,
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      80,
+      81
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      87,
+      88,
+      89
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "AC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('AC', 'LOCAL'), ('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+26-30 ) , que assim dispõe : “ A LOCATÁRIA arcará com o pagamento de todos os impostos e taxas , seja de que natureza forem , que incidam ou venham a incidir sobre o imóvel e eventuais multas decorrentes do inadimplemento ou atraso nos respectivos pagamentos e , ainda , por todas as despesas de água , energia elétrica , telefone , IPTU e outras ligadas ao imóvel , obrigando-se a apresentar os respectivos comprovantes à LOCADORA , mensalmente , quando do pagamento do aluguel. ” A apelante afirma expressamente na peça exordial ( pp.1-5 ) que a ação decorre de um contrato de locação celebrado entre as partes , cujo valor inicial do aluguel fixado foi de R $ 45.000,00 ( quarenta e cinco mil reais ) e que , de acordo com o referido contrato , além do aluguel , era encargo da apelada honrar também as despesas relacionadas ao consumo de água , energia elétrica , taxas de esgoto e saneamento , IPTU , bem como quaisquer outros tributos que incidam sobre o imóvel .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "agosto de 2016",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('agosto de 2016', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sobremais , a apelante anexou à exordial planilha de atualização do débito ( p. 35 ) , a qual estabelece de forma detalhada os valores que compõem a pretensão inicial , 1 TJRJ , Agravo de Instrumento n.º 00113878520158190000 , Relator : Fernando Cerqueira Chagas , Data de Julgamento : 22/05/2015 , Décima Primeira Câmara Cível , Data de Publicação : 26/05/2015 ; REsp 944.352/SP , Rel . Ministro Arnaldo Esteves Lima , Quinta Turma , julgado em 29/11/2007 , DJ 07/02/2008 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TJRJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Agravo de Instrumento n.º 00113878520158190000",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Fernando Cerqueira Chagas",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "22/05/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Décima Primeira Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "26/05/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "REsp 944.352/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Arnaldo Esteves Lima",
+    "label": "PESSOA",
+    "token_indices": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Quinta Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "29/11/2007",
+    "label": "TEMPO",
+    "token_indices": [
+      78
+    ]
+  },
+  {
+    "text": "07/02/2008",
+    "label": "TEMPO",
+    "token_indices": [
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('TJRJ', 'ORGANIZACAO'), ('Agravo de Instrumento n.º 00113878520158190000', 'JURISPRUDENCIA'), ('Fernando Cerqueira Chagas', 'PESSOA'), ('22/05/2015', 'TEMPO'), ('Décima Primeira Câmara Cível', 'ORGANIZACAO'), ('26/05/2015', 'TEMPO'), ('REsp 944.352/SP', 'JURISPRUDENCIA'), ('Arnaldo Esteves Lima', 'PESSOA'), ('Quinta Turma', 'ORGANIZACAO'), ('29/11/2007', 'TEMPO'), ('07/02/2008', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 9 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 notadamente aquele relativo ao IPTU , na ordem de R $ 26.941,59 ( vinte e seis mil , novecentos e quarenta e um reais e cinquenta e nove centavos ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 10 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 sistemática da petição inicial , a partir da análise de todo o seu conteúdo , em consideração ao pleito global formulado pela parte .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Mod . 500244', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 11 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 2.1 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Pelo contrário , em nenhum momento a apelante faz menção a este PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 12 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 assunto quando trata dos “ encargos decorrentes do contrato ” , limitando-se sempre a citar despesas referentes ao consumo de água , energia elétrica , taxas de esgoto e saneamento , IPTU e demais tributos relacionados ao imóvel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ACRE Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Segunda Câmara Cível', 'ORGANIZACAO'), ('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('ACRE Segunda Câmara Cível', 'ORGANIZACAO'), ('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+AUSÊNCIA DE CONVÊNIO DO CONFAZ .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "CONFAZ",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('CONFAZ', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+106 , II , '' b '' , 151 e 172 do CTN - os quais se referem à tese da impossibilidade de remissão e de suspensão da exigibilidade dos créditos tributários pelo aludido convênio do CONFAZ - não só podem como devem obrigatoriamente ser objeto de outra demanda , PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 13 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 porquanto extrapolam os limites objetivos da causa de pedir inicial .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "106 , II , '' b '' , 151 e 172 do CTN",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "CONFAZ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      62,
+      63,
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      79,
+      80
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      86,
+      87,
+      88
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "106 , II , '' b '' , 151 e 172 do CTN",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "AC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça , s/n , Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio Branco",
+    "label": "LOCAL"
+  },
+  {
+    "text": "AC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0000/00000",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Rio Branco",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('CONFAZ', 'ORGANIZACAO'), ('ESTADO DO ACRE', 'LOCAL'), ('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Rio BrancoAC', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('AC', 'ORGANIZACAO'), ('Rua Tribunal de Justiça , s/n , Via Verde', 'LOCAL'), ('Rio Branco', 'LOCAL'), ('AC', 'ORGANIZACAO'), ('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0000/00000', 'JURISPRUDENCIA'), ('Rio Branco', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não se quer dizer , com isso , que a apelante não tem direito ao ressarcimento dos valores necessários à PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 14 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 recuperação do bem , mas apenas que essa pretensão não foi objeto da presente demanda , de sorte que deve ser veiculada em ação própria , observado o respectivo prazo prescricional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      56,
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "AC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Segunda Câmara Cível', 'ORGANIZACAO'), ('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('AC', 'ORGANIZACAO'), ('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+§ 1 o É lícito , porém , formular pedido genérico : II - quando não for possível determinar , desde logo , as consequências do ato ou do fato ; PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 15 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 LOCATÁRIA e Às suas expensas , não cabendo à LOCADORA qualquer obrigatoriedade nesse sentido , bem como com relação a eventuais consumos não pagos pela LOCATÁRIA , obrigando-se ainda a transferir , no prazo de 30 ( trinta ) dias contados do início da locação , para o seu nome as respectivas contas , sob pena de não o fazendo caracterizar infração contratual grave. ” “ 18 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      50,
+      51
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('ACRE', 'LOCAL'), ('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+1.É possível a cumulação da multa moratória em razão PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 16 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 da falta de pagamento de aluguéis com a multa compensatória estipulada no contrato de locação em virtude da devolução do imóvel antes do prazo estipulado para o término da locação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('ACRE', 'LOCAL'), ('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Isso porque , os fatos jurígenos de cada uma dessas medidas são distintos sob a perspectiva obrigacional , ainda que ambos se refiram a impontualidades do locatário , de modo que não configura bis in idem a cominação das duas PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 17 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 penalidades .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      76,
+      77,
+      78
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mutatis mutandis , esse também é o entendimento do Tribunal de Justiça de Minas Gerais : EMENTA : CIVIL E CONSUMIDOR - APELAÇÃO CÍVEL - AÇÃO DE DESPEJO C/C COBRANÇA - LOCAÇÃO COMERCIAL - VENCIMENTO DO CONTRATO - ATRASO NA DESOCUPAÇÃO DO IMÓVEL - MULTA COMPENSATÓRIA - POSSIBILIDADE - LIMITAÇÃO PREVISTA NO ART . 52 , § 1º , CDC INAPLICABILIDADE - Nos contratos de locação é lícita previsão de multas de natureza moratória e compensatória , sendo a primeira a sanção ao locatário pelo atraso na prestação mensal dos alugueis e a segunda a prefixação de perdas e danos , na hipótese de descumprimento de outras obrigações dispostas na avença ; - `` A jurisprudência do STJ é firme ao negar a aplicação das normas do CDC aos contratos de locação , uma vez que estes são regulados por lei própria , a Lei n .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal de Justiça de Minas Gerais",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "ART . 52 , § 1º , CDC",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "STJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      117
+    ]
+  },
+  {
+    "text": "CDC",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      127
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tribunal de Justiça de Minas Gerais",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ART . 52 , § 1º , CDC",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('STJ', 'ORGANIZACAO'), ('CDC', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 18 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 Contudo , não se pode permitir o enriquecimento de uma parte em detrimento da outra , sob pena da multa contratual ganhar contornos de abusividade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 19 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 A propósito desta possibilidade , confira-se julgamento proferido pelo Tribunal de Justiça de Minas Gerais : EMENTA : APELAÇÃO CÍVEL - AÇÃO DE RESCISÃO CONTRATUAL C/C REINTEGRAÇÃO DE POSSE - CONTRATO DE COMPRA E VENDA DE IMÓVEL - RESCISÃO DO PACTO - FRUIÇÃO - CLÁUSULA PENAL .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Tribunal de Justiça de Minas Gerais",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Segunda Câmara Cível', 'ORGANIZACAO'), ('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Rio BrancoAC', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA'), ('Tribunal de Justiça de Minas Gerais', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( TJMG Apelação Cível 1.0027.13.026710-0/001 , Relator ( a ) : Des . ( a ) Valdez Leite Machado , 14ª CÂMARA CÍVEL , julgamento em 08/02/2018 , publicação da súmula em 21/02/2018 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TJMG",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Apelação Cível 1.0027.13.026710-0/001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Valdez Leite Machado",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "14ª CÂMARA CÍVEL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "08/02/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "21/02/2018",
+    "label": "TEMPO",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TJMG Apelação Cível 1.0027.13.026710-0/001",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Valdez Leite Machado",
+    "label": "PESSOA"
+  },
+  {
+    "text": "14ª CÂMARA CÍVEL",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "08/02/2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "21/02/2018",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('TJMG', 'ORGANIZACAO'), ('Apelação Cível 1.0027.13.026710-0/001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('TJMG Apelação Cível 1.0027.13.026710-0/001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+HONORÁRIOS ADVOCATÍCIOS A apelante pretende , ainda , que seja aplicada ao PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 20 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 caso a regra disposta no art . 86 , parágrafo único , do CPC4 , para que a apelada suporte integralmente os honorários sucumbenciais , ao argumento de que decaiu em parte mínima do pedido .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "art . 86 , parágrafo único , do CPC4",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ACRE Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "art . 86 , parágrafo único , do CPC4",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Segunda Câmara Cível', 'ORGANIZACAO'), ('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('ACRE Segunda Câmara Cível', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 21 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 se refere à natureza da causa e ao trabalho do advogado , em cotejo com o desfecho da presente ação , não se revela , de fato , ínfima , apta a admitir a excepcionalíssima intervenção desta Corte .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio Branco",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Rua Tribunal de Justiça', 'LOCAL'), ('Via Verde', 'LOCAL'), ('Rio BrancoAC', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('AC', 'LOCAL'), ('Rio Branco', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 22 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 Com o resultado desta apelação , a apelante logrará êxitos na maioria dos pedidos , especificamente , em 5 dos oito formulados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DISPOSITIVO Diante do exposto , dou parcial provimento ao recurso para reformar , em parte , a sentença e incluir na condenação : a ) os valores relativos ao IPTU não pago pela apelada durante a vigência do contrato locatício ; b ) a multa compensatória no valor de R $ 4.500,00 PODER JUDICIÁRIO DO ESTADO DO ACRE Segunda Câmara Cível 23 Endereço : Rua Tribunal de Justiça , s/n , Via Verde , CEP 69.915-631 , Tel. 68 3302-0444/0445 , Rio BrancoAC - Mod . 500244 - Autos n.º 0715337-93.2014.8.01.0001 ( quatro mil e quinhentos reais ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ESTADO DO ACRE",
+    "label": "LOCAL",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL",
+    "token_indices": [
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL",
+    "token_indices": [
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL",
+    "token_indices": [
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Autos n.º 0715337-93.2014.8.01.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      88,
+      89,
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ACRE",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Segunda Câmara Cível",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Rua Tribunal de Justiça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Via Verde",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Rio BrancoAC",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Mod . 500244",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "0715337-93.2014.8.01.0000/0000",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Rio Branco",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('ESTADO DO ACRE', 'LOCAL'), ('Autos n.º 0715337-93.2014.8.01.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('ACRE', 'LOCAL'), ('Mod . 500244', 'JURISPRUDENCIA'), ('0715337-93.2014.8.01.0000/0000', 'JURISPRUDENCIA'), ('Rio Branco', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Incidência da Súmula nº 126 desta Corte .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Súmula nº 126 desta Corte",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Súmula nº 126 desta Corte', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , considero que o mesmo trabalhou na jornada informada na peça vestibular , qual seja , das 8h00 às 18h00 , com 1 hora de intervalo , de segunda à sexta-feira , fazendo jus o mesmo a 5 horas extras semanais , que deverão ser acrescidas de 50 % .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "segunda",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "sexta-feira",
+    "label": "TEMPO",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('segunda', 'TEMPO'), ('sexta-feira', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( PONTES DE MIRANDA , Francisco Cavalcanti .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PONTES DE MIRANDA",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Francisco Cavalcanti",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PONTES DE MIRANDA , Francisco Cavalcanti",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PONTES DE MIRANDA', 'PESSOA'), ('Francisco Cavalcanti', 'PESSOA')]
+Espúrias  (FP): [('PONTES DE MIRANDA , Francisco Cavalcanti', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+na Revista LTr .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Revista LTr",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Revista LTr",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Revista LTr', 'ORGANIZACAO')]
+Espúrias  (FP): [('Revista LTr', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+na Revista LTr .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Revista LTr",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Revista LTr",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Revista LTr', 'ORGANIZACAO')]
+Espúrias  (FP): [('Revista LTr', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+65-10/1167 , Vol . 65 , nº 10 , Outubro de 2001 , anota que : '' Tal princípio amplia a noção civilista de que o operador jurídico , no exame das declarações volitivas , deve atentar mais à intenção dos agentes do que ao envoltório formal através de que transpareceu a vontade ( art . 85 , Código Civil anterior ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Outubro de 2001",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "art . 85 , Código Civil anterior",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "10/1167 , Vol . 65",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Outubro de 2001",
+    "label": "TEMPO"
+  },
+  {
+    "text": "art . 85 , Código Civil anterior",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('10/1167 , Vol . 65', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+228 , ter ciência de que o obreiro trabalhava em horário comercial , de segunda a sexta , das 8h às 18h , com duas horas de intervalo para refeição e descanso , trazendo para si o encargo probatório , eis que tal fato é impeditivo do direito do autor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "segunda",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "sexta",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('segunda', 'TEMPO'), ('sexta', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Tal entendimento , inclusive , já ficou cristalizado pelo C. TST , através da Orientação Jurisprudencial nº 211 da SDI-1 , convertida na súmula 389 , através da Resolução nº 129/2005 do C. TST , nos seguintes termos : '' I - Inscreve-se na competência material da Justiça do Trabalho a ilide entre empregado e empregador tendo por objeto indenização pelo não-fornecimento das guias do seguro-desemprego .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 211 da SDI-1",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Resolução nº 129/2005 do C. TST",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 211 da SDI-1",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "súmula 389",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Resolução nº 129/2005 do C. TST",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Resolução nº 129/2005 do C. TST', 'LEGISLACAO')]
+Espúrias  (FP): [('súmula 389', 'JURISPRUDENCIA'), ('Resolução nº 129/2005 do C. TST', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( ex-OJ nº 210 - Inserida em 08.11.2000 ) II - O não-fornecimento pelo empregador da guia necessária para o recebimento do seguro-desemprego dá origem ao direito à indenização .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "08.11.2000",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ex-OJ nº 210",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "08.11.2000",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('ex-OJ nº 210', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( ex-OJ nº 211 - Inserida em 08.11.2000 ) '' Por todo o exposto , defiro o pleito em tela .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "08.11.2000",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ex-OJ nº 211",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "08.11.2000",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('ex-OJ nº 211', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cândido Rangel Dinamarco , acerca da prova emprestada , in Instituições de Direito Processual Civil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cândido Rangel Dinamarco",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cândido Rangel Dinamarco",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Instituições de Direito Processual Civil",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Instituições de Direito Processual Civil', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+São Paulo : Malheiros , v. III , 2003. p. 97 , preleciona que : Provas emprestadas , conceito elaborado na doutrina e tribunais sem qualquer previsão legal específica , são traslados da documentação da prova constituída em outro processo de natureza jurisdicional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Malheiros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "2003.",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Malheiros",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2003",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('2003.', 'TEMPO')]
+Espúrias  (FP): [('2003', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Indiscutivelmente , sim '' ( `` Prova Judiciária no Cível e Comercial '' , Max Limonad , 1970 , vol .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Max Limonad",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "1970",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Max Limonad",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1970",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Max Limonad', 'ORGANIZACAO')]
+Espúrias  (FP): [('Max Limonad', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+I , 4ª ed. , p. 306 , citado por FERREIRA PRUNES , `` A Prova Pericial no Processo Trabalhista '' , Ed. LTr , 2ª ed. , 1995 , p. 251 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FERREIRA PRUNES",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Ed. LTr",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "1995",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FERREIRA PRUNES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "A Prova Pericial no Processo Trabalhista",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "LTr",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1995",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Ed. LTr', 'ORGANIZACAO')]
+Espúrias  (FP): [('A Prova Pericial no Processo Trabalhista', 'LEGISLACAO'), ('LTr', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em Seção do Pleno , de 16/11/2009 , esta Corte cancelou a Orientação Jurisprudencial nº 351 , da SDI-1 , do TST .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 351 , da SDI-1",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 351",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SDI-1",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Pleno', 'ORGANIZACAO'), ('Orientação Jurisprudencial nº 351 , da SDI-1', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Orientação Jurisprudencial nº 351', 'JURISPRUDENCIA'), ('SDI-1', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Recurso de revista de que não se conhece ( Processo : RR - 15300-67.2004.5.06.0002 Data de Julgamento : 05/05/2010 , Relatora Ministra : Kátia Magalhães Arruda , 5ª Turma , Data de Publicaçãono DEJT em 14/05/2010 ) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT , a legislação é clara quando afiança que , na ambitude de qualquer demanda trabalhista , existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante , a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada , sob pena de , assim não agindo , submeter-se ao dever de pagar o débito com o acréscimo de 50 % .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RR - 15300-67.2004.5.06.0002",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "05/05/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Kátia Magalhães Arruda",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "5ª Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "14/05/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "artigo 467 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Processo : RR - 15300-67.2004.5.06.0002",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "05/05/2010",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Kátia Magalhães Arruda",
+    "label": "PESSOA"
+  },
+  {
+    "text": "5ª Turma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "14/05/2010",
+    "label": "TEMPO"
+  },
+  {
+    "text": "artigo 467 da CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('RR - 15300-67.2004.5.06.0002', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Processo : RR - 15300-67.2004.5.06.0002', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O acórdão foi fundamentado , quanto às referidas multas , nos seguintes termos : '' DA PRETENDIDA INAPLICABILIDADE , NA HIPÓTESE SOB EXAME , DAS MULTAS/ÔNUS PREVISTOS NOS ARTS . 467 E 477 DA CLT Irresignada com a sua condenação na obrigação de pagar os valores equivalentes às multas de que tratam os arts . 467 e 477 da CLT , a corporação recorrente sustenta que só a controvérsia instaurada na lide em torno do reconhecimento , ou não , do vínculo empregatício , seria apta a afastar a incidência , na espécie , das penalidades sob referência .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ARTS . 467 E 477 DA CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "arts . 467 e 477 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ARTS . 467 E 477 DA CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('arts . 467 e 477 da CLT', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em Seção do Pleno , de 16/11/2009 , esta Corte cancelou a Orientação Jurisprudencial nº 351 , da SDI-1 , do TST .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 351 , da SDI-1",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 351",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SDI-1",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Pleno', 'ORGANIZACAO'), ('Orientação Jurisprudencial nº 351 , da SDI-1', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Orientação Jurisprudencial nº 351', 'JURISPRUDENCIA'), ('SDI-1', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Recurso de revista de que não se conhece ( Processo : RR - 15300-67.2004.5.06.0002 Data de Julgamento : 05/05/2010 , Relatora Ministra : Kátia Magalhães Arruda , 5ª Turma , Data de Publicaçãono DEJT em 14/05/2010 ) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT , a legislação é clara quando afiança que , na ambitude de qualquer demanda trabalhista , existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante , a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada , sob pena de , assim não agindo , submeter-se ao dever de pagar o débito com o acréscimo de 50 % .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RR - 15300-67.2004.5.06.0002",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "05/05/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Kátia Magalhães Arruda",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "5ª Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "14/05/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "artigo 467 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Processo : RR - 15300-67.2004.5.06.0002",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "05/05/2010",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Kátia Magalhães Arruda",
+    "label": "PESSOA"
+  },
+  {
+    "text": "5ª Turma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "14/05/2010",
+    "label": "TEMPO"
+  },
+  {
+    "text": "artigo 467 da CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('RR - 15300-67.2004.5.06.0002', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Processo : RR - 15300-67.2004.5.06.0002', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Portanto , o não pagamento das verbas rescisórias dentro do prazo preconizado pelo § 6º do artigo 477 , da CLT , enseja sim o pagamento da multa prevista no § 8º , do mesmo artigo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "§ 6º do artigo 477 , da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "§ 6º do artigo 477 , da CLT",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "§ 8º , do mesmo artigo",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('§ 8º , do mesmo artigo', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não obstante meu entendimento pessoal , no sentido de que havendo fraude aos direitos trabalhistas , não ser escusável a multa do artigo 467 , da CLT , o entendimento desta Corte é no sentido de que o pressuposto para a incidência da sanção jurídica prevista no artigo 467 da CLT é a incontrovérsia sobre o montante das verbas rescisórias devidas na data do comparecimento à Justiça do Trabalho , hipótese não identificada no caso de controvérsia sobre a existência do vínculo de emprego .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 467 , da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "artigo 467 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "artigo 467 , da CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('artigo 467 da CLT', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , considero que o mesmo trabalhou na jornada informada na peça vestibular , qual seja , das 8h00 às 18h00 , com 1 hora de intervalo , de segunda à sexta-feira , fazendo jus o mesmo a 5 horas extras semanais , que deverão ser acrescidas de 50 % .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "segunda",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "sexta-feira",
+    "label": "TEMPO",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('segunda', 'TEMPO'), ('sexta-feira', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( PONTES DE MIRANDA , Francisco Cavalcanti .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PONTES DE MIRANDA",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Francisco Cavalcanti",
+    "label": "PESSOA",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PONTES DE MIRANDA , Francisco Cavalcanti",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('PONTES DE MIRANDA', 'PESSOA'), ('Francisco Cavalcanti', 'PESSOA')]
+Espúrias  (FP): [('PONTES DE MIRANDA , Francisco Cavalcanti', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Atualizado por Vilson Rodrigues Alves -- Tomo I -- Editora Bookseller -- 2ª ed. -- 2000 -- pp .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Vilson Rodrigues Alves",
+    "label": "PESSOA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Vilson Rodrigues Alves",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Editora Bookseller",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Editora Bookseller', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+na Revista LTr .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Revista LTr",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Revista LTr",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Revista LTr', 'ORGANIZACAO')]
+Espúrias  (FP): [('Revista LTr', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+na Revista LTr .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Revista LTr",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Revista LTr",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Revista LTr', 'ORGANIZACAO')]
+Espúrias  (FP): [('Revista LTr', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+65-10/1167 , Vol . 65 , nº 10 , Outubro de 2001 , anota que : '' Tal princípio amplia a noção civilista de que o operador jurídico , no exame das declarações volitivas , deve atentar mais à intenção dos agentes do que ao envoltório formal através de que transpareceu a vontade ( art . 85 , Código Civil anterior ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Outubro de 2001",
+    "label": "TEMPO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "art . 85 , Código Civil",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "10/1167 , Vol . 65",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Outubro de 2001",
+    "label": "TEMPO"
+  },
+  {
+    "text": "art . 85 , Código Civil anterior",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('art . 85 , Código Civil', 'LEGISLACAO')]
+Espúrias  (FP): [('10/1167 , Vol . 65', 'LEGISLACAO'), ('art . 85 , Código Civil anterior', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+228 , ter ciência de que o obreiro trabalhava em horário comercial , de segunda a sexta , das 8h às 18h , com duas horas de intervalo para refeição e descanso , trazendo para si o encargo probatório , eis que tal fato é impeditivo do direito do autor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "segunda",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "sexta",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('segunda', 'TEMPO'), ('sexta', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Tal entendimento , inclusive , já ficou cristalizado pelo C. TST , através da Orientação Jurisprudencial nº 211 da SDI-1 , convertida na súmula 389 , através da Resolução nº 129/2005 do C. TST , nos seguintes termos : '' I - Inscreve-se na competência material da Justiça do Trabalho a ilide entre empregado e empregador tendo por objeto indenização pelo não-fornecimento das guias do seguro-desemprego .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 211 da SDI-1",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Resolução nº 129/2005 do C. TST",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 211 da SDI-1",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "súmula 389",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Resolução nº 129/2005 do C. TST",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('Resolução nº 129/2005 do C. TST', 'LEGISLACAO')]
+Espúrias  (FP): [('súmula 389', 'JURISPRUDENCIA'), ('Resolução nº 129/2005 do C. TST', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( ex-OJ nº 210 - Inserida em 08.11.2000 ) II - O não-fornecimento pelo empregador da guia necessária para o recebimento do seguro-desemprego dá origem ao direito à indenização .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "08.11.2000",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ex-OJ nº 210",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "08.11.2000",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('ex-OJ nº 210', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( ex-OJ nº 211 - Inserida em 08.11.2000 ) '' Por todo o exposto , defiro o pleito em tela .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "08.11.2000",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ex-OJ nº 211",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "08.11.2000",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('ex-OJ nº 211', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cândido Rangel Dinamarco , acerca da prova emprestada , in Instituições de Direito Processual Civil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cândido Rangel Dinamarco",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cândido Rangel Dinamarco",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Instituições de Direito Processual Civil",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Instituições de Direito Processual Civil', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+São Paulo : Malheiros , v. III , 2003. p. 97 , preleciona que : Provas emprestadas , conceito elaborado na doutrina e tribunais sem qualquer previsão legal específica , são traslados da documentação da prova constituída em outro processo de natureza jurisdicional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Malheiros",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "2003.",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "São Paulo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Malheiros",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "2003",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('2003.', 'TEMPO')]
+Espúrias  (FP): [('2003', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Indiscutivelmente , sim '' ( `` Prova Judiciária no Cível e Comercial '' , Max Limonad , 1970 , vol .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Max Limonad",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "1970",
+    "label": "TEMPO",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Max Limonad",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1970",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Max Limonad', 'ORGANIZACAO')]
+Espúrias  (FP): [('Max Limonad', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+I , 4ª ed. , p. 306 , citado por FERREIRA PRUNES , '' A Prova Pericial no Processo Trabalhista '' , Ed. LTr , 2ª ed. , 1995 , p. 251 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FERREIRA PRUNES",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Ed. LTr",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "1995",
+    "label": "TEMPO",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "FERREIRA PRUNES",
+    "label": "PESSOA"
+  },
+  {
+    "text": "A Prova Pericial no Processo Trabalhista",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "LTr",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1995",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Ed. LTr', 'ORGANIZACAO')]
+Espúrias  (FP): [('A Prova Pericial no Processo Trabalhista', 'LEGISLACAO'), ('LTr', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+`` A União Federal aduz que o julgado foi contraditório ao manter a decisão de origem , pois em primeiro grau foi declarada a prescrição .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "União Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO')]
+Espúrias  (FP): [('União Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Inicialmente , não há que se falar em contradição , pois o caso era mesmo de extinção da execução , ainda que por fundamento diverso , devendo ser mantida a decisão de origem e , consequentemente , negado provimento ao Agravo da União Federal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "União Federal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('União', 'ORGANIZACAO')]
+Espúrias  (FP): [('União Federal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+`` ( DEJT/TRT3 12.08.2009 , 13.08.2009 e 14.08.2009 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12.08.2009",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "13.08.2009",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "14.08.2009",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DEJT/TRT3 12.08.2009",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "13.08.2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "14.08.2009",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('12.08.2009', 'TEMPO')]
+Espúrias  (FP): [('DEJT/TRT3 12.08.2009', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+160/212 ) , ostentando , pois , atributos de eficaz convencimento quanto a sua veracidade.nos registros dos cartões de ponto apresentados , o autor trabalhava regularmente de segunda a sábado , ou seja , não havia descanso usufruído pelo autor nos dias de sábado CLT '' ( pág. 646 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "segunda",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "sábado",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "sábado",
+    "label": "TEMPO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('segunda', 'TEMPO'), ('sábado', 'TEMPO'), ('sábado', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+CONTROVÉRSIA DA RELAÇÃO DE EMPREGO CONHECIMENTO O Tribunal Regional do Trabalho da 3ª Região negou provimento ao recurso ordinário da reclamada , sob os seguintes fundamentos : '' DA PRETENDIDA INAPLICABILIDADE , NA HIPÓTESE SOB EXAME , DAS MULTAS/ÔNUS PREVISTOS NOS ARTS . 467 E 477 DA CLT Irresignada com a sua condenação na obrigação de pagar os valores equivalentes às multas de que tratam os arts . 467 e 477 da CLT , a corporação recorrente sustenta que só a controvérsia instaurada na lide em torno do reconhecimento , ou não , do vínculo empregatício , seria apta a afastar a incidência , na espécie , das penalidades sob referência .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal Regional do Trabalho da 3ª Região",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "ARTS . 467 E 477 DA CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "arts . 467 e 477 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tribunal Regional do Trabalho da 3ª Região",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "arts . 467 e 477 da CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('ARTS . 467 E 477 DA CLT', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em Seção do Pleno , de 16/11/2009 , esta Corte cancelou a Orientação Jurisprudencial nº 351 , da SDI-1 , do TST .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 351 , da SDI-1 , do TST",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 351",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SDI-1",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Pleno', 'ORGANIZACAO'), ('Orientação Jurisprudencial nº 351 , da SDI-1 , do TST', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Orientação Jurisprudencial nº 351', 'JURISPRUDENCIA'), ('SDI-1', 'ORGANIZACAO'), ('TST', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Recurso de revista de que não se conhece ( Processo : RR - 15300-67.2004.5.06.0002 Data de Julgamento : 05/05/2010 , Relatora Ministra : Kátia Magalhães Arruda , 5ª Turma , Data de Publicaçãono DEJT em 14/05/2010 ) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT , a legislação é clara quando afiança que , na ambitude de qualquer demanda trabalhista , existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante , a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada , sob pena de , assim não agindo , submeter-se ao dever de pagar o débito com o acréscimo de 50 % .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RR - 15300-67.2004.5.06.0002",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "05/05/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Kátia Magalhães Arruda",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "5ª Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "14/05/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "artigo 467 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Processo : RR - 15300-67.2004.5.06.0002",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "05/05/2010",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Kátia Magalhães Arruda",
+    "label": "PESSOA"
+  },
+  {
+    "text": "5ª Turma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "14/05/2010",
+    "label": "TEMPO"
+  },
+  {
+    "text": "artigo 467 da CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('RR - 15300-67.2004.5.06.0002', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Processo : RR - 15300-67.2004.5.06.0002', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ocorre que a aludida Orientação Jurisprudencial foi cancelada por intermédio da Resolução nº 163 , de 16/11/2009 , publicada no DJ em 20 , 23 e 24/11/2009 , em decorrência da mudança de entendimento desta Corte , que passou a decidir que se aplica a citada penalidade , ainda que exista controvérsia acerca de determinadas parcelas ou da própria relação de emprego .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "20 , 23 e 24/11/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Orientação Jurisprudencial",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Resolução nº 163",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "20 , 23 e 24/11/2009",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Orientação Jurisprudencial', 'JURISPRUDENCIA'), ('Resolução nº 163', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+( Processo : RR - 42900-91.2005.5.17.0141 , data de julgamento : 7/8/2013 , Relator Ministro : José Roberto Freire Pimenta , 2ª Turma , data de publicação : DEJT 16/8/2013 ) '' MULTA DO ART . 477 , § 8.º , DA CLT .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RR - 42900-91.2005.5.17.0141",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "7/8/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "José Roberto Freire Pimenta",
+    "label": "PESSOA",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "2ª Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "16/8/2013",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "ART . 477 , § 8.º , DA CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Processo : RR - 42900-91.2005.5.17.0141",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "7/8/2013",
+    "label": "TEMPO"
+  },
+  {
+    "text": "José Roberto Freire Pimenta",
+    "label": "PESSOA"
+  },
+  {
+    "text": "2ª Turma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "16/8/2013",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('RR - 42900-91.2005.5.17.0141', 'JURISPRUDENCIA'), ('ART . 477 , § 8.º , DA CLT', 'LEGISLACAO')]
+Espúrias  (FP): [('Processo : RR - 42900-91.2005.5.17.0141', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+CANCELAMENTO DA OJ 351 DA SBDI-1 DO TST .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OJ 351 DA SBDI-1",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "OJ 351 DA SBDI-1 DO TST",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('OJ 351 DA SBDI-1', 'JURISPRUDENCIA'), ('TST', 'ORGANIZACAO')]
+Espúrias  (FP): [('OJ 351 DA SBDI-1 DO TST', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Especialmente após o cancelamento da OJ 351-SBDI-1 do TST , na Sessão Plenária de 16/11/2009 , e quando o acórdão regional aponta que o conteúdo probatório dos autos demonstra claramente a existência de fraude na relação de cooperativismo , entabulada em substituição ao vínculo de emprego .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OJ 351-SBDI-1",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "OJ 351-SBDI-1 do TST",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('OJ 351-SBDI-1', 'JURISPRUDENCIA'), ('TST', 'ORGANIZACAO')]
+Espúrias  (FP): [('OJ 351-SBDI-1 do TST', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em Seção do Tribunal Pleno , de 16/11/2009 , esta Corte cancelou a Orientação Jurisprudencial nº 351 , da SDI-1 , do TST .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 351 , da SDI-1",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 351",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SDI-1",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Tribunal Pleno', 'ORGANIZACAO'), ('Orientação Jurisprudencial nº 351 , da SDI-1', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Orientação Jurisprudencial nº 351', 'JURISPRUDENCIA'), ('SDI-1', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Finalmente , este colendo Tribunal , em sua composição Plenária , determinou o cancelamento da OJ 351 da SBDI-1 , através da Resolução 163/2009 , publicada no DJe divulgado em 23 , 24 e 25/11/2009 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OJ 351 da SBDI-1",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "23 , 24 e 25/11/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "OJ 351 da SBDI-1",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Resolução 163/2009",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "23 , 24 e 25/11/2009",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Resolução 163/2009', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( RR - 95000-97.2001.5.09.0654 , Relator Ministro : Horácio Raymundo de Senna Pires , data de julgamento : 16/12/2009 , 3ª Turma , data de publicação : 5/2/2010 ) Permanece incólume , portanto , o artigo 477 da CLT , e os arestos trazidos ao confronto se mostram superados , nos termos do artigo 896 , § 7º , da CLT e da Súmula nº 333 do TST .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RR - 95000-97.2001.5.09.0654",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Horácio Raymundo de Senna Pires",
+    "label": "PESSOA",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "16/12/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "3ª Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "5/2/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "artigo 477 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "text": "artigo 896 , § 7º , da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "text": "Súmula nº 333 do TST",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "RR - 95000-97.2001.5.09.0654",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Horácio Raymundo de Senna Pires",
+    "label": "PESSOA"
+  },
+  {
+    "text": "16/12/2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "3ª Turma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "5/2/2010",
+    "label": "TEMPO"
+  },
+  {
+    "text": "artigo 477 da CLT",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "artigos 896 , § 7º , da CLT",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Súmula nº 333 do TST",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('artigo 896 , § 7º , da CLT', 'LEGISLACAO')]
+Espúrias  (FP): [('artigos 896 , § 7º , da CLT', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+VERBAS RESCISÓRIAS CONTROVERSAS I - CONHECIMENTO O Tribunal Regional do Trabalho da 3ª Região negou provimento ao recurso ordinário da reclamada , sob os seguintes fundamentos : '' DA PRETENDIDA INAPLICABILIDADE , NA HIPÓTESE SOB EXAME , DAS MULTAS/ÔNUS PREVISTOS NOS ARTS . 467 E 477 DA CLT Irresignada com a sua condenação na obrigação de pagar os valores equivalentes às multas de que tratam os arts . 467 e 477 da CLT , a corporação recorrente sustenta que só a controvérsia instaurada na lide em torno do reconhecimento , ou não , do vínculo empregatício , seria apta a afastar a incidência , na espécie , das penalidades sob referência .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tribunal Regional do Trabalho da 3ª Região",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "ARTS . 467 E 477 DA CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "arts . 467 e 477 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tribunal Regional do Trabalho da 3ª Região",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "arts . 467 e 477 da CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('ARTS . 467 E 477 DA CLT', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em Seção do Pleno , de 16/11/2009 , esta Corte cancelou a Orientação Jurisprudencial nº 351 , da SDI-1 , do TST .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pleno",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 351 , da SDI-1",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16/11/2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Orientação Jurisprudencial nº 351",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "SDI-1",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "TST",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Pleno', 'ORGANIZACAO'), ('Orientação Jurisprudencial nº 351 , da SDI-1', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Orientação Jurisprudencial nº 351', 'JURISPRUDENCIA'), ('SDI-1', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Recurso de revista de que não se conhece ( Processo : RR - 15300-67.2004.5.06.0002 Data de Julgamento : 05/05/2010 , Relatora Ministra : Kátia Magalhães Arruda , 5ª Turma , Data de Publicaçãono DEJT em 14/05/2010 ) Já no que diz respeito ao agravamento obrigacional veiculado pelo artigo 467 da CLT , a legislação é clara quando afiança que , na ambitude de qualquer demanda trabalhista , existindo créditos rescisórios incontroversos a serem quitados em favor do laborista vindicante , a parte empregadora responsável deverá fazê-lo na data legalmente para tanto fixada , sob pena de , assim não agindo , submeter-se ao dever de pagar o débito com o acréscimo de 50 % .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RR - 15300-67.2004.5.06.0002",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "05/05/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Kátia Magalhães Arruda",
+    "label": "PESSOA",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "5ª Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "14/05/2010",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "artigo 467 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Processo : RR - 15300-67.2004.5.06.0002",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "05/05/2010",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Kátia Magalhães Arruda",
+    "label": "PESSOA"
+  },
+  {
+    "text": "5ª Turma",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "14/05/2010",
+    "label": "TEMPO"
+  },
+  {
+    "text": "artigo 467 da CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('RR - 15300-67.2004.5.06.0002', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Processo : RR - 15300-67.2004.5.06.0002', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não obstante meu entendimento pessoal , no sentido de que havendo fraude aos direitos trabalhistas , não ser escusável a multa do artigo 467 , da CLT , o entendimento desta Corte é no sentido de que o pressuposto para a incidência da sanção jurídica prevista no artigo 467 da CLT é a incontrovérsia sobre o montante das verbas rescisórias devidas na data do comparecimento à Justiça do Trabalho , hipótese não identificada no caso de controvérsia sobre a existência do vínculo de emprego .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artigo 467 , da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "artigo 467 da CLT",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "artigo 467 , da CLT",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('artigo 467 da CLT', 'LEGISLACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PROCESSO Nº TST-RR-1603-79.2010.5.20.0001
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PROCESSO Nº TST-RR-1603-79.2010.5.20.0001",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TST-RR-1603-79.2010.5.20.0001",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('PROCESSO Nº TST-RR-1603-79.2010.5.20.0001', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('TST-RR-1603-79.2010.5.20.0001', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Corte Especial deste Tribunal , na sessão de 16/09/2015 , quando do julgamento proferido no bojo do AgRg nos EARESP 300.967/SP , decidiu que , não havendo alteração da decisão pelos embargos de declaração , torna-se desnecessária a ratificação do recurso especial interposto antes da publicação dos aclaratórios .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "16/09/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "AgRg nos EARESP 300.967/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Corte Especial deste Tribunal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "16/09/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "AgRg nos EARESP 300.967/SP",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Corte Especial deste Tribunal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Está pacificado neste Superior Tribunal o entendimento acerca da possibilidade de sucessivas prorrogações das interceptações , desde que devidamente fundamentadas , sendo essa a hipótese dos autos .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Superior Tribunal",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Superior Tribunal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Agravo regimental do réu H.T .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "H.T",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('H.T', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+MINISTRO GURGEL DE FARIA Relator Documento : 1458312 - Inteiro Teor do Acórdão - Site certificado - DJe : 16/11/2015 Página 2 de 12 Superior Tribunal de Justiça AgRg no AGRAVO EM RECURSO ESPECIAL Nº 377.846 - SP ( 2013/0273630-5 ) RELATÓRIO O EXMO . SR. MINISTRO GURGEL DE FARIA ( Relator ) : Trata-se de agravo regimental interposto por HAMISSI TAHA contra decisão da lavra do Min . Moura Ribeiro , proferida às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "GURGEL DE FARIA",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "AgRg no AGRAVO EM RECURSO ESPECIAL Nº 377.846 - SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "text": "2013/0273630-5",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "GURGEL DE FARIA",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "HAMISSI TAHA",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Moura Ribeiro",
+    "label": "PESSOA",
+    "token_indices": [
+      69,
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "GURGEL DE FARIA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AgRg no AGRAVO EM RECURSO ESPECIAL Nº 377.846 - SP",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "2013/0273630-5",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "GURGEL DE FARIA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Moura Ribeiro",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('HAMISSI TAHA', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Documento : 1458312 - Inteiro Teor do Acórdão - Site certificado - DJe : 16/11/2015 Página 3 de 12 Superior Tribunal de Justiça AgRg no AGRAVO EM RECURSO ESPECIAL Nº 377.846 - SP ( 2013/0273630-5 ) VOTO O EXMO . SR. MINISTRO GURGEL DE FARIA ( Relator ) : Inicialmente , cumpre consignar que a Corte Especial deste Tribunal , na sessão de 16/09/2015 , quando do julgamento proferido no bojo do AgRg nos EARESP 300.967/SP , decidiu que , não havendo alteração da decisão pelos embargos de declaração , torna-se desnecessária a ratificação do recurso especial interposto antes da publicação dos aclaratórios .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "AgRg no AGRAVO EM RECURSO ESPECIAL Nº 377.846 - SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "2013/0273630-5",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "GURGEL DE FARIA",
+    "label": "PESSOA",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "16/09/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "AgRg nos EARESP 300.967/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      72,
+      73,
+      74,
+      75
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "AgRg no AGRAVO EM RECURSO ESPECIAL Nº 377.846 - SP",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "2013/0273630-5",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Corte Especial deste Tribunal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "16/09/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "AgRg nos EARESP 300.967/SP",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "GURGEL DE FARIA",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Corte Especial deste Tribunal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Inicialmente , no que concerne à preliminar de incompetência da Justiça Federal , observa-se que o recorrente foi condenado pela prática do delito tipificado no art . 35 da Lei n . 11.343/2006 , conjuntamente com os demais corréus , sendo-lhe imputada a participação em associação criminosa internacional de tráfico de entorpecentes , investigada pela operação da Polícia Federal batizada de KOLIBRA .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 35 da Lei n . 11.343/2006",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Polícia Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 35 da Lei n . 11.343/2006",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Polícia Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "KOLIBRA",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('KOLIBRA', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Documento : 1458312 - Inteiro Teor do Acórdão - Site certificado - DJe : 16/11/2015 Página 4 de 12 Superior Tribunal de Justiça A essa organização internacional de tráfico se imputava a distribuição e o comércio ilegal de entorpecentes em diversas partes do Brasil , além da aquisição de drogas provenientes do exterior e remessa de entorpecentes para fora do país , como se extrai do relatório minucioso da sentença proferida às fls .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A conexão da associação para o tráfico com os delitos de natureza federal , na forma do art . 70 da Lei n . 11.343/2006 , atrai a competência da Justiça Federal , por aplicação da Súmula 122 do STJ , não havendo que se falar em incompetência da Vara de São Paulo/SP , porquanto vinculada por prevenção em razão das ações cautelares que ali tramitaram .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 70 da Lei n . 11.343/2006",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Súmula 122 do STJ",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Vara de São Paulo/SP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      49,
+      50,
+      51,
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 70 da Lei n . 11.343/2006",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "Súmula 122 do STJ",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "São Paulo/SP",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Vara de São Paulo/SP', 'ORGANIZACAO')]
+Espúrias  (FP): [('São Paulo/SP', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A jurisprudência desta Corte é no sentido de que `` não há ofensa ao princípio da colegialidade quando a decisão monocrática é proferida em obediência aos arts . 557 , caput , e § 1º-A , do Código de Processo Civil , e 3º do Código de Processo Penal - CPP , que permitem ao relator dar provimento , negar seguimento a recurso manifestamente inadmissível , improcedente , prejudicado ou em confronto com súmula ou com jurisprudência dominante do respectivo tribunal , do Supremo Tribunal Federal , ou de Tribunal Superior '' ( AgRg nos EREsp 1.387.000/PR , Rel . Min . Ericson Maranho ( Desembargador convocado do TJ/SP ) , Terceira Seção , DJe 17/06/2015 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "arts . 557 , caput , e § 1º-A , do Código de Processo Civil",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "3º do Código de Processo Penal - CPP",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      83,
+      84,
+      85
+    ]
+  },
+  {
+    "text": "AgRg nos EREsp 1.387.000/PR",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      93,
+      94,
+      95,
+      96
+    ]
+  },
+  {
+    "text": "Ericson Maranho",
+    "label": "PESSOA",
+    "token_indices": [
+      102,
+      103
+    ]
+  },
+  {
+    "text": "TJ/SP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "17/06/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      115
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "arts . 557 , caput , e § 1º-A , do Código de Processo Civil",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "3º do Código de Processo Penal - CPP",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "AgRg nos EREsp 1.387.000/PR",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Ericson Maranho",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Terceira Seção",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "17/08/2017",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Supremo Tribunal Federal', 'ORGANIZACAO'), ('TJ/SP', 'ORGANIZACAO'), ('17/06/2015', 'TEMPO')]
+Espúrias  (FP): [('Terceira Seção', 'ORGANIZACAO'), ('17/08/2017', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , impõe-se a aplicação do estabelecido na Súmula 182 deste Superior Tribunal de Justiça , que dispõe ser `` inviável o agravo do art . 545 do Código de Processo Civil que deixa de atacar especificamente os fundamentos da decisão agravada '' .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Súmula 182 deste Superior Tribunal de Justiça",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "art . 545 do Código de Processo Civil",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Súmula 182 deste Superior Tribunal de Justiça",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "agravo do art . 545 do Código de Processo Civil",
+    "label": "JURISPRUDENCIA"
+  }
+]
+
+Perdidas  (FN): [('art . 545 do Código de Processo Civil', 'LEGISLACAO')]
+Espúrias  (FP): [('agravo do art . 545 do Código de Processo Civil', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+( AgRg no REsp 1199918/SP , Rel . Ministro REYNALDO SOARES DA FONSECA , QUINTA TURMA , julgado em 04/08/2015 , DJe 12/08/2015 ) Realço , por fim , que o Supremo Tribunal Federal assentou ser prescindível a transcrição integral dos diálogos colhidos por meio de interceptação telefônica ou escuta ambiental , visto que a Lei n . 9.269/1996 não traz nenhuma exigência nesse sentido ( Tribunal Pleno , Inq 3693 , Relatora Min . Cármen Lúcia , julgado em 10/04/2014 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "AgRg no REsp 1199918/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "REYNALDO SOARES DA FONSECA",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "QUINTA TURMA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "04/08/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "12/08/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Lei n . 9.269/1996",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "Tribunal Pleno , Inq 3693",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      66,
+      67,
+      68,
+      69,
+      70
+    ]
+  },
+  {
+    "text": "Cármen Lúcia",
+    "label": "PESSOA",
+    "token_indices": [
+      75,
+      76
+    ]
+  },
+  {
+    "text": "10/04/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      80
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "AgRg no REsp 1199918/SP",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "REYNALDO SOARES DA FONSECA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "QUINTA TURMA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "04/08/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "12/08/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Tribunal Pleno",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Inq 3693",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "Cármen Lúcia",
+    "label": "PESSOA"
+  },
+  {
+    "text": "10/04/2014",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Lei n . 9.269/1996",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): [('Tribunal Pleno , Inq 3693', 'JURISPRUDENCIA')]
+Espúrias  (FP): [('Tribunal Pleno', 'ORGANIZACAO'), ('Inq 3693', 'JURISPRUDENCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+De igual modo , está pacificado no STJ o entendimento acerca da possibilidade de sucessiva prorrogação das interceptações , desde que devidamente fundamentadas , apesar de o art . 5º da Lei n . 9.296/1996 prever o prazo máximo de 15 ( quinze ) dias para tal medida , renovável por igual período ( RHC 41.179/SP , Rel . Ministro FELIX FISCHER , QUINTA TURMA , julgado em 09/06/2015 , DJe 19/06/2015 , e HC 210.022/SP , Rel . Ministro SEBASTIÃO REIS JÚNIOR , SEXTA TURMA , julgado em 21/08/2014 , DJe 05/09/2014 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "art . 5º da Lei n . 9.296/1996",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "RHC 41.179/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "FELIX FISCHER",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61
+    ]
+  },
+  {
+    "text": "QUINTA TURMA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "09/06/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      68
+    ]
+  },
+  {
+    "text": "19/06/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      71
+    ]
+  },
+  {
+    "text": "HC 210.022/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      74,
+      75
+    ]
+  },
+  {
+    "text": "SEBASTIÃO REIS JÚNIOR",
+    "label": "PESSOA",
+    "token_indices": [
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "SEXTA TURMA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      84,
+      85
+    ]
+  },
+  {
+    "text": "21/08/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "05/09/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      92
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('STJ', 'ORGANIZACAO'), ('art . 5º da Lei n . 9.296/1996', 'LEGISLACAO'), ('RHC 41.179/SP', 'JURISPRUDENCIA'), ('FELIX FISCHER', 'PESSOA'), ('QUINTA TURMA', 'ORGANIZACAO'), ('09/06/2015', 'TEMPO'), ('19/06/2015', 'TEMPO'), ('HC 210.022/SP', 'JURISPRUDENCIA'), ('SEBASTIÃO REIS JÚNIOR', 'PESSOA'), ('SEXTA TURMA', 'ORGANIZACAO'), ('21/08/2014', 'TEMPO'), ('05/09/2014', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É imprescindível , portanto , a demonstração de concreto prejuízo o que não ocorreu in casu , não bastando a mera alegação de nulidade ( RHC 54.509/MS , Rel . Ministro Jorge Mussi , Quinta Turma , julgado em 24/02/2015 , DJe 05/03/2015 , RHC 42.804/DF , Rel . Ministra Maria Thereza de Assis Moura , Sexta Turma , julgado em 04/11/2014 , DJe 14/11/2014 , e HC 141.808/PE , Rel . Ministra Laurita Vaz , Quinta Turma , julgado em 03/02/2011 , DJe Documento : 1458312 - Inteiro Teor do Acórdão - Site certificado - DJe : 16/11/2015 Página 6 de 12 Superior Tribunal de Justiça 21/02/2011 ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "RHC 54.509/MS",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Jorge Mussi",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Quinta Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "24/02/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "05/03/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "RHC 42.804/DF",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Maria Thereza de Assis Moura",
+    "label": "PESSOA",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Sexta Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      56,
+      57
+    ]
+  },
+  {
+    "text": "04/11/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      61
+    ]
+  },
+  {
+    "text": "14/11/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "HC 141.808/PE",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      67,
+      68
+    ]
+  },
+  {
+    "text": "Laurita Vaz",
+    "label": "PESSOA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Quinta Turma",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      76,
+      77
+    ]
+  },
+  {
+    "text": "03/02/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      103,
+      104,
+      105,
+      106
+    ]
+  },
+  {
+    "text": "21/02/2011",
+    "label": "TEMPO",
+    "token_indices": [
+      107
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('RHC 54.509/MS', 'JURISPRUDENCIA'), ('Jorge Mussi', 'PESSOA'), ('Quinta Turma', 'ORGANIZACAO'), ('24/02/2015', 'TEMPO'), ('05/03/2015', 'TEMPO'), ('RHC 42.804/DF', 'JURISPRUDENCIA'), ('Maria Thereza de Assis Moura', 'PESSOA'), ('Sexta Turma', 'ORGANIZACAO'), ('04/11/2014', 'TEMPO'), ('14/11/2014', 'TEMPO'), ('HC 141.808/PE', 'JURISPRUDENCIA'), ('Laurita Vaz', 'PESSOA'), ('Quinta Turma', 'ORGANIZACAO'), ('03/02/2011', 'TEMPO'), ('16/11/2015', 'TEMPO'), ('Superior Tribunal de Justiça', 'ORGANIZACAO'), ('21/02/2011', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Diante do quadro delineado , a revisão do julgado , notadamente no que Documento : 1458312 - Inteiro Teor do Acórdão - Site certificado - DJe : 16/11/2015 Página 7 de 12 Superior Tribunal de Justiça se refere à materialidade do delito e à ausência de dolo , demandaria o reexame do conjunto fático-probatório , inviável no âmbito do recurso especial , em razão do óbice previsto na Súmula 7 do STJ .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Súmula 7 do STJ",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      68,
+      69,
+      70,
+      71
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Súmula 7 do STJ', 'JURISPRUDENCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+No recurso especial fundado nas alíneas “ a ” e “ c ” do permissivo , sustenta o réu , preliminarmente , nulidade da interceptação telefônica colhida como prova única para a condenação ( violação aos arts . 2° e 5° da Lei n . 9296/1996 ) , seja por ausência de fundamento para decretação da interceptação uma vez que não esgotados os demais meios de prova , seja em razão do prazo desarrazoado de duração da colheita da prova decretada e renovada por período superior a 2 ( dois ) anos , seja em razão da falta de fundamentação idônea para as prorrogações .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "arts . 2° e 5° da Lei n . 9296/1996",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "alíneas “ a ” e “ c ” do permissivo",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "arts . 2° e 5° da Lei n . 9296/1996",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('alíneas “ a ” e “ c ” do permissivo', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+É que a decisão que iniciou a quebra de sigilo telefônico do recorrente encontra-se devidamente fundamentada , ainda que se tenha utilizado dos fundamentos da requisição do Parquet e da solicitação da autoridade policial para razões de decidir ( fls .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Parquet",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Parquet', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+No mesmo sentido : HC 276.227/TO , Rel . Ministra MARIA THEREZA DE ASSIS MOURA , SEXTA TURMA , julgado em 09/12/2014 , DJe 27/02/2015 ; HC 312.391/SP , Rel . Ministro FELIX FISCHER , QUINTA TURMA , julgado em 15/09/2015 , DJe 21/09/2015 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HC 276.227/TO",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "MARIA THEREZA DE ASSIS MOURA",
+    "label": "PESSOA",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "SEXTA TURMA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "09/12/2014",
+    "label": "TEMPO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "27/02/2015",
+    "label": "PESSOA",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "HC 312.391/SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "FELIX FISCHER",
+    "label": "PESSOA",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "QUINTA TURMA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "15/09/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "21/09/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HC 276.227/TO",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "MARIA THEREZA DE ASSIS MOURA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "SEXTA TURMA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "09/12/2014",
+    "label": "TEMPO"
+  },
+  {
+    "text": "27/02/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "HC 312.391/SP",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "FELIX FISCHER",
+    "label": "PESSOA"
+  },
+  {
+    "text": "QUINTA TURMA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "15/09/2015",
+    "label": "TEMPO"
+  },
+  {
+    "text": "21/09/2015",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('27/02/2015', 'PESSOA')]
+Espúrias  (FP): [('27/02/2015', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Documento : 1458312 - Inteiro Teor do Acórdão - Site certificado - DJe : 16/11/2015 Página 1 0 de 12 Superior Tribunal de Justiça CERTIDÃO DE JULGAMENTO QUINTA TURMA AgRg no Número Registro : 2013/0273630-5 PROCESSO ELETRÔNICO AREsp 377.846 / SP MATÉRIA CRIMINAL Números Origem : 00046371220074036181 200661810137085 200761810046370 46371220074036181 EM MESA JULGADO : 27/10/2015 Relator Exmo . Sr. Ministro GURGEL DE FARIA Presidente da Sessão Exmo . Sr. Ministro FELIX FISCHER Subprocurador-Geral da República Exmo . Sr. Dr. MÁRIO JOSÉ GISI Secretário Bel .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "QUINTA TURMA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "AgRg no Número Registro : 2013/0273630-5",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "AREsp 377.846 / SP",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "27/10/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "GURGEL DE FARIA",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "FELIX FISCHER",
+    "label": "PESSOA",
+    "token_indices": [
+      70,
+      71
+    ]
+  },
+  {
+    "text": "MÁRIO JOSÉ GISI",
+    "label": "PESSOA",
+    "token_indices": [
+      79,
+      80,
+      81
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('16/11/2015', 'TEMPO'), ('Superior Tribunal de Justiça', 'ORGANIZACAO'), ('QUINTA TURMA', 'ORGANIZACAO'), ('AgRg no Número Registro : 2013/0273630-5', 'JURISPRUDENCIA'), ('AREsp 377.846 / SP', 'JURISPRUDENCIA'), ('27/10/2015', 'TEMPO'), ('GURGEL DE FARIA', 'PESSOA'), ('FELIX FISCHER', 'PESSOA'), ('MÁRIO JOSÉ GISI', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+MARCELO PEREIRA CRUVINEL AUTUAÇÃO AGRAVANTE : TENILAS ROCHA DIAS ADVOGADO : MANOEL CUNHA LACERDA E OUTRO ( S ) AGRAVANTE : PAULO SALINET DIAS ADVOGADA : ALEXANDRA BERTON SCHIAVINATO E OUTRO ( S ) AGRAVANTE : HAMSSI TAHA ADVOGADO : MILTON FERNANDO TALZI E OUTRO ( S ) AGRAVANTE : WAGNER MEIRA ALVES ADVOGADOS : ALEXANDRE DE SÁ DOMINGUES E OUTRO ( S ) RICARDO FANTI IACONO AGRAVADO : MINISTÉRIO PÚBLICO FEDERAL CORRÉU : JOÃO MARCOS LOURENÇÃO DA SILVA CORRÉU : MANOEL CUNHA LACERDA CORRÉU : JOSEPH NOUR EDDINE NASRALLAH ADVOGADA : ALEXANDRA BERTON SCHIAVINATO CORRÉU : CLÉBER LUIS QUINHÕES CORRÉU : ATEF YOUSSEF NEHME HARB CORRÉU : MAFAWAD METANIS TOUMA CORRÉU : DIMITRIOS BOURLIS CORRÉU : GEORGE BOUNICOLAS CORRÉU : ANTÔNIO LUIZ RIBEIRO DA SILVA ASSUNTO : DIREITO PENAL - Crimes Previstos na Legislação Extravagante - Crimes de Tráfico Ilícito e Uso Indevido de Drogas AGRAVO REGIMENTAL AGRAVANTE : HAMSSI TAHA ADVOGADO : JOÃO ANGELILDO JOSÉ ROCHA E OUTRO ( S ) AGRAVADO : MINISTÉRIO PÚBLICO FEDERAL CERTIDÃO Certifico que a egrégia QUINTA TURMA , ao apreciar o processo em epígrafe na sessão Documento : 1458312 - Inteiro Teor do Acórdão - Site certificado - DJe : 16/11/2015 Página 1 1 de 12 Superior Tribunal de Justiça realizada nesta data , proferiu a seguinte decisão : '' A Turma , por unanimidade , deu provimento ao agravo regimental , nos termos do voto do Sr. Ministro Relator .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "MARCELO PEREIRA CRUVINEL",
+    "label": "PESSOA",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "TENILAS ROCHA DIAS",
+    "label": "PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "MANOEL CUNHA LACERDA",
+    "label": "PESSOA",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "PAULO SALINET DIAS",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "ALEXANDRA BERTON SCHIAVINATO",
+    "label": "PESSOA",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "HAMSSI TAHA",
+    "label": "PESSOA",
+    "token_indices": [
+      36,
+      37
+    ]
+  },
+  {
+    "text": "MILTON FERNANDO TALZI",
+    "label": "PESSOA",
+    "token_indices": [
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "WAGNER MEIRA ALVES",
+    "label": "PESSOA",
+    "token_indices": [
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "ALEXANDRE DE SÁ DOMINGUES",
+    "label": "PESSOA",
+    "token_indices": [
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "text": "RICARDO FANTI IACONO",
+    "label": "PESSOA",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "JOÃO MARCOS LOURENÇÃO DA SILVA",
+    "label": "PESSOA",
+    "token_indices": [
+      74,
+      75,
+      76,
+      77,
+      78
+    ]
+  },
+  {
+    "text": "MANOEL CUNHA LACERDA",
+    "label": "PESSOA",
+    "token_indices": [
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "text": "JOSEPH NOUR EDDINE NASRALLAH",
+    "label": "PESSOA",
+    "token_indices": [
+      86,
+      87,
+      88,
+      89
+    ]
+  },
+  {
+    "text": "ALEXANDRA BERTON SCHIAVINATO",
+    "label": "PESSOA",
+    "token_indices": [
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "text": "CLÉBER LUIS QUINHÕES",
+    "label": "PESSOA",
+    "token_indices": [
+      97,
+      98,
+      99
+    ]
+  },
+  {
+    "text": "ATEF YOUSSEF NEHME HARB",
+    "label": "PESSOA",
+    "token_indices": [
+      102,
+      103,
+      104,
+      105
+    ]
+  },
+  {
+    "text": "MAFAWAD METANIS TOUMA",
+    "label": "PESSOA",
+    "token_indices": [
+      108,
+      109,
+      110
+    ]
+  },
+  {
+    "text": "DIMITRIOS BOURLIS",
+    "label": "PESSOA",
+    "token_indices": [
+      113,
+      114
+    ]
+  },
+  {
+    "text": "GEORGE BOUNICOLAS",
+    "label": "PESSOA",
+    "token_indices": [
+      117,
+      118
+    ]
+  },
+  {
+    "text": "ANTÔNIO LUIZ RIBEIRO DA SILVA",
+    "label": "PESSOA",
+    "token_indices": [
+      121,
+      122,
+      123,
+      124,
+      125
+    ]
+  },
+  {
+    "text": "HAMSSI TAHA",
+    "label": "PESSOA",
+    "token_indices": [
+      150,
+      151
+    ]
+  },
+  {
+    "text": "JOÃO ANGELILDO JOSÉ ROCHA",
+    "label": "PESSOA",
+    "token_indices": [
+      154,
+      155,
+      156,
+      157
+    ]
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO FEDERAL",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      165,
+      166,
+      167
+    ]
+  },
+  {
+    "text": "QUINTA TURMA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      173,
+      174
+    ]
+  },
+  {
+    "text": "16/11/2015",
+    "label": "TEMPO",
+    "token_indices": [
+      198
+    ]
+  },
+  {
+    "text": "Superior Tribunal de Justiça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      204,
+      205,
+      206,
+      207
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('MARCELO PEREIRA CRUVINEL', 'PESSOA'), ('TENILAS ROCHA DIAS', 'PESSOA'), ('MANOEL CUNHA LACERDA', 'PESSOA'), ('PAULO SALINET DIAS', 'PESSOA'), ('ALEXANDRA BERTON SCHIAVINATO', 'PESSOA'), ('HAMSSI TAHA', 'PESSOA'), ('MILTON FERNANDO TALZI', 'PESSOA'), ('WAGNER MEIRA ALVES', 'PESSOA'), ('ALEXANDRE DE SÁ DOMINGUES', 'PESSOA'), ('RICARDO FANTI IACONO', 'PESSOA'), ('MINISTÉRIO PÚBLICO FEDERAL', 'ORGANIZACAO'), ('JOÃO MARCOS LOURENÇÃO DA SILVA', 'PESSOA'), ('MANOEL CUNHA LACERDA', 'PESSOA'), ('JOSEPH NOUR EDDINE NASRALLAH', 'PESSOA'), ('ALEXANDRA BERTON SCHIAVINATO', 'PESSOA'), ('CLÉBER LUIS QUINHÕES', 'PESSOA'), ('ATEF YOUSSEF NEHME HARB', 'PESSOA'), ('MAFAWAD METANIS TOUMA', 'PESSOA'), ('DIMITRIOS BOURLIS', 'PESSOA'), ('GEORGE BOUNICOLAS', 'PESSOA'), ('ANTÔNIO LUIZ RIBEIRO DA SILVA', 'PESSOA'), ('HAMSSI TAHA', 'PESSOA'), ('JOÃO ANGELILDO JOSÉ ROCHA', 'PESSOA'), ('MINISTÉRIO PÚBLICO FEDERAL', 'ORGANIZACAO'), ('QUINTA TURMA', 'ORGANIZACAO'), ('16/11/2015', 'TEMPO'), ('Superior Tribunal de Justiça', 'ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+AGRAVADA A DECISÃO PELA DEFENSORIA PÚBLICA DA UNIÃO .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "DEFENSORIA PÚBLICA DA UNIÃO",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('DEFENSORIA PÚBLICA DA UNIÃO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ministro JOSÉ BARROSO FILHO Relator AGRAVO INTERNO Nº 7000077-04.2017.7.00.0000 RELATOR : MINISTRO JOSÉ BARROSO FILHO AGRAVANTE : NELSON BARROSO FERREIRA DEFENSORIA PÚBLICA DA UNIÃO AGRAVADO : MINISTÉRIO PÚBLICO MILITAR RELATÓRIO Trata-se de Agravo Interno interposto pela Defensoria Pública da União ( DPU ) , em nome de Nelson Barroso Ferreira , civil , contra a Decisão deste Ministro-Relator , de 9 de novembro de 2017 , que negou seguimento a Embargos de Declaração , por serem manifestamente incabíveis .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "JOSÉ BARROSO FILHO",
+    "label": "PESSOA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "AGRAVO INTERNO Nº 7000077-04.2017.7.00.0000",
+    "label": "JURISPRUDENCIA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "JOSÉ BARROSO FILHO",
+    "label": "PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "NELSON BARROSO FERREIRA",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "DEFENSORIA PÚBLICA DA UNIÃO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO MILITAR",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Defensoria Pública da União",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "DPU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Nelson Barroso Ferreira",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "9 de novembro de 2017",
+    "label": "TEMPO",
+    "token_indices": [
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "JOSÉ BARROSO FILHO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "AGRAVO INTERNO Nº 7000077-04.2017.7.00.0000",
+    "label": "JURISPRUDENCIA"
+  },
+  {
+    "text": "JOSÉ BARROSO FILHO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "NELSON BARROSO FERREIRA",
+    "label": "PESSOA"
+  },
+  {
+    "text": "DEFENSORIA PÚBLICA DA UNIÃO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "MINISTÉRIO PÚBLICO MILITAR",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Defensoria Pública da União', 'ORGANIZACAO'), ('DPU', 'ORGANIZACAO'), ('Nelson Barroso Ferreira', 'PESSOA'), ('9 de novembro de 2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+3 ) , o JuizAuditor Substituto da 2ª Auditoria da 1ª CJM deixou de conceder o indulto ao Sursitário , devido não atender aos requisitos previsto no Decreto nº 8 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2ª Auditoria da 1ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2ª Auditoria da 1ª CJM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Decreto nº 8",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Decreto nº 8', 'LEGISLACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os Embargos de Declaração foram opostos com a intenção de requerer do STM que se manifeste quanto a omissão do Acórdão de 03/10/2017 que negou provimento ao Recurso em Sentido Estrito da DPU/Rio de Janeiro/RJ , mantendo a Decisão proferida pelo Juiz Auditor da 2ª Auditoria da 1ª CJM , em 09/03/2017 , nos autos do Documento assinado eletronicamente por José Barroso Filho , Matricula 1117 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "03/10/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "DPU/Rio de Janeiro/RJ",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "2ª Auditoria da 1ª CJM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "09/03/2017",
+    "label": "TEMPO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "José Barroso Filho",
+    "label": "PESSOA",
+    "token_indices": [
+      60,
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "STM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "DPU/Rio de Janeiro/RJ",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "09/03/2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2ª Auditoria da 1ª CJM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "José Barroso Filho",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('03/10/2017', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+razão pela qual , ao ser mantido , submete-se o Agravo Interno ao julgamento de mérito do Plenário , ex vi do art . 118 , § 2° , do Regimento Interno do Superior Tribunal Militar ( RISTM ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 118 , § 2° , do Regimento Interno do Superior Tribunal Militar",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "RISTM",
+    "label": "LEGISLACAO",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Plenário",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "art . 118 , § 2° , do Regimento Interno do Superior Tribunal Militar",
+    "label": "LEGISLACAO"
+  },
+  {
+    "text": "RISTM",
+    "label": "LEGISLACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Plenário', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como comentário , no próprio mérito da quaestio , inexiste ofensa a quaisquer princípios constitucionais no decreto de indulto emanado do Presidente da República e balizado pelos preceitos constitucionais .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "República",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('República', 'ORGANIZACAO')]
+

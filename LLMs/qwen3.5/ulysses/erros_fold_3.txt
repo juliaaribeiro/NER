@@ -1,0 +1,3600 @@
+--------------------------------------------------------------------------------
+Texto:
+ANGELA AMIN ) Denomina “ Willy Alfredo Zumblick ” o túnel construído no morro do Formigão , localizado entre o km 337,8 e o km 338,7 da BR - 101 , no Município de Tubarão , Estado de Santa Catarina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ANGELA AMIN",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Willy Alfredo Zumblick",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "morro do Formigão",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ANGELA AMIN",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Willy Alfredo Zumblick",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "morro do Formigão",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "BR - 101",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('BR - 101', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Fica denominado “ Willy Alfredo Zumblick ” o túnel construído no morro do Formigão , localizado entre o km 337,8 e o km 338,7 da BR - 101 , no Município de Tubarão , Estado de Santa Catarina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Willy Alfredo Zumblick",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "morro do Formigão",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      44,
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Willy Alfredo Zumblick",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "morro do Formigão",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "BR - 101",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('BR - 101', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Trata-se de projeto de lei para denominar “ Willy Alfredo Zumblick ” o túnel construído no morro do Formigão , localizado entre o km 337,8 e o km 338,7 da BR - 101 , no Município de Tubarão , Estado de Santa Catarina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Willy Alfredo Zumblick",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "morro do Formigão",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      41,
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Willy Alfredo Zumblick",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "morro do Formigão",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "BR - 101",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('BR - 101', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+O projeto anteriormente apresentado , PL nº 4.130 , de 2012 , foi aprovado nas Comissões de Viação e Transportes ( CVT ) e de Cultura ( CCULT ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PL nº 4.130 , de 2012",
+    "label": "FUNDprojetodelei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Comissões de Viação e Transportes ( CVT )",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Cultura ( CCULT )",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PL nº 4.130 , de 2012",
+    "label": "FUNDprojetodelei"
+  },
+  {
+    "text": "Comissões de Viação e Transportes ( CVT )",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Comissão de Cultura ( CCULT )",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Cultura ( CCULT )', 'ORGgovernamental')]
+Espúrias  (FP): [('Comissão de Cultura ( CCULT )', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Não obstante algumas pequenas alterações no texto da proposição aqui apresentada , consideramos que os argumentos que motivaram a primeira iniciativa permanecem os mesmos , e , portanto , tomamos a liberdade de transcrevê-los a seguir : P L n .4 6 3 2 / 2 0 1 9 A p re s e n ta ç ã o : 2 1 / 0 8 / 2 0 1 9 1 6 : 2 7 2 Willy Alfredo Zumblick nasceu em 26 de setembro de 1913 em Tubarão , Santa Catarina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Willy Alfredo Zumblick",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      76,
+      77,
+      78
+    ]
+  },
+  {
+    "text": "26 de setembro de 1913",
+    "label": "DATA",
+    "token_indices": [
+      81,
+      82,
+      83,
+      84,
+      85
+    ]
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "Santa Catarina",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      89,
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Willy Alfredo Zumblick",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "26 de setembro de 1918",
+    "label": "DATA"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "19 de janeiro de 2019",
+    "label": "DATA"
+  },
+  {
+    "text": "São Paulo",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('26 de setembro de 1913', 'DATA'), ('Tubarão', 'LOCALconcreto'), ('Santa Catarina', 'LOCALconcreto')]
+Espúrias  (FP): [('26 de setembro de 1918', 'DATA'), ('São Paulo', 'LOCALconcreto'), ('19 de janeiro de 2019', 'DATA'), ('São Paulo', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com o sucesso alcançado , impôs a Willy novas conquistas , levou sua exposição para o Cine Rex , em Florianópolis e diversas cidades catarinenses .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Willy",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Cine Rex",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Florianópolis",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cine Rex",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Florianópolis",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Willy', 'PESSOAindividual'), ('Cine Rex', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Cine Rex', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+O sucesso foi tão grande que o levou a alugar um salão no edifício sede da ABI – Associação Brasileira de Imprensa , no Rio de Janeiro , em junho de 1946 , onde , com sessenta telas , realizou sua mais importante exposição onde o consagrou definitivamente entre um dos artistas mais importantes do Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ABI – Associação Brasileira de Imprensa",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "junho de 1946",
+    "label": "DATA",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ABI – Associação Brasileira de Imprensa",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Rio de Janeiro",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "junho de 1946",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Retratou como ninguém os mais variados aspectos das tradições , da cultura , da história e dos tipos populares da cultura catarinense : Bandeira do Divino , Contestado , Anita Garibaldi , Boi de Mamão , as rendeiras , os imigrantes e seus hábitos em centenas de telas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "rendeiras",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bandeira do Divino",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "Contestado",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Anita Garibaldi",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Boi de Mamão",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "rendeiras",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): [('rendeiras', 'PESSOAcargo')]
+Espúrias  (FP): [('Bandeira do Divino', 'PRODUTOoutros'), ('Contestado', 'LOCALconcreto'), ('Anita Garibaldi', 'PESSOAindividual'), ('Boi de Mamão', 'PRODUTOoutros'), ('rendeiras', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além do Centro Municipal , existem diversos locais embelezados por sua obra como a Universidade do Sul de Santa Catarina – UNISUL , Hospital Nossa Senhora da Conceição , prefeitura e casas de amigos e da própria família .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Universidade do Sul de Santa Catarina – UNISUL",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Hospital Nossa Senhora da Conceição",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Universidade do Sul de Santa Catarina – UNISUL",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Hospital Nossa Senhora da Conceição",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('Universidade do Sul de Santa Catarina – UNISUL', 'ORGgovernamental')]
+Espúrias  (FP): [('Universidade do Sul de Santa Catarina – UNISUL', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 31 de agosto de 1985 , inaugurou no Km 338 da BR 101 , município de Tubarão , o Monumento ao Caminhoneiro , com 4,39 metros de altura .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "31 de agosto de 1985",
+    "label": "DATA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "31 de agosto de 1985",
+    "label": "DATA"
+  },
+  {
+    "text": "Km 338 da BR 101",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Monumento ao Caminhoneiro",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Km 338 da BR 101', 'LOCALconcreto'), ('Monumento ao Caminhoneiro', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Destaco que nos anos 90 , o Jornal Diário Catarinense realizou uma pesquisa popular que colocou entre os 20 catarinenses do século .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jornal Diário Catarinense",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jornal Diário Catarinense",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "catarinenses",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): [('Jornal Diário Catarinense', 'LOCALvirtual')]
+Espúrias  (FP): [('Jornal Diário Catarinense', 'ORGnaogovernamental'), ('catarinenses', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tamanha era sua importância e visibilidade como artista que o Rotary Club Internacional , existente em 170 países , tem uma galeria com 120 nomes de todo o mundo e Willy Zumblick faz parte dela .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rotary Club Internacional",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Willy Zumblick",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Willy Zumblick",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('Rotary Club Internacional', 'ORGnaogovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 6 3 2 / 2 0 1 9 A p re s e n ta ç ã o : 2 1 / 0 8 / 2 0 1 9 1 6 : 2 7 3 Em 26 de setembro de 2000 , o principal artista plástico catarinense do século , realizou o sonho e inaugurou o Museu Willy Zumblick , instalado no Centro Municipal de Cultura , no centro de Tubarão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "26 de setembro de 2000",
+    "label": "DATA",
+    "token_indices": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "Museu Willy Zumblick",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Centro Municipal de Cultura",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      66,
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      74
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "26 de setembro de 2000",
+    "label": "DATA"
+  },
+  {
+    "text": "Museu Willy Zumblick",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Centro Municipal de Cultura",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Museu Willy Zumblick', 'ORGnaogovernamental'), ('Centro Municipal de Cultura', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Museu Willy Zumblick', 'LOCALconcreto'), ('Centro Municipal de Cultura', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 12 de junho de 2010 atendendo requerimento deste deputado , foi realizada sessão solene no Plenário da Câmara dos Deputados para homenagear o grande artista e orgulho de todos os catarinenses .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "12 de junho de 2010",
+    "label": "DATA",
+    "token_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "12 de junho de 2010",
+    "label": "DATA"
+  },
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "catarinenses",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): [('deputado', 'PESSOAcargo')]
+Espúrias  (FP): [('catarinenses', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Willy Zumblick também era adorado por este Brasil afora e em especial pelo mundo artístico .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Willy Zumblick",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Willy Zumblick",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Seu falecimento ocorreu no dia 03 de abril de 2008 , no Hospital Nossa Senhora da Conceição , sendo sepultado no Cemitério Horto da Saudade , em Tubarão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "03 de abril de 2008",
+    "label": "DATA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Hospital Nossa Senhora da Conceição",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Cemitério Horto da Saudade",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "03 de abril de 2008",
+    "label": "DATA"
+  },
+  {
+    "text": "Hospital Nossa Senhora da Conceição",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Cemitério Horto da Saudade",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Tubarão",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Hospital Nossa Senhora da Conceição', 'ORGnaogovernamental')]
+Espúrias  (FP): [('Hospital Nossa Senhora da Conceição', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROJETO DE LEI Nº , DE 2019 ( Do Srs. DENIS BEZERRA e LÍDICE DA MATA ) Altera os arts . 6º e 7º da Lei nº 8.842 , de 4 de janeiro de 1994 , para estabelecer diretrizes a serem observadas na composição dos conselhos nacional , estaduais , do Distrito Federal e municipais do idoso , e dá outras providências .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "DENIS BEZERRA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "LÍDICE DA MATA",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "arts . 6º e 7º da Lei nº 8.842 , de 4 de janeiro de 1994",
+    "label": "FUNDlei",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "DENIS BEZERRA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "LÍDICE DA MATA",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "arts . 6º e 7º da Lei nº 8.842 , de 4 de janeiro de 1994",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "conselhos nacional , estaduais , do Distrito Federal e municipais do idoso",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('conselhos nacional , estaduais , do Distrito Federal e municipais do idoso', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Terão assento com direito a voto nos conselhos nacional , estaduais , do Distrito Federal e municipais do idoso : I - representantes governamentais indicados pelos titulares dos órgãos públicos diretamente subordinados ao Chefe do respectivo Poder Executivo que executem ações e políticas públicas nas áreas a que se referem os incisos I a VII do art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "conselhos nacional",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Chefe do respectivo Poder Executivo",
+    "label": "PESSOAcargo"
+  }
+]
+
+Perdidas  (FN): [('Poder Executivo', 'ORGgovernamental')]
+Espúrias  (FP): [('conselhos nacional', 'ORGgovernamental'), ('Chefe do respectivo Poder Executivo', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+10 desta Lei , dentre os servidores titulares de cargo efetivo com lotação no respectivo órgão ; II - representantes da sociedade civil livremente definidos pelos movimentos e organizações sociais , sendo vedada qualquer ingerência do Poder Público nessa escolha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Público",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "servidores",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "Poder Público",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('servidores', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+JUSTIFICAÇÃO A Lei nº 8.842 , de 4 de janeiro de 1994 , ao instituir a Política Nacional do Idoso , criou os Conselhos Nacional , estaduais , do Distrito Federal e municipais dos Direitos do Idoso , que participarão da coordenação da referida política nas respectivas esferas de governo , em conjunto com a pasta responsável pela assistência e promoção social da pessoa idosa .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 8.842 , de 4 de janeiro de 1994",
+    "label": "FUNDlei",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Política Nacional do Idoso",
+    "label": "FUNDapelido",
+    "token_indices": [
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 8.842 , de 4 de janeiro de 1994",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Política Nacional do Idoso",
+    "label": "PRODUTOprograma"
+  },
+  {
+    "text": "Conselhos Nacional",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Conselhos estaduais",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Conselhos do Distrito Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Conselhos municipais dos Direitos do Idoso",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Política Nacional do Idoso', 'FUNDapelido')]
+Espúrias  (FP): [('Política Nacional do Idoso', 'PRODUTOprograma'), ('Conselhos Nacional', 'ORGgovernamental'), ('Conselhos estaduais', 'ORGgovernamental'), ('Conselhos do Distrito Federal', 'ORGgovernamental'), ('Conselhos municipais dos Direitos do Idoso', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+7º da mesma Lei , a supervisão , o acompanhamento , a fiscalização e a avaliação da política nacional do idoso , no âmbito das respectivas instâncias político-administrativas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "política nacional do idoso",
+    "label": "FUNDlei",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('política nacional do idoso', 'FUNDlei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Além disso , o Estatuto do Idoso ( Lei nº 10.741 , de 1º de outubro de 2003 ) ampliou essas áreas de atuação estatal na proteção e promoção dos direitos da pessoa idosa , incluindo a política de atendimento a esse público , bem como prevendo o acesso preferencial ao transporte coletivo e a prioridade na jurisdição , apenas para citar alguns exemplos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estatuto do Idoso",
+    "label": "FUNDapelido",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Lei nº 10.741 , de 1º de outubro de 2003",
+    "label": "FUNDlei",
+    "token_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto do Idoso ( Lei nº 10.741 , de 1º de outubro de 2003 )",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('Estatuto do Idoso', 'FUNDapelido'), ('Lei nº 10.741 , de 1º de outubro de 2003', 'FUNDlei')]
+Espúrias  (FP): [('Estatuto do Idoso ( Lei nº 10.741 , de 1º de outubro de 2003 )', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+8º determina que os “ ministérios das áreas de saúde , educação , trabalho , previdência social , cultura , esporte e lazer devem elaborar proposta orçamentária , no âmbito de suas competências , visando ao financiamento de programas nacionais compatíveis com a política nacional do idoso ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ministérios das áreas de saúde",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "educação",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "trabalho",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "previdência social",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "cultura",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "esporte e lazer",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "política nacional do idoso",
+    "label": "FUNDapelido",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('ministérios das áreas de saúde', 'ORGgovernamental'), ('educação', 'ORGgovernamental'), ('trabalho', 'ORGgovernamental'), ('previdência social', 'ORGgovernamental'), ('cultura', 'ORGgovernamental'), ('esporte e lazer', 'ORGgovernamental'), ('política nacional do idoso', 'FUNDapelido')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+P L n .4 7 6 6 / 2 0 1 9 A p re s e n ta ç ã o : 2 9 / 0 8 / 2 0 1 9 1 0 : 1 8 3 Considerando o desenho institucional para a execução da Política Nacional do Idoso e de outras ações governamentais nesse campo , propomos o presente projeto de lei para determinar , como diretriz a ser observada no estabelecimento do número de assentos nos conselhos nas diversas esferas político-administrativas , sejam asseguradas , no mínimo , vagas para representantes dos Ministérios ou Secretarias estaduais , do DF ou municipais responsáveis pela execução das políticas públicas nas áreas previstas no já citado art . 10 da Lei da Lei nº 8.842 , de 1996 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Política Nacional do Idoso",
+    "label": "FUNDapelido",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "art . 10 da Lei da Lei nº 8.842 , de 1996",
+    "label": "FUNDlei",
+    "token_indices": [
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Política Nacional do Idoso",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Política Nacional do Idoso', 'FUNDapelido'), ('art . 10 da Lei da Lei nº 8.842 , de 1996', 'FUNDlei')]
+Espúrias  (FP): [('Política Nacional do Idoso', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Isso evitará que medidas de ocasião e contrárias ao espírito da Lei nº 8.842 , de 1994 , sejam adotadas no exercício do poder regulamentar confiado aos Chefes do Poder Executivos dos entes federados , que , em razão dos poderes fiscalizadores dos conselhos , possam eventualmente cair na tentação de esvaziá-los ou concentrar os representantes do poder público em uma só pasta governamental , a fim de controlar o colegiado e , por vezes , transformá-lo em uma espécie de subsecretaria de um único Ministério ou Secretaria .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei nº 8.842 , de 1994",
+    "label": "FUNDlei",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Poder Executivos",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "poder público",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei nº 8.842 , de 1994",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Chefes do Poder Executivos",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "conselhos",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Ministério",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Secretaria",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Poder Executivos', 'ORGgovernamental'), ('poder público', 'ORGgovernamental')]
+Espúrias  (FP): [('Chefes do Poder Executivos', 'PESSOAgrupocargo'), ('conselhos', 'ORGgovernamental'), ('Ministério', 'ORGgovernamental'), ('Secretaria', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+O desenho ora proposto reproduz a proposta que constava dos arts . 11 a 18 do Projeto de Lei nº 5.710 , de 1990 , que , apresentado pela Comissão de Assuntos Sociais do Senado Federal e aprovado por este Congresso Nacional , deu origem à Lei nº 8.842 , de 1996 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "arts . 11 a 18 do Projeto de Lei nº 5.710 , de 1990",
+    "label": "FUNDprojetodelei",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Comissão de Assuntos Sociais do Senado Federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Congresso Nacional",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Lei nº 8.842 , de 1996",
+    "label": "FUNDlei",
+    "token_indices": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "arts . 11 a 18 do Projeto de Lei nº 5.710 , de 1990",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Comissão de Assuntos Sociais do Senado Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Congresso Nacional",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Lei nº 8.842 , de 1996",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('arts . 11 a 18 do Projeto de Lei nº 5.710 , de 1990', 'FUNDprojetodelei')]
+Espúrias  (FP): [('arts . 11 a 18 do Projeto de Lei nº 5.710 , de 1990', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Naquela proposição , previa-se que o Conselho Nacional do Idoso contaria com dezessete membros , sendo um representante de cada um dos Ministérios do Bem-Estar Social , da Justiça , da Educação , da Saúde , da Previdência Social , do Trabalho , da Cultura , entre outros representares do poder público e da sociedade civil organizada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho Nacional do Idoso",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Ministérios do Bem-Estar Social",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Justiça",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Educação",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Saúde",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Previdência Social",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Trabalho",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Cultura",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "poder público",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      50,
+      51
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselho Nacional do Idoso",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Ministérios do Bem-Estar Social",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Justiça",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Educação",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Saúde",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Previdência Social",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Trabalho",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Cultura",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('poder público', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Isso evitará que a imposição de reuniões feitas por videoconferência venha a ser utilizada como forma de criar obstáculos à devida atuação dos membros do Conselho Nacional que residam em outras localidades do Brasil , que não Brasília .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Conselho Nacional",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Conselho Nacional",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Brasília",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Washington Reis ) Acrescenta art . 40 - A à Lei n o 8.213 , de 24 de julho de 1991 , e § 9 o ao art . 20 da Lei n ° 8.742 , de 7 de dezembro de 1993 , para dispor sobre acréscimo por idade na renda mensal do benefício de aposentadoria de valor mínimo do Regime Geral de Previdência Social e do benefício de prestação continuada da Assistência Social .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Washington Reis",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "art . 40 - A à Lei n o 8.213 , de 24 de julho de 1991",
+    "label": "FUNDlei",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "§ 9 o ao art . 20 da Lei n ° 8.742 , de 7 de dezembro de 1993",
+    "label": "FUNDlei",
+    "token_indices": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Regime Geral de Previdência Social",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Assistência Social",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      72,
+      73
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Washington Reis",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "art . 40 - A à Lei n o 8.213 , de 24 de julho de 1991",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "§ 9 o ao art . 20 da Lei n ° 8.742 , de 7 de dezembro de 1993",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Regime Geral de Previdência Social",
+    "label": "PRODUTOsistema"
+  },
+  {
+    "text": "Assistência Social",
+    "label": "PRODUTOprograma"
+  }
+]
+
+Perdidas  (FN): [('Regime Geral de Previdência Social', 'PRODUTOoutros'), ('Assistência Social', 'PRODUTOoutros')]
+Espúrias  (FP): [('Regime Geral de Previdência Social', 'PRODUTOsistema'), ('Assistência Social', 'PRODUTOprograma')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esse quadro é ainda mais grave no caso de hipossuficiência material dos idosos que recebem o benefício de prestação continuada da Assistência Social , atualmente limitado a um salário mínimo mensal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Assistência Social",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "salário mínimo",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Assistência Social', 'PRODUTOoutros')]
+Espúrias  (FP): [('salário mínimo', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+* C D 1 9 8 4 9 1 6 7 6 4 0 0 * P L n .4 7 0 6 / 2 0 1 9 A p re s e n ta ç ã o : 2 7 / 0 8 / 2 0 1 9 1 7 : 1 2 2 Na edição de junho da Revista Globo Rural , em artigo intitulado “ Resgate do Queijo Artesanal ” , a revista destaca os efeitos positivos da nova regulamentação de produtos de origem animal e da expansão do mercado de queijos artesanais , que diversifica e amplia as fronteiras de comercialização .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Revista Globo Rural",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      60,
+      61,
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "junho",
+    "label": "DATA"
+  },
+  {
+    "text": "Revista Globo Rural",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Resgate do Queijo Artesanal",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Revista Globo Rural', 'LOCALvirtual')]
+Espúrias  (FP): [('junho', 'DATA'), ('Revista Globo Rural', 'ORGnaogovernamental'), ('Resgate do Queijo Artesanal', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+De fato , os produtores estão se aprimorando no caminho da diversidade e da identidade dos queijos tipicamente brasileiros .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "produtores",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('produtores', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Apesar desse reconhecimento internacional de qualidade já alcançado , nossos artesãos passam pela constrangedora situação da falta regulamentação para a saída do País com seus produtos de origem animal , os quais podem até mesmo ser eventualmente apreendidos pelos órgãos sanitários de vigilância dos aeroportos pelos quais transitarem .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "artesãos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('artesãos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Desse modo , apresentamos a presente proposição , que visa a aperfeiçoar a legislação de produtos alimentícios artesanais de origem animal para fins de exportação ou participação em concursos e provas internacionais , e pedimos o apoio dos nobres colegas parlamentares para a sua aprovação .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "parlamentares",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('parlamentares', 'PESSOAgrupocargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sala das Sessões , em de agosto de 2019 .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "agosto de 2019",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('agosto de 2019', 'DATA')]
+
+--------------------------------------------------------------------------------
+Texto:
+1 PROJETO DE RESOLUÇÃO N O , DE 2011 ( Do Sr. SÁGUAS MORAES ) Altera o Regimento Interno da Câmara dos Deputados para aumentar o número de oradores no Grande Expediente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2011",
+    "label": "DATA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "SÁGUAS MORAES",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Regimento Interno da Câmara dos Deputados",
+    "label": "FUNDlei",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2011",
+    "label": "DATA"
+  },
+  {
+    "text": "SÁGUAS MORAES",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Regimento Interno da Câmara dos Deputados', 'FUNDlei')]
+Espúrias  (FP): [('Câmara dos Deputados', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Câmara dos Deputados resolve : Art . 1 o Esta resolução aumenta o número de oradores no Grande Expediente , atribuindo a cada um deles um período de quinze minutos para o seu pronunciamento .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Câmara dos Deputados",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Grande Expediente",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Câmara dos Deputados', 'ORGgovernamental'), ('Grande Expediente', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2 o O inciso II do art . 66 do Regimento Interno passa a vigorar com a seguinte redação : “ Art . 66 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "inciso II do art . 66 do Regimento Interno",
+    "label": "FUNDlei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('inciso II do art . 66 do Regimento Interno', 'FUNDlei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( NR ) ” Art . 3 o O caput do art . 87 do Regimento Interno passa a vigorar com a seguinte redação : “ Art . 87 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "caput do art . 87 do Regimento Interno",
+    "label": "FUNDlei",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('caput do art . 87 do Regimento Interno', 'FUNDlei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+( NR ) ” Art . 4 o O § 4 o do art . 82 do Regimento Interno passa a vigorar com a seguinte redação : 2 “ Art . 82
+
+Entidades verdadeiras:
+[
+  {
+    "text": "§ 4 o do art . 82 do Regimento Interno",
+    "label": "FUNDlei",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('§ 4 o do art . 82 do Regimento Interno', 'FUNDlei')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Projeto de Resolução que ora propomos objetiva democratizar o espaço do Grande Expediente nas sessões da Câmara e viabilizar a participação de um número maior de Deputados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputados",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Grande Expediente",
+    "label": "EVENTO"
+  },
+  {
+    "text": "Câmara",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Deputados",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Grande Expediente', 'EVENTO'), ('Câmara', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Com esta medida , três parlamentares , durante as sessões deliberativas , e oito parlamentares , durante as sessões de debates , poderão ser oradores no Grande Expediente , um aumento considerável de nove parlamentares por semana e trinta e seis por mês , em média .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "parlamentares",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "parlamentares",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "parlamentares",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "parlamentares",
+    "label": "PESSOAgrupocargo"
+  }
+]
+
+Perdidas  (FN): [('parlamentares', 'PESSOAgrupocargo'), ('parlamentares', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Todos sabemos que as regras atuais de sorteio para a escolha dos oradores do Grande Expediente não dão possibilidade a todos os Deputados da Casa de usarem a Tribuna para se pronunciarem de maneira mais profunda e substancial sobre assuntos de interesse nacional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputados",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputados",
+    "label": "PESSOAgrupocargo"
+  },
+  {
+    "text": "Casa",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Grande Expediente",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Casa', 'ORGgovernamental'), ('Grande Expediente', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+A tabela a seguir compara a situação do Brasil com o mundo , em termos de acessos de usuários e quantidade de antenas , em dezembro / 2018 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "dezembro / 2018",
+    "label": "DATA",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "dezembro / 2018",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Mundo Brasil % Brasil / Mundo Acessos Celulares ( milhões ) 7600 229,2 3,0% Numero de Antenas ( milhares ) 6500 94,9 1,5% Fonte : Anatel , UIT , Mobile World Live P L n .4 5 6 6 / 2 0 1 9 A p re s e n ta ç ã o : 2 0 / 0 8 / 2 0 1 9 1 4 : 4 1 3 Para ingressar na quarta revolução tecnológica , uma das tecnologias basilares , a ser introduzida no Brasil , é a quinta geração de comunicação móvel , mais conhecida como internet móvel 5 G .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Anatel",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "UIT",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Mobile World Live",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      87
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto"
+  },
+  {
+    "text": "Anatel",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "UIT",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Mobile World Live",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('Mobile World Live', 'LOCALvirtual')]
+Espúrias  (FP): [('Mobile World Live', 'ORGnaogovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+As redes de quinta geração operam em altíssimas frequências , no caso do Brasil , um estudo da GSMA 1 apontou como relevantes as frequências de 3,5 GHz , 26 GHz , 40 GHz e 66 - 71 GHz , isto faz com que as antenas tenham coberturas reduzidas que vai de dezenas e até centenas de metros , havendo a necessidade de um número muito maior de antenas para cobrir uma mesma área hoje coberta com a tecnologia 4 G .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "GSMA",
+    "label": "ORGnaogovernamental",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "GSMA",
+    "label": "ORGnaogovernamental"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Portanto , um dos maiores desafios para a implantação da 5 G no Brasil será a agilidade e a rapidez nos processos de licenciamento para a instalação de novas antenas , que serão em número muito maior do que aqueles hoje demandados e em grande parte ainda não atendidos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Portanto , torna-se necessário o aperfeiçoamento da Lei atual , para estabelecer um caminho rápido – “ Fast Track ” para agilizar os 1 https : / / www.gsma.com / spectrum / wp-content / uploads / 2019 / 06 / mmWave - 5G-benefits.pdf P L n .4 5 6 6 / 2 0 1 9 A p re s e n ta ç ã o : 2 0 / 0 8 / 2 0 1 9 1 4 : 4 1 4 processos de licenciamento das antenas abrindo o espaço para que a internet móvel 5 G torne-se uma realidade no Brasil , a partir de 2021 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "https : / / www.gsma.com / spectrum / wp-content / uploads / 2019 / 06 / mmWave - 5G-benefits.pdf",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "LOCALconcreto",
+    "token_indices": [
+      101
+    ]
+  },
+  {
+    "text": "2021",
+    "label": "DATA",
+    "token_indices": [
+      106
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lei",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "https : / / www.gsma.com / spectrum / wp-content / uploads / 2019 / 06 / mmWave - 5G-benefits.pdf",
+    "label": "LOCALvirtual"
+  }
+]
+
+Perdidas  (FN): [('Brasil', 'LOCALconcreto'), ('2021', 'DATA')]
+Espúrias  (FP): [('Lei', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+Neste caso , não se justifica ser apenado pela “ posse irregular de arma de fogo de uso permitido ” , nos termos do art .12 da Lei nº 10.826 , de 22 de dezembro de 2003 , que dispõe sobre o estatuto do desarmamento .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art .12 da Lei nº 10.826 , de 22 de dezembro de 2003",
+    "label": "FUNDlei",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "estatuto do desarmamento",
+    "label": "FUNDapelido",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art .12 da Lei nº 10.826 , de 22 de dezembro de 2003",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('estatuto do desarmamento', 'FUNDapelido')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Ilustrativa desta distorção é o artigo de Fernando Capez ( Procurador de Justiça do Estado de São Paulo ) , publicado na edição de lançamento do Enfoque Jurídico , de dezembro de 2010 , sob o titulo “ Porte de Arma Desmuniciada , Ineficaz ou de Brinquedo na Visão do STF ” , cujo teor se transcreve adiante : “ Recentemente a 1ª Turma do Supremo Tribunal Federal , reformulando antigo posicionamento , passou a se pronunciar no sentido de que , para o perfazimento do crime de porte de arma de fogo ( arts . 14 e 16 do Estatuto do Desarmamento ) não importa se o artefato está ou não municiado ou , ainda , se apresenta regular funcionamento1 [ 1 ] .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fernando Capez",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Procurador de Justiça do Estado de São Paulo",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Enfoque Jurídico",
+    "label": "LOCALvirtual",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "dezembro de 2010",
+    "label": "DATA",
+    "token_indices": [
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "STF",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "arts . 14 e 16 do Estatuto do Desarmamento",
+    "label": "FUNDlei",
+    "token_indices": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fernando Capez",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Procurador de Justiça do Estado de São Paulo",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Enfoque Jurídico",
+    "label": "PRODUTOoutros"
+  },
+  {
+    "text": "dezembro de 2010",
+    "label": "DATA"
+  },
+  {
+    "text": "1ª Turma do Supremo Tribunal Federal",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Supremo Tribunal Federal",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): [('Enfoque Jurídico', 'LOCALvirtual'), ('STF', 'ORGgovernamental'), ('arts . 14 e 16 do Estatuto do Desarmamento', 'FUNDlei')]
+Espúrias  (FP): [('Enfoque Jurídico', 'PRODUTOoutros'), ('1ª Turma do Supremo Tribunal Federal', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esse escólio , entretanto , restou superado pela nova linha interpretativa albergada pelo STF , pois , a partir de agora , haverá a configuração de crime em todas as situações acima referidas , na medida em que o Estatuto do Desarmamento , em seu art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "STF",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Estatuto do Desarmamento",
+    "label": "FUNDapelido",
+    "token_indices": [
+      39,
+      40,
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto do Desarmamento",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "art .",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): [('STF', 'ORGgovernamental')]
+Espúrias  (FP): [('art .', 'FUNDlei')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além do que , segundo a Egrégia Corte , a objetividade jurídica dos delitos previstos na Lei transcende a mera proteção da incolumidade pessoal , para alcançar também a tutela da liberdade individual e de todo o corpo social , asseguradas ambas pelo incremento dos níveis de segurança coletiva que ele propicia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Egrégia Corte",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Egrégia Corte",
+    "label": "ORGnaogovernamental"
+  },
+  {
+    "text": "Lei",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Egrégia Corte', 'ORGgovernamental')]
+Espúrias  (FP): [('Egrégia Corte', 'ORGnaogovernamental'), ('Lei', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+O legislador nem exigiu a prova do perigo concreto a pessoa determinada , nem 4 autorizou a presunção do perigo em hipóteses em que ele é totalmente inviável , isto é , em que a conduta jamais redundará em redução do nível de segurança da coletividade .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "legislador",
+    "label": "PESSOAcargo"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('legislador', 'PESSOAcargo')]
+
+--------------------------------------------------------------------------------
+Texto:
+Trata-se de situação profundamente iníqua , que está a requerer pronta ação do poder público .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "poder público",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('poder público', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Lincoln Portela ) Dispõe sobre a dotação de recursos financeiros para os centros municipais de controle de zoonoses , centros de triagens e organismos de combate ao tráfico e proteção aos animais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lincoln Portela",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "centros municipais de controle de zoonoses",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "centros de triagens e organismos de combate ao tráfico e proteção aos animais",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Lincoln Portela",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('centros municipais de controle de zoonoses', 'ORGgovernamental'), ('centros de triagens e organismos de combate ao tráfico e proteção aos animais', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O valor da contribuição de que trata este artigo será recolhido junto ao Tesouro Nacional , que se obriga a repassar os valores arrecadados ao Fundo Federal de Proteção Animal até o dia 30 de cada mês .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fundo Federal de Proteção Animal",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tesouro Nacional",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "Fundo Federal de Proteção Animal",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Tesouro Nacional', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 2º Fica criado o Fundo Federal de Proteção Animal , de natureza contábil , com as seguintes finalidades : I – financiar o recolhimento , tratamento e esterilização de animais de rua por centros ou unidades municipais de controle de zoonoses , assegurada a utilização , no caso da esterilização , de técnica que inflija o menor sofrimento possível ao animal ; 2 II – financiar os centros de triagem e os organismos de combate ao tráfico e de proteção aos animais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fundo Federal de Proteção Animal",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Fundo Federal de Proteção Animal', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Art . 3º O Fundo Federal de Proteção Animal disporá das seguintes fontes de recursos : I – os recursos oriundos da contribuição de que trata o art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fundo Federal de Proteção Animal",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Fundo Federal de Proteção Animal', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+1º desta Lei ; II – dotações consignadas na Lei Orçamentária Anual da União e em seus créditos adicionais ; III – recursos decorrentes de acordos , ajustes , contratos e convênios celebrados com órgãos e entidades da administração pública federal , estadual , do Distrito Federal ou municipal ; IV – doações realizadas por pessoas físicas ou por entidades nacionais e internacionais , públicas ou privadas ; V – empréstimos de instituições financeiras nacionais ou internacionais ; VI – reversão dos saldos anuais não aplicados ; VII – rendimentos que venha a auferir como remuneração decorrente de aplicação do seu patrimônio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Lei Orçamentária Anual",
+    "label": "FUNDapelido",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Lei Orçamentária Anual', 'FUNDapelido')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A destinação dos recursos do Fundo Federal de Proteção Animal obedecerá aos seguintes critérios : I - 50% para os Centros de Controle de Zoonoses ; II - 50% para os centros de triagem , organismos de combate ao tráfico animal e de proteção animal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fundo Federal de Proteção Animal",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Centros de Controle de Zoonoses",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "text": "centros de triagem , organismos de combate ao tráfico animal e de proteção animal",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fundo Federal de Proteção Animal",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Centros de Controle de Zoonoses', 'ORGgovernamental'), ('centros de triagem , organismos de combate ao tráfico animal e de proteção animal', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS PROJETO DE LEI Nº , DE 2011 ( Do Sr .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "text": "2011",
+    "label": "DATA",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2011",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+HUGO LEAL ) Dispõe sobre o direito do consumidor a substituição imediata de aparelho de telefonia móvel defeituoso .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HUGO LEAL )",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HUGO LEAL",
+    "label": "PESSOAindividual"
+  }
+]
+
+Perdidas  (FN): [('HUGO LEAL )', 'PESSOAindividual')]
+Espúrias  (FP): [('HUGO LEAL', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+Mas temos que pensar principalmente nos milhões de cidadãos brasileiros , principalmente os 40% ( quarenta por cento ) mais carentes , para os quais o celular pré-pago é a alternativa para lhes garantir o contato com seus amigos e familiares , quando presos ao trânsito ou outras dificuldades típicas do dia-a-dia , e mais frequentemente com seus empregadores .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "empregadores",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('empregadores', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Não menos importante , o celular é o grande impulsionador dos negócios , sendo de utilidade vital para os trabalhadores autônomos e aqueles que precisam de agilidade e mobilidade na promoção de seus empreendimentos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "trabalhadores autônomos",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('trabalhadores autônomos', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado HUGO LEAL PSC-RJ
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "HUGO LEAL",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "HUGO LEAL",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PSC",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "RJ",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('PSC', 'ORGpartido'), ('RJ', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROFESSORA DAYANE PIMENTEL ) Altera o art . 117 da Lei nº 8.069 , de 13 de julho de 1990 ( Estatuto da Criança e do Adolescente ) , aumentando para um ano o tempo máximo para prestação de serviços comunitários .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PROFESSORA",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "DAYANE PIMENTEL",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "art . 117 da Lei nº 8.069 , de 13 de julho de 1990",
+    "label": "FUNDlei",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Estatuto da Criança e do Adolescente",
+    "label": "FUNDapelido",
+    "token_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PROFESSORA DAYANE PIMENTEL",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "art . 117 da Lei nº 8.069 , de 13 de julho de 1990",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Estatuto da Criança e do Adolescente",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('PROFESSORA', 'PESSOAcargo'), ('DAYANE PIMENTEL', 'PESSOAindividual')]
+Espúrias  (FP): [('PROFESSORA DAYANE PIMENTEL', 'PESSOAindividual')]
+
+--------------------------------------------------------------------------------
+Texto:
+É necessário enfatizar , contudo , que o nosso Estatuto data do ano de 1990 , onde o dispositivo retrocitado trazia regra com limite temporal suficiente , à época , a ser imposta à citada medida socioeducativa , cumprindo , assim , a sua missão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1990",
+    "label": "DATA",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estatuto",
+    "label": "FUNDapelido"
+  },
+  {
+    "text": "1990",
+    "label": "DATA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Estatuto', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ocorre que , atualmente , a sociedade brasileira vem assistindo ao vertiginoso aumento de atos infracionais , cabendo evidenciar , in casu , o grande número de ataques físicos e verbais levados a efeito por adolescentes em face de professores .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "professores",
+    "label": "PESSOAgrupocargo",
+    "token_indices": [
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('professores', 'PESSOAgrupocargo')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+* C D 1 9 2 1 7 0 7 3 7 5 0 0 * D o c u m e n to e le tr ô n ic o a s s in a d o p o r C a ro li n e d e T o n i ( P S L / S C ) , n a f o rm a d o a rt .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Caroline de Toni",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PSL",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "SC",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Caroline de Toni', 'PESSOAindividual'), ('PSL', 'ORGpartido'), ('SC', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+A distorção é tamanha que a pena mínima atualmente prevista para o homicídio simples ( art . 121 , caput , do Código Penal ) – 06 ( seis ) anos de reclusão – , por exemplo , impede a fixação do regime fechado como inicial para cumprimento da pena , salvo em situações de reincidência .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 121 , caput , do Código Penal",
+    "label": "FUNDlei",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "homicídio simples",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "Código Penal",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('art . 121 , caput , do Código Penal', 'FUNDlei')]
+Espúrias  (FP): [('homicídio simples', 'PESSOAcargo'), ('Código Penal', 'FUNDapelido')]
+
+--------------------------------------------------------------------------------
+Texto:
+Nessas situações , portanto , não são raros os casos em que famílias enlutadas assistem perplexas ao homicida sair livre pela porta da frente do Tribunal do Júri a fim de cumprir a “ pena ” , via de regra aplicada em regime semiaberto , sedimentando a imagem de inoperância e alimentando o descrédito em relação à justiça .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Tribunal do Júri",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Tribunal do Júri', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Deputada CAROLINE DE TONI 2019 - 9991 * C D 1 9 2 1 7 0 7 3 7 5 0 0 * D o c u m e n to e le tr ô n ic o a s s in a d o p o r C a ro li n e d e T o n i ( P S L / S C ) , n a f o rm a d o a rt .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputada",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "CAROLINE DE TONI",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "2019",
+    "label": "DATA",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputada",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "CAROLINE DE TONI",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "2019",
+    "label": "DATA"
+  },
+  {
+    "text": "9991",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "C D 1 9 2 1 7 0 7 3 7 5 0 0",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Caroline de Toni",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PSL",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "SC",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('9991', 'FUNDlei'), ('C D 1 9 2 1 7 0 7 3 7 5 0 0', 'FUNDlei'), ('Caroline de Toni', 'PESSOAindividual'), ('PSL', 'ORGpartido'), ('SC', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+HUGO LEAL ) Altera a Lei nº 9.503 , de 23 de setembro de 1997 , que institui o Código de Trânsito Brasileiro , para dispor sobre o prêmio “ Trânsito Melhor e Mais Seguro ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "HUGO LEAL",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Lei nº 9.503 , de 23 de setembro de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Código de Trânsito Brasileiro",
+    "label": "FUNDapelido",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Trânsito Melhor e Mais Seguro",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "HUGO LEAL",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "Lei nº 9.503 , de 23 de setembro de 1997",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Código de Trânsito Brasileiro",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Trânsito Melhor e Mais Seguro', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Esta Lei acresce o art . 319 - A à Lei nº 9.503 , de 23 de setembro de 1997 , que institui o Código de Trânsito Brasileiro , para dispor sobre o prêmio “ Trânsito Melhor e Mais Seguro ” .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 319 - A à Lei nº 9.503 , de 23 de setembro de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Código de Trânsito Brasileiro",
+    "label": "FUNDapelido",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Trânsito Melhor e Mais Seguro",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "art . 319 - A à Lei nº 9.503 , de 23 de setembro de 1997",
+    "label": "FUNDlei"
+  },
+  {
+    "text": "Código de Trânsito Brasileiro",
+    "label": "FUNDapelido"
+  }
+]
+
+Perdidas  (FN): [('Trânsito Melhor e Mais Seguro', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Fica criado o prêmio “ Trânsito Melhor e Mais Seguro ” de âmbito nacional , com periodicidade anual , a ser custeado na forma prevista no parágrafo único do art .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Trânsito Melhor e Mais Seguro",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Trânsito Melhor e Mais Seguro', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS Art . 4º O art . 320 da Lei nº 9.503 , de 1997 , passa a vigorar com a seguinte redação : “ Art . 320 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "art . 320 da Lei nº 9.503 , de 1997",
+    "label": "FUNDlei",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "art . 320 da Lei nº 9.503 , de 1997",
+    "label": "FUNDlei"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Dentre tais iniciativas , podemos destacar a criação do prêmio “ Trânsito Melhor e Mais Seguro ” , ao qual correspondem três classificações , com as respectivas premiações .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Trânsito Melhor e Mais Seguro",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "prêmio “ Trânsito Melhor e Mais Seguro ”",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): [('Trânsito Melhor e Mais Seguro', 'PRODUTOoutros')]
+Espúrias  (FP): [('prêmio “ Trânsito Melhor e Mais Seguro ”', 'PRODUTOoutros')]
+
+--------------------------------------------------------------------------------
+Texto:
+De âmbito nacional , o prêmio “ Trânsito Melhor e Mais Seguro ” se apresenta como uma oportunidade de explanação de idéias , realizações ou intenções de temas afins à premiação que , entre outras ações , contemplam aquelas vinculadas à infraestrutura , a exemplo da sinalização e engenharia de tráfego , como também à educação do condutor , com vistas à melhoria da mobilidade e da segurança do trânsito .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Trânsito Melhor e Mais Seguro",
+    "label": "PRODUTOoutros",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Trânsito Melhor e Mais Seguro', 'PRODUTOoutros')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+CÂMARA DOS DEPUTADOS O prêmio representa um incentivo à participação da sociedade , ensejando a discussão da melhoria e segurança no trânsito , com vistas à elevação da qualidade de vida do conjunto de seus usuários .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "CÂMARA DOS DEPUTADOS",
+    "label": "ORGgovernamental"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('CÂMARA DOS DEPUTADOS', 'ORGgovernamental')]
+
+--------------------------------------------------------------------------------
+Texto:
+Deputado HUGO LEAL PSC-RJ
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "HUGO LEAL",
+    "label": "PESSOAindividual",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Deputado",
+    "label": "PESSOAcargo"
+  },
+  {
+    "text": "HUGO LEAL",
+    "label": "PESSOAindividual"
+  },
+  {
+    "text": "PSC",
+    "label": "ORGpartido"
+  },
+  {
+    "text": "RJ",
+    "label": "LOCALconcreto"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('PSC', 'ORGpartido'), ('RJ', 'LOCALconcreto')]
+
+--------------------------------------------------------------------------------
+Texto:
+O Congresso Nacional decreta : Art . 1º Fica o Poder Executivo autorizado a abrir linha de crédito subsidiada em instituições bancárias oficiais até o limite de R $ 50.000,00 ( cinquenta mil reais ) por família , para atender as vítimas de calamidades públicas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Poder Executivo",
+    "label": "ORGgovernamental"
+  },
+  {
+    "text": "R $ 50.000,00",
+    "label": "PRODUTOoutros"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('R $ 50.000,00', 'PRODUTOoutros')]
+

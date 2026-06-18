@@ -1,0 +1,5370 @@
+--------------------------------------------------------------------------------
+Texto:
+HISTÓRICO Esta seção traz de volta um pouco da longa história do DCC . O DCC - Departamento de Cultura Científica do Centro Acadêmico Pereira Barretto ( DCC/CAPB ), órgão responsável pela representação e encaminhamento científico dos alunos da UNIFESP/EPM , fundado em 1937 , atua junto aos alunos promovendo vários cursos extracurriculares, palestras, conferências e discussões de interesse à área médica. Organiza o Prêmio "Pereira Barretto" , importante e conceituada premiação anual de trabalhos científicos acadêmicos, o Congresso Acadêmico Paulista de Medicina ( CAPM ), cursos de computação, cursos de idiomas e Revista científica. DCC - Como começou Os alunos sempre estiveram envolvidos na estruturação da Escola Paulista de Medicina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DCC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "DCC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Departamento de Cultura Científica do Centro Acadêmico Pereira Barretto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "DCC/CAPB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "UNIFESP/EPM",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "1937",
+    "label": "TEMPO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Prêmio \"Pereira Barretto\"",
+    "label": "OUTRO",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Congresso Acadêmico Paulista de Medicina",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      78,
+      79,
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "CAPM",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      84
+    ]
+  },
+  {
+    "text": "DCC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "Escola Paulista de Medicina",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      107,
+      108,
+      109,
+      110
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DCC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Departamento de Cultura Científica do Centro Acadêmico Pereira Barretto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "DCC/CAPB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1937",
+    "label": "TEMPO"
+  },
+  {
+    "text": "DCC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Prêmio \"Pereira Barretto\"",
+    "label": "OBRA"
+  },
+  {
+    "text": "CAPM",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "DCC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Escola Paulista de Medicina",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('UNIFESP/EPM', 'ORGANIZACAO'), ('Prêmio "Pereira Barretto"', 'OUTRO'), ('Congresso Acadêmico Paulista de Medicina', 'ACONTECIMENTO'), ('CAPM', 'ACONTECIMENTO')]
+Espúrias  (FP): [('Prêmio "Pereira Barretto"', 'OBRA'), ('CAPM', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Poucos anos após sua fundação as atividades estudantis se intensificaram. O DCC surge em cinco de maio de 1937 |cinco de maio de 1937 graças ao apoio de professores e ao espirito virtuoso de acadêmicos que, no afã de realizar algo mais do que apenas seguir seus currículos, inauguraram uma história de trabalho, dedicação e abnegação.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DCC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "cinco de maio de 1937",
+    "label": "TEMPO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "maio de 1937",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DCC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "cinco de maio de 1937",
+    "label": "TEMPO"
+  },
+  {
+    "text": "cinco de maio de 1937",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('maio de 1937', 'TEMPO')]
+Espúrias  (FP): [('cinco de maio de 1937', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Seus primeiros diretores foram os então acadêmicos Wladimir da Prússia Gomes Ferraz ( Presidente ), Arulemo Santos Novaes e Jair Xavier Guimarães ( Secretários ). O DCC/CAPB iniciou seus trabalhos coordenando atividades extracurriculares como Cursos, Congresso Acadêmico e instituindo Prêmios Científicos, como o Prêmio Pereira Barreto , e organizando revista científica voltada para a divulgação de trabalhos produzidos por alunos da escola e por internos do Hospital São Paulo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Wladimir da Prússia Gomes Ferraz",
+    "label": "PESSOA",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Arulemo Santos Novaes",
+    "label": "PESSOA",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Jair Xavier Guimarães",
+    "label": "PESSOA",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Secretários",
+    "label": "PESSOA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "DCC/CAPB",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Prêmio Pereira Barreto",
+    "label": "OUTRO",
+    "token_indices": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Hospital São Paulo",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      66,
+      67,
+      68
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Wladimir da Prússia Gomes Ferraz",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Presidente",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Arulemo Santos Novaes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Jair Xavier Guimarães",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Secretários",
+    "label": "PESSOA"
+  },
+  {
+    "text": "DCC/CAPB",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Prêmio Pereira Barreto",
+    "label": "OBRA"
+  },
+  {
+    "text": "Hospital São Paulo",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Prêmio Pereira Barreto', 'OUTRO')]
+Espúrias  (FP): [('Prêmio Pereira Barreto', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A revista foi denominada Medicina e Cultura e teve o seu primeiro número publicado em janeiro de 1939 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Medicina e Cultura",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "janeiro de 1939",
+    "label": "TEMPO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Medicina e Cultura",
+    "label": "OBRA"
+  },
+  {
+    "text": "janeiro de 1939",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Medicina e Cultura', 'ABSTRACCAO')]
+Espúrias  (FP): [('Medicina e Cultura', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Atualmente, o DCC organiza o Congresso Acadêmico Paulista de Medicina , o Prêmio Pereira Barreto e, em média, 20 cursos de extensão universitária por ano, que contam com a presença de acadêmicos desta e demais instituições de ensino médico. Temos aumentado a cada ano o reconhecimento de nossos cursos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DCC",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Congresso Acadêmico Paulista de Medicina",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Prêmio Pereira Barreto",
+    "label": "OUTRO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "20",
+    "label": "VALOR",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DCC",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Congresso Acadêmico Paulista de Medicina",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Prêmio Pereira Barreto",
+    "label": "ACONTECIMENTO"
+  }
+]
+
+Perdidas  (FN): [('Prêmio Pereira Barreto', 'OUTRO'), ('20', 'VALOR')]
+Espúrias  (FP): [('Prêmio Pereira Barreto', 'ACONTECIMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Projecto Vercial Projecto Vercial A maior base de dados sobre literatura portuguesa Secções Sophia de Mello Breyner Andresen Literatura Medieval Literatura Clássica Literatura Barroca Literatura Neoclássica Literatura Romântica Literatura Pós-Romântica Correntes do Século XX Literatura Actual Nota Introdutória Índice de Autores Índice de Obras Outras Ligações Biblioteca Gráfica Letras & Letras Curso de Literatura Fotos de Portugal Por favor, introduza a palavra ou expressão que deseja pesquisar: Obras integrais de autores portugueses Sophia de Mello Breyner Andresen nasceu no Porto em 6 de Novembro de 1919 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Projecto Vercial",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Projecto Vercial",
+    "label": "LOCAL",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Sophia de Mello Breyner Andresen",
+    "label": "PESSOA",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Literatura Medieval",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Literatura Clássica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Literatura Barroca",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Literatura Neoclássica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Literatura Romântica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Literatura Pós-Romântica",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "Século XX",
+    "label": "TEMPO",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Literatura Actual",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Literatura",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "Portugal",
+    "label": "LOCAL",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Sophia de Mello Breyner Andresen",
+    "label": "PESSOA",
+    "token_indices": [
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "6 de Novembro de 1919",
+    "label": "TEMPO",
+    "token_indices": [
+      81,
+      82,
+      83,
+      84,
+      85
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Projecto Vercial', 'LOCAL'), ('Projecto Vercial', 'LOCAL'), ('Sophia de Mello Breyner Andresen', 'PESSOA'), ('Literatura Medieval', 'ABSTRACCAO'), ('Literatura Clássica', 'ABSTRACCAO'), ('Literatura Barroca', 'ABSTRACCAO'), ('Literatura Neoclássica', 'ABSTRACCAO'), ('Literatura Romântica', 'ABSTRACCAO'), ('Literatura Pós-Romântica', 'ABSTRACCAO'), ('Século XX', 'TEMPO'), ('Literatura Actual', 'ABSTRACCAO'), ('Literatura', 'ABSTRACCAO'), ('Portugal', 'LOCAL'), ('Sophia de Mello Breyner Andresen', 'PESSOA'), ('Porto', 'LOCAL'), ('6 de Novembro de 1919', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Foi agraciada com o Prémio Camões em 1999 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prémio Camões",
+    "label": "OUTRO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prémio Camões",
+    "label": "OBRA"
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Prémio Camões', 'OUTRO')]
+Espúrias  (FP): [('Prémio Camões', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Obras poéticas: Poesia ( 1944 ), Dia do Mar ( 1947 ), Coral , ( 1950 ), No Tempo Dividido , ( 1954 ), Mar Novo ( 1958 ), Livro Sexto ( 1962 ) Geografia ( 1967 ) , Dual ( 1972 ), Nome das Coisas ( 1977 ), Musa ( 1994 ), etc. Obras narrativas: O Cavaleiro da Dinamarca , Contos Exemplares , Histórias da Terra e do Mar , A Floresta , A Menina do Mar , O Rapaz de Bronze , A Fada Oriana , etc. Voltar àpágina da Literatura Actual Pórtico | Nota Introdutória | Índice de Autores | Índice de Obras | Outras Ligações ©1996-2002, Projecto Vercial .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Poesia",
+    "label": "OBRA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "1944",
+    "label": "TEMPO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Dia do Mar",
+    "label": "OBRA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "1947",
+    "label": "TEMPO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Coral",
+    "label": "OBRA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "1950",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "No Tempo Dividido",
+    "label": "OBRA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "1954",
+    "label": "TEMPO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Mar Novo",
+    "label": "OBRA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "1958",
+    "label": "TEMPO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Livro Sexto",
+    "label": "OBRA",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "1962",
+    "label": "TEMPO",
+    "token_indices": [
+      32
+    ]
+  },
+  {
+    "text": "Geografia",
+    "label": "OBRA",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "1967",
+    "label": "TEMPO",
+    "token_indices": [
+      36
+    ]
+  },
+  {
+    "text": "Dual",
+    "label": "OBRA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "1972",
+    "label": "TEMPO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Nome das Coisas",
+    "label": "OBRA",
+    "token_indices": [
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "1977",
+    "label": "TEMPO",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Musa",
+    "label": "OBRA",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "1994",
+    "label": "TEMPO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "O Cavaleiro da Dinamarca",
+    "label": "OBRA",
+    "token_indices": [
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "Contos Exemplares",
+    "label": "OBRA",
+    "token_indices": [
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Histórias da Terra e do Mar",
+    "label": "OBRA",
+    "token_indices": [
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "A Floresta",
+    "label": "OBRA",
+    "token_indices": [
+      71,
+      72
+    ]
+  },
+  {
+    "text": "A Menina do Mar",
+    "label": "OBRA",
+    "token_indices": [
+      74,
+      75,
+      76,
+      77
+    ]
+  },
+  {
+    "text": "O Rapaz de Bronze",
+    "label": "OBRA",
+    "token_indices": [
+      79,
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "A Fada Oriana",
+    "label": "OBRA",
+    "token_indices": [
+      84,
+      85,
+      86
+    ]
+  },
+  {
+    "text": "Literatura Actual",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      92,
+      93
+    ]
+  },
+  {
+    "text": "Projecto Vercial",
+    "label": "LOCAL",
+    "token_indices": [
+      110,
+      111
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Poesia', 'OBRA'), ('1944', 'TEMPO'), ('Dia do Mar', 'OBRA'), ('1947', 'TEMPO'), ('Coral', 'OBRA'), ('1950', 'TEMPO'), ('No Tempo Dividido', 'OBRA'), ('1954', 'TEMPO'), ('Mar Novo', 'OBRA'), ('1958', 'TEMPO'), ('Livro Sexto', 'OBRA'), ('1962', 'TEMPO'), ('Geografia', 'OBRA'), ('1967', 'TEMPO'), ('Dual', 'OBRA'), ('1972', 'TEMPO'), ('Nome das Coisas', 'OBRA'), ('1977', 'TEMPO'), ('Musa', 'OBRA'), ('1994', 'TEMPO'), ('O Cavaleiro da Dinamarca', 'OBRA'), ('Contos Exemplares', 'OBRA'), ('Histórias da Terra e do Mar', 'OBRA'), ('A Floresta', 'OBRA'), ('A Menina do Mar', 'OBRA'), ('O Rapaz de Bronze', 'OBRA'), ('A Fada Oriana', 'OBRA'), ('Literatura Actual', 'ABSTRACCAO'), ('Projecto Vercial', 'LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+DUAS EXPOSIÇÕES EM PORTUGAL TERESA REBELO O PASSADO DA IMPRENSA EM MACAU Desta exposição " 200 Anos de Jornalismo Português em Macau " saímos com a certeza de que os portugueses foram os grandes impulsionadores do jornalismo na China e no Extremo Oriente , exercendo Macau um papel fundamental em todo este processo Promovida pela Missão de Macau , Instituto Cultural e Gabinete de Comunicação Social de Macau , a exposição está instalada por agora na Torre do Tombo , em Lisboa , mas depois de 15 de Setembro será transferida para o Museu da Imprensa no Porto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PORTUGAL",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "TERESA REBELO",
+    "label": "PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "MACAU",
+    "label": "LOCAL",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "200 Anos de Jornalismo Português em Macau",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "China",
+    "label": "LOCAL",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Extremo Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "Missão de Macau",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "text": "Instituto Cultural e Gabinete de Comunicação Social de Macau",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "Torre do Tombo",
+    "label": "LOCAL",
+    "token_indices": [
+      76,
+      77,
+      78
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "15 de Setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      86,
+      87,
+      88
+    ]
+  },
+  {
+    "text": "Museu da Imprensa",
+    "label": "LOCAL",
+    "token_indices": [
+      93,
+      94,
+      95
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      97
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PORTUGAL",
+    "label": "LOCAL"
+  },
+  {
+    "text": "TERESA REBELO",
+    "label": "PESSOA"
+  },
+  {
+    "text": "MACAU",
+    "label": "LOCAL"
+  },
+  {
+    "text": "200 Anos de Jornalismo Português em Macau",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "China",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Extremo Oriente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Missão de Macau",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Instituto Cultural",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Gabinete de Comunicação Social de Macau",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Torre do Tombo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "15 de Setembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Museu da Imprensa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Macau', 'ORGANIZACAO'), ('Instituto Cultural e Gabinete de Comunicação Social de Macau', 'ORGANIZACAO')]
+Espúrias  (FP): [('Macau', 'LOCAL'), ('Instituto Cultural', 'ORGANIZACAO'), ('Gabinete de Comunicação Social de Macau', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como bem podemos ver exposto e ler no exemplar fac-similado que nos é oferecido, o primeiro número deste jornal mostra-nos que o seu objectivo jornalístico era divulgar os ideais do liberalismo saídos da Constituição de 22 | Constituição de 22 , justapostos aos limites castradores da administração então vigente. Depois do " Abelha da China " apareceram nove jornais portugueses, todos eles mencionados nesta mostra, sendo muito mais demorado o surgimento do primeiro jornal chinês pela mão de um macaense, com o nome de " Ching- Hai Tsung Pao " ou " O Echo Macaense ". Fundado em 1893 , publicado em versão chinesa e portuguesa, este jornal foi o veículo das doutrinas revolucionárias do líder histórico Sun Iat Sen que, tanto pelo seu carisma político como pela sua colaboração em vários jornais de Macau , tem reservados nesta exposição vários lugares de destaque. Aliás, são várias as figuras mediáticas de Macau mencionadas em jeito de referência temática e outra delas é Monsenhor Manuel Teixeira a quem se presta homenagem por ser o português mais antigo no território a assinar uma coluna num jornal e pela sua obra A Imprensa Portuguesa no Extremo Oriente em que dá notícia do número de títulos de jornais impressos em português no Oriente , títulos como " O Português " ou " O Petardo ", que eram jornais de Hong Kong impressos em Macau (ler artigo na Revista Macau, n.º 47, Março 96 ).
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Constituição de 22",
+    "label": "OBRA",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "Constituição",
+    "label": "OBRA",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "22",
+    "label": "TEMPO",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Abelha da China",
+    "label": "OBRA",
+    "token_indices": [
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Ching- Hai Tsung Pao",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      85,
+      86,
+      87,
+      88
+    ]
+  },
+  {
+    "text": "O Echo Macaense",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "text": "1893",
+    "label": "TEMPO",
+    "token_indices": [
+      98
+    ]
+  },
+  {
+    "text": "Sun Iat Sen",
+    "label": "PESSOA",
+    "token_indices": [
+      117,
+      118,
+      119
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      134
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      151
+    ]
+  },
+  {
+    "text": "Monsenhor Manuel Teixeira",
+    "label": "PESSOA",
+    "token_indices": [
+      162,
+      163,
+      164
+    ]
+  },
+  {
+    "text": "A Imprensa Portuguesa no Extremo Oriente",
+    "label": "OBRA",
+    "token_indices": [
+      188,
+      189,
+      190,
+      191,
+      192,
+      193
+    ]
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      208
+    ]
+  },
+  {
+    "text": "O Português",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      213,
+      214
+    ]
+  },
+  {
+    "text": "O Petardo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      218,
+      219
+    ]
+  },
+  {
+    "text": "Hong Kong",
+    "label": "LOCAL",
+    "token_indices": [
+      225,
+      226
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      229
+    ]
+  },
+  {
+    "text": "Revista Macau, n.º 47, Março 96",
+    "label": "OBRA",
+    "token_indices": [
+      233,
+      234,
+      235,
+      236,
+      237,
+      238
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "22",
+    "label": "VALOR"
+  },
+  {
+    "text": "Constituição",
+    "label": "OBRA"
+  },
+  {
+    "text": "22",
+    "label": "VALOR"
+  },
+  {
+    "text": "Abelha da China",
+    "label": "OBRA"
+  },
+  {
+    "text": "Ching- Hai Tsung Pao",
+    "label": "OBRA"
+  },
+  {
+    "text": "O Echo Macaense",
+    "label": "OBRA"
+  },
+  {
+    "text": "1893",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Sun Yat-Sen",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Constituição de 22', 'OBRA'), ('22', 'TEMPO'), ('Ching- Hai Tsung Pao', 'ABSTRACCAO'), ('O Echo Macaense', 'ABSTRACCAO'), ('Sun Iat Sen', 'PESSOA'), ('Macau', 'LOCAL'), ('Macau', 'LOCAL'), ('Monsenhor Manuel Teixeira', 'PESSOA'), ('A Imprensa Portuguesa no Extremo Oriente', 'OBRA'), ('Oriente', 'LOCAL'), ('O Português', 'ABSTRACCAO'), ('O Petardo', 'ABSTRACCAO'), ('Hong Kong', 'LOCAL'), ('Macau', 'LOCAL'), ('Revista Macau, n.º 47, Março 96', 'OBRA')]
+Espúrias  (FP): [('22', 'VALOR'), ('22', 'VALOR'), ('Ching- Hai Tsung Pao', 'OBRA'), ('O Echo Macaense', 'OBRA'), ('Sun Yat-Sen', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+São cerca de 90 os títulos dos jornais que registaram os acontecimentos dos últimos dois séculos de presença portuguesa no local, muitos deles expostos na Torre do Tombo numa panóplia de vitrinas, que provam que Macau exerceu influência determinante em todo o processo jornalístico português a Oriente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "90",
+    "label": "VALOR",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Torre do Tombo",
+    "label": "LOCAL",
+    "token_indices": [
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "cerca de 90",
+    "label": "VALOR"
+  },
+  {
+    "text": "Torre do Tombo",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('90', 'VALOR')]
+Espúrias  (FP): [('cerca de 90', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Se a conservação dos títulos portugueses impressos foi quase inexistente ao longo de todos estes anos, o mesmo aconteceu com a Imprensa Chinesa , e o que resta para a realização duma História da Imprensa em Macau esteve guardado nos arquivos da Biblioteca do Leal Senado e na Biblioteca Sir Robert Ho Tung . Liberdade de imprensa e censura Bem lembrado nesta mostra está o primeiro acto de censura à Imprensa em Macau .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Imprensa Chinesa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "História da Imprensa em Macau",
+    "label": "OBRA",
+    "token_indices": [
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Biblioteca do Leal Senado",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "text": "Biblioteca Sir Robert Ho Tung",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "text": "Imprensa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      70
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Imprensa Chinesa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Biblioteca do Leal Senado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Biblioteca Sir Robert Ho Tung",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Imprensa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Imprensa",
+    "label": "OBRA"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Imprensa Chinesa', 'ABSTRACCAO'), ('História da Imprensa em Macau', 'OBRA'), ('Imprensa', 'ABSTRACCAO'), ('Macau', 'ORGANIZACAO')]
+Espúrias  (FP): [('Imprensa Chinesa', 'OBRA'), ('Macau', 'LOCAL'), ('Imprensa', 'OBRA'), ('Imprensa', 'OBRA'), ('Macau', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Em 1824 , uma ordem do governo local publicada na " Gazeta de Macau " ordenava um auto-de-fé ao número L do " Abelha da China " classificando-o de "infame", "mandando-o dilacerar e queimar" por "artigo de ofício ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1824",
+    "label": "TEMPO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Gazeta de Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "L",
+    "label": "VALOR",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Abelha da China",
+    "label": "OBRA",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1824",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Gazeta de Macau",
+    "label": "OBRA"
+  },
+  {
+    "text": "Abelha da China",
+    "label": "OBRA"
+  },
+  {
+    "text": "L",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Gazeta de Macau', 'LOCAL')]
+Espúrias  (FP): [('Gazeta de Macau', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Ficamos a saber que nem sempre foi evidente a liberdade de expressão jornalística em Macau ; durante a II Guerra Mundial tanto a Imprensa Portuguesa como a Chinesa | Chinesa eram controladas por censores japoneses e, para ilustrar isto, reparamos nos exemplares expostos, a forma como os jornais chineses reagiam ao lápis da censura: frequentes vezes, em substituição do texto reprimido, punham cruzes ou deixavam espaços em branco. Depois da revolução de Abril , referenciada não só nos jornais portugueses mas também nos jornais chineses fixados num painel próprio, notamos que o jornalismo que se fez em Macau conheceu um certo florescimento, mas é certo que, passados tantos anos sobre o 25 de Abril e as suas conquistas, fala--se agora na existência de outro tipo de censura naquela pequena parcela da China , por ventura tanto ou tão mais castradora da liberdade de expressão: a auto-censura jornalística, talvez mais frequente na imprensa chinesa.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "II Guerra Mundial",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Imprensa Portuguesa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Chinesa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Abril",
+    "label": "TEMPO",
+    "token_indices": [
+      72
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "25 de Abril",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      111,
+      112,
+      113
+    ]
+  },
+  {
+    "text": "China",
+    "label": "LOCAL",
+    "token_indices": [
+      131
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "II Guerra Mundial",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Imprensa Portuguesa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Chinesa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Chinesa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Abril",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "25 de Abril",
+    "label": "ACONTECIMENTO"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Imprensa Portuguesa', 'ABSTRACCAO'), ('Chinesa', 'ABSTRACCAO'), ('Abril', 'TEMPO'), ('China', 'LOCAL')]
+Espúrias  (FP): [('Imprensa Portuguesa', 'ORGANIZACAO'), ('Chinesa', 'ORGANIZACAO'), ('Chinesa', 'ORGANIZACAO'), ('Abril', 'ACONTECIMENTO'), ('Macau', 'LOCAL'), ('Macau', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A exposição pretende ilustrar uma certa herança de liberdade, tolerância e pluralismo que os portugueses vão deixar quando transferirem a administração do território para a China .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "China",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "China",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('China', 'ORGANIZACAO')]
+Espúrias  (FP): [('China', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A isto, o director do Gabinete de Comunicação Social do Governo de Macau , Afonso Camões , afirma na brochura da exposição : "o futuro da liberdade de Imprensa em Macau dependerá, em boa medida, daqueles que a exercem hoje. Mas caberá sempre lembrar aos potenciais fautores que as liberdades de expressão e de imprensa estão salvaguardadas na Lei Básica que há-de vigorar para lá de 1999 ." Mais perto do presente Mais perto do passado, do presente e do futuro está a Revista MacaU , em predominante destaque na exposição tanto pela quantidade de revistas expostas e para consulta como pela qualidade dos artigos expostos que cobrem os acontecimentos mais relevantes dos últimos anos no Território .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gabinete de Comunicação Social do Governo de Macau",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Afonso Camões",
+    "label": "PESSOA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Imprensa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Lei Básica",
+    "label": "OBRA",
+    "token_indices": [
+      58,
+      59
+    ]
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "Revista MacaU",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      83,
+      84
+    ]
+  },
+  {
+    "text": "Território",
+    "label": "LOCAL",
+    "token_indices": [
+      116
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gabinete de Comunicação Social do Governo de Macau",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Afonso Camões",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Lei Básica",
+    "label": "OBRA"
+  },
+  {
+    "text": "1999",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Revista MacaU",
+    "label": "OBRA"
+  },
+  {
+    "text": "Território",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Imprensa', 'ABSTRACCAO'), ('Macau', 'ORGANIZACAO'), ('Revista MacaU', 'ORGANIZACAO')]
+Espúrias  (FP): [('Revista MacaU', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esta revista mostra ser uma referência fundamental na Imprensa local tanto pelo seu papel dinamizador do registo dos acontecimentos sociais e políticos em Macau para o futuro, como pelo esforço de registo histórico sobre a Presença dos Portugueses em todo o Oriente ao longo dos séculos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Imprensa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Portugueses",
+    "label": "PESSOA",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Presença dos Portugueses",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Imprensa', 'ABSTRACCAO'), ('Portugueses', 'PESSOA')]
+Espúrias  (FP): [('Presença dos Portugueses', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Assuntos como a Unificação do Território , o Ecumenismo Religioso , a Construção do Aeroporto ou o Sistema de Ensino em Macau caminham lado a lado com outros assuntos não menos importantes para a nossa História no Território , como os trabalhos publicados na revista sobre " A Sociedade da Rosa " ou " A Oferta dum Leão ao Imperador da China no séc. XVII ".Todos estes assuntos são tratados pela importância que têm para a memória colectiva de Macau junto da diáspora portuguesa e das comunidades macaenses espalhadas pelo mundo e justificam por si só a relevância com que estão expostos na Torre do Tombo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Unificação do Território",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Ecumenismo Religioso",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Construção do Aeroporto",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Sistema de Ensino em Macau",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "História",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Território",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "A Sociedade da Rosa",
+    "label": "OBRA",
+    "token_indices": [
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "A Oferta dum Leão ao Imperador da China no séc. XVII",
+    "label": "OBRA",
+    "token_indices": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Torre do Tombo",
+    "label": "LOCAL",
+    "token_indices": [
+      103,
+      104,
+      105
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Unificação do Território",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Ecumenismo Religioso",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Aeroporto",
+    "label": "COISA"
+  },
+  {
+    "text": "Sistema de Ensino",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "A Sociedade da Rosa",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "A Oferta dum Leão ao Imperador da China no séc. XVII",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Torre do Tombo",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Construção do Aeroporto', 'ABSTRACCAO'), ('Sistema de Ensino em Macau', 'ABSTRACCAO'), ('História', 'ABSTRACCAO'), ('Território', 'LOCAL'), ('A Sociedade da Rosa', 'OBRA'), ('A Oferta dum Leão ao Imperador da China no séc. XVII', 'OBRA')]
+Espúrias  (FP): [('Aeroporto', 'COISA'), ('Sistema de Ensino', 'ABSTRACCAO'), ('A Sociedade da Rosa', 'ABSTRACCAO'), ('A Oferta dum Leão ao Imperador da China no séc. XVII', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Actualmente existem oito jornais chineses em Macau , destacando-se os dois mais importantes que são o " Ou Mun " e o " Va Kio " e não esquecendo que apenas são aí tratados os acontecimentos portugueses com repercussões directas na população local. Na Imprensa portuguesa, destacam-se até pelos exemplares existentes para consulta na exposição os diários " Jornal Tribuna de Macau ", " Macau Hoje " e " Futuro de Macau " assim como os semanários " Ponto Final " e " O Clarim ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Ou Mun",
+    "label": "OBRA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Va Kio",
+    "label": "OBRA",
+    "token_indices": [
+      23,
+      24
+    ]
+  },
+  {
+    "text": "Imprensa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Jornal Tribuna de Macau",
+    "label": "OBRA",
+    "token_indices": [
+      58,
+      59,
+      60,
+      61
+    ]
+  },
+  {
+    "text": "Macau Hoje",
+    "label": "OBRA",
+    "token_indices": [
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Futuro de Macau",
+    "label": "OBRA",
+    "token_indices": [
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "text": "Ponto Final",
+    "label": "OBRA",
+    "token_indices": [
+      78,
+      79
+    ]
+  },
+  {
+    "text": "O Clarim",
+    "label": "OBRA",
+    "token_indices": [
+      83,
+      84
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Ou Mun",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Va Kio",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Jornal Tribuna de Macau",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Macau Hoje",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Futuro de Macau",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Ponto Final",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "O Clarim",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Ou Mun', 'OBRA'), ('Va Kio', 'OBRA'), ('Imprensa', 'ABSTRACCAO'), ('Jornal Tribuna de Macau', 'OBRA'), ('Macau Hoje', 'OBRA'), ('Futuro de Macau', 'OBRA'), ('Ponto Final', 'OBRA'), ('O Clarim', 'OBRA')]
+Espúrias  (FP): [('Macau', 'LOCAL'), ('Ou Mun', 'ABSTRACCAO'), ('Va Kio', 'ABSTRACCAO'), ('Jornal Tribuna de Macau', 'ABSTRACCAO'), ('Macau Hoje', 'ABSTRACCAO'), ('Futuro de Macau', 'ABSTRACCAO'), ('Ponto Final', 'ABSTRACCAO'), ('O Clarim', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+São estes actualmente os jornais impressos que constituem o quadro editorial de Macau , mas cuja sobrevivência é indissociável da importância que a comunidade portuguesa terá no futuro naquele território. A salientar também o convite à navegação pela Internet , em que os visitantes podem consultar uma base de dados, a Página Oficial de Macau e a Página da Lusa entre outras. Para salvaguardar a memória desta exposição foi editada uma brochura sobre o evento, embora seja indiscutível que há matéria histórica para a publicação de um verdadeiro almanaque sobre a História da Imprensa em Macau .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Página Oficial de Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Página da Lusa",
+    "label": "LOCAL",
+    "token_indices": [
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "text": "História da Imprensa em Macau",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      91,
+      92,
+      93,
+      94,
+      95
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Internet', 'LOCAL'), ('Página Oficial de Macau', 'LOCAL'), ('Página da Lusa', 'LOCAL'), ('História da Imprensa em Macau', 'ABSTRACCAO')]
+Espúrias  (FP): [('Macau', 'LOCAL'), ('Macau', 'LOCAL'), ('Macau', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Se é certo que em 200 anos de Jornalismo exposto conseguimos perceber a importância da Imprensa Portuguesa em Macau , tão certo não será seguramente a sua relevância depois da transferência do território para a China .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "200 anos",
+    "label": "VALOR",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Jornalismo",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Imprensa Portuguesa",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "China",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "200 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "Jornalismo",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Imprensa Portuguesa",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  },
+  {
+    "text": "China",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Imprensa Portuguesa', 'ABSTRACCAO'), ('China', 'ORGANIZACAO')]
+Espúrias  (FP): [('Imprensa Portuguesa', 'ORGANIZACAO'), ('China', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Caixa: ORIENTE/OCIDENTE : MACAU NO PORTO " Oriente/Ocidente: Artistas de Macau " é o título da exposição patente no Porto entre 18 de Junho passado e 12 deste mês de Julho , no edifício do antigo Mercado Ferreira Borges .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ORIENTE/OCIDENTE",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "MACAU",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "PORTO",
+    "label": "LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Oriente/Ocidente: Artistas de Macau",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "18 de Junho",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "12",
+    "label": "TEMPO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Julho",
+    "label": "TEMPO",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "Mercado Ferreira Borges",
+    "label": "LOCAL",
+    "token_indices": [
+      36,
+      37,
+      38
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ORIENTE/OCIDENTE",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "MACAU",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Oriente/Ocidente: Artistas de Macau",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "18 de Junho",
+    "label": "TEMPO"
+  },
+  {
+    "text": "12",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Julho",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Mercado Ferreira Borges",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('ORIENTE/OCIDENTE', 'ACONTECIMENTO'), ('PORTO', 'LOCAL'), ('Oriente/Ocidente: Artistas de Macau', 'ACONTECIMENTO')]
+Espúrias  (FP): [('ORIENTE/OCIDENTE', 'ABSTRACCAO'), ('Oriente/Ocidente: Artistas de Macau', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A abertura do evento contou com a presença de Fernando Gomes , presidente da Câmara Municipal do Porto , e do vereador Wan Chun , em representação de Sales Marques , presidente do Leal Senado , a qual foi enriquecida com um pequeno concerto em que os instrumentistas Wong On Yuen e António Ferro , tocando ehru e viola-baixo, respectivamente, interpretaram várias peças editadas no disco compacto Sinais de Yuanju .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fernando Gomes",
+    "label": "PESSOA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Câmara Municipal do Porto",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Wan Chun",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Sales Marques",
+    "label": "PESSOA",
+    "token_indices": [
+      28,
+      29
+    ]
+  },
+  {
+    "text": "presidente do Leal Senado",
+    "label": "PESSOA",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Wong On Yuen",
+    "label": "PESSOA",
+    "token_indices": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "text": "António Ferro",
+    "label": "PESSOA",
+    "token_indices": [
+      52,
+      53
+    ]
+  },
+  {
+    "text": "Sinais de Yuanju",
+    "label": "OBRA",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fernando Gomes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Câmara Municipal do Porto",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Wan Chun",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sales Marques",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Leal Senado",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Wong On Yuen",
+    "label": "PESSOA"
+  },
+  {
+    "text": "António Ferro",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Sinais de Yuanju",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('presidente do Leal Senado', 'PESSOA')]
+Espúrias  (FP): [('Leal Senado', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O amplo espaço das três naves do recinto, cujo edifício data de finais do século passado e foi recuperado há alguns anos para receber eventos de natureza diversificada, acolheu com dignidade aquela exposição, comissariada por António Andrade , o qual considera ter-se conseguido ´uma amostragem bastante representativa do desenvolvimento alcançado pelas artes plásticas contemporâneas de Macau ". F.A.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "António Andrade",
+    "label": "PESSOA",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL",
+    "token_indices": [
+      55
+    ]
+  },
+  {
+    "text": "F.A.",
+    "label": "PESSOA",
+    "token_indices": [
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "três",
+    "label": "VALOR"
+  },
+  {
+    "text": "século",
+    "label": "TEMPO"
+  },
+  {
+    "text": "António Andrade",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Macau",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('F.A.', 'PESSOA')]
+Espúrias  (FP): [('três', 'VALOR'), ('século', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Zidane poderá ser eleito hoje o «jogador do ano» Três jogadores, o brasileiro Ronaldo , o croata Davor Suker e o francês Zinedine Zidane , marcaram o ano de 1998 e são os pretendentes ao troféu de melhor futebolista mundial da FIFA , a conhecer hoje em Barcelona .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Zidane",
+    "label": "PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Ronaldo",
+    "label": "PESSOA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Davor Suker",
+    "label": "PESSOA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Zinedine Zidane",
+    "label": "PESSOA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "FIFA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Barcelona",
+    "label": "LOCAL",
+    "token_indices": [
+      47
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Ronaldo",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Davor Suker",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Zinedine Zidane",
+    "label": "PESSOA"
+  },
+  {
+    "text": "1998",
+    "label": "TEMPO"
+  },
+  {
+    "text": "FIFA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Barcelona",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Zidane', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Pelo oitavo ano, o melhor jogador mundial da FIFA será escolhido por um painel de técnicos de selecções nacionais de todos os continentes.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "FIFA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "oitavo",
+    "label": "VALOR"
+  },
+  {
+    "text": "FIFA",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('oitavo', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este ano serão 129 treinadores a votar, o que constitui um recorde. Nos últimos dois anos o troféu foi arrecadado por Ronaldo , que volta a ser candidato. Como seus antecessores figuram o liberiano George Weah ( 1995 ), o brasileiro Romário ( 1994 ), o italiano Roberto Baggio ( 1993 ), o holandês Marco Van Basten ( 1992 ) e o alemão Lothar Matthaus ( 1991 ). Na cerimónia serão ainda distinguidas a melhor selecção nacional (são favoritas a de França e a do Brasil ) e a que mais progrediu no "ranking" da FIFA , além de serem atribuídos o prémio "fair-play", as bolas de ouro, prata e bronze e troféus para distinguir os melhores jogadores no Mundial , entre outros.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "129",
+    "label": "VALOR",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Ronaldo",
+    "label": "PESSOA",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "George Weah",
+    "label": "PESSOA",
+    "token_indices": [
+      34,
+      35
+    ]
+  },
+  {
+    "text": "1995",
+    "label": "TEMPO",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Romário",
+    "label": "PESSOA",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "1994",
+    "label": "TEMPO",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Roberto Baggio",
+    "label": "PESSOA",
+    "token_indices": [
+      47,
+      48
+    ]
+  },
+  {
+    "text": "1993",
+    "label": "TEMPO",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Marco Van Basten",
+    "label": "PESSOA",
+    "token_indices": [
+      54,
+      55,
+      56
+    ]
+  },
+  {
+    "text": "1992",
+    "label": "TEMPO",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Lothar Matthaus",
+    "label": "PESSOA",
+    "token_indices": [
+      63,
+      64
+    ]
+  },
+  {
+    "text": "1991",
+    "label": "TEMPO",
+    "token_indices": [
+      66
+    ]
+  },
+  {
+    "text": "França",
+    "label": "PESSOA",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "PESSOA",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "FIFA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      95
+    ]
+  },
+  {
+    "text": "Mundial",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      119
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('129', 'VALOR'), ('Ronaldo', 'PESSOA'), ('George Weah', 'PESSOA'), ('1995', 'TEMPO'), ('Romário', 'PESSOA'), ('1994', 'TEMPO'), ('Roberto Baggio', 'PESSOA'), ('1993', 'TEMPO'), ('Marco Van Basten', 'PESSOA'), ('1992', 'TEMPO'), ('Lothar Matthaus', 'PESSOA'), ('1991', 'TEMPO'), ('França', 'PESSOA'), ('Brasil', 'PESSOA'), ('FIFA', 'ORGANIZACAO'), ('Mundial', 'ACONTECIMENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Navios de guerra portugueses e espanhóis em Leixões Uma força naval de quatro navios de guerra portugueses e espanhóis, com uma guarnição total de mais de 640 tripulantes, faz escala no Porto de Leixões a 06 e 07 de Fevereiro , disse ontem fonte da Zona Marítima do Norte .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Leixões",
+    "label": "LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "mais de 640",
+    "label": "VALOR",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "Porto de Leixões",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "06",
+    "label": "TEMPO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "07 de Fevereiro",
+    "label": "TEMPO",
+    "token_indices": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "Zona Marítima do Norte",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Leixões",
+    "label": "LOCAL"
+  },
+  {
+    "text": "06 e 07 de Fevereiro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Zona Marítima do Norte",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('mais de 640', 'VALOR'), ('Porto de Leixões', 'LOCAL'), ('06', 'TEMPO'), ('07 de Fevereiro', 'TEMPO')]
+Espúrias  (FP): [('06 e 07 de Fevereiro', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os navios « Corte Real », « João Belo », « Andalucia » e « Berrio » têm entre 103 e 140 metros de comprimento e são comandados pelo capitão de mar e guerra Fernando José Ribeiro de Melo Gomes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Corte Real",
+    "label": "COISA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "João Belo",
+    "label": "COISA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Andalucia",
+    "label": "COISA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Berrio",
+    "label": "COISA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "entre 103 e 140 metros",
+    "label": "VALOR",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "capitão de mar e guerra Fernando José Ribeiro de Melo Gomes",
+    "label": "PESSOA",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Corte Real",
+    "label": "COISA"
+  },
+  {
+    "text": "João Belo",
+    "label": "COISA"
+  },
+  {
+    "text": "Andalucia",
+    "label": "COISA"
+  },
+  {
+    "text": "Berrio",
+    "label": "COISA"
+  },
+  {
+    "text": "103",
+    "label": "VALOR"
+  },
+  {
+    "text": "140",
+    "label": "VALOR"
+  },
+  {
+    "text": "Fernando José Ribeiro de Melo Gomes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('entre 103 e 140 metros', 'VALOR'), ('capitão de mar e guerra Fernando José Ribeiro de Melo Gomes', 'PESSOA')]
+Espúrias  (FP): [('103', 'VALOR'), ('140', 'VALOR'), ('Fernando José Ribeiro de Melo Gomes', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sua Chance está Aqui !!! megasucesso [ megasucesso@terra.com.br ] Está Desempregado? Cansado de procurar? Não sabe mais o que fazer? Ou quer apenas uma Renda Extra de R$500 a R$1.500 ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "R$500 a R$1.500",
+    "label": "VALOR",
+    "token_indices": [
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "R$500",
+    "label": "VALOR"
+  },
+  {
+    "text": "R$1.500",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('R$500 a R$1.500', 'VALOR')]
+Espúrias  (FP): [('R$500', 'VALOR'), ('R$1.500', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Solução: Clique Esta mensagem é enviada com a complacência da nova legislação sobre correio eletrônico, Seção 301 , Parágrafo (a) (2) (c) Decreto S. 1618 , Título Terceiro |Seção 301, Parágrafo (a) (2) (c) Decreto S. 1618, Título Terceiro aprovado pelo « 105 Congresso Base das Normativas Internacionais sobre o SPAM ». Este E-mail não poderá ser considerado SPAM quando inclua uma forma de ser removido. Para ser removido de futuros correios, simplesmente responda indicando no Assunto: REMOVER.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Seção 301",
+    "label": "LOCAL",
+    "token_indices": [
+      16,
+      17
+    ]
+  },
+  {
+    "text": "Parágrafo (a) (2) (c)",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Decreto S. 1618",
+    "label": "LOCAL",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Título Terceiro",
+    "label": "LOCAL",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "105 Congresso Base das Normativas Internacionais sobre o SPAM",
+    "label": "ACONTECIMENTO",
+    "token_indices": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "text": "SPAM",
+    "label": "COISA",
+    "token_indices": [
+      59
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Seção 301",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Parágrafo (a) (2) (c)",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Decreto S. 1618",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Título Terceiro",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "105 Congresso Base das Normativas Internacionais sobre o SPAM",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "SPAM",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('Seção 301', 'LOCAL'), ('Parágrafo (a) (2) (c)', 'LOCAL'), ('Decreto S. 1618', 'LOCAL'), ('Título Terceiro', 'LOCAL'), ('105 Congresso Base das Normativas Internacionais sobre o SPAM', 'ACONTECIMENTO'), ('SPAM', 'COISA')]
+Espúrias  (FP): [('Seção 301', 'ABSTRACCAO'), ('Parágrafo (a) (2) (c)', 'ABSTRACCAO'), ('Decreto S. 1618', 'ABSTRACCAO'), ('Título Terceiro', 'ABSTRACCAO'), ('105 Congresso Base das Normativas Internacionais sobre o SPAM', 'ABSTRACCAO'), ('SPAM', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cadê Médico - www.cadLOCALedico.com.br - Promidia Tecnologia Home Chat Info Med Classificados Notícias Doutor Online Forúm Shop Med e-mail Guia Médico Escolha uma opção Medicos Clinicas Hospitais Laboratorios Emergencias Veterinarios Farmacias Instituição........... ..... Acupuntura e impotência Conhecida no Oriente há milhares de anos, a acupuntura tem sido utilizada em tratamentos para problemas que vão de dor nas costas a depressão. A partir de agora, pelo menos de acordo com pesquisadores austríacos, a impotência pode ser acrescentada a esta lista. As causas da impotência variam de hormônios desequilibrados a problemas emocionais. E justamente este último aspecto foi objeto de estudo por parte de pesquisadores do Hospital Leinz , em Viena .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cadê Médico",
+    "label": "LOCAL",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Promidia Tecnologia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Oriente",
+    "label": "LOCAL",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Hospital Leinz",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      104,
+      105
+    ]
+  },
+  {
+    "text": "Viena",
+    "label": "LOCAL",
+    "token_indices": [
+      108
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Médico",
+    "label": "LOCAL"
+  },
+  {
+    "text": "www.cadLOCALedico.com.br",
+    "label": "COISA"
+  },
+  {
+    "text": "Promidia Tecnologia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Hospital Leinz",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Viena",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Cadê Médico', 'LOCAL'), ('Oriente', 'LOCAL')]
+Espúrias  (FP): [('Médico', 'LOCAL'), ('www.cadLOCALedico.com.br', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os resultados preliminares, divulgados em um encontro de urologistas realizado no início de maio , mostraram-se promissores para os pacientes. Os 13 voluntários que participaram da pesquisa, todos com 42 anos , foram divididos em dois grupos. Todos tiveram agulhas espetadas no corpo, só que um dos grupos recebeu as agulhas em locais não relacionados com o problema, já que os médicos queriam comprovar a existência do "efeito placebo", ou seja, se os pacientes seriam sugestionados pelo tratamento.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "maio",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "13",
+    "label": "VALOR",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "42 anos",
+    "label": "VALOR",
+    "token_indices": [
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "maio",
+    "label": "TEMPO"
+  },
+  {
+    "text": "42 anos",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('13', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A experiência durou cerca de dois meses e os resultados se mostraram animadores: "Dois terços dos pacientes que receberam o tratamento verdadeiro relataram bons resultados e se consideraram curados", relata Paul Engerhardt , coordenador do estudo. O outro terço, segundo ele, contou ter notado ereções um pouco melhores, mas não o suficiente para se sentirem curados. "Por isso, acrescentei Viagra ao tratamento". Michael Heltemes , outro médico participante do encontro de urologistas na Áustria , destacou o fato de que profissionais e pacientes estão sempre em busca de um medicamento mágico para curar a impotência, "mas é interessante notar que uma parte dos médicos está seguindo um caminho por onde os recursos do próprio organismo são utilizados para corrigir a disfunção". Por Sérgio Maia , Shop Med / Info Med / Classificados / Notícias / Doutor Online Chat / Home / e-mail /Forúm Todos os direitos reservados, Copyrigth 2000 , Cadê Médico Resolução recomendada 800 x 600
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Paul Engerhardt",
+    "label": "PESSOA",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Viagra",
+    "label": "COISA",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Michael Heltemes",
+    "label": "PESSOA",
+    "token_indices": [
+      62,
+      63
+    ]
+  },
+  {
+    "text": "Áustria",
+    "label": "LOCAL",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "Sérgio Maia",
+    "label": "PESSOA",
+    "token_indices": [
+      122,
+      123
+    ]
+  },
+  {
+    "text": "2000",
+    "label": "TEMPO",
+    "token_indices": [
+      148
+    ]
+  },
+  {
+    "text": "Cadê Médico",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      150,
+      151
+    ]
+  },
+  {
+    "text": "800 x 600",
+    "label": "VALOR",
+    "token_indices": [
+      154,
+      155,
+      156
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "cerca de dois meses",
+    "label": "VALOR"
+  },
+  {
+    "text": "Paul Engerhardt",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Michael Heltemes",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Áustria",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Heltemes",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Viagra', 'COISA'), ('Sérgio Maia', 'PESSOA'), ('2000', 'TEMPO'), ('Cadê Médico', 'ORGANIZACAO'), ('800 x 600', 'VALOR')]
+Espúrias  (FP): [('cerca de dois meses', 'VALOR'), ('Heltemes', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+ETAP - Escola Tecnológica, Artística e Profissional de Pombal Escola Tecnológica, Artística e Profissional de Pombal [Em construção] Cursos Estrutura da Escola Projectos Esta é a página oficial da Etap - Venha conhecer-nos A ETAP - Escola Tecnológica, Artística e Profissional de Pombal é uma escola profissional privada, criada em 19 de Setembro de 1989 , ao abrigo do Decreto -Lei nº 26/89 de 21 de Janeiro , mediante a assinatura de um Contrato Programa entre as Entidades Promotoras: Câmara Municipal de Pombal , Associação de Industriais do Concelho de Pombal , Associação Comercial e de Serviços de Pombal e o Ministério da Educação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "ETAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Escola Tecnológica, Artística e Profissional de Pombal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Escola Tecnológica, Artística e Profissional de Pombal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Escola",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Etap",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "ETAP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      34
+    ]
+  },
+  {
+    "text": "Escola Tecnológica, Artística e Profissional de Pombal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "text": "19 de Setembro de 1989",
+    "label": "TEMPO",
+    "token_indices": [
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Decreto -Lei nº 26/89",
+    "label": "OBRA",
+    "token_indices": [
+      59,
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "21 de Janeiro",
+    "label": "TEMPO",
+    "token_indices": [
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "text": "Contrato Programa",
+    "label": "OBRA",
+    "token_indices": [
+      73,
+      74
+    ]
+  },
+  {
+    "text": "Câmara Municipal de Pombal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      79,
+      80,
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Associação de Industriais do Concelho de Pombal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ]
+  },
+  {
+    "text": "Associação Comercial e de Serviços de Pombal",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "text": "Ministério da Educação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      101,
+      102,
+      103
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ETAP - Escola Tecnológica, Artística e Profissional de Pombal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Escola Tecnológica, Artística e Profissional de Pombal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "ETAP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "19 de Setembro de 1989",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Decreto -Lei nº 26/89 de 21 de Janeiro",
+    "label": "OBRA"
+  },
+  {
+    "text": "Câmara Municipal de Pombal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação de Industriais do Concelho de Pombal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Associação Comercial e de Serviços de Pombal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Ministério da Educação",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Escola Tecnológica, Artística e Profissional de Pombal', 'ORGANIZACAO'), ('Escola', 'ORGANIZACAO'), ('Etap', 'ORGANIZACAO'), ('ETAP', 'ORGANIZACAO'), ('Escola Tecnológica, Artística e Profissional de Pombal', 'ORGANIZACAO'), ('Decreto -Lei nº 26/89', 'OBRA'), ('21 de Janeiro', 'TEMPO'), ('Contrato Programa', 'OBRA')]
+Espúrias  (FP): [('ETAP - Escola Tecnológica, Artística e Profissional de Pombal', 'ORGANIZACAO'), ('Decreto -Lei nº 26/89 de 21 de Janeiro', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Actualmente esta escola tem uma entidade proprietária que é a PombalProf - Sociedade de Educação e Ensino Profissional .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PombalProf",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Sociedade de Educação e Ensino Profissional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PombalProf - Sociedade de Educação e Ensino Profissional",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('PombalProf', 'ORGANIZACAO'), ('Sociedade de Educação e Ensino Profissional', 'ORGANIZACAO')]
+Espúrias  (FP): [('PombalProf - Sociedade de Educação e Ensino Profissional', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Situada na Cidade de Pombal , tem constituído um pólo dinamizador do desenvolvimento económico e social que caracteriza este Concelho da Região Centro de Portugal Continental | Concelho da Região Centro de Portugal Continental .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cidade de Pombal",
+    "label": "LOCAL",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Concelho da Região Centro de Portugal Continental",
+    "label": "LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Região Centro de Portugal Continental",
+    "label": "LOCAL",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cidade de Pombal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Região Centro de Portugal Continental",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Portugal Continental",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Concelho da Região Centro de Portugal Continental', 'LOCAL')]
+Espúrias  (FP): [('Portugal Continental', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A cidade de Pombal é actualmente um complexo urbano em grande crescimento, irradiador de actividades para a envolvente rural e urbana, com especial destaque para o crescimento ao nível industrial e comercial. Trata-se de uma Escola Profissional que adoptou um modelo de ensino alternativo ao sistema regular, orientada para a formação técnica e profissional de jovens com equivalência ao 12º ano de escolaridade, permitindo-lhes a entrada no mercado de trabalho ou o ingresso no ensino superior. Informações de contacto Telefone 236 200 810 Fax 236 217 122 Morada Parque Industrial Manuel da Mota - Pombal Correio electrónico Email da Escola: etap@mail.telepac.pt Ý TOPO Ý Enviar uma mensagem para etap@mail.telepac.pt> , com questões ou comentários acerca deste web site. Última modificação: 13/01/03
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pombal",
+    "label": "LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Escola Profissional",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "12º",
+    "label": "VALOR",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "Parque Industrial Manuel da Mota - Pombal",
+    "label": "LOCAL",
+    "token_indices": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "text": "13/01/03",
+    "label": "TEMPO",
+    "token_indices": [
+      120
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Pombal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Escola Profissional",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "12º ano",
+    "label": "VALOR"
+  },
+  {
+    "text": "Parque Industrial Manuel da Mota",
+    "label": "LOCAL"
+  },
+  {
+    "text": "236 200 810",
+    "label": "VALOR"
+  },
+  {
+    "text": "236 217 122",
+    "label": "VALOR"
+  },
+  {
+    "text": "Email da Escola",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "etap@mail.telepac.pt",
+    "label": "ABSTRACCAO"
+  }
+]
+
+Perdidas  (FN): [('12º', 'VALOR'), ('Parque Industrial Manuel da Mota - Pombal', 'LOCAL'), ('13/01/03', 'TEMPO')]
+Espúrias  (FP): [('12º ano', 'VALOR'), ('Parque Industrial Manuel da Mota', 'LOCAL'), ('236 200 810', 'VALOR'), ('236 217 122', 'VALOR'), ('Email da Escola', 'ABSTRACCAO'), ('etap@mail.telepac.pt', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Abraço Página Principal ASSOCIAÇÃO DE APOIO A PESSOAS COM VIH/SIDA A ABRAÇO é uma Instituição Particular de Solidariedade Social .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Abraço",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "ASSOCIAÇÃO DE APOIO A PESSOAS COM VIH/SIDA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "ABRAÇO",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Instituição Particular de Solidariedade Social",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "ASSOCIAÇÃO DE APOIO A PESSOAS COM VIH/SIDA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "A ABRAÇO",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Instituição Particular de Solidariedade Social",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Abraço', 'ORGANIZACAO'), ('ABRAÇO', 'ORGANIZACAO')]
+Espúrias  (FP): [('A ABRAÇO', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Organização não governamental sem fins lucrativos de prestação de serviços na área da SIDA . Foi constituída por escritura pública em Junho de 1992 , formalizando e dando continuidade ao trabalho de um pequeno número de voluntários que, desde Dezembro de 1991 , prestava apoio psicológico, social e material a seropositivos internados na Unidade de Doenças Infecciosas e Parasitárias do Hospital Egas Moniz , e tentava melhorar as condições hospitalares. Os objectivos da Associação são : Apoio a pessoas afectadas pelo VIH/SIDA ; Apoio, treino e formação de trabalhadores e técnicos de saúde envolvidos com o VIH ; Prevenção da infecção, dirigida à população em geral e, especialmente, aos jovens, utilizadores de droga, trabalhadores do sexo, mulheres, gays, trangenders e reclusos; Luta contra a discriminação e defesa dos direitos das pessoas infectadas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "SIDA",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Junho de 1992",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "Dezembro de 1991",
+    "label": "TEMPO",
+    "token_indices": [
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "text": "Unidade de Doenças Infecciosas e Parasitárias do Hospital Egas Moniz",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      73
+    ]
+  },
+  {
+    "text": "VIH/SIDA",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      81
+    ]
+  },
+  {
+    "text": "VIH",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      96
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('SIDA', 'ABSTRACCAO'), ('Junho de 1992', 'TEMPO'), ('Dezembro de 1991', 'TEMPO'), ('Unidade de Doenças Infecciosas e Parasitárias do Hospital Egas Moniz', 'ORGANIZACAO'), ('Associação', 'ORGANIZACAO'), ('VIH/SIDA', 'ABSTRACCAO'), ('VIH', 'ABSTRACCAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Associação dispõe de uma estrutura de cerca de vinte assalariados sendo portanto a sua actividade desenvolvida essencialmente através de voluntários. A sua acção tem âmbito nacional, dispondo de três centros de trabalho na área da grande Lisboa , um no Porto , aberto em Dezembro de 1994 , e um no Funchal , aberto em Dezembro de 1995 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "Dezembro de 1994",
+    "label": "TEMPO",
+    "token_indices": [
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Funchal",
+    "label": "LOCAL",
+    "token_indices": [
+      52
+    ]
+  },
+  {
+    "text": "Dezembro de 1995",
+    "label": "TEMPO",
+    "token_indices": [
+      56,
+      57,
+      58
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "cerca de vinte",
+    "label": "VALOR"
+  },
+  {
+    "text": "Lisboa",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Porto",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Dezembro de 1994",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Funchal",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Dezembro de 1995",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('cerca de vinte', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Actualmente a Associação conta com cerca de 460 sócios e 650 voluntários; destes, 70 trabalham connosco numa base regular e permanente.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Associação",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "cerca de 460",
+    "label": "VALOR",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "650",
+    "label": "VALOR",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "70",
+    "label": "VALOR",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "460",
+    "label": "VALOR"
+  },
+  {
+    "text": "650",
+    "label": "VALOR"
+  },
+  {
+    "text": "70",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Associação', 'ORGANIZACAO'), ('cerca de 460', 'VALOR')]
+Espúrias  (FP): [('460', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+PROSSIGA : PORTAL COM UM MILHÃO DE VISITAS O Prossiga (http://www.prossiga.cnpq.br, programa do CNPq , direcionado para a informação e comunicação para a pesquisa, atingiu em março a marca de um milhão de visitas, desde o lançamento de suas primeiras páginas em 1997 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PROSSIGA",
+    "label": "LOCAL",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Prossiga",
+    "label": "LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "CNPq",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "março",
+    "label": "TEMPO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "1997",
+    "label": "TEMPO",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prossiga",
+    "label": "OBRA"
+  },
+  {
+    "text": "http://www.prossiga.cnpq.br",
+    "label": "COISA"
+  },
+  {
+    "text": "CNPq",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "1997",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('PROSSIGA', 'LOCAL'), ('Prossiga', 'LOCAL'), ('março', 'TEMPO')]
+Espúrias  (FP): [('Prossiga', 'OBRA'), ('http://www.prossiga.cnpq.br', 'COISA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Número que reafirma a posição do Prossiga como o conjunto de sites da área de ciência e tecnologia mais visitado de toda a Internet brasileira. Esta marca histórica é explicada principalmente pela qualidade das informações disponibilizadas nas milhares de páginas dos serviços do Prossiga , tanto no que diz respeito às informações propriamente ditas, como também ao tratamento apurado que elas recebem. Dessa forma, o Prossiga cumpre a função crucial de ser o portal especializado em serviços de informação e comunicação para a pesquisa no País . Para tal, o Prossiga desenvolveu um conjunto de metodologias de seleção, ordenação e classificação das informações relevantes para a pesquisa que estavam dispersas na Internet, facilitando dessa forma a busca, ao mesmo tempo que cria condições favoráveis ao surgimento de comunidades virtuais de pesquisadores através dos seus vários serviços de comunicação.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prossiga",
+    "label": "LOCAL",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Internet",
+    "label": "LOCAL",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Prossiga",
+    "label": "LOCAL",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Prossiga",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "País",
+    "label": "LOCAL",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "Prossiga",
+    "label": "LOCAL",
+    "token_indices": [
+      90
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prossiga",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Prossiga",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Prossiga",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Prossiga",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Prossiga",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Prossiga",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Prossiga",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Prossiga', 'LOCAL'), ('Internet', 'LOCAL'), ('Prossiga', 'LOCAL'), ('Prossiga', 'LOCAL'), ('País', 'LOCAL'), ('Prossiga', 'LOCAL')]
+Espúrias  (FP): [('Prossiga', 'ORGANIZACAO'), ('Prossiga', 'ORGANIZACAO'), ('Prossiga', 'ORGANIZACAO'), ('Prossiga', 'ORGANIZACAO'), ('Prossiga', 'ORGANIZACAO'), ('Prossiga', 'ORGANIZACAO'), ('Prossiga', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Este número de um milhão de visitas é um indicador bastante expressivo de que o Prossiga desempenha um importante papel para a ciência e a tecnologia que vêm sendo desenvolvidas no País . Visite o DataGrama Zero a Revista Eletrônica de Ciência da Informação ou
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Prossiga",
+    "label": "LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "País",
+    "label": "LOCAL",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "DataGrama Zero",
+    "label": "LOCAL",
+    "token_indices": [
+      35,
+      36
+    ]
+  },
+  {
+    "text": "Ciência da Informação",
+    "label": "ABSTRACCAO",
+    "token_indices": [
+      41,
+      42,
+      43
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Prossiga",
+    "label": "OBRA"
+  },
+  {
+    "text": "País",
+    "label": "LOCAL"
+  },
+  {
+    "text": "DataGrama Zero",
+    "label": "OBRA"
+  },
+  {
+    "text": "Revista Eletrônica de Ciência da Informação",
+    "label": "OBRA"
+  }
+]
+
+Perdidas  (FN): [('Prossiga', 'LOCAL'), ('DataGrama Zero', 'LOCAL'), ('Ciência da Informação', 'ABSTRACCAO')]
+Espúrias  (FP): [('Prossiga', 'OBRA'), ('DataGrama Zero', 'OBRA'), ('Revista Eletrônica de Ciência da Informação', 'OBRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Segundo a fonte, o incêndio ocorreu numa habitação situada numa "ilha", na Rua Coronel Sarsfield , em Leça da Palmeira , a cerca de 500 metros do quartel dos Bombeiros Voluntários de Matosinhos-Leça , o que facilitou a pronta intervenção para impedir que as chamas atingissem as casas vizinhas. No combate às chamas, cujas causas são desconhecidas, estiveram envolvidos oito homens dos Voluntários de Matosinhos-Leça , com duas viaturas.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rua Coronel Sarsfield",
+    "label": "LOCAL",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Leça da Palmeira",
+    "label": "LOCAL",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "500 metros",
+    "label": "VALOR",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Bombeiros Voluntários de Matosinhos-Leça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Voluntários de Matosinhos-Leça",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      62,
+      63,
+      64
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Rua Coronel Sarsfield",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Leça da Palmeira",
+    "label": "LOCAL"
+  },
+  {
+    "text": "500 metros",
+    "label": "VALOR"
+  },
+  {
+    "text": "Bombeiros Voluntários de Matosinhos-Leça",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Matosinhos-Leça",
+    "label": "LOCAL"
+  },
+  {
+    "text": "dois",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('Voluntários de Matosinhos-Leça', 'ORGANIZACAO')]
+Espúrias  (FP): [('Matosinhos-Leça', 'LOCAL'), ('dois', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+PCP de Braga | PCP de Braga promove lanche e intervenção política A Comissão Concelhia de Braga do PCP promove sábado um lanche e uma intervenção política, que vão decorrer no Centro de Trabalho do PCP . Esta iniciativa insere-se nas comemorações dos 78 anos de existência do PCP , que se celebram precisamente dia 6 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "PCP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "PCP de Braga",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Comissão Concelhia de Braga do PCP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Centro de Trabalho do PCP",
+    "label": "LOCAL",
+    "token_indices": [
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "78 anos",
+    "label": "VALOR",
+    "token_indices": [
+      43,
+      44
+    ]
+  },
+  {
+    "text": "PCP",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "6",
+    "label": "TEMPO",
+    "token_indices": [
+      55
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "PCP de Braga",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "PCP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL"
+  },
+  {
+    "text": "PCP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Centro de Trabalho do PCP",
+    "label": "LOCAL"
+  },
+  {
+    "text": "PCP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "78 anos",
+    "label": "VALOR"
+  },
+  {
+    "text": "PCP",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "6",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Comissão Concelhia de Braga do PCP', 'ORGANIZACAO')]
+Espúrias  (FP): [('PCP', 'ORGANIZACAO'), ('PCP', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Os Melhores Hotéis da Costa Rica com Acomodações de Cinco Estrelas Hotéis da costa rica, férias na américa central, estâncias na costa rica, spas de saúde, acomodações de cinco estrelas, estância com spa, recuperação física, recuperação emocional Hotel Martino Rodeado de jardins arranjados manualmente, instalações de alojamento excelentes e uma spa moderna, oferecendo a última tecnologia em boa forma e recuperação física e emocional, a Estância de Cinco Estrelas Martino atria pela sua beleza clássica. Situada dentro de um parqued de 6 acres e somente a alguns minutos do aeroporto internacional e da cidade, a Estância de Cinco Estrelas Martino éo lugar mais conveniente para se ficar na Costa Rica para umas férias agradáveis, e o lugar ideal a partir do qual você pode viajar por todo o País . A Estância Martino , um pequeno hotel de luxo de cinco estrelas, presta atenção particular a todos os detalhes, inspirado pela cadeia de hotéis europeia " Chateau &Relais ".
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Costa Rica",
+    "label": "LOCAL",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Hotel Martino",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      37,
+      38
+    ]
+  },
+  {
+    "text": "Estância de Cinco Estrelas Martino",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      65,
+      66,
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "6 acres",
+    "label": "VALOR",
+    "token_indices": [
+      81,
+      82
+    ]
+  },
+  {
+    "text": "Estância de Cinco Estrelas Martino",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
+  },
+  {
+    "text": "Costa Rica",
+    "label": "LOCAL",
+    "token_indices": [
+      108,
+      109
+    ]
+  },
+  {
+    "text": "País",
+    "label": "LOCAL",
+    "token_indices": [
+      128
+    ]
+  },
+  {
+    "text": "Estância Martino",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      131,
+      132
+    ]
+  },
+  {
+    "text": "Chateau &Relais",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      156,
+      157
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Costa Rica",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Estância de Cinco Estrelas Martino",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Costa Rica",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Hotel Martino', 'ORGANIZACAO'), ('Estância de Cinco Estrelas Martino', 'ORGANIZACAO'), ('6 acres', 'VALOR'), ('Estância de Cinco Estrelas Martino', 'ORGANIZACAO'), ('País', 'LOCAL'), ('Estância Martino', 'ORGANIZACAO'), ('Chateau &Relais', 'ORGANIZACAO')]
+Espúrias  (FP): [('Estância de Cinco Estrelas Martino', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Estância tem somente 34 suites júniores, porque nós acreditamos que só um hotel pequeno pode oferecer serviço perfeito. Por favor compreenda que ao entrar no nosso site todo o conteúdo éem Inglês. Adicionalmente, toda a correspondência deverá ser em Inglês. Clique aqui para entrar All Content and Photos © 2001-2 Resort Martino
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Estância",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "34",
+    "label": "VALOR",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "2001-2",
+    "label": "TEMPO",
+    "token_indices": [
+      50
+    ]
+  },
+  {
+    "text": "Resort Martino",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      51,
+      52
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Estância",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "34",
+    "label": "VALOR"
+  },
+  {
+    "text": "Inglês",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "Inglês",
+    "label": "ABSTRACCAO"
+  },
+  {
+    "text": "2001-2",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Resort Martino",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Inglês', 'ABSTRACCAO'), ('Inglês', 'ABSTRACCAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Quatro militares mortos em atentados do Hizbollah Quatros militares israelitas morreram ontem num duplo ataque com explosivos reivindicado pelo grupo fundamentalista xiita Hizbollah ( Partido de Deus ), segundo o primeiro balanço oficial. Uma bomba de forte potência telecomandada explodiu pouco antes do meio dia local ( 10h00 de Lisboa ) na estrada para Marjayoun , onde se situa o quartel-general das forças israelitas no sul do Líbano , em Kawkaba .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Hizbollah",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Hizbollah",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Partido de Deus",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "text": "10h00 de Lisboa",
+    "label": "TEMPO",
+    "token_indices": [
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "text": "Marjayoun",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Líbano",
+    "label": "LOCAL",
+    "token_indices": [
+      67
+    ]
+  },
+  {
+    "text": "Kawkaba",
+    "label": "LOCAL",
+    "token_indices": [
+      70
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Hizbollah",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Hizbollah",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Partido de Deus",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Marjayoun",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Líbano",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Kawkaba",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('10h00 de Lisboa', 'TEMPO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Resistência Islâmica , ala armada do Hizbollah , apoiada pelo Irão e pela Síria , reivindicou o ataque num comunicado em que disse que visara «uma coluna de líderes israelitas». Segundo o mesmo comunicado, um segundo engenho explosivo foi activado 20 minutos mais tarde, à chegada de reforços israelitas. O duplo atentado foi seguido de forte tiroteio israelita contra o sul da planície de Bekaa , sob controlo sírio. Mais de 70 obuses cairam em meia hora nas encostas e colinas da área, onde o Hizbollah está bem implantado, segundo a polícia libanesa, que não deu pormenores.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Resistência Islâmica",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "Hizbollah",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Irão",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Síria",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "20 minutos",
+    "label": "VALOR",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "Bekaa",
+    "label": "LOCAL",
+    "token_indices": [
+      65
+    ]
+  },
+  {
+    "text": "Mais de 70",
+    "label": "VALOR",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "text": "Hizbollah",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      86
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Resistência Islâmica",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Hizbollah",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Irão",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Síria",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Hizbollah",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Bekaa",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('20 minutos', 'VALOR'), ('Mais de 70', 'VALOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Espanha: 17% bascos a favor da independência Uma maioria de 74,2 por cento dos bascos é a favor de um referendo sobre a autodeterminação na região espanhola, mas somente 17,7 por cento é pela independência, de acordo com uma sondagem ontem publicada pelo jornal « El Mundo ». A sondagem, num universo de 600 pessoas e com margem de erro de quatro por cento, aponta para que 52,9 por cento dos bascos gostaria de uma maior autonomia em relação a Madrid .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "17%",
+    "label": "VALOR",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "74,2 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "17,7 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "text": "El Mundo",
+    "label": "LOCAL",
+    "token_indices": [
+      45,
+      46
+    ]
+  },
+  {
+    "text": "600",
+    "label": "VALOR",
+    "token_indices": [
+      53
+    ]
+  },
+  {
+    "text": "52,9 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "text": "Madrid",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      80
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "74,2 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "17,7 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "17%",
+    "label": "VALOR"
+  },
+  {
+    "text": "El Mundo",
+    "label": "OBRA"
+  },
+  {
+    "text": "600",
+    "label": "VALOR"
+  },
+  {
+    "text": "4 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "52,9 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "Madrid",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('El Mundo', 'LOCAL'), ('Madrid', 'ORGANIZACAO')]
+Espúrias  (FP): [('Espanha', 'LOCAL'), ('El Mundo', 'OBRA'), ('4 por cento', 'VALOR'), ('Madrid', 'LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Do conjunto, 60,5 por cento crê que a trégua por período ilimitado anunciada pela ETA e a decorrer desde 18 de Setembro passado tende ao abandono definitivo das armas pela organização independentista, contra 24,7 por cento que pensa o contrário. A trégua criou esperança de que acabe a violência, que em três décadas causou mais de 800 mortos.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "60,5 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "ETA",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "18 de Setembro",
+    "label": "TEMPO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "24,7 por cento",
+    "label": "VALOR",
+    "token_indices": [
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "text": "mais de 800",
+    "label": "VALOR",
+    "token_indices": [
+      54,
+      55,
+      56
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "60,5 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "18 de Setembro",
+    "label": "TEMPO"
+  },
+  {
+    "text": "ETA",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "24,7 por cento",
+    "label": "VALOR"
+  },
+  {
+    "text": "800",
+    "label": "VALOR"
+  }
+]
+
+Perdidas  (FN): [('mais de 800', 'VALOR')]
+Espúrias  (FP): [('800', 'VALOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Como era a cidade? Era pequeníssima. Este monumento, Biblioteca Pública , que é dos mais antigos, mais belos de Braga eram os Jardins do Paço Episcopal .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Biblioteca Pública",
+    "label": "LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Jardins do Paço Episcopal",
+    "label": "LOCAL",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Biblioteca Pública",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Jardins do Paço Episcopal",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Biblioteca Pública', 'LOCAL')]
+Espúrias  (FP): [('Biblioteca Pública', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na parte de baixo tinha uma capela, que depois tiraram, e aqui em cima uma parede alta que já foi o Santos Silva que a deitou abaixo. E já lhe disse:"O senhor criou o melhor monumento de Braga que não se vê." Essa rua, Rua Eça de Queirós , não existia, foi tirada dos Jardins deste Palácio , que era Episcopal, depois passou para Biblioteca Pública e depois para a Universidade do Minho .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Santos Silva",
+    "label": "PESSOA",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Rua Eça de Queirós",
+    "label": "LOCAL",
+    "token_indices": [
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  {
+    "text": "Jardins",
+    "label": "LOCAL",
+    "token_indices": [
+      54
+    ]
+  },
+  {
+    "text": "Palácio",
+    "label": "LOCAL",
+    "token_indices": [
+      56
+    ]
+  },
+  {
+    "text": "Biblioteca Pública",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      64,
+      65
+    ]
+  },
+  {
+    "text": "Universidade do Minho",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      70,
+      71,
+      72
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Santos Silva",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Rua Eça de Queirós",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Jardins",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Episcopal",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Biblioteca Pública",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Universidade do Minho",
+    "label": "ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Braga', 'LOCAL'), ('Palácio', 'LOCAL')]
+Espúrias  (FP): [('Episcopal', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Até é curioso que o congresso foi promovido pela Faculdade de Filosofia , mas foi aqui realizado porque aqui era a Biblioteca Pública , era o sítio onde tínhamos possibilidades de reunir as pessoas. Como fez a viagem de Espanha para Braga ?
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Faculdade de Filosofia",
+    "label": "ORGANIZACAO",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Biblioteca Pública",
+    "label": "LOCAL",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL",
+    "token_indices": [
+      41
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Faculdade de Filosofia",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Biblioteca Pública",
+    "label": "ORGANIZACAO"
+  },
+  {
+    "text": "Espanha",
+    "label": "LOCAL"
+  },
+  {
+    "text": "Braga",
+    "label": "LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Biblioteca Pública', 'LOCAL')]
+Espúrias  (FP): [('Biblioteca Pública', 'ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+IX O sono da manhã pousava nos olhos do Pajé como névoas de bonança pairam ao romper do dia sobre as profundas cavernas da montanha. ' Martim parou indeciso; mas o rumor de seu passo penetrou no ouvido do ancião, e abalou seu corpo decrépito. - Araquém dorme! murmurou o guerreiro devolvendo o passo. O velho ficou imóvel: - O Pajé dorme porque já Tupã voltou o rosto para a terra e a luz correu os maus espíritos da treva. Mas o sono é leve nos olhos de Araquém , como o fumo do sapé no cocuruto da serra. Se o estrangeiro veio para o Pajé , fale; seu ouvido escuta. - O estrangeiro veio, para te anunciar que parte. - O hóspede é senhor na cabana de Araquém ; todos os caminhos estão abertos para ele. Tupã o leve à taba dos seus. Vieram Caubi e Iracema : - Caubi voltou: disse o guerreiro tabajara.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pajé",
+    "label": "PESSOA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Martim",
+    "label": "PESSOA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Araquém",
+    "label": "PESSOA",
+    "token_indices": [
+      46
+    ]
+  },
+  {
+    "text": "Pajé",
+    "label": "PESSOA",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Tupã",
+    "label": "PESSOA",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Araquém",
+    "label": "PESSOA",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "Pajé",
+    "label": "PESSOA",
+    "token_indices": [
+      105
+    ]
+  },
+  {
+    "text": "Araquém",
+    "label": "PESSOA",
+    "token_indices": [
+      128
+    ]
+  },
+  {
+    "text": "Tupã",
+    "label": "PESSOA",
+    "token_indices": [
+      137
+    ]
+  },
+  {
+    "text": "Caubi",
+    "label": "PESSOA",
+    "token_indices": [
+      145
+    ]
+  },
+  {
+    "text": "Iracema",
+    "label": "PESSOA",
+    "token_indices": [
+      147
+    ]
+  },
+  {
+    "text": "Caubi",
+    "label": "PESSOA",
+    "token_indices": [
+      150
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Pajé', 'PESSOA'), ('Martim', 'PESSOA'), ('Araquém', 'PESSOA'), ('Pajé', 'PESSOA'), ('Tupã', 'PESSOA'), ('Araquém', 'PESSOA'), ('Pajé', 'PESSOA'), ('Araquém', 'PESSOA'), ('Tupã', 'PESSOA'), ('Caubi', 'PESSOA'), ('Iracema', 'PESSOA'), ('Caubi', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Traz a Araquém o melhor de sua caça. - O guerreiro Caubi é um grande caçador de montes e florestas. Os olhos de seu pai gostam de vê-lo. O velho abriu as pálpebras e cerrou-as logo: - Filha de Araquém , escolhe para teu hóspede o presente da volta e prepara o moquém da viagem. Se o estrangeiro precisa de guia, o guerreiro Caubi , senhor do caminho , O acompanhará. O sono voltou aos olhos do Pajé . Enquanto Caubi pendurava no fumeiro as peças de caça, Iracema colheu a sua alva rede de algodão com franjas de penas, e acomodou-a dentro do uru de palha trançada. Martim esperava na porta da cabana. A virgem veio a ele: - Guerreiro, que levas o sono de meus olhos, leva a minha rede também. Quando nela dormites, falem em tua alma os sonhos de Iracema .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Araquém",
+    "label": "PESSOA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Caubi",
+    "label": "PESSOA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Araquém",
+    "label": "PESSOA",
+    "token_indices": [
+      39
+    ]
+  },
+  {
+    "text": "Caubi",
+    "label": "PESSOA",
+    "token_indices": [
+      63
+    ]
+  },
+  {
+    "text": "Pajé",
+    "label": "PESSOA",
+    "token_indices": [
+      77
+    ]
+  },
+  {
+    "text": "Caubi",
+    "label": "PESSOA",
+    "token_indices": [
+      80
+    ]
+  },
+  {
+    "text": "Iracema",
+    "label": "PESSOA",
+    "token_indices": [
+      88
+    ]
+  },
+  {
+    "text": "Martim",
+    "label": "PESSOA",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "Iracema",
+    "label": "PESSOA",
+    "token_indices": [
+      143
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Araquém",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Caubi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Araquém",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Caubi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Pajé",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Caubi",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Iracema",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Iracema",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Martim",
+    "label": "PESSOA"
+  },
+  {
+    "text": "Iracema",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Iracema', 'PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+- Ele vai! murmuraram os lábios trêmulos. O Pajé levantou-se em pé no meio da cabana e acendeu o cachimbo. Ele e o mancebo trocaram a fumaça da despedida. - Bem-ido seja o hóspede, como foi bem-vindo à cabana de Araquém .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Pajé",
+    "label": "PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Araquém",
+    "label": "PESSOA",
+    "token_indices": [
+      40
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Araquém",
+    "label": "PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Pajé', 'PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Desceram a colina e entraram na mata sombria. O sabiá do sertão, mavioso cantor da tarde, escondido nas moitas espessas da ubaia , soltava os prelúdios da suave endecha. A virgem suspirou: - A tarde é a tristeza do sol. Os dias de Iracema vão ser longas tardes sem manhã, até que venha para ela a grande noite. O mancebo se voltara. Seu lábio emudeceu, mas os olhos falaram. Uma lágrima correu pela face guerreira, como as umidades que durante os ardores do estio transudam da escarpa dos rochedos. Caubi avançado sempre, sumira-se entre a densa ramagem. O seio da filha de Araquém arfou, como o esto da vaga que se franja de espuma e soluça.
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Iracema",
+    "label": "PESSOA",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "Caubi",
+    "label": "PESSOA",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "Araquém",
+    "label": "PESSOA",
+    "token_indices": [
+      102
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Iracema', 'PESSOA'), ('Caubi', 'PESSOA'), ('Araquém', 'PESSOA')]
+Espúrias  (FP): []
+
