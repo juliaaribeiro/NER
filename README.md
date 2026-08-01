@@ -2,14 +2,14 @@
 
 ## About
 
-This project presents a comprehensive comparative study of **Named Entity Recognition (NER)** in Portuguese, evaluating state-of-the-art approaches for information extraction. We investigate the effectiveness of fine-tuning and few-shot learning techniques across the BERT transformer-based model and large language models (LLMs) such as LLAMA and QWEN on diverse Portuguese datasets. The study employs iterative stratification for dataset partitioning, ensuring balanced distribution of entity types across folds to provide robust cross-validation and reliable performance estimation.
+This project presents a comprehensive comparative study of **Named Entity Recognition (NER)** in Portuguese, evaluating state-of-the-art approaches for information extraction. We investigate the effectiveness of fine-tuning technique across the BERT transformer-based model and large language models (LLMs) such as QWEN on diverse Portuguese datasets. The study employs iterative stratification for dataset partitioning, ensuring balanced distribution of entity types across folds to provide robust cross-validation and reliable performance estimation.
 
 ## Overview
 
 The project encompasses:
 
-- **Multiple Models**: BERT, LLAMA, and QWEN with different scales
-- **Multiple Approaches**: Fine-tuning and Few-shot learning strategies
+- **Multiple Models**: BERT and QWEN with different scales
+- **Multiple Approaches**: Fine-tuning learning strategies
 - **Multiple Datasets**: CachacaNER, HAREM (First, Second, Mini), leNER, Paramopama, and UlyssesNER-BR
 - **Comprehensive Evaluation**: Cross-validation 
 
@@ -29,18 +29,8 @@ The project encompasses:
 │   ├── BERT_errors/          # Error analysis for BERT models
 │   └── FINE_TUNING/          # Fine-tuning notebooks and experiments
 ├── LLMs/
-│   ├── fewshot_implement/    # Few-shot learning implementations
-│   │   ├── LLMs-LLAMA.ipynb
-│   │   └── LLMsQWEN.ipynb
-│   ├── finetune_implement/   # Fine-tuning implementations
-│   │   ├── LLMsfinetuning-LLAMA.ipynb
-│   │   └── LLMsfinetuning-QWEN.ipynb
-│   ├── LLMsFEWSHOT/          # Few-shot results and analysis
-│   │   ├── llama/
-│   │   └── qwen/
-│   └── LLMsFINETUNING/       # Fine-tuning results and analysis
-│       ├── LLAMA/
-│       └── QWEN/
+│   ├── qwen3.5/    #  Fine-tuning implementation and error analysis
+│   
 ├── Partitions/
 │   ├── Database/             # Dataset files and partitions
 │   │   ├── cachacaNER/
