@@ -1,0 +1,9326 @@
+--------------------------------------------------------------------------------
+Texto:
+Conta com a pimenta doce de moça na composição , o que adiciona um toque leve e delicado mas não picante .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "delicado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "não picante",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('delicado', 'CARACTERISTICA_SENSORIAL_SABOR'), ('não picante', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Coqueiro Gabriela 500ml Cravo e Canela
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Coqueiro Gabriela",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "500ml",
+    "label": "VOLUME",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Coqueiro Gabriela",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "500ml",
+    "label": "VOLUME"
+  },
+  {
+    "text": "Cravo e Canela",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Cravo e Canela', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça 1000 Montes 3AOB
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1000 Montes 3AOB",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1000 Montes",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('1000 Montes 3AOB', 'NOME_BEBIDA')]
+Espúrias  (FP): [('1000 Montes', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Um blend de três tostas diferentes de barris de carvalho americano ( 3 AOB – American Oak Barrel ) que lhe proporciona coloração dourada alaranjada , com aromas e sabores equilibrados com notas de coco caramelizado , mel e baunilha e percepção do álcool suave trazendo sofisticação ao destilado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "carvalho americano",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "dourada alaranjada",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "notas de coco caramelizado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "text": "mel",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      41
+    ]
+  },
+  {
+    "text": "baunilha",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      43
+    ]
+  },
+  {
+    "text": "álcool suave",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      47,
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho americano",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "AOB",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "American Oak Barrel",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "dourada alaranjada",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "notas de coco caramelizado",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "mel",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "baunilha",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "álcool suave",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('notas de coco caramelizado', 'CARACTERISTICA_SENSORIAL_SABOR'), ('mel', 'CARACTERISTICA_SENSORIAL_SABOR'), ('baunilha', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): [('AOB', 'CLASSIFICACAO_BEBIDA'), ('American Oak Barrel', 'TIPO_MADEIRA'), ('notas de coco caramelizado', 'CARACTERISTICA_SENSORIAL_AROMA'), ('mel', 'CARACTERISTICA_SENSORIAL_AROMA'), ('baunilha', 'CARACTERISTICA_SENSORIAL_AROMA')]
+
+--------------------------------------------------------------------------------
+Texto:
+RECIPIENTE DE ARMAZENAMENTO : Tipo Barril : ¨Carvalho Americano
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Americano",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Carvalho Americano",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('Americano', 'TIPO_MADEIRA')]
+Espúrias  (FP): [('Carvalho Americano', 'TIPO_MADEIRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Werneck Reserva Especial 750 . ml A Werneck Reserva Especial é armazenada por cerca de 1 ano em tonéis de jequitibá e em sequência mais 6 a 8 meses em barris de carvalho .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Werneck",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Reserva Especial",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "750 . ml",
+    "label": "VOLUME",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Werneck",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Reserva Especial",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "1 ano",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "jequitibá",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "6 a 8 meses",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Werneck",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Reserva Especial",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "750 .",
+    "label": "VOLUME"
+  },
+  {
+    "text": "Werneck",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Reserva Especial",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "1 ano",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "jequitibá",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "6 a 8 meses",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('750 . ml', 'VOLUME')]
+Espúrias  (FP): [('750 .', 'VOLUME')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fim de boca enxuto .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "enxuto",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('enxuto', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A arte do Blend utilizada por Élio confere suavidade , sabor e aromas particulares à Saracura .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Élio",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Saracura",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Élio",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Saracura",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Blend', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É uma viagem no tempo e os tons de amadeirado , frutado e especiarias são marcantes .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tons de amadeirado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "frutado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "especiarias",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "amadeirado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "frutado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "especiarias",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('tons de amadeirado', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): [('amadeirado', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Frutado com sutis traços de madeira .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Frutado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "traços de madeira",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Frutado",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "sutil traços de madeira",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+Perdidas  (FN): [('Frutado', 'CARACTERISTICA_SENSORIAL_SABOR'), ('traços de madeira', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): [('Frutado', 'CARACTERISTICA_SENSORIAL_AROMA'), ('sutil traços de madeira', 'CARACTERISTICA_SENSORIAL_AROMA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sabor : Leve e macia , com acidez equilibrada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "macia",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "acidez equilibrada",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Leve",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "text": "macia",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "text": "acidez equilibrada",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Leve', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Dom Cabral Ed . 1500 Prata 600ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dom Cabral",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "600ml",
+    "label": "VOLUME",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Dom Cabral",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Ed . 1500",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "600ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Ed . 1500', 'CLASSIFICACAO_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Teor Alcoólico de 38º G . L .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "38º G . L",
+    "label": "GRADUACAO_ALCOOLICA",
+    "token_indices": [
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "38º",
+    "label": "GRADUACAO_ALCOOLICA"
+  }
+]
+
+Perdidas  (FN): [('38º G . L', 'GRADUACAO_ALCOOLICA')]
+Espúrias  (FP): [('38º', 'GRADUACAO_ALCOOLICA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Excelente sabor tropical , suave , agrada todos os paladares .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tropical",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "suave",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('tropical', 'CARACTERISTICA_SENSORIAL_SABOR'), ('suave', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Espirito de Minas Arte Bra Ouro 750 ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espirito de Minas",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "750 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Espirito de Minas Arte Bra",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "750 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Espirito de Minas', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Espirito de Minas Arte Bra', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Espirito de Minas Arte Bra Ouro 750 ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Espirito de Minas",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "750 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Espirito de Minas Arte Bra",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "750 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Espirito de Minas', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Espirito de Minas Arte Bra', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sabor macio e amadeirado
+
+Entidades verdadeiras:
+[
+  {
+    "text": "macio",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "amadeirado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "macio",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "amadeirado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('macio', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA')]
+Espúrias  (FP): [('macio', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Presença marcante do carvalho
+
+Entidades verdadeiras:
+[
+  {
+    "text": "carvalho",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('carvalho', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): [('carvalho', 'TIPO_MADEIRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Nega Fulô Envelhecimento em tonéis de carvalho da um toque suave e cremoso e essa clássica cachaça .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Nega Fulô",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "cremoso",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Nega Fulô",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "suave",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "text": "cremoso",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('suave', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Seguem as mesmas tecnicas tradicionais que eram utilizadas no Rio de Janeiro no inicio do século XIX .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Rio de Janeiro",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "século XIX",
+    "label": "TEMPO",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "século XIX",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Rio de Janeiro', 'NOME_LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Possui o tradicional aromas das cachaças envelhecidas em tonéis de carvalho , o que proporciona uma sabor leve e redondo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "leve",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "leve",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "redondo",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('redondo', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+possui o tradicional aromas das cachaças envelhecidas em tonéis de carvalho , o que proporciona uma sabor leve e redondo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "leve",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "redondo",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('leve', 'CARACTERISTICA_SENSORIAL_SABOR'), ('redondo', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Envelhecida em tonéis de carvalho , o que proporciona uma sabor leve e redondo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "leve",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "redondo",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('leve', 'CARACTERISTICA_SENSORIAL_SABOR'), ('redondo', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Sagatiba Prata Cristalina 700 ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sagatiba",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sagatiba",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Cristalina",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Cristalina', 'CARACTERISTICA_SENSORIAL_COR')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Sagatiba Prata Cristalina Sagatiba Pura é uma cachaça premium com sabor suave , 38% vol .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sagatiba",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Sagatiba",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "premium",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "38%",
+    "label": "GRADUACAO_ALCOOLICA",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sagatiba",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Cristalina",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "Sagatiba",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "38%",
+    "label": "GRADUACAO_ALCOOLICA"
+  }
+]
+
+Perdidas  (FN): [('premium', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): [('Cristalina', 'CARACTERISTICA_SENSORIAL_COR')]
+
+--------------------------------------------------------------------------------
+Texto:
+O resultado é a Sagatiba Pura , a primeira cachaça premium do mundo , com sabor , aroma e leveza nunca antes encontrados em bebidas dessa categoria .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Sagatiba",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "premium",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Sagatiba Pura",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "premium",
+    "label": "CLASSIFICACAO_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Sagatiba', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Sagatiba Pura', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+OOO barris de madeira nobre vindos da Europa , EUA e norte do Brasil , como carvalho , jequitibá , bálsamo , castanheira , entre outras , objetivando envelhecer a cachaça agregando as nuances da própria madeira para o sabor e olfato de cada consumidor final , com alta qualidade e garantia de produto Premium .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "Europa",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "norte do Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "jequitibá",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "bálsamo",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "castanheira",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "Premium",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "barris de madeira",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "Europa",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "EUA",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "jequitibá",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "bálsamo",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "castanheira",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Premium",
+    "label": "CLASSIFICACAO_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('barris', 'RECIPIENTE_ARMAZENAMENTO'), ('norte do Brasil', 'NOME_LOCAL')]
+Espúrias  (FP): [('barris de madeira', 'RECIPIENTE_ARMAZENAMENTO'), ('Brasil', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+de Aguardente
+
+Entidades verdadeiras:
+[
+  {
+    "text": "de Aguardente",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      0,
+      1
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "de Aguardente",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('de Aguardente', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): [('de Aguardente', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : CACHAÇA OURO PORCELANA SACCA 700ML
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OURO",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "SACCA",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "700ML",
+    "label": "VOLUME",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "OURO",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "700ML",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('SACCA', 'NOME_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em julho de 2008 registraram sua própria marca SACCA do latim saccharum que significa gênero cana - de - açúcar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "julho de 2008",
+    "label": "TEMPO",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "SACCA",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "julho",
+    "label": "TEMPO"
+  },
+  {
+    "text": "2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "SACCA",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('julho de 2008', 'TEMPO')]
+Espúrias  (FP): [('julho', 'TEMPO'), ('2008', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+o do amarelo - pa ? lido ao mogno e aromas mais sutis e temperados , lembrando ame ? ndoa , e adocicados , contribuindo com textura e adstringe ? ncia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "amarelo - pa ? lido",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "mogno",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "ame ? ndoa",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "text": "adocicados",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "adstringe ? ncia",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      28,
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "amarelo - pa ? lido",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "mogno",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "ame ? ndoa",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "adocicados",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "adstringe ? ncia",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+Perdidas  (FN): [('mogno', 'CARACTERISTICA_SENSORIAL_COR'), ('adstringe ? ncia', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): [('mogno', 'TIPO_MADEIRA'), ('adstringe ? ncia', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Beija - Flor Ltda , empresa familiar de Salinas que está no mercado desde de 1988 , que tamnbem produz a famosa e tradicional Indaiazinha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Beija - Flor Ltda",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Salinas",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "1988",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Indaiazinha",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Beija - Flor Ltda",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Salinas",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "1988",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Indaiazinha', 'NOME_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Beija - Flor Ltda , empresa familiar de Salinas que está no mercado desde de 1988 , que tamnbem produz a famosa e tradicional Indaiazinha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Beija - Flor Ltda",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Salinas",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "1988",
+    "label": "TEMPO",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Indaiazinha",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Beija - Flor Ltda",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Salinas",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "1988",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Indaiazinha', 'NOME_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Envelhecida em tónel : BalsamoTempo de Envelhecimento : 8 Anos Conteúdo : 50 ml Garrafa : Miniatura Prazo de Validade : Indeterminado Evite o consumo Excessivo de Álcool
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tónel",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "8 Anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "50 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      12,
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "tónel",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "Balsamo",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "8 Anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "50 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Balsamo', 'TIPO_MADEIRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+RECIPIENTE DE ARMAZENAMENTO : Neutra .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Neutra",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Neutra', 'CARACTERISTICA_SENSORIAL_COR')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Matriarca Bálsamo 680 ml Artesanal Cachaça é Presente A Cachaça Matriarca Bálsamo é envelhecida por dois anos em Barris de Bálsamo , cujo processo lhe adiciona uma coloração amarelo dourado e na taça se apresenta límpida , brilhante e um corpo médio .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Matriarca",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Bálsamo",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "680 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Matriarca",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Bálsamo",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "dois anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "Barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Bálsamo",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "amarelo dourado",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "límpida",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "brilhante",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "corpo médio",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      45,
+      46
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Matriarca",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Bálsamo",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "680 ml",
+    "label": "VOLUME"
+  },
+  {
+    "text": "Matriarca",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Bálsamo",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "dois anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "Barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "amarelo dourado",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "límpida",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "text": "brilhante",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "text": "médio",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+Perdidas  (FN): [('Bálsamo', 'TIPO_MADEIRA'), ('límpida', 'CARACTERISTICA_SENSORIAL_COR'), ('brilhante', 'CARACTERISTICA_SENSORIAL_COR'), ('corpo médio', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA')]
+Espúrias  (FP): [('límpida', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA'), ('brilhante', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA'), ('médio', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A sensação no paladar é de um álcool que não chega a incomodar , prevalecendo aromas intensos da madeira , com notas de especiarias como cravo e anis estrelado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "álcool",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "madeira",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "cravo",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      25
+    ]
+  },
+  {
+    "text": "anis estrelado",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "álcool",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "notas de especiarias",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "cravo",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "anis estrelado",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+Perdidas  (FN): [('madeira', 'CARACTERISTICA_SENSORIAL_AROMA')]
+Espúrias  (FP): [('notas de especiarias', 'CARACTERISTICA_SENSORIAL_AROMA')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça de Alambique Capotira do Maranhão Ouro 700 ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alambique",
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Capotira",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Maranhão",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Alambique",
+    "label": "EQUIPAMENTO_DESTILACAO"
+  },
+  {
+    "text": "Capotira",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "do Maranhão",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Maranhão', 'NOME_LOCAL')]
+Espúrias  (FP): [('do Maranhão', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Artesanal de Alambique Ouro 670 ml Maranhense Volume : 700 ml Madeira : Carvalho e Grápia Grad .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alambique",
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "670 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "Grápia",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Alambique",
+    "label": "EQUIPAMENTO_DESTILACAO"
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "670 ml",
+    "label": "VOLUME"
+  },
+  {
+    "text": "Maranhense",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME"
+  },
+  {
+    "text": "Carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Grápia",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Maranhense', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Alc : 40% Cachaça Capotira é considerada uma das melhores do Brasil e do mundo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "40%",
+    "label": "GRADUACAO_ALCOOLICA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Capotira",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "40%",
+    "label": "GRADUACAO_ALCOOLICA"
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Capotira', 'NOME_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em um dos maiores festivais em 2017 , Capotira recebeu o certificado Prata na categoria Cachaças Armazenadas em Madeiras Brasileiras .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2017",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Capotira",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Capotira",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Capotira', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Capotira', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Capotira , palavra de origem indígena que significa " flor do mato " , é uma cachaça fabricada artesanalmente em alambique de cobre e armazenada em barris de carvalho e grápia na fazenda Baixadinha , no coração da Região dos Cocais , no Estado do Maranhão .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Capotira",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "alambique de cobre",
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      28
+    ]
+  },
+  {
+    "text": "grápia",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      30
+    ]
+  },
+  {
+    "text": "fazenda Baixadinha",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "Região dos Cocais",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Maranhão",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      45
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "alambique de cobre",
+    "label": "EQUIPAMENTO_DESTILACAO"
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "grápia",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Baixadinha",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Região dos Cocais",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Maranhão",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Capotira', 'NOME_BEBIDA'), ('fazenda Baixadinha', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): [('Baixadinha', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+br Cachaça Mineira João Plenário Blend 2 madeiras armazenado em Tonéis de Carvalho e Umburana .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "João Plenário",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Umburana",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "João",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "Carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Umburana",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('João Plenário', 'NOME_BEBIDA')]
+Espúrias  (FP): [('João', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A mistura confere ao produto final um exclusivo padrão sensorial , com Notas de Baunilha e Amêndoas e suave paladar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Notas de Baunilha",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Amêndoas",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Baunilha",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "Amêndoas",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('Notas de Baunilha', 'CARACTERISTICA_SENSORIAL_AROMA'), ('Amêndoas', 'CARACTERISTICA_SENSORIAL_AROMA')]
+Espúrias  (FP): [('Baunilha', 'CARACTERISTICA_SENSORIAL_SABOR'), ('Amêndoas', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Velho Alambique Cenário 700 ml Cachaça é Presente
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Velho Alambique",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Cenário",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Velho Alambique Cenário",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Velho Alambique', 'NOME_BEBIDA'), ('Cenário', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Velho Alambique Cenário', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Velho Alambique Cenário 700 ml Cachaça - Cachaça é Presente ORIGEM : Cachaça Gaúcha produzida em Santa Tereza - Rio Grande do Sul - Brasil Produzida pela Cachaçaria Velho Alambique Cachaça Cenário - Cachaça é Presente , um presente diferente !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Velho Alambique",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Cenário",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Santa Tereza",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Cachaçaria Velho Alambique",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "Cenário",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      36
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Velho Alambique Cenário",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME"
+  },
+  {
+    "text": "Santa Tereza",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Velho Alambique",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Velho Alambique', 'NOME_BEBIDA'), ('Cenário', 'NOME_BEBIDA'), ('Cachaçaria Velho Alambique', 'NOME_ORGANIZACAO'), ('Cenário', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Velho Alambique Cenário', 'NOME_BEBIDA'), ('Velho Alambique', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Cachaça Cenário é resultado de um blend de cachaças armazenadas em três tipos de madeira : carvalho angico e grápia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cenário",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "angico",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "grápia",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cenário",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "carvalho angico",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "grápia",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('carvalho', 'TIPO_MADEIRA'), ('angico', 'TIPO_MADEIRA')]
+Espúrias  (FP): [('carvalho angico', 'TIPO_MADEIRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na Expointer 2014 - Exposição Internacional de Animais Máquinas Implementos e Produtos Agropecuários - a Velho Alambique Envelhecida e a Branca conquistaram medalha de prata e as brancas conquistaram a 2a colocação na Expointer .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2014",
+    "label": "TEMPO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Velho Alambique",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2014",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Velho Alambique Envelhecida",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Branca",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Velho Alambique', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Velho Alambique Envelhecida', 'NOME_BEBIDA'), ('Branca', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+RECIPIENTE DE ARMAZENAMENTO : carvalho angico e grápia .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "angico",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "grápia",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "carvalho angico",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "grápia",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('carvalho', 'TIPO_MADEIRA'), ('angico', 'TIPO_MADEIRA')]
+Espúrias  (FP): [('carvalho angico', 'TIPO_MADEIRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Artesanal Gogó da Ema Ouro Umburana 750 ml​ www .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Gogó da Ema",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Umburana",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "750",
+    "label": "VOLUME",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gogó da Ema",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Umburana",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "750 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('750', 'VOLUME')]
+Espúrias  (FP): [('750 ml', 'VOLUME')]
+
+--------------------------------------------------------------------------------
+Texto:
+br Cachaça de Alambique Destilado da Cana de Açucar : Origem : Fazenda Recanto São Sebastião / AL A Cachaça Gogó da Ema Ouro , armazenada em Tonéis de Umburana , representa a mais nobre das madeiras Brasileiras que fazem sucesso mundo a fora .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Alambique",
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "Fazenda Recanto",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "São Sebastião",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "AL",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Gogó da Ema",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Umburana",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fazenda Recanto São Sebastião",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "AL",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Gogó da Ema",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "Umburana",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('Alambique', 'EQUIPAMENTO_DESTILACAO'), ('Fazenda Recanto', 'NOME_ORGANIZACAO'), ('São Sebastião', 'NOME_LOCAL')]
+Espúrias  (FP): [('Fazenda Recanto São Sebastião', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Notas de especiarias e aromas bem adocicados , com um retrogosto bastante equilibrado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "adocicados",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "especiarias",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "adocicados",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('especiarias', 'CARACTERISTICA_SENSORIAL_AROMA')]
+
+--------------------------------------------------------------------------------
+Texto:
+LOCAL DE PRODUÇÃO : Fazenda Recanto São Sebastião / AL
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fazenda Recanto",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "São Sebastião",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "AL",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fazenda Recanto São Sebastião",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "AL",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Fazenda Recanto', 'NOME_ORGANIZACAO'), ('São Sebastião', 'NOME_LOCAL')]
+Espúrias  (FP): [('Fazenda Recanto São Sebastião', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça de alambique Doçura de Minas Prata 750 ml www .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "alambique",
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Doçura de Minas",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "750 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Doçura de Minas",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "750 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('alambique', 'EQUIPAMENTO_DESTILACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+br Origem : Camanducaia / MG Armazenada em tonéis de Inox Envelhecimento : Blend de vários anos Grad .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Camanducaia",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "MG",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "tonéis de Inox",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Camanducaia",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "MG",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('tonéis de Inox', 'RECIPIENTE_ARMAZENAMENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+TEMPO DE ARMAZENAMENTO : Blend de vários anos
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      4
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Blend de vários anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+Perdidas  (FN): [('Blend', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): [('Blend de vários anos', 'TEMPO_ARMAZENAMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : ”Nossa , tem um gostinho cítrico !
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "cítrico",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('cítrico', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Utilizamos o limão tahiti pois acreditamos que ele equilibra perfeitamente com o doce do mel e traz a acidez exata para a Babuxca .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Babuxca",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "doce",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "acidez",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('Babuxca', 'NOME_BEBIDA')]
+Espúrias  (FP): [('doce', 'CARACTERISTICA_SENSORIAL_SABOR'), ('acidez', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Esse sabor agrada aqueles que gostam de algo mais cítrico , não tão doce .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "cítrico",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "não tão doce",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('cítrico', 'CARACTERISTICA_SENSORIAL_SABOR'), ('não tão doce', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tem um toque amargo , mas também apresenta um aspecto licoroso .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "toque amargo",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "licoroso",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "amargo",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "licoroso",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+Perdidas  (FN): [('toque amargo', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): [('amargo', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Busca Vida Aperitivo
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Busca Vida",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Busca Vida Aperitivo",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Busca Vida', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Busca Vida Aperitivo', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : O interior de São Paulo reserva pequenos tesouros do destilado brasileiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "São Paulo",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      7,
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "interior de São Paulo",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('São Paulo', 'NOME_LOCAL')]
+Espúrias  (FP): [('interior de São Paulo', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Cachaça Aperitivo Busca Vida , é uma obra - prima de Carlos de Oliveira e Família , que aplicou as melhores técnicas e processos em uma boa bebida .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Busca Vida",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Carlos de Oliveira",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      12,
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Aperitivo Busca Vida",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Carlos de Oliveira",
+    "label": "NOME_PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Busca Vida', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Aperitivo Busca Vida', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : A cachaça Cambraia 5 anos é o resultado de cinco anos de envelhecimento de cachaças selecionadas em barris de carvalho ( francês e americano ) , produzindo um destilado único com notas marcantes e ao mesmo tempo suaves , que trazem ao paladar do degustador toda a riqueza aromática do legítimo destilado brasileiro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cambraia",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "5 anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "cinco anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cambraia",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "5 anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "francês",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "americano",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('cinco anos', 'TEMPO_ARMAZENAMENTO')]
+Espúrias  (FP): [('francês', 'TIPO_MADEIRA'), ('americano', 'TIPO_MADEIRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Premiada no campeonato “The Cachaça Master” , da Revista Inglesa “The Drinks Business” com medalha de ouro nas categorias embalagem e degustação .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Revista",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "The Drinks Business",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Revista', 'NOME_ORGANIZACAO'), ('The Drinks Business', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+envelhecida em toneis de Umburana e Jequitibá que forma um blend especial trazendo para a cachaça um tom levemente amarelado com sabor leve e suave Volume 700 ml .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "toneis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Umburana",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "Jequitibá",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "levemente amarelado",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      26,
+      27
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "toneis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "Umburana",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Jequitibá",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "amarelado",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "leve",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "suave",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('levemente amarelado', 'CARACTERISTICA_SENSORIAL_COR')]
+Espúrias  (FP): [('amarelado', 'CARACTERISTICA_SENSORIAL_COR'), ('leve', 'CARACTERISTICA_SENSORIAL_SABOR'), ('suave', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Produto único , suave de aroma exótico e marcante , resultante da destilação do funcho .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "exótico",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('exótico', 'CARACTERISTICA_SENSORIAL_AROMA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A bebida era comercializada em garrafões e dornas para comerciantes e barqueiros que navegavam pelo Rio São Francisco e passavam pela cidade à procura da cachaça Januária de Claudionor .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Januária",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "Claudionor",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Januária de Claudionor",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Januária', 'NOME_LOCAL'), ('Claudionor', 'NOME_PESSOA')]
+Espúrias  (FP): [('Januária de Claudionor', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A acidez equilibrada , o sabor frutado e o aroma de buquê de flores do campo e capim fazem a diferença na hora da degustação .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "acidez equilibrada",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "frutado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "buquê de flores do campo",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "text": "capim",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "frutado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "buquê de flores do campo",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "capim",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+Perdidas  (FN): [('acidez equilibrada', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+HISTÓRIA DO ALAMBIQUE : O salinense Noé Santiago Soares nasceu em 1939 , na fazenda Águas Belas , no sopé da Serra dos Bois , zona rural de Salinas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Noé Santiago Soares",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "1939",
+    "label": "TEMPO",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "fazenda Águas Belas",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "text": "sopé da Serra dos Bois",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "text": "zona rural de Salinas",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Noé Santiago Soares",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "1939",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Águas Belas",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Serra dos Bois",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Salinas",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('fazenda Águas Belas', 'NOME_ORGANIZACAO'), ('sopé da Serra dos Bois', 'NOME_LOCAL'), ('zona rural de Salinas', 'NOME_LOCAL')]
+Espúrias  (FP): [('Águas Belas', 'NOME_LOCAL'), ('Serra dos Bois', 'NOME_LOCAL'), ('Salinas', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Noé faleceu em 2008 , aos 69 anos , deixando um legado de vida .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2008",
+    "label": "TEMPO",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Noé",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "2008",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Noé', 'NOME_PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : A Cachaça Weber Haus Extra Premium Reserva Especial 6 Anos 750ml é uma bebida armazenada por seis anos em barris de carvalho francês e bálsamo , madeira tipicamente brasileira .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Weber Haus",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Extra Premium",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Reserva Especial",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "6 Anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "750ml",
+    "label": "VOLUME",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "seis anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "carvalho francês",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "bálsamo",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Weber Haus",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Extra Premium",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Reserva Especial",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "6 Anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "750ml",
+    "label": "VOLUME"
+  },
+  {
+    "text": "seis anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho francês",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "bálsamo",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('seis anos', 'TEMPO_ARMAZENAMENTO')]
+Espúrias  (FP): [('seis anos', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+2009 - Top 20 Ranking Revista Playboy
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2009",
+    "label": "TEMPO",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2009",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Revista Playboy",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Revista Playboy', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : A Cachaça Weber Haus Rota 48 Amburana 1000ml é uma homenagem da destilaria Weber Haus à Rota 48 , um trajeto muito utilizado por tropeiros no século XIX , construída por imigrantes alemães que povoaram a cidade de Ivoti , no Rio Grande do Sul , e finalizada com recursos de Dom Pedro II , devido a sua importância comercial .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Weber Haus Rota 48",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Amburana",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "1000ml",
+    "label": "VOLUME",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "Weber Haus",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Rota 48",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      20,
+      21
+    ]
+  },
+  {
+    "text": "século XIX",
+    "label": "TEMPO",
+    "token_indices": [
+      30,
+      31
+    ]
+  },
+  {
+    "text": "Ivoti",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  {
+    "text": "Dom Pedro II",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      55,
+      56,
+      57
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Weber Haus",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Rota 48",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "1000ml",
+    "label": "VOLUME"
+  },
+  {
+    "text": "Weber Haus",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Ivoti",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "século XIX",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Dom Pedro II",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Weber Haus Rota 48', 'NOME_BEBIDA'), ('Amburana', 'TIPO_MADEIRA'), ('Rota 48', 'NOME_LOCAL')]
+Espúrias  (FP): [('Weber Haus', 'NOME_BEBIDA'), ('Rota 48', 'TIPO_MADEIRA'), ('Brasil', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+HISTÓRIA DO ALAMBIQUE : A Weber Haus é administrada por Evandro Weber , descendente de alemães de Ivoti , encosta da Serra Gaúcha , interior do Rio Grande do Sul .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Weber Haus",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Evandro Weber",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Ivoti",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      17
+    ]
+  },
+  {
+    "text": "Serra Gaúcha",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "interior do Rio Grande do Sul",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Weber Haus",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Evandro Weber",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Ivoti",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Serra Gaúcha",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('interior do Rio Grande do Sul', 'NOME_LOCAL')]
+Espúrias  (FP): [('Rio Grande do Sul', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Possui duas certificações importantes : orgânica e rastreabilidade concedidas pelo Inmetro , sendo umas das primeiras a receber o selo da agricultura familiar do Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Inmetro",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Inmetro', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : A Cachaça Velho Pescador Weber Haus Extra Premium 5 Anos 750 ml é armazenada por cinco anos em barris de carvalho .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Velho Pescador Weber Haus",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Extra Premium",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "5 Anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "750 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "cinco anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      19,
+      20
+    ]
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      24
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Velho Pescador Weber Haus",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Extra Premium",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "5 Anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "750 ml",
+    "label": "VOLUME"
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('cinco anos', 'TEMPO_ARMAZENAMENTO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Em homenagem a Mari Milani , esposa de Marcelo , foi dado o nome de Fazenda Maribo , que é a composição de Mari com as iniciais de Borsato .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Mari Milani",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Marcelo",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Fazenda Maribo",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Mari",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "Borsato",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Mari Milani",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Marcelo",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Fazenda Maribo",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Borsato",
+    "label": "NOME_PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Mari', 'NOME_PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Hoje , o nome tornou - se marca fruto do trabalho realizado no chamado “Armazém da Fazenda Maribo” , onde há muitos anos são vendidos produtos elaborados na própria fazenda , como geléias finas , cachaças e licores .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "“Armazém da Fazenda Maribo”",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Fazenda Maribo",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('“Armazém da Fazenda Maribo”', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): [('Fazenda Maribo', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Weber Haus Envelhecida Leandro Batista 750ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Weber Haus Envelhecida Leandro Batista",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "750ml",
+    "label": "VOLUME",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Weber Haus",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Leandro Batista",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "750ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Weber Haus Envelhecida Leandro Batista', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Weber Haus', 'NOME_BEBIDA'), ('Leandro Batista', 'NOME_PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : O sommelier de cachaças Leandro Batista escolheu a gaúcha Weber Haus para elaborar as cachaças que levam o seu nome .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Leandro Batista",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Weber Haus",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Leandro Batista",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Weber Haus",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Weber Haus', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): [('Weber Haus', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Suave , aveludada , sabor presente das madeiras por onde foi envelhecida .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "aveludada",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "madeiras",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      7
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "aveludada",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+Perdidas  (FN): [('madeiras', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+2019 - Medalha de Prata no Concurso da Expocachaça - Categoria Blend de Madeiras
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2019",
+    "label": "TEMPO",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2019",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Blend', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A partir de onde passa por um processo de blendagem que garante ao produto um sabor marcante com notas de frutas e paladar amadeirado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "notas de frutas",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "amadeirado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "notas de frutas",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "paladar amadeirado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('amadeirado', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): [('paladar amadeirado', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cor : Amarelo ouroAroma : Cana de açúcarPaladar : Encorpado , macio , baixo índice de acidez e paladar equilibrado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Amarelo",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Cana de",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Encorpado",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "macio",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      11
+    ]
+  },
+  {
+    "text": "baixo índice de acidez",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Amarelo",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "Cana de açúcar",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "Encorpado",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "text": "macio",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "text": "baixo índice de acidez",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('Cana de', 'CARACTERISTICA_SENSORIAL_AROMA')]
+Espúrias  (FP): [('Cana de açúcar', 'CARACTERISTICA_SENSORIAL_AROMA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Confirma ao palato o sabor da cana de açúcarCachaças Vila do Ouro - Natural de Pitangui em Minas Gerais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "cana de",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Vila do Ouro",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Pitangui",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      15
+    ]
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "cana de açúcar",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "Vila do Ouro",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Pitangui",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('cana de', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): [('cana de açúcar', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Seu nome é uma homenagem à cidade , que foi a sétima Vila do Ouro de Minas Gerais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "sétima Vila do Ouro",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Minas Gerais",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('sétima Vila do Ouro', 'NOME_LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+2017 - 1° Colocação - Ranking Cacharitiba
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2017",
+    "label": "TEMPO",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Cacharitiba",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Cacharitiba', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+2016 - 1° Colocação - Ranking Cacharitiba
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2016",
+    "label": "TEMPO",
+    "token_indices": [
+      0
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2016",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Cacharitiba",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Cacharitiba', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Tem álcool suave , com aromas e sabores bem integrados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "álcool suave",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('álcool suave', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Bucco 8 madeiras é o resultado de um blanding de 3 anos de envelhecimento em carvalho e madeiras de diversos biomas do brasil , Amburana , Ângico , Bálsamo , Cabriúva , Grápia , Jequitibá Rosa e Loro .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Bucco",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "3 anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "Amburana",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Ângico",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Bálsamo",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      33
+    ]
+  },
+  {
+    "text": "Cabriúva",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Grápia",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Jequitibá Rosa",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      39,
+      40
+    ]
+  },
+  {
+    "text": "Loro",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      42
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Bucco",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "8",
+    "label": "VOLUME"
+  },
+  {
+    "text": "3 anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Amburana",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Ângico",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Bálsamo",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Cabriúva",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Grápia",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Jequitibá Rosa",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Loro",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('brasil', 'NOME_LOCAL')]
+Espúrias  (FP): [('8', 'VOLUME')]
+
+--------------------------------------------------------------------------------
+Texto:
+Visão : Com tonalidade dourada e nuances que vão do amarelo ao ocre , resultante das 8 diferentes plantas utilizadas na fabricação de Barris para cachaça .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "dourada",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "amarelo ao ocre",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "text": "Barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "dourada",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "amarelo",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "ocre",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  }
+]
+
+Perdidas  (FN): [('amarelo ao ocre', 'CARACTERISTICA_SENSORIAL_COR'), ('Barris', 'RECIPIENTE_ARMAZENAMENTO')]
+Espúrias  (FP): [('amarelo', 'CARACTERISTICA_SENSORIAL_COR'), ('ocre', 'CARACTERISTICA_SENSORIAL_COR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Produto desenvolvido como um single barrel , ou seja , cada garrafa é envasada de um único barril , não havendo misturas de barris , o que proporciona uma experiência sensorial incrível e exclusiva .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "barril",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  }
+]
+
+Perdidas  (FN): [('barril', 'RECIPIENTE_ARMAZENAMENTO')]
+Espúrias  (FP): [('barris', 'RECIPIENTE_ARMAZENAMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+INFORMAÇÕES DO PRODUTO : Em 1889 aportava em Santos o navio a vapor Vincenzo Florio , proveniente da cidade de Genova , Itália , Naquele dia desembarcaram várias famílias entre elas a de ERNESTO FIORAVANTI e CATERINA FIORAVANTI , traziam consigo seus filhos e muita vontade de trabalhar nesta nova terra .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "1889",
+    "label": "TEMPO",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Santos",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Genova",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "Itália",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "ERNESTO FIORAVANTI",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      33,
+      34
+    ]
+  },
+  {
+    "text": "CATERINA FIORAVANTI",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      36,
+      37
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "1889",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Santos",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Vincenzo Florio",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Genova",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Itália",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "ERNESTO FIORAVANTI",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "CATERINA FIORAVANTI",
+    "label": "NOME_PESSOA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Vincenzo Florio', 'NOME_PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+E com este mesmo entusiasmo fundaram naquele lugar , uma cidade de nome Dracena A família Fioravanti , naqueles primórdios , possuíam uma propriedade em sociedade chamada Fazenda Tocantins , passado alguns anos , por conta da dissolução da sociedade entre os irmãos ela foi desmembrada em várias outras , ficando uma delas para Oswaldo Fioravanti , um dos filhos de Dona Caterina .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dracena",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "Fazenda Tocantins",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      27,
+      28
+    ]
+  },
+  {
+    "text": "Oswaldo Fioravanti",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      54,
+      55
+    ]
+  },
+  {
+    "text": "Caterina",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      62
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Dracena",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Fazenda Tocantins",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Oswaldo Fioravanto",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Caterina",
+    "label": "NOME_PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Oswaldo Fioravanti', 'NOME_PESSOA')]
+Espúrias  (FP): [('Oswaldo Fioravanto', 'NOME_PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+E trilhando este caminho , em 2008 , os proprietários da fazenda Santa Catarina querendo agregar mais um negócio em sua propriedade resolveram montar a Destilaria Vitória , uma empresa destinada a fabricar cachaça da mais alta qualidade , realmente um produto de excelência sensorial e química , com vários prêmios nacionais e internacionais em seu currículo , hoje o lar da CACHAÇA CATARINA , nome em homenagem a esta senhora que foi a inspiração
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2008",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Destilaria Vitória",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      25,
+      26
+    ]
+  },
+  {
+    "text": "CATARINA",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      63
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "2008",
+    "label": "TEMPO"
+  },
+  {
+    "text": "fazenda Santa Catarina",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Destilaria Vitória",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('CATARINA', 'NOME_BEBIDA')]
+Espúrias  (FP): [('fazenda Santa Catarina', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Barril : CARVALHO AMERICANO NOVO
+
+Entidades verdadeiras:
+[
+  {
+    "text": "CARVALHO AMERICANO",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "CARVALHO AMERICANO NOVO",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('CARVALHO AMERICANO', 'TIPO_MADEIRA')]
+Espúrias  (FP): [('CARVALHO AMERICANO NOVO', 'TIPO_MADEIRA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Costa Rica Carvalho Ouro , produzida no Alambique Guarani , Minas Gerais é uma bebida artesanal , destilada na fermentação da cana de açúcar com 40% vol .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Costa Rica",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Alambique Guarani",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      12,
+      13
+    ]
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "40%",
+    "label": "GRADUACAO_ALCOOLICA",
+    "token_indices": [
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Costa Rica",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Ouro",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Alambique Guarani",
+    "label": "EQUIPAMENTO_DESTILACAO"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "40%",
+    "label": "GRADUACAO_ALCOOLICA"
+  }
+]
+
+Perdidas  (FN): [('Alambique Guarani', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): [('Alambique Guarani', 'EQUIPAMENTO_DESTILACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+, armazenada em tonéis de carvalho apresentando um perfeito equilíbrio , entre o amadeirado e o frutado originando uma bebida suave com sabor marcante .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "amadeirado",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      13
+    ]
+  },
+  {
+    "text": "frutado",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "amadeirado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "frutado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('amadeirado', 'CARACTERISTICA_SENSORIAL_AROMA'), ('frutado', 'CARACTERISTICA_SENSORIAL_AROMA')]
+Espúrias  (FP): [('amadeirado', 'CARACTERISTICA_SENSORIAL_SABOR'), ('frutado', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Da Mata Blend Gran Reserva 700 ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Da Mata",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Da Mata",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Gran Reserva",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Gran Reserva', 'CLASSIFICACAO_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : A Cachaça Da Mata Blend Gran Reserva é uma cachaça sofisticada de altíssima qualidade , produzida em alambique da Cachaça Da Mata , localizada na cidade de Santa Teresa , interior do estado do Espírito Santo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Da Mata",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "alambique",
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "Da Mata",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Santa Teresa",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      31,
+      32
+    ]
+  },
+  {
+    "text": "Espírito Santo",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      38,
+      39
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Da Mata",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Gran Reserva",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Da Mata",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Santa Teresa",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Espírito Santo",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('alambique', 'EQUIPAMENTO_DESTILACAO'), ('Da Mata', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Gran Reserva', 'CLASSIFICACAO_BEBIDA'), ('Da Mata', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+De produção orgânica e com edição limitada esta cachaça premium é o fruto mais nobre e especial dentre as produções do alambique da Cachaça Da Mata .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "premium",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "Cachaça Da Mata",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      23,
+      24,
+      25
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Da Mata",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('premium', 'CLASSIFICACAO_BEBIDA'), ('Cachaça Da Mata', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): [('Da Mata', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Gran reserva foi especialmente criada com cor e sabor únicos , sendo uma bebida para se guardar , colecionar e principalmente apreciar em momentos especiais .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Gran reserva",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Gran reserva', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Serafim labutava na construção das estradas que viriam a unir Santa Teresa às demais localidades vizinhas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Santa Teresa",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Serafim",
+    "label": "NOME_PESSOA"
+  }
+]
+
+Perdidas  (FN): [('Santa Teresa', 'NOME_LOCAL')]
+Espúrias  (FP): [('Serafim', 'NOME_PESSOA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Luiz Fernando , neto de Serafim , encontrou – já na década de 1970 – a paisagem deslumbrante , vivenciada por seu avô e ali adquiriu uma propriedade onde , junto com sua esposa e filhos , aprecia momentos de raro prazer em família .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Luiz Fernando",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Serafim",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "1970",
+    "label": "TEMPO",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Luiz Fernando",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Serafim",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "década de 1970",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('1970', 'TEMPO')]
+Espúrias  (FP): [('década de 1970', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+O produto que você tem em mãos , a DA MATA Gran Reserva , é o fruto mais nobre e especial destes mesmos princípios de cuidado e carinho , na forma de uma bebida de cor e sabor únicos !
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DA MATA",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Reserva",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DA MATA",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Gran Reserva",
+    "label": "CLASSIFICACAO_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Reserva', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): [('Gran Reserva', 'CLASSIFICACAO_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Gran Reserva foi especialmente criada para apreciadores como você .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Reserva",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Gran Reserva",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Reserva', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): [('Gran Reserva', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Presenteie - se com este maravilhoso produto e tenha momentos de intenso prazer e felicidade apreciando sua DA MATA Gran Reserva .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "DA MATA",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "Reserva",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "DA MATA",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Gran Reserva",
+    "label": "CLASSIFICACAO_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Reserva', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): [('Gran Reserva', 'CLASSIFICACAO_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Foi Eleita a 4ª melhor Cachaça do Brasil segundo o ranking mais conceituado do país , o ranking da cúpula da cachaça Volume : 700 ml Teor Alcoólico : 40% Vol .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "cúpula da cachaça",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      24,
+      25
+    ]
+  },
+  {
+    "text": "40%",
+    "label": "GRADUACAO_ALCOOLICA",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME"
+  },
+  {
+    "text": "40%",
+    "label": "GRADUACAO_ALCOOLICA"
+  }
+]
+
+Perdidas  (FN): [('cúpula da cachaça', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Excelência Castranheira 700ML é armazenada por no mínimo 1 ano em tonéis de castanheira o que lhe confere aromas e sabores de amêndoa e castanha fresca .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Excelência",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "Castranheira",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "700ML",
+    "label": "VOLUME",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "1 ano",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      13,
+      14
+    ]
+  },
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "castanheira",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      18
+    ]
+  },
+  {
+    "text": "amêndoa",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "castanha fresca",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      29,
+      30
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Excelência",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Castranheira",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "700ML",
+    "label": "VOLUME"
+  },
+  {
+    "text": "1 ano",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "castanheira",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "amêndoa",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "castanha fresca",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('amêndoa', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): [('amêndoa', 'CARACTERISTICA_SENSORIAL_AROMA')]
+
+--------------------------------------------------------------------------------
+Texto:
+INFORMAÇÕES DO PRODUTO : Tipo : Origem : Teor Alcoolico : Armazedana em : Volume : Modo de Produção : OURO PASSA QUATRO - MG 42%VOL CASTANHEIRA 700ML CACHAÇA ARTESANAL OU DE ALAMBIQUE
+
+Entidades verdadeiras:
+[
+  {
+    "text": "OURO",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      20
+    ]
+  },
+  {
+    "text": "PASSA QUATRO",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "MG",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "CASTANHEIRA",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "700ML",
+    "label": "VOLUME",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "ALAMBIQUE",
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "OURO",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "PASSA QUATRO",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "MG",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "42%",
+    "label": "GRADUACAO_ALCOOLICA"
+  },
+  {
+    "text": "CASTANHEIRA",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "700ML",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('ALAMBIQUE', 'EQUIPAMENTO_DESTILACAO')]
+Espúrias  (FP): [('42%', 'GRADUACAO_ALCOOLICA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Graduação Alcóolica : 42%VOL
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "42%",
+    "label": "GRADUACAO_ALCOOLICA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('42%', 'GRADUACAO_ALCOOLICA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Cachaça produzida em Jaú / São Paulo Em 2018 , no concurso Cachaça com Ciência , promovido pela APTA - IAC ( Instituto Agronômico de Campinas ) , conquistou medalha de Prata na Categoria Cachaça Branca com a Mandaguahy original e também medalha de Prata na categoria Cachaça Premium Envelhecida de 1 a 3 anos , com a Mandaguahy Castanheira 24 meses .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jaú",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "São Paulo",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "2018",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "APTA - IAC",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "Instituto Agronômico de Campinas",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "text": "Branca",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      35
+    ]
+  },
+  {
+    "text": "Mandaguahy",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Premium",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      48
+    ]
+  },
+  {
+    "text": "1 a 3 anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "text": "Mandaguahy",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      58
+    ]
+  },
+  {
+    "text": "Castanheira",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      59
+    ]
+  },
+  {
+    "text": "24 meses",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      60,
+      61
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jaú",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "2018",
+    "label": "TEMPO"
+  },
+  {
+    "text": "APTA - IAC",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Instituto Agronômico de Campinas",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Mandaguahy",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Mandaguahy",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "2",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "Mandaguahy",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "2",
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+Perdidas  (FN): [('São Paulo', 'NOME_LOCAL'), ('Branca', 'CLASSIFICACAO_BEBIDA'), ('Premium', 'CLASSIFICACAO_BEBIDA'), ('1 a 3 anos', 'TEMPO_ARMAZENAMENTO'), ('Castanheira', 'TIPO_MADEIRA'), ('24 meses', 'TEMPO_ARMAZENAMENTO')]
+Espúrias  (FP): [('2', 'TEMPO_ARMAZENAMENTO'), ('Mandaguahy', 'NOME_BEBIDA'), ('2', 'TEMPO_ARMAZENAMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Melicana Três Madeiras Pura Arte 700 ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Melicana Três Madeiras Pura Arte",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Melicana",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Melicana Três Madeiras Pura Arte', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Melicana', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Melicana Três Madeiras Pura Arte produzida em alambique da Cachaçaria Melicana de Bom Despacho / MG .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Melicana Três Madeiras Pura Arte",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Cachaçaria Melicana",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Bom Despacho",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      17,
+      18
+    ]
+  },
+  {
+    "text": "MG",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Melicana",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Três Madeiras",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Cachaçaria Melicana",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Bom Despacho",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "MG",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Melicana Três Madeiras Pura Arte', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Melicana', 'NOME_BEBIDA'), ('Três Madeiras', 'CLASSIFICACAO_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+INFORMAÇÕES DO PRODUTO : Produzida em alambique da Cachaçaria Melicana , localizada na cidade de Bom Despacho , Minas Gerais , a cachaça Melicana Três Madeiras Pura Arte é uma bebida alcoólica com teor de graduação alcóolica de 40% , envelhecida em tonéis de madeira castanheira de bálsamo e Amburana pelo período de 2 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cachaçaria Melicana",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Bom Despacho",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      18,
+      19
+    ]
+  },
+  {
+    "text": "Melicana",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "40%",
+    "label": "GRADUACAO_ALCOOLICA",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "tonéis de madeira",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "text": "castanheira",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      45
+    ]
+  },
+  {
+    "text": "bálsamo",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Amburana",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "2 anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      53,
+      54
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Cachaçaria Melicana",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Bom Despacho",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Melicana Três Madeiras Pura Arte",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "40%",
+    "label": "GRADUACAO_ALCOOLICA"
+  },
+  {
+    "text": "tonéis de madeira",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "castanheira",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "bálsamo",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "Amburana",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "18 meses",
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+Perdidas  (FN): [('Melicana', 'NOME_BEBIDA'), ('2 anos', 'TEMPO_ARMAZENAMENTO')]
+Espúrias  (FP): [('Melicana Três Madeiras Pura Arte', 'NOME_BEBIDA'), ('18 meses', 'TEMPO_ARMAZENAMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Possui notas de baunilha e coco , ressaltando o blend perfeito das três madeiras amburana , bálsamo e castanheira .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "notas de baunilha",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "coco",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "amburana",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "bálsamo",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "castanheira",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "baunilha",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "coco",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "amburana",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "bálsamo",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "castanheira",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('notas de baunilha', 'CARACTERISTICA_SENSORIAL_AROMA')]
+Espúrias  (FP): [('baunilha', 'CARACTERISTICA_SENSORIAL_AROMA')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Companheira Seleção de Barris 12 Anos
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Companheira Seleção de Barris",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "12 Anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      9,
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Companheira Seleção",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "12 Anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+Perdidas  (FN): [('Companheira Seleção de Barris', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Companheira Seleção', 'NOME_BEBIDA'), ('Barris', 'RECIPIENTE_ARMAZENAMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Companheira Seleção de Barris 12 Anos 700 ml .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Companheira Seleção de Barris",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "text": "12 Anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      11,
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Companheira",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "12 Anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "700 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Companheira Seleção de Barris', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Companheira', 'NOME_BEBIDA'), ('Barris', 'RECIPIENTE_ARMAZENAMENTO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A partir desta pré - seleção , apenas 6 foram escolhidos para o blend .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      13
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('blend', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Companheira Doze anos , uma obra de arte em estado líquido .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Companheira",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Doze anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      1,
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Doze anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+Perdidas  (FN): [('Companheira', 'NOME_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Primeira edição disponível após 18 de novembro de 2017 - 200 garrafas .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "18 de novembro",
+    "label": "TEMPO",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "2017",
+    "label": "TEMPO",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "18 de novembro de 2017",
+    "label": "TEMPO"
+  },
+  {
+    "text": "200",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('18 de novembro', 'TEMPO'), ('2017', 'TEMPO')]
+Espúrias  (FP): [('18 de novembro de 2017', 'TEMPO'), ('200', 'VOLUME')]
+
+--------------------------------------------------------------------------------
+Texto:
+Garrafa : Francesa serigrafada , gargalo em cobre , tampa de vidro e cortiça , numeração em placas de cobre .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "Francesa",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "cobre",
+    "label": "EQUIPAMENTO_DESTILACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Francesa', 'NOME_LOCAL'), ('cobre', 'EQUIPAMENTO_DESTILACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Blend assinado por : Maurício Maia - Publicitário , chef de cozinha , degustador e especialista de cachaças por mais de 20 anos , criador do site cachacier e atual presidente da cúpula da cachaça e professor de cachaças no CTC em Itaverava - MG .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Maurício Maia",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      4,
+      5
+    ]
+  },
+  {
+    "text": "20 anos",
+    "label": "TEMPO",
+    "token_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "text": "cúpula da cachaça",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "text": "CTC",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      40
+    ]
+  },
+  {
+    "text": "Itaverava",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "MG",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Maurício Maia",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Itaverava",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "CTC",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Itaverava",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "MG",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Blend', 'CLASSIFICACAO_BEBIDA'), ('20 anos', 'TEMPO'), ('cúpula da cachaça', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): [('Itaverava', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+com , proprietário da cachaçaria e Chalé Macauva em Analândia - SP , possui vasta experiência em cachaças .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Chalé Macauva",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Analândia",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      9
+    ]
+  },
+  {
+    "text": "SP",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Macauva",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Analândia",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "SP",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Chalé Macauva', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): [('Macauva', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+com , master blender , sommelier e consultor de cachaças , com curso de análise sensorial pela USC e panel lider pela centro studi assogiatori .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "USC",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "USC",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "centro studi assogiatori",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('centro studi assogiatori', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Autor do livro viagem ao mundo da cachaça , é o atual secretário geral da cúpula da cachaça e presidente do clube carioca da cachaça .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "cúpula da cachaça",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      15,
+      16,
+      17
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('cúpula da cachaça', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O alambique foi construído na cidade de Jandaia do Sul , ao Norte do Estado do Paraná , região do Vale do Rio Ivaí , lugar de boas terras , água proveniente de um poço artesiano e clima favorável para o cultivo da cana - de - açúcar .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Jandaia do Sul",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Paraná",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "região do Vale do Rio Ivaí",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Jandaia do Sul",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Paraná",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Vale do Rio Ivaí",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('região do Vale do Rio Ivaí', 'NOME_LOCAL')]
+Espúrias  (FP): [('Vale do Rio Ivaí', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Prêmios : 2008 – Medalha de Ouro Concurso San Francisco World Spirits Competition ; 2008 - International Review of Spirits Award – Chicago – EUA ; 2009 – Medalha de Prata Concurso San Francisco World Spirits Competition ; 2013 – Medalha de Ouro Com curso Mundial de Bruxelas – Brasil ; 2015 – Medalha de Ouro – Concurso Mundial de Bruxelas Edição Brasil ; 2015 – 6ª Colocação – Ranking Vip da Cachaça – Revista VIP ; História : A Weber Haus , é hoje administrada por Evandro Weber , descendente de alemães , na cidade de Ivoti , encosta da Serra Gaúcha , interior do Rio Grande do Sul .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2008",
+    "label": "TEMPO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "San Francisco",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "2008",
+    "label": "TEMPO",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Chicago",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      22
+    ]
+  },
+  {
+    "text": "EUA",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      24
+    ]
+  },
+  {
+    "text": "2009",
+    "label": "TEMPO",
+    "token_indices": [
+      26
+    ]
+  },
+  {
+    "text": "San Francisco",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      32,
+      33
+    ]
+  },
+  {
+    "text": "2013",
+    "label": "TEMPO",
+    "token_indices": [
+      38
+    ]
+  },
+  {
+    "text": "Bruxelas",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      47
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      49
+    ]
+  },
+  {
+    "text": "2015",
+    "label": "TEMPO",
+    "token_indices": [
+      51
+    ]
+  },
+  {
+    "text": "Bruxelas",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      60
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "2015",
+    "label": "TEMPO",
+    "token_indices": [
+      64
+    ]
+  },
+  {
+    "text": "Revista VIP",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      74,
+      75
+    ]
+  },
+  {
+    "text": "Weber Haus",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      80,
+      81
+    ]
+  },
+  {
+    "text": "Evandro Weber",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      87,
+      88
+    ]
+  },
+  {
+    "text": "Ivoti",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "Serra Gaúcha",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      101,
+      102
+    ]
+  },
+  {
+    "text": "Rio Grande do Sul",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      106,
+      107,
+      108,
+      109
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('2008', 'TEMPO'), ('San Francisco', 'NOME_LOCAL'), ('2008', 'TEMPO'), ('Chicago', 'NOME_LOCAL'), ('EUA', 'NOME_LOCAL'), ('2009', 'TEMPO'), ('San Francisco', 'NOME_LOCAL'), ('2013', 'TEMPO'), ('Bruxelas', 'NOME_LOCAL'), ('Brasil', 'NOME_LOCAL'), ('2015', 'TEMPO'), ('Bruxelas', 'NOME_LOCAL'), ('Brasil', 'NOME_LOCAL'), ('2015', 'TEMPO'), ('Revista VIP', 'NOME_ORGANIZACAO'), ('Weber Haus', 'NOME_ORGANIZACAO'), ('Evandro Weber', 'NOME_PESSOA'), ('Ivoti', 'NOME_LOCAL'), ('Serra Gaúcha', 'NOME_LOCAL'), ('Rio Grande do Sul', 'NOME_LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Premiações : 2011 - Playboy entre as 20 melhores ; 2011 - Primeira na folha de São Paulo ; 2012 - Medalha de Ouro Concurso Mundial de Bruxelas ; 2012 - Medalha de Ouro – Ranking Vip da Cachaça Amarelinha da Revista VIP ; 2012 - Medalha de Prata – Degustação as cegas da 21ª Expo Cachaça Dose Dupla Setembro 2012 ; 2014 - Ranking Cúpula da Cachaça – 29º lugar entre 50 Cachaças ; 2014 - Best Cachaça 2014 - Concurso Mundial Bruxelas , Florianópolis , SC – Brasil ; 2014 - Melhor Cachaça Envelhecida Expointer 2014 , 2015 – Medalha de Ouro – Concurso Mundial de Bruxelas Edição Brasil ; 2016 – Medalha de Ouro – Concurso Mundial de Bruxelas Edição Brasil ;
+
+Entidades verdadeiras:
+[
+  {
+    "text": "2011",
+    "label": "TEMPO",
+    "token_indices": [
+      2
+    ]
+  },
+  {
+    "text": "Playboy",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "2011",
+    "label": "TEMPO",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "folha de São Paulo",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "text": "2012",
+    "label": "TEMPO",
+    "token_indices": [
+      19
+    ]
+  },
+  {
+    "text": "Bruxelas",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      27
+    ]
+  },
+  {
+    "text": "2012",
+    "label": "TEMPO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Revista VIP",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      41,
+      42
+    ]
+  },
+  {
+    "text": "2012",
+    "label": "TEMPO",
+    "token_indices": [
+      44
+    ]
+  },
+  {
+    "text": "Setembro 2012",
+    "label": "TEMPO",
+    "token_indices": [
+      59,
+      60
+    ]
+  },
+  {
+    "text": "2014",
+    "label": "TEMPO",
+    "token_indices": [
+      62
+    ]
+  },
+  {
+    "text": "Cúpula da Cachaça",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "text": "2014",
+    "label": "TEMPO",
+    "token_indices": [
+      75
+    ]
+  },
+  {
+    "text": "2014",
+    "label": "TEMPO",
+    "token_indices": [
+      79
+    ]
+  },
+  {
+    "text": "Bruxelas",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      83
+    ]
+  },
+  {
+    "text": "Florianópolis",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      85
+    ]
+  },
+  {
+    "text": "SC",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      87
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      89
+    ]
+  },
+  {
+    "text": "2014",
+    "label": "TEMPO",
+    "token_indices": [
+      91
+    ]
+  },
+  {
+    "text": "2014",
+    "label": "TEMPO",
+    "token_indices": [
+      97
+    ]
+  },
+  {
+    "text": "2015",
+    "label": "TEMPO",
+    "token_indices": [
+      99
+    ]
+  },
+  {
+    "text": "Bruxelas",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      108
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      110
+    ]
+  },
+  {
+    "text": "2016",
+    "label": "TEMPO",
+    "token_indices": [
+      112
+    ]
+  },
+  {
+    "text": "Bruxelas",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      121
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      123
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('2011', 'TEMPO'), ('Playboy', 'NOME_ORGANIZACAO'), ('2011', 'TEMPO'), ('folha de São Paulo', 'NOME_ORGANIZACAO'), ('2012', 'TEMPO'), ('Bruxelas', 'NOME_LOCAL'), ('2012', 'TEMPO'), ('Revista VIP', 'NOME_ORGANIZACAO'), ('2012', 'TEMPO'), ('Setembro 2012', 'TEMPO'), ('2014', 'TEMPO'), ('Cúpula da Cachaça', 'NOME_ORGANIZACAO'), ('2014', 'TEMPO'), ('2014', 'TEMPO'), ('Bruxelas', 'NOME_LOCAL'), ('Florianópolis', 'NOME_LOCAL'), ('SC', 'NOME_LOCAL'), ('Brasil', 'NOME_LOCAL'), ('2014', 'TEMPO'), ('2014', 'TEMPO'), ('2015', 'TEMPO'), ('Bruxelas', 'NOME_LOCAL'), ('Brasil', 'NOME_LOCAL'), ('2016', 'TEMPO'), ('Bruxelas', 'NOME_LOCAL'), ('Brasil', 'NOME_LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Companheira Single Barrel 17 anos
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Companheira Single Barrel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "17 anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Companheira",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Single Barrel",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "17 anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+Perdidas  (FN): [('Companheira Single Barrel', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Companheira', 'NOME_BEBIDA'), ('Single Barrel', 'CLASSIFICACAO_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Companheira Single Barrel 17 anos 350 ml - Segunda Edição .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Companheira Single Barrel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "17 anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "350 ml",
+    "label": "VOLUME",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Companheira",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Single Barrel",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "17 anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "350 ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Companheira Single Barrel', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Companheira', 'NOME_BEBIDA'), ('Single Barrel', 'CLASSIFICACAO_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Série limitada e numerada com apenas 457 unidades , de cachaça extra premium envelhecida por 17 anos , em um único barril de carvalho com características excepcionais .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "extra premium",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "text": "17 anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      15,
+      16
+    ]
+  },
+  {
+    "text": "barril",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "457 unidades",
+    "label": "VOLUME"
+  },
+  {
+    "text": "extra premium",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "17 anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "barril",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('457 unidades', 'VOLUME')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para comemorar seu Jubileu de Prata a Cachaçaria Companheira , selecionou um barril de carvalho com características excepcionais , onde a cachaça extra premium foi envelhecida por 17 anos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Cachaçaria Companheira",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "barril",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "extra premium",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      22,
+      23
+    ]
+  },
+  {
+    "text": "17 anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      27,
+      28
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Companheira",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "barril",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  },
+  {
+    "text": "extra premium",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "17 anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  }
+]
+
+Perdidas  (FN): [('Cachaçaria Companheira', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): [('Companheira', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Cachaça Companheira Single Barrel é produzida em Jandaia do Sul , norte do estado do Paraná , no Vale do Ivaí , região onde a água e terras boas combinadas com o clima favorável , proporcionam excelência na qualidade .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Companheira Single Barrel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Jandaia do Sul",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "text": "Paraná",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "Vale do Ivaí",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      19,
+      20,
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Companheira",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Single Barrel",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Jandaia do Sul",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "norte do estado do Paraná",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Vale do Ivaí",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Companheira Single Barrel', 'NOME_BEBIDA'), ('Paraná', 'NOME_LOCAL')]
+Espúrias  (FP): [('Companheira', 'NOME_BEBIDA'), ('Single Barrel', 'CLASSIFICACAO_BEBIDA'), ('norte do estado do Paraná', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Fatores que associados a um processo único , totalmente manual , desde o cultivo a colheita da cana - de - açucar , juntamente com uma destilação padronizada , destacou a Companheira como a Melhor Cachaça do Brasil na Categoria Extra Premium considerada a Cachaça do Ano em 2020 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Companheira",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      31
+    ]
+  },
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      37
+    ]
+  },
+  {
+    "text": "Extra Premium",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      40,
+      41
+    ]
+  },
+  {
+    "text": "2020",
+    "label": "TEMPO",
+    "token_indices": [
+      48
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Extra Premium",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "2020",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('Companheira', 'NOME_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Primeira Edição da Cachaça Companheira Single Barrel , Comemorativa do Jubileu de Prata da Cachaça Companheira foi um sucesso , se esgotando rápido , garanta já a sua pois são poucas unidades .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Companheira Single Barrel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Companheira",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      16
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Companheira",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Single Barrel",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "Companheira",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Companheira",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Companheira Single Barrel', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Single Barrel', 'CLASSIFICACAO_BEBIDA'), ('Companheira', 'NOME_BEBIDA'), ('Companheira', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+O seu grande diferencial é o fato dela ser um blend de várias aguardentes levemente envelhecidas , o que lhe proporciona suavidade no paladar , além de um bouquet perfumado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "blend",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "levemente envelhecidas",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "bouquet perfumado",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('levemente envelhecidas', 'TEMPO_ARMAZENAMENTO'), ('bouquet perfumado', 'CARACTERISTICA_SENSORIAL_AROMA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na minha cabeça eu sempre achei que velho barreiro e 51 eram claramente melhores que Pitu , mas devo dizer que , depois do teste , eu discordo .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "velho barreiro",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "51",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      10
+    ]
+  },
+  {
+    "text": "Pitu",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      15
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "barreiro",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "51",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Pitu",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('velho barreiro', 'NOME_BEBIDA')]
+Espúrias  (FP): [('barreiro', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Essa pinga claramente não é uma Brastemp , mas ela tem um aroma meio fraco de anis ( não aquele super enjoativo de absinto barato ) , é bastante doce , e apesar de enjoativa para o meu gosto , me surpreendeu positivamente .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brastemp",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "doce",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      29
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "anis",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "doce",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('Brastemp', 'NOME_ORGANIZACAO')]
+Espúrias  (FP): [('anis', 'CARACTERISTICA_SENSORIAL_AROMA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Palavras comumente usadas : Doce , cheiro de álcool , delicada , anis
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Doce",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "álcool",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "anis",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      12
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Doce",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "cheiro de álcool",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA"
+  },
+  {
+    "text": "delicada",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "anis",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('álcool', 'CARACTERISTICA_SENSORIAL_AROMA'), ('anis', 'CARACTERISTICA_SENSORIAL_AROMA')]
+Espúrias  (FP): [('cheiro de álcool', 'CARACTERISTICA_SENSORIAL_AROMA'), ('delicada', 'CARACTERISTICA_SENSORIAL_SABOR'), ('anis', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Terra Brazilis 51 é uma cachaça envelhecida , produzida com matérias - primas nobres e envelhecida em barris de carvalho com o mesmo padrão de qualidade da Cachaça 51 .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Terra Brazilis 51",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      21
+    ]
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      23
+    ]
+  },
+  {
+    "text": "51",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      32
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Terra Brazilis 51",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('51', 'NOME_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+MARCA : TERRA BRAZILIS
+
+Entidades verdadeiras:
+[
+  {
+    "text": "TERRA BRAZILIS",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      2,
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "TERRA BRAZILIS",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('TERRA BRAZILIS', 'NOME_BEBIDA')]
+Espúrias  (FP): [('TERRA BRAZILIS', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Encantos da Marquesa Prata Safra 2010 tem sabor doce em balanço com o alcoólico e a acidez .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Encantos da Marquesa",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "2010",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "doce",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Encantos da Marquesa",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "2010",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): [('doce', 'CARACTERISTICA_SENSORIAL_SABOR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Cachaça Encantos da Marquesa Prata 2010 , produzida em Indaiabira ( Marquesa é o nome da fazenda ) .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Encantos da Marquesa",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "2010",
+    "label": "TEMPO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "Indaiabira",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Encantos da Marquesa",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Prata",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "2010",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Indaiabira",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Marquesa",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Marquesa', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Na fazenda Marquesa a cana é colhida manualmente e transportada por animais até o alambique , para evitar que ela se contamine com a fumaça dos veículos motorizados .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "fazenda Marquesa",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "text": "alambique",
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "fazenda Marquesa",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('alambique', 'EQUIPAMENTO_DESTILACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+O sabor confirma a intensidade de doçura , em balanço com o alcoólico e a acidez .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "doçura",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      6
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "doçura",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "acidez",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('acidez', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Princesa Isabel Edição Especial 600ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Edição Especial",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "600ml",
+    "label": "VOLUME",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "600ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Edição Especial', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Princesa Isabel Edição Especial 600ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Edição Especial",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "600ml",
+    "label": "VOLUME",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "600ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Edição Especial', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Cachaça Princesa Isabel Edição Especial além do rótulo que encanta , a cachaça que compõe a nova edição também é muito especial e premiada .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Edição Especial",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princesa Isabel Edição Especial",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Princesa Isabel', 'NOME_BEBIDA'), ('Edição Especial', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): [('Princesa Isabel Edição Especial', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além do novo rótulo , a edição Cachaça Princesa Isabel Edição Especial , nasce com um novo propósito : ajudar na conscientização para a preservação das antas
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Edição Especial",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princesa Isabel Edição Especial",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Princesa Isabel', 'NOME_BEBIDA'), ('Edição Especial', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): [('Princesa Isabel Edição Especial', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A história por trás da Cachaça Princesa Isabel Edição Especial
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Edição Especial",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princesa Isabel Edição Especial",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Princesa Isabel', 'NOME_BEBIDA'), ('Edição Especial', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): [('Princesa Isabel Edição Especial', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além do novo rótulo , a edição Cachaça Princesa Isabel Edição Especial , nasce com um novo propósito : ajudar na conscientização para a preservação das antas – no Espírito Santo esses animais só ocorrem , e sobrevivem , na região de Linhares e Sooretama .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      8,
+      9
+    ]
+  },
+  {
+    "text": "Edição Especial",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "Espírito Santo",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      29,
+      30
+    ]
+  },
+  {
+    "text": "Linhares",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      42
+    ]
+  },
+  {
+    "text": "Sooretama",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princesa Isabel Edição Especial",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Espírito Santo",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Linhares",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Sooretama",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Princesa Isabel', 'NOME_BEBIDA'), ('Edição Especial', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): [('Princesa Isabel Edição Especial', 'NOME_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+Para isso , a Princesa Isabel vai doar 15% de toda a renda arrecadada , com a venda da cachaça .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      4,
+      5
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Princesa Isabel', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Princesa Isabel', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Assim , além de valorizar a biodiversidade regional , a Princesa Isabel vai colaborar com a formação de base para a conservação dos animais silvestres .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      10,
+      11
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Princesa Isabel', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Princesa Isabel', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+“Meu pai , na última década , tem se empenhado muito na preservação ambiental e as antas precisam disso , precisam de uma grande área de floresta para sobreviverem” , explica .
+
+Entidades verdadeiras:
+[]
+
+Entidades previstas:
+[
+  {
+    "text": "última década",
+    "label": "TEMPO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('última década', 'TEMPO')]
+
+--------------------------------------------------------------------------------
+Texto:
+“Escolhemos uma cachaça Princesa Isabel Aquarela orgânica armazenada por três anos em dornas de Jequitibá Rosa , a árvore símbolo do Espírito Santo”
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Princesa Isabel Aquarela",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "três anos",
+    "label": "TEMPO_ARMAZENAMENTO",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "dornas",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "Jequitibá Rosa",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      14,
+      15
+    ]
+  },
+  {
+    "text": "Espírito",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      21
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princesa Isabel Aquarela",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "três anos",
+    "label": "TEMPO_ARMAZENAMENTO"
+  },
+  {
+    "text": "dornas",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "Jequitibá Rosa",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('Espírito', 'NOME_LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Andressa acredita que essa união com a cachaça Princesa Isabel também vai gerar bons frutos , disseminando e levando , ainda mais longe , a mensagem de preservação da fauna e flora para novos públicos .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Andressa",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      0
+    ]
+  },
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      8,
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Princesa Isabel",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('Andressa', 'NOME_PESSOA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+PALADAR : adocicado , fino
+
+Entidades verdadeiras:
+[
+  {
+    "text": "adocicado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      2
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "adocicado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "fino",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('fino', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Aguardente Tiê Canelinha tem picância e toques equilibrados de especiarias , feita para aquecer os corações .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tiê Canelinha",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "especiarias",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tiê Canelinha",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "picância",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "especiarias",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('especiarias', 'CARACTERISTICA_SENSORIAL_AROMA')]
+Espúrias  (FP): [('picância', 'CARACTERISTICA_SENSORIAL_SABOR'), ('especiarias', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+A Aguardente Tiê Canelinha tem picância e toques equilibrados de especiarias .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tiê Canelinha",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "picância",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "especiarias",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      10
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tiê Canelinha",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "picância",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "especiarias",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  }
+]
+
+Perdidas  (FN): [('especiarias', 'CARACTERISTICA_SENSORIAL_AROMA')]
+Espúrias  (FP): [('especiarias', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Além de prêmios conquistados no Brasil e exterior , como a 3 melhor cachaça branca do país pela Cúpula da Cachaça , o casal conquistou também a certificação do IMA / Inmetro , um selo de qualidade que poucas cachaças possuem .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "branca",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      14
+    ]
+  },
+  {
+    "text": "Cúpula da Cachaça",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "text": "IMA",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      29
+    ]
+  },
+  {
+    "text": "Inmetro",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      31
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Brasil",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Cúpula da Cachaça",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "IMA",
+    "label": "NOME_ORGANIZACAO"
+  },
+  {
+    "text": "Inmetro",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('branca', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Origem do nome Tiê
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Tiê",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      3
+    ]
+  }
+]
+
+Entidades previstas:
+[]
+
+Perdidas  (FN): [('Tiê', 'NOME_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Tiê é o nome de um pássaro que habita áreas da Mata Atlântica e aparece algumas vezes por ano na região da Fazenda Guapiara .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Fazenda Guapiara",
+    "label": "NOME_ORGANIZACAO",
+    "token_indices": [
+      22,
+      23
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tiê",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Mata Atlântica",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Fazenda Guapiara",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): []
+Espúrias  (FP): [('Tiê', 'NOME_PESSOA'), ('Mata Atlântica', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+Sinta o sabor e aroma levemente perfumado da Cachaça Tiê .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "levemente perfumado",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "text": "Tiê",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Tiê",
+    "label": "NOME_BEBIDA"
+  }
+]
+
+Perdidas  (FN): [('levemente perfumado', 'CARACTERISTICA_SENSORIAL_AROMA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Faz parte do Circuito Terras Altas da Mantiqueira do Parque Estadual da Serra do Papagaio e Serra da Mantiqueira sendo considerada uma das melhores cidades para o Ecoturismo e com grande tradição na produção da artesanal de cachaça .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Circuito Terras Altas",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "text": "Mantiqueira",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "Parque Estadual da Serra do Papagaio",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "text": "Serra da Mantiqueira",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      16,
+      17,
+      18
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Parque Estadual da Serra do Papagaio",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Serra da Mantiqueira",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Circuito Terras Altas', 'NOME_LOCAL'), ('Mantiqueira', 'NOME_LOCAL')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+A Cachaça Dom Bré Clássica traz o aveludado amendoado da superior cachaça de qualidade descansada em tonéis de jequitiba - rosa , que empresta ao produto uma delicadeza que a deixa ótima para ser degustada pura acompanhando todos os pratos da cozinha nacional e insuperável no preparo dos melhores drinks do mundo , em especial a nossa caipirinha .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Dom Bré",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Clássica",
+    "label": "CLASSIFICACAO_BEBIDA",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "aveludado",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      7
+    ]
+  },
+  {
+    "text": "amendoado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      16
+    ]
+  },
+  {
+    "text": "jequitiba - rosa",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      18,
+      19,
+      20
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Dom Bré",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "aveludado",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  },
+  {
+    "text": "amendoado",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "jequitiba - rosa",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('Clássica', 'CLASSIFICACAO_BEBIDA')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+É dourada , adocicada , frutada , com paladar aveludado .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "dourada",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      1
+    ]
+  },
+  {
+    "text": "adocicada",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      3
+    ]
+  },
+  {
+    "text": "frutada",
+    "label": "CARACTERISTICA_SENSORIAL_AROMA",
+    "token_indices": [
+      5
+    ]
+  },
+  {
+    "text": "aveludado",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      9
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "dourada",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "adocicada",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "frutada",
+    "label": "CARACTERISTICA_SENSORIAL_SABOR"
+  },
+  {
+    "text": "aveludado",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA"
+  }
+]
+
+Perdidas  (FN): [('adocicada', 'CARACTERISTICA_SENSORIAL_AROMA'), ('frutada', 'CARACTERISTICA_SENSORIAL_AROMA')]
+Espúrias  (FP): [('adocicada', 'CARACTERISTICA_SENSORIAL_SABOR'), ('frutada', 'CARACTERISTICA_SENSORIAL_SABOR')]
+
+--------------------------------------------------------------------------------
+Texto:
+Há mais de 100 anos , na pequena Turvolândia , no Sul de Minas Gerais , os Gouveia Vieira se reuniam para prosear sobre as coisas da vida e celebrá - la .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "100 anos",
+    "label": "TEMPO",
+    "token_indices": [
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Turvolândia",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Minas Gerais",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      13,
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "100 anos",
+    "label": "TEMPO"
+  },
+  {
+    "text": "Turvolândia",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "Sul de Minas Gerais",
+    "label": "NOME_LOCAL"
+  }
+]
+
+Perdidas  (FN): [('Minas Gerais', 'NOME_LOCAL')]
+Espúrias  (FP): [('Sul de Minas Gerais', 'NOME_LOCAL')]
+
+--------------------------------------------------------------------------------
+Texto:
+A partir de então , os tonéis e barris cuidadosamente instalados na antiga propriedade deram origem a um centro artesanal extremamente moderno , com produção controlada e limitada , que garante toda a perfeição , cuidado e equilíbrio dos produtos com a marca Gouveia Brasil .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "Gouveia Brasil",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      43,
+      44
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "tonéis",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "Gouveia Brasil",
+    "label": "NOME_ORGANIZACAO"
+  }
+]
+
+Perdidas  (FN): [('Gouveia Brasil', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Gouveia Brasil', 'NOME_ORGANIZACAO')]
+
+--------------------------------------------------------------------------------
+Texto:
+Coloração : Amarelo Dourado ( para caramelo ) – ótimo corpo – límpida e brilhante
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Amarelo Dourado",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "text": "caramelo",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      6
+    ]
+  },
+  {
+    "text": "ótimo corpo",
+    "label": "CARACTERISTICA_SENSORIAL_CONSISTÊNCIA",
+    "token_indices": [
+      9,
+      10
+    ]
+  },
+  {
+    "text": "límpida",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      12
+    ]
+  },
+  {
+    "text": "brilhante",
+    "label": "CARACTERISTICA_SENSORIAL_COR",
+    "token_indices": [
+      14
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Amarelo Dourado",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  },
+  {
+    "text": "caramelo",
+    "label": "CARACTERISTICA_SENSORIAL_COR"
+  }
+]
+
+Perdidas  (FN): [('ótimo corpo', 'CARACTERISTICA_SENSORIAL_CONSISTÊNCIA'), ('límpida', 'CARACTERISTICA_SENSORIAL_COR'), ('brilhante', 'CARACTERISTICA_SENSORIAL_COR')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+Del Bianco montou em Turvolândia uma adega de barris de carvalho americano e tratou de extrair o melhor da cana , do alambique e da madeira .
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Del Bianco",
+    "label": "NOME_PESSOA",
+    "token_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Turvolândia",
+    "label": "NOME_LOCAL",
+    "token_indices": [
+      4
+    ]
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO",
+    "token_indices": [
+      8
+    ]
+  },
+  {
+    "text": "carvalho americano",
+    "label": "TIPO_MADEIRA",
+    "token_indices": [
+      10,
+      11
+    ]
+  },
+  {
+    "text": "alambique",
+    "label": "EQUIPAMENTO_DESTILACAO",
+    "token_indices": [
+      22
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Del Bianco",
+    "label": "NOME_PESSOA"
+  },
+  {
+    "text": "Turvolândia",
+    "label": "NOME_LOCAL"
+  },
+  {
+    "text": "barris",
+    "label": "RECIPIENTE_ARMAZENAMENTO"
+  },
+  {
+    "text": "carvalho americano",
+    "label": "TIPO_MADEIRA"
+  }
+]
+
+Perdidas  (FN): [('alambique', 'EQUIPAMENTO_DESTILACAO')]
+Espúrias  (FP): []
+
+--------------------------------------------------------------------------------
+Texto:
+NOME DA CACHAÇA : Cachaça Magnífica Reserva Soleira 700ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Magnífica Reserva Soleira",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "700ml",
+    "label": "VOLUME",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Magnífica",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Reserva Soleira",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "700ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Magnífica Reserva Soleira', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Magnífica', 'NOME_BEBIDA'), ('Reserva Soleira', 'CLASSIFICACAO_BEBIDA')]
+
+--------------------------------------------------------------------------------
+Texto:
+DESCRIÇÃO DA CACHAÇA : Cachaça Magnífica Reserva Soleira 700ml
+
+Entidades verdadeiras:
+[
+  {
+    "text": "Magnífica Reserva Soleira",
+    "label": "NOME_BEBIDA",
+    "token_indices": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "700ml",
+    "label": "VOLUME",
+    "token_indices": [
+      8
+    ]
+  }
+]
+
+Entidades previstas:
+[
+  {
+    "text": "Magnífica",
+    "label": "NOME_BEBIDA"
+  },
+  {
+    "text": "Reserva",
+    "label": "CLASSIFICACAO_BEBIDA"
+  },
+  {
+    "text": "700ml",
+    "label": "VOLUME"
+  }
+]
+
+Perdidas  (FN): [('Magnífica Reserva Soleira', 'NOME_BEBIDA')]
+Espúrias  (FP): [('Magnífica', 'NOME_BEBIDA'), ('Reserva', 'CLASSIFICACAO_BEBIDA')]
+
+
+
